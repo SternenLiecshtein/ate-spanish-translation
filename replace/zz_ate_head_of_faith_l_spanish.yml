@@ -1,0 +1,8 @@
+﻿l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ game_concept_head_of_faith_desc:0 "Un $game_concept_head_of_faith$ es el líder formal de una [faith|E]. Los poderes y la naturaleza del $game_concept_head_of_faith$ dependen de las [doctrines|E] de la Fe.\n\nAlgunas confeciones tienen un [holy_order_head_of_faith|E] #weak (por ejemplo, los Caballeros de Santa Ursula)#!, otras un [spiritual_head_of_faith|E] #weak (por ejemplo, el Papa)#!, otras un [temporal_head_of_faith|E] #weak (por ejemplo, el Presidente)#!, y algunas no tienen un $game_concept_head_of_faith$ en absoluto."

@@ -1,0 +1,43 @@
+﻿# l_spanish:
+# # l_spanish:
+# # l_german:
+# # l_french:
+# # l_russian:
+# # l_simp_chinese:
+# # l_korean:
+#  bm_ghost_of_the_north:0 "Ghosts of the North"
+#  bm_ghost_of_the_north_desc:0 "The North is an old land, full of memories and ghosts. The once-proud kingdoms of Quebec and Ontario have fallen, laid low not by outsiders, but by threats and betrayal from within. The Lords of Hudsonia witnessed the fall, and fear a similar doom. Their King is a pale reflection of the dead Clintons, and each suspects the other of working to take the throne. Likewise, the Queen of the Maritimes rules her lands with an iron fist, brooking no internal discord - and yet, she sees her people diminish year by year, beset by raiders and worse. \n\nIn keeps and courts along the Saint Laurent, ambitious dukes and counts scheme and plot to reclaim their fallen kingdoms, a breakout sect of tolerant pacifists has brought a moment of calm to troubled lands in Ontario, and in New York, powerful monied interests aim to build their fortunes, capitalizing upon the coming wars. But, unknown to them all, in Boston, a dreamer has visions of a once and future kingdom, and on the shores of Lake Huron a young man has sworn oaths of blood and revenge, threatening to upend the entire affair."
+#  ### CHARACTERS
+
+#  bookmark_gn_hudsonia:0 "King Baltus"
+#  bookmark_gn_hudsonia_desc:0 "Hudsonia's fortunes have declined somewhat of late, It’s glory days under the Clinton kings long in the past. Although the realm appears united, the authority of the crown is weak, and Baltus III Vanderbronx's reign is plagued by religious strife and disloyal vassals. Many claim descent from the line of the Clintons, and each believe themselves the rightful ruler to the throne. Beyond the borders of Hudsonia, Diabolists and Viking raiders stir. If Baltus can ride the storm and restore Hudsonia to it’s old strength, he will be remembered as the equal of those that came before, but if he should fail, he, and Hudsonia, will be doomed to obscurity."
+
+#  bookmark_gn_deitsch:0 "King Abram VII"
+#  bookmark_gn_deitsch_desc:0 "King Abram VII rules the Kingdom of Dutchland, one of the oldest and most stable realms in all of Old America. Dutchland has not seen war in over two hundred years, and it currently enjoys good relations with its fellow Anabaptists in the Kingdom of Hudsonia. However, Abram himself faces a rather serious problem. His wife, Isidora, has not yet given him a child, and, at age 49, it seems certain that she never will. Will the Lengacher dynasty die with him, or will he find a way to keep his line alive, no matter the cost?"
+
+#  bookmark_gn_nyc:0 "Thaddeus Theovelt"
+#  bookmark_gn_nyc_desc:0 "The Big Apple was once the greatest city in the world. Though it is nowhere near the grandeur of its pre-cataclysmic days, it has survived and rebuilt, reclaiming its place as one of the economic and cultural capitals of the eastern seaboard. Over the centuries, the Republic has weathered war and calamity, surrounded by the many factions of the tumultuous Northeast. Thaddeus Theovelt is the newest patriarch of a long line to govern New York City. His rule has been wise and just, bringing both enemies and allies into the fold. But for all the glory that he has brought to the city that never sleeps, he must still beware, for his fellow patricians are ambitious. Americanists have few friends among their neighbors, and war is almost more common in the region than trade. Will New York prosper under his patronage, or will it fall to its enemies?"
+
+#  bookmark_gn_boston:0 "Paul Mahonic"
+#  bookmark_gn_boston_desc:0 "Centuries ago, the House of Mahonic ruled a mighty, prosperous kingdom that bound together the people of the Northeast, becoming a name known - and feared - by every living thing east of the Mississippi. Now, though, those days are distant memories, living only in tomes in the great Crimson Library or in tales told to scare young children into behaving. But the Mahonics are not entirely gone. The road ahead is treacherous, but not hopeless - if young Paul plays his cards right, perhaps he can reclaim the dream of a united New England, or even surpass his ancestors."
+
+#  bookmark_gn_maritimes:0 "Queen Caitlin"
+#  bookmark_gn_maritimes_desc:0 "The Maritimes stand where many other have failed. The sole old Canadian kingdom that remains, Queen Caitlin Beaton's realm is as a beacon of stability in a region marked by turmoil. Yet many seek to disturb the Queen’s peace. The devil worshiping tribes of New England threaten to raid and pillage, and sea pirates are at the shores. Internally, a delicate balance of power exists between Acadien, Maritimer, Gàidheal and Mikmaq lords. Will the Beatons able to keep their throne, or will this house of cards come crashing down?"
+
+#  bookmark_gn_montreal:0 "Roland Turcot"
+#  bookmark_gn_montreal_desc:0 "Roland Turcot is the patriarch of an old noble family in Montréal, the esteemed House of Turcot. In 2629 the death of Véronique Castel, Queen of Québec, sealed the fate of the Kingdom. The dissolution of Québec's monarchy created a power vacuum in the region that enabled the rise of many local lords, and precipitated the ever-expending influence of the Abbess-Générale. As the ruler of a powerful metropolis with royal ties - and ambitions -  of his own, only history will tell if Roland, or his descendants, can foil the schemers and claim the throne."
+
+#  bookmark_gn_bruce_soady:0 "Constantine Soady"
+#  bookmark_gn_bruce_soady_desc:0 "Following the death of much of his family at the hands of the foolish Bruce of Bruce, Constantine Soady swore oaths of revenge.\nGathering many of his half-siblings under his banner, and mustering a grand army of ambitious Yoopers and Northlanders, Constantine brought war to northern Ontario, claiming Bruce for his own.\nThough the erstwhile lord escaped, the ambitious Constantine now stands with a blooded and vicious army at his disposal, ready to carve out his own domain, and rival the fame of his great father, the legendary viking Albert Soady.  But it won't be too easy - though his siblings stand at his side for now. They, too, have ambitions."
+
+#  bookmark_gn_toronto:0 "Morley Yonge"
+#  bookmark_gn_toronto_desc:0 "50 years has passed since the Duke of Greater Toronto converted to the radically tolerant United Church sect, and the faith has since spread like wildfire to the south, reaching as far as Windsor and seeing the conversion of the Duke of Thames. Now, his young son Morely holds the throne, and presides over a region breathing a collective sigh of relief after decades of religious and cultural strife. A firm believer in his father’s adopted religion and a steward by nature,  Morely has focused his reign on forging a coherent and prosperous realm, and securing it against foreign incursions. Rumours of a viking invasion, however, may test his commitment to his ideals."
+
+#  bookmark_gn_allegheny:0 "Allegheny"
+#  bookmark_gn_allegheny_desc:0 "ditto"
+
+#  bookmark_gn_detroit:0 "Detroit"
+#  bookmark_gn_detroit_desc:0 "ditto"
+
+#  bookmark_gn_chicago:0 "Chicago"
+#  bookmark_gn_chicago_desc:0 "ditto"

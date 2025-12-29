@@ -1,0 +1,93 @@
+﻿l_spanish: 
+ #has_unlocked_estate_silk:0 "Unlocked [GetModifier('ep3_unlocked_silk').GetNameWithTooltip] through [GetDecisionWithKey('establish_silk_production_decision').GetName] [decision|E]"
+
+ private_plantation_01_domicile_building:0 "Private Plantation"
+ plantation_commodity_terrain:0 "Your [estate|E] must be located within one of the [Concept('commodities', 'commodity')|E] regions of the world"
+ plantation_commodity_innovation:0 "Your [culture|E] must have developed either the $innovation_fazenda$, $innovation_hacienda$ or $innovation_tenant_plantations$ [innovation|E]"
+
+ private_plantation_02_cocoa_domicile_building:0 "Small Cacao Plantation"
+ private_plantation_03_cocoa_domicile_building:0 "Cacao Dryers"
+ private_plantation_04_cocoa_domicile_building:0 "Cacao Mill"
+ private_plantation_05_cocoa_domicile_building:0 "Large Cacao Plantation"
+ private_plantation_06_cocoa_domicile_building:0 "Artisanal Chocolatier"
+
+ private_plantation_02_coffee_domicile_building:0 "Coffee Seedling Nurseries"
+ private_plantation_03_coffee_domicile_building:0 "Ornamental Shade Trees"
+ private_plantation_04_coffee_domicile_building:0 "Warbler Nesting Boxes"
+ private_plantation_05_coffee_domicile_building:0 "Artisanal Coffee Mill"
+ private_plantation_06_coffee_domicile_building:0 "Private Coffee House"
+
+ private_plantation_02_mate_domicile_building:0 "Yerba Nurseries"
+ private_plantation_03_mate_domicile_building:0 "Sapecado Wood-Firing"
+ private_plantation_04_mate_domicile_building:0 "Canchado Processing"
+ private_plantation_05_mate_domicile_building:0 "Yerba Blending Warehouse"
+ private_plantation_06_mate_domicile_building:0 "Maté Drinking House"
+
+ private_plantation_02_sugar_cane_domicile_building:0 "Cane Fields"
+ private_plantation_03_sugar_cane_domicile_building:0 "Sugar Mill"
+ private_plantation_04_sugar_cane_domicile_building:0 "Boiling Vats"
+ private_plantation_05_sugar_cane_domicile_building:0 "Sugar Refinery"
+ private_plantation_06_sugar_cane_domicile_building:0 "Artisan Confectioners"
+
+ private_plantation_02_tobacco_domicile_building:0 "Tobacco Seedling Nurseries"
+ private_plantation_03_tobacco_domicile_building:0 "Curing Barns"
+ private_plantation_04_tobacco_domicile_building:0 "Processing Mill"
+ private_plantation_05_tobacco_domicile_building:0 "Cigar Workshop"
+ private_plantation_06_tobacco_domicile_building:0 "Private Smoking Lodge"
+
+ correct_commodity_terrain_wine:0 "Your [estate|E] must be located in the correct terrain and region to cultivate [wine|E]"
+ correct_commodity_terrain_olive:0 "Your [estate|E] must be located in the correct terrain and region to cultivate [olives|E]"
+ correct_commodity_terrain_citrus:0 "Your [estate|E] must be located in the correct terrain and region to cultivate [citrus|E]"
+
+ correct_commodity_terrain_cocoa:0 "Your [estate|E] must be located in the correct terrain and region to cultivate [cocoa|E]"
+ correct_commodity_terrain_coffee:0 "Your [estate|E] must be located in the correct terrain and region to cultivate [coffee|E]"
+ correct_commodity_terrain_sugar_cane:0 "Your [estate|E] must be located in the correct terrain and region to cultivate [sugar_cane|E]"
+ correct_commodity_terrain_tobacco:0 "Your [estate|E] must be located in the correct terrain and region to cultivate [tobacco|E]"
+ correct_commodity_terrain_mate:0 "Your [estate|E] must be located in the correct terrain and region to cultivate [mate|E]"
+
+ private_grove_01_domicile_building:0 "Private Grove"
+ private_grove_commodity_innovation:0 "Your culture must developed the $innovation_med_triad$ [innovation|E]"
+
+ vineyard_02_domicile_building:0 "Small Vineyard"
+ vineyard_03_domicile_building:0 "Fermenting Vats"
+ vineyard_04_domicile_building:0 "Specialized Coopers"
+ vineyard_05_domicile_building:0 "Broad Winepresses"
+ vineyard_06_domicile_building:0 "Massive Vineyard"
+ 
+ olive_02_domicile_building:0 "Olive Grove"
+ olive_03_domicile_building:0 "Small Oil Mill"
+ olive_04_domicile_building:0 "Ointment Production"
+ olive_05_domicile_building:0 "Olive Plantation"
+ olive_06_domicile_building:0 "Perfume Maker"
+
+ private_insectarium_01_domicile_building:0 "Private Insectarium"
+ culture_house_has_insect_traditions:0 "Your [culture|E] or [house|E] must have traditions related to insect cultivation, such as [silk|E], [cochineal|E] or [honey|E]."
+ insectarium_too_cold:0 "The [terrain|E] or [region|E] your [estate|E] is located in is too cold to support insect hives."
+
+ has_unlocked_estate_silk:0 "Either your [culture|E] must have the $tradition_sericulture_name$ [tradition|E] or your [house|E] must have [GetModifier('sericulture_domicile_house_modifier').GetNameWithTooltip] to construct this."
+ silk_02_domicile_building:0 "Mulberry Copse"
+ silk_03_domicile_building:0 "Mulberry Grove"
+ silk_04_domicile_building:0 "Modest Magnanery"
+ silk_05_domicile_building:0 "Large Magnanery"
+ silk_06_domicile_building:0 "Mulberry Plantation"
+
+ has_unlocked_estate_carmine:0 "Either your [culture|E] must have the $tradition_carmine_name$ or $tradition_oaxaca_dyeworks_name$ [tradition|E] or your [house|E] must have [GetModifier('carmine_domicile_house_modifier').GetNameWithTooltip] to construct this."
+ carmine_02_domicile_building:0 "Cacti Patch"
+ carmine_03_domicile_building:0 "Dye Vats"
+ carmine_04_domicile_building:0 "Dying Warehouse"
+ carmine_05_domicile_building:0 "Textile Workshop"
+ carmine_06_domicile_building:0 "Carmine Villa"
+
+ has_unlocked_estate_apiary:0 "Your [culture|E] must have the $tradition_RICE_expert_apiculture_name$ [tradition|E] to construct this."
+ beehive_02_domicile_building:0 "Small Hives"
+ beehive_03_domicile_building:0 "Honey Filters"
+ beehive_04_domicile_building:0 "Mead Distillery"
+ beehive_05_domicile_building:0 "Extensive Apiary"
+ beehive_06_domicile_building:0 "Candle Makers"
+
+ has_unlocked_estate_venom:0 "Your [house|E] must have [GetModifier('carmine_domicile_house_modifier').GetNameWithTooltip] to construct this."
+ venom_02_domicile_building:0 "Small Enclosures"
+ venom_03_domicile_building:0 "Arachnid House"
+ venom_04_domicile_building:0 "Viper's Pit"
+ venom_05_domicile_building:0 "Venom Milkers"
+ venom_06_domicile_building:0 "House of Horrors"

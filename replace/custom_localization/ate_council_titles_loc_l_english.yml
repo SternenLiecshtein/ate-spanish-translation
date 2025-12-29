@@ -1,0 +1,94 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ actual_chancellor_title:0 "[ROOT.Char.Custom('GetActualChancellorTitle')]"
+ actual_steward_title:0 "[ROOT.Char.Custom('GetActualStewardTitle')]"
+ actual_marshal_title:0 "[ROOT.Char.Custom('GetActualMarshalTitle')]"
+ actual_spymaster_title:0 "[ROOT.Char.Custom('GetActualSpymasterTitle')]"
+ actual_chancellor_title_possessive:0 "[ROOT.Char.Custom('GetActualChancellorPossessiveTitle')]"
+ actual_steward_title_possessive:0 "[ROOT.Char.Custom('GetActualStewardPossessiveTitle')]"
+ actual_marshal_title_possessive:0 "[ROOT.Char.Custom('GetActualMarshalPossessiveTitle')]"
+ actual_spymaster_title_possessive:0 "[ROOT.Char.Custom('GetActualSpymasterPossessiveTitle')]"
+
+ court_chaplain_remembrant_other:0 "Legion Archchaplain"
+ court_chaplain_remembrant_female_other:0 "Legion Archchaplain"
+ court_chaplain_remembrant_irving:0 "Chief Spiritual Officer"
+ court_chaplain_remembrant_female_irving:0 "Chief Spiritual Officer"
+ court_chaplain_remembrant_gaelic:0 "Legion Àrd-Sheaplain"
+ court_chaplain_remembrant_gaelic_female:0 "Legion Àrd-Sheaplain"
+ court_chaplain_remembrant_other_possessive:0 "Legion Archchaplain's"
+ court_chaplain_remembrant_female_other_possessive:0 "Legion Archchaplain's"
+ court_chaplain_remembrant_irving_possessive:0 "Chief Spiritual Officer's"
+ court_chaplain_remembrant_female_irving_possessive:0 "Chief Spiritual Officer's"
+ court_chaplain_remembrant_gaelic_possessive:0 "Legion Àrd-Sheaplain's"
+ court_chaplain_remembrant_gaelic_female_possessive:0 "Legion Àrd-Sheaplain's"
+
+ councillor_chancellor_irving:0 "Chief Human Resources Officer"
+ councillor_steward_irving:0 "Chief Financial Officer"
+ councillor_marshal_irving:0 "Chief Defense Officer"
+ councillor_spymaster_irving:0 "Chief Information Officer"
+ councillor_spouse_irving:0 "Executive Vice-Monarch"
+ councillor_chancellor_irving_possessive:0 "Chief Human Resources Officer's"
+ councillor_steward_irving_possessive:0 "Chief Financial Officer's"
+ councillor_marshal_irving_possessive:0 "Chief Defense Officer's"
+ councillor_spymaster_irving_possessive:0 "Chief Information Officer's"
+ councillor_spouse_irving_possessive:0 "Executive Vice-Monarch's"
+
+ court_chaplain_americanist:0 "Attorney-General"
+ court_chaplain_americanist_female:0 "Attorney-General"
+ court_chaplain_americanist_possessive:0 "Attorney-General's"
+ court_chaplain_americanist_female_possessive:0 "Attorney-General's"
+
+ court_chaplain_rastafari:0 "Elder"
+ court_chaplain_rastafari_female:0 "Elder"
+ court_chaplain_rastafari_possessive:0 "Elder's"
+ court_chaplain_rastafari_female_possessive:0 "Elder's"
+
+ court_chaplain_consumerist:0 "Auditor"
+ court_chaplain_consumerist_female:0 "Auditor"
+ court_chaplain_consumerist_possessive:0 "Auditor's"
+ court_chaplain_consumerist_female_possessive:0 "Auditor's"
+ 
+ court_chaplain_norse:0 "Refri"
+ court_chaplain_norse_female:0 "Refri"
+ court_chaplain_norse_possessive:0 "Refri's"
+ court_chaplain_norse_female_possessive:0 "Refri's"
+ court_chaplain_lakeshore:0 "Keeper"
+ court_chaplain_lakeshore_female:0 "Keeper"
+ court_chaplain_lakeshore_possessive:0 "Keeper's"
+ court_chaplain_lakeshore_female_possessive:0 "Keeper's"
+
+ marshal_cajun:0 "Capitaine Shérif"
+ marshal_cajun_possessive:0 "Capitaine Shérif's"
+ 
+ court_chaplain_catholic_brazil:0 "Protonotary Apostolic"
+ court_chaplain_catholic_brazil_female:0 "Protonotary Apostolic"
+ court_chaplain_catholic_brazil_possessive:0 "Protonotary Apostolic's"
+ court_chaplain_catholic_brazil_female_possessive:0 "Protonotary Apostolic's"
+ 
+ court_chaplain_rezadeiro:0 "Court Benzedor"
+ court_chaplain_rezadeiro_female:0 "Court Benzedeira"
+ court_chaplain_rezadeiro_possessive:0 "Court Benzedor's"
+ court_chaplain_rezadeiro_female_possessive:0 "Court Benzedeira's"
+ 
+ court_chaplain_espiritist:0 "Court Medium"
+ court_chaplain_espiritist_female:0 "Court Medium"
+ court_chaplain_espiritist_possessive:0 "Court Medium's"
+ court_chaplain_espiritist_female_possessive:0 "Court Medium's"
+ 
+ court_chaplain_modernist_author:0 "Court Author"
+ court_chaplain_modernist_author_female:0 "Court Author"
+ court_chaplain_modernist_author_possessive:0 "Court Author's"
+ court_chaplain_modernist_author_female_possessive:0 "Court Author's"
+ 
+ court_chaplain_modernist_historian:0 "Court Historian"
+ court_chaplain_modernist_historian_female:0 "Court Historian"
+ court_chaplain_modernist_historian_possessive:0 "Court Historian's"
+ court_chaplain_modernist_historian_female_possessive:0 "Court Historian's"
+ 
+ court_chaplain_transcendentalist:0 "Lyceum Keeper"
+ court_chaplain_transcendentalist_possessive:0 "Lyceum Keeper's"

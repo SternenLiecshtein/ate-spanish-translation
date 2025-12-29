@@ -1,0 +1,67 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ 
+ activity_generic_animal_sacrifice:0 "Animal Sacrifice"
+ activity_generic_animal_sacrifice_desc:0 "We seek the blessings of [GetPlayer.GetFaith.PantheonTerm], and the most proper and traditional way to do so is through offering up our beasts and animals to them."
+ activity_generic_animal_sacrifice_selection_tooltip: "Sacrifice beasts to [GetPlayer.GetFaith.PantheonTerm]."
+ activity_generic_animal_sacrifice_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+ activity_generic_animal_sacrifice_guest_desc: "Gain [piety_i] [piety|E]"
+ activity_generic_animal_sacrifice_guest_help_text: "$activity_generic_animal_sacrifice$"
+ activity_generic_animal_sacrifice_province_desc: "The beasts will be offered at an altar here."
+ activity_generic_animal_sacrifice_destination_selection: "$activity_generic_animal_sacrifice_desc$"
+ activity_generic_animal_sacrifice_predicted_cost: "The cost of an Animal Sacrifice depends on the [activity_options|E] you select."
+ activity_generic_animal_sacrifice_conclusion_desc: "The [GetActivityType( 'activity_generic_animal_sacrifice' ).GetName] is over. May [GetPlayer.GetFaith.PantheonTerm] be pleased with the purity of these beasts!"
+ ATE_animal_sacrifice_animal_type:0 "Type of Offering"
+ animal_sacrifice_animal_type_small:0 "Stray Animals"
+ animal_sacrifice_animal_type_small_desc:0 "Surely some small wild specimens we find will do just fine...?"
+ animal_sacrifice_animal_type_medium:0 "Average Livestock"
+ animal_sacrifice_animal_type_medium_desc:0 "Ordinary farm animals or beasts of burden will serve our purposes here."
+ animal_sacrifice_animal_type_large:0 "Prize Specimens"
+ animal_sacrifice_animal_type_large_desc:0 "No less than the largest, proudest beasts from local herds will march to the altar."
+ 
+ ATE_animal_sacrifice_animal_number:0 "Amount of Offerings"
+ animal_sacrifice_animal_number_one:0 "Solitary Sacrifice"
+ animal_sacrifice_animal_number_one_desc:0 "A single offered animal will do for this ritual."
+ animal_sacrifice_animal_number_some:0 "A Few Choice Beasts"
+ animal_sacrifice_animal_number_some_desc:0 "We'll offer up a decent amount to [GetPlayer.GetFaith.PantheonTerm]."
+ animal_sacrifice_animal_number_many:0 "Scores to the Altar"
+ animal_sacrifice_animal_number_many_desc:0 "This ritual is a grand affair, and dozens of beasts shall be offered to [GetPlayer.GetFaith.PantheonTerm] today."
+
+ 
+ ATE_animal_sacrifice_phase:0 "Ritual"
+ ATE_animal_sacrifice_phase_desc:0 "Our animals will be offered to [GetPlayer.GetFaith.PantheonTerm] in the traditional manner befitting our religious rites."
+ ATE_animal_sacrifice_piety_intent_header:0 "Worship:"
+ ATE_animal_sacrifice_piety_intent:0 "Worship"
+ ATE_animal_sacrifice_piety_intent_desc:0 "You will focus on the religious dimensions of the ritual. Gain an extra [piety_i|E] #V 100#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('zealous').GetName( GetNullCharacter )] or [GetTrait('humble').GetName( GetNullCharacter )]."
+ ATE_animal_sacrifice_glory_intent_header:0 "Reputation:"
+ ATE_animal_sacrifice_glory_intent:0 "Reputation"
+ ATE_animal_sacrifice_glory_intent_desc:0 "You want all to know of your devotion through this ritual. Gain an extra [prestige_i|E] #V 100#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('ambitious').GetName( GetNullCharacter )] or [GetTrait('arrogant').GetName( GetNullCharacter )]."
+ ATE_animal_sacrifice_number_of_goats_amount:0 "Number of goats to be Sacrificed"
+ TRAVEL_NAME_FOR_activity_RICE_pamir_goat_sacrifice:0 "[Character.GetFirstNamePossessiveNoTooltip] $activity_generic_animal_sacrifice$"
+ 
+ ATE_animal_sacrifice_activity.0001.t:0 "Preparing the Offering"
+ ATE_animal_sacrifice_activity.0001.generic.desc:0 "According to our traditional [ROOT.Char.GetFaith.GetAdjective] beliefs, sacrifices must be conducted to [ROOT.Char.GetFaith.HighGodName] and [ROOT.Char.GetFaith.PantheonTerm] periodically, in order to maintain harmony and balance between our world and the world of the divine. \n\nIt has come time once again for a sacrificial ritual to honor our traditions and offer worship."
+ ATE_animal_sacrifice_activity.0001.mormon.desc:0 "According to our traditional [ROOT.Char.GetFaith.GetAdjective] beliefs, our firstfruit beasts should be offered to prove our love for [ROOT.Char.GetFaith.HighGodName]. \n\nIt has come time once again for a ritual to honor our traditions and prove our devotiuon."
+ ATE_animal_sacrifice_activity.0001.conterraneo.desc:0 "The 'boi de piranha' is a traditional practice of the hinterlands of [old_brazil|E] where a sick or old bull is used as bait to distract piranhas while the rest of the herd crosses a river. The term, meaning literally 'piranha's ox', is used because the bull is sacrificed in order to protect the rest of the herd from the predatory fish. The sick or old bull is thrown into the water, where it thrashes around and attracts the piranhas, allowing the rest of the herd to cross the river safely.\n\nWhile this may seem cruel, it is a necessary part of life for the $conterraneo_devotee_male_plural$ who rely on cattle ranching as a means of survival in this harsh environment."
+ ATE_animal_sacrifice_activity.0001.a:0 "Time to get ready for the ritual."
+ ATE_animal_sacrifice_activity.0001.tooltip:0 "The amount and quality of your sacrifice will determine how well your sacrifice is perceived by the community and, perhaps, if your offering will be noticed."
+ 
+ ATE_animal_sacrifice_activity.0002.t:0 "An Offering to [ROOT.Char.GetFaith.HighGodName]"
+ ATE_animal_sacrifice_activity.0002.generic.desc:0 "As a [ROOT.Char.GetFaith.GetAdjective] ruler, my role in the rituals currently being conducted is primarily ceremonial; the [ROOT.Char.GetFaith.PriestNeuterPlural] primarily handle the actual offerings. Nevertheless, I still have a role to play, as the primary sponsor and instrument of [ROOT.Char.GetFaith.HighGodNamePossessive] will in my realm."
+ ATE_animal_sacrifice_activity.0002.conterraneo-a.desc:0 "The sun beat down mercilessly, as a herd of cattle made its way to the riverbank. The lead cow hesitated at the water's edge, sensing the danger that lurked beneath the murky surface. At the head of the herd, the $conterraneo_priest_male$, a weathered man with a face etched by the harshness of life, stepped forward, his hand resting on the hilt of his knife.\n\nWithout a word, he selected the oldest and sickest bull from the herd, a creature that had long served its purpose and was now a burden on the rest of the group. The $conterraneo_priest_male$ led the bull to the water's edge, muttered a short prayer and, with a swift stroke of his knife, dispatched it. The animal thrashed briefly in the water, drawing the attention of the piranhas, and allowing the rest of the herd to safely cross the river.\n\nAs [ROOT.Char.GetFirstName] watched the bull's sacrifice, [ROOT.Char.GetSheHe] pondered the deeper meaning behind this ritual. To [ROOT.Char.GetHerHim], it was a reminder of the cycles of life and death, of the necessity of sacrifice in order to sustain life. The old bull had fulfilled its role in the herd, and now it was time for it to make the ultimate sacrifice, to provide sustenance for the river and allow the rest of the herd to continue on their journey.\n\nStanding on the riverbank, watching as the last cows, bulls and calves crossed the river, safe and unharmed, [ROOT.Char.GetFirstName] felt a sense of awe and reverence for the natural world around [ROOT.Char.GetHerHim]. This was a place of both harshness and beauty, where life and death were intertwined in an endless dance of rebirth and sacrifice. And [ROOT.Char.GetSheHe] knew that [ROOT.Char.GetSheHe] was just one small part of this great cycle, a humble servant of the land and the creatures that called it home."
+  ATE_animal_sacrifice_activity.0002.conterraneo-b.desc:0 "[ROOT.Char.GetFirstName] had always known that these lands were a place of harsh beauty, where life and death were inextricably linked. [ROOT.Char.GetSheHe|U] had spent his entire life in this remote corner of the world, eking out a living from the land and the creatures that called it home. And [ROOT.Char.GetSheHe] had come to understand that every living thing had its place in the great cycle of rebirth and sacrifice.\n\nAs the $conterraneo_priest_male$ led his herd of cattle to the riverbank, he felt a sense of apprehension. The river was infested with piranhas, and crossing it was a dangerous proposition. But he knew that he had no choice. His cattle needed to reach the other side in order to survive, and he was the only one who could lead them.\n\nHe surveyed his herd, seeking out the oldest and weakest among them. He knew that he would have to make a sacrifice in order to protect the rest of the group. With a heavy heart, he selected an old bull, a creature that had long outlived its usefulness. He led the bull to the water's edge, and with a quick stroke of his knife, dispatched it.\n\nAs [ROOT.Char.GetSheHe] watched the piranhas swarm around the bull's carcass, [ROOT.Char.GetFirstName] reflected on the deeper meaning of this ritual. To [ROOT.Char.GetHerHim], it was a reminder of the fragility of life, and the need for sacrifice in order to ensure the survival of the group. [ROOT.Char.GetSheHe|U] thought of the countless creatures that had lived and died in these savage lands, each one playing its part in the great cycle of rebirth and sacrifice.\n\nAnd [ROOT.Char.GetSheHe] couldn't help but think of the ultimate sacrifice, the sacrifice that had been made by Jesus to save humanity. To [ROOT.Char.GetHerHim], the sacrifice of the old bull was just one small part of a much larger story, a story of selflessness and redemption that had played out over the course of millennia."
+ ATE_animal_sacrifice_activity.0002.a:0 "May [ROOT.Char.GetFaith.HighGodName] be pleased with this offering!"
+ 
+ ATE_animal_sacrifice_activity.0002.nothing:0 "Your sacrifice does not appear adequate!"
+ ATE_animal_sacrifice_activity.0002.nothing.tooltip:0 "Alas, receive no boons for your sacrifice."
+ ATE_animal_sacrifice_activity.0002.something:0 "Your pious sacrifice is duly noted!"
+ 
+ 
+ animal_sacrifice_blessing_small:0 "Animal Sacrifice Boon: Small"
+ animal_sacrifice_blessing_medium:0 "Animal Sacrifice Boon: Medium"
+ animal_sacrifice_blessing_large:0 "Animal Sacrifice Boon: Large"

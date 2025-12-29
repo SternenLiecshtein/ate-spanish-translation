@@ -1,0 +1,34 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ old_world_glass:0 "Old World Glass	"
+ old_world_glass_desc:0 "Glassware from the ancient world, finer than anything modern glassblowers can produce."
+ old_world_jewelry:0 "Old World Jewelery	"
+ old_world_jewelry_desc:0 "Jewelery from the ancient world, more intricate than anything modern artisans can produce."
+ old_world_money:0 "Old World Money	"
+ old_world_money_desc:0 "Icons of the Almighty Dollar.	"
+ old_world_musicbox:0 "Old World Music Box	"
+ old_world_musicbox_desc:0 "An ancient, shiny device that contains the melodies of the Old World."
+ old_world_engine:0 "Old World Machinery	"
+ old_world_engine_desc:0 "A fabulously preserved piece of Old World machinery, constructed of a miraculous metal and blessed so that it shall never rust."
+ ate_firearm:0 "Old World Firearm"
+ ate_firearm_desc:0 "A lovingly restored and functional pre-calamity firearm."
+ ate_calculator:0 "Old World Calculator"
+ ate_calculator_desc:0 "A functional pre-calamity mechanical calculating device."
+ ate_watch:0 "Old World Timekeeper"
+ ate_watch_desc:0 "A polished and ticking pre-calamity clockwork timekeeper."
+ ate_typewriter:0 "Old World Typewriter"
+ ate_typewriter_desc:0 "A carefully maintained pre-calamity mechanical lettering device."
+ ate_telescope:0 "Old World Far-Seer"
+ ate_telescope_desc:0 "A restored and functional pre-calamity portable telescope."
+ ate_textbooks:0 "Old World Books"
+ ate_textbooks_desc:0 "A small collection of intact pre-calamity academic books."
+ ate_compass:0 "Old World Compass"
+ ate_compass_desc:0 "A restored and functional pre-calamity magnetic compass."
+
+

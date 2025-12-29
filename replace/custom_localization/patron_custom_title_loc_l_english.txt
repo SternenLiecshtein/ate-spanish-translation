@@ -1,0 +1,2 @@
+xango_name_afro_diasporic:0 "xango_name_afro_diasporic"
+xango_name_catholic:0 "xango_name_catholic"

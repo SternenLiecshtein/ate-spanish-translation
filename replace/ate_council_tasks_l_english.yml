@@ -1,0 +1,37 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ 
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_BELEM:0 "Holy Site — Belem"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_SOLENTINAME_ISLANDS:0 "Holy Site — Solentiname Islands"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_VALLECITO:0 "Holy Site — Vallecito"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_ALBANY:0 "Holy Site — Albany"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_PORT_AU_PRINCE:0 "Holy Site — Port au Prince"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_WASHINGTON:0 "Holy Site — Washington"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_GUAYAQUIL:0 "Holy Site — Guayaquil"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_MEXICO_CITY:0 "Holy Site — Mexico City"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_JACKSON:0 "Holy Site — Jackson"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_LAMONI:0 "Holy Site — Lamoni"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_THE_ARK:0 "Holy Site — The Ark"
+ 
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_MONTPELIER:0 "Hostile Holy Site — Montpelier"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_SANTO_DOMINGO:0 "Hostile Holy Site — Santo Domingo"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_GEORGETOWN:0 "Hostile Holy Site — Georgetown"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_INVERNESS:0 "Hostile Holy Site — Inverness"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_IGUALA:0 "Hostile Holy Site — Iguala"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_JOSHUA_TREE:0 "Hostile Holy Site — Joshua Tree"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_HUNDRED_MILE_HOUSE:0 "Hostile Holy Site — 100 Mile House"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_GRANDE_PRE:0 "Hostile Holy Site — Grande-Pré"
+
+ COURT_CHAPLAIN_CONVERSION_WISDOM_OF_GURUS_MODIFIER:2 "[councillor.GetFaith.GetName] — [GetFaithDoctrine('tenet_wisdom_of_gurus').GetBaseName]"
+ COURT_CHAPLAIN_CONVERSION_RELIGIOUS_ISOLATION_MODIFIER:2 "[councillor.GetFaith.GetName] — [GetFaithDoctrine('tenet_pastoral_isolation').GetBaseName]"
+ COURT_CHAPLAIN_CONVERSION_SPIRIT_TAX_DECREE:0 "$spirit_department_tax_collector$ [tax_decree|E]"
+ COURT_CHAPLAIN_CONVERSION_JUSTICE_TAX_DECREE:0 "$justice_department_tax_collector$ [tax_decree|E]"
+
+ COURT_CHAPLAIN_CONVERSION_HEADLESS_CONVERSION_RESISTANCE_MALUS_MODIFIER:0 "[county.GetProvince.GetCounty.GetFaith.GetName] — [GetFaithDoctrine('tenet_liberty_or_death').GetBaseName] with no [head_of_faith|E]"
+ 
+ interfaith_holy_order_county_conversion_malus_desc:0 "$interfaith_holy_order_county$"

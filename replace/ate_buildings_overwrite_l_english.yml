@@ -1,0 +1,77 @@
+﻿l_spanish:
+
+ building_quarries_08:1 "Blast Furnaces"
+ building_quarries_08_desc:1 "Blast furnaces run hot day-round, smelting iron, lead, and copper. The quality of the metal they produce is beyond excellent."
+
+ building_type_military_camps_01:0 "Military Camps"
+
+
+ building_type_guild_halls_01:1 "Unions"
+ building_guild_halls_01:0 "Trade Halls"
+ building_guild_halls_02:1 "Carver's Union"
+ building_guild_halls_03:1 "Carpenter's Union"
+ building_guild_halls_04:1 "Hunter's Union"
+ building_guild_halls_05:1 "Mason's Union"
+ building_guild_halls_06:1 "Tailor's Union"
+ building_guild_halls_07:1 "Glassworker's Union"
+ building_guild_halls_08:1 "Artisan's Union"
+
+ building_type_hall_of_heroes_01:0 "Hall of Fame"
+ building_type_hall_of_heroes_01_desc:2 "A grand hall where heroic warriors can meet and organize their next adventure."
+ building_hall_of_heroes_01:0 "Hall of Fame I"
+ building_hall_of_heroes_01_desc:0 "$building_type_hall_of_heroes_01_desc$"
+ building_hall_of_heroes_02:0 "Hall of Fame II"
+ building_hall_of_heroes_02_desc:0 "$building_type_hall_of_heroes_01_desc$"
+ building_hall_of_heroes_03:0 "Hall of Fame III"
+ building_hall_of_heroes_03_desc:0 "$building_type_hall_of_heroes_01_desc$"
+ building_hall_of_heroes_04:0 "Hall of Fame IV"
+ building_hall_of_heroes_04_desc:0 "$building_type_hall_of_heroes_01_desc$"
+ building_hall_of_heroes_05:0 "Hall of Fame V"
+ building_hall_of_heroes_05_desc:0 "$building_type_hall_of_heroes_01_desc$"
+
+ building_type_holy_site_cathedral_01:1 "Grand Cathedral"
+ building_type_holy_site_cathedral_01_desc:1 "The [holy_site|E] in this area attracts pilgrims from all around the known world. The grand cathedral is not just a marvel of engineering and beauty, but also a safe haven for travelers and a prestigious monument to its sponsor."
+ building_holy_site_cathedral_01:1 "Grand Cathedral"
+ building_holy_site_cathedral_01_desc:1 "$building_type_holy_site_cathedral_01_desc$"
+
+ building_type_holy_site_mosque_01:0 "Grand Mosque"
+ building_type_holy_site_mosque_01_desc:0 "The [holy_site|E] in this area is a popular destination for devout pilgrims. The grand mosque gives them a place to pray, rest and pay homage before continuing their journey. Its beautiful domes and great intricate spires signal the greatness of God for all to see."
+ building_holy_site_mosque_01:0 "Grand Mosque"
+ building_holy_site_mosque_01_desc:0 "$building_type_holy_site_mosque_01_desc$"
+
+ building_type_holy_site_synagogue_01:0 "Grand Synagogue"
+ building_type_holy_site_synagogue_01_desc:0 "The [holy_site|E] in this area is the centre of a local community and holds their sacred texts within its walls. Its beautiful domes and great intricate spires signal the greatness of God for all to see."
+ building_holy_site_synagogue_01:0 "Grand Synagogue"
+ building_holy_site_synagogue_01_desc:0 "$building_type_holy_site_synagogue_01_desc$"
+
+ building_type_holy_site_pagan_grand_temple_01:0 "Grand Pagan Temple"
+ building_type_holy_site_pagan_grand_temple_01_desc:0 "The [holy_site|E] in this area attracts the faithful in droves. The grand temple is covered in ornate carvings displaying heroic deeds by gods and demi-gods alike. Massive bonfires send plumes of smoke upwards to the gods themselves, with holy men administering blessings to all who venerate the spirits."
+ building_holy_site_pagan_grand_temple_01:0 "Grand Pagan Temple"
+ building_holy_site_pagan_grand_temple_01_desc:0 "$building_type_holy_site_pagan_grand_temple_01_desc$"
+
+ building_type_holy_site_indian_grand_temple_01:0 "Grand Harmonic Temple"
+ building_type_holy_site_indian_grand_temple_01_desc:0 "The [holy_site|E] in this area attracts scores of humble pilgrims seeking to cleanse their souls. The grand temple is covered from foundation to spire with statues and idols to the gods, retelling ancient legends and the lives of noble gurus and prophets."
+ building_holy_site_indian_grand_temple_01:0 "Grand Harmonic Temple"
+ building_holy_site_indian_grand_temple_01_desc:0 "$building_type_holy_site_indian_grand_temple_01_desc$"
+
+ building_type_holy_site_civic_grand_temple_01:0 "Grand Civic Temple"
+ building_type_holy_site_civic_grand_temple_01_desc:0 "The [holy_site|E] in this area is the centre for the local community of the faithful. This temple honors the divine men and women of the Pre-Event world, as well as providing sanctuary to those continuing on their legacy."
+ building_holy_site_civic_grand_temple_01:0 "Grand Civic Temple"
+ building_holy_site_civic_grand_temple_01_desc:0 "$building_type_holy_site_civic_grand_temple_01_desc$"
+
+ building_type_holy_site_other_grand_temple_01:0 "Grand Temple"
+ building_type_holy_site_other_grand_temple_01_desc:0 "The [holy_site|E] in this area is a meeting point for the devout and dedicated. The grand temple stands as a noble tribute to the higher powers, its walls and domes smoothed and painted in resplendent colors that honor the divine."
+ building_holy_site_other_grand_temple_01:0 "Grand Temple"
+ building_holy_site_other_grand_temple_01_desc:0 "$building_type_holy_site_other_grand_temple_01_desc$"
+
+ building_type_holy_site_fire_temple_01:0 "Great Fire Temple"
+ building_type_holy_site_fire_temple_01_desc:0 "Inside this grand edifice burns an #italic Eternal Flame#!, a Fire of Piety, Victory and Remembrance, a flame that remains burning at all times to commerate the great gods and spirits remembered here. Pilgrims from faraway lands come to behold this wonder, while priests perform ceremonies of all kinds centred around the undying flames."
+ building_holy_site_fire_temple_01:0 "Great Fire Temple"
+ building_holy_site_fire_temple_01_desc:1 "$building_type_holy_site_fire_temple_01_desc$"
+
+ building_type_wind_furnace_01_desc:0 "Taking advantage of the winds whipping off the Lakes, the wind furnaces smelt world famous steel of impeccable quality."
+
+
+ building_pleasure_dome_desc: "A luxurious palace, serving both as a military and cultural center in equal measure. Its crowning glory stands as a fountain in the shape of a silver tree, where different kinds of wine flow from the serpents that entwine the statue."
+ mpo_pleasure_dome_barony_decision_tt_first: "#weak The holding must be the capital of its [county|E], not be [leased|E], not already have a [special_building|E] Slot, and be in the [the_open_plains|E]#!\n@warning_icon! #weak #color_red You will not be able to change this location at a later time!#!"
+ 

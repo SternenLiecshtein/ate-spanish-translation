@@ -1,0 +1,91 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+undaunted_colossus.1.t:0 "The Colossus, Daunted"
+undaunted_colossus.1.desc:0 "Tragedy has struck Brazil, the culmination of a crisis that has been brewing for years, if not decades. We have lost a good portion of our rightful territory and, with it, our legitimacy to claim the mantle of the [grand_national_accord|E] that holds this land together. Delegates of our vassals have gathered today in our court, demanding that we sign a decree confirming the dissolution of the Empire and relieving them of their duties and oaths towards the [federative_pact|E]. Even as we speak, however, powerful governors and generals are already moving their troops and begin acting as independent states..."
+undaunted_colossus.1.a:0 "We have no choice but to stand down..."
+undaunted_colossus.1.b:0 "Never! Refuse their demands!"
+undaunted_colossus.1.brazil_dissolution:0 "Bye bye, Brazil! The imperial title is destroyed and all your direct vassals become independent."
+
+undaunted_colossus.2.t:0 "Freedom from the Colossus"
+undaunted_colossus.2.desc:0 "Tragedy has struck Brazil, the culmination of a crisis that has been brewing for years, if not decades. The Empire has lost a good portion of its rightful territory and, with it, its legitimacy to claim the mantle of the [grand_national_accord|E] that was supposed to hold this land together. Today, delegates from all over Brazil have forced our weak Sovereign to sign a decree confirming the dissolution of the Empire and relieving us of our duties and oaths towards the [federative_pact|E]..."
+undaunted_colossus.2.a:0 "Bye bye, Brazil! The Empire is no more..."
+
+undaunted_colossus.3.t:0 "The Emperor has Refused"
+undaunted_colossus.3.desc:0 "Tragedy has struck Brazil, the culmination of a crisis that has been brewing for years, if not decades. The Empire has lost its legitimacy to claim the mantle of the [grand_national_accord|E] that was supposed to hold this land together. Today, delegates from all over Brazil gathered in the capital and attempted forced our weak Sovereign to sign a decree confirming the dissolution of the Empire and relieving us of our duties and oaths towards the [federative_pact|E]... He has refused, however. It seems we have no other choice than starting a conspiracy to dissolve the Crown."
+undaunted_colossus.3.a:0 "Enough of that stuborness! We must prepare for an uprising..."
+undaunted_colossus.3.b:0 "There has got to be another way..."
+
+undaunted_colossus.5.t:0 "The Empire in Peril"
+undaunted_colossus.5.desc:0 "Our recent administrative blunders have caught the attention of our most important vassals. Some of them are speaking of a lack of confidence in our rule, or even of the loss of our hability to properly command the [grand_national_accord|E]! Today, a delegation of governors and captains has reached our capital and declared us unfit to rule, demanding that we relieve them of all their oaths and duties towards the [federative_pact|E]. This amounts to a dissolution of the Empire!"
+undaunted_colossus.5.a:0 "We have no choice but to stand down..."
+undaunted_colossus.5.b:0 "Never! Refuse their demands!"
+
+undaunted_colossus.7.t:0 "An Empire of Bahia?"
+undaunted_colossus.7.desc:0 "The Empire of Brazil is no more, yet its memory and its institutions remain in place. Its bureaucracy still stands, even if serving a monarch that no longer exists. As the rulers of the great city of [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], this presents an unique opportunity for us: We can form a new Empire, claiming the mantle of the [grand_national_accord|E], and possibily using this authority as a stepping stone to expand our rule..."
+undaunted_colossus.7.a:0 "Brazil is gone, long live the Empire of Bahia!"
+
+undaunted_colossus.8.t:0 "An Empire of Sudeste?"
+undaunted_colossus.8.desc:0 "The Empire of Brazil is no more, yet its memory and its institutions remain in place. Its bureaucracy still stands, even if serving a monarch that no longer exists. As the rulers of the great city of [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], this presents an unique opportunity for us: We can form a new Empire, claiming the mantle of the [grand_national_accord|E], and possibily using this authority as a stepping stone to expand our rule..."
+undaunted_colossus.8.a:0 "Brazil is gone, long live the Empire of Sudeste!"
+
+undaunted_colossus.9.t:0 "An Empire of Nordeste?"
+undaunted_colossus.9.desc:0 "The Empire of Brazil is no more, yet its memory and its institutions remain in place. Its bureaucracy still stands, even if serving a monarch that no longer exists. As the rulers of the great city of [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], this presents an unique opportunity for us: We can form a new Empire, claiming the mantle of the [grand_national_accord|E], and possibily using this authority as a stepping stone to expand our rule..."
+undaunted_colossus.9.a:0 "Brazil is gone, long live the Empire of Nordeste!"
+
+undaunted_colossus.10.t:0 "An Empire of Grão-Pará?"
+undaunted_colossus.10.desc:0 "The Empire of Brazil is no more, yet its memory and its institutions remain in place. Its bureaucracy still stands, even if serving a monarch that no longer exists. As the rulers of the great city of [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], this presents an unique opportunity for us: We can form a new Empire, restoring the ancient name of Grão-Pará, claiming the mantle of the [grand_national_accord|E], and possibily using this authority as a stepping stone to expand our rule..."
+undaunted_colossus.10.a:0 "Brazil is gone, long live the Empire of Grão-Pará!"
+
+undaunted_colossus.11.t:0 "The Colossus, Undaunted!"
+undaunted_colossus.11.desc:0 "The streets of our capital are covered in our banners, as the people witness the grandest festival of their lifetime. Our vassals from near and afar have gathered in our court and have acknowledged me as the true bearer of the Imperial Crown. I have now secured the continuity of the [grand_national_accord|E] and, through the [federative_pact|E], confirmed the promises of guaranteeing the rights and duties of our subjects. Outside, the knights march while the imperial flag is unfurled. The Empire of Brazil has been restored by our own hands!"
+undaunted_colossus.11.a:0 "Long live us, I suppose!"
+
+undaunted_colossus.12.t:0 "The Path for Reunification"
+undaunted_colossus.12.desc:0 "The once glorious Empire of Brazil has been divided into many factions. As claimants to the legacy of the [grand_national_accord|E], it is our duty to embark on a grand campaign to reunite these lands and oust any ursupers from their false thrones!"
+undaunted_colossus.12.a:0 "Ou ficar a Pátria livre..."
+
+undaunted_colossus.13.t:0 "The Path for Imperial Reunification"
+undaunted_colossus.13.desc:0 "Many of the lands rightfully belonging to the Empire of Brazil still remain in the hands of ursupers. It is our duty to embark on a grand campaign to reunite these lands and oust any traitors from their false thrones!"
+undaunted_colossus.13.a:0 "Brava gente brasileira..."
+
+undaunted_colossus.14.t:0 "A Palace coup!"
+undaunted_colossus.14.desc:0 "Our recent administrative blunders have caught the attention of our most important vassals. Some of them are speaking of a lack of confidence in our rule, or even of the loss of our hability to properly command the [grand_national_accord|E]! Today, a delegation of governors and captains has reached our capital and declared us unfit to rule, demanding that we step down and immediatly pass the crown to our heir!"
+undaunted_colossus.14.a:0 "We have no choice but to stand down..."
+undaunted_colossus.14.b:0 "Never! Refuse their demands!"
+
+undaunted_colossus.15.t:0 "New masters, new vassals?"
+undaunted_colossus.15.desc:0 "As imperial authority has faded for good, new powerful leaders have rushed to claim the mantle of the [grand_national_accord|E]. Right next to us, [scope:new_liege] has proclaimed the formation of a new empire - maybe as an attempt to cement his authority among his neighbors, or maybe as an stepping stone on a future campaign to conquer the rest of Brazil? This morning, emissaries of this new leader have reached our capital, and inquired whether our realm will join them. Should I pledge allegiance to [scope:new_liege]?"
+undaunted_colossus.15.a:0 "Join [scope:new_liege]'s empire, we will find safety and prosperity under their fold"
+undaunted_colossus.15.b:0 "No, we will forge a new path on our own terms"
+
+undaunted_colossus.16.t:0 "The Empire of... What?"
+undaunted_colossus.16.desc:0 "It has come to the court's attention that I currently hold imperial titles other than that of Emperor of Brazil. Why am I doing this? The [grand_national_accord|E] clearly says there should be no more than one single crown to rule over these lands. The court advises me to formally dissolve these lesser titles."
+undaunted_colossus.16.a:0 "Our empire needs just one imperial crown!"
+undaunted_colossus.16.b:0 "But... I like my other titles..."
+
+undaunted_colossus.17.t:0 "An Empire of Paulistânia?"
+undaunted_colossus.17.desc:0 "The Empire of Brazil is no more, yet its memory and its institutions remain in place. Its bureaucracy still stands, even if serving a monarch that no longer exists. As the rulers of the great city of São Paulo, this presents an unique opportunity for us: We can form a new Empire, claiming the mantle of the Grand National Accord, and possibily using this authority as a stepping stone to expand our rule..."
+undaunted_colossus.17.a:0 "Brazil is gone, long live the Empire of Paulistânia!"
+
+undaunted_colossus.18.t:0 "An Empire of Gerais?"
+undaunted_colossus.18.desc:0 "The Empire of Brazil is no more, yet its memory and its institutions remain in place. Its bureaucracy still stands, even if serving a monarch that no longer exists. As the rulers of the great city of Belo Horizonte, this presents an unique opportunity for us: We can form a new Empire, claiming the mantle of the Grand National Accord, and possibily using this authority as a stepping stone to expand our rule..."
+undaunted_colossus.18.a:0 "Brazil is gone, long live the Empire of Gerais!"
+
+undaunted_colossus.19.t:0 "The heir of Santa Catarina"
+undaunted_colossus.19.desc:0 "The jackals, once content to prowl at the edges of my court, now circle ever closer, eager to carve off pieces of my kingdom for themselves. They scent the weakness in my bones, the inevitable decline of a monarch who has ruled too long. Years ago, the opportunists of Grande Florianópolis, once loyal subjects, declared their independence, cutting us off from the vital trade routes. We are left isolated, vulnerable - but I cannot escape the bitter reality that my three children, my triplets, squabble endlessly over the crown. They argue day after day over strategy, over alliances, over who has the rightful claim to the throne.\n\nI have delayed this decision for years, unable to choose between them, unable to see which one is best suited to carry the mantle of leadership. But I must make a decision, at last: Who among them has the strength to lead us out of this dark age? Which of them will receive my blessing to reign over Santa Catarina - or to destroy the work of generations?"
+undaunted_colossus.19.a:0 "My only daughter, Princess Gioconda, will receive my blessing"
+undaunted_colossus.19.b:0 "Prince Giuseppe will rule from my throne"
+undaunted_colossus.19.c:0 "The crown will rest upon the head of Prince Giancarlo"
+
+imperial_bureaucracy.0020.t:0 "The Governorate of [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]"
+imperial_bureaucracy.0020.desc:0 "An important courier in full regalia arrived today at our court in [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], bringing a letter bearing [ROOT.Char.GetLiege.GetName]'s insignia. In this official communiqué, our liege reminds us of our commitments to the [grand_national_accord|E] and our obligations towards the [federative_pact|E], thus recognizing our rule as governors of [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]."
+imperial_bureaucracy.0020.a:0 "Long live us! And [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]!"
+
+imperial_bureaucracy.0021.t:0 "The Captaincy of [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]"
+imperial_bureaucracy.0021.desc:0 "An important courier in full regalia arrived today at our court in [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], bringing a letter bearing [ROOT.Char.GetLiege.GetName]'s insignia. In this official communiqué, our liege reminds us of our commitments to the [grand_national_accord|E] and our obligations towards the [federative_pact|E], thus recognizing our rule as captains of [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]."
+imperial_bureaucracy.0021.a:0 "Long live us! And [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]!"

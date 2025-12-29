@@ -1,0 +1,102 @@
+﻿l_spanish:
+#event_localization\laamp_events_l_spanish.yml overrides and additions
+ #Ewan laamp events
+ ep3_laamp_flavour_ewan.0001.desc.arctic: "arctic expanse below, an endless spread of snow and ice broken only by rugged cliffs and frozen ridges. Vast swaths of white stretch out in every direction, tinted with the soft blush of the sun’s light."
+ ep3_laamp_flavour_ewan.0001.desc.tundra: "tundra sprawled below, a rugged, frost-bitten expanse rolling endlessly across frozen earth. Pale mosses and hardy shrubs cling to the ground, their muted colors ignited by the sun’s glistening rays."
+ ep3_laamp_flavour_ewan.0001.desc.flooded_forests: "flooded forest below, shimmering with pools of rose and silver, their surfaces catching the light. Each submerged pool sparkles like a hidden jewel, casting reflections across the tangled roots and branches."
+ ep3_laamp_flavour_ewan.0001.desc.deep_jungle: "jungle below - stretched in dense, tangled layers of green. Shadows are pooling between towering trees, their trunks reaching for fading sunlight. Vines and leaves form a shadowed mosaic, with dim shafts of gold flickered through, casting an ethereal glow over the ancient undergrowth."
+ ep3_laamp_flavour_ewan.0001.desc.salt_flats: "salt flats stretched endlessly before me, a vast white mirror reflecting the sky’s harsh, empty brilliance. Where rare pools of rainwater linger, they shine like liquid silver, each one a striking glint in the stark landscape."
+
+ ep3_laamp_flavour_ewan.0031.desc.arctic: "go tumbling down an icy slope, kicking up a spray of snow and fine, powdery frost,"
+ ep3_laamp_flavour_ewan.0031.desc.tundra: "go tumbling down a barren slope, kicking up a swirl of frozen earth and sparse, brittle grasses,"
+ ep3_laamp_flavour_ewan.0031.desc.flooded_forests: "$ep3_laamp_flavour_ewan.0031.desc.wetlands$"
+ ep3_laamp_flavour_ewan.0031.desc.deep_jungle: "$ep3_laamp_flavour_ewan.0031.desc.jungle$"
+ ep3_laamp_flavour_ewan.0031.desc.salt_flats: "$ep3_laamp_flavour_ewan.0031.desc.steppe$"
+
+ ep3_laamp_flavour_ewan.0041.desc.arctic: "Out here in this endless expanse of ice and cold, where a single fire would be worth a king’s ransom, and still we don’t have time to"
+ ep3_laamp_flavour_ewan.0041.desc.tundra: "Surrounded by miles of frozen wasteland, not a scrap of greenery in sight, yet we can't even pause long enough to"
+ ep3_laamp_flavour_ewan.0041.desc.flooded_forests: "Here in this endless swamp, sinking up to our knees in murky water, and yet we’re in too much of a hurry to even"
+ ep3_laamp_flavour_ewan.0041.desc.deep_jungle: "Here in this tangled green maze, where every step brings us deeper into the dark and damp, and still we push on without a moment to"
+ ep3_laamp_flavour_ewan.0041.desc.salt_flats: "Out here on these endless, aching flats, where even the air tastes of salt and dust, and we’re so eager to press on we cannot even"
+
+ ep3_laamp_flavour_ewan.1071.desc.arctic: "building a band of merry snowmen. They’ve found a perfect stretch of snow, untouched and fresh, and are rolling large snowballs to stack on top of each other. Together, they mould and shape the snow, using sticks for arms and rocks for eyes, their laughter filling the crisp air."
+ ep3_laamp_flavour_ewan.1071.desc.tundra: "starting a snowball fight across the snowy field. The older children take positions on a small ridge, launching snowballs with precision, while the younger ones dodge and return fire from below, leaving scattered tracks and bursts of laughter in the snow."
+ ep3_laamp_flavour_ewan.1071.desc.flooded_forests: "$ep3_laamp_flavour_ewan.1071.desc.wetlands$"
+ ep3_laamp_flavour_ewan.1071.desc.deep_jungle: "$ep3_laamp_flavour_ewan.1071.desc.jungle$"
+ ep3_laamp_flavour_ewan.1071.desc.salt_flats: "$ep3_laamp_flavour_ewan.1071.desc.steppe$"
+
+ ep3_laamp_flavour_ewan.4061.desc.terrain.arctic: "to the vast lands stretching before us. It seems open and barren, but a stealthy night-time terror can move across it as silently as the wind over snow."
+ ep3_laamp_flavour_ewan.4061.desc.terrain.tundra: "$ep3_laamp_flavour_ewan.4061.desc.terrain.arctic$"
+ ep3_laamp_flavour_ewan.4061.desc.terrain.flooded_forests: "to the flooded forest surrounding us, a maze of tangled roots and submerged trees rising from dark waters. Every few feet could conceal some lurking creature in the shadows below."
+ ep3_laamp_flavour_ewan.4061.desc.terrain.deep_jungle: "$ep3_laamp_flavour_ewan.4061.desc.terrain.jungle$"
+ ep3_laamp_flavour_ewan.4061.desc.terrain.salt_flats: "to the endless salt flats around us, a stark, featureless expanse broken only by scattered patches of cracked earth. Every distant shimmer could be something lurking in the haze."
+
+ ep3_laamp_flavour_ewan.4062.t.jaguar: "$ep3_laamp_flavour_ewan.4061.t$: Jaguar"
+ ep3_laamp_flavour_ewan.4062.t.alligator: "$ep3_laamp_flavour_ewan.4061.t$: Alligator"
+
+ ep3_laamp_flavour_ewan.4062.desc.terrain.arctic: "$ep3_laamp_flavour_ewan.4062.desc.terrain.mountains$"
+ ep3_laamp_flavour_ewan.4062.desc.terrain.tundra: "$ep3_laamp_flavour_ewan.4062.desc.terrain.wetlands$"
+ ep3_laamp_flavour_ewan.4062.desc.terrain.flooded_forests: "$ep3_laamp_flavour_ewan.4062.desc.terrain.wetlands$"
+ ep3_laamp_flavour_ewan.4062.desc.terrain.deep_jungle: "$ep3_laamp_flavour_ewan.4062.desc.terrain.jungle$"
+ ep3_laamp_flavour_ewan.4062.desc.terrain.salt_flats: "$ep3_laamp_flavour_ewan.4062.desc.terrain.drylands$"
+
+ ep3_laamp_flavour_ewan.4062.desc.animal.jaguar: "A loud growl from behind prompts me to spin on my heel, where a rabid, [ROOT.Char.Custom('4061_size_adjective')] jaguar — face and paws still drenched in blood — awaits. $ep3_laamp_flavour_ewan.4062.desc.animal.boilerplate$"
+ ep3_laamp_flavour_ewan.4062.desc.animal.alligator: "A deep, guttural roar from behind prompts us all to wheel around, where the snout of a [ROOT.Char.Custom('4061_size_adjective')] alligator is pointed directly at us — still crusted with viscera from my followers. $ep3_laamp_flavour_ewan.4062.desc.animal.boilerplate$"
+
+
+
+
+#dlc\ep3\ep3_laamp_decision_events_l_spanish.yml overrides and additions
+ #Laamp decision events
+ #We can make more of these for more specific regions if people are willing to write them
+ #Arctic - Scandinavia, without the white people references 
+ ep3_laamp_decision_event.1000.desc_outro_regional_far_north_summer_returned_01: "\n\nThe sun, virtually never setting this time of year, is still up and the only thing competing with its brightness is irs afterimage, should one be unwise enough to glance that way."
+ ep3_laamp_decision_event.1000.desc_outro_regional_far_north_summer_returned_02: "\n\nA rogue, temperate, rain has come in over the [ROOT.Char.Custom('SettlementCity')|l] [ROOT.Char.Custom('GetSquareCommons')] and is drizzling down on people and livestock alike."
+ ep3_laamp_decision_event.1000.desc_outro_regional_far_north_winter_returned_01: "\n\nThe snow, reflecting the light of the sun, lays heavy on the rooftops and [ROOT.Char.Custom('GetTreesScaffolding')|l]; its blinding glare making the buildings of the [ROOT.Char.Custom('SettlementCity')|l] unusually gentle on the eyes."
+ ep3_laamp_decision_event.1000.desc_outro_regional_far_north_winter_returned_02: "\n\nAlbeit freezing temperatures, there is no wind. The [ROOT.Char.Custom('SettlementCity')|l] has an eerie crispness to it, as all living things in the [ROOT.Char.Custom('GetSquareCommons')] breathe out smokey white plumes of heat."
+ ep3_laamp_decision_event.1000.desc_outro_regional_far_north_winter_returned_03: "\n\nSoon to be dark again, the [visiting_location.GetCounty.GetCulture.GetCollectiveNounNoTooltip|U] scurry around in the dim light of day, attempting to perform all tasks that become unavailable after sundown."
+ #US Region
+ ep3_laamp_decision_event.1000.desc_outro_regional_us_region_returned_01: "$ep3_laamp_decision_event.1000.desc_outro_regional_east_africa_returned_03$"
+ ep3_laamp_decision_event.1000.desc_outro_regional_us_region_returned_02: "$ep3_laamp_decision_event.1000.desc_outro_regional_west_africa_returned_04$"
+ ep3_laamp_decision_event.1000.desc_outro_regional_us_region_returned_03: "$ep3_laamp_decision_event.1000.desc_outro_regional_steppe_returned_01$"
+ #Mexico
+ ep3_laamp_decision_event.1000.desc_outro_regional_mexico_returned_01: "$ep3_laamp_decision_event.1000.desc_outro_regional_east_africa_returned_02$"
+ ep3_laamp_decision_event.1000.desc_outro_regional_mexico_returned_02: "$ep3_laamp_decision_event.1000.desc_outro_regional_iberia_returned_02$"
+ ep3_laamp_decision_event.1000.desc_outro_regional_mexico_returned_03: "$ep3_laamp_decision_event.1000.desc_outro_regional_iberia_returned_03$"
+ #Carribean Basin
+ ep3_laamp_decision_event.1000.desc_outro_regional_carribean_basin_returned_01: "$ep3_laamp_decision_event.1000.desc_outro_regional_india_returned_04$"
+ ep3_laamp_decision_event.1000.desc_outro_regional_carribean_basin_returned_02: "$ep3_laamp_decision_event.1000.desc_outro_regional_north_africa_returned_03$"
+ ep3_laamp_decision_event.1000.desc_outro_regional_carribean_basin_returned_03: "$ep3_laamp_decision_event.1000.desc_outro_regional_europe_returned_01$"
+ #Brazil
+ ep3_laamp_decision_event.1000.desc_outro_regional_brazil_region_returned_01: "$ep3_laamp_decision_event.1000.desc_outro_regional_west_africa_returned_02$"
+ ep3_laamp_decision_event.1000.desc_outro_regional_brazil_region_returned_02: "$ep3_laamp_decision_event.1000.desc_outro_regional_iberia_returned_01$"
+ ep3_laamp_decision_event.1000.desc_outro_regional_brazil_region_returned_03: "\n\nUp above, a group of monkeys are rampaging through the trees, seemingly upset about something." #ep3_laamp_decision_event.1000.desc_outro_regional_india_returned_01
+ #Andes
+ ep3_laamp_decision_event.1000.desc_outro_regional_andes_returned_01: "$ep3_laamp_decision_event.1000.desc_outro_regional_middle_east_returned_01$"
+ ep3_laamp_decision_event.1000.desc_outro_regional_andes_returned_02: "$ep3_laamp_decision_event.1000.desc_outro_regional_india_returned_03$"
+ ep3_laamp_decision_event.1000.desc_outro_regional_andes_returned_03: "$ep3_laamp_decision_event.1000.desc_outro_regional_east_africa_returned_01$"
+ #La Plata and Patagonia
+ ep3_laamp_decision_event.1000.desc_outro_regional_southern_cone_returned_01: "$ep3_laamp_decision_event.1000.desc_outro_regional_europe_returned_02$"
+ ep3_laamp_decision_event.1000.desc_outro_regional_southern_cone_returned_02: "$ep3_laamp_decision_event.1000.desc_outro_regional_india_returned_02$"
+ ep3_laamp_decision_event.1000.desc_outro_regional_southern_cone_returned_03: "$ep3_laamp_decision_event.1000.desc_outro_regional_west_africa_returned_03$"
+
+ep3_laamp_decision_event.1000.desc_outro_returned_generic_02: "\n\nA smirking snake oil salesman is performing [dummy_gender.GetHerHis] questionable trade a bit further down the [ROOT.Char.Custom('GetSquareCommons')], to the chagrin of certain bystanders." #Removing explicit slavery reference, cause nah
+
+ brazil_tradegoods: "rubber, brazil nuts"
+ andes_tradegoods: "colorful textiles, charqui"
+ north_american_tradegoods: "syrup, furs"
+
+#laamp_contract_schemes_l_spanish.yml
+
+ laamp_base_contract_schemes.1301.desc.intro.arctic: "the frozen arctic of [current_county.GetBaseNameNoTier]."
+ laamp_base_contract_schemes.1301.desc.intro.tundra: "the rugged tundra of [current_county.GetBaseNameNoTier]."
+ laamp_base_contract_schemes.1301.desc.intro.flooded_forests: "the marshy forests of [current_county.GetBaseNameNoTier]."
+ laamp_base_contract_schemes.1301.desc.intro.deep_jungle: "the dark jungles of [current_county.GetBaseNameNoTier]."
+ laamp_base_contract_schemes.1301.desc.intro.salt_flats: "the crusted salt flats of [current_county.GetBaseNameNoTier]."
+
+ laamp_base_contract_schemes.5661.desc.intro.arctic: "Pushing through the cold, my band trudges through the ice of [ROOT.Char.GetCurrentLocation.GetName],"
+ laamp_base_contract_schemes.5661.desc.intro.tundra: "Weaving between the lakes of [ROOT.Char.GetCurrentLocation.GetName], my forces spread out,"
+ laamp_base_contract_schemes.5661.desc.intro.flooded_forests: "My forces wade through the rivers of [ROOT.Char.GetCurrentLocation.GetName],"
+ laamp_base_contract_schemes.5661.desc.intro.deep_jungle: "Pushing through the undergrowth, my troops search the wooded depths of [ROOT.Char.GetCurrentLocation.GetName],"
+ laamp_base_contract_schemes.5661.desc.intro.salt_flats: "Possessed by a strang optimism, my cadre enters the salt flats of [ROOT.Char.GetCurrentLocation.GetName],"
+

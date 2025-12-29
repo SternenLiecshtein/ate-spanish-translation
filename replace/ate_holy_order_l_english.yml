@@ -1,0 +1,17 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ faith_creation.1001.desc.holy_order:0 "\n\nThe members of the [HoF.GetPrimaryTitle.GetName] have chosen [reformed_hof.GetFirstName] [HoF.GetHouse.GetName] as their new [reformed_faith.ReligiousHeadName], who will lead their order, determine religious doctrine, and arbitrate inter-faith disputes for the entire [reformed_faith.GetAdjectiveNoTooltip] world."
+ faith_creation.1001.desc.holy_order.sameold:0 "\n\nThe members of the [HoF.GetPrimaryTitle.GetName] have chosen to keep [reformed_hof.GetFirstName] [reformed_hof.GetHouse.GetName] as their [reformed_faith.ReligiousHeadName], [reformer.GetSheHe] will continue to lead their order, determine religious doctrine, and arbitrate inter-faith disputes for the entire [reformed_faith.GetAdjectiveNoTooltip] world."
+
+ faith_creation.1010.desc.holy_order:0 "our [reformer.Custom('DefaultPriestTitlePlural')] have determined that a sacred [holy_order|E] is best suited to lead our faith. As such, [HoF.GetPrimaryTitle.GetName] has been established, and [HoF.GetFirstName] [HoF.GetHouse.GetName] has been selected as their [faith.ReligiousHeadName]. In this role, he will lead both the order and our faith."
+
+
+ FAITH_CREATION_ADDS_HOLY_ORDER_HEAD_TEXT:0 "Institute [holy_order_head_of_faith|E]\n[SelectLocalization( GreaterThanOrEqualTo_int32( GetPlayer.GetNumberOfControlledHolySites, FixedPointToInt( EmptyScope.ScriptValue( 'holy_sites_to_create_spiritual_head_of_faith' ) ) ), 'HOLY_ORDER_HEAD_CREATED', 'SPIRITUAL_HEAD_NOT_CREATED' )]"
+
+ HOLY_ORDER_HEAD_CREATED:0 "$doctrine_parameter_holy_order_head_of_faith$"

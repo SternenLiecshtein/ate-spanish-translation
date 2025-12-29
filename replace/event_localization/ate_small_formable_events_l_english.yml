@@ -1,0 +1,59 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ form_small.0001.t:0 "A Kingdom Forged"
+ form_small.0001.a:0 "Glory to me!"
+
+ ####
+ 
+ # Falklands
+ create_falklands_kingdom_decision:0 "Found Kingdom of the Falklands"
+ create_falklands_kingdom_decision_desc:0 "Having united the islands of the Falklands, I can have myself recognized as the [ROOT.Char.Custom('GetQueenKing')|U] of the Falklands."
+ create_falklands_kingdom_decision_confirm:0 "$found_kingdom_decision_confirm$"
+ create_falklands_kingdom_decision_tooltip:0 "Found the Kingdom of the Falklands"
+ form_falklands.0001.desc:0 "As the realm gathers before me, my achievement is fully recognized. I am [ROOT.Char.Custom('GetQueenKing')|U], [ROOT.Char.Custom('GetQueenKing')|U] of the Falklands!"
+
+ # Bermuda - Kingdom
+ create_bermuda_kingdom_decision:0 "Become a Pirate King"
+ create_bermuda_kingdom_decision_desc:0 "Countless raids have been conducted, and great treasure won. The bounty provided by the Way of the Cutlass has given me the ability to become a King in truth."
+ # create_bermuda_kingdom_decision_confirm:0 "Create Pirate Kingdom"
+ create_bermuda_kingdom_decision_confirm:0 "$found_kingdom_decision_confirm$"
+ create_bermuda_kingdom_decision_tooltip:0 "Countless raids have been conducted and great treasure won. The bounty provided by the Way of the Cutlass has given me the ability to become a King in truth."
+ ate_small_form.0001.bermuda.t:0 "The Pirate Kingdom"
+ ate_small_form.0001.bermuda_e.t:0 "The Pirate Empire"
+ form_bermuda.0001.desc:0 "From the Eastern seaboard down to the rainforests of Brazil, plunder has been had. The Way of the Cutlass is the truth!"
+ form_bermuda.0002.desc:0 "As the realm gathers before me, my achievement is fully recognized. I am [ROOT.Char.Custom('GetQueenKing')|U], [ROOT.Char.Custom('GetQueenKing')|U] of the Seven Seas!"
+ # form_grand_bermuda.a:"Huzzah!"
+
+ # Bermuda - Empire
+ create_bermuda_empire_decision:0 "Found Empire of the Seven Seas"
+ create_bermuda_empire_decision_desc:0 "Having united the island of Bermuda and become the scourge of the seas surrounding it, I can have myself recognized as the [ROOT.Char.Custom('GetQueenKing')|U] of the Seven Seas."
+ create_bermuda_empire_decision_confirm:0 "$found_empire_decision_confirm$"
+ create_bermuda_empire_decision_tooltip:0 "Found the Empire of the Seven Seas"
+
+ # Chukotka
+ create_chukotka_kingdom_decision:0 "Found Kingdom of Chukotka"
+ create_chukotka_kingdom_decision_desc:0 "Having united the lands of Chukotka, I can have myself recognized as the [ROOT.Char.Custom('GetQueenKing')|U] of Chukotka."
+ create_chukotka_kingdom_decision_confirm:0 "$found_kingdom_decision_confirm$"
+ create_chukotka_kingdom_decision_tooltip:0 "Found the Kingdom of Chukotka"
+ form_chukotka.0001.desc:0 "As the realm gathers before me, my achievement is fully recognized. I am [ROOT.Char.Custom('GetQueenKing')|U], [ROOT.Char.Custom('GetQueenKing')|U] of Chukotka!"
+
+ # Galapagos
+ create_galapagos_kingdom_decision:0 "Found Kingdom of the Galapagos"
+ create_galapagos_kingdom_decision_desc:0 "Having united the islands of the Galapagos, I can have myself recognized as the [ROOT.Char.Custom('GetQueenKing')|U] of the Galapagos."
+ create_galapagos_kingdom_decision_confirm:0 "$found_kingdom_decision_confirm$"
+ create_galapagos_kingdom_decision_tooltip:0 "Found the Kingdom of the Galapagos"
+ form_galapagos.0001.desc:0 "As the realm gathers before me, my achievement is fully recognized. I am [ROOT.Char.Custom('GetQueenKing')|U], [ROOT.Char.Custom('GetQueenKing')|U] of the Galapagos!"
+
+ # El Salvador
+ create_el_salvador_kingdom_decision:0 "Found Kingdom of El Salvador"
+ create_el_salvador_kingdom_decision_desc:0 "Having united the lands of El Salvador, I can have myself recognized as the [ROOT.Char.Custom('GetQueenKing')|U] of El Salvador."
+ create_el_salvador_kingdom_decision_confirm:0 "$found_kingdom_decision_confirm$"
+ create_el_salvador_kingdom_decision_tooltip:0 "Found the Kingdom of El Salvador"
+ form_el_salvador.0001.desc:0 "As the realm gathers before me, my achievement is fully recognized. I am [ROOT.Char.Custom('GetQueenKing')|U], [ROOT.Char.Custom('GetQueenKing')|U] of El Salvador!"
+

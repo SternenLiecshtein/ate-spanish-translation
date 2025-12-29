@@ -1,0 +1,45 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ war_Jeffersonian_Revolt:0 "The Great Jeffersonian Revolt"
+
+ PROTECT_HOLY_SITE_WAR_NAME:0 "Protect a [GetPlayer.Custom('GetFaithGrandTemple')]"
+ 
+ 
+ #Imperial Reconquest
+ BR_IMPERIAL_RECONQUEST_SPECIFIC_NAME:0 "Restore Imperial Province of [TITLE.GetNameNoTier]"
+ BR_IMPERIAL_RECONQUEST_WAR_SPECIFIC_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Imperial Reconquest of [TITLE.GetName]"
+ BR_IMPERIAL_RECONQUEST_WAR_SPECIFIC_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+
+ IMPERIAL_RECONQUEST_SPECIFIC_NAME:0 "Restore American Province of [TITLE.GetNameNoTier]" 
+
+ STATUE_LIBERTY_RECONQUEST_WAR_SPECIFIC_NAME: "[ATTACKER.GetPrimaryTitle.GetPrefix] Reclamation of the Statue of Liberty"
+ STATUE_LIBERTY_RECONQUEST_SPECIFIC_NAME:0 "Reclaim the Statue of Liberty" 
+ 
+ 
+ mongol_invasion_war:0 "Iron Invasion"
+ mongol_realm_invasion_war:0 "Iron Realm Invasion"
+ MONGOL_INVASION_WAR_NAME:0 "Iron Invasion of [TITLE.GetNameNoTier]"
+ MONGOL_INVASION_KINGDOM_CB_NAME:0 "Iron Invasion of [kingdom|E]"
+ MONGOL_INVASION_EMPIRE_CB_NAME:0 "Iron Invasion of [empire|E]"
+ CB_MONGOL_INVASIONS_COST:0 "Iron Invasions"
+ 
+ RELIGIOUSLY_PROTECTED_HOLY_WAR_PENALTY: "Religiously Protected - Increased Holy War Cost"
+ IMPERIAL_EXPANSION_PENALTY: "[imperial_government|E] - Increased War Cost"
+ STATE_BUREAUCRACY_EXPANSION_PENALTY: "[state_bureaucracy_government|E] - Increased War Cost"
+
+ make_tributary_caribbean_cb: "Bind Permanently Under Tribute for Perpetuity"
+ MAKE_TRIBUTARY_CARIBBEAN_CB_NAME: "Bind [DEFENDER.GetPrimaryTitle.GetNameNoTier] under [tribute|E] for Perpetuity"
+ # MAKE_TRIBUTARY_CB_SPECIFIC_NAME: "Vassalize [DEFENDER.GetShortUIName]"
+ MAKE_TRIBUTARY_CARIBBEAN_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Tributary War"
+ MAKE_TRIBUTARY_CARIBBEAN_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ make_tributary_caribbean_cb_victory_desc_attacker: "[defender.GetShortUIName|U] becomes the [tributary|E] of the [attacker.GetPrimaryTitle.GetName]."
+ make_tributary_caribbean_cb_victory_desc_defender: "You become the [tributary|E] of the [attacker.GetPrimaryTitle.GetName] ."
+ make_tributary_caribbean_cb_victory_desc: "[defender.GetShortUIName|U] becomes the [tributary|E] of the [attacker.GetPrimaryTitle.GetName] ."
+ make_tributary_caribbean_cb_white_peace_desc_defender: "You remain independent."
+ make_tributary_caribbean_cb_white_peace_desc: "[defender.GetShortUIName|U] remains independent."
+ make_tributary_caribbean_cb_defeat_desc_attacker: "[defender.GetShortUIName|U] remains independent. All [factions|E] against you increase their [discontent|E]."

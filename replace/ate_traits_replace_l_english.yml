@@ -1,0 +1,42 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ trait_august:0 "Presidential"
+ trait_avaricious_desc:0 "Money, Money, Money! Can there be any higher calling, any goal more noble, than the pursuit of wealth?"
+ trait_whole_of_body:0 "Fitness Expert"
+ trait_born_in_the_purple:0 "Born in the Gold"
+
+ trait_varangian:0 "Agent"
+ trait_varangian_desc:0 "This character has served as a personal guard of the President as part of the Secret Service."
+ trait_varangian_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has served as a personal guard of the President as part of the Secret Service."
+
+ trait_augustus:0 "Commander-in-Chief"
+ trait_augustus_desc:0 "This character is the current President of the restored United States and commands the respect an office of such magnitude is due."
+ trait_augustus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the current President of the restored United States and commands the respect an office of such magnitude is due."
+
+trait_avaricious:0 "Scrooge"
+trait_craven:0 "Cowardly"
+
+trait_hashishiyah:0 "Stoner"
+trait_track_lifestyle_reveler:0 "Partyer"
+
+trait_fecund:0 "Fertile"
+trait_physique_good_1:0 "Fit"
+trait_beauty_bad_1:0 "Unattractive"
+trait_beauty_good_1:0 "Attractive"
+
+trait_tourney_participant:2 "Contender"
+
+ trait_adelita_female:0 "Adelita"
+ trait_adelitas_female:0 "Adelitas"
+ trait_adelita_male:0 "Adelito"
+ trait_adelitas_male:0 "Adelitos"
+ 
+ trait_nacido_tricolor: "Nacido Tricolor"
+ trait_born_in_the_tricolor: "Born in the Tricolor"
+ trait_born_in_the_tricolor_desc: "This character has committed the grave crime of being born in the highest echelons of privilege and power."
+ trait_born_in_the_tricolor_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is considered a weak leader due to [ROOT.GetCharacter.GetHerHis] sheltered and prestigious birth."

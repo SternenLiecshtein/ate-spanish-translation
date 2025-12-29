@@ -1,0 +1,31 @@
+﻿l_spanish:
+
+ high_republic.2.t:0 "High Republic, New Order"
+ high_republic.2.desc:0 "As an elected official, my ultimate duty is to the people, to democracy. The most benevolent way to serve the populace, as any good ruler knows, is to make sure the realm stays as stable as possible, while limiting the amount of thinking the masses do regarding their ruler's governance. Thus, it is my responsibility to decide on which form of succession the republic will follow. So, what will it be?"
+
+ high_republic.2.a:0 "Let us get the people going. Populism!"
+ high_republic.2.b:0 "Let us focus on wealth and prosperity. Plutocracy!"
+ high_republic.2.c:0 "Let us keep the powers that be happy. Oligarchy!"
+ high_republic.2.d:0 "Let us maintain stability close to family. Paternalism!"
+ high_republic.2.e:0 "Let us trust the army to guide the republic. Stratocracy!"
+ high_republic.2.f:0 "Let us keep playing our games of power. Cutthroat Politics!"
+ high_republic.2.g:0 "Let us follow the pious. Hierocracy!"
+ high_republic.2.h:0 "Let us trust the bureaucrats and civil servants. Technocracy!"
+ 
+ high_republic.3.t:0 "The fall of a High Republic"
+ high_republic.3.desc:0 "The Republic is gone, and with it the institutions that allowed my family to prosper. While this new society has no place for me, perhaps there's still an option: other places in the world might be interested on hosting such as prosperous, influential family."
+
+ high_republic.3.a:0 "I might lose everything, but you will never take [ROOT.Char.GetPrimaryTitle.GetName] from me!"
+ high_republic.3.b:0 "I've heard [new_liege.GetPrimaryTitle.GetName] is lovely this time of the year..."
+ high_republic.3.c:0 "I've always considered [new_liege.GetPrimaryTitle.GetName] to be like a second home..."
+ high_republic.3.d:0 "The [new_liege.GetFaith.GetAdherentNamePluralNoTooltip] from [new_liege.GetPrimaryTitle.GetName] will welcome my [ROOT.Char.GetFaith.GetAdjective] faith!"
+ high_republic.3.e:0 "The [new_liege.GetCulture.GetCollectiveNounNoTooltip] from [new_liege.GetPrimaryTitle.GetName] shall see us like brothers and sisters!"
+ high_republic.3.f:0 "Perhaps we could blend in the byzantine system government [new_liege.GetPrimaryTitle.GetName]?"
+ high_republic.3.g:0 "This is the perfect opportunity to adventure around the world!"
+
+ high_republic.4.t:0 "The fall of a High Republic"
+ high_republic.4.desc:0 "[ROOT.Char.GetPrimaryTitle.GetName] was traditionally a republic, but the recent events made us question ourselves: what are we, exactly?"
+
+ high_republic.4.a:0 "Our old government only led us to defeat - it's time for a new form of government."
+ high_republic.4.b:0 "We are a High Republic, of course! This minor setback won't affect our values!"
+ 

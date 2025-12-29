@@ -1,0 +1,78 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+#modifiers
+ export_commodity_cochineal_modifier_tier_1:0 "Minor [cochineal|E] Exports"
+ export_commodity_cochineal_modifier_tier_2:0 "Medium [cochineal|E] Exports"
+ export_commodity_cochineal_modifier_tier_3:0 "Major [cochineal|E] Exports"
+ export_commodity_cochineal_modifier_tier_4:0 "Massive [cochineal|E] Exports"
+ export_commodity_cochineal_modifier_tier_5:0 "Endless [cochineal|E] Exports"
+ export_commodity_cochineal_modifier_tier_1_desc:0 "The buyer can't afford a large amount of [cochineal|E]."
+ export_commodity_cochineal_modifier_tier_2_desc:0 "A healthy amount of [cochineal|E] is being sold."
+ export_commodity_cochineal_modifier_tier_3_desc:0 "Supplying enough [cochineal|E] to sustain a proper court!"
+ export_commodity_cochineal_modifier_tier_4_desc:0 "Few courts in the Americas could consume this amount of [cochineal|E]!"
+ export_commodity_cochineal_modifier_tier_5_desc:0 "Who needs THAT much [cochineal|E]!?"
+ 
+ import_commodity_cochineal_modifier_distance_1:0 "Direct [cochineal|E] Imports"
+ import_commodity_cochineal_modifier_distance_2:0 "Nearby [cochineal|E] Imports"
+ import_commodity_cochineal_modifier_distance_3:0 "Distant [cochineal|E] Imports"
+ import_commodity_cochineal_modifier_distance_4:0 "Remote [cochineal|E] Imports"
+ import_commodity_cochineal_modifier_distance_5:0 "Farthest [cochineal|E] Imports"
+ import_commodity_cochineal_modifier_distance_1_desc:0 "Bought directly from the producer, as cheap as it could be!"
+ import_commodity_cochineal_modifier_distance_2_desc:0 "Smells like it's fresh from the source!"
+ import_commodity_cochineal_modifier_distance_3_desc:0 "It isn't cheap, but that's the price of real [cochineal|E]."
+ import_commodity_cochineal_modifier_distance_4_desc:0 "A pretty penny must be spent to get [cochineal|E] all the way here."
+ import_commodity_cochineal_modifier_distance_5_desc:0 "This [cochineal|E] has travelled so far it's worth its weight in gold now."
+#interactions
+ export_commodity_cochineal_interaction:0 "Export [cochineal|E]"
+ export_commodity_cochineal_interaction_desc:0 "Provide [cochineal|E] to a potentially interested buyer."
+ import_commodity_cochineal_interaction:0 "Import [cochineal|E]"
+ import_commodity_cochineal_interaction_desc:0 "Obtain [cochineal|E] from a producer or supplier."
+ cancel_import_commodity_cochineal_interaction:0 "Cancel Import [cochineal|E]"
+ cancel_import_commodity_cochineal_interaction_desc:0 "Stop importing [cochineal|E] from a supplier."
+ cancel_export_commodity_cochineal_interaction:0 "Cancel Export [cochineal|E]"
+ cancel_export_commodity_cochineal_interaction_desc:0 "Stop exporting [cochineal|E] to a buyer."
+#events
+ commodity_cochineal.002.title:0 "[cochineal|E] for sale!"
+ commodity_cochineal.002.desc:0 "[exporter.GetName] has an interesting offer to make: [exporter.GetSheHe] could supply my court with [cochineal|E] if we are interested in letting their merchants in."
+ commodity_cochineal.002.a:0 "Sounds like a deal to me!"
+ commodity_cochineal.002.b:0 "I can't agree with these prices."
+ commodity_cochineal.002.c:0 "Stop talking about [cochineal|E] already!"
+ commodity_cochineal.003.title:0 "[cochineal|E] export deal accepted"
+ commodity_cochineal.003.desc:0 "[importer.GetName] has accepted my proposal!"
+ commodity_cochineal.003.a:0 "They won't regret this purchase!"
+ commodity_cochineal.004.title:0 "[cochineal|E] export deal rejected"
+ commodity_cochineal.004.desc:0 "[importer.GetName] has not accepted my proposal!"
+ commodity_cochineal.004.a:0 "They will regret this decision."
+ commodity_cochineal.005.title:0 "Mercantile Opportunities"
+ commodity_cochineal.005.desc:0 "While I'm visiting [importer.GetCapitalLocation.GetTitle.GetBaseNameNoTier], many other business opportunities other than [cochineal|E] have appeared - the city's market is bustling with exotic wares, and [exporter.GetCapitalLocation.GetTitle.GetBaseNameNoTier] goods seem to have attracted the interest of a good number of local merchants as well."
+ commodity_cochineal.005.a:0 "The more we sell, the better!"
+ commodity_cochineal.005.b:0 "Enough business - I need a rest!"
+ commodity_cochineal.005.c:0 "I'm tired of this place already."
+ commodity_cochineal.export_accepted:0 "My offer to export [cochineal|E] was accepted"
+ commodity_cochineal.export_rejected:0 "My offer to export [cochineal|E] was rejected"
+ 
+ commodity_cochineal.012.title:0 "Merchants in search of [cochineal|E]!"
+ commodity_cochineal.012.desc:0 "[importer.GetName] has an interesting offer to make: [importer.GetSheHe] would like to buy my [cochineal|E] if you allow their merchants in."
+ commodity_cochineal.012.a:0 "Sounds like a deal to me!"
+ commodity_cochineal.012.b:0 "They don't deserve our [cochineal|E]."
+ commodity_cochineal.012.c:0 "No one else deserves our [cochineal|E]!"
+ commodity_cochineal.013.title:0 "[cochineal|E] import deal accepted"
+ commodity_cochineal.013.desc:0 "[exporter.GetName] has accepted my proposal!"
+ commodity_cochineal.013.a:0 "They won't regret this sale!"
+ commodity_cochineal.014.title:0 "[cochineal|E] import deal rejected"
+ commodity_cochineal.014.desc:0 "[exporter.GetName] has not accepted my proposal!"
+ commodity_cochineal.014.a:0 "They will regret this decision."
+ commodity_cochineal.015.title:0 "Mercantile Opportunities"
+ commodity_cochineal.015.desc:0 "While I'm visiting [exporter.GetCapitalLocation.GetTitle.GetBaseNameNoTier], many other business opportunities have appeared - the city's market is bustling with exotic wares, and [importer.GetCapitalLocation.GetTitle.GetBaseNameNoTier] goods seem to have attracted the interest of a good number of local merchants as well."
+ commodity_cochineal.015.a:0 "Buying and selling can both be quite lucrative!"
+ commodity_cochineal.015.b:0 "Enough business - I need a rest!"
+ commodity_cochineal.015.c:0 "I'm tired of this place already."
+ commodity_cochineal.import_accepted:0 "My offer to import [cochineal|E] was accepted"
+ commodity_cochineal.import_rejected:0 "My offer to import [cochineal|E] was rejected"
+ 
+#triggers

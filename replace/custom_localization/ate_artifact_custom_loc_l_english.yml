@@ -1,0 +1,203 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ artifact_charm_of_healing_name:0 "Healing Charm"
+ artifact_charm_of_protection_name:0 "Protection Charm"
+ artifact_charm_of_aligning_name:0 "Aligning Charm"
+ artifact_charm_of_balancing_name:0 "Balancing Charm"
+ artifact_unassuming_charm_name:0 "Unassuming Charm"
+
+ artifact_charm_of_healing_desc:0 "This charm is said to bolster the health of its owner, expediting recovery and fostering vigor."
+ artifact_charm_of_protection_desc:0 "This charm is said to protect its owner from ill omens, both those they stumble into and those sent to block their way."
+ artifact_charm_of_aligning_desc:0 "This charm is said to align the spiritual power of its owner, enhancing their ability to realize their dreams."
+ artifact_charm_of_balancing_desc:0 "This charm is said to center its owner, giving them the balance they need to make it through tumultuous times."
+ artifact_unassuming_charm_desc:0 "Nothing particularly stands out about this charm, which instead stands as a small token of the owner’s beliefs."
+
+ #Socal Guru Statues
+ #Justice
+ #cetic_guru_elton_the_lawgiver:0 "Guru Elton the Lawgiver"
+ #cetic_guru_king:0 "Guru King"
+ #cetic_guru_lincoln:0 "Guru Lincoln"
+ #cetic_guru_moses:0 "Guru Moses"
+ #cetic_guru_kal_el:0 "Guru Kal-El"
+ #Mindfulness
+ #cetic_guru_gautama:0 "Guru Gautama"
+ #cetic_guru_rumi:0 "Guru Rumi"
+ #cetic_guru_laozi:0 "Guru Laozi"
+ #cetic_guru_le_guin:0 "Guru Le Guin"
+ #cetic_guru_yogananda:0 "Guru Yogananda"
+ #Diligence
+ #cetic_guru_confucius:0 "Guru Confucius"
+ #cetic_guru_aurelius:0 "Guru Aurelius"
+ #cetic_guru_muhammad:0 "Guru Muhammad"
+ #cetic_guru_walt:0 "Guru Disney"
+ #cetic_guru_schwarzenegger:0 "Guru Schwarzenegger"
+ #Wisdom
+ #cetic_guru_jobs:0 "Guru Jobs"
+ #cetic_guru_lee:0 "Guru Lee"
+ #cetic_guru_blavatsky:0 "Guru Blavatsky"
+ #cetic_guru_suntzu:0 "Guru Sun Tzu"
+ #cetic_guru_muir:0 "Guru Muir"
+ #Compassion
+ #cetic_guru_jesus:0 "Guru Jesus"
+ #cetic_guru_krishna:0 "Guru Krishna"
+ #cetic_guru_nanak:0 "Guru Nanak"
+ #cetic_guru_gandhi:0 "Guru Gandhi"
+ #cetic_guru_mahavira:0 "Guru Mahavira"
+ #Minor
+ cetic_guru_darwin:0 "Guru Darwin"
+ cetic_guru_sagan:0 "Guru Sagan"
+ cetic_guru_armstrong:0 "Guru Armstrong"
+ cetic_guru_duke_surf:0 "Guru Duke Surf"
+ cetic_guru_lucas:0 "Guru Lucas"
+ cetic_guru_machiavelli:0 "Guru Machiavelli"
+ cetic_guru_rand:0 "Guru Rand"
+ cetic_guru_mulan:0 "Guru Mulan"
+ cetic_guru_wild_stallion_gurus:0 "The Wild Stallion Gurus"
+ cetic_guru_eternal_living_guru:0 "The Eternal Living Guru"
+ #Historical
+ cetic_guru_califa:0 "Queen Califa"
+ cetic_guru_emperor_norton:0 "Emperor Norton the First"
+
+ #Artifact Custom Loc
+
+ ##Religious Art Custom Loc
+
+ artifact_religious_trinket_figurine_catholic_desc:0 "[owner.Custom('RandomCatholicArtTopic')]"
+ artifact_religious_trinket_figurine_protestant_desc:0 "[owner.Custom('RandomProtestantArtTopic')]"
+
+ #Shared Christian
+
+  #Catholic
+    blessed_leibowitz:0 "the Blessed Leibowitz, inking a blueprint."
+    dove_olive:0 "a dove holding an olive branch."
+    jesus:0 "Jesus, serenely watching on."
+    #jesus_divine_mercy:0 ""
+    jesus_sacred_heart:0 "the [Glossary( 'Sacred Heart of Jesus', 'SACRED_HEART_GLOSS')]."
+    mary_guadalupe:0 "the Virgin of Guadalupe, hands clasped together in prayer."
+    mary_aparecida:0 "[Glossary( 'Nossa Senhora da Conceição Aparecida', 'APARECIDA_GLOSS')], the Imperial Crown of Brazil upon her head."
+    mary_heart:0 "the Immaculate Heart of Mary, wrapped in white roses."
+    mary_magdalene:0 "Mary Magadalene, washing the feet of Jesus."
+    saint_francis_assisi:0 "Saint Francis of Assisi, caught up in religious ecstasy."
+    saint_francis_assisi_wolf:0 "Saint Francis of Assisi, shaking the paw of a wolf."
+    saint_francis_xavier:0 "Saint Francis Xavier, holding a cross aloft."
+    saint_jeanne_darc:0 "Saint Jeanne d'Arc, sword and banner aloft."
+    saint_juan_diego:0 "Saint Juan Diego Cuauhtlatoatzin, beholding the image of the Virgin of Guadalupe."
+    saint_kateri:0 "Saint Kateri Tekakwitha, or #italic Lily of the Mohawks#!, a turtle shell in her arms."
+    saint_martin_animals:0 "Saint Martin de Porres, watching over a dog, cat and mouse sharing a meal."
+    saint_martin_broom:0 "Saint Martin de Porres, holding a broom in his hands."
+    saint_rose_lima:0 "Saint Rose of Lima, a silver Crown of Thorns upon her head."
+    saint_ursula:0 "Saint Ursula leading her grand pilgrimage."
+
+
+
+  #Eastern Christian
+    theotokos: "the [Glossary( 'Theotokos', 'THEOTOKOS_GLOSS')]"
+    ladder_heaven: "the Ladder to Heaven"
+    pantokrator: "Christ [Glossary( 'Pantokrator', 'PANTOKRATOR_GLOSS')]"
+    annunciation: "the Annunciation of Archangel Gabriel to the Virgin Mary"
+    saint_peter: "Saint Peter, sternly looking at the observer"
+    saint_paul: "Saint Paul in an austere teaching pose"
+    saint_theodore: "Saint Theodore in full armor"
+    saint_basil: "Saint Basil with his books"
+    moses: "Moses receiving the tablets of the Law from the Burning Bush"
+    archangel_michael: "Archangel Michael defeating Lucifer"
+    crucifixion: "The Crucifixion"
+    
+
+  #Protestant
+    ark:0 "Noah's Ark, framed by a rainbow"
+    billy_graham:0 "Billy Graham the Evangelizer"
+    genesis_1:0 "the verse [Glossary( 'Genesis 1.1', 'GENESIS_1_GLOSS')], laid out in ornate letters"
+    #holy_spirit:0
+    john_316:0 "the verse [Glossary( 'John 3.16', 'JOHN_316_GLOSS')], laid out in ornate letters"
+    john_146:0 "the verse [Glossary( 'John 14.6', 'JOHN_146_GLOSS')], laid out in ornate letters"
+    leonidas_jesus:0 "Emperor Leonidas the First, kneeling before Jesus, his hands outstretched and blessing Leonidas."
+    #leonidas_mlk:0
+    leonidas_sword:0 "Emperor Leonidas the First, holding his blessed blade #italic Jessamine#!"
+    #mlk:0
+    #mlk_dream:0
+    #mlk_mountaintop:0
+    #mlk_martyrdom:0 "the Martydrom of Martin Luther King"
+    pentecost:0 "the day of Pentecost, the disciples speaking in many tongues"
+    rapture:0 "the Rapture, showing countless believers ascending to Heaven"
+    ten_commandments:0 "the Ten Commandments, written in imposing letters"
+
+ #Artistic
+
+  ##Universal Constructivism
+  uc_sun:0 "a gridded pictogram of the Sun, representing universal heat and light."
+  uc_moon:0 "a pictogram of the Moon, representing the passage of time."
+  uc_ship:0 "a pictogram of a ship, representing discovery and exploration."
+  uc_arrow:0 "a pictogram of an arrow, representing purposeful direction."
+  uc_anchor:0 "a pictogram of an anchor, representing stability and order."
+  uc_spiral:0 "a pictogram of a spiral, representing growth and change."
+  uc_human:0 "a universal pictogram of a human being, representing the common humanity in us all."
+
+ #Hindu
+  shiva:0 "Shiva the Destroyer, seated with his third eye open."
+  lakshmi:0 "Lakshmi, sitting atop a lotus with two elephants at her sides."
+  brahma:0 "Lord Brahma, his four faces looking out upon Creation."
+  saraswati:0 "Saraswati, sitting astride a swan, playing her instrument"
+  vishnu:0 "Lord Vishnu, holding a conch shell in his dark-blue hand."
+  parvati:0 "Parvati, holding a trident and lotus flower in her hands."
+  ganesha:0 "Ganesha, his trunk held aloft."
+
+ #Jain
+  rishabhanatha:0 "Rishabhanatha, the first tirthankara, presenting a ceramic bowl to the faithful."
+  ajitanatha:0 "Ajitanatha, the second tirthankara, meditating beneath a Saptaparni tree."
+  dharmanatha:0 "Dharmanatha, the fifteenth tirthankara, his vajra in hand."
+  parsvanatha:0 "Pārśvanātha, the twenty-third tirthankara, a multi-headed cobra fanned out behind his head."
+  mahavira:0 "Mahavira, the twenty-fourth tirthankara, the emblem of a lion clearly visible."
+
+ #Buddhism
+  amida_amituo_fo:0 "[Glossary( 'Āmítuó Fó', 'AMIDA_GLOSS')], meditating on the Pure Land."
+  bodhidharma:0 "Bodhidharma the vagrant, cloaked with his shoes and bag tied to a long staff."
+  daoxuan:0 "Daoxuan, feather quill in hand, transcribing the Sutras"
+  guanyin:0 "Guanyin, clad in flowing robes with the [Glossary( 'Āmítuó Fó', 'AMIDA_GLOSS')] atop her crown."
+  huiyuan:0 "Huiyuan kneeling before [Glossary( 'Āmítuó Fó', 'AMIDA_GLOSS')]"
+  jizang:0 "Master Jizang, his hands closed in prayer."
+  siddhartha_bodhi:0 "Siddhārtha Gautama, meditating beneath the Bodhi Tree."
+  siddhartha_left_palm_outward:0 "Siddhārtha Gautama standing, his left palm facing out, dispelling fear."
+  siddhartha_reclining:0 "Siddhārtha Gautama reclining, his head resting upon his hand."
+  siddhartha_right_palm_outward:0 "Siddhārtha Gautama sitting on a lotus, his right palm facing out as he preaches."
+  subhakarasimha:0 "Subhakarasimha, seated upon a throne, teaching the grand tantra arts"
+  unalome:0 "An [Glossary( 'Unalome', 'UNALOME_GLOSS')], its pattern spiraling upwards"
+  xianshou:0 "Xianshou, his hand resting on his lap in deep meditation."
+  xuanzang:0 "Xuanzang the grand pilgrim, grasping his walking staff in his journey to the distant west."
+  zhiyi:0 "Zhiyi, a ceremonial scepter held in his hand, bringing good fortune to those that behold him."
+
+
+ #Judaism
+
+  art_torah:0 "The Torah, flanked by images of stone columns."
+  art_menorah:0 "A Menorah, the candles leaning towards the central flame."
+  art_lion:0 "A roaring lion, its mane illustrious"
+  art_pomegranates:0 "A bowl of pomegranates."
+  art_squirrel:0 "A squirrel biting into a nut."
+  art_birds:0 "A flock of birds"
+  art_fish:0 "A shoal of fish"
+  art_four_animals:0 "[Glossary( 'The Four Animals', 'FOUR_ANIMALS_GLOSS')]"
+
+ #Rastafari
+
+  haile_selassie:0 "Haile Selassie, dressed in his imperial regalia"
+  king_emmanuel:0 "King Emmanuel Charles, Priest of the Bobo Ashanti faithful"
+  marcus_garvey:0 "Marcus Garvey, prophet of the Rastafari religion"
+  shepherd:0  "A shepherd, tending to their flock of sheep"
+  rasta_broom:0 "A small model of a broom"
+
+ #Placeholder - for Faiths/Religions that need religious art but haven't been given specific options
+
+  high_god_art:0 "[owner.GetFaith.HighGodName]"
+  health_god_art:0 "[owner.GetFaith.HealthGodName]"
+  fertility_god_art:0 "[owner.GetFaith.FertilityGodName]"
+  knowledge_god_art:0 "[owner.GetFaith.KnowledgeGodName]"
+  fate_god_art:0 "[owner.GetFaith.FateGodName]"
+  war_god_art:0 "[owner.GetFaith.WarGodName]"
+  water_god_art:0 "[owner.GetFaith.WaterGodName]"

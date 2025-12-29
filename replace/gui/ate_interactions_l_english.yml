@@ -1,0 +1,11 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ FAITH_DOES_NOT_EXIST_YET:0 "This faith has not yet come into being"
+ INAUSPICIOUS_PAIRING:0 "Inauspicious Astrological Pairing: $VALUE|=+0$"
+ AUSPICIOUS_PAIRING:0 "Auspicious Astrological Pairing: $VALUE|=+0$"
+ VERY_AUSPICIOUS_PAIRING:0 "Extremely Auspicious Astrological Pairing: $VALUE|=+0$"

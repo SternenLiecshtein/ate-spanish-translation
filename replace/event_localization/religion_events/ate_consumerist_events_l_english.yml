@@ -1,0 +1,160 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+#rules
+ rule_consumerist_uprising:0 "Consumerist Uprising"
+ setting_default_consumerist_uprising:0 "Default"
+ setting_default_consumerist_uprising_desc:0 "The Consumerists will rise up after 2750."
+ setting_never_consumerist_uprising:1 "#high Never#!"
+ setting_never_consumerist_uprising_desc:0 "The Consumerists will not rise up."
+ setting_random_consumerist_uprising:1 "#high Random#!"
+ setting_random_consumerist_uprising_desc:0 "The Consumerists will rise up at a random date."
+ 
+ rule_portia_invasions:0 "Portia Invasions"
+ setting_default_portia_invasions:0 "Default"
+ setting_default_portia_invasions_desc:0 "Portia will aggressively launch subjugation wars over the Caribbean."
+ setting_never_portia_invasions:1 "#high Lessened#!"
+ setting_never_portia_invasions_desc:0 "Portia's invasions will be lessened."
+
+#troops
+ first_consumerist_event_troops:0 "The Million Dollar Troopers"
+ second_consumerist_event_troops:0 "The Prophet's Seekers"
+ 
+
+ #events
+ consumerist_uprising.1001.t:0 "Rise of the Consumerists"
+ consumerist_uprising.1001.desc:0 "It seems that a fringe belief is taking hold in [consumerist_county.GetName]. The religious movement calls itself Consumerism, and speaks of needing to unshackle the [Concept('free_market','Free Market')|E] and restore the ritual of [shopping|E].\n\nThe local officials are concerned, but surely a small group of money-worshippers is nothing to fret over?"
+ consumerist_uprising.1001.a:0 "Why would this be of any concern to me?"
+ consumerist_uprising.1001.a.flavor:0 "When has a little cult in the suburbs ever caused trouble for anyone?"
+ consumerist_uprising.1001.b:0 "Let's root this out before it takes proper hold..."
+ consumerist_uprising.1001.b.conversion_tt:0 "If you are already converting the faith in [consumerist_county.GetName], progress may be lost if you choose this option!"
+ consumerist_uprising.1001.player_warning:0 "@warning_icon! #X There is not much time. These zealots will rise within the next two years. This will be settled on the battlefield unless you take drastic action now. #!"
+ consumerist_uprising.1001.c:0 "Let me at least hear them out..."
+ consumerist_uprising.1001.c.flavor:0 "Is it better to rule in [ROOT.Char.GetFaith.NegativeAfterLife] than to serve in [ROOT.Char.GetFaith.PositiveAfterLife]?"
+
+ consumerist_uprising.1002.desc:0 "The religious movement known as Consumerism has sallied forth from their corporate headquarters, intent on "spreading the truth of the [Concept('almighty_dollar','Almighty Dollar')|E] and the Prophet", by force if necessary!\n\nTheir leader, [consumerist_prophet.GetTitledFirstName] comes with an indeterminate history and an unclear future. Frankly, [consumerist_prophet.GetHerHis] insistence on the mystical power of [capital_CON|E] suggests that they must be some sort of raving lunatic. However, [consumerist_prophet.GetSheHe] has now amassed both a strong core of followers and a downright absurd sum of gold. [consumerist_prophet.GetTitledFirstName] has declared [consumerist_prophet.GetHerselfHimself] nothing less than a Prophet!"
+ consumerist_uprising.1002.a:0 "As if this lowly miser poses any threat!"
+ consumerist_uprising.1002.a.target.tt:0 "The Consumerists go to war against you!"
+ consumerist_uprising.1002.a.not_target.tt:0 "The Consumerists go to war against your liege!"
+ consumerist_uprising.1002.b:0 "[consumerist_prophet.GetSheHe|U] has some very good points, actually."
+ consumerist_uprising.1002.b.flavor:0 "I can hardly call myself a worthy faithful..."
+
+ consumerist_uprising.1003.desc:0 "The Consumerists' founder, [consumerist_prophet.GetTitledFirstName], has passed, and with that one would hope that [consumerist_prophet.GetHerHis] movement would be consigned to history. If only we were so lucky.\n\nInstead, a new leader has risen! [consumerist_successor.GetTitledFirstName] has not only held the masses together, [consumerist_successor.GetSheHe] has gathered #EMP more people#! - and #EMP more funding#! - to [consumerist_successor.GetHerHis] banner!"
+ consumerist_uprising.1003.a:0 "These fanatics just keep coming!"
+ consumerist_uprising.1003.a.tt:0 "The Consumerists return, stronger than ever."
+
+ consumerist_uprising.1004.t:0 "Control of Chicago"
+ consumerist_uprising.1004.desc:0 "Once the greatest trade hub of old America, [chicago.GetName] is now under the control of Consumerism, as is right. However, it bears endless heathen influences, the scars of centruies spent away from America's truest faith. My followers are eager to see it remade in the image of the [Concept('almighty_dollar','Almighty Dollar')|E].\n\nIt seems a shame to destroy so many perfectly good palaces and temples, but it might be necessary in order to make good on my ambition to bring prosperity to the Midwest."
+ consumerist_uprising.1004.a:0 "We will build it back as our new, [consumerist.GetAdjective] capital!"
+ consumerist_uprising.1004.b:0 "It would be a shame to destroy so much history..."
+
+ consumerist_uprising.1005.t:0 "For the Love of Money"
+ consumerist_uprising.1005.desc:0 "News has reached me of a new faith, based around the worship of wealth, which has sprung up in the city of Chicago. It seems the local population has been entranced by extravagant celebrations and gifts, financed by its local patron, whose identity is currently unknown. The strange commitment these “Consumerists” have to their ritualized commerce, combined with their peculiar understanding of how the antediluvian world maintained its prosperity, makes them a subject of interest among scholarly circles. While the legitimacy of these beliefs is dismissed by almost everyone, they certainly make for an interesting bit of trivia."
+ consumerist_uprising.1005.a:0 "I doubt much will come of these Old World cultists."
+
+ consumerist_uprising.1006.t:0 "One Thing Leads to Another"
+ consumerist_uprising.1006.desc:0 "It is not difficult to find the clergy of these “Consumerists”. As far back as my records go, they have run their little Mall here in Chicago, giving food and shelter to the unfortunate in times of hardship, and in times of prosperity, throwing gold away to the masses. No matter how many times they have been robbed or persecuted, this tiny community has remained. All that they have ever asked in return for these services is that the faithful “reinvest” that which they receive. Whatever that means, I have no clue. By the end of my visit, I hope that will no longer be the case.\n\nThe interior of this center of commerce, this Mall, is surprisingly barren. When I ask the so-called “Managers”, they speak vaguely of budget cuts and austerity measures. Saving wealth on luxuries to be able to invest more into those that need it most. I ask them why their [Concept('almighty_dollar','Almighty Dollar')|E] is unable to provide for them. They tell me that their highest god is merely part of a greater whole. We all are merely pieces of this larger force they call the [Concept('free_market','Free Market')|E]. They say that the [Concept('dollar_signs','Signs of the Dollar')|E] are mishandled, few and far between, misunderstood, lost and ignored. As I ask more questions, discover more of this little cult, I am beginning to attract a crowd. I feel a strange spell come over me."
+ consumerist_uprising.1006.a:0 "Launching into an impromptu speech, I charm them..."
+ consumerist_uprising.1006.b:0 "My voice dripping with authority, I command them..."
+ consumerist_uprising.1006.c:0 "Analytically sifting the assets, I advise them..."
+ consumerist_uprising.1006.d:0 "With a few sharp statements, I manipulate them..."
+ consumerist_uprising.1006.e:0 "After a set of significant questions, I educate them..."
+
+ consumerist_uprising.1007.t:0 "The Corporate Structure, Part One"
+ consumerist_uprising.1007.desc:0 "My words carry through the otherwise silent Mall. In this moment, I speak of what we value as a community. I see the enthralled faces of the crowd, who hang upon my every syllable. Driven by some uncanny power..."
+ consumerist_uprising.1007.cynical.desc:0 "My words carry through the otherwise silent Mall. The idiots watching me seem to believe every word I say. Egged onward by the enraptured stares of the foolhardy crowd..."
+ consumerist_uprising.1007.a:0 "I extol the virtue of hunting!"
+ consumerist_uprising.1007.b:0 "I impress the need to absolve ourselves through pain!"
+ consumerist_uprising.1007.c:0 "I ask everyone to share in some sacred herbs!"
+ consumerist_uprising.1007.d:0 "I demonstrate the holiness of pregnancy!"
+ consumerist_uprising.1007.e:0 "I delineate the relationship between physical construction and the divine!"
+ consumerist_uprising.1007.f:0 "I show the influences that spirits have upon the world!"
+ consumerist_uprising.1007.g:0 "I clarify the value of individual meditation."
+ consumerist_uprising.1007.h:0 "I unravel the secret sanctity of pure blood!"
+ consumerist_uprising.1007.i:0 "I elucidate the blessedness of arcane practices!"
+ consumerist_uprising.1007.j:0 "I expound the nature of law and order!"
+ consumerist_uprising.1007.k:0 "I describe the changing state of the universe!"
+ consumerist_uprising.1007.l:0 "I explicate the meanings of our stories!"
+ consumerist_uprising.1007.m:0 "I relay my memories of the joy of free love!"
+ consumerist_uprising.1007.n:0 "I present the glorious power of witchcraft!"
+ consumerist_uprising.1007.o:0 "I verify the need to accumulate wealth!"
+
+ consumerist_uprising.1008.t:0 "The Corporate Structure, Part Two"
+ consumerist_uprising.1008.desc:0 "My sermon continues, tracing its way to a new topic. The crowd remains in a state of silent concentration, soaking in my words. As our faith grows, it will come into contact with the outside world. Taking a brief moment to steady myself, I launch into an explanation of how..."
+ consumerist_uprising.1008.cynical.desc:0 "My rant continues, stumbling its way to a new topic. The crowd stares dully at me. If these lies grow, they will come into contact with the outside world. Taking pause to soak in the absurdity and that these rubes really do believe this, I lurch into a lecture on how..."
+ consumerist_uprising.1008.a:0 "We must hold our faithful accountable to our holy leaders!"
+ consumerist_uprising.1008.b:0 "We must capture the holiest places of our religion!"
+ consumerist_uprising.1008.c:0 "We must always strive for greater power!"
+ consumerist_uprising.1008.d:0 "We must trick and manipulate those that deny our truth!"
+ consumerist_uprising.1008.e:0 "We must always be at war with our opponents!"
+ consumerist_uprising.1008.f:0 "We must force the heathens to submit to our rule!"
+ consumerist_uprising.1008.g:0 "We must never back down from a fight!"
+ consumerist_uprising.1008.h:0 "We must be willing to embrace our darkest impulses to defeat our foes!"
+ consumerist_uprising.1008.i:0 "We must never relent in our fight against those that would destroy us!"
+ consumerist_uprising.1008.j:0 "We must transmit our messages through song!"
+ consumerist_uprising.1008.k:0 "We must be unafraid to confront our enemies!"
+ consumerist_uprising.1008.l:0 "We must plunder the wealth of the unbelievers!"
+ consumerist_uprising.1008.m:0 "We must be prepared for an assault from all sides!"
+ consumerist_uprising.1008.n:0 "We must convert using the power of carnal desire!"
+ consumerist_uprising.1008.o:0 "We must never be afraid to intervene in other realms!"
+
+ consumerist_uprising.1009.t:0 "The Corporate Structure, Part Three"
+ consumerist_uprising.1009.desc:0 "Suddenly, the question of gender bursts into my mind. The crowd, as far as I can tell, is entirely made up of men. Is this really the way things should be?"
+ consumerist_uprising.1009.cynical.desc:0 "Eventually, I realize I have not made any statements on gender. These fools seem to be entirely made up of men. Is keeping with the traditions of these simpletons really a good idea?"
+ consumerist_uprising.1009.a:0 "It is time for a complete reversal of prior policy!"
+ consumerist_uprising.1009.b:0 "Consumerism is a place of equal opportunity!"
+ consumerist_uprising.1009.c:0 "Capitalism will always be a boys club!"
+
+ consumerist_uprising.1010.t:0 "The Corporate Structure, Part Four"
+ consumerist_uprising.1010.desc:0 "As I near the end of my sermon, visions of my old faith flash quickly through my mind. Are the practices of Consumerism really all that different from those of [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]? Is it worthwhile to seek out a common understanding between my past and future?"
+ consumerist_uprising.1010.cynical.desc:0 "As my con nears its finish, I remember all that I am giving up by forging this new path. Maybe I should make sure that hostilities between Consumerism and [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] are quelled. Would it be better to keep my options for diplomacy open, or stay the course?"
+ consumerist_uprising.1010.a:0 "[industry|E] is just another name for the [Concept('free_market','Free Market')|E]."
+ consumerist_uprising.1010.b:0 "Providence and the [Concept('free_market','Free Market')|E] are similar entities."
+ consumerist_uprising.1010.c:0 "The message of the Prophet Muhammad is not unlike my own."
+ consumerist_uprising.1010.d:0 "Protestants know that earthly wealth is a sign of divine favor."
+ consumerist_uprising.1010.e:0 "The Pope was onto something with the concept of indulgences."
+ consumerist_uprising.1010.f:0 "Capitalism is the only true religion of America!"
+
+ consumerist_uprising.1011.t:0 "Nobody Does It Better"
+ consumerist_uprising.1011.desc:0 "Finally, after what must have been hours, I stop speaking. Slowly, the crowd errupts into cheers and shouts of praise. Praise for the [Concept('free_market','Free Market')|E], for [shopping|E], for the [Concept('almighty_dollar','Almighty Dollar')|E] and uncounted lesser gods, spirits, saints, and heroes. Above all these other figures, I am praised. I am lifted by the crowd and carried outside. It is a beautiful day, and the people break out into unstoppable celebrations, with myself at the center. Never before, and likely never again, will I feel quite like I do in this moment. Money, food, wine, and people flow around me like water. I am overcome with a warm, but detached appreciation for this singular, perfect instant in time. It is unspeakably energetic. In this moment, I am certain of only one thing:"
+ consumerist_uprising.1011.a:0 "I am the Prophet of Profit!"
+
+ consumerist_uprising.1012.t:0 "Just Dropped In"
+ consumerist_uprising.1012.desc:0 "When I arrive at the epicenter of this "Consumerist" upheaval, I am most shocked by the fervor on display. Throngs of preachers all compete, yelling over each other to spread the same message: it is time for the truth of the [Concept('free_market','Free Market')|E] to the whole of America, and maybe beyond. The central elements seem to be some sort of [shopping|E] ritual, increased economic activity at all levels of society, and the active intervention in other realms to spread this message. As I listen, I find that the crowd begins to envelop me. I am pestered by these zealots on all sides, with them demanding that I convert and lead them in these efforts. My guards are almost at their breaking point as they hold back the crowd, and the cries from the growing mob for my support become louder and louder. I realize that I need to leave now, or else I must embrace these ideas."
+ consumerist_uprising.1012.a:0 "I will be your leader. I will be your Prophet."
+ consumerist_uprising.1012.b:0 "I refuse. I am getting out of here NOW!"
+ consumerist_uprising.1012.player_warning:0 "@warning_icon! #X At this stage, unless you are prepared to retake Chicago from the hands of thousands of these zealots, it would be best to go along with them. #!"
+
+ consumerist_uprising.1013.t:0 "Always Look On The Bright Side Of Life"
+ consumerist_uprising.1013.desc:0 "My voice conjuring strength I can scarcely believe, I shout over the din of the crowd - \n\n "I will lead you all! I will carry out an intervention the likes of which has never been seen!" \n\n The crowd quiets for a moment. Then they break out in celebration, pushing aside my guards like they were not even there. They lift me up, and carry me towards an impromptu feast. However my feelings may evolve on the matter past this moment, right now I feel an enormous sense of fear. Despite my authority, despite my rank, I am subject to something beyond my control. A player in someone else’s game. I am a leaf in a tornado, at the mercy of a horde of zealots who could tear me into a thousand pieces if they desired. No matter what happens next, this will be what I am:"
+ consumerist_uprising.1013.a:0 "I am the Prophet of Profit."
+
+#modifiers
+ consumerist_leader_modifier:0 "Consumerist Leader"
+ rebuilding_chicago_modifier:0 "Rebuilding Chicago"
+ refused_to_rebuild_chicago_modifier:0 "Refused to Rebuild Chicago"
+ consumerist_leader_diplomacy:0 "Prophet's Prestige"
+ consumerist_leader_martial:0 "Prophet's Pack"
+ consumerist_leader_stewardship:0 "Prophet's Property"
+ consumerist_leader_intrigue:0 "Prophet's Presence"
+ consumerist_leader_learning:0 "Prophet's Piety"
+ 
+ #fervor gain
+ fervor_gain_consumerists:0 "Rise of the Consumerists"
+
+ #decisions
+
+ not_hof_tt:0 "Is not the [head_of_faith|E] for any [faith|E]"
+ become_consumerist_prophet_descision_tt1:0 "[capital|E] is $c_chicago$"
+ become_consumerist_prophet_descision_tt2:0 "Has an [education_trait|E] quality of four or more"
+ become_consumerist_prophet_descision_tt3:0 "Is [GetTrait('greedy').GetName( GetNullCharacter )] or [GetTrait('generous').GetName( GetNullCharacter )]"
+
+ become_consumerist_prophet_descision:0 "Patronize the Consumerists"
+ become_consumerist_prophet_decision_desc:0 "With the seat of my realm's power resting in Chicago, I have unique access to a local cult known as "Consumerism". It might be useful to patronize them in order to shore up my power within the city and demonstrate my benevolence as a ruler. Although, I cannot shake this bizarre feeling that if I go, something irrevocable may occur..."
+ become_consumerist_prophet_descision_confirm:0 "Become the Consumerist Prophet!"
+ become_consumerist_prophet_descision_tooltip:0 "Pay the Consumerists a special visit"

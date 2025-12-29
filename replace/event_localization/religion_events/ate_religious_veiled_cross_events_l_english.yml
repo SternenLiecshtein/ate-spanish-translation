@@ -1,0 +1,44 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ reform_veiled_cross_decision:0 "Unveil the Cross"
+ reform_veiled_cross_decision_desc:0 "The $veiled_cross_adj$ faith has long been forced to hide in the shadows, keeping the true faith alive despite the efforts of the devil-worshippers. Now that we have restored the land to Christian rule, a opportunity once thought lost to us has presented itself - to align ourselves with one of the major Catholic forces in North America, or go our own way."
+ reform_veiled_cross_decision_tooltip:0 "Veiled no more!"
+ reform_veiled_cross_decision_confirm:0 "Veiled no more!"
+ reform_veiled_cross_decision.path_maintain:0 "If we keep to the practices developed during our time as crypto-Christians:"
+ reform_veiled_cross_decision.path_conclavian:0 "If we align ourselves with the $catholic$:"
+ reform_veiled_cross_decision.path_ursuline:0 "If we align ourselves with the $ursuline$:"
+ reform_veiled_cross_decision.path_independent:0 "If we go our own way and form our own [head_of_faith|E]:"
+ 
+ ate_religious_decision.216.t:0 "The [ROOT.Char.GetTitleAsNameNoTooltip] and the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Faith"
+ ate_religious_decision.216.desc:1 "For generations, the faithful of the [ROOT.Char.GetFaith.GetNameNoTooltip] have been forced to maintain their veneration of Christ a secret, hiding their true beliefs from pagans and devil-worshippers. Now, however, within [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] society, the cross can be hung without fear, and the name of Christ spoken aloud in the streets instead of whispered in darkened rooms. It is becoming increasingly clear that the days of living in fear are over, and a new age for the Christians of the [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] is dawning.\n\nAs we start to look outwards, two other Catholic traditions stand tall over us - the Conclavians, who claim to possess the Keys of Heaven, and the Ursulines, who hold that only through them can the faith be authentically preserved. Aligning with either of these claimant's to Rome's legacy would greatly bolster our geopolitical standing, at the cost of handing the reins of our faith over to a foreign power. Alternatively, we could revive the ancient position of the Archdiocese of Boston, who shepherded the faithful through the storms of the [Concept('the_event_ate','Event')|E] before its subjugation and dissolution. Then again, the practices we have now have managed to keep our faith alive all these centuries - who is to say they must be altered? The choice is, ultimately, mine to make."
+ 
+ ate_religious_decision.216.a:0 "What we have now has served us well."
+ can_never_reform_veiled_cross_tt:0 "[GetFaithByKey('veiled_cross').GetName] will permanently keep its existing tenets."
+ ate_religious_decision.216.catholic.tt:0 "Every Catholic [vassal|E]"
+ ate_religious_decision.216.noncatholic.tt:0 "Every Non-Catholic [vassal|E]"
+ 
+ ate_religious_decision.216.b:0 "To St. Louis!"
+ ate_religious_decision.216.conclavians_and_friends.tt:0 "Every [vassal|E] of a faith that recognizes the Conclavian Papacy""
+
+ ate_religious_decision.216.c:0 "To Quebec City!"
+ ate_religious_decision.216.ursulines_and_friends.tt:0 "Every [vassal|E] of a faith that recognizes the Ursuline Order"
+
+ ate_religious_decision.216.d:0 "Revive the Archdiocese!"
+
+ ate_religious_decision.217.t:0 "The [veiled_leader.GetTitleAsNameNoTooltip] and the [veiled_leader.GetFaith.GetAdherentNameNoTooltip] Faith"
+ ate_religious_decision.217.desc.intro:0 "For generations, the faithful of the [veiled_leader.GetFaith.GetNameNoTooltip] have been forced to maintain their veneration of Christ a secret, hiding their true beliefs from pagans and devil-worshippers."
+ ate_religious_decision.217.desc.body:0 "Now, however, within [veiled_leader.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] society, the cross can be hung without fear, and the name of Christ spoken aloud in the streets instead of whispered in darkened rooms. It is becoming increasingly clear that the days of living in fear are over, and a new age for the Christians of [veiled_leader.GetPrimaryTitle.GetNameNoTooltip] is dawning.\n\n"
+ ate_religious_decision.217.desc.unchanged:0 "Believing that the ways which helped the faith survive until now are best, [veiled_leader.GetPrimaryTitle.GetTierAsNameNoTooltip] has chosen to codify the faith as it exists presently."
+ ate_religious_decision.217.desc.pro_conclavian:0 "Believing that the Conclavian Papacy is the true heir to Rome, [veiled_leader.GetPrimaryTitle.GetTierAsNameNoTooltip] has chosen to push the clergy to recognize the American lineage of Popes and enter communion with the Conclavians."
+ ate_religious_decision.217.desc.pro_ursuline:0 "Believing that the Order of Saint Ursula was correct in their declaration of the severance of apostolic succession, [veiled_leader.GetPrimaryTitle.GetTierAsNameNoTooltip] has chosen to push the clergy to enter communion with the Ursuline Order."
+ ate_religious_decision.217.desc.independent:0 "Believing that the ancient Archdiocese of Boston is the best steward of the newly-unveiled faith, [veiled_leader.GetPrimaryTitle.GetTierAsNameNoTooltip] has chosen to officially announce the appointment of a new Archbishop."
+ ate_religious_decision.217.desc.righteous:1 "According to a new royal decree, the soon-to-be-established religious leader within the [amazonah_leader.GetPrimaryTitle.GetTierAsNameNoTooltip] will have the authority to exclude sinners, and all those who swear fealty to the [amazonah_leader.GetTitleAsNameNoTooltip] must also swear fealty to [amazonah_leader.GetFaith.HighGodName] himself."
+ ate_religious_decision.217.desc.fundamentalist:0 "Not only is religious pluralism at an end, but any not practicing orthodox [amazonah_leader.GetFaith.GetNameNoTooltip] are necessarily an enemy of the [amazonah_leader.GetPrimaryTitle.GetTierAsNameNoTooltip]. The [amazonah_leader.GetTitleAsNameNoTooltip] seeks to establish [amazonah_leader.GetFaith.GetNameNoTooltip] as a warrior's faith, declaring it the duty of any good [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] to strike at tyrants and fight for their convictions."
+ ate_religious_decision.217.desc.amerindian_syncretism:0 "[amazonah_leader.GetPrimaryTitle.GetTierAsNameNoTooltip] has codified the integration of native Amerindian traditions and even beliefs within the doctrines of [amazonah_leader.GetFaith.GetNameNoTooltip]. This marks offcial theological recognition of syncretism within the faith."
+ ate_religious_decision.217.a:0 "Truly a dark day for [ROOT.Char.GetFaith.GetNameNoTooltip]"
+ ate_religious_decision.217.b:0 "It’s about time!"

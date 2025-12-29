@@ -1,0 +1,62 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ death_ants:0 "fue devorado por las hormigas"
+ death_went_old_world:0 "abdicó por el viejo mundo"
+ death_left_life_entered_history:0 "dejó la vida para quedar en la historia"
+ death_went_on_a_pilgrimage:0 "de fue de peregrinación a una tierra lejana"
+ death_ritually_consumed_killer:0 "fue consumido en un ritual por [TARGET_CHARACTER.GetUIName]"
+ death_venomous_snake_accident:0 "murió en un juego de patata caliente con una serpiente venenosa"
+ death_whale:0 "fue devorado por una ballena"
+ death_knife_juggling:0 "murió en un juego de malabares con cuchillos"
+ death_left_behind:0 "fue abandonado a morir por sus hombres"
+ death_throat_slit:0 "le cortaron el cuello a [CHARACTER.GetHerHis]"
+ death_throat_slit_killer:0 "had [CHARACTER.GetHerHis] throat slit by [TARGET_CHARACTER.GetUIName]"
+ death_disemboweled:0 "was disemboweled"
+ death_disemboweled_killer:0 "was disemboweled by [TARGET_CHARACTER.GetUIName]"
+ death_neck_broken:0 "had [CHARACTER.GetHerHis] neck broken"
+ death_neck_broken_killer:0 "had [CHARACTER.GetHerHis] neck broken by [TARGET_CHARACTER.GetUIName]"
+ death_shot:0 "was shot with an arrow"
+ death_shot_killer:0 "was shot with an arrow by [TARGET_CHARACTER.GetUIName]"
+ death_execution_crossbow:0 "was executed by crossbowmen"
+ death_execution_crossbow_killer:0 "was executed by crossbowmen on the orders of [TARGET_CHARACTER.GetUIName]"
+ death_caffiene:0 "died from a caffeine-induced heart attack"
+ death_jaguar:0 "was killed by a jaguar during a hunt"
+ death_hippo:0 "had a very disastrous encounter with a hippo during a hunt"
+ death_alligator:0 "was killed by an alligator"
+ death_atom:0 "was taken by the Atom"
+ death_killed_by_inca:0 "was slain in battle against the expanding Incan Empire"
+ death_went_to_antarctica: "left to travel to Antarctica"
+ death_bleeder_suspicious:0 "bled to death under suspicious circumstances"
+ death_ate_devils_tower_fall: "fell while climbing [CHARACTER.Custom('devils_tower_bears_lodge')]"
+ death_ate_forced_march_killer: "died during a forced march ordered by [TARGET_CHARACTER.GetUIName]"
+ death_luis_runaway: ""Died of [GetTrait('pneumonic').GetName( CHARACTER.Self )]" while with [CHARACTER.GetHerHis] ex-husband: [GetScriptedCharacterByHistoryID( 'walter_de_arizona' ).GetFullName]. At least according to [GetScriptedCharacterByHistoryID( 'la_cucaracha' ).GetFullName]."
+ 
+ death_ascended_historical:0 "ascended to the stars, never to be seen again"
+ death_bled_banks_historical:0 "bled out on the banks of the Mississippi"
+
+ #Red Death
+ death_red_death:0 "died from the [GetTrait('red_death').GetName( CHARACTER.Self )]"
+ death_influenza:0 "died from a bout of [GetTrait('influenza').GetName( CHARACTER.Self )]"
+ death_marsh_fever:0 "died from a bout of [GetTrait('marsh_fever').GetName( CHARACTER.Self )]"
+
+ #Historical Deaths
+ death_killed_by_mayflower_society:0 "was assassinated by Mayflower rebels in the Ivyland Revolution"
+ death_ambushed_by_forest_gothics:0 "was captured by Gothic tribesmen and dragged into the woods, never to be seen again,"
+ death_sideburns_historical:0 "was killed in an ambush by Americanists during his desperate attempt to take the Big Apple"
+
+ death_battle_sus:0 "murió en combate en circunstancias sospechosas"
+ death_execution_embezzlement:0 "fue enterrado bajo una montaña de oro por malversación de fondos"
+ death_pier_jump:0 "[CHARACTER.GetHerHis] se rompió el cuello al chocar contra una roca sumergida mientras buceaba en un puerto"
+ death_battle_minnesota:0 "murió en combate contra los ejércitos de las Ciudades Gemelas"
+ death_drank_to_death_minnesota:0 "murió de tanto beber en la víspera de una batalla contra los ejércitos de las Ciudades Gemelas"
+ 
+ #Special Executions
+ death_ate_execution_acidic_hotspring: "Fue ejecutado mediante aguas termales ácidas."
+ death_ate_execution_acidic_hotspring_killer: "Fue ejecutado mediante una fuente termal ácida por orden de [TARGET_CHARACTER.GetUINamePossessive]"
+ death_ate_execution_waterfall: "Fue ejecutado mediante una cascada."
+ death_ate_execution_waterfall_killer: "Fue ejecutado mediante una cascada por orden de [TARGET_CHARACTER.GetUINamePossessive]"

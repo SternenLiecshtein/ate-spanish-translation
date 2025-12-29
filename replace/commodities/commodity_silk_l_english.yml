@@ -1,0 +1,78 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+#modifiers
+ export_commodity_silk_modifier_tier_1:0 "Minor [silk|E] Exports"
+ export_commodity_silk_modifier_tier_2:0 "Medium [silk|E] Exports"
+ export_commodity_silk_modifier_tier_3:0 "Major [silk|E] Exports"
+ export_commodity_silk_modifier_tier_4:0 "Massive [silk|E] Exports"
+ export_commodity_silk_modifier_tier_5:0 "Endless [silk|E] Exports"
+ export_commodity_silk_modifier_tier_1_desc:0 "The buyer can't afford a large amount of [silk|E]."
+ export_commodity_silk_modifier_tier_2_desc:0 "A healthy amount of [silk|E] is being sold."
+ export_commodity_silk_modifier_tier_3_desc:0 "Supplying enough [silk|E] to sustain a proper court!"
+ export_commodity_silk_modifier_tier_4_desc:0 "Few courts in the Americas could consume this amount of [silk|E]!"
+ export_commodity_silk_modifier_tier_5_desc:0 "Who needs THAT much [silk|E]!?"
+ 
+ import_commodity_silk_modifier_distance_1:0 "Direct [silk|E] Imports"
+ import_commodity_silk_modifier_distance_2:0 "Nearby [silk|E] Imports"
+ import_commodity_silk_modifier_distance_3:0 "Distant [silk|E] Imports"
+ import_commodity_silk_modifier_distance_4:0 "Remote [silk|E] Imports"
+ import_commodity_silk_modifier_distance_5:0 "Farthest [silk|E] Imports"
+ import_commodity_silk_modifier_distance_1_desc:0 "Bought directly from the producer, as cheap as it could be!"
+ import_commodity_silk_modifier_distance_2_desc:0 "Smells like it's fresh from the source!"
+ import_commodity_silk_modifier_distance_3_desc:0 "It isn't cheap, but that's the price of real [silk|E]."
+ import_commodity_silk_modifier_distance_4_desc:0 "A pretty penny must be spent to get [silk|E] all the way here."
+ import_commodity_silk_modifier_distance_5_desc:0 "This [silk|E] has travelled so far it's worth its weight in gold now."
+#interactions
+ export_commodity_silk_interaction:0 "Export [silk|E]"
+ export_commodity_silk_interaction_desc:0 "Provide [silk|E] to a potentially interested buyer."
+ import_commodity_silk_interaction:0 "Import [silk|E]"
+ import_commodity_silk_interaction_desc:0 "Obtain [silk|E] from a producer or supplier."
+ cancel_import_commodity_silk_interaction:0 "Cancel Import [silk|E]"
+ cancel_import_commodity_silk_interaction_desc:0 "Stop importing [silk|E] from a supplier."
+ cancel_export_commodity_silk_interaction:0 "Cancel Export [silk|E]"
+ cancel_export_commodity_silk_interaction_desc:0 "Stop exporting [silk|E] to a buyer."
+#events
+ commodity_silk.002.title:0 "[silk|E] for sale!"
+ commodity_silk.002.desc:0 "[exporter.GetName] has an interesting offer to make: [exporter.GetSheHe] could supply my court with [silk|E] if we are interested in letting their merchants in."
+ commodity_silk.002.a:0 "Sounds like a deal to me!"
+ commodity_silk.002.b:0 "I can't agree with these prices."
+ commodity_silk.002.c:0 "Stop talking about [silk|E] already!"
+ commodity_silk.003.title:0 "[silk|E] export deal accepted"
+ commodity_silk.003.desc:0 "[importer.GetName] has accepted my proposal!"
+ commodity_silk.003.a:0 "They won't regret this purchase!"
+ commodity_silk.004.title:0 "[silk|E] export deal rejected"
+ commodity_silk.004.desc:0 "[importer.GetName] has not accepted my proposal!"
+ commodity_silk.004.a:0 "They will regret this decision."
+ commodity_silk.005.title:0 "Mercantile Opportunities"
+ commodity_silk.005.desc:0 "While I'm visiting [importer.GetCapitalLocation.GetTitle.GetBaseNameNoTier], many other business opportunities other than [silk|E] have appeared - the city's market is bustling with exotic wares, and [exporter.GetCapitalLocation.GetTitle.GetBaseNameNoTier] goods seem to have attracted the interest of a good number of local merchants as well."
+ commodity_silk.005.a:0 "The more we sell, the better!"
+ commodity_silk.005.b:0 "Enough business - I need a rest!"
+ commodity_silk.005.c:0 "I'm tired of this place already."
+ commodity_silk.export_accepted:0 "My offer to export [silk|E] was accepted"
+ commodity_silk.export_rejected:0 "My offer to export [silk|E] was rejected"
+ 
+ commodity_silk.012.title:0 "Merchants in search of [silk|E]!"
+ commodity_silk.012.desc:0 "[importer.GetName] has an interesting offer to make: [importer.GetSheHe] would like to buy my [silk|E] if you allow their merchants in."
+ commodity_silk.012.a:0 "Sounds like a deal to me!"
+ commodity_silk.012.b:0 "They don't deserve our [silk|E]."
+ commodity_silk.012.c:0 "No one else deserves our [silk|E]!"
+ commodity_silk.013.title:0 "[silk|E] import deal accepted"
+ commodity_silk.013.desc:0 "[exporter.GetName] has accepted my proposal!"
+ commodity_silk.013.a:0 "They won't regret this sale!"
+ commodity_silk.014.title:0 "[silk|E] import deal rejected"
+ commodity_silk.014.desc:0 "[exporter.GetName] has not accepted my proposal!"
+ commodity_silk.014.a:0 "They will regret this decision."
+ commodity_silk.015.title:0 "Mercantile Opportunities"
+ commodity_silk.015.desc:0 "While I'm visiting [exporter.GetCapitalLocation.GetTitle.GetBaseNameNoTier], many other business opportunities have appeared - the city's market is bustling with exotic wares, and [importer.GetCapitalLocation.GetTitle.GetBaseNameNoTier] goods seem to have attracted the interest of a good number of local merchants as well."
+ commodity_silk.015.a:0 "Buying and selling can both be quite lucrative!"
+ commodity_silk.015.b:0 "Enough business - I need a rest!"
+ commodity_silk.015.c:0 "I'm tired of this place already."
+ commodity_silk.import_accepted:0 "My offer to import [silk|E] was accepted"
+ commodity_silk.import_rejected:0 "My offer to import [silk|E] was rejected"
+ 
+#triggers

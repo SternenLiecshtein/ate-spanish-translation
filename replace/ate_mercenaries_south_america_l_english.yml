@@ -1,0 +1,65 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ mercenary_company_place_fc_1:0 "[TITLE.GetNameNoTierNoTooltip] E.C."
+ mercenary_company_place_fc_2:0 "Atlético [CULTURE.GetNameNoTooltip] F.C."
+ mercenary_company_place_fc_3:0 "Tricolor [CULTURE.GetNameNoTooltip] F.C."
+ mercenary_company_place_fc_4:0 "América [CULTURE.GetNameNoTooltip] F.C."
+ mercenary_company_corinthians_fc:0 "Corinthians F.C."
+ mercenary_company_sao_paulo_fc:0 "São Paulo F.C."
+ mercenary_company_palmeiras_fc:0 "Palmeiras F.C."
+ mercenary_company_portuguesa_fc:0 "Portuguesa F.C."
+ mercenary_company_guarani_fc:0 "Guarani F.C."
+ mercenary_company_ponte_preta_fc:0 "Ponte Preta F.C."
+ mercenary_company_xv_fc:0 "XV de [TITLE.GetNameNoTierNoTooltip] F.C."
+ mercenary_company_peoes_1:0 "[TITLE.GetNameNoTierNoTooltip] Peões"
+ mercenary_company_peoes_2:0 "[CULTURE.GetNameNoTooltip] Peões of [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_company_boiadeiros_1:0 "[TITLE.GetNameNoTierNoTooltip] Boiadeiros"
+ mercenary_company_boiadeiros_2:0 "[CULTURE.GetNameNoTooltip] Boiadeiros of [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_company_cavalhada_1:0 "[TITLE.GetNameNoTierNoTooltip] Cavalhada"
+ mercenary_company_cavalhada_2:0 "[CULTURE.GetNameNoTooltip] Cavalhada of [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_company_dojo:0 "[TITLE.GetNameNoTierNoTooltip] Dojo"
+ mercenary_company_academy:0 "[TITLE.GetNameNoTierNoTooltip] Academy"
+ mercenary_company_santos_fc:0 "Santos F.C."
+ mercenary_company_flamengo_fc:0 "Flamengo F.C."
+ mercenary_company_botafogo_fc:0 "Botafogo F.C."
+ mercenary_company_vasco_da_gama_fc:0 "Vasco da Gama F.C."
+ mercenary_company_fluminense_fc:0 "Fluminense F.C."
+ mercenary_company_cruzeiro_fc:0 "Cruzeiro F.C."
+ mercenary_company_america_fc:0 "América de Minas F.C."
+ mercenary_company_cangaceiros_1:0 "Cangaceiro Band of [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_company_cangaceiros_2:0 "[CULTURE.GetNameNoTooltip] Cangaceiros of [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_company_jaguncos_1:0 "[TITLE.GetHolder.GetFirstNameNoTooltip]'s Jagunços of [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_company_jaguncos_2:0 "Jagunço Band of [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_company_names_band_1:0 "[TITLE.GetHolder.GetFirstNameNoTooltip]'s Band"
+ mercenary_company_tusca:0 "TUSCA"
+ mercenary_company_bloco_do_urso:0 "Bear's Block"
+ mercenary_company_bloco_olodum:0 "Olodum Block"
+ mercenary_company_bloco_ara_ketu:0 "Ara Ketu Block"
+ mercenary_company_bloco_eva:0 "Eva's Block"
+ mercenary_company_dawns_rooster:0 "Dawn's Rooster"
+ mercenary_company_garantido:0 "Garantido's Block"
+ mercenary_company_caprichoso:0 "Caprichoso's Block"
+ 
+ mercenary_pauliceia_company:0 "Pauliceia Company"
+ mercenary_company_guardians_of_inconfidence:0 "Guardians of Inconfidence"
+ 
+ mercenary_company_boca_juniors_fc:0 "CA Boca Juniors"
+ mercenary_company_club_atletico_river_plate:0 "CA River Plate"
+ mercenary_company_racing:0 "Racing Club"
+ mercenary_company_san_lorenzo:0 "CA San Lorenzo"
+ mercenary_company_estudiantes:0 "CA Estudiantes"
+ mercenary_company_independiente:0 "CA Independiente"
+
+mercenary_company_penarol_fc:0 "CA Peñarol"
+
+mercenary_company_universidad_catolica_fc:0 "CD Universidad Católica"
+mercenary_company_colocolo_fc:0 "CD Colo-Colo"
+
+mercenary_company_thestrongest_fc:0 "CD The Strongest"
+mercenary_company_emelec_fc:0 "CS Emelec"
+mercenary_company_millonarios_fc:0 "Millonarios FC"

@@ -1,0 +1,4 @@
+﻿l_spanish:
+
+ LEGACY_DYNASTY_ASAWIRA_UNLOCK_DESCRIPTION: "Can recruit [GetMaA('sillakuq').GetName] as [men_at_arms|E]"
+ LEGACY_DYNASTY_ASAWIRA_UNLOCK_DESCRIPTION_WARNING: "#weak Only one regiment of Sillakuq can be recruited (up to Size 5)#!"

@@ -1,0 +1,31 @@
+﻿l_spanish:
+
+
+ rf_pagan:0 "Folkloric"
+ 
+ game_concept_religion_desc:0 "A $game_concept_religion$ can consist of many different denominations, called [faiths|E]. Religions, in turn, belong to one of five larger [religious_families|E]; [GetReligionFamily('rf_abrahamic').GetName], [GetReligionFamily('rf_harmonic').GetName], [GetReligionFamily('rf_amerindian').GetName], [GetReligionFamily('rf_anachronous').GetName] or [GetReligionFamily('rf_pagan').GetName]."
+ game_concept_religious_family_desc:0 "A $game_concept_religious_family$ is a group of [religions|E]. The $game_concept_religious_family$ affects how the various Religions, and [faiths|E] therein, view each other.\n\nThe [GetReligionFamily('rf_abrahamic').GetName] and [GetReligionFamily('rf_anachronous').GetName] Families condone [holy_wars|E] against everyone #weak (including other Abrahamics and Anachronists)#!. Religions are susceptible to [heresy|E].\n\nThe [GetReligionFamily('rf_harmonic').GetName] Family usually only condones Holy Wars against other Religious Families.\n\nThe [GetReligionFamily('rf_pagan').GetName] and [GetReligionFamily('rf_amerindian').GetName] Families condone Holy Wars against everyone, but Faiths within the Religions must be reformed to access them."
+ 
+ tenet_mystical_birthright_desc:0 "Every one of us is born with a destiny, the most important of which is that of the Chosen — those who are selected from birth to wield magical powers and become great spiritual leaders."
+ 
+ 
+ 
+ waldensian:0 "Waldensian Church"
+ waldensian_adj:0 "Waldensian"
+ waldensian_adherent:0 "Waldensian"
+ waldensian_adherent_plural:0 "Waldensians"
+ waldensian_desc:0 "Regarded as the oldest Protestant denomination in all of the Americas, the Waldensians actually predate the Reformation by several centuries. Originally a divergent movement of the Catholic church preaching extreme poverty and rejecting the authority of the priesthood, they willingly joined with the Protestant churches and officially adopted Calvinist theology. Having faced severe persecution in their ancient homeland of Italy, the Waldensians immigrated to Uruguay and the Platine basin in order to practice their faith freely. Despite the turmoils of the merger and migration, the Waldensian Evangelical Church continues its original mission of voluntary poverty, serving the downtrodden and dispossessed of their local communities as part of their calling."
+
+ doctrine_parameter_is_christian_faith_bilateral_loc_override:2 "Considers Christian [faiths|E], and is considered by Christian $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_tenet_christian_syncretism:3 "Non-Christian [faiths|E] with the $tenet_christian_syncretism_name$ tenet are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+
+ doctrine_parameter_hostility_override_special_doctrine_is_islamic_faith:2 ""
+ doctrine_parameter_is_islamic_faith_bilateral_loc_override:0 "Considers Islamic [faiths|E], and is considered by Islamic $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ #doctrine_parameter_is_islamic_faith_ldp: "Considers Islamic [faiths|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" Unneeded, because all possible Islamic doctrines are explained to be hostile via Inspired Principle hosility game concept tool tip.
+ doctrine_parameter_hostility_override_tenet_islamic_syncretism:3 "Non-Islamic [faiths|E] with the $tenet_islamic_syncretism_name$ tenet are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+
+ doctrine_parameter_hostility_override_special_doctrine_is_jewish_faith:2 "Considers Jewish [faiths|E], and is considered by Jewish $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_tenet_jewish_syncretism:3 "Non-Jewish [faiths|E] with the $tenet_jewish_syncretism_name$ tenet are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+
+ FEDAYEEN_REQUIRED_DOCTRINES_TRIGGER: "Requires one of the following [core_tenets|E]:\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_warmonger').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_unrelenting_faith').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_consolamentum').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_armed_pilgrimages').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_struggle_submission').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_pursuit_of_power').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_heroic_stand').GetName( GetPlayer.GetFaith )]"
+

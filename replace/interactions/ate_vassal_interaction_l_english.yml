@@ -1,0 +1,18 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ make_zombie_interaction:0 "Zombify"
+ make_zombie_interaction_desc:0 "Send for a sorcerer to administer a mind-deadening potion to the prisoner, creating a mentally addled zombi. You will anger the family of the prisoner. Being known to employ a sorcerer may also have a negative impact on your reputation."
+ 
+ 
+ 
+ char_interaction.0001.opening.fix:1 "[recipient.Custom2('AppropriateGreeting', ROOT.Char )]"
+
+ pardon_interaction_prestige_desc: "You consider [recipient.GetName] to be a [criminal|E] ([recipient.GetImprisonmentReasons( actor.Self )]), allowing you to [imprison|E] them at any time without gaining [tyranny|E].\n\nIf you would prefer that they remain free, you can choose to pardon them. This will remove any and all reasons you have to [imprison|E] them and increase their [opinion|E] of you, as well as give you prestige due to your traditions."
+ high_republic_titular_title:0 "The primary title is a High Republic titular title"
+ high_republic_titular_title_desc:0 "The primary title is a High Republic titular title"
+ influence_candidacy_interaction_desc: "Spend [influence|E] to promote or undermine a character's candidacy for a title with Appointment succession #help (titles with Elective succession can't be directly influenced, but their candidates can be slandered or promoted)#!"

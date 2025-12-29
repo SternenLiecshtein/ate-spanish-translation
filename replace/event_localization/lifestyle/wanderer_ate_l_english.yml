@@ -1,0 +1,352 @@
+﻿l_spanish:
+#event_localization\lifestyle\wanderer\wanderer_lifestyle_l_spanish.yml
+ #Distant Lands
+ wanderer_lifestyle_events.30.a.arctic: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_arctic').GetName]"
+ wanderer_lifestyle_events.30.a.canada_south: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_canada_south').GetName]"
+ wanderer_lifestyle_events.30.a.us_region: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_us_region').GetName]"
+ wanderer_lifestyle_events.30.a.us_eastern: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_us_eastern').GetName]"
+ wanderer_lifestyle_events.30.a.us_gulf_coast: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_us_gulf_coast').GetName]"
+ wanderer_lifestyle_events.30.a.us_middle: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_us_middle').GetName]"
+ wanderer_lifestyle_events.30.a.us_great_plains: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_us_great_plains').GetName]"
+ wanderer_lifestyle_events.30.a.us_texas: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_us_texas').GetName]"
+ wanderer_lifestyle_events.30.a.us_western: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_us_western').GetName]"
+ wanderer_lifestyle_events.30.a.us_rockies: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_us_rockies').GetName]"
+ wanderer_lifestyle_events.30.a.mexico_region: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_mexico_region').GetName]"
+ wanderer_lifestyle_events.30.a.mexico_yucatan: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_mexico_yucatan').GetName]"
+ wanderer_lifestyle_events.30.a.caribbean_basin: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_caribbean_basin').GetName]"
+ wanderer_lifestyle_events.30.a.caribbean: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_caribbean').GetName]"
+ wanderer_lifestyle_events.30.a.south_america_guyanas: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_south_america_guyanas').GetName]"
+ wanderer_lifestyle_events.30.a.brazil_region: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_brazil_region').GetName]"
+ wanderer_lifestyle_events.30.a.south_america_amazon: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_south_america_amazon').GetName]"
+ wanderer_lifestyle_events.30.a.brazil_nordeste: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_brazil_nordeste').GetName]"
+ wanderer_lifestyle_events.30.a.brazil_sudeste: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_brazil_sudeste').GetName]"
+ wanderer_lifestyle_events.30.a.greater_andes: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_greater_andes').GetName]"
+ wanderer_lifestyle_events.30.a.south_america_andes: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_south_america_andes').GetName]"
+ wanderer_lifestyle_events.30.a.south_america_patagonia: "You may gain extra [wanderer_lifestyle|E] Experience or [stress_loss|E] if you [travel|E] through [GetGeographicalRegion('world_south_america_patagonia').GetName]"
+
+ DistantLandsArctic1: "caribou"
+ DistantLandsArctic2: "walrus"
+ DistantLandsArctic3: "arctic fox"
+ DistantLandsArctic4: "wolverine"
+ DistantLandsCanadaSouth1: "lynx"
+ DistantLandsCanadaSouth2: "moose"
+ DistantLandsCanadaSouth3: "large flying squirrel"
+ DistantLandsCanadaSouth4: "grey wolf"
+ DistantLandsUSRegion1: "bald eagle"
+ DistantLandsUSEastern1: "assapan"
+ DistantLandsUSGulfCoast1: "alligator"
+ DistantLandsUSMiddle1: "bison"
+ DistantLandsUSMiddle2: "prairie dog"
+ DistantLandsUSGreatPlains1: "antelope"
+ DistantLandsUSTexas1: "chital"
+ DistantLandsUSTexas2: "guineafowl"
+ DistantLandsUSWestern1: "elk"
+ DistantLandsUSWestern2: "condor"
+ DistantLandsUSWestern3: "pika"
+ DistantLandsUSRockies1: "mustang"
+ DistantLandsMexicoRegion1: "ringtail"
+ DistantLandsMexicoYucatan1: "cacomistle"
+ DistantLandsCaribbeanBasin1: "crocodile"
+ DistantLandsCaribbeanBasin2: "frigatebird"
+ DistantLandsCaribbean1: "tody"
+ DistantLandsGuyanas1: "golden-faced saki"
+ DistantLandsBrazilRegion1: "giant otter"
+ DistantLandsBrazilRegion2: "green anaconda"
+ DistantLandsBrazilRegion3: "tamandua"
+ DistantLandsAmazon1: "pygmy marmoset"
+ DistantLandsAmazon2: "uakari"
+ DistantLandsBrazilNordeste1: "golden capuchin" #amalgamation of various yellowish capuchins, which seem clustered in Nordeste for some reason
+ DistantLandsBrazilSudeste1: "muriqui"
+ DistantLandsGreaterAndes1: "viscacha"
+ DistantLandsAndes1: "condor"
+ DistantLandsAndes2: "vicuña"
+ DistantLandsAndes3: "culpeo"
+ DistantLandsPatagonia1: "guanaco"
+ DistantLandsPatagonia2: "mara"
+ DistantLandsPatagonia3: "penguin"
+ DistantLandsPatagonia4: "culpeo"
+
+ # If they are using "solitary" in the group section, then just use the singular for them
+ DistantLandsArctic1_plural: "caribou" #caribou
+ DistantLandsArctic2_plural: "walruses" #walrus
+ DistantLandsArctic3_plural: "$DistantLandsArctic3$" #arctic fox
+ DistantLandsArctic4_plural: "$DistantLandsArctic4$" #wolverine
+ DistantLandsCanadaSouth1_plural: "$DistantLandsCanadaSouth1$" #lynx
+ DistantLandsCanadaSouth2_plural: "$DistantLandsCanadaSouth2$" #moose
+ DistantLandsCanadaSouth3_plural: "$DistantLandsCanadaSouth3$" #large flying squirrel
+ DistantLandsCanadaSouth4_plural: "grey wolves" #grey wolf
+ DistantLandsUSRegion1_plural: "$DistantLandsUSRegion1$" #bald eagle
+ DistantLandsUSEastern1_plural: "$DistantLandsUSEastern1$" #assapan
+ DistantLandsUSGulfCoast1_plural: "alligators" #alligator
+ DistantLandsUSMiddle1_plural: "bison" #bison
+ DistantLandsUSMiddle2_plural: "prairie dogs" #prairie dog
+ DistantLandsUSGreatPlains1_plural: "antelopes" #antelope
+ DistantLandsUSTexas1_plural: "chital" #chital
+ DistantLandsUSTexas2_plural: "guineafowl" #guineafowl
+ DistantLandsUSWestern1_plural: "elk" #elk
+ DistantLandsUSWestern2_plural: "condors" #condor
+ DistantLandsUSWestern3_plural: "oikas" #pika
+ DistantLandsUSRockies1_plural: "mustangs" #mustang
+ DistantLandsMexicoRegion1_plural: "$DistantLandsMexicoRegion1$" #ringtail
+ DistantLandsMexicoYucatan1_plural: "$DistantLandsMexicoYucatan1$" #cacomistle
+ DistantLandsCaribbeanBasin1_plural: "crocodiles" #crocodile
+ DistantLandsCaribbeanBasin2_plural: "frigatebirds" #frigatebird
+ DistantLandsCaribbean1_plural: "todies" #tody
+ DistantLandsGuyanas1_plural: "golden-faced sakis" #golden-faced saki
+ DistantLandsBrazilRegion1_plural: "giant otters" #giant otter
+ DistantLandsBrazilRegion2_plural: "$DistantLandsBrazilRegion2$" #green anaconda
+ DistantLandsBrazilRegion3_plural: "$DistantLandsBrazilRegion3$" #tamandua
+ DistantLandsAmazon1_plural: "pygmy marmosets" #pygmy marmoset
+ DistantLandsAmazon2_plural: "uakaris" #uakari
+ DistantLandsBrazilNordeste1_plural: "golden capuchins" #golden capuchin
+ DistantLandsBrazilSudeste1_plural: "muriquis" #muriqui
+ DistantLandsGreaterAndes1_plural: "viscachas" #viscacha
+ DistantLandsAndes1_plural: "condors" #condor
+ DistantLandsAndes2_plural: "vicuñas" #vicuña
+ DistantLandsAndes3_plural: "$DistantLandsAndes3$" #culpeo
+ DistantLandsPatagonia1_plural: "guanacos" #guanaco
+ DistantLandsPatagonia2_plural: "maras" #mara
+ DistantLandsPatagonia3_plural: "penguins" #penguin
+ DistantLandsPatagonia4_plural: "$DistantLandsPatagonia4$" #culpeo
+
+ DistantLandsArctic1_group: "large herd of" #caribou
+ DistantLandsArctic2_group: "large herd of" #walrus
+ DistantLandsArctic3_group: "solitary" #arctic fox
+ DistantLandsArctic4_group: "solitary" #wolverine
+ DistantLandsCanadaSouth1_group: "solitary" #lynx
+ DistantLandsCanadaSouth2_group: "solitary" #moose
+ DistantLandsCanadaSouth3_group: "solitary" #large flying squirrel
+ DistantLandsCanadaSouth4_group: "small pack of" #grey wolf
+ DistantLandsUSRegion1_group: "solitary" #bald eagle
+ DistantLandsUSEastern1_group: "solitary" #assapan
+ DistantLandsUSGulfCoast1_group: "cluster of" #alligator
+ DistantLandsUSMiddle1_group: "small herd of" #bison
+ DistantLandsUSMiddle2_group: "colony of" #prairie dog
+ DistantLandsUSGreatPlains1_group: "large herd of" #antelope
+ DistantLandsUSTexas1_group: "small herd of" #chital
+ DistantLandsUSTexas2_group: "colony of" #guineafowl
+ DistantLandsUSWestern1_group: "large herd of" #elk
+ DistantLandsUSWestern2_group: "cluster of" #condor
+ DistantLandsUSWestern3_group: "colony of" #pika
+ DistantLandsUSRockies1_group: "large herd of" #mustang
+ DistantLandsMexicoRegion1_group: "solitary" #ringtail
+ DistantLandsMexicoYucatan1_group: "solitary" #cacomistle
+ DistantLandsCaribbeanBasin1_group: "cluster of" #crocodile
+ DistantLandsCaribbeanBasin2_group: "colony of" #frigatebird
+ DistantLandsCaribbean1_group: "cluster of" #tody
+ DistantLandsGuyanas1_group: "troop of" #golden-faced saki
+ DistantLandsBrazilRegion1_group: "family of" #giant otter
+ DistantLandsBrazilRegion2_group: "solitary" #green anaconda
+ DistantLandsBrazilRegion3_group: "solitary" #tamandua
+ DistantLandsAmazon1_group: "troop of" #pygmy marmoset
+ DistantLandsAmazon2_group: "troop of" #uakari
+ DistantLandsBrazilNordeste1_group: "troop of" #golden capuchin
+ DistantLandsBrazilSudeste1_group: "troop of" #muriqui
+ DistantLandsGreaterAndes1_group: "colony of" #viscacha
+ DistantLandsAndes1_group: "cluster of" #condor
+ DistantLandsAndes2_group: "large herd of" #vicuña
+ DistantLandsAndes3_group: "solitary" #culpeo
+ DistantLandsPatagonia1_group: "large herd of" #guanaco
+ DistantLandsPatagonia2_group: "cluster of" #mara
+ DistantLandsPatagonia3_group: "colony of" #penguin
+ DistantLandsPatagonia4_group: "solitary" #culpeo
+
+ DistantLandsHerdAnimalActivity: "grazing quietly in the distance"
+ DistantLandsForageAnimalActivity: "foraging among the plants"
+ DistantLandsWatchAnimalActivity: "watching the group from afar"
+ DistantLandsBurrowAnimalActivity: "scurrying away and trying to hide underground as we approach"
+ DistantLandsFlyAnimalActivity: "flying overhead"
+ DistantLandsSleepAnimalActivity: "sleeping in the sun and not paying my group any attention"
+ DistantLandsGroomAnimalActivity: "grooming each other calmly"
+ DistantLandsArctic1_activity: "$DistantLandsHerdAnimalActivity$" #caribou
+ DistantLandsArctic2_activity: "$DistantLandsSleepAnimalActivity$" #walrus
+ DistantLandsArctic3_activity: "$DistantLandsSleepAnimalActivity$" #arctic fox
+ DistantLandsArctic4_activity: "$DistantLandsSleepAnimalActivity$" #wolverine
+ DistantLandsCanadaSouth1_activity: "$DistantLandsWatchAnimalActivity$" #lynx
+ DistantLandsCanadaSouth2_activity: "$DistantLandsWatchAnimalActivity$" #moose
+ DistantLandsCanadaSouth3_activity: "$DistantLandsForageAnimalActivity$" #large flying squirrel
+ DistantLandsCanadaSouth4_activity: "hunting prey" #grey wolf
+ DistantLandsUSRegion1_activity: "$DistantLandsFlyAnimalActivity$" #bald eagle
+ DistantLandsUSEastern1_activity: "$DistantLandsForageAnimalActivity$" #assapan
+ DistantLandsUSGulfCoast1_activity: "basking in the shallows" #alligator
+ DistantLandsUSMiddle1_activity: "$DistantLandsHerdAnimalActivity$" #bison
+ DistantLandsUSMiddle2_activity: "$DistantLandsBurrowAnimalActivity$" #prairie dog
+ DistantLandsUSGreatPlains1_activity: "$DistantLandsHerdAnimalActivity$" #antelope
+ DistantLandsUSTexas1_activity: "$DistantLandsHerdAnimalActivity$" #chital
+ DistantLandsUSTexas2_activity: "running in the distance" #guineafowl
+ DistantLandsUSWestern1_activity: "$DistantLandsHerdAnimalActivity$" #elk
+ DistantLandsUSWestern2_activity: "$DistantLandsFlyAnimalActivity$" #condor
+ DistantLandsUSWestern3_activity: "$DistantLandsBurrowAnimalActivity$" #pika
+ DistantLandsUSRockies1_activity: "running in the distance" #mustang
+ DistantLandsMexicoRegion1_activity: "$DistantLandsForageAnimalActivity$" #ringtail
+ DistantLandsMexicoYucatan1_activity: "$DistantLandsForageAnimalActivity$" #cacomistle
+ DistantLandsCaribbeanBasin1_activity: "basking in the shallows" #crocodile
+ DistantLandsCaribbeanBasin2_activity: "$DistantLandsFlyAnimalActivity$" #frigatebird
+ DistantLandsCaribbean1_activity: "$DistantLandsFlyAnimalActivity$" #tody
+ DistantLandsGuyanas1_activity: "$DistantLandsGroomAnimalActivity$" #golden-faced saki
+ DistantLandsBrazilRegion1_activity: "squeaking and whistling" #giant otter
+ DistantLandsBrazilRegion2_activity: "sneaking through the undergrowth" #green anaconda
+ DistantLandsBrazilRegion3_activity: "$DistantLandsForageAnimalActivity$" #tamandua
+ DistantLandsAmazon1_activity: "$DistantLandsGroomAnimalActivity$" #pygmy marmoset
+ DistantLandsAmazon2_activity: "$DistantLandsGroomAnimalActivity$" #uakari
+ DistantLandsBrazilNordeste1_activity: "$DistantLandsGroomAnimalActivity$" #golden capuchin
+ DistantLandsBrazilSudeste1_activity: "$DistantLandsGroomAnimalActivity$" #muriqui
+ DistantLandsGreaterAndes1_activity: "$DistantLandsBurrowAnimalActivity$" #viscacha
+ DistantLandsAndes1_activity: "$DistantLandsFlyAnimalActivity$" #condor
+ DistantLandsAndes2_activity: "$DistantLandsHerdAnimalActivity$" #vicuña
+ DistantLandsAndes3_activity: "$DistantLandsSleepAnimalActivity$" #culpeo
+ DistantLandsPatagonia1_activity: "$DistantLandsHerdAnimalActivity$" #guanaco
+ DistantLandsPatagonia2_activity: "$DistantLandsBurrowAnimalActivity$" #mara
+ DistantLandsPatagonia3_activity: "waddling in the distance" #penguin
+ DistantLandsPatagonia4_activity: "$DistantLandsSleepAnimalActivity$" #culpeo
+
+ DistantLandsArctic1_description: "dark, think coats, and huge antlers" #caribou
+ DistantLandsArctic2_description: "fat, wrinkley bodies, flippers, and prominent tusks" #walrus
+ DistantLandsArctic3_description: "a fluffy tail and small, pointed ears" #arctic fox
+ DistantLandsArctic4_description: "a long, muscular body and sharp claws" #wolverine
+ DistantLandsCanadaSouth1_description: "tufted ears and cheeks out of a dark, fluffy coat" #lynx
+ DistantLandsCanadaSouth2_description: "a large, imposing frame and broad antlers" #moose
+ DistantLandsCanadaSouth3_description: "webbed limbs to glide with, and short brown fur" #large flying squirrel
+ DistantLandsCanadaSouth4_description: "muscular bodies and fluffy coats, built like wild dogs" #grey wolf
+ DistantLandsUSRegion1_description: "a broad wingspan and a regal bearing" #bald eagle
+ DistantLandsUSEastern1_description: "webbed limbs to glide with, and short greyish fur" #assapan
+ DistantLandsUSGulfCoast1_description: "long, flat bodies, powerful jaws, and dark olive armor" #alligator
+ DistantLandsUSMiddle1_description: "dark thick fur, a robust body, and a large head" #bison
+ DistantLandsUSMiddle2_description: "squat, tan bodies with short tails" #prairie dog
+ DistantLandsUSGreatPlains1_description: "an elegant frame, long legs, and curved horns" #antelope
+ DistantLandsUSTexas1_description: "a slender body with a red, spotted coat" #chital
+ DistantLandsUSTexas2_description: "a round, spotted body and featherless, bright blue head" #guineafowl
+ DistantLandsUSWestern1_description: "a large, imposing frame and forked antlers" #elk
+ DistantLandsUSWestern2_description: "a broad wingspan and black feathers, with a white collar" #condor
+ DistantLandsUSWestern3_description: "a small size, rounded ears, and a dense coat" #pika
+ DistantLandsUSRockies1_description: "flowing manes and strong limbs" #mustang
+ DistantLandsMexicoRegion1_description: "a masked face and white striped tail" #ringtail
+ DistantLandsMexicoYucatan1_description: "a slender body with a long, white striped tail" #cacomistle
+ DistantLandsCaribbeanBasin1_description: "a long, flat body, powerful jaws, and greyish-green armor" #crocodile
+ DistantLandsCaribbeanBasin2_description: "a huge, inflatable red sac on the neck" #frigatebird
+ DistantLandsCaribbean1_description: "small bodies with vibrant, colorful plumage, green at the head and red at the throat" #tody
+ DistantLandsGuyanas1_description: "a muscular body covered in dark hair, with a golden face" #golden-faced saki
+ DistantLandsBrazilRegion1_description: "dense, thick fur lining a huge, slender body" #giant otter
+ DistantLandsBrazilRegion2_description: "an enormous and muscular green body with dark spots" #green anaconda
+ DistantLandsBrazilRegion3_description: "a long, narrow snout and pointed toes" #tamandua
+ DistantLandsAmazon1_description: "remarkably puny frames, with stubby limbs and a very long tail" #pygmy marmoset
+ DistantLandsAmazon2_description: "long, blond hair and bright crimson faces" #uakari
+ DistantLandsBrazilNordeste1_description: "golden hair, with small, nimble bodies and a long tail" #golden capuchin
+ DistantLandsBrazilSudeste1_description: "large, flexible frames and a prehensile tail" #muriqui
+ DistantLandsGreaterAndes1_description: "long, fuzzy ears and a coiled tail" #viscacha
+ DistantLandsAndes1_description: "a broad wingspan and black feathers, with a white collar" #condor
+ DistantLandsAndes2_description: "long legs, a longer neck, and a fine coat over a delicate body" #vicuña
+ DistantLandsAndes3_description: "a small, nimble build and a grizzled reddish coat" #culpeo
+ DistantLandsPatagonia1_description: "a cinnamon coloration, and long legs" #guanaco
+ DistantLandsPatagonia2_description: "long, slender limbs and a narrow head with long ears" #mara
+ DistantLandsPatagonia3_description: "long, flipper-like wings extending from black and white banded plumage" #penguin
+ DistantLandsPatagonia4_description: "a small, nimble build and a grizzled reddish coat" #culpeo
+
+ DistantLandsArctic1_terrain: "the tundra" #caribou
+ DistantLandsArctic2_terrain: "the tundra" #walrus
+ DistantLandsArctic3_terrain: "the tundra" #arctic fox
+ DistantLandsArctic4_terrain: "the tundra" #wolverine
+ DistantLandsCanadaSouth1_terrain: "a forest" #lynx
+ DistantLandsCanadaSouth2_terrain: "a forest" #moose
+ DistantLandsCanadaSouth3_terrain: "a forest" #large flying squirrel
+ DistantLandsCanadaSouth4_terrain: "a forest" #grey wolf
+ DistantLandsUSRegion1_terrain: "the hills" #bald eagle
+ DistantLandsUSEastern1_terrain: "a forest" #assapan
+ DistantLandsUSGulfCoast1_terrain: "a marsh" #alligator
+ DistantLandsUSMiddle1_terrain: "the prairie" #bison
+ DistantLandsUSMiddle2_terrain: "the prairie" #prairie dog
+ DistantLandsUSGreatPlains1_terrain: "the prairie" #antelope
+ DistantLandsUSTexas1_terrain: "the prairie" #chital
+ DistantLandsUSTexas2_terrain: "the prairie" #guineafowl
+ DistantLandsUSWestern1_terrain: "the mountains" #elk
+ DistantLandsUSWestern2_terrain: "the mountains" #condor
+ DistantLandsUSWestern3_terrain: "the mountains" #pika
+ DistantLandsUSRockies1_terrain: "the mountains" #mustang
+ DistantLandsMexicoRegion1_terrain: "the plains" #ringtail
+ DistantLandsMexicoYucatan1_terrain: "a jungle" #cacomistle
+ DistantLandsCaribbeanBasin1_terrain: "a marsh" #crocodile
+ DistantLandsCaribbeanBasin2_terrain: "a marsh" #frigatebird
+ DistantLandsCaribbean1_terrain: "the hills" #tody
+ DistantLandsGuyanas1_terrain: "the jungle" #golden-faced saki
+ DistantLandsBrazilRegion1_terrain: "a jungle" #giant otter
+ DistantLandsBrazilRegion2_terrain: "a jungle" #green anaconda
+ DistantLandsBrazilRegion3_terrain: "a jungle" #tamandua
+ DistantLandsAmazon1_terrain: "the jungle" #pygmy marmoset
+ DistantLandsAmazon2_terrain: "the jungle" #uakari
+ DistantLandsBrazilNordeste1_terrain: "a forest" #golden capuchin
+ DistantLandsBrazilSudeste1_terrain: "a forest" #muriqui
+ DistantLandsGreaterAndes1_terrain: "the hills" #viscacha
+ DistantLandsAndes1_terrain: "the mountains" #condor
+ DistantLandsAndes2_terrain: "the mountains" #vicuña
+ DistantLandsAndes3_terrain: "the mountains" #culpeo
+ DistantLandsPatagonia1_terrain: "the steppe" #guanaco
+ DistantLandsPatagonia2_terrain: "the steppe" #mara
+ DistantLandsPatagonia3_terrain: "the steppe" #penguin
+ DistantLandsPatagonia4_terrain: "the steppe" #culpeo
+
+ DistantLandsRegionArctic: "the Arctic"
+ DistantLandsRegionCanadaSouth: "the Provinces"
+ DistantLandsRegionUSRegion: "Old America"
+ DistantLandsRegionUSEastern: "the Eastern States"
+ DistantLandsRegionUSGulfCoast: "the Gulf Coast"
+ DistantLandsRegionUSMiddle: "Middle America"
+ DistantLandsRegionUSGreatPlains: "the Great Plains"
+ DistantLandsRegionUSTexas: "Texas"
+ DistantLandsRegionUSWestern: "the Western States"
+ DistantLandsRegionUSRockies: "the Rocky Mountains"
+ DistantLandsRegionMexicoRegion: "Old Mexico"
+ DistantLandsRegionMexicoYucatan: "the Yucatan"
+ DistantLandsRegionCaribbeanBasin: "the Carribean Sea"
+ DistantLandsRegionCaribbean: "the West Indies"
+ DistantLandsRegionGuyanas: "the Guyanas"
+ DistantLandsRegionBrazilRegion: "the Brazilian Sphere"
+ DistantLandsRegionAmazon: "the Amazon Basin"
+ DistantLandsRegionBrazilNordeste: "Northeastern Brazil"
+ DistantLandsRegionBrazilSudeste: "Southeastern Brazil"
+ DistantLandsRegionGreaterAndes: "the Greater Andes"
+ DistantLandsRegionAndes: "the Andes"
+ DistantLandsRegionPatagonia: "Patagonia"
+
+ ### Designated Terrain Decision
+ forest_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@forest! Forests\n$EFFECT_LIST_BULLET$@jungle! Jungles\n$EFFECT_LIST_BULLET$@taiga! Taiga\n$EFFECT_LIST_BULLET$@wetlands! Wetlands\n$EFFECT_LIST_BULLET$@deep_jungle! Deep Jungle\n$EFFECT_LIST_BULLET$@flooded_forests! Flooded Forests"
+ mountain_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@mountains! Mountains\n$EFFECT_LIST_BULLET$@hills! Hills\n$EFFECT_LIST_BULLET$@desert_mountains! Desert Mountains\n$EFFECT_LIST_BULLET$@arctic! Arctic"
+ plains_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@plains! Plains\n$EFFECT_LIST_BULLET$@steppe! Steppe\n$EFFECT_LIST_BULLET$@farmlands! Farmlands\n$EFFECT_LIST_BULLET$@floodplains! Floodplains\n$EFFECT_LIST_BULLET$@tundra! Tundra"
+ drylands_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@desert! Deserts\n$EFFECT_LIST_BULLET$@drylands! Drylands\n$EFFECT_LIST_BULLET$@oasis! Oasis\n$EFFECT_LIST_BULLET$@salt_flats! Salt Flats"
+
+ ### Master Terrain Decision
+ master_terrain_deep_jungle_decision: "Deep Jungle"
+ master_terrain_deep_jungle_terrain_tooltip: ""
+ master_terrain_flooded_forests_decision: "Flooded Forests"
+ master_terrain_flooded_forests_terrain_tooltip: ""
+ master_terrain_arctic_decision: "Arctic"
+ master_terrain_arctic_terrain_tooltip: ""
+ master_terrain_tundra_decision: "Tundra"
+ master_terrain_tundra_terrain_tooltip: ""
+ master_terrain_salt_flats_decision: "Salt Flats"
+ master_terrain_salt_flats_terrain_tooltip: ""
+
+ master_terrain_deep_jungle_modifier: "$master_of_terrain_modifier$ #weak (Deep Jungle)#!"
+ master_terrain_flooded_forests_modifier: "$master_of_terrain_modifier$ #weak (Flooded Forests)#!"
+ master_terrain_arctic_modifier: "$master_of_terrain_modifier$ #weak (Arctic)#!"
+ master_terrain_tundra_modifier: "$master_of_terrain_modifier$ #weak (Tundra)#!"
+ master_terrain_salt_flats_modifier: "$master_of_terrain_modifier$ #weak (Salt Flats)#!"
+
+ master_terrain_custom_tooltip_deep_jungle: "@deep_jungle! Deep Jungle $master_terrain_custom_tooltip_short_is$"
+ master_terrain_custom_tooltip_flooded_forests: "@flooded_forests! Flooded Forests $master_terrain_custom_tooltip_short_are$"
+ master_terrain_custom_tooltip_arctic: "@arctic! Arctic $master_terrain_custom_tooltip_short_is$"
+ master_terrain_custom_tooltip_tundra: "@tundra! Tundra $master_terrain_custom_tooltip_short_is$"
+ master_terrain_custom_tooltip_salt_flats: "@salt_flats! Salt Flats $master_terrain_custom_tooltip_short_are$"
+
+#event_localization\lifestyle\wanderer\destination_l_spanish.yml
+#Destination
+ DestinationInspiredLanguageDescriptorBeautiful: "beautiful"
+ DestinationInspiredLanguageDescriptorEnticing: "enticing"
+ DestinationInspiredLanguageDescriptorEntrancing: "entrancing"
+ DestinationInspiredLanguageDescriptorMelodious: "melodious"
+ DestinationInspiredLanguageDescriptorMusical: "musical"
+ DestinationInspiredLanguageDescriptorPoetic: "poetic"
+ DestinationInspiredLanguageDescriptorRomantic: "romantic"
+ DestinationInspiredLanguageDescriptorUnforgettable: "unforgettable"
+ DestinationInspiredLanguageDescriptorUnique: "unique"
+ DestinationInspiredLanguageDescriptorUnusual: "unusual"
+ DestinationInspiredLanguageDescriptorVibrant: "vibrant"

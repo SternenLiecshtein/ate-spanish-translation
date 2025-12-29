@@ -1,0 +1,71 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+
+ attempted_wrestling_match_opinion:0 "Turned Down Challenge"
+ wrestling_match_victor_opinion:0 "Beaten in a Wrestling Match"
+ wrestling_match_loser_opinion:0 "Beat me in a Wrestling Match"
+ laid_hands_on_target_opinion:0 "Prayed for my Health"
+ delivered_from_evil_resist_opinion:0 "Dared to Try to Deliver me from Evil"
+ delivered_from_evil_accept_opinion:0 "Attempted to Deliver me from Evil"
+ sayona_infatuated:0 "Infatuated"
+ sayona_disdain:0 "Disdainful"
+ improved_interfaith_relations:0 "Improved Interfaith Relations"
+ contrapunteo_humble_lose_opinion:0 "Good Game"
+ contrapunteo_sore_lose_opinion:0 "Sore Loser"
+ contrapunteo_good_win_opinion:0 "Gracious Winner"
+ contrapunteo_bad_win_opinion:0 "Bad Winner"
+ 
+ inter_faith_service_held:0 "Inter-faith Service Held"
+ inter_faith_service_held_desc:0 "An inter-faith service has been held with the lord of this county and a different religion vassal or peer."
+
+ #Zombie Opinions
+ 
+ zombified:0 "Zombified"
+ zombified_family_member:0 "Zombified family member"
+ zombified_me:0 "Puppetmaster"
+ employed_sorcerer:0 "Employed Sorcerer"
+ employed_sorcerer_desc:0 "Employed a character some believe to be an evil sorcerer."
+ 
+ #Calvertan Opinions
+ calvert_minister_pleased:0 "Pleased"
+ calvert_minister_displeased:0 "Displeased"
+ calvert_tyranny:0 "Tyrant"
+
+ # religionname_religion_opinion localizations
+ catholic_religion_opinion:0 "$catholic_religion_adherent$ Opinion"
+ protestant_religion_opinion:0 "$protestant_religion_adherent$ Opinion"
+ mormon_religion_opinion:0 "$mormon_religion_adherent$ Opinion"
+ eastern_christian_religion_opinion:0 "$eastern_christian_religion_adherent$ Opinion"
+ lacustrine_religion_opinion:0 "$lacustrine_religion_adherent$ Opinion"
+ americanist_religion_opinion:0 "$americanist_religion_adherent$ Opinion"
+ industrialist_religion_opinion:0 "$industrialist_religion_adherent$ Opinion"
+ vernacular_religion_opinion:0 "$vernacular_religion_adherent$ Opinion"
+ veteranic_religion_opinion:0 "$veteranic_religion_adherent$ Opinion"
+ reawakened_religion_opinion:0 "$reawakened_religion_adherent$ Opinion"
+ divina_patriota_religion_opinion:0 "$divina_patriota_religion_adherent$ Opinion"
+ trailwalker_religion_opinion:0 "$trailwalker_religion_adherent$ Opinion"
+ originario_religion_opinion:0 "$originario_religion_adherent$ Opinion"
+ nanakpanthi_religion_opinion:0 "$nanakpanthi_religion_adherent$ Opinion"
+
+ mesoamerican_religion_opinion:0 "$mesoamerican_religion_adherent$ Opinion"
+
+ egyptology_opinion:0 "$egyptology_adherent$ Opinion"
+
+ rf_amerindian_opinion:0 "[GetReligionFamily('rf_amerindian').GetName] Opinion"
+ afro_diasporic_religion_opinion:0 "$afro_diasporic_religion_adherent$ Opinion"
+ modernist_religion_opinion:0 "$modernist_religion_adherent$ Opinion"
+ conterraneo_religion_opinion:0 "$conterraneo_religion_adherent$ Opinion"
+ astronomer_religion_opinion:0 "$astronomer_religion_adherent$ Opinion"
+ amazonian_religion_opinion:0 "$amazonian_religion_adherent$ Opinion"
+ alternative_society_opinion:0 "$alternative_society_adherent$ Opinion"
+
+ destroyed_holy_building:0 "Destroyed a [ROOT.Char.Custom('GetFaithGrandTemple')]"
+ protected_holy_building:0 "Protected a [ROOT.Char.Custom('GetFaithGrandTemple')]"
+ constructed_holy_building:0 "Constructed a [ROOT.Char.Custom('GetFaithGrandTemple')]"
+ converted_holy_building:0 "Converted a [ROOT.Char.Custom('GetFaithGrandTemple')]"

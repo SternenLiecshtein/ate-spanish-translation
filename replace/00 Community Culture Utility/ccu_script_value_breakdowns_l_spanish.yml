@@ -1,0 +1,28 @@
+﻿l_spanish:
+ 
+ACCEPTANCE_BASELINE_HERITAGE_GROUP:0 "[cultures|E] comparten el mismo [heritage_group|E]"
+ACCEPTANCE_BASELINE_HERITAGE_FAMILY:0 "[cultures|E] comparten la misma [heritage_family|E]"
+ACCEPTANCE_BASELINE_LANGUAGE_GROUP:0 "[cultures|E] comparten el mismo [language_group|E]"
+ACCEPTANCE_BASELINE_LANGUAGE_FAMILY:0 "[cultures|E] comparten la misma [language_family|E]"
+ACCEPTANCE_BASELINE_LANGUAGE_UNION:0 "[cultures|E] comparten la misma [language_union|E]"
+ACCEPTANCE_BASELINE_MARTIAL_TRADITION:0 "[cultures|E] tienen una [martial_custom|E] diferente"
+ACCEPTANCE_BASELINE_FAITH_RIGHTEOUS:0 "Las [faiths|E] mayoritarias de la [culture|E] se consideran mutuamente [faith_righteous|E]"
+ACCEPTANCE_BASELINE_FAITH_HOSTILE:0 "Las [faiths|E] mayoritarias de la [culture|E] se consideran mutuamente [faith_hostile|E]"
+ACCEPTANCE_BASELINE_FAITH_EVIL:0 "Las [faiths|E] mayoritarias de la [culture|E] se consideran mutuamente [faith_evil|E]"
+
+SCHEME_SAME_LANGUAGE_GROUP_AS_NATIVE_LANGUAGE:0 "Mismo [language_group|E] que tu [language|E] nativo: $VALUE|+0=$"
+SCHEME_SAME_LANGUAGE_FAMILY_AS_NATIVE_LANGUAGE:0 "Misma [language_family|E] que tu [language|E] nativo: $VALUE|+0=$"
+SCHEME_SAME_LANGUAGE_UNION_AS_NATIVE_LANGUAGE:0 "Misma [language_union|E] que tu [language|E] nativo: $VALUE|+0=$"
+
+ASK_FOR_CONVERSION_SENDER_VIGOR:0 "Diferencial de [vigor|E]"
+ASK_FOR_CONVERSION_VERY_LOW_ACCEPTANCE:0 "[cultural_acceptance|E] muy baja"
+ASK_FOR_CONVERSION_LOW_ACCEPTANCE:0 "[cultural_acceptance|E] baja"
+ASK_FOR_CONVERSION_HIGH_ACCEPTANCE:0 "[cultural_acceptance|E] alta"
+ASK_FOR_CONVERSION_VERY_HIGH_ACCEPTANCE:0 "[cultural_acceptance|E] muy alta"
+ASK_FOR_CONVERSION_DIFFERENT_HERITAGE_GROUP:0 "[heritage_group|E] diferente"
+ASK_FOR_CONVERSION_DIFFERENT_HERITAGE:0 "[heritage|E] diferente"
+ASK_FOR_CONVERSION_TRADITIONS:0 "[culture_tradition|E]"
+
+acceptance_change_war:0 "[war.GetName]"
+acceptance_change_marriage:0 "Matrimonio entre [primary_spouse.GetTitledFirstName] y [spouse.GetTitledFirstName]"
+acceptance_change_divorce:0 "Divorcio de [primary_spouse.GetTitledFirstName] y [spouse.GetTitledFirstName]"

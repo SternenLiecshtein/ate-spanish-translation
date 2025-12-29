@@ -1,0 +1,68 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+# Liberty Faction
+ bureaucratic_faction:0 "Bureaucratic Faction"
+ bureaucratic_faction_desc:0 "The Bureaucratic [faction|E] only seeks to lower [court_authority|E], but members are otherwise loyal to the [realm|E]."
+ bureaucratic_faction_short_effect_desc:0 "Wants more power to the bureaucrats"
+
+ FACTION_DEMAND_BUREAUCRATIC:0 "Bureaucratic Demand"
+ FACTION_DEMAND_BUREAUCRATIC_DESC:0 "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nIt is time for you to recognize the importance of your bureaucracy! Accept the demands of the [faction.GetName] or face our swords on the battlefield!"
+ FACTION_DEMAND_BUREAUCRATIC_ACCEPTED:0 "Bureaucratic Demands Accepted"
+ FACTION_DEMAND_BUREAUCRATIC_ACCEPTED_DESC:0 "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nYour selfish notions of 'bureaucracy' will weaken the Realm as a whole. However, to avoid needless bloodshed I will accept your demands."
+ FACTION_DEMAND_BUREAUCRATIC_REFUSED:0 "Bureaucratic Demands Refused"
+ FACTION_DEMAND_BUREAUCRATIC_REFUSED_DESC:0 "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nYour ridiculous attempt at intimidation will never succeed. I am your Liege! You miserable bunch of traitors shall learn your place on the battlefield!"
+ FACTION_DEMAND_BUREAUCRATIC_SEND_DEMAND_NOTIFICATION:0 "Bureaucracy or Death! Wait, that doesn't sound right..."
+ FACTION_DEMAND_BUREAUCRATIC_SEND_DEMAND_NOTIFICATION_DESC:0 "The moment has come! The lords of the [faction.GetName] agree that [faction_target.GetName] is a despot who must yield [faction_target.GetHerHis] tyrannic authority over us... at sword point, if need be."
+ bureaucratic_WAR_NAME:0 "Bureaucratic Faction Revolt"
+ faction_demand.3102.tt:0 "Your Liege's [court_authority|E] is Lowered!"
+
+ military_faction:0 "Military Faction"
+ military_faction_desc:0 "The Military [faction|E] only seeks to increase their [court_authority|E], but members are otherwise loyal to the [realm|E]."
+ military_faction_short_effect_desc:0 "Wants more power to the military"
+
+ FACTION_DEMAND_MILITARY:0 "Military Demand"
+ FACTION_DEMAND_MILITARY_DESC:0 "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nIt is time for you to recognize the importance of your military! Accept the demands of the [faction.GetName] or face our swords on the battlefield!"
+ FACTION_DEMAND_MILITARY_ACCEPTED:0 "Military Demands Accepted"
+ FACTION_DEMAND_MILITARY_ACCEPTED_DESC:0 "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nYour selfish notions of 'military' will weaken the Realm as a whole. However, to avoid needless bloodshed I will accept your demands."
+ FACTION_DEMAND_MILITARY_REFUSED:0 "Military Demands Refused"
+ FACTION_DEMAND_MILITARY_REFUSED_DESC:0 "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nYour ridiculous attempt at intimidation will never succeed. I am your Liege! You miserable bunch of traitors shall learn your place on the battlefield!"
+ FACTION_DEMAND_MILITARY_SEND_DEMAND_NOTIFICATION:0 "Military or Death! I mean, that's the whole point of having a standing army..."
+ FACTION_DEMAND_MILITARY_SEND_DEMAND_NOTIFICATION_DESC:0 "The moment has come! The lords of the [faction.GetName] agree that [faction_target.GetName] is a despot who must yield [faction_target.GetHerHis] tyrannic authority over us... at sword point, if need be."
+ military_WAR_NAME:0 "Military Faction Revolt"
+ 
+ bureaucratic:0 "Bureaucratic"
+ bureaucratic_desc:0 "$bureaucratic$ [vassals|E] strenghtened governors and more bureaucratic influence on the court."
+ bureaucratic_filter_option:0 "$bureaucratic$"
+ bureaucratic_filter_option_desc:0 "Only show Characters with the [GetVassalStance( 'bureaucratic' ).GetName] [vassal_stance|E]"
+ bureaucratic_vassal:0 "[GetVassalStance( 'bureaucratic' ).GetTextIcon][GetVassalStance( 'bureaucratic' ).GetName] [vassal|E]"
+ bureaucratic_vassals:0 "[GetVassalStance( 'bureaucratic' ).GetTextIcon][GetVassalStance( 'bureaucratic' ).GetName] [vassals|E]"
+ bureaucratic_opinion:0 "$bureaucratic_vassal$ Opinion"
+ bureaucratic_same_faith_opinion:0 "$bureaucratic_opinion$ #weak (Same [faith|E])#!"
+ bureaucratic_different_faith_opinion:0 "$bureaucratic_opinion$ #weak (Different [faith|E])#!"
+ bureaucratic_same_culture_opinion:0 "$bureaucratic_opinion$ #weak (Same [culture|E])#!"
+ bureaucratic_different_culture_opinion:0 "$bureaucratic_opinion$ #weak (Different [culture|E])#!"
+ bureaucratic_tax_contribution_add:0 "$bureaucratic_vassal$ [tax|E] [modifier_base_contribution|E]"
+ bureaucratic_tax_contribution_mult:0 "$bureaucratic_vassal$ [tax|E] [modifier_contribution|E]"
+ bureaucratic_levy_contribution_add:0 "$bureaucratic_vassal$ [levy|E] [modifier_base_contribution|E]"
+ bureaucratic_levy_contribution_mult:0 "$bureaucratic_vassal$ [levy|E] [modifier_contribution|E]"
+ 
+ military:0 "Military"
+ military_desc:0 "$military$ [vassals|E] want strenghtened captains and more military influence on the court."
+ military_filter_option:0 "$military$"
+ military_filter_option_desc:0 "Only show Characters with the [GetVassalStance( 'military' ).GetName] [vassal_stance|E]"
+ military_vassal:0 "[GetVassalStance( 'military' ).GetTextIcon][GetVassalStance( 'military' ).GetName] [vassal|E]"
+ military_vassals:0 "[GetVassalStance( 'military' ).GetTextIcon][GetVassalStance( 'military' ).GetName] [vassals|E]"
+ military_opinion:0 "$military_vassal$ Opinion"
+ military_same_faith_opinion:0 "$military_opinion$ #weak (Same [faith|E])#!"
+ military_different_faith_opinion:0 "$military_opinion$ #weak (Different [faith|E])#!"
+ military_same_culture_opinion:0 "$military_opinion$ #weak (Same [culture|E])#!"
+ military_different_culture_opinion:0 "$military_opinion$ #weak (Different [culture|E])#!"
+ military_tax_contribution_add:0 "$military_vassal$ [tax|E] [modifier_base_contribution|E]"
+ military_tax_contribution_mult:0 "$military_vassal$ [tax|E] [modifier_contribution|E]"
+ military_levy_contribution_add:0 "$military_vassal$ [levy|E] [modifier_base_contribution|E]"
+ military_levy_contribution_mult:0 "$military_vassal$ [levy|E] [modifier_contribution|E]"

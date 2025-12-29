@@ -1,0 +1,13 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ atomic_blessing.1.t:0 "The Atomic Blessing"
+ atomic_blessing.1.desc:0 "As a faithful [ROOT.Char.GetFaith.GetAdherentName], it's my duty to experience the Atomic Blessing first hand and let [ROOT.Char.GetFaith.HighGodName] bless me with [ROOT.Char.GetFaith.HighGodNamePossessive] power!"
+ atomic_blessing.1.a:0 "I'm honored to experience it!"
+ atomic_blessing.1.b:0 "That sounds a bit risky..."
+ 
+ pilgrimage_entourage_gains_atomic_blessing_trait:0 "Entourage gains the Atomic Blessing trait"

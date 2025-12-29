@@ -1,0 +1,17 @@
+﻿l_spanish:
+
+
+ minority_courtier_recruited:0 "Minority Courtier Recruited"
+
+
+
+ ate_minority_courtier_spawn.t:0 "Potential Recruit to Court"
+ ate_minority_courtier_spawn.desc:0 "A distinguished person has arrived to court, seeking employment. Well-known all over the local community of [home_county.GetNameNoTierNoTooltip], [courtier.GetSheHe] now offers [courtier.GetHerHis] fairly significant skills to me. All [courtier.GetSheHe] asks for is a small advance payment. \n\n[courtier.GetName] is a distinguished member of the local minority [courtier.GetFaith.GetReligion.GetAdjectiveNoTooltip] community, and employing [courtier.GetHerHim] would establish me as a cosmopolitan ruler."
+ 
+ ate_minority_courtier_spawn.a:0 ""You shall have a place in my court!""
+ ate_minority_courtier_spawn.b:0 ""No, begone.""
+
+ ate_minority_courtier_spawn.astray:0 "\n\nShould I decide to add [courtier.GetHerHim] to my entourage. [courtier.GetHerHis] faith's unique viewpoints might enrich my court."
+ ate_minority_courtier_spawn.hostile:0 "\n\nHowever, some at court might look down on employing a heathen."
+
+

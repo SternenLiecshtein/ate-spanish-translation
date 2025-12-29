@@ -1,0 +1,25 @@
+﻿l_spanish:
+
+#############################################
+# CCU Patcher
+# Por Vertimnus
+# Este archivo fue compilado por una máquina.
+# Nunca debe editarse manualmente.
+#############################################
+
+culture_parameter_language_union_amazon:0 "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con Culturas que comparten la [language_union|E] Amazónica"
+culture_parameter_language_union_andean:0 "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con Culturas que comparten la [language_union|E] Andina"
+culture_parameter_language_union_gulf:0 "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con Culturas que comparten la [language_union|E] del Golfo"
+culture_parameter_language_union_inglanol:0 "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con Culturas que comparten la [language_union|E] Inglanol"
+culture_parameter_language_union_jargon:0 "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con Culturas que comparten la [language_union|E] Jargon"
+culture_parameter_language_union_louisianan:0 "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con Culturas que comparten la [language_union|E] Luisiana"
+culture_parameter_language_union_maritime:0 "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con Culturas que comparten la [language_union|E] Marítima"
+culture_parameter_language_union_mesoamerican:0 "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con Culturas que comparten la [language_union|E] Mesoamericana"
+culture_parameter_language_union_northwest:0 "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con Culturas que comparten la [language_union|E] del Noroeste"
+culture_parameter_language_union_orinoco_amazon:0 "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con Culturas que comparten la [language_union|E] Orinoco-Amazónica"
+culture_parameter_language_union_plains:0 "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con Culturas que comparten la [language_union|E] de las Llanuras"
+culture_parameter_language_union_plateau:0 "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con Culturas que comparten la [language_union|E] de la Meseta"
+culture_parameter_language_union_portunol:0 "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con Culturas que comparten la [language_union|E] Portuñol"
+culture_parameter_language_union_pueblo:0 "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con Culturas que comparten la [language_union|E] Pueblo"
+culture_parameter_language_union_sequoyan:0 "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con Culturas que comparten la [language_union|E] Sequoyana"
+culture_parameter_language_union_southern_cone:0 "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con Culturas que comparten la [language_union|E] del Cono Sur"

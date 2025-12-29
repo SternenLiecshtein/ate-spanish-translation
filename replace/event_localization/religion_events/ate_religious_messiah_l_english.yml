@@ -1,0 +1,56 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+  messiah.0012.t:0 "Appointed as the [ROOT.Char.GetFaith.ReligiousHeadName] of [ROOT.Char.GetFaith.GetName]!"
+  messiah.0012.desc:0 "The faithful have concluded that I am the foretold leader of [ROOT.Char.GetFaith.GetName]!"
+  messiah.0012.a:0 "May [ROOT.Char.GetFaith.HighGodName] guide me!"
+  messiah.0012.t.modernist:0 "Anointed as the [ROOT.Char.GetFaith.ReligiousHeadName] of [ROOT.Char.GetFaith.GetName]!"
+  messiah.0012.desc.modernist:0 "The faithful have concluded that I am the foretold leader of [ROOT.Char.GetFaith.GetName]! I have anointed my hands with black petroleum, the highest symbol of legitimate rulership, and now I'm ready to lead my people."
+  
+  messiah.0013.t:0 "A new [ROOT.Char.GetFaith.ReligiousHeadName] of [ROOT.Char.GetFaith.GetName]!" 
+  messiah.0013.desc:0 "The faithful have concluded that [next_messiah.GetName] is the foretold leader of [ROOT.Char.GetFaith.GetName]!"
+  messiah.0013.a:0 "May [ROOT.Char.GetFaith.HighGodName] guide [next_messiah.GetHerHim]!"
+  messiah.0013.b:0 "It's my duty to serve [next_messiah.GetHerHim]!"
+  messiah.0013.t.modernist:0 "A new [ROOT.Char.GetFaith.ReligiousHeadName] of [ROOT.Char.GetFaith.GetName]!"
+  messiah.0013.desc.modernist:0 "The faithful have concluded that [next_messiah.GetName] is the foretold leader of [ROOT.Char.GetFaith.GetName]! [next_messiah.GetSheHe] has anointed [next_messiah.GetHerHis] hands with black petroleum, the highest symbol of legitimate rulership, and now [next_messiah.GetSheHe] is ready to lead our people."
+  
+  messiah.0014.t:0 "A new [ROOT.Char.GetFaith.ReligiousHeadName] of [ROOT.Char.GetFaith.GetName]!"
+  messiah.0014.desc:0 "[next_messiah.GetName] is the foretold leader of [ROOT.Char.GetFaith.GetName]!"
+  messiah.0014.a:0 "May [ROOT.Char.GetFaith.HighGodName] guide [next_messiah.GetHerHim]!"
+  
+  messiah.0015.t:0 "The [ROOT.Char.GetFaith.ReligiousHeadName] of [ROOT.Char.GetFaith.GetName] is gone!"
+  messiah.0015.desc:0 "[last_hof.GetName] has sadly [last_hof.GetDeathReason], and now we are left without a leader."
+  messiah.0015.a:0 "I'm sure [last_hof.GetSheHe] will return!"
+  
+  messiah.0017.t:0 "The False [ROOT.Char.GetFaith.ReligiousHeadName] of [ROOT.Char.GetFaith.GetName]"
+  messiah.0017.desc:0 "[last_hof.GetName] was revealed to be a farse and unworthy to lead [ROOT.Char.GetFaith.GetName]. Now we are left without a [ROOT.Char.GetFaith.ReligiousHeadName] again."
+  messiah.0017.a:0 "I always thought [last_hof.GetSheHe] seemed weird..."
+  
+  messiah.0018.t:0 "Appointed as the [ROOT.Char.GetFaith.ReligiousHeadName] of [ROOT.Char.GetFaith.GetName]!"
+  messiah.0018.desc:0 "The faithful have concluded that I am the foretold leader of [ROOT.Char.GetFaith.GetName]!"
+  messiah.0018.a:0 "May [ROOT.Char.GetFaith.HighGodName] guide me!"
+  
+  messiah.0003.t:0 "The foretold Messiah of [ROOT.Char.GetFaith.GetName]!"
+  messiah.0003.desc:0 "[the_messiah.GetName] is the foretold Messiah of [ROOT.Char.GetFaith.GetName]! While [the_messiah.GetSheHe] [the_messiah.GetDeathReason], [the_messiah.GetHerHis] martyrdom confirms the prophecies: a new age has begun! As someone close to [the_messiah.GetHerHim], we are now expected to lead the faithful and spread [the_messiah.GetHerHis] word."
+  messiah.0003.a:0 "May [ROOT.Char.GetFaith.HighGodName] guide us!"
+  
+  messiah.0004.t:0 "The foretold Messiah of [ROOT.Char.GetFaith.GetName]!"
+  messiah.0004.desc:0 "[the_messiah.GetName] is the foretold Messiah of [ROOT.Char.GetFaith.GetName]! While [the_messiah.GetSheHe] [the_messiah.GetDeathReason], [the_messiah.GetHerHis] martyrdom confirms the prophecies: a new age has begun! As someone close to [the_messiah.GetHerHim], [heretic_ruler.GetName] will lead the faithful and spread [the_messiah.GetHerHis] word."
+  messiah.0004.a:0 "May [ROOT.Char.GetFaith.HighGodName] guide us!"
+  
+  messiah.0006.t:0 "The foretold Messiah of [ROOT.Char.GetFaith.GetName]!"
+  messiah.0006.desc:0 "[the_messiah.GetName] is the foretold Messiah of [ROOT.Char.GetFaith.GetName]! [the_messiah.GetHerHis] ascension to power confirms the prophecies: a new age has begun! As someone close to [the_messiah.GetHerHim], we are now expected to help them lead the faithful and spread [the_messiah.GetHerHis] word."
+  messiah.0006.a:0 "May [ROOT.Char.GetFaith.HighGodName] guide us!"
+  
+  messiah.0007.t:0 "The foretold Messiah of [ROOT.Char.GetFaith.GetName]!"
+  messiah.0007.desc:0 "[the_messiah.GetName] is the foretold Messiah of [ROOT.Char.GetFaith.GetName]! [the_messiah.GetHerHis] ascension to power confirms the prophecies: a new age has begun!"
+  messiah.0007.a:0 "May [ROOT.Char.GetFaith.HighGodName] guide us!"
+  
+  messiah.0008.t:0 "The foretold Messiah of [ROOT.Char.GetFaith.GetName]?"
+  messiah.0008.desc:0 "Given my recent achievements, the faithful have concluded that I am the foretold leader of [ROOT.Char.GetFaith.GetName], but it's up to me to accept the title of Messiah."
+  messiah.0008.a:0 "They are correct - I am the Messiah!"
+  messiah.0008.b:0 "I'm humbled by the comparison, but that's not true."

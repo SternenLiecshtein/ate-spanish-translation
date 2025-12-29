@@ -1,0 +1,71 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ # Svalbard stuff
+ concentric_religion:0 "Idunnic"
+ concentric_religion_adj:0 "Idunnic"
+ concentric_religion_adherent:1 "Idunn"
+ concentric_religion_adherent_plural:1 "Idunn"
+ concentric_religion_desc:1 "After the [lifeless_night|E], the islands of Svalbard were left entirely alone. By some impossible miracle, people still survive on the barren rock. The religion of those hardy souls is known as Idunnic, named after a nearly forgotten goddess from a lost country. These faiths hold life as extremely sacred, and death as an unnatural corruption of their cold world that must be resisted at all costs."
+ 
+earthvault_high_god_name:0 "Julenissen"
+ earthvault_high_god_name_possessive:0 "Julenissen's"
+ earthvault_high_god_alternate:0 "Sankte Niklas"
+ earthvault_high_god_alternate_possessive:0 "Sankte Niklas's"
+ earthvault_death_deity_name:0 "[lifeless_night|E]"
+ earthvault_death_deity_name_possessive:0 "[lifeless_night|E]'s"
+ earthvault_religious_symbol:0 "seeds"
+ earthvault_religious_text:0 "Tillit til Avlinger"
+ earthvault_religious_head_title:0 "Seedstorer"
+ earthvault_religious_head_title_name:0 "Global Crop Trust"
+ earthvault_devil_name:0 "the Sjødraug"
+ earthvault_devil_name_possessive:0 "the Sjødraug's"
+ earthvault_divine_realm:0 "Aurora Borealis"
+ earthvault_afterlife:0 "the Eternal Sleep"
+ earthvault_witchgod:0 "Gåmål Erken"
+ earthvault_house_of_worship:0 "hvelv"
+ earthvault_house_of_worship_plural:0 "hvelv"
+ earthvault_devotee:0 "lokal"
+ earthvault_devotee_plural:0 "lokale"
+ earthvault_priest:0 "vitenskapsmann" #(vitenskapskvinne fem)
+ earthvault_priest_plural:0 "vitenskapsmenn"
+ earthvault_bishop:0 "naturforvalter"
+ earthvault_bishop_plural:0 "naturforvaltere"
+
+ religion_the_new_gods:0 "the Nye Guderne"
+ earthvault_creator_god_name:0 "Gud"
+ earthvault_creator_god_name_possessive:0 "Gud's"
+ earthvault_health_god_name:0 "Julenissen"
+ earthvault_health_god_name_possessive:0 "Julenissen's"
+ earthvault_fertility_god_name:0 "Idunn"
+ earthvault_fertility_god_name_possessive:0 "Idunn's"
+ earthvault_wealth_god_name:0 "Arktikugol"
+ earthvault_wealth_god_name_possessive:0 "Arktikugol's"
+ earthvault_household_god_name:0 "the Nisser"
+ earthvault_household_god_name_possessive:0 "the Nisser's"
+ earthvault_knowledge_god_name:0 "Amundsen"
+ earthvault_knowledge_god_name_possessive:0 "Amundsen's"
+ earthvault_fate_god_name:0 "Gud"
+ earthvault_fate_god_name_possessive:0 "Gud's"
+ earthvault_war_god_name:0 "the Kraken"
+ earthvault_war_god_name_possessive:0 "the Kraken's"
+ earthvault_trickster_god_name:0 "Loke"
+ earthvault_trickster_god_name_possessive:0 "Loke's"
+ earthvault_night_god_name:0 "Aurora Borealis" #(she/her)
+ earthvault_night_god_name_possessive:0 "Aurora Borealis's"
+ earthvault_water_god_name:0 "Barentsz"
+ earthvault_water_god_name_possessive:0 "Barentsz's"
+
+ earthvault:0 "Earthvault"
+ earthvault_adj:0 "Earthvault"
+ earthvault_adherent:0 "Vaulter"
+ earthvault_adherent_plural:0 "Vaulters"
+ earthvault_desc:0 "Centered around the #game_link;medium [GetBuilding('seedvault').GetName]#!, the tradition of the same name is a collection of wisdom, taboos, and rituals passed down over generations among the people of Longyearbyen. These teachings provide mankind with the knowledge and strength necessary to survive the cold, harsh world that it finds itself in since the [lifeless_night|E]. The most important of these is the practice of "seed storage", taught to humanity by Julenissen. These seeds can protect the souls of the living and comfort the spirits of the dead, among many other important functions. Some legends even say that one day, Julenissen and his servants will take the seeds and spread them across the earth, bringing joy and cheer to all."
+ earthvault_old:0 "Oldvault"
+ earthvault_old_adj:0 "Oldvault"
+ earthvault_old_adherent:0 "Oldvaulter"
+ earthvault_old_adherent_plural:0 "Oldvaulters"

@@ -1,0 +1,80 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ 
+ jolljepunco_break_with_inti_decision:0 "Break off from the Inti Hierarchy"
+ jolljepunco_break_with_inti_decision_desc:0 "Created as a vassal church to the Inti Emperor, the Jolljepunco congregations have long existed under the Land of the Four Quarters. There has always been an idea however, one spurred by Christian ancestry and force of will - where the Jolljepunco Church shall break from its pagan overlords and restore the ultimate authority of Christ over Christians."
+ jolljepunco_break_with_inti_decision_tooltip:0 "Reassert Jolljepunco Christianity's independence"
+ jolljepunco_break_with_inti_decision.tt.hof_warning:0 "Your faith will #X permanently#! separate from Inti and elect its own spiritual head of faith!"
+ jolljepunco_break_with_inti_decision.control_two_holy_sites:0 "You must control at least two holy sites of your faith."
+ jolljepunco_break_with_inti_decision.inca_emperor_not_inti:0 "The Inca Emperor is either nonexistent or not following the Inti faith."
+ jolljepunco_break_with_inti_decision_confirm:0 "Convene a Priestly Council"
+ 
+ jolljepunco_break_with_inti_decision.tt.new_hof_id:0 "[new_religious_head.GetTitledFirstName] is your new [head_of_faith|E]"
+ 
+ ate_hof_replacement.0001.t:0 "Jolljepunco Ascendant"
+ ate_hof_replacement.0001.desc:0 "With the centres of our faith united under my banner, I have gathered the realm’s priests without the knowledge of the Inti. Within the council, it was decided it was finally time to break our vassalage to the Empire. A simple message was sent to [willaq_umu.GetTitledFirstName]; the Churches of Jolljepunco no longer recognise their authority over the Christians!"
+ ate_hof_replacement.0001.a:0 "Gracias a Dios!"
+ ate_hof_replacement.0001.a.tt:0 "The Inti hierarchy no longer holds authority over the Jolljepunco Church."
+ 
+ 
+ ate_hof_replacement.0002.t:0 "Jolljepunco Ascendant"
+ ate_hof_replacement.0002.desc:0 "The Jolljepunco Church, a puppet institution of the Inti, has split from their overlords and declared their faith independent from all influence. Instead of [willaq_umu.GetTitledFirstName] being the ultimate arbiter of Jolljepunco doctrine, a new Patriarch will be elected by representatives of the clergy and will lead the Church into a Christian future."
+ ate_hof_replacement.0002.a.inti:0 "Traitors!"
+ ate_hof_replacement.0002.a.same_faith:0 "To the new Archbishop!"
+ ate_hof_replacement.0002.a.same_religion:0 "May God be with them."
+ ate_hof_replacement.0002.a.misc:0 "I have no interest in their politics."
+ 
+ 
+ jolljepunco_county_count.need_at_least_ten_same_faith_counties:0 "You must hold at least [EmptyScope.ScriptValue('jolljepunco_county_count')|0] same-[faith|E] [counties|E]"
+
+ 
+ jolljepunco_bind_with_inti_forever_decision:0 "Affirm Unity with the Inti Hierarchy"
+ jolljepunco_bind_with_inti_forever_decision_desc:0 "Created as a vassal church to the Inti Emperor, the Jolljepunco congregations have long existed under the Land of the Four Quarters. This coexistence benefits us as well as them, and with time we have come to see ourselves as inseparable. With my position in the region now consolidated, it would be good to affirm ourselves to the Willaq Umu and cement our mutual understanding of each other."
+ jolljepunco_bind_with_inti_forever_decision_tooltip:0 "Bind Jolljepunco Christianity to the Willaq Umu"
+ jolljepunco_bind_with_inti_forever_decision.tt.hof_warning:0 "Your faith will #X permanently#! be affirmed to Inti and have the Willaq Umu as its head of faith!"
+ jolljepunco_bind_with_inti_forever_decision_confirm:0 "Recognize Inti Wisdom"
+ 
+ 
+ ate_hof_replacement.0003.t:0 "Jolljepunco and Inti Forever"
+ ate_hof_replacement.0003.desc:0 "With the centres of our faith united under my banner, I have gathered the realm’s priests in my hall. Within the council, it was decided to forever recognize our union with the Inti hierarchy. A message was sent to [willaq_umu.GetTitledFirstName] to elucidate this, and it was received very warmly. Here's to a new future for Christians and Inti followers in Peru, hand-in-hand!"
+ ate_hof_replacement.0003.a:0 "¡Viva!"
+ ate_hof_replacement.0003.a.tt:0 "The Inti and Jolljepunco will forever be united."
+ 
+ 
+ ate_hof_replacement.0004.t:0 "Jolljepunco and Inti Forever"
+ ate_hof_replacement.0004.desc:0 "The Jolljepunco Church, an institution made by the Inti worshippers of the Inca Empire, has affirmed its connection to the Inti hierarchy permanently in a council convened by [religious_leader.GetTitledFirstName]. It was decided that the coexistence with the Inti hierarchy was mutually beneficial and should be affirmed at every level of the Jolljepunco Church's practice."
+ ate_hof_replacement.0004.a.inti:0 "Very good!"
+ ate_hof_replacement.0004.a.same_faith:0 "To a new understanding!"
+ ate_hof_replacement.0004.a.same_religion:0 "May God be with them even still."
+ ate_hof_replacement.0004.a.misc:0 "I have no interest in their politics."
+ 
+ 
+
+ 
+ anahata_break_with_sahasrara_decision:0 "Break with Sahasrara"
+ anahata_break_with_sahasrara_decision_desc:0 "The Anahata Sect of old rejected the centralization under the authorities' Emperor; they believed all should be socially and spiritually free, and not beholden to the whims of a mortal 'living guru'. Although they fought fiercely in rebellion after rebellion, the boot of California put them down, and they were forced to begrudgingly accept the authority of the Talanques. The Californian Empire is weaker then ever, there is no better time to relight the revolution."
+ anahata_break_with_sahasrara_decision_tooltip:0 "Reject the Authority of the Emperor"
+ anahata_break_with_sahasrara_decision.tt.hof_warning:0 "Your faith will #X permanently#! separate from Sahasrara and no longer have a head of faith!"
+ anahata_break_with_sahasrara_decision.control_three_holy_sites:0 "You must control at least three holy sites of your faith."
+ anahata_break_with_sahasrara_decision_confirm:0 "For the Gurus! For the Sages!"
+ 
+ anahata_break_with_sahasrara_decision.tt.you_have_no_hof:0 "Anahata will no longer have a head of faith."
+ 
+ ate_hof_replacement.0005.t:0 "The Times They Are A-Changin'"
+ ate_hof_replacement.0005.desc:0 "Since the founding of the Guruist faith, there have been those that rejected the concept that a 'Living Guru' could exist, much less hold some spiritual right to rule. Although past rebellions have failed, it I that has succeeded where others have failed. I have called together the Yippie Militias in [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], and announced that the Revolution is upon us. No longer must we serve false Gurus of a fascist state, we are now, truly free."
+ ate_hof_replacement.0005.a:0 "The line, it is drawn."
+ ate_hof_replacement.0005.a.tt:0 "The Revolution is upon us!"
+ 
+ 
+ ate_hof_replacement.0006.t:0 "The Times They Are A-Changin'"
+ ate_hof_replacement.0006.desc:0 "There has been a major split within the Guruist religion, [religious_leader.GetTitledFirstName] of the rebellious Anahata Sect has announced that their faith no longer recognizes the authority of the Eternal Living Guru. Indeed the Anahata have declared a spiritual revolution, seeking to overthrow the supposed monopoly of the Living Guru over spirituality."
+ ate_hof_replacement.0006.a.sahasrara:0 "They are unrighteous fools."
+ ate_hof_replacement.0006.a.same_faith:0 "For the Revolution!"
+ ate_hof_replacement.0006.a.same_religion:0 "This is troubling."
+ ate_hof_replacement.0006.a.misc:0 "There's a difference?"
+

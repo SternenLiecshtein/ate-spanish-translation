@@ -1,0 +1,69 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ exchange.001.t:0 "An Exchange"
+ exchange.001.desc:0 "As I approach the small, unasuming altar I can't help but feel a chill run down my spine. Is now really a good time to make an offering; do I even have anything I'm willing to part with for my goals?"
+ exchange.001.a:0 "I am ready"
+ exchange.001.b:0 "No, not now"
+ 
+ exchange.002.t:0 "An Exchange"
+ exchange.002.desc:0 "The Altar is filled with coin and various other trinkets, and smells faintly of blood. If I am to make an offering now, I should decide which of these two I'm able to part in exchange for what I desire."
+ exchange.002.a:0 "I will offer my worldly possesions..."
+ exchange.002.b:0 "My body will be a fine offering"
+ 
+ exchange.003.t:0 "An Offering of Wealth"
+ exchange.003.desc:0 "My wealth as a ruler is meant to be shared generously of course, and the powers that be are no exception to this. It may be a rather typical form of offering, but the standard is standard for a reason."
+ exchange.003.a:0 "My gold will be a good offering"
+ exchange.003.b:0 "This trinket will be a worthy offering"
+ 
+ exchange.004.t:0 "An Offering of the flesh"
+ exchange.004.desc:0 "After coming to the difficult conclusion that no offer is better than that of my own, irreplacible, body the question of what piece of myself to offer still remains."
+ exchange.004.a:0 "A few drops of blood will work"
+ exchange.004.b:0 "I have two legs, I can afford to lose one"
+ exchange.004.c:0 "Perhaps my eye, I probably look good with an eyepatch"
+ exchange.004.d:0 "My dashing looks will be a perfact offering"
+ 
+ exchange.005.t:0 "An Offering of Wealth"
+ exchange.005.desc:0 "The offering of gold is given to the altar, possibly the safest choice I could've gone with, but nothing they would balk at either."
+ exchange.005.a:0 "May this offering suffice..."
+ 
+ exchange.006.t:0 "An Offering of Wealth"
+ exchange.006.desc:0 "The artifact is placed upon the altar, seeming now more magnificent than it ever was when I possesed it. I breifly think of snatching it back but I know only ill would befall me if I tried."
+ exchange.006.a:0 "May this offering suffice..."
+ 
+ exchange.007.t:0 "An Offering of The Flesh"
+ exchange.007.desc:0 "The pin pricks my finger and soon drops of blood begin to fall. Quickly, I move my hand over the altar and watch it slowly drip down into the platter below. I can't help but feel squemish at the sight."
+ exchange.007.a:0 "May this offering suffice..."
+ 
+ exchange.008.t:0 "An Offering of The Flesh"
+ exchange.008.desc:0 "Despite the remedies I took to dull the pain, the procedure is still very long and painful. But eventually the leg is completely removed and offered. While my wound is teneded to, I can't help but wonder if it was enough."
+ exchange.008.a:0 "May this offering suffice..."
+ 
+ exchange.009.t:0 "An Offering of The Flesh"
+ exchange.009.desc:0 "The pain is unbearable as I gouge out my eye, its blood pouring down my cheek and splattering on to the floor. After what seems like an eternity of tortue I'm holding the small, soft sphere in my hand which I gently place upon the altar."
+ exchange.009.a:0 "May this offering suffice..."
+ 
+ exchange.010.t:0 "An Offering of The Flesh"
+ exchange.010.desc:0 "I hold my knife up to the bottom of my chin, and slowly begin the long and painful process of peeling the flesh away. Damn the pain! When it is done the shredded remnants cannot fit upon the platter but I'm certian that is unessecary for the gift to be accepted."
+ exchange.010.a:0 "May this offering suffice..."
+ 
+ exchange.012.t:0 "No Gift?"
+ exchange.012.desc:0 "Despite my fair offering, I have not recieved a gift..."
+ exchange.012.a:0 "Why have you forsaken me?"
+ 
+ exchange.013.t:0 "A Divine Gift!"
+ exchange.013.desc:0 "In the days following my offering, I have felt somewhat stronger and more capable in my duities as a ruler. Surely this means my offering has been seen and I have been gifted!"
+ exchange.013.a:0 "I feel good"
+ 
+ exchange.014.t:0 "A Divine Gift!"
+ exchange.014.desc:0 "From sparring, to courtly matters my proficiency in all things has improved almost overnight. It must be that my gift was accepted!"
+ exchange.014.a:0 "A worthy gift for a worthy offering"
+ 
+ exchange.015.t:0 "A Divine Gift!"
+ exchange.015.desc:0 "Almost immediately after my offering, I felt my body strengthen and my mind sharpen. Every day since then my body has been stronger, reflexes faster, and mind more astute. It is obvious to everyone that I have truly been gifted!"
+ exchange.015.a:0 "I have truly been blessed!"

@@ -1,0 +1,19 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ 
+ PIETY_LEVEL_LABEL_0_anachronous:0 "@piety_level_0_icon_anachronous! [GetModifier( 'piety_level_0' ).GetNameWithTooltip|L]"
+ PIETY_LEVEL_LABEL_1_anachronous:0 "@piety_level_1_icon_anachronous! [GetModifier( 'piety_level_1' ).GetNameWithTooltip|L]"
+ PIETY_LEVEL_LABEL_2_anachronous:0 "@piety_level_2_icon_anachronous! [GetModifier( 'piety_level_2' ).GetNameWithTooltip|L]"
+ PIETY_LEVEL_LABEL_3_anachronous:0 "@piety_level_3_icon_anachronous! [GetModifier( 'piety_level_3' ).GetNameWithTooltip|L]"
+ PIETY_LEVEL_LABEL_4_anachronous:0 "@piety_level_4_icon_anachronous! [GetModifier( 'piety_level_4' ).GetNameWithTooltip|L]"
+ PIETY_LEVEL_LABEL_5_anachronous:0 "@piety_level_5_icon_anachronous! [GetModifier( 'piety_level_5' ).GetNameWithTooltip|L]"
+ 
+ PIETY_TEXT_ICON_anachronous:0 "@piety_icon_anachronous!"
+
+
+ need_more_holy_sites_or_piety:0 "You need to either take control over more [holy_sites|E] or raise your [piety_level|E] to reform the faith."

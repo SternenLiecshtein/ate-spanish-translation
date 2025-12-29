@@ -1,0 +1,78 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+#modifiers
+ export_commodity_sugar_cane_modifier_tier_1:0 "Minor [sugar_cane|E] Exports"
+ export_commodity_sugar_cane_modifier_tier_2:0 "Medium [sugar_cane|E] Exports"
+ export_commodity_sugar_cane_modifier_tier_3:0 "Major [sugar_cane|E] Exports"
+ export_commodity_sugar_cane_modifier_tier_4:0 "Massive [sugar_cane|E] Exports"
+ export_commodity_sugar_cane_modifier_tier_5:0 "Endless [sugar_cane|E] Exports"
+ export_commodity_sugar_cane_modifier_tier_1_desc:0 "The buyer can't afford a large amount of [sugar_cane|E]."
+ export_commodity_sugar_cane_modifier_tier_2_desc:0 "A healthy amount of [sugar_cane|E] is being sold."
+ export_commodity_sugar_cane_modifier_tier_3_desc:0 "Supplying enough [sugar_cane|E] to sustain a proper court!"
+ export_commodity_sugar_cane_modifier_tier_4_desc:0 "Few courts in the Americas could consume this amount of [sugar_cane|E]!"
+ export_commodity_sugar_cane_modifier_tier_5_desc:0 "Who needs THAT much [sugar_cane|E]!?"
+ 
+ import_commodity_sugar_cane_modifier_distance_1:0 "Direct [sugar_cane|E] Imports"
+ import_commodity_sugar_cane_modifier_distance_2:0 "Nearby [sugar_cane|E] Imports"
+ import_commodity_sugar_cane_modifier_distance_3:0 "Distant [sugar_cane|E] Imports"
+ import_commodity_sugar_cane_modifier_distance_4:0 "Remote [sugar_cane|E] Imports"
+ import_commodity_sugar_cane_modifier_distance_5:0 "Farthest [sugar_cane|E] Imports"
+ import_commodity_sugar_cane_modifier_distance_1_desc:0 "Bought directly from the producer, as cheap as it could be!"
+ import_commodity_sugar_cane_modifier_distance_2_desc:0 "Smells like it's fresh from the source!"
+ import_commodity_sugar_cane_modifier_distance_3_desc:0 "It isn't cheap, but that's the price of real [sugar_cane|E]."
+ import_commodity_sugar_cane_modifier_distance_4_desc:0 "A pretty penny must be spent to get [sugar_cane|E] all the way here."
+ import_commodity_sugar_cane_modifier_distance_5_desc:0 "This [sugar_cane|E] has travelled so far it's worth its weight in gold now."
+#interactions
+ export_commodity_sugar_cane_interaction:0 "Export [sugar_cane|E]"
+ export_commodity_sugar_cane_interaction_desc:0 "Provide [sugar_cane|E] to a potentially interested buyer."
+ import_commodity_sugar_cane_interaction:0 "Import [sugar_cane|E]"
+ import_commodity_sugar_cane_interaction_desc:0 "Obtain [sugar_cane|E] from a producer or supplier."
+ cancel_import_commodity_sugar_cane_interaction:0 "Cancel Import [sugar_cane|E]"
+ cancel_import_commodity_sugar_cane_interaction_desc:0 "Stop importing [sugar_cane|E] from a supplier."
+ cancel_export_commodity_sugar_cane_interaction:0 "Cancel Export [sugar_cane|E]"
+ cancel_export_commodity_sugar_cane_interaction_desc:0 "Stop exporting [sugar_cane|E] to a buyer."
+#events
+ commodity_sugar_cane.002.title:0 "[sugar_cane|E] for sale!"
+ commodity_sugar_cane.002.desc:0 "[exporter.GetName] has an interesting offer to make: [exporter.GetSheHe] could supply my court with [sugar_cane|E] if we are interested in letting their merchants in."
+ commodity_sugar_cane.002.a:0 "Sounds like a deal to me!"
+ commodity_sugar_cane.002.b:0 "I can't agree with these prices."
+ commodity_sugar_cane.002.c:0 "Stop talking about [sugar_cane|E] already!"
+ commodity_sugar_cane.003.title:0 "[sugar_cane|E] export deal accepted"
+ commodity_sugar_cane.003.desc:0 "[importer.GetName] has accepted my proposal!"
+ commodity_sugar_cane.003.a:0 "They won't regret this purchase!"
+ commodity_sugar_cane.004.title:0 "[sugar_cane|E] export deal rejected"
+ commodity_sugar_cane.004.desc:0 "[importer.GetName] has not accepted my proposal!"
+ commodity_sugar_cane.004.a:0 "They will regret this decision."
+ commodity_sugar_cane.005.title:0 "Mercantile Opportunities"
+ commodity_sugar_cane.005.desc:0 "While I'm visiting [importer.GetCapitalLocation.GetTitle.GetBaseNameNoTier], many other business opportunities other than [sugar_cane|E] have appeared - the city's market is bustling with exotic wares, and [exporter.GetCapitalLocation.GetTitle.GetBaseNameNoTier] goods seem to have attracted the interest of a good number of local merchants as well."
+ commodity_sugar_cane.005.a:0 "The more we sell, the better!"
+ commodity_sugar_cane.005.b:0 "Enough business - I need a rest!"
+ commodity_sugar_cane.005.c:0 "I'm tired of this place already."
+ commodity_sugar_cane.export_accepted:0 "My offer to export [sugar_cane|E] was accepted"
+ commodity_sugar_cane.export_rejected:0 "My offer to export [sugar_cane|E] was rejected"
+ 
+ commodity_sugar_cane.012.title:0 "Merchants in search of [sugar_cane|E]!"
+ commodity_sugar_cane.012.desc:0 "[importer.GetName] has an interesting offer to make: [importer.GetSheHe] would like to buy my [sugar_cane|E] if you allow their merchants in."
+ commodity_sugar_cane.012.a:0 "Sounds like a deal to me!"
+ commodity_sugar_cane.012.b:0 "They don't deserve our [sugar_cane|E]."
+ commodity_sugar_cane.012.c:0 "No one else deserves our [sugar_cane|E]!"
+ commodity_sugar_cane.013.title:0 "[sugar_cane|E] import deal accepted"
+ commodity_sugar_cane.013.desc:0 "[exporter.GetName] has accepted my proposal!"
+ commodity_sugar_cane.013.a:0 "They won't regret this sale!"
+ commodity_sugar_cane.014.title:0 "[sugar_cane|E] import deal rejected"
+ commodity_sugar_cane.014.desc:0 "[exporter.GetName] has not accepted my proposal!"
+ commodity_sugar_cane.014.a:0 "They will regret this decision."
+ commodity_sugar_cane.015.title:0 "Mercantile Opportunities"
+ commodity_sugar_cane.015.desc:0 "While I'm visiting [exporter.GetCapitalLocation.GetTitle.GetBaseNameNoTier], many other business opportunities have appeared - the city's market is bustling with exotic wares, and [importer.GetCapitalLocation.GetTitle.GetBaseNameNoTier] goods seem to have attracted the interest of a good number of local merchants as well."
+ commodity_sugar_cane.015.a:0 "Buying and selling can both be quite lucrative!"
+ commodity_sugar_cane.015.b:0 "Enough business - I need a rest!"
+ commodity_sugar_cane.015.c:0 "I'm tired of this place already."
+ commodity_sugar_cane.import_accepted:0 "My offer to import [sugar_cane|E] was accepted"
+ commodity_sugar_cane.import_rejected:0 "My offer to import [sugar_cane|E] was rejected"
+ 
+#triggers

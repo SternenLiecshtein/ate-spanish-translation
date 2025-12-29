@@ -1,0 +1,18 @@
+﻿l_spanish:
+
+ popular_saints.0001.t:0 "A Blessed Visitor"
+ popular_saints.0001.desc:0 "A popular and celebrated peasant from your lands has arrived at your court. Apparently considered a natural leader and holy [popular_saint.GetWomanMan] in the communities around [popular_saint_home.GetName], [popular_saint.GetSheHe] has come to your court to advocate on their behalf, and has already struck up conversation with [receptionist.GetName] regarding local politics and the spiritual needs of the peasantry."
+ popular_saints.0001.a:0 "And what do your people need?"
+ popular_saints.0001.b:0 "I think you'd do better work in my court than in some village."
+ popular_saints.0001.c:0 "I don't have time for some peasant, no matter how \"blessed\" they are."
+ popular_saints.0001.d:0 "I think we may be rather alike, [popular_saint.GetName]. Can we speak?"
+ popular_saints.0001.d.win:0 "[popular_saint.GetName] is impressed"
+ popular_saints.0001.d.win2:0 "[popular_saint.GetName] will remain in your court"
+ popular_saints.0001.d.lose:0 "[popular_saint.GetName] appreciates your time"
+ popular_saints.0001.d.third:0 "[popular_saint.GetName] and [receptionist.GetName] get along well"
+ popular_saints.0001.d.third2:0 "[receptionist.GetName] convinces [popular_saint.GetName] to remain at your court"
+ popular_saints.0001.e: "Would you be able to help me with some pressing matters?"
+ popular_saints.0001.e.win:0 "[popular_saint.GetName] is able to help"
+ popular_saints.0001.e.lose:0 "[popular_saint.GetName]'s assistance isn't enough"
+ popular_saints.0001.f: "You're [popular_saint.GetCulture.GetName] I've been wondering..."
+ popular_saints.0001.g: "There are many souls in [ps_mission_target.GetName] and beyond you could reach."

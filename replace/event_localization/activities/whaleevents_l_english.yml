@@ -1,0 +1,73 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ whale.1.t:0 "The Hunt Begins"
+ whale.1.desc:0 "The anticipation is unbearable. Ever since the reports came in this morning of fisherman spotting a pod of whales out to sea, the air has been fraught with a palpable tension. A single bowhead whale, rendered out and butchered, can feed an entire village, and the blubber will provide you with great wealth - as well as honor to [ROOT.Char.GetFaith.HighGodName]."
+ whale.1.option.a:0 "Men! This hunt is for [ROOT.Char.GetFaith.HighGodName]!"
+ whale.1.option.b:0 "Men! Tonight we feast on Muktuq!"
+
+ whale.2.t:0 "The Hunt"
+ whale.2.desc:0 "The salty spray is cold on your face as your boat comes up near the breaching whale. The other boats stay back -  there is too great a risk of capsizing, but the blow must be struck. In your hands rests the polished shaft of the harpoon, and you flip the toggle-head back and forth a few times, making sure that it’ll stay in the whale’s blubber when it penetrates, and check that the line is attached to the float. There! The whale is surfacing again!"
+ whale.2.option.a:0 "Throw the first harpoon!"
+ whale.2.option.b:0 "Here, [whale_ward.GetName] this is how you do it!"
+ whale.2.option.c:0 "You do it!"
+
+ whale.3.t:0 "The Hunt: A Disaster"
+ whale.3.desc:0 "The harpoon hits the side of the whale. For a moment, you grin, as the bladed edge cuts into the whale, but that grin fades quickly. Something went wrong: either the toggle didn’t catch, or the harpoon head broke. Either way, the whale is diving, and your float will not do its job of tiring the whale out."
+ whale.3.option.a:0 "It is not [ROOT.Char.GetFaith.HighGodName]'s will that we hunt this creature today"
+ whale.3.option.b:0 "Curse [ROOT.Char.GetFaith.TricksterGodName]'s' interference. This whale will be ours."
+ whale.3.option.b.tooltip:0 "You try again!"
+ whale.4.t:0 "The Hunt: Success!"
+ whale.4.desc:0 "It has been hours, and your boat, along with the others, have been harrying the bowhead whale. It is tired now, exhausted from trying to dive, worn by your constant attacks. It is a testament to [ROOT.Char.GetFaith.HighGodName] that you have tracked it for so long, but it is finally over. Your harpoons have done their jobs, and the floats have done theirs to keep the whale from escaping. The beast is yours. Now, the killing blow must be struck.\n\nSomeone must leave the relative safety of their boat, climb into the back of the dying whale, and from there, spear it through its lungs. Only then will the kill be assured. It is an honorable task, but a dangerous one. If the whale is not as tired as it seems, it can dive, and even the bravest of whalers will not survive long in these waters."
+ whale.4.option.a:0 "It should be me!"
+ whale.4.option.b:0 "ON second thought... you do it"
+ 
+ whale.5.t:0 "The Hunt: The End"
+ whale.5.desc:0 "The carcass of the whale has been tied to the small fleet of ships, and together you pull it back to port. There, the people have gathered, celebrating your successful hunt. There is still a lot of work to be done to render out the whale. Almost every part will be used or consumed in some way or another: the meat will feed your people for months to come, the blubber will warm and light your hearths, it’s bones will form the structures of your homes, and even it’s baleen will find use, woven into baskets. Truly we honor [ROOT.Char.GetFaith.HighGodName] by wasting none of the gift offered, and the wealth of this hunt will be enjoyed by our people for a long time."
+ whale.5.option.a:0 "I am tired, and it is time to enjoy the Muktuk."
+
+ whale.6.t:0 "The Hunt: Scrimshaw"
+ whale.6.desc:0 "It is a moment of a lul during the hunt, and a grizzled old whaler has pulled out a chunk of ivory from a previous hunt. His focus is absolute on it, as he carefully whittles and polishes. Under your astounded eyes, under his rough fingers, a tiny, flawless [ROOT.Char.Custom2('GetScrimshaw', ROOT.Char)] takes shape on the smooth ivory. He sees you looking, and grins a toothless smile, waving you over.\n\n'Isn’t she pretty, m’lord? S’a good way to pass the time, and they say [ROOT.Char.GetFaith.FateGodName] likes em.'"
+ whale.6.option.a:0 "I’ll buy that off you!"
+ whale.6.option.b:0 "Good luck, eh?"
+ whale.6.option.c:0 "Are you being paid to waste time? Put that away and get to work"
+
+ whale.7.t:0 "The Hunt: Educating Children"
+ whale.7.desc:0 "Little [whale_ward_knot.GetName] is following you around, eyes wide at the movement and activity aboard the boat. They are still young, but it is clear that their eyes are drinking in everything they can see. “I wanna help” [whale_ward_knot.GetName] says."
+ whale.7.option.a:0 "Go find the [ROOT.Char.Custom2('GetWhaleNonSense', ROOT.Char)]"
+ whale.7.option.b:0 "Be careful and stay out of the way. You’re young, but you’re here to learn"
+ whale.7.option.c:0 "Here is how you tie a Reef Knot"
+
+
+
+
+ north_atlantic.0180.t:0 "The Whalers Set Off"
+ north_atlantic.0180.desc:0 "We [ROOT.Char.GetCulture.GetCollectiveNoun] have hunted whales for as long as anyone can remember. These creatures – or more correctly, their carcasses – are a useful source of blubber for oil and meat.\n\nEven a great [ROOT.Char.GetTitleAsNameNoTooltip] such as myself am aware of the potentially profitable, if risky, nature of the whaling business. Thus, I have decided to sponsor a number of whalers to go find and hunt these majestic beasts, and a good share of the profit from whatever they manage to collect will go to me. Some whalers prefer to go out to sea and hunt whales there, while others stick to luring into coastal areas where they can be trapped.\n\nOf course, I should manage my expectations carefully, as not every hunting trip returns successfully. However, I am confident that the whalers I’ve employed will do more than an acceptable job."
+ north_atlantic.0180.a:0 "Good luck!"
+ north_atlantic.0181.t:0 "The Whalers Return"
+ north_atlantic.0181.desc:0 "The [ROOT.Char.GetCulture.GetName] whalers I recently sent to hunt for whales have returned.\n\n"
+ north_atlantic.0181.desc.fail:0 "Alas, it appears these whalers were unsuccessful and unable to kill any whales! I am extremely disappointed with this result, but such outcomes are not unheard of. I can only hope that next time, the whalers I hire are luckier… or more competent."
+ north_atlantic.0181.desc.success:0 "Thankfully, these whalers successfully hunted down some whales. Once we contact nearby merchants, we can sell the meat as well as the blubber for oil, and ship them to ports elsewhere. Anyways, as I congratulate the whalers on a job well done, I assess how much profit we'll make from their kills.\n\n"
+ north_atlantic.0181.desc.low:0 "Unfortunately, while the whalers did manage to kill a couple whales, it was not a particularly impressive amount. It was enough to pay back some of the costs of the whole trip, but it was not enough to turn a handsome profit.\n\nStill, things could have been worse! At least we got something out of it."
+ north_atlantic.0181.desc.medium:0 "The whalers managed to kill a decent number of whales. Not only was it enough to pay back the costs of the whole trip, but we’ve made quite a decent profit!\n\nI can’t complain much about the result, and am glad that I found a team of competent whalers."
+ north_atlantic.0181.desc.high:0 "The whalers managed to kill a large number of whales; in fact, it was one of the best hunting trips among all the whalers in the area in a long time. We’ve not only paid back the costs of the whole trip, but we’ve made a great profit!\n\nI am most impressed with the team of whalers, and I look forward to potentially working with them again in the future."
+ north_atlantic.0181.a.failure:0 "Perhaps we’ll do better next time…."
+ north_atlantic.0181.a.low:0 "We'll make do with what we caught."
+ north_atlantic.0181.a.medium:0 "The whalers did very good work."
+ north_atlantic.0181.a.high:0 "A very commendable result!"
+ north_atlantic.0182.t:0 "Tax Exemptions for Whaling Towns"
+ north_atlantic.0182.desc.culture:0 "We [ROOT.Char.GetCulture.GetCollectiveNoun] have a long history of whaling. People from around the world respect us greatly for our ability to hunt whales and profit from it."
+ north_atlantic.0182.desc.not_culture:0 "There are quite a number of [culture.GetCollectiveNoun] living in my realm. They have a long history of whaling and are respected greatly around the world for their ability to hunt whales and profit from it."
+ north_atlantic.0182.desc:0 "\n\nBecause of this, there are a number of coastal towns in my realm that are heavily involved in whaling. They are, without a doubt, an important part of the region's economy.\n\nAs of today, I will exempt these whaling towns from paying taxes for a while, and they will also be granted other privileges. It is my hope that these measures will support these towns’ economic growth, and ensure that the whaling industry will prosper."
+ north_atlantic.0182.a:0 "I am sure the whaling towns will appreciate this."
+ north_atlantic.0183.t:0 "Levying Extra Taxes on Whaling Towns"
+ north_atlantic.0183.desc.culture:0 "$north_atlantic.0182.desc.culture$"
+ north_atlantic.0183.desc.not_culture:0 "$north_atlantic.0182.desc.not_culture$"
+ north_atlantic.0183.desc:0 "\n\nBecause of this, there are a number of coastal towns in my realm that are heavily involved in whaling. They are, without a doubt, an important part of the region's economy.\n\nAs of today, I will be levying extra taxes on these whaling towns. They already make immense profits from whaling, so it is only fair that they pay more."
+ north_atlantic.0183.a:0 "The realm's treasury will benefit greatly from this."
+

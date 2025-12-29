@@ -1,0 +1,8 @@
+﻿l_spanish:
+ backwater_county_modifier: "Backwater"
+ backwater_county_modifier_desc: "The golden radiance of California’s empire has never reached the remote northern mountains, leaving this county shrouded in obscurity. Neglected for too long, it may become the cradle of a new rising power.\n\n#X @warning_icon! This modifier may be removed using the [GetDecisionWithKey('restore_backwater_counties_decision').GetName] [decision|E] once [development|E] of this [county|E] is #V 15#! or more!#!\n\n"
+ decision_group_type_californian: "Californian Decisions"
+ 
+ 
+ interfaith_holy_order_county:0 "Inter-Faith Holy Order"
+ interfaith_holy_order_county_desc:0 "A [holy_order|E] from a [faith|E] that practices [GetFaithDoctrine('tenet_inter_faith_services').GetBaseName] is stationed in this county. These inter-faith sensibilities have lead to the warriors of this order serving the faith and the realm in less direct ways than wars with other faiths.\nCounty Conversion Resistance: #P +50%#!"

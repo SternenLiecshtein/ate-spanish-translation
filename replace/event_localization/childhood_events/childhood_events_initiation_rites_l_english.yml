@@ -1,0 +1,14 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+initiation_rites.1.t:0 "Initiation Rites of the [ROOT.Char.GetCulture.GetName] Nation"
+initiation_rites.1.d:0 "Among certain indigenous groups of the Cerrado and the Amazon, initiation rites play a crucial role in the transition of teenage boys into adult life - and into the responsibilities that come with being a warrior and a hunter. These ceremonies often involve a series of tests, challenges, and rituals that assess the young boys' physical, emotional, and spiritual preparedness. This may include endurance tests and teachings about tribal customs, traditions, and the profound connection between the tribe and the natural environment.\n\nSome of these tests can be quite dangerous, however - [ROOT.Char.GetFirstName] himself has heard dozens of stories about other boys who got severely maimed after the rituals. But he is also aware that these tests are a display of courage before the whole tribe. Will he take part on the rites and be accepted as a full-fledged adult and warrior?"
+initiation_rites.1.a:0 "Join the rituals!"
+initiation_rites_tooltip_1:0 "#weak Let them all know how brave I am! #!"
+initiation_rites.1.b:0 "This sounds too dangerous..."
+initiation_rites_tooltip_2:0 "#weak Honestly, I don't care what they think! #!"

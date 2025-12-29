@@ -1,0 +1,68 @@
+﻿l_spanish:
+
+#event_localization\stress_events\stress_threshold_events_l_spanish.yml
+ stress_threshold.1011.conversion.intrafaith:0 "Perhaps I've misplaced my faith?"
+ stress_threshold.1011.conversion.judaism:0 "The old covenants will help me stay pure."
+ stress_threshold.1011.conversion.vernacular:0 "Perhaps the [new_faith.GetAdherentName]'s [new_faith.ReligiousText] can help me."
+ stress_threshold.1011.conversion.che:0 "I must become a New [ROOT.GetWomanMan|U]."
+
+ stress_threshold.1504.i:0 "A hot cup of coffee will surely pick me up."
+
+#event_localization\stress_events\stress_threshold_events_1_l_spanish.yml
+
+ stress_threshold.1001.smoker.gain:0 "I could do with a smoke, I think..."
+ stress_threshold.1001.smoker.effect:0 "[ROOT.Char.GetFaith.HighGodName], I #EMP really#! need a smoke!"
+
+ stress_threshold.1701.e.coffee.gain:0 "Some coffee will help keep me going!"
+ stress_threshold.1701.e.coffee.effect:0 "$stress_threshold.1701.e.coffee.gain$"
+
+ stress_threshold.1711.j.coffee.gain:0 "A hot cup of coffee will surely pick me up."
+ stress_threshold.1711.j.coffee.effect:0 "$stress_threshold.1711.j.coffee.gain$"
+
+#event_localization\stress_events\stress_threshold_prison_events_l_spanish.yml - none yet
+
+#event_localization\stress_events\stress_threshold_special_events_l_spanish.yml  - none yet
+
+#event_localization\stress_events\stress_trait_coping_decisions_events_l_spanish.yml
+
+ stress_trait_coping_decisions.8000.t:0 "Stress Coping: A Nice Cup of Coffee"
+ stress_trait_coping_decisions.8000.desc:0 "I find myself in an almost meditative calm as I step through the process of preparing a cup of coffee, slowly watching as the dark liquid filters down into the cup I have laid out.\n\nAfter several minutes, I take up the finished cup of dark brown liquid, breathing in the fragant aroma and take a sip.\n\n #EMP Mmm#!. \n\n A wave of warmth spreads across me with the liquid, as I feel the fatigue leave my body, my mind already sharper and more ready to face the day."
+ stress_trait_coping_decisions.8000.a:0 "Truly, the best part of waking up..."
+ stress_trait_coping_decisions.coffee_cooldown.1.tt:0 "You will be unable to take another coffee-related decision for 24 months"
+
+ stress_trait_coping_decisions.8100.t:0 "Stress Coping: Morning Brew"
+ stress_trait_coping_decisions.8100.desc:0 "Merchants and commoners bustle about in the marketplace around me as I slowly sit, my head foggy as I wait for the barista to serve my coffee to me. Shuffling through my papers, I try reading a sentence but can't possibly make heads or tails of what is written there. Sighing loudly, I am pleasantly surprised by the barista arriving with my morning brew.\n\nSipping the brew, I feel the tiredness lifting from me as  I look down at the papers, their meaning now instantly clear. I sit there, slowly taking in the atmosphere of the marketplace, content with my morning brew."
+ stress_trait_coping_decisions.8100.a:0 "Now if only these headaches I get would stay away..."
+ stress_trait_coping_decisions.8100.a.tt:0 "If the Caffeine Addict modifier expires without a related Coffee modifier being in place, you will recieve a negative modifier"
+ stress_trait_coping_decisions.coffee_cooldown.2.tt:0 "You will be unable to take another coffee-related decision for 18 months"
+
+ stress_trait_coping_decisions.8200.t:0 "Stress Coping: Another Hour, Another Cup"
+ stress_trait_coping_decisions.8200.desc:0 "I suddenly rouse awake, having finally dozed off in the early hours of last night, a lone candle stub burning and the first rays of morning light visble in the distance from my study window. The knots in my shoulders confirm another night spent pouring over ledgers and correspondence, and I groan at the thought of the council meeting I have in just a few hours.\n\nStretching, I reach for a small bell and ring it. After what feels like hours, a servant steps through the door with a tray and a large mug of coffee.\n\nDowning the hot liquid, I feel the aches in my head and shoulders dull, my vision becoming clearer as the fatigue in my body lifts. Sighing with contentment, I signal for the servant to follow me with more coffee at the ready, as I prepare to meet the day, ever more grateful of the brew that helps me keep on pushing through at all hours of the day and night..."
+ stress_trait_coping_decisions.8200.a:0 " #Emp Ha!#! I'll sleep when I'm dead!"
+ stress_trait_coping_decisions.coffee_cooldown.3.tt:0 "You will be unable to take another coffee-related decision for 12 months"
+
+ stress_trait_coping_decisions.8300.t:0 "Stress Coping: Jitters"
+ stress_trait_coping_decisions.8300.desc:0 "'My [ROOT.Char.GetTitleAsNameNoTooltip], I #Emp really#! think you've had enough' [concerned_friend_coffee.GetName] says to me, a look of concern across their face as they watch me pour out another mug of coffee. Rolling my eyes, I take the mug and down the hot liquid in a single gulp, expecting the familiar feeling of fatigue lifting from my body\n\nEverything around me feels slightly out of focus, and after a moment I notice tremors shaking my hands as [concerned_friend_coffee.GetName] watches on with worry. Waving them away, I take a seat, trying to focus on the papers I had been reading earlier, my heartbeat pulsing in my head for what feels like hours..."
+ stress_trait_coping_decisions.8300.a:0 "Maybe some more coffee can help calm my nerves?"
+ stress_trait_coping_decisions.8300.tt:0 "#weak You may want to cut back on the coffee...#!"
+
+ stress_trait_coping_decisions.8350.t:0 "Stress Coping: Heart Palpitations"
+ stress_trait_coping_decisions.8350.desc:0 "Waking has become more and more difficult recently, my coffee not chasing away the tremors in my hands and the fatigue in my body like it once did. Having demanded my servants have a cup sitting waiting for as soon as I rise, I stumble over to the drink and take it in my shaking hands. Letting its warmth rise up to me, I take a deep sip, willing my fatigue away\n\n #Emp Wait#! \n\nYour heart skips a beat before returning, the usual pounding replaced with an altogether different rhythm, pounding with enough force to break out of your chest. Clutching at it, you drop the cup, struggling towards the exit of your chambers, frantically croaking out for help, all the while the room fading out aroumd you..."
+ stress_trait_coping_decisions.8350.tt:0 " #Emp Someone...please...help...#! "
+ stress_trait_coping_decisions.8350.tt.good:0 "You survive"
+ stress_trait_coping_decisions.8350.tt.good.survived:0 "Your survive your heart palpitations"
+ stress_trait_coping_decisions.8350.tt.bad:0 "You die from a caffeine-induced heat attack"
+
+ stress_trait_coping_decisions.8410.t:0 "Stress Coping: Coffee Headaches"
+ stress_trait_coping_decisions.8410.desc:0 "This morning has stretched on endlessly, the front of my head throbbing as I desperately try and focus on the matters of the day. Try as I might, the headache overcomes me as I bury my head in my hands, a wave of lethargy flooding through me.\n\nMulling over my options, it occurs to me that I can't remember the last time I drank a coffee-something I resolve to address, as soon as I feel less like going back to bed..."
+ stress_trait_coping_decisions.8410.a:0 "Oh, my #Emp head!#!"
+ stress_trait_coping_decisions.coffee_headache_cooldown.1.tt:0 "You will be unable to take a coffee-related decision for 12 months. Taking a decision after that can clear the Coffee Headache modifier early."
+
+ stress_trait_coping_decisions.8420.t:0 "Stress Coping: Coffee Crash"
+ stress_trait_coping_decisions.8420.desc:0 "'Is everything okay, my [ROOT.Char.GetTitleAsNameNoTooltip]? It's almost noon' [concerned_friend_coffee.GetName] says, sweeping into my chambers and pushing apart the curtains. The light floods into the room as I let out a howl, my head throbbing like its held in a vice. It takes everything in my power to hold back bile as I groggily lift myself up, meeting [concerned_friend_coffee.GetName]'s gaze as I croak out a word."
+ stress_trait_coping_decisions.8420.a:0 " #Emp...coffee...#!"
+ stress_trait_coping_decisions.coffee_headache_cooldown.2.tt:0 "You will be unable to take a coffee-related decision for 6 months. Taking a decision after that can clear the Coffee Crash modifier early."
+
+ stress_trait_coping_decisions.8500.t:0 "Stress Coping: Inhaling Deeply"
+ stress_trait_coping_decisions.8500.desc:0 "Finding a quiet spot away from the noise of the everyday, I feel myself holding my breath as I take out my pipe and pack tobacco into it. Carefully lighting it, I take a deep breath in as the smoke floods through my lungs. Exhaling and coughing slightly, I take a moment to enjoy the pleasant buzz of the tobacco spreading through my body.\n\nNow if I could #italics just#! clear this damn cough of mine, everything would be perect..."
+ stress_trait_coping_decisions.8500.a:0 "[ROOT.Char.GetFaith.HighGodName], I needed that!"

@@ -1,0 +1,32 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ imperial_bureaucracy.0010.t:0 "Vestibular Day!"
+ imperial_bureaucracy.0010.desc:0 "Time has come for me to take the dreaded Vestibular, the standardized exams that will test my understanding of the Brazilian state bureaucracy. Depending on my grades, this could be my first step into the imperial civil service - or, on the contrary, it could mean I'll have a way harder time pursuing a political career..."
+ imperial_bureaucracy.0010.a:0 "I hope I crammed enough last night..."
+ imperial_bureaucracy.0010.b:0 "Vestibular is not for me."
+
+ 
+ imperial_bureaucracy.0014.t:0 "Failure!?"
+ imperial_bureaucracy.0014.desc:0 "Despite your best efforts you have failed the Vestibular exam."
+ imperial_bureaucracy.0014.a:0 "There's more to life than being a paper pusher... right?"
+ 
+ imperial_bureaucracy.0015.t:0 "Barely Passed"
+ imperial_bureaucracy.0015.desc:0 "You've managed to scrape by with a passing grade on the Vestibular exam, which is better than nothing eh?"
+ imperial_bureaucracy.0015.a:0 "Good thing they didn't find my little cheat sheet."
+ 
+ imperial_bureaucracy.0016.t:0 "A Passing Grade"
+ imperial_bureaucracy.0016.desc:0 "You've passed the Vestibular with a respectable passing grade, demonstrating an understanding of Brazil that will lend itself well in the future."
+ imperial_bureaucracy.0016.a:0 "It's finally over."
+ 
+ imperial_bureaucracy.0017.t:0 "A Very Good Grade"
+ imperial_bureaucracy.0017.desc:0 "You've done very well on the Vestibular exam, guaranteeing you a good position in the Brazilian bureaucracy."
+ imperial_bureaucracy.0017.a:0 "All that studying paid off."
+ 
+ imperial_bureaucracy.0018.t:0 "Above and Beyond"
+ imperial_bureaucracy.0018.desc:0 "You have not only passed the Vestibular exam, but it appears that you achieved one of the highest scores in all of Brazil!"
+ imperial_bureaucracy.0018.a:0 "I may need to sit down for a minute."

@@ -1,0 +1,10 @@
+﻿l_spanish:
+
+ doctrine_homosexuality_indifferent_name:1 "Indiferente"
+ doctrine_homosexuality_indifferent_desc:0 "El matrimonio existe entre un hombre y una mujer, pero no es nuestro lugar juzgar lo que sucede entre dos personas en la privacidad del dormitorio."
+ doctrine_parameter_homosexuality_indifferent:0 "Las relaciones entre personas del mismo sexo son parcialmente aceptadas"
+
+ doctrine_gender_varied_domination_name:0 "Dominación variada"
+ doctrine_gender_varied_domination_desc:0 "Hombres y mujeres han luchado desde el origen de la humanidad por el control de la sociedad, y aunque el equilibrio de poder entre ellos pueda cambiar, la paz y la igualdad nunca pueden alcanzarse."
+ doctrine_parameter_gender_varied_law:0 "Habilita [laws|E]: sucesión de [GetLaw('male_only_law').GetName], [GetLaw('male_preference_law').GetName], [GetLaw('female_preference_law').GetName] y [GetLaw('female_only_law').GetName]"
+ doctrine_parameter_gender_assigned_dynasty:0 "Los hijos adoptan la dinastía del progenitor de su mismo género, siempre que hayan nacido en circunstancias legales regulares."

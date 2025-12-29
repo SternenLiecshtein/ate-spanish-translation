@@ -1,0 +1,624 @@
+﻿l_spanish:
+ # Interacciones de Adopción
+ ao_is_now_your_child: "Hijo Adoptado"
+ ao_is_now_your_spouses_child: "Esposa adopta al Hijo"
+
+ ao_arrange_adoption_interaction: "Concertar Adopción"
+ ao_arrange_adoption_interaction_desc: "[recipient.Custom2('ao_ArrangeAdoptionInteractionDesc', actor)]"
+ ao_arrange_adoption_interaction_desc_self: "Adopta un personaje en tu [court|E]"
+ ao_arrange_adoption_interaction_desc_ruler: "Adopta un personaje en [recipient.GetShortUINamePossessive] [court|E]"
+ ao_arrange_adoption_interaction_desc_other: "Adopta un personaje de [recipient.GetShortUIName]"
+ ao_arrange_adoption_interaction_extra_icon: "$hook_extra_icon$"
+ actor_secondary_ao_arrange_adoption_interaction: "Esposa"
+
+ actor_secondary_adopt_interaction: "Remitente"
+ recipient_secondary_adopt_interaction: "Destinatario"
+
+ ao_find_adoption_with_spouse_interaction: "Encuentra un personaje para adoptar"
+ ao_find_adoption_with_spouse_interaction_desc: "Encuentra un personaje en tu [realm|E] para adoptar."
+ actor_secondary_ao_find_adoption_with_spouse_interaction: "Esposa"
+
+ AO_SELECT_YOUR_SPOUSE: "#I Elige a tu [spouse|E]#!"
+ AO_ADOPTION_SELECT_ADOPTEE: "#I Elige a quién [adopt|E] de tu [court|E]#!"
+
+ AO_ALLIANCE: "Ofrecer Alianza"
+
+ AO_SINGLE_ADOPT_RECIPIENT_REQUEST: "Me gustaría adoptarte y criarte como si fueras mi hijo, si me lo permites."
+ AO_SINGLE_ADOPTION_REQUEST: "Me gustaría adoptar a tu [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] y criar a [secondary_recipient.GetHerHim] como si fuera mi hijo, si te parece razonable."
+
+ AO_ADOPT_RECIPIENT_REQUEST: "Mi [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))] [secondary_actor.GetShortUIName] y yo nos gustaría adoptarte y criarte como si fueras nuestro hijo, si nos lo permites."
+ AO_ADOPT_FROM_SECONDARY_ACTOR_REQUEST: "Me gustaría adoptar a tu [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] contigo y criar a [secondary_recipient.GetHerHim] como si fuera nuestro, si me lo permites."
+ AO_ADOPTION_REQUEST: "Mi [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))] [secondary_actor.GetShortUIName] y yo nos gustaría adoptar a tu [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] y criar a[secondary_recipient.GetHerHim] como si fuera nuestro, si te parece razonable."
+
+ AO_SIBLING_ADOPT_RECIPIENT_REQUEST: "Me gustaría adoptarte en mi familia como mi [recipient.Custom('SisterBrother')], si me lo permites."
+ AO_SIBLING_ADOPTION_REQUEST: "Me gustaría adoptar a tu [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] en mi familia como mi [recipient.Custom('SisterBrother')], si te parece razonable."
+
+ # Shared Fertility Interactions
+ ao_ask_to_share_fertility_interaction: "Proponer un acuerdo reproductivo"
+ ao_ask_to_share_fertility_interaction_desc: "Pídele a [recipient.GetFirstName] que sea tu [recipient.Custom('ao_SurrogateDonor')]"
+ ao_find_shared_fertility_donor_interaction: "Buscar donante"
+ ao_find_shared_fertility_surrogate_interaction: "Buscar vientre de alquiler"
+ ao_find_shared_fertility_donor_interaction_desc: "Busca un cortesano de [recipient.GetFirstName] para que sea tu [actor.Custom('ao_SurrogateDonorOpposite')]"
+
+ ao_surrogate_mother: "vientre de alquiler"
+ ao_donor_father: "donante"
+
+ actor_secondary_ao_ask_to_share_fertility_interaction: "Cónyuge"
+ actor_secondary_ao_find_shared_fertility_donor_interaction: "Donante" # Does not accept scopes for custom descriptions
+ actor_secondary_ao_find_shared_fertility_surrogate_interaction: "Vientre de alquiler" # Does not accept scopes for custom descriptions
+
+ AO_SELECT_YOUR_FERTILITY_DONOR: "#I Elige a tu [actor.Custom('ao_SurrogateDonorOpposite')|U]#!"
+
+ ao_you_and_spouse_are_the_parents: "Usted y su cónyuge serán los padres del niño."
+
+ # Modificadores de aceptación de Adopción
+ AO_RECIPIENT_DOES_NOT_ALLOW_ADOPTION: "Las adopciones van contra las creencias de [recipient.GetFirstNamePossessive]: $VALUE|=+0$"
+ AO_SECONDARY_RECIPIENT_AGAINST_ADOPTIONS: "Las adopciones van contra las creencias de [secondary_recipient.GetFirstNamePossessive]: $VALUE|=+0$"
+ AO_RECIPIENT_DISLIKE_ADOPTIONS: "[recipient.GetFirstName|U] desaprueba la adopción: $VALUE|=+0$"
+ AO_SECONDARY_RECIPIENT_DISLIKES_ADOPTIONS: "[secondary_recipient.GetFirstName|U] desaprueba la adopción: $VALUE|=+0$"
+ AO_ADOPTION_VERY_COMMONPLACE: "La adopción es común en la fe y la cultura de [recipient.GetFirstNamePossessive]: $VALUE|=+0$"
+ AO_ADOPTION_COMMONPLACE: "La adopción es común en la fe o la cultura de [recipient.GetFirstNamePossessive]: $VALUE|=+0$"
+ AO_RECIPIENT_ONLY_CHILD: "[secondary_recipient.GetFirstName|U] es el único hijo de [recipient.GetFirstNamePossessive]: $VALUE|=+0$"
+ AO_HAS_TWIN: "[secondary_recipient.GetFirstName|U] echaría de menos a su gemelo: $VALUE|=+0$"
+ AO_RECIPIENT_OTHER_CHILDREN: "[recipient.GetFirstName|U] tiene muchos otros hijos: $VALUE|=+0$"
+ AO_IS_ORPHAN: "[secondary_recipient.GetFirstName|U] es huérfano: $VALUE|=+0$"
+ AO_HAS_PARENTS: "[secondary_recipient.GetFirstName|U] tiene padres: $VALUE|=+0$"
+ AO_HAS_A_PARENT: "[secondary_recipient.GetFirstName|U] tiene uno de sus padres con vida: $VALUE|=+0$"
+ AO_HATES_PARENTS: "[secondary_recipient.GetFirstName|U] odia a [secondary_recipient.GetHerHis] padres: $VALUE|=+0$"
+ AO_DISLIKES_PARENTS: "[secondary_recipient.GetFirstName|U] siente antipatía por [secondary_recipient.GetHerHis] padres: $VALUE|=+0$"
+ AO_LOVES_PARENTS: "[secondary_recipient.GetFirstName|U] ama a [secondary_recipient.GetHerHis] padres: $VALUE|=+0$"
+ AO_LIKES_PARENTS: "[secondary_recipient.GetFirstName|U] aprecia a [secondary_recipient.GetHerHis] padres: $VALUE|=+0$"
+ AO_HAS_GRANDCHILDREN: "[secondary_recipient.GetFirstName|U] ya tiene nietos propios: $VALUE|=+0$"
+ AO_HAS_CHILDREN: "[secondary_recipient.GetFirstName|U] ya tiene hijos propios: $VALUE|=+0$"
+ AO_YOU_ARE_ALREADY_THE_MOTHER: "Ya eres la madre de [secondary_recipient.GetHerHis|U]: $VALUE|=+0$"
+ AO_YOU_ARE_ALREADY_THE_FATHER: "Ya eres el padre de [secondary_recipient.GetHerHis|U]: $VALUE|=+0$"
+ AO_YOU_ALREADY_ARE_RELATED: "[secondary_recipient.GetFirstName|U] ya está emparentado contigo:: $VALUE|=+0$"
+ AO_SECONDARY_RECIPIENT_IS_FROM_DIVINE_BLOODLINE: "[secondary_recipient.GetFirstName|U] proviene de un linaje divino: $VALUE|=+0$"
+ AO_COMPATIBILITY_POSITIVE: "Tu personalidad es compatible con la de [secondary_recipient.GetHersHis]: $VALUE|=+0$"
+ AO_COMPATIBILITY_NEGATIVE: "Tu personalidad no es compatible con la de [secondary_recipient.GetHersHis]: $VALUE|=+0$"
+ AO_PIETY_LEVEL_NEGATIVE: "Eres [GetModifier( 'piety_level_0' ).GetNameWithTooltip|L]: $VALUE|=+0$"
+ AO_PIETY_LEVEL_MAX: "Eres [GetModifier( 'piety_level_5' ).GetNameWithTooltip|L]: $VALUE|=+0$"
+ AO_PRESTIGE_LEVEL_MAX: "Eres [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L]: $VALUE|=+0$"
+ AO_CRIMINAL: "[secondary_recipient.GetFirstName|U] cree que eres un [criminal|E]: $VALUE|=+0$"
+ AO_FELLOW_WITCH: "También eres [GetTrait('witch').GetName( GetNullCharacter )]: $VALUE|=+0$"
+ AO_IS_OLD: "[secondary_recipient.GetFirstName|U] es demasiado mayor para ser adoptado: $VALUE|=+0$"
+ AO_YOU_ARE_THE_HOUSE_HEAD: "Eres el [house_head|E] de [secondary_recipient.GetFirstNamePossessive]: $VALUE|=+0$"
+ AO_YOUR_HOUSE: "[secondary_recipient.GetFirstName|U] es miembro de tu [house|E]: $VALUE|=+0$"
+ AO_YOU_ARE_THE_DYNAST: "Eres el  [dynast|E] de [secondary_recipient.GetFirstNamePossessive]: $VALUE|=+0$"
+ AO_YOUR_DYNASTY: "[secondary_recipient.GetFirstName|U] es miembro de tu [dynasty|E]: $VALUE|=+0$"
+ AO_HOUSE_IS_DOMINANT: "La [house|E] de [secondary_recipient.GetFirstNamePossessive|U] es una [dominant_family|E]: $VALUE|=+0$"
+ AO_HOUSE_IS_POWERFUL: "La [house|E] de [secondary_recipient.GetFirstNamePossessive|U] es una [powerful_family|E]: $VALUE|=+0$"
+ AO_YOUR_SPLENDOR: "El [dynasty_prestige_level|E] de tu [dynasty|E]: $VALUE|=+0$"
+ AO_IS_LOWBORN: "[secondary_recipient.GetFirstName|U] es de origen humilde: $VALUE|=+0$"
+ AO_ALREADY_HAS_A_HOUSE: "[secondary_recipient.GetFirstName|U] ya pertenece a otra [house|E]: $VALUE|=+0$"
+ AO_IS_A_DYNAST: "[secondary_recipient.GetFirstName|U] es un [dynast|E]: $VALUE|=+0$"
+ AO_IS_A_HOUSE_HEAD: "[secondary_recipient.GetFirstName|U] es [house_head|E]: $VALUE|=+0$"
+ AO_IS_EMPEROR: "[secondary_recipient.GetFirstName|U] es un [emperor|E]: $VALUE|=+0$"
+ AO_IS_KING: "[secondary_recipient.GetFirstName|U] es [secondary_recipient.Custom('GetQueenKing')]: $VALUE|=+0$"
+ AO_IS_DUKE: "[secondary_recipient.GetFirstName|U] es [secondary_recipient.Custom('DuchessDuke')]: $VALUE|=+0$"
+ AO_IS_COUNT: "[secondary_recipient.GetFirstName|U] es un [count|E]: $VALUE|=+0$"
+ AO_IS_RULER: "[secondary_recipient.GetFirstName|U] es un [ruler|E]: $VALUE|=+0$"
+ AO_BUSY_FIGHTING: "[secondary_recipient.GetFirstName|U] está ocupado combatiendo en la [war|E] de [recipient.GetFirstNamePossessive]: $VALUE|=+0$"
+ AO_RECIPIENTS_KNIGHT: "[secondary_recipient.GetFirstName|U] es el [knight|E] de [recipient.GetFirstNamePossessive]: $VALUE|=+0$"
+ AO_ON_THE_COUNCIL: "[secondary_recipient.GetFirstName|U] forma parte del [council|E] de [recipient.GetFirstNamePossessive]: $VALUE|=+0$"
+ AO_HAS_COURT_POSITION: "[secondary_recipient.GetFirstName|U] tiene un cargo en la [court|E] de [recipient.GetFirstNamePossessive]:  $VALUE|=+0$"
+ AO_IS_RECIPIENTS_PRIMARY_HEIR: "[secondary_recipient.GetFirstName|U] es el [primary_heir|E] de [recipient.GetFirstNamePossessive]: $VALUE|=+0$"
+ AO_IS_FIRST_HEIR: "[secondary_recipient.GetFirstName|U] es el primero en la línea de sucesión de un [title|E]: $VALUE|=+0$"
+ AO_IS_SECOND_HEIR: "[secondary_recipient.GetFirstName|U] es el segundo en la línea de sucesión de un [title|E]: $VALUE|=+0$"
+ AO_IS_THIRD_HEIR: "[secondary_recipient.GetFirstName|U] es el tercero en la línea de sucesión de un [title|E]: $VALUE|=+0$"
+ AO_IS_FOURTH_HEIR: "[secondary_recipient.GetFirstName|U] es el cuarto en la línea de sucesión de un [title|E]: $VALUE|=+0$"
+ AO_DEADLY_CONTAGIOUS_DISEASE: "Tienes una enfermedad contagiosa mortal: $VALUE|=+0$"
+ AO_COURT_GRANDEUR_NEGATIVE: "Tu [court_grandeur|E] es inferior a lo esperado: $VALUE|=+0$"
+ AO_COURT_GRANDEUR_POSITIVE: "Tu [court_grandeur|E]: $VALUE|=+0$"
+ AO_FAITH_HOSTILITY_LEVEL: "Tu [faith|E] es [secondary_recipient.Custom2('ToleranceValueConcept', SCOPE.sC('actor'))|U]: $VALUE|=+0$"
+ AO_KNOW_DIFFERENT_LANGUAGES: "No compartís los mismos [languages|E]: $VALUE|=+0$"
+ AO_CULTURAL_ACCEPTANCE: "[actor.GetCulture.GetName]-[secondary_recipient.GetCulture.GetName] [cultural_acceptance|E]: $VALUE|=+0$"
+ AO_YOUR_LOVER: "[secondary_recipient.GetFirstName|U] es tu amante: $VALUE|=+0$"
+ AO_RECIPIENT_YOUR_LOVER: "[recipient.GetFirstName|U] es tu amante: $VALUE|=+0$"
+ AO_RECIPIENT_YOUR_FRIEND: "[recipient.GetFirstName|U] es tu amigo: $VALUE|=+0$"
+ AO_YOUR_FRIEND: "[secondary_recipient.GetFirstName|U] es tu amigo: $VALUE|=+0$"
+ AO_RECIPIENT_YOUR_RIVAL: "[recipient.GetFirstName|U] es tu rival: $VALUE|=+0$"
+ AO_YOUR_RIVAL: "[secondary_recipient.GetFirstName|U] es tu rival: $VALUE|=+0$"
+ AO_INTIMIDATED: "[recipient.GetFirstName|U] se siente intimidado por ti: $VALUE|=+0$"
+ AO_YOU_ARE_A_TYRANT: "[recipient.GetFirstName|U] cree que eres un tirano: $VALUE|=+0$"
+ AO_YOU_ARE_RECIPIENTS_LIEGE: "Eres el [liege|E] de [recipient.GetFirstNamePossessive]: $VALUE|=+0$"
+ AO_FAMILY_FEUD_REASON: "La [house|E] [secondary_recipient.GetHouse.GetBaseName] mantiene una [feud|E] con la Casa [actor.GetHouse.GetBaseName]: $VALUE|=+0$"
+ AO_YOU_ARE_IN_DEFENSIVE_WAR: "Estás en una [war|E] defensiva: $VALUE|=+0$"
+ AO_YOU_ARE_IN_CIVIL_WAR: "Estás en una [civil_war|E]: $VALUE|=+0$"
+ AO_YOU_ARE_AT_WAR: "Estás en [war|E]: $VALUE|=+0$"
+ AO_ALREADY_ADOPTED: "[secondary_recipient.GetFirstName|U] ya ha sido adoptado: $VALUE|=+0$"
+
+ AO_HATE_MY_HOUSE_HEAD: "[secondary_recipient.GetFirstName|U] odia a su [house_head|E]: $VALUE|=+0$"
+ AO_LIKE_MY_HOUSE_HEAD: "[secondary_recipient.GetFirstName|U] aprecia a su [house_head|E]: $VALUE|=+0$"
+ AO_HOUSE_IS_SMALL: "La [house|E] de [secondary_recipient.GetFirstNamePossessive|U] es pequeña: $VALUE|=+0$"
+
+ AO_OFFERED_ALLIANCE: "[recipient.GetFirstName|U] obtiene una alianza contigo: $VALUE|=+0$"
+ AO_ALREADY_HAVE_PLENTY_OF_CHILDREN: "Ya tienes muchos hijos: $VALUE|=+0$"
+ AO_YOU_ALREADY_HAVE_CHILDREN: "Ya tienes hijos: $VALUE|=+0$"
+ AO_YOU_ALREADY_HAVE_A_CHILD: "Ya tienes un hijo: $VALUE|=+0$"
+ AO_YOUR_HEIR_AGAINST_ADOPTING_ME: "Tu [primary_heir|E] se opone a adoptar a [secondary_recipient.GetFirstName]: $VALUE|=+0$"
+ AO_YOUR_CHILDREN_AGAINST_ADOPTING_ME: "Tus hijos se oponen a la adopción: $VALUE|=+0$"
+ AO_IS_AN_ADULT: "[secondary_recipient.GetFirstName|U] es adulto: $VALUE|=+0$"
+ AO_ALMOST_AN_ADULT: "[secondary_recipient.GetFirstName|U] está a punto de ser adulto: $VALUE|=+0$"
+ AO_CLOSE_IN_AGE: "[secondary_recipient.GetFirstName|U] no es mucho más joven que tú: $VALUE|=+0$"
+ AO_DIVINE_FAMILY: "[secondary_recipient.GetFirstName|U] pasaría a ser descendiente de una familia divina: $VALUE|=+0$"
+ AO_INHERIT_EMPIRE: "[secondary_recipient.GetFirstName|U] pasaría a ser heredero de un [emperor|E]: $VALUE|=+0$"
+ AO_YOU_EMPEROR: "Eres un [emperor|E]: $VALUE|=+0$"
+ AO_INHERIT_KINGDOM: "[secondary_recipient.GetFirstName|U] pasaría a ser heredero de un [actor.Custom('GetQueenKing')]: $VALUE|=+0$"
+ AO_YOU_KING: "Eres [actor.Custom('GetQueenKing')]: $VALUE|=+0$"
+ AO_INHERIT_DUCHY: "[secondary_recipient.GetFirstName|U] pasaría a ser heredero de un [actor.Custom('DuchessDuke')]: $VALUE|=+0$"
+ AO_YOU_DUKE: "Eres [actor.Custom('DuchessDuke')]: $VALUE|=+0$"
+ AO_INHERIT_COUNTY: "[secondary_recipient.GetFirstName|U] pasaría a ser heredero de un [count|E]: $VALUE|=+0$"
+ AO_YOU_COUNT: "Eres un [count|E]: $VALUE|=+0$"
+ AO_DIFFERENT_CULTURAL_HERITAGE: "Tenés un [heritage|E] cultural distinto: $VALUE|=+0$"
+ AO_DIFFERENT_CULTURE: "Tenés una [culture|E] distinta: $VALUE|=+0$"
+ AO_RAISE_IN_WITCH_COVEN: "[secondary_recipient.GetFirstName|U] será criado en un $witch_coven$: $VALUE|=+0$"
+ AO_BOTH_ALBINO: "Ambos son [GetTrait('albino').GetName( secondary_recipient.Self )]: $VALUE|=+0$"
+ AO_BOTH_GIANT: "Ambos son [GetTrait('giant').GetName( secondary_recipient.Self )]: $VALUE|=+0$"
+ AO_BOTH_SCALY: "Ambos son [GetTrait('scaly').GetName( secondary_recipient.Self )]: $VALUE|=+0$"
+ AO_BOTH_DWARF: "Ambos son [GetTrait('dwarf').GetName( secondary_recipient.Self )]: $VALUE|=+0$"
+
+ AO_CLOSE_IN_AGE_TO_SPOUSE: "[secondary_recipient.GetFirstName|U] no es mucho más joven que tu [spouse|E] [secondary_actor.GetFirstName]: $VALUE|=+0$"
+ AO_YOUR_SPOUSE_IS_ALREADY_THE_FATHER: "Tu [spouse|E] [secondary_actor.GetFirstName|U] ya es el padre de [secondary_recipient.GetHerHis|U]: $VALUE|=+0$"
+ AO_YOUR_SPOUSE_IS_ALREADY_THE_MOTHER: "Tu [spouse|E] [secondary_actor.GetFirstName|U] ya es la madre de [secondary_recipient.GetHerHis|U]: $VALUE|=+0$"
+ AO_YOUR_SPOUSE_ALREADY_IS_RELATED: "[secondary_recipient.GetFirstName|U] está emparentado con tu [spouse|E] [secondary_actor.GetFirstName]: $VALUE|=+0$"
+ AO_YOUR_SPOUSE_AGAINST_ADOPTING: "Tu [spouse|E] [secondary_actor.GetFirstName|U] se opone a las adopciones: $VALUE|=+0$"
+ AO_YOUR_CONSORTS_AGAINST_ADOPTING: "Tus [spouses|E] o [concubines|E] se oponen a las adopciones: $VALUE|=+0$"
+ AO_YOUR_SPOUSE_EMPEROR: "Tu [spouse|E] [secondary_actor.GetFirstName|U] es un [emperor|E]: $VALUE|=+0$"
+ AO_YOUR_SPOUSE_KING: "Tu [spouse|E] [secondary_actor.GetFirstName|U] es [actor.GetPrimarySpouse.Custom('GetQueenKing')]: $VALUE|=+0$"
+ AO_YOUR_SPOUSE_DUKE: "Tu [spouse|E] [secondary_actor.GetFirstName|U] es [actor.GetPrimarySpouse.Custom('DuchessDuke')]: $VALUE|=+0$"
+ AO_YOUR_SPOUSE_COUNT: "Tu [spouse|E] [secondary_actor.GetFirstName|U] es un [count|E]: $VALUE|=+0$"
+ AO_DEADLY_CONTAGIOUS_DISEASE_SPOUSE: "Tu [spouse|E] [secondary_actor.GetFirstName|U] tiene una enfermedad contagiosa mortal: $VALUE|=+0$"
+ AO_YOUR_SPOUSES_LOVER: "[secondary_recipient.GetFirstName|U] es el amante de tu [spouse|E] [secondary_actor.GetFirstNamePossessive]: $VALUE|=+0$"
+ AO_YOUR_SPOUSES_RIVAL: "[secondary_recipient.GetFirstName|U] es el rival de tu [spouse|E] [secondary_actor.GetFirstNamePossessive]: $VALUE|=+0$"
+ AO_FAMILY_FEUD_REASON_SPOUSE: "La [house|E] [secondary_recipient.GetHouse.GetBaseName] mantiene una [feud|E] con la Casa [secondary_actor.GetHouse.GetBaseName] de tu [spouse|E]: $VALUE|=+0$"
+
+ # Modificadores de aceptación al organizar una reunión
+ AO_SIBLING_REASON: "[secondary_actor.GetFirstName|U] y [secondary_recipient.GetFirstName] son hermanos: $VALUE|=+0$"
+ AO_AUNT_UNLCE_REASON: "[secondary_recipient.GetFirstName|U] es el/la [secondary_recipient.Char.Custom('GetAuntUncle')] de [secondary_actor.GetFirstNamePossessive]: $VALUE|=+0$"
+ AO_NIECE_NEPHEW_REASON: "[secondary_recipient.GetFirstName|U] es el/la [secondary_recipient.Char.Custom('GetNieceNephew')] de [secondary_actor.GetFirstNamePossessive]: $VALUE|=+0$"
+ AO_COUSIN_REASON: "[secondary_actor.GetFirstName|U] y [secondary_recipient.GetFirstName] son primos: $VALUE|=+0$"
+ AO_ERROR: "HA OCURRIDO UN ERROR CON EL MOD DE OPCIONES DE ADOPCIÓN: $VALUE|=+0$"
+
+ # Tradiciones Culturales
+ tradition_ao_african_fosterage_name: "Crianza compartida africana"
+ tradition_ao_african_fosterage_desc: "La responsabilidad de criar a los niños no tiene por qué recaer únicamente en quienes los engendraron. En esta cultura, otros pueden criarlos, en beneficio tanto de los niños como de quienes no fueron bendecidos directamente con ellos."
+ tradition_ao_ritual_succession_name: "Sucesión ritual"
+ tradition_ao_ritual_succession_desc: "El linaje es extremadamente importante para esta cultura, al punto de que los antepasados se han convertido en figuras míticas y legendarias, con muchos que afirman descender de ellos. Por ello, la línea de descendencia debe preservarse, ya sea por nacimiento o adopción."
+ tradition_ao_protective_adoption_name: "Adopción protectora"
+ tradition_ao_protective_adoption_desc: "La adopción es un medio de protección contra espíritus malignos y preocupaciones más terrenales. Gloria a quienes acogen a los necesitados en su familia."
+ tradition_ao_shared_fertility_name: "Fertilidad compartida"
+ tradition_ao_shared_fertility_desc: "La fertilidad es importante, pero no todas las parejas son bendecidas con ella. Es justo que quienes pueden ayuden a otras parejas a formar una familia."
+
+ culture_parameter_ao_no_displacement_adoption: "puede [adopt|E] si no tiene un [ao_proper_heir|E] o si la adopción no [ao_displace|E] a su [ao_proper_heir|E] en la [line_of_succession|E]"
+ culture_parameter_ao_lowborn_adoption: "los [characters|E] de esta [culture|E] pueden [adopt|E] a personajes [lowborn|E]"
+ culture_parameter_ao_anyone_adoption: "los [characters|E] de esta [culture|E] pueden [adopt|E] sin importar la [dynasty|E]"
+ culture_parameter_ao_dynastic_adoption: "los [house_heads|E] pueden usar la [interaction|E] #V $noble_family_adoption_interaction$#! con adultos y niños mayores"
+ culture_parameter_ao_can_visit_orphanage: "los [rulers|E] de esta [culture|E] pueden usar $ao_adoption_decision$ y [adopt|E] [ao_orphans|E]"
+ culture_parameter_ao_adult_adoption_if_emperor: "los [adults|E], sin importar cuán jóvenes sean, pueden ser [adopted|E] por [emperors|E]"
+ culture_parameter_ao_adult_adoption: "los [adults|E] pueden ser [adopted|E]"
+ culture_parameter_ao_no_prestige_cost_adoption: "Los [characters|E] de esta [culture|E] pueden [adopt|E] sin gastar [prestige|E]"
+ culture_parameter_ao_free_adoption_and_gives_prestige: "Los [characters|E] de esta [culture|E] pueden [adopt|E] sin gastar [dynasty_prestige|E] y obtendrán [prestige|E], pero [disinheriting|E] cuesta más [prestige|E]"
+ culture_parameter_ao_legitimate_adoption: "Los [spouses|E] y [vassals|E] de esta cultura aprueban las [adoptions|E].\n$EFFECT_LIST_BULLET$Los personajes con el rasgo [GetTrait('ao_adopted').GetName(GetNullCharacter)] de esta cultura no obtienen el rasgo [GetTrait('disputed_heritage').GetName(GetNullCharacter)]"
+ culture_parameter_ao_no_legitimacy_penalty: "El rasgo [GetTrait('ao_adopted').GetName(GetNullCharacter)] no reduce la ganancia de [legitimacy|E]"
+ culture_parameter_ao_common_adoption: "Las [adoptions|E] son más comunes en esta [culture|E]"
+ culture_parameter_ao_adopted_trait_gives_learning: "El rasgo [GetTrait('ao_adopted').GetName(GetNullCharacter)] otorga [learning|E]"
+ culture_parameter_ao_adopted_trait_gives_diplomacy: "El rasgo [GetTrait('ao_adopted').GetName(GetNullCharacter)] otorga [diplomacy|E] por cada [prestige_level|E]"
+ culture_parameter_ao_adopted_trait_reduces_enemy_hostile_scheme_success_chance: "El rasgo [GetTrait('ao_adopted').GetName(GetNullCharacter)] reduce la [success_chance|E] de los [hostile_scheme|E] enemigos"
+ culture_parameter_ao_shared_fertility: "Los [rulers|E] casados de un género igual o dominante pueden intentar concebir con un cortesano [lowborn|E]. Cualquier hijo resultante será considerado hijo del gobernante y de su cónyuge"
+ culture_parameter_ao_fecund_trait_more_valued: "El rasgo [GetTrait('fecund').GetName( GetNullCharacter )] es más valorado"
+ culture_parameter_ao_same_sex_marriage_if_accepted: "Permite [marriages|E] entre personas del mismo sexo si las relaciones homosexuales no son [shunned|E] ni [criminal|E]"
+ # culture_parameter_ao_heir_fosterage_gives_alliance: "Hacer que otro [ruler|E] eduque a tu [heir|E] concede una [alliance|E]"
+ culture_parameter_ao_dlc_unlock_maa_legionnaires: "[SelectLocalization( HasDlcFeature( 'landless_playable' ), 'culture_parameter_ao_unlock_maa_legionnaires', 'culture_parameter_ao_blank' )]" #Se necesita el DLC Roads to Power para desbloquearr esta clave
+ culture_parameter_ao_unlock_maa_legionnaires: "Esta tradición permite a una [culture|E] desbloquear la [innovation|E] $innovation_legionnaires$ en la [era] $culture_era_late_medieval$"
+ culture_parameter_ao_blank: ""
+
+ cannot_have_tradition_mystical_ancestors: "$cannot_combine_tradition_trigger_desc$ #high $tradition_mystical_ancestors_name$#!"
+ cannot_have_tradition_ao_ritual_succession: "$cannot_combine_tradition_trigger_desc$ #high $tradition_ao_ritual_succession_name$#!"
+ cannot_have_tradition_ao_african_fosterage: "$cannot_combine_tradition_trigger_desc$ #high $tradition_ao_african_fosterage_name$#!"
+ cannot_have_tradition_ao_familial_adoption: "$cannot_combine_tradition_trigger_desc$ #high $tradition_ao_familial_adoption$#!"
+ cannot_have_tradition_noble_adoption: "$cannot_combine_tradition_trigger_desc$ #high $tradition_noble_adoption$#!"
+
+ culture_in_ao_roman_empire_desc: "La [culture|E] no tiene al menos #V 50#! de sus [counties|E] en [GetGeographicalRegion('custom_roman_empire').GetName]"
+
+ # Custom Descriptions
+ AO_YOUR_PRISONER_TRIGGER: "[CHARACTER.GetShortUIName|U] es tu prisionero"
+ AO_YOUR_COURTIER_TRIGGER: "[CHARACTER.GetShortUIName|U] es tu cortesano"
+ AO_HOUSE_MEMBER_WITH_NO_INHERITANCE_TRIGGER: "[CHARACTER.GetShortUIName|U] es miembro de tu [house|E] y es poco probable que herede"
+
+ AO_RULERS_COURT_HAS_NO_ONE_YOU_CAN_ADOPT_TRIGGER_FIRST: "La corte de [CHARACTER.GetShortUINamePossessive|U] no tiene a nadie que puedas adoptar"
+ AO_RULERS_COURT_HAS_NO_ONE_YOU_CAN_ADOPT_TRIGGER_THIRD: "La corte de [CHARACTER.GetShortUINamePossessive|U] no tiene a nadie que puedas adoptar\n\nNo puedes adoptar a [CHARACTER.GetShortUIName|U] porque:"
+ AO_ADOPTEE_MUST_BE_10_YEARS_YOUNGER_THAN_YOU_TRIGGER: "[CHARACTER.GetShortUIName|U] debe ser al menos 10 años más joven que tú"
+ AO_ADOPTEE_MUST_BE_YOUNGER_THAN_YOU_TRIGGER: "[CHARACTER.GetShortUIName|U] debe ser más joven que tú"
+ AO_CANNOT_ADOPT_RULERS_DESCENDANT: "[CHARACTER.GetShortUIName|U] no debe ser descendiente de un [ruler|E] actual"
+ AO_YOUR_FAITH_FORBIDS_ADOPTING_BASTARDS: "Tu [faith|E] [CHARACTER.GetFaith.GetAdjective] prohíbe adoptar bastardos"
+ AO_ADOPTEE_MUST_BE_10_YEARS_YOUNGER_THAN_SPOUSE_TRIGGER: "[CHARACTER.GetShortUIName|U] debe ser al menos 10 años más joven que tu  [TARGET_CHARACTER.GetWifeHusband] [TARGET_CHARACTER.GetFirstName]"
+ AO_ADOPTEE_MUST_BE_YOUNGER_THAN_SPOUSE_TRIGGER: "[CHARACTER.GetShortUIName|U] debe ser más joven que tu [TARGET_CHARACTER.GetWifeHusband] [TARGET_CHARACTER.GetFirstName]"
+ AO_ADOPTER_AND_SPOUSE_MUST_HAVE_INFERTILE_MARRIAGE: "No debes tener posibilidad de engendrar hijos de forma natural con tu [TARGET_CHARACTER.GetWifeHusband] [TARGET_CHARACTER.GetFirstName]"
+ AO_ADOPTEE_MUST_BE_FAMILY_OR_LOWBORN_TRIGGER: "[CHARACTER.GetShortUIName|U] debe ser [family|E] o [lowborn|E]"
+ AO_ADOPTEE_MUST_BE_FAMILY_OR_MARRIED_TO_FAMILY_OR_LOWBORN_TRIGGER: "[CHARACTER.GetShortUIName|U] debe ser [family|E], estar casado con un familiar cercano o ser [lowborn|E]"
+ AO_ADOPTEE_MUST_BE_FAMILY_TRIGGER: "[CHARACTER.GetShortUIName|U] debe ser [family|E]"
+ AO_ADOPTEE_MUST_BE_FAMILY_OR_MARRIED_TO_FAMILY_TRIGGER: "[CHARACTER.GetShortUIName|U] debe ser [family|E] o estar casado con un familiar cercano"
+ AO_ADOPTEE_ADULT_DESCENDANTS_WRONG_HOUSE_TRIGGER: "[CHARACTER.GetShortUIName|U] no puede tener hijos adultos que no pertenezcan a tu [house|E]"
+ AO_ADOPTEE_CONCUBINE_OF_ANOTHER_TRIGGER: "[CHARACTER.GetShortUIName|U] no puede ser concubino de otro personaje"
+ AO_ADOPTEE_MINOR_PARTNER_IN_MARRIAGE_TRIGGER: "[CHARACTER.GetShortUIName|U] no puede ser el [ao_cc_subordinate_partner|E] en un matrimonio con alguien que no pertenezca a tu [house|E]"
+ AO_REQUIRES_NOT_DISPLACING_PROPER_HEIR_TRIGGER: "Adoptar a [CHARACTER.GetShortUIName] [ao_displace|E] a tu [ao_proper_heir|E]"
+ AO_ADOPTEE_MUST_BE_ISOLATING_IN_YOUR_COURT_TRIGGER: "[CHARACTER.GetShortUIName|U] no se encuentra aislado contigo"
+ AO_IS_BUSY_VISITING_AN_ORPHANAGE_FIRST: "[CHARACTER.GetShortUIName|U] está ocupado visitando un orfanato"
+ AO_IS_BUSY_VISITING_AN_ORPHANAGE_THIRD: "[CHARACTER.GetShortUIName|U] está ocupado visitando un orfanato"
+
+ NOT_ALREADY_PLANNING_ACTIVITY: "$ALREADY_PLANNING_ACTIVITY$" # Añadido porque Vanilla no contempla esta perspectiva
+ AO_CANNOT_HAVE_CHILDREN_TRIGGER: "[CHARACTER.GetShortUIName|U] no puede tener hijos" # Añadido porque Vanilla no contempla esta perspectiva
+ #Triggers de estado
+ AO_TOO_OLD_TO_HAVE_CHILDREN_TRIGGER_FIRST: "[CHARACTER.GetShortUIName|U] es demasiado mayor para tener hijos"
+ AO_TOO_OLD_TO_HAVE_CHILDREN_TRIGGER_THIRD: "[CHARACTER.GetShortUIName|U] es demasiado mayor para tener hijos"
+ AO_FERTILITY_IS_TOO_LOW_TRIGGER: "La [fertility|E] de [CHARACTER.GetShortUINamePossessive|U] es demasiado baja"
+ AO_HAS_CONTAGIOUS_DISEASE_FIRST: "[CHARACTER.GetShortUIName|U] tiene una enfermedad contagiosa"
+ AO_HAS_CONTAGIOUS_DISEASE_THIRD: "[CHARACTER.GetShortUIName|U] tiene una enfermedad contagiosa"
+ AO_RECIPIENT_CANNOT_BE_DOMINANT_GENDER_TRIGGER: "[CHARACTER.GetShortUIName|U] no puede ser el género dominante en su [faith|E]"
+ AO_CULTURE_MUST_HAVE_SHARED_FERTILITY_TRIGGER: "La [culture|E] de [CHARACTER.GetShortUINamePossessive|U] debe tener la [culture_tradition|E] $tradition_ao_shared_fertility_name$"
+ AO_CONCEIVING_WITH_RECIPIENT_IS_INCESTUOUS: "Concebir con [CHARACTER.GetShortUIName] sería [incestuous|E] según tu [faith|E]"
+ AO_RECIPIENT_CANNOT_BE_THE_HEIR_TO_A_TITLE_TRIGGER: "[CHARACTER.GetShortUIName|U] no puede ser el [heir|E] de un [title|E]"
+ AO_ALREADY_A_SURROGATE_TRIGGER: "[CHARACTER.GetShortUIName|U] no puede ser ya una madre sustituta"
+ AO_CHARACTER_IS_A_SURROGATE_MOTHER_TRIGGER: "No es posible mientras [CHARACTER.GetShortUIName] sea una madre sustituta"
+ #Relaciones de adopción – hijo adoptivo
+ AO_ADOPTED_CHILD_OF_CHARACTER_FIRST: "Eres el hijo adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_CHILD_OF_CHARACTER_FIRST_NOT: "#bold No#! eres el hijo adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_CHILD_OF_CHARACTER_THIRD: "[CHARACTER.GetShortUIName] es el hijo adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_CHILD_OF_CHARACTER_THIRD_NOT: "[CHARACTER.GetShortUIName] #bold no#! es el hijo adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ #Progenitor adoptivo
+ AO_ADOPTIVE_PARENT_OF_CHARACTER_FIRST: "Eres el progenitor adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_PARENT_OF_CHARACTER_FIRST_NOT: "#bold No#! eres el progenitor adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_PARENT_OF_CHARACTER_THIRD: "[CHARACTER.GetShortUIName] es el progenitor adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_PARENT_OF_CHARACTER_THIRD_NOT: "[CHARACTER.GetShortUIName] #bold no#! es el progenitor adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ #Hermanos adoptivos
+ AO_ADOPTIVE_SIBLING_OF_CHARACTER_FIRST: "Eres el hermano adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_SIBLING_OF_CHARACTER_FIRST_NOT: "#bold No#! eres el hermano adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_SIBLING_OF_CHARACTER_THIRD: "[CHARACTER.GetShortUIName] es el hermano adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_SIBLING_OF_CHARACTER_THIRD_NOT: "[CHARACTER.GetShortUIName] #bold no#! es el hermano adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ #Sobrinos adoptivos
+ AO_ADOPTED_SIBLING_CHILD_OF_CHARACTER_FIRST: "Eres el sobrino adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_SIBLING_CHILD_OF_CHARACTER_FIRST_NOT: "#bold No#! eres el sobrino adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_SIBLING_CHILD_OF_CHARACTER_THIRD: "[CHARACTER.GetShortUIName] es el sobrino adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_SIBLING_CHILD_OF_CHARACTER_THIRD_NOT: "[CHARACTER.GetShortUIName] #bold no#! es el sobrino adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ #Tíos adoptivos
+ AO_ADOPTIVE_PARENT_SIBLING_OF_CHARACTER_FIRST: "Eres el tío adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_PARENT_SIBLING_OF_CHARACTER_FIRST_NOT: "#bold No#! eres el tío adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_PARENT_SIBLING_OF_CHARACTER_THIRD: "[CHARACTER.GetShortUIName] es el tío adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_PARENT_SIBLING_OF_CHARACTER_THIRD_NOT: "[CHARACTER.GetShortUIName] #bold no#! es el tío adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ #Primos adoptivos
+ AO_ADOPTIVE_COUSIN_OF_CHARACTER_FIRST: "Eres el primo adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_COUSIN_OF_CHARACTER_FIRST_NOT: "#bold No#! eres el primo adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_COUSIN_OF_CHARACTER_THIRD: "[CHARACTER.GetShortUIName] es el primo adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_COUSIN_OF_CHARACTER_THIRD_NOT: "[CHARACTER.GetShortUIName] #bold no#! es el primo adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ #Abuelos adoptivos
+ AO_ADOPTED_GRANDCHILD_OF_CHARACTER_FIRST: "Eres el nieto adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_GRANDCHILD_OF_CHARACTER_FIRST_NOT: "#bold No#! eres el nieto adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_GRANDCHILD_OF_CHARACTER_THIRD: "[CHARACTER.GetShortUIName] es el nieto adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_GRANDCHILD_OF_CHARACTER_THIRD_NOT: "[CHARACTER.GetShortUIName] #bold no#! es el nieto adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+
+ AO_ADOPTIVE_GRANDPARENT_OF_CHARACTER_FIRST: "Eres el abuelo adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_GRANDPARENT_OF_CHARACTER_FIRST_NOT: "#bold No#! eres el abuelo adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_GRANDPARENT_OF_CHARACTER_THIRD: "[CHARACTER.GetShortUIName] es el abuelo adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ O_ADOPTIVE_GRANDPARENT_OF_CHARACTER_THIRD_NOT: "[CHARACTER.GetShortUIName] #bold no#! es el abuelo adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ #Bisabuelos adoptivos
+ AO_ADOPTED_GREAT_GRANDCHILD_OF_CHARACTER_FIRST: "Eres el bisnieto adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_GREAT_GRANDCHILD_OF_CHARACTER_FIRST_NOT: "#bold No#! eres el bisnieto adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_GREAT_GRANDCHILD_OF_CHARACTER_THIRD: "[CHARACTER.GetShortUIName] es el bisnieto adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_GREAT_GRANDCHILD_OF_CHARACTER_THIRD_NOT: "[CHARACTER.GetShortUIName] #bold no#! es el bisnieto adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+
+ AO_ADOPTIVE_GREAT_GRANDPARENT_OF_CHARACTER_FIRST: "Eres el bisabuelo adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_GREAT_GRANDPARENT_OF_CHARACTER_FIRST_NOT: "#bold No#! eres el bisabuelo adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_GREAT_GRANDPARENT_OF_CHARACTER_THIRD: "[CHARACTER.GetShortUIName] es el bisabuelo adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTIVE_GREAT_GRANDPARENT_OF_CHARACTER_THIRD_NOT: "[CHARACTER.GetShortUIName] #bold no#! es el bisabuelo adoptivo de [TARGET_CHARACTER.GetShortUIName]"
+
+ AO_CANNOT_CHILD_OF_HOUSE_MEMBER: "[CHARACTER.GetShortUIName] ya es hijo de un miembro de la [house|E]"
+
+ # Custom Tooltips
+ AO_YOU_ARE_INFERTILE_WITH_AT_LEAST_ONE_SPOUSE_TRIGGER: "No puedes tener hijos con al menos uno de tus [spouses|E]"
+ AO_YOU_ARE_ASEXUAL: "Eres [asexual|E]"
+ AO_YOU_ARE_A_WAR_LEADER_TRIGGER: "Eres un [war_leader|E]"
+ AO_YOUR_TITLE_IS_TARGET_OF_GHW_TRIGGER: "Tu [realm|E] es el objetivo de una [great_holy_war|E]"
+ AO_MUST_BE_DOMINANT_PARTNER_OR_SAME_HOUSE_TRIGGER: "Debes pertenecer a la misma [house|E] que tu cónyuge o ser el [ao_cc_dominant_partner|E] del matrimonio"
+ AO_A_SPOUSE_MUST_BE_ISOLATING_WITH_YOU_TRIGGER: "Debes tener un [spouse|E] aislado contigo"
+ AO_A_SPOUSE_MUST_BE_NOT_BE_ISOLATING_WITHOUT_YOU_TRIGGER: "Debes tener un [spouse|E] que no esté aislado"
+ AO_CANNOT_ADOPT_GHW_BENEFICIARY: "No puedes adoptar a tu [beneficiary|E] de la [great_holy_war|E]"
+ AO_CANNOT_HAVE_BLOODLINE_PROPER_HEIR_TRIGGER: "No puedes tener un [ao_proper_heir|E] de tu [ao_bloodline|E]"
+ AO_SPOUSE_MUST_BE_SUBORDINATE_PARTNER_IN_MARRIAGE_OR_SAME_HOUSE_TRIGGER: "Tu cónyuge que no es miembro de tu [house|E] no puede ser el [ao_cc_dominant_partner|E] del matrimonio"
+ AO_CANNOT_ADOPT_YOUR_CHILD_UNLESS_CHILD_OF_CONCUBINE_TRIGGER: "No puedes adoptar a tu propio hijo, salvo que sea hijo de una [concubine|E]"
+ AO_CANNOT_ADOPT_ADULTS_TRIGGER: "No puedes adoptar a un [adult|E]"
+ AO_SPOUSE_CANNOT_ADOPT_THEMSELVES_TRIGGER: "Tu cónyuge no puede adoptarse a sí mismo"
+ AO_ADOPTEE_MUST_BE_AI_TRIGGER: "No puedes adoptar a un jugador"
+ AO_CANNOT_ADOPT_ANCESTOR_OF_PLAYER_TRIGGER: "No puedes adoptar a un ancestro de un jugador"
+ #Restricciones de adopción y herencia
+ AO_ADOPTION_ALLIANCE: "Debes adoptar a [recipient.GetShortUIName] o a alguien de su [close_family|E]"
+ AO_NOT_YOUR_CHILD: "[secondary_recipient.GetShortUIName|U] no debe ser ya tu hijo"
+
+ AO_ROOT_HEIR_MUST_BE_CHILD_TO_NOT_BE_DISPLACED_TRIGGER: "Tu [ao_proper_heir|E] debe ser tu hijo para no ser [ao_displaced|E]"
+ AO_ROOT_HEIR_TOO_OLD_TO_NOT_BE_DISPLACED_TRIGGER: "Tu [ao_proper_heir|E] es demasiado mayor para no ser [ao_displaced|E]"
+ AO_ROOT_HEIR_TOO_YOUNG_TO_NOT_BE_DISPLACED_TRIGGER: "Tu [ao_proper_heir|E] es demasiado joven para no ser [ao_displaced|E]"
+
+ AO_ADOPTING_BOY_WOULD_DISPLACE_PREFERRED_HEIR: "Adoptar a un niño desplazaría a tu heredero legítimo"
+ AO_ADOPTING_GIRL_WOULD_DISPLACE_PREFERRED_HEIR: "Adoptar a una niña desplazaría a tu heredero legítimo"
+ #Embarazo y bloqueo de adopción
+ AO_ROOT_IS_PREGNANT_TRIGGER: "Estás [GetTrait('pregnant').GetName( GetNullCharacter )]"
+ AO_SPOUSE_OF_ROOT_IS_PREGNANT_TRIGGER: "Tu [spouse|E] está [GetTrait('pregnant').GetName( GetNullCharacter )]"
+ AO_CONCUBINE_OF_ROOT_IS_PREGNANT_TRIGGER: "Tu [concubine|E] está [GetTrait('pregnant').GetName( GetNullCharacter )]"
+ AO_CANNOT_ADOPT_WITH_ANY_SPOUSE_TRIGGER: "No puedes adoptar del orfanato con ningún [spouse|E]"
+ #Dominancia marital
+ AO_NOT_DOMINANT_IN_AT_LEAST_ONE_MARRIAGE_TRIGGER: "No eres el [ao_cc_dominant_partner|E] en ningún matrimonio con un [spouse|E]"
+ AO_SPOUSE_MUST_BE_SUBORDINATE_PARTNER_IN_MARRIAGE_TRIGGER: "Tu cónyuge no puede ser el [ao_cc_dominant_partner|E] del matrimonio"
+ #Ancestros disponibles para adopción
+ AO_NO_SAME_HOUSE_ANCESTOR_THAT_CAN_ADOPT: "No tienes padres o abuelos de la misma [house|E] que estén muertos o dispuestos a adoptarte"
+ AO_NO_SAME_DYNASTY_ANCESTOR_THAT_CAN_ADOPT: "No tienes padres o abuelos de la misma [dynasty|E] que estén muertos o dispuestos a adoptarte"
+ #Edad del adoptado
+ AO_MUST_BE_10_YEARS_YOUNGER_THAN_YOU_TO_ADOPT_AS_OWN_CHILD: "Solo puedes adoptar como hijo propio a alguien que sea al menos 10 años menor que tú"
+ AO_MUST_BE_YOUNGER_THAN_YOU_TO_ADOPT_AS_OWN_CHILD: "Solo puedes adoptar como hijo propio a alguien más joven que tú"
+ AO_CANNOT_ADOPT_ADULTS_AS_YOUR_OWN_CHILDREN: "No puedes adoptar a un [adult|E] como hijo propio"
+
+ # Effect localizations
+ ao_custom.every_orphan: "Cada [ao_orphan|E] [adopted|E]"
+
+ AO_GET_HOOK_ON_ORPHAN_FIRST: "Obtienes un [weak_hook|E] #weak ($ao_adopted_orphan_hook$)#! sobre cada huérfano"
+ AO_GET_HOOK_ON_ORPHAN_THIRD: "[CHARACTER.GetShortUIName|U] obtiene un [weak_hook|E] #weak ($ao_adopted_orphan_hook$)#! sobre cada huérfano"
+ AO_GET_HOOK_ON_ORPHAN_FIRST_PAST: "Obtuviste un [weak_hook|E] #weak ($ao_adopted_orphan_hook$)#! sobre cada huérfano"
+ AO_GET_HOOK_ON_ORPHAN_THIRD_PAST: "[CHARACTER.GetShortUIName|U] obtuvo un [weak_hook|E] #weak ($ao_adopted_orphan_hook$)#! sobre cada huérfano"
+
+ AO_ADOPTED_BY_GLOBAL: "Es [adopted|E] por [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_BY_FIRST: "[CHARACTER.GetShortUIName|U] fue [adopted|E] por [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_BY_THIRD: "[CHARACTER.GetFirstName|U] fue [adopted|E] por [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_BY_GLOBAL_PAST: "Fue [adopted|E] por [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_BY_FIRST_PAST: "[CHARACTER.GetShortUIName|U] fue [adopted|E] por [TARGET_CHARACTER.GetShortUIName]"
+ AO_ADOPTED_BY_THIRD_PAST: "[CHARACTER.GetFirstName|U] fue [adopted|E] por [TARGET_CHARACTER.GetShortUIName]"
+
+ AO_JOINS_ENTOURAGE: "Se unirá al [entourage|E] de viaje de [TARGET_CHARACTER.GetShortUIName]"
+ AO_JOINS_ENTOURAGE_PAST: "Se unió al [entourage|E] de viaje de [TARGET_CHARACTER.GetShortUIName]"
+
+ ao_clan_unity_guardianship.desc: "adoptó a [secondary_recipient.GetName]"
+
+ # Decisiones | Visitar Orfanato
+ ao_adoption_decision: "Visitar un orfanato"
+ ao_adoption_decision_tooltip: "Obtén algo de piedad y la posibilidad de conseguir un hijo visitando un orfanato"
+ ao_adoption_decision_desc: "Haz una donación a un orfanato y conoce a sus huérfanos."
+ ao_adoption_decision_effect_tooltip: "Puedes [adopt|E] hasta tres niños"
+ ao_adoption_decision_isolation_tooltip: "Como estás aislado, visitarás un orfanato en la capital"
+
+ ao_adoption_decision_cooldown_tt: "#weak Visitar un orfanato no estará disponible durante 5 años#!"
+ ao_adoption_decision_tt: "$DESC$\n$ao_adoption_decision_cooldown_tt$"
+ #Selección de Orfanato
+ VISIT_ORPHANAGE_DECISION_NEXT_STEP_BUTTON: "Seleccionar orfanato"
+
+ ao_boys_only_visit_orphanage_option: "Visitar un orfanato para niños"
+ ao_boys_only_visit_orphanage_desc: "Visitar un orfanato solo con niños"
+ ao_boys_only_orphanage_tooltip: "$ao_adoption_decision_tt$"
+
+ ao_both_genders_visit_orphanage_option: "Visitar un orfanato para niños y niñas"
+ ao_both_genders_visit_orphanage_desc: "Visitar un orfanato con niños y niñas"
+ ao_both_genders_orphanage_tooltip: "$ao_adoption_decision_tt$"
+
+ ao_girls_only_visit_orphanage_option: "Visitar un orfanato para niñas"
+ ao_girls_only_visit_orphanage_desc: "Visitar un orfanato solo con niñas"
+ ao_girls_only_orphanage_tooltip: "$ao_adoption_decision_tt$"
+
+ VISIT_ORPHANAGE_DECISION_SELECT_ORPHANAGE: "Seleccionar tipo de orfanato"
+ ao_adoption_decision_confirm: "Conocer a algunos huérfanos"
+
+ # Conceptos del juego
+ game_concept_ao_bloodline: "Linaje"
+ game_concept_ao_bloodline_desc: "Tu linaje comprende a tus ancestros y descendientes, excepto aquellos obtenidos mediante la [adopción|E]."
+
+ game_concept_ao_displace: "Desplazar"
+ game_concept_ao_displaced: "Desplazado"
+ game_concept_ao_displacing: "Desplazando"
+ game_concept_ao_displace_desc: "Un [ao_proper_heir|E] sería desplazado si el personaje que está siendo [adoptado|E] terminara en una posición más alta en la [línea de sucesión|E] que el [ao_proper_heir|E] actual. Esto tiene en cuenta la [ley de sucesión|E] del reino y sus interacciones con la designación del heredero, la edad, el género o cualquier [rasgo|E]."
+
+ game_concept_ao_orphan: "Huérfano"
+ game_concept_ao_orphans: "Huérfanos"
+ game_concept_ao_orphaned: "Huérfano"
+ game_concept_ao_orphan_desc: "[children|E] sin padres vivos."
+
+ game_concept_ao_preferred_gender: "Género preferido"
+ game_concept_ao_preferred_gender_desc: "El $game_concept_ao_preferred_gender$ es aquel favorecido por la [ley de género|E] del [título principal|E] del [gobernante|E]. Si la [ley de género|E] es $equal_law$, ambos géneros se consideran preferidos. Para los no gobernantes, se utiliza en su lugar el $doctrine_gender_name$ de su [fe|E]."
+
+ game_concept_ao_proper_heir: "Heredero legítimo"
+ game_concept_ao_proper_heir_desc: "El $game_concept_ao_proper_heir$ de un [gobernante|E] es el descendiente del [ao_preferred_gender|E] que ocupa la posición más alta en la [línea de sucesión|E] según la [ley de sucesión|E] del gobernante. A menudo es el [heredero principal|E] o el [heredero del jugador|E].\n\nEs posible que un gobernante no tenga $game_concept_ao_proper_heir$. Esto ocurre si el gobernante no tiene descendientes, si ninguno de sus descendientes es del género preferido, o si ninguno de los descendientes del género preferido se encuentra en la línea de sucesión (normalmente porque no pueden heredar)."
+
+ game_concept_adoptions: "Adopciones"
+ game_concept_concubinist_male: "Señor"
+ game_concept_concubinist_female: "Señora"
+
+ # Reglas del juego
+ game_rule_category_ao_adoption: "Adopción"
+
+ setting_ao_legitimate_adoption: "#high Legítima#!"
+ setting_ao_legitimate_adoption_desc: "Todas las fes comienzan con al menos la doctrina de adopción $doctrine_ao_adoption_prevalence_rare_name$."
+
+ setting_ao_player_semitic_adoption: "#high Semítica del jugador#!"
+ setting_ao_player_semitic_adoption_desc: "La fe del jugador comienza con adopciones de estilo semítico: adopciones $doctrine_ao_adoption_prevalence_illegitimate_name$ $doctrine_ao_adoption_type_familial_child_name$."
+
+ setting_ao_player_hindu_adoption: "#high Hindú del jugador#!"
+ setting_ao_player_hindu_adoption_desc: "La fe del jugador comienza con adopciones de estilo hindú: $doctrine_ao_adoption_prevalence_rare_name$ $doctrine_ao_adoption_type_caste_child_name$ (las fes sin castas usan en su lugar la doctrina correspondiente para plebeyos)."
+
+ setting_ao_player_west_african_adoption: "#high África Occidental del jugador#!"
+ setting_ao_player_west_african_adoption_desc: "La fe del jugador comienza con adopciones de estilo africano occidental: $doctrine_ao_adoption_prevalence_uncommon_name$ $doctrine_ao_adoption_type_lowborn_child_name$ (las fes con castas usan en su lugar la doctrina de casta correspondiente)."
+
+ setting_ao_player_east_asian_adoption: "#high Asia Oriental del jugador#!"
+ setting_ao_player_east_asian_adoption_desc: "La fe del jugador comienza con adopciones de estilo asiático oriental: $doctrine_ao_adoption_prevalence_uncommon_name$ $doctrine_ao_adoption_type_lowborn_younger_name$ (las fes con castas usan en su lugar la doctrina de casta correspondiente)."
+
+ setting_ao_player_west_eurasian_adoption: "#high Eurasia Occidental del jugador#!"
+ setting_ao_player_west_eurasian_adoption_desc: "La fe del jugador comienza con adopciones de estilo eurasiático occidental antiguo: $doctrine_ao_adoption_prevalence_uncommon_name$ $doctrine_ao_adoption_type_any_younger_name$."
+
+ setting_ao_player_common_adoption: "#high Común del jugador#!"
+ setting_ao_player_common_adoption_desc: "La fe del jugador comienza con adopciones $doctrine_ao_adoption_prevalence_common_name$ $doctrine_ao_adoption_type_any_younger_name$."
+
+ setting_ao_same_sex_marriage_orphanage_adoption: "#high Orfanato de parejas del mismo sexo#!"
+ setting_ao_same_sex_marriage_orphanage_adoption_desc: "Cualquier fe con matrimonio entre personas del mismo sexo comienza con al menos las doctrinas $doctrine_ao_adoption_prevalence_rare_name$ y $doctrine_ao_adoption_type_lowborn_child_name$ (las fes con castas obtienen en su lugar al menos la doctrina $doctrine_ao_adoption_type_any_child_name$)."
+
+ setting_ao_same_sex_marriage_common_adoption: "#high Común de parejas del mismo sexo#!"
+ setting_ao_same_sex_marriage_common_adoption_desc: "Cualquier fe con matrimonio entre personas del mismo sexo comienza con adopciones $doctrine_ao_adoption_prevalence_common_name$ $doctrine_ao_adoption_type_any_younger_name$."
+
+ rule_ao_ruler_adoption: "Restricciones de adopción"
+
+ setting_ao_rulers_descendant_adoption_forbidden: "#high Máximas restricciones#!"
+ setting_ao_rulers_descendant_adoption_forbidden_desc: "No se puede adoptar a gobernantes, a sus descendientes ni a los ancestros de los jugadores."
+
+ setting_default_ao_ruler_adoption: "Por defecto"
+ setting_default_ao_ruler_adoption_desc: "No se puede adoptar a gobernantes ni a los ancestros de los jugadores."
+
+ setting_ao_ruler_adoption_allowed: "#high Gobernantes permitidos#!"
+ setting_ao_ruler_adoption_allowed_desc: "Se puede adoptar a gobernantes, pero no a jugadores ni a sus ancestros."
+
+ setting_ao_player_adoption_allowed: "#high Gobernantes y jugadores permitidos#!"
+ setting_ao_player_adoption_allowed_desc: "Se puede adoptar a gobernantes, incluidos los jugadores, pero aún no a los ancestros de los jugadores."
+
+ rule_ao_divine_descent: "Descendencia divina"
+
+ setting_default_ao_divine_descent: "Por defecto"
+ setting_default_ao_divine_descent_desc: "La adopción no transmite rasgos de descendencia divina, como el rasgo $trait_sayyid$."
+
+ setting_ao_divine_descent_adoption: "#high Por adopción#!"
+ setting_ao_divine_descent_adoption_desc: "La adopción transmite rasgos de descendencia divina, como el rasgo $trait_sayyid$, si se cumplen los requisitos del rasgo."
+
+ rule_ao_orphanage_genetics: "Genética del orfanato"
+
+ setting_default_ao_orphanage_genetics: "Por defecto"
+ setting_default_ao_orphanage_genetics_desc: "La decisión $ao_adoption_decision$ crea huérfanos con genes basados en su etnia."
+
+ setting_ao_orphanage_genetics_capital_player: "#high Capital (solo jugador)#!"
+ setting_ao_orphanage_genetics_capital_player_desc: "La decisión $ao_adoption_decision$ del jugador crea huérfanos con genes basados en la pareja adoptante al visitar el orfanato de la capital."
+
+ setting_ao_orphanage_genetics_always_player: "#high Siempre (solo jugador)#!"
+ setting_ao_orphanage_genetics_always_player_desc: "La decisión $ao_adoption_decision$ del jugador crea huérfanos con genes basados en la pareja adoptante."
+
+ setting_ao_orphanage_genetics_capital: "#high Capital#!"
+ setting_ao_orphanage_genetics_capital_desc: "La decisión $ao_adoption_decision$ crea huérfanos con genes basados en la pareja adoptante al visitar el orfanato de la capital."
+
+ setting_ao_orphanage_genetics_always: "#high Siempre#!"
+ setting_ao_orphanage_genetics_always_desc: "La decisión $ao_adoption_decision$ crea huérfanos con genes basados en la pareja adoptante."
+
+ # Anzuelos
+ ao_adopted_orphan_hook: "Adoptar huérfano"
+
+ # Memorias
+ ao_was_adopted_by_parents: "Fue adoptado"
+ ao_adoptive_parent_died: "[dead_relation.Custom('MotherFather')] murió"
+ ao_adopted_child_died: "[dead_relation.Custom('DaughterSon')] murió"
+
+ ao_was_adopted_by_parents_desc_1: "Fui adoptado por [ao_parent.GetFirstName] y [ao_parent_2.GetFirstName]"
+ ao_was_adopted_by_parents_desc_second_perspective_1: "fuiste adoptado por [ao_parent.GetFirstName] y [ao_parent_2.GetFirstName]"
+ ao_was_adopted_by_parents_desc_third_perspective_1: "[owner.GetName] fue adoptado por [ao_parent.GetFirstName] y [ao_parent_2.GetFirstName]"
+ ao_adoptive_parent_died_desc_1: "mi [dead_relation.Custom('MotherFather')], [dead_relation.GetFirstName], [dead_relation.GetDeathReasonHideKiller]"
+ ao_adoptive_parent_died_desc_1_known_killer: "mi [dead_relation.Custom('MotherFather')], [dead_relation.GetFirstName], [dead_relation.GetDeathReason]"
+ ao_adoptive_parent_died_desc_second_perspective_1: "tu [dead_relation.Custom('MotherFather')], [dead_relation.GetFirstName], [dead_relation.GetDeathReasonHideKiller]"
+ ao_adoptive_parent_died_desc_second_perspective_1_known_killer: "tu [dead_relation.Custom('MotherFather')], [dead_relation.GetFirstName], [dead_relation.GetDeathReason]"
+ ao_adoptive_parent_died_desc_third_perspective_1: "[owner.GetNamePossessive] [dead_relation.Custom('MotherFather')], [dead_relation.GetFirstName], [dead_relation.GetDeathReasonHideKiller]"
+ ao_adoptive_parent_died_desc_third_perspective_1_known_killer: "[owner.GetNamePossessive] [dead_relation.Custom('MotherFather')], [dead_relation.GetFirstName], [dead_relation.GetDeathReason]"
+ ao_adopted_child_died_desc_1: "mi [dead_relation.Custom('DaughterSon')], [dead_relation.GetFirstName], [dead_relation.GetDeathReasonHideKiller]"
+ ao_adopted_child_died_desc_1_known_killer: "mi [dead_relation.Custom('DaughterSon')], [dead_relation.GetFirstName], [dead_relation.GetDeathReason]"
+ ao_adopted_child_died_desc_second_perspective_1: "tu [dead_relation.Custom('DaughterSon')], [dead_relation.GetFirstName], [dead_relation.GetDeathReasonHideKiller]"
+ ao_adopted_child_died_desc_second_perspective_1_known_killer: "tu [dead_relation.Custom('DaughterSon')], [dead_relation.GetFirstName], [dead_relation.GetDeathReason]"
+ ao_adopted_child_died_desc_third_perspective_1: "[owner.GetNamePossessive] [dead_relation.Custom('DaughterSon')], [dead_relation.GetFirstName], [dead_relation.GetDeathReasonHideKiller]"
+ ao_adopted_child_died_desc_third_perspective_1_known_killer: "[owner.GetNamePossessive] [dead_relation.Custom('DaughterSon')], [dead_relation.GetFirstName], [dead_relation.GetDeathReason]"
+
+ # Modificadores
+ ao_originally_lowborn_modifier: "Originalmente plebeyo"
+ ao_originally_lowborn_modifier_desc: "Este personaje aún se está adaptando a ser noble.\n$TRAIT_FLAG_DESC_initial_legitimacy_nerf$"
+ ao_communal_originally_lowborn_modifier: "Campeón plebeyo"
+ ao_communal_originally_lowborn_modifier_desc: "Este personaje es considerado un campeón del pueblo.\n$TRAIT_FLAG_DESC_initial_legitimacy_boost$"
+ ao_displaced_proper_heir_modifier: "Heredero legítimo desplazado"
+ ao_displaced_proper_heir_modifier_desc: "Algunos aún apoyan al heredero anterior que este personaje desplazó.\n$TRAIT_FLAG_DESC_initial_legitimacy_nerf$"
+
+ ao_adopted_against_beliefs: "En contra de ser adoptado"
+ ao_took_child_from_me: "Me quitó a mi hijo"
+ ao_forced_to_adopt_child: "Me obligó a adoptar pese a mis creencias"
+ ao_disapproves_of_adopted_child: "Molesto por la adopción"
+ ao_forced_to_share_fertility: "Me obligó a compartir la fertilidad pese a mis creencias"
+ ao_unfaithful_shared_fertility: "Compartir fertilidad fue una infidelidad a nuestro matrimonio"
+
+ ao_custom.other_consorts_against_adopting: "Otros [spouses|E] o [concubines|E] en contra de la adopción"
+ ao_custom.every_child_against_adopting: "Todo hijo [GetTrait('callous').GetName( GetNullCharacter )] o [GetTrait('paranoid').GetName( GetNullCharacter )]"
+
+ ao_envious_of_child_tt: "Sentirá envidia del hijo adoptado"
+ ao_irritated_with_child_tt: "Se sentirá irritado con el hijo adoptado"
+
+ # Relaciones con script
+ ao_adopted_child: "$OPINION_CHILD$"
+ ao_adoptive_parent: "[GetPlayer.Custom('MotherFather')|U]"
+
+ # Religión
+ doctrine_ao_adoption_prevalence_name: "Prevalencia de adopción"
+ doctrine_ao_adoption_prevalence_none_name: "Prohibida"
+ doctrine_ao_adoption_prevalence_none_desc: "No se permiten adopciones."
+ doctrine_parameter_ao_no_adoption: "Las [adoptions|E] no están permitidas"
+ doctrine_parameter_ao_disputed_adoption: "[GetVassalStance( 'courtly' ).GetName] [vassal|E] y [spouses|E] de sexo opuesto desaprueban las [adoptions|E]. Los adherentes con el rasgo [GetTrait('ao_adopted').GetName(GetNullCharacter)] obtienen el [trait|E] [GetTrait('disputed_heritage').GetName(GetNullCharacter)]"
+ doctrine_parameter_ao_illegitimate_adoption: "Las [adoptions|E] cuestan [legitimacy|E]"
+ doctrine_ao_adoption_prevalence_illegitimate_name: "Ilegítima"
+ doctrine_ao_adoption_prevalence_illegitimate_desc: "Aunque las adopciones son posibles, están fuertemente disputadas."
+ doctrine_parameter_ao_infertile_adoption: "Los adherentes solo pueden [adopt|E] si no pueden tener hijos o si son [GetTrait('compassionate').GetName(GetNullCharacter)]"
+ doctrine_parameter_ao_preferred_gender_adoption: "Los adherentes solo pueden adoptar a quienes sean del [ao_preferred_gender|E] y solo si son [GetTrait('compassionate').GetName(GetNullCharacter)] o no tienen un [ao_bloodline|E] [ao_proper_heir|E]"
+ doctrine_parameter_ao_no_displacement_adoption: "Los adherentes no pueden [ao_displace|E] a su [ao_proper_heir|E] en la [line_of_succession|E] mediante [adoption|E]"
+ doctrine_ao_adoption_prevalence_rare_name: "Rara"
+ doctrine_ao_adoption_prevalence_rare_desc: "Solo quienes necesitan adoptar lo consideran."
+ doctrine_ao_adoption_prevalence_uncommon_name: "Poco común"
+ doctrine_ao_adoption_prevalence_uncommon_desc: "Cualquier pareja puede adoptar, aunque la mayoría no lo hace."
+ doctrine_parameter_ao_no_renown_cost_adoption: "Los adherentes pueden [adopt|E] sin gastar [dynasty_prestige|E]"
+ doctrine_ao_adoption_prevalence_common_name: "Común"
+ doctrine_ao_adoption_prevalence_common_desc: "Las adopciones son habituales."
+ doctrine_parameter_ao_commonplace_adoption: "Las adopciones requieren menos [prestige|E]. Los adherentes son más propensos a adoptar"
+ doctrine_parameter_ao_free_adoption: "Los adherentes pueden [adopt|E] sin gastar [prestige|E] ni [dynasty_prestige|E]"
+ doctrine_parameter_ao_common_adoption: "Los adherentes son más propensos a [adopt|E]"
+ doctrine_parameter_ao_displacement_costs_legitimacy: "[ao_displacing|E] a un [ao_proper_heir|E] cuesta [legitimacy|E]"
+
+ doctrine_ao_adoption_type_name: "Tipo de adopción"
+ doctrine_ao_adoption_type_familial_child_name: "Familiar juvenil"
+ doctrine_ao_adoption_type_familial_child_desc: "A veces los hijos de tu familia extensa necesitan una mano amiga."
+ doctrine_parameter_ao_child_adoption: "Los adherentes pueden [adopt|E] [children|E]"
+ doctrine_parameter_ao_10_years_younger_adoption: "Los adherentes solo pueden [adopt|E] a quienes sean al menos 10 años más jóvenes que ellos"
+ doctrine_parameter_ao_familial_adoption: "Los adherentes pueden adoptar miembros de su [dynasty|E] o [family|E]. También pueden adoptar a quienes estén casados con su [close_family|E] o sean [close_family|E] de su cónyuge"
+ doctrine_ao_adoption_type_familial_younger_name: "Familiar más joven"
+ doctrine_ao_adoption_type_familial_younger_desc: "A veces tu familia extensa necesita una mano amiga."
+ doctrine_parameter_ao_adult_adoption: "Los adherentes pueden [adopt|E] [adults|E]"
+ doctrine_ao_adoption_type_caste_child_name: "Casta juvenil"
+ doctrine_ao_adoption_type_caste_child_desc: "Los niños de nuestra casta pueden ser acogidos en nuestro hogar."
+ doctrine_parameter_ao_same_status_adoption: "Los adherentes [lowborn|E] pueden [adopt|E] a otros plebeyos y los adherentes [noble|E] pueden adoptar a otros nobles."
+ doctrine_ao_adoption_type_caste_younger_name: "Casta más joven"
+ doctrine_ao_adoption_type_caste_younger_desc: "Quienes pertenecen a nuestra casta pueden ser acogidos en nuestro hogar."
+ doctrine_ao_adoption_type_lowborn_child_name: "Plebeyo juvenil"
+ doctrine_ao_adoption_type_lowborn_child_desc: "Es importante acoger a niños necesitados."
+ doctrine_parameter_ao_lowborn_adoption: "Los adherentes pueden [adopt|E] personajes [lowborn|E]"
+ doctrine_parameter_ao_can_visit_orphanage: "Los adherentes pueden $ao_adoption_decision$"
+ doctrine_ao_adoption_type_lowborn_younger_name: "Plebeyo más joven"
+ doctrine_ao_adoption_type_lowborn_younger_desc: "Es importante acoger a quienes lo necesitan."
+ doctrine_ao_adoption_type_any_child_name: "Niño"
+ doctrine_ao_adoption_type_any_child_desc: "La política dinástica no debería interponerse en la adopción de un niño."
+ doctrine_parameter_ao_anyone_adoption: "Los adherentes pueden [adopt|E] independientemente de la [dynasty|E]"
+ doctrine_ao_adoption_type_any_younger_name: "Joven"
+ doctrine_ao_adoption_type_any_younger_desc: "La política dinástica no debería interponerse en la adopción de otros."
+
+ doctrine_ao_caste_system_name: "Sistema de castas"
+ doctrine_ao_caste_system_desc: "Esta fe tiene un orden social rígido."
+ ao_has_caste_system_faith_name: "$doctrine_ao_caste_system_name$"
+ doctrine_parameter_ao_caste_system: "Los adherentes [noble|E] pierden [prestige|E] por casarse con personajes [lowborn|E]"
+
+ REQUIRES_DOCTRINE_AO_ADOPTION_TYPE_FAMILIAL_CHILD_TRIGGER: "Requiere [doctrine|E] Tipo de adopción: [GetFaithDoctrine('doctrine_ao_adoption_type_familial_child').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_DOCTRINE_AO_ADOPTION_PREVALENCE_NONE_TRIGGER: "Incompatible con la [doctrine|E] [GetFaithDoctrine('doctrine_ao_adoption_prevalence_none').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_DOCTRINE_AO_ADOPTION_PREVALENCE_ILLEGITIMATE_TRIGGER: "Incompatible con la [doctrine|E] [GetFaithDoctrine('doctrine_ao_adoption_prevalence_illegitimate').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_DOCTRINE_AO_ADOPTION_PREVALENCE_COMMON_TRIGGER: "Incompatible con la [doctrine|E] [GetFaithDoctrine('doctrine_ao_adoption_prevalence_common').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_DOCTRINE_AO_ADOPTION_TYPE_FAMILIAL_CHILD_TRIGGER: "Incompatible con la [doctrine|E] [GetFaithDoctrine('doctrine_ao_adoption_type_familial_child').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_DOCTRINE_AO_ADOPTION_TYPE_FAMILIAL_YOUNGER_TRIGGER: "Incompatible con la [doctrine|E] [GetFaithDoctrine('doctrine_ao_adoption_type_familial_younger').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_DOCTRINE_AO_ADOPTION_TYPE_CASTE_YOUNGER_TRIGGER: "Incompatible con la [doctrine|E] [GetFaithDoctrine('doctrine_ao_adoption_type_caste_younger').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_DOCTRINE_AO_ADOPTION_TYPE_LOWBORN_YOUNGER_TRIGGER: "Incompatible con la [doctrine|E] [GetFaithDoctrine('doctrine_ao_adoption_type_lowborn_younger').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_DOCTRINE_AO_ADOPTION_TYPE_ANY_CHILD_TRIGGER: "Incompatible con la [doctrine|E] [GetFaithDoctrine('doctrine_ao_adoption_type_any_child').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_DOCTRINE_AO_ADOPTION_TYPE_ANY_YOUNGER_TRIGGER: "Incompatible con la [doctrine|E] [GetFaithDoctrine('doctrine_ao_adoption_type_any_younger').GetName( GetPlayer.GetFaith )]"
+
+ INCOMPATIBLE_TENET_NATURAL_PRIMITIVISM: "Incompatible con el [core_tenet|E] [GetFaithDoctrine('tenet_natural_primitivism').GetName( GetPlayer.GetFaith )]"
+
+ # Rasgos
+ trait_ao_adopted: "Adoptado"
+ trait_ao_adopted_desc: "Este personaje fue [adopted|E] por su [family|E] actual."
+ trait_ao_adopted_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] fue [adopted|E] en su [family|E] actual."
+
+ # Supresión de errores
+ ao_error_suppression_doctrine_name: "ao_error_suppression_doctrine_name"
+ ao_error_suppression_doctrine_desc: "ao_error_suppression_doctrine_desc"
+ ao_error_suppression_name: "ao_error_suppression_name"

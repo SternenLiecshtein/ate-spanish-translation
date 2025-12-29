@@ -1,0 +1,7 @@
+﻿l_spanish:
+
+ ##### WEDDING #####
+ province_desc_wedding_winery_1:0 "\n#P + $building_winery_01$#!\n#weak Esto dará lugar a un aumento de [dynasty_prestige_i] [dynasty_prestige|E] y una pérdida de [stress_loss_i][stress|E].#!"
+ province_desc_wedding_winery_2:0 "\n#P ++ $building_winery_05$#!\n#weak Esto dará lugar a un aumento de [dynasty_prestige_i] [dynasty_prestige|E] y una pérdida de [stress_loss_i][stress|E].#!"
+ province_desc_wedding_winery_3:0 "\n#P +++ $building_winery_08$#!\n#weak Esto dará lugar a un aumento de [dynasty_prestige_i] [dynasty_prestige|E] y una pérdida de [stress_loss_i][stress|E].#!"
+

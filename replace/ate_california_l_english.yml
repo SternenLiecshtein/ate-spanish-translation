@@ -1,0 +1,10 @@
+﻿l_spanish:
+ restore_backwater_counties_decision: "Restore [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ restore_backwater_counties_decision_desc: "Throughout the passing centuries, [ROOT.Char.GetPrimaryTitle.GetNameNoTier] fell into ignominy and presents a shameful shadow of its once prominent past.\n\nBut, we have worked tirelessly to develop our ancestral lands to their former standing. The glory of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] shall be restored!"
+ restore_backwater_counties_decision_tooltip: "Remove the [GetModifier('backwater_county_modifier').GetNameWithTooltip] [county_modifier|E] from all [counties|E] with #V 15#! or more [development|E]"
+ restore_backwater_counties_decision_confirm: "Confirm"
+ backwater_county_eligible_modifier_removal_tt: "Every [county|E] with [GetModifier('backwater_county_modifier').GetNameWithTooltip] and greater than #HIGH 15#! [development|E] will lose the [county_modifier|E]"
+ no_backwater_counties_meet_criteria_tt: "@alert_icon! #alert_trial No counties currently meet this criteria!#!"
+ restored_jefferson_theme_modifier: "Restored Theme"
+ restored_jefferson_theme_modifier_desc: "This character has restored a Theme to surpass the golden days of old.\n[governor_efficiency|E]: @governor_efficiency!#P +10%#!"
+ jefferson_backwater_modifier_removal_tt: "Every [county|E] with [GetModifier('backwater_county_modifier').GetNameWithTooltip] and greater than #HIGH 15#! [development|E] will lose the [county_modifier|E]"

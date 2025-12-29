@@ -1,0 +1,258 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ ##################################################
+ ## Shogunate
+ shogunate_diarchy_type: "[shogunate|E]"
+ shogunate_diarch_title: "Governator"
+
+ ##################################################
+
+ # Overwrite
+ diarch_subsidise_crown_authority_interaction_desc:0 "Offer to use your own [prestige|E] to help your [liege|E] boost [recipient.GetHerHis] [authority|E], which some of your [diarch_powers|E] may require.$diarch_boilerplate_postscript_partial$"
+
+
+ # #Parameters
+ diarchy_is_shogunate: "[diarchy|E] is a [shogunate|E]"
+
+ shogunate_level: "[shogunate|E] Level"
+
+ refused_liege_demand_war_defeat_shogun: "[defender.GetDiarchy.GetDiarch.GetShortUIName|U] [imprisons|E] [attacker.GetShortUIName]."
+ liberty_war_defeat_attacker_desc_shogun: "[defender.GetDiarchy.GetDiarch.GetShortUIName|U] imprisons you and every rebellious vassal and [defender.GetShortUIName|U] gains a [revoke_title_reason|E] against each of you."
+ liberty_war_defeat_defender_desc_shogun: "[defender.GetDiarchy.GetDiarch.GetShortUIName|U] gains [dread|E], imprisons every rebellious vassal and [defender.GetShortUIName|U] gains a [revoke_title_reason|E] against each of them."
+ independence_defeat_defender_desc_shogun: "[defender.GetDiarchy.GetDiarch.GetShortUIName|U] imprison all rebellious vassals and [defender.GetShortUIName|U] gains a [revoke_title_reason|E] against each of them."
+ independence_defeat_attacker_desc_shogun: "[defender.GetDiarchy.GetDiarch.GetShortUIName|U] imprisons you and all rebellious vassals, and [defender.GetShortUIName|U] gains a [revoke_title_reason|E] against each rebel."
+ player_independence_war_defeat_desc_shogun: "[defender.GetDiarchy.GetDiarch.GetShortUIName|U] [imprisons|E] [attacker.GetShortUIName|U], and [defender.GetShortUIName|U] gains a [revoke_title_reason|E]."
+ depose_war_defeat_desc_defender_shogun: "You keep your [titles|E] and [defender.GetDiarchy.GetDiarch.GetShortUIName|U] imprisons all rebelling [vassals|E]."
+ depose_war_defeat_desc_shogun: "[defender.GetShortUIName|U] keeps [defender.GetHerHis] [titles|E] and [defender.GetDiarchy.GetDiarch.GetShortUIName|U] imprisons all rebelling [vassals|E]."
+ player_independence_defeat_defender_desc_shogun: "[defender.GetDiarchy.GetDiarch.GetShortUIName|U] [imprisons|E] [attacker.GetShortUIName|U], and you gain a [revoke_title_reason|E]."
+ player_independence_defeat_attacker_desc_shogun: "[defender.GetDiarchy.GetDiarch.GetShortUIName|U] [imprisons|E] you, and [defender.GetShortUIName|U] gains a [revoke_title_reason|E]."
+ player_independence_war_defeat_desc_shogun: "[defender.GetDiarchy.GetDiarch.GetShortUIName|U] [imprisons|E] [attacker.GetShortUIName|U], and [defender.GetShortUIName|U] gains a [revoke_title_reason|E]."
+
+ diarch_succession_score.category.military: "Military Strength"
+ diarch_succession_score.category.strongest: "Strongest Vassal"
+ diarch_succession_score.shogunate.strongest: "Strongest Vassal"
+ diarch_succession_score.category.hereditary: "Hereditary Shogunate"
+ diarch_succession_score.shogunate.hereditary: "Hereditary Shogunate"
+ diarch_succession_score.shogunate.family: "Closely Related"
+ diarch_succession_score.category.family: "Closely Related"
+ must_be_strongest_vassal: "Must be the strongest Vassal"
+ shogunate_must_be_abolished: "[shogunate|E] must be abolished"
+
+ msg_remove_shogun_cb_invalidated_message: "[defender.GetShortUIName] is no longer [shogun|E], rendering the war moot"
+
+ REMOVE_SHOGUN_WAR_NAME: "$ORDER$ War to remove [DEFENDER.GetShortUIName] as [shogun|E]"
+ remove_shogun_cb: "Remove Governator"
+ remove_shogun_cb_victory_desc_attacker: "[defender.GetShortUIName|U] are removed as [shogun|E]"
+ remove_shogun_cb_victory_desc: "[defender.GetShortUIName|U] is removed as [shogun|E]"
+ remove_shogun_cb_white_peace_desc_defender: "[defender.GetShortUIName|U] stays as [shogun|E]"
+ remove_shogun_cb_white_peace_desc: "[defender.GetShortUIName|U] stays as [shogun|E]"
+ remove_shogun_cb_defeat_desc_defender: "[attacker.GetShortUIName|U] are [imprisoned|E] and fined"
+ remove_shogun_cb_defeat_desc: "[attacker.GetShortUIName|U] is [imprisoned|E] and fined"
+
+ shogun_vassalisation_cb: "[shogunate_diarch|E] Seizure"
+ SHOGUNATE_VASSALIZATION_CB_NAME: "[shogunate_diarch|E] Seizure of [DEFENDER.GetShortUINamePossessive] Lands"
+
+ depose_war_victory_desc_shogunate_you: "\nYou are removed removed as [shogun|E]\n[attacker.GetName|U] becomes the [shogun|E] of the Empire of California"
+ depose_war_victory_desc_shogunate: "\n[defender.GetDiarchy.GetDiarch.GetShortUIName|U] is removed removed as [shogun|E]\n[attacker.GetName|U] becomes the [shogun|E] of the Empire of California"
+ depose_war_victory_desc_shogunate_abolished: "\nThe [shogunate|E] of California is abolished."
+ claim_war_victory_desc_shogunate: "\n[defender.GetShortUIName|U] is removed removed as [shogun|E]\nThe [claimant|E] becomes the [shogun|E] of the Empire of California"
+ claim_war_victory_desc_shogunate_you: "\nYou are removed removed as [shogun|E]\nThe [claimant|E] becomes the [shogun|E] of the Empire of California"
+
+ overthrow_shogun_scheme_interaction: "Overthrow Governator"
+ overthrow_shogun_scheme_interaction.tt.cannot_release: "Cannot take any action that would release former [shogun|E] whilst current $game_concept_shogunate_diarch$ is in office"
+
+ liege_cannot_declare_wars_shogunate: "[lieges|E] can't declare [war|E]"
+ CANNOT_DECLARE_WAR_SHOGUNATE: "Can't declare [war|E] at current [power_sharing|E] level"
+ regency_cant_be_ended_above_this_point_shogunate: "[lieges|E] can't try to dismiss their [shogunate_diarch|E]"
+ shogunate_direct_succession: "[shogunate_diarch|E] [succession|E] becomes hereditary"
+ shogunate_claim_title_troops: "[shogunate_diarch|E] has control over the Imperial Troops"
+
+ war_memory_cb_shogun: "Governator replacement war"
+ war_memory_cb_shogunate_faction: "Governate installation war"
+
+ war_memory_cb_shogunate_diadochi: "$war_memory_cb_shogun$"
+
+ from_shogun: "From [shogunate|E]"
+
+ dismantle_shogunate_decision: "Dismantle the Governate"
+ dismantle_shogunate_decision_confirm: "Restore Imperial Dignity"
+ dismantle_shogunate_decision_desc: "For too long, the Governators of California have exerted undue influence over the affairs of state. It is time for the Imperial Dynasty to reassert their true authority as spiritual and temporal masters of California. The Governate must be dismantled."
+ dismantle_shogunate_decision_tooltip: "Dismantle the Governate"
+
+ dismante_shogunate_swing_desc: "[scales_of_power|E] less than 20"
+ dismante_shogunate_mil_desc: "You have greater military strength than the [shogunate_diarch|E]"
+ dismante_shogunate_war_desc: "The [shogunate|E] was not recently instituted."
+
+ restore_shogunate_decision: "Establish Governate"
+ restore_shogunate_decision_desc: "By this point, the authority of the Eternal Living Guru point is nearly entirely spiritual, and all know it. Though the Eternal Living Guru is great, the fact is that they cannot protect California from the dangers we face. For the good of the realm, I must take charge."
+ restore_shogunate_decision_tooltip: "Restore the Governate"
+
+ ate_diarchy_shogunate.1100.t: "The [ROOT.GetHouse.GetNameNoTooltip] Restoration"
+ ate_diarchy_shogunate.1100.desc: "[shogunate_diarch.GetNameNoTooltip] has "resigned" from their post as Governator and formally transferred any powers they may have wielded as such back to the Eternal Living Guru. The Eternal Living Guru is once again the supreme spiritual and temporal master of California!"
+ ate_diarchy_shogunate.1100.desc_inherit_gov: "As I have inherited the office of Governator, there is no longer a need for the title. By my decree, the office of Governator has been abolished and any powers it may have held have been transferred back to the Eternal Living Guru. The Eternal Living Guru is once again the supreme spiritual and temporal master of California!"
+ ate_diarchy_shogunate.1100.desc_inherit_emp: "As I have inherited the [GetTitleByKey('e_california').GetNameNoTooltip], there is no longer any need for the office of Governator as a power-behind-the-throne. By my decree, the office of Governator has been abolished and any powers it may have held have been transferred back to the Eternal Living Guru. The Eternal Living Guru is once again the supreme spiritual and temporal master of California!"
+ ate_diarchy_shogunate.1100.a: "Bless the Guru!"
+ 
+ ate_diarchy_shogunate.1105.t: "The [shogunate_diarch.GetHouse.GetNameNoTooltip] Governate"
+ ate_diarchy_shogunate.1105.desc: "The Empire finds itself unprotected without a Governator to auxiliate the Emperor in more mundane matters. Understanding the gravity of the situation, [shogunate_diarch.GetFirstNameNoTooltip] of [shogunate_diarch.GetPrimaryTitle.GetNameNoTierNoTooltip] has declared [shogunate_diarch.GetSheHe] will take up the role."
+ ate_diarchy_shogunate.1105.a: "May [shogunate_diarch.GetSheHe] assist the Empire."
+
+
+ ate_diarchy_shogunate.6000.t: "The Governatorial Prerogative"
+ ate_diarchy_shogunate.6000.single: "Blessed Eternal Living Guru, \n\nThe holy and religious nature of your office, closely intertwined with our customs and the imperial structure, dictate that the [shogun_kingdom_title.GetName] and the lands thereunder be placed under the care of a family designated by the Governate.\n\n     - The Office of the Governate of California"
+ ate_diarchy_shogunate.6000.a: "Fine."
+
+ ate_diarchy_shogunate.6010.desc: "Blessed is the Eternal Living Guru. The holy and religious nature of their office, closely intertwined with our customs and the imperial structure, dictate that the [shogun_kingdom_title.GetName] and the lands thereunder be placed under the care of a family designated by the Governate. We must now decide who to appoint the Lieutenacy to. "
+ ate_diarchy_shogunate.6010.a: "They shall do."
+
+
+ diarch_revoke_title_interaction: "Diarch Revoke Title"
+ diarch_retract_vassal_interaction: "Diarch Retract Vassal"
+ diarch_imprison_interaction: "Diarch Imprison"
+ SHOGUNATE_NO_TITLE_REVOCATION_EMPEROR: "Only the [shogunate_diarch|E] may [revoke|E] [titles|E]"
+ SHOGUNATE_LACKS_POLITICAL_CAPITAL:0 "I don't have the ability to resist the [shogunate_diarch|E]"
+
+ restoration_faction: "Restoration Faction"
+
+ # Shogunate faction
+ shogunate_faction: "Governate Faction"
+ shogunate_faction_desc: "Members of the Governate [faction|E] support a [shogunate|E] being instituted over their [liege|E]."
+ shogunate_faction_short_effect_desc: "Wants to become Governator"
+
+ FACTION_DEMAND_SHOGUNATE: "Governate Demand"
+ FACTION_DEMAND_SHOGUNATE_DESC: "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nIn all things spiritual, the Eternal Living Guru reigns supreme. However, in the temporal realm, only those that can protect the realm can be entrusted to deal with the delicate matters of state. Towards that end, your loyal vassals believe it is time to institute a Governate, with [faction_leader.GetName] as Governator, and we have gathered the support required to make it so. Accept this fact peacefully or we will make you do so by force!"
+ FACTION_DEMAND_SHOGUNATE_DESC_ME: "Only I have the ability to keep California safe, and I have the means to make fact a reality. Accept this peacefully or I will make you do so by force!"
+ FACTION_DEMAND_SHOGUNATE_ACCEPTED: "Governate Demands Accepted"
+ FACTION_DEMAND_SHOGUNATE_ACCEPTED_DESC: "It is clear to me that you would see the realm burn before giving up this foolish venture. For the good of the realm I must accept your demands, but know that a great injustice was done here today. This will not stand!"
+ FACTION_DEMAND_SHOGUNATE_REFUSED: "Governate Demands Refused"
+ FACTION_DEMAND_SHOGUNATE_REFUSED_DESC: "[faction_leader.GetShortUINamePossessive|U] claim to temporal mastery is no more real than the stories we tell children at night. No matter how many misguided fools you have gathered to help carry out your scheme I will not bend to such a collection of dung. I'd rather die than see my birthright be diminished in such a manner!"
+ FACTION_DEMAND_SHOGUNATE_SEND_DEMAND_NOTIFICATION: "A Stable Realm!"
+ FACTION_DEMAND_SHOGUNATE_SEND_DEMAND_NOTIFICATION_DESC: "The moment has come! All who support [faction_leader.GetName] in instituting a Governate will now rise as one and make sure that [faction_leader.GetSheHe] can take [faction_leader.GetHerHis] place as the Governator. We shall see it done, by sword and fire if we must!"
+
+ NEW_SHOGUNATE_LOYALTY_DEMAND: "Loyalty Demand"
+ NEW_SHOGUNATE_LOYALTY_DEMAND_DESC: "[shogunate_diarch.Custom2('AppropriateGreeting', ROOT.Char)]\n\nOnly those that can protect the realm can be entrusted to deal with the delicate matters of state. [former_shogun.GetName] cannot be be trusted to handle these affairs. As such, I have gathered the support required to declare myself Governator. Accept this fact peacefully, or I will make you do so by force."
+
+ NEW_SHOGUNATE_DEMAND_REFUSED: "Loyalty Demands Refused"
+ NEW_SHOGUNATE_DEMAND_REFUSED_DESC: "[refuser.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nYour ridiculous attempt at usurpation will never succeed. My claim to the Governate is more true than yours. I'd rather die fighting for what ought to be mine!"
+
+ NEW_SHOGUNATE_LOYALTY_DEMAND_ACCEPT: "I guess I have no choice..."
+ NEW_SHOGUNATE_LOYALTY_DEMAND_REFUSE: "I would be a better Governator!"
+
+ replace_shogun_faction: "Replace Governator Faction"
+ replace_shogun_faction_desc: "Members of this [faction|E] support replacing the current [shogun|E] with a new one."
+ replace_shogun_faction_short_effect_desc: "Wants the [GetTitleByKey('k_shogunate').GetName]"
+
+ FACTION_DEMAND_SHOGUN_REPLACE: "Resignation Demand"
+ FACTION_DEMAND_SHOGUN_REPLACE_DESC_ME: "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nAs you are well aware, only those that can protect the realm can be entrusted to deal with the delicate matters of state. You can no longer be trusted to fulfill that sacred obligation. Only I have the ability to keep California safe, and I have the means to make that fact a reality. Resign as Governator peacefully or I will make you do so by force!"
+ FACTION_DEMAND_SHOGUN_REPLACE_ACCEPTED: "Governator Resignation Demands Accepted"
+ FACTION_DEMAND_SHOGUN_REPLACE_ACCEPTED_DESC: "It is clear to me that you would see the realm burn before giving up this foolish venture. For the good of California I must accept your demands, but know that a grave error was committed here today."
+ FACTION_DEMAND_SHOGUN_REPLACE_REFUSED: "Governator Resignation Demands Refused"
+ FACTION_DEMAND_SHOGUN_REPLACE_REFUSED_DESC: "[faction_leader.GetShortUINamePossessive|U] claim to temporal mastery is no more real than the stories we tell children at night. No matter how many misguided fools you have gathered to help carry out your scheme, I will not bend. I'd rather die than see California be diminished in such a manner!"
+ FACTION_DEMAND_SHOGUN_REPLACE_SEND_DEMAND_NOTIFICATION: "A Stable Realm!"
+ FACTION_DEMAND_SHOGUN_REPLACE_SEND_DEMAND_NOTIFICATION_DESC: "The moment has come! All who support [faction_leader.GetName] as the rightful [shogun|E] will now rise as one and make sure that [faction_leader.GetSheHe] can take [faction_leader.GetHerHis] place as the Governator. We shall see it done, by sword and fire if we must!"
+
+ FACTION_DEMAND_CLAIMANT_SHOGUNATE_DESC:0 "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nWhile temporal authority over California lay with you, the spiritual authority to rule [faction_targeted_title.GetNameNoTier] belongs to [faction_claimant.GetName] by divine right, and we have gathered the support required to make it so. Accept this fact peacefully or we will make you do so by force!"
+ FACTION_DEMAND_CLAIMANT_SHOGUNATE_DESC_ME:0 "While temporal authority over California lay with you, the right to rule [faction_targeted_title.GetNameNoTier] belongs to me by divine right, and I finally have the means to make it so. Accept this fact peacefully, and you will keep your temporal authority. Refuse, and it will be forced from you!"
+ FACTION_DEMAND_CLAIMANT_ACCEPTED_SHOGUNATE_DESC:0 "It is clear to me that you would see the realm burn before giving up this foolish venture. For the good of the realm I will accept your demands, but know that a great injustice was done here today."
+ FACTION_DEMAND_CLAIMANT_REFUSED_SHOGUNATE_DESC:1 "[faction_claimant.GetShortUINamePossessive|U] claim of spiritual authority over California is no more real than the stories we tell children at night. No matter how many misguided fools you have gathered to help carry out your scheme I will not bend to such a collection of dung. I'd rather die than see California fall to someone so low!"
+
+ FACTION_DEMAND_CLAIMANT_SEND_DEMAND_NOTIFICATION_SHOGUNATE_EMP_DESC:0 "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nThe right to rule [faction_targeted_title.GetNameNoTier] belongs to [faction_claimant.GetName] by divine right, and we have gathered the support required to make it so. The Governator must accept this fact peacefully or we will make them do so by force!"
+ FACTION_DEMAND_CLAIMANT_SEND_DEMAND_NOTIFICATION_SHOGUNATE_EMP_DESC_ME:0 "The right to rule [faction_targeted_title.GetNameNoTier] belongs to me by divine right, and I finally have the means to make it so. The Governator must accept this fact peacefully or we will make them do so by force!"
+ FACTION_DEMAND_SEND_DEMAND_NOTIFICATION_SHOGUNATE_EMP: "Hopefully, the Governator will protect my title."
+
+ FACTION_DEMAND_INDEPENDENCE_SEND_DEMAND_NOTIFICATION_SHOGUNATE_EMP:0 "Independence!"
+ FACTION_DEMAND_INDEPENDENCE_SEND_DEMAND_NOTIFICATION_SHOGUNATE_EMP_DESC:0 "The members of the [faction.GetName] believe that I have lost any right to rule I might once have had. They have demanded their independence, and are prepared to war over it. Due to the restrictions imposed upon my authority by the Governate, this decision lay in the hands of [faction_target.GetDiarchy.GetDiarch.GetName]."
+
+ FACTION_DEMAND_LIBERTY_SEND_DEMAND_NOTIFICATION_SHOGUNATE_EMP:0 "Liberty or Death!"
+ FACTION_DEMAND_LIBERTY_SEND_DEMAND_NOTIFICATION_SHOGUNATE_EMP_DESC:0 "The lords of the [faction.GetName] are united in their belief that both [faction_target.GetDiarchy.GetDiarch.GetName] and I are despots who must yield our "tyrannic" authority over them... at sword point, if need be. Due to the restrictions imposed upon my authority by the Governate, this decision lay in the hands of [faction_target.GetDiarchy.GetDiarch.GetName]."
+
+ FACTION_DEMAND_LIBERTY_SEND_DEMAND_NOTIFICATION_SHOGUNATE:0 "Liberty or Death!"
+ FACTION_DEMAND_LIBERTY_SEND_DEMAND_NOTIFICATION_SHOGUNATE_DESC:0 "The moment has come! The lords of the [faction.GetName] agree that both [faction_target.GetName] and [faction_target.GetDiarchy.GetDiarch.GetName] are despots who must yieldy their tyrannic authority over us... at sword point, if need be."
+
+ install_shogunate_faction_war: "Governate War"
+ shogunate_WAR_NAME: "Governate Installation War"
+ shogunate_war_victory_desc: "[attacker.GetName|U] institutes a [shogunate|E] in the Empire of California."
+ shogunate_war_victory_defender_desc: "A [shogunate|U] will be instituted, and you will share power with a [shogunate_diarch|U]."
+
+ shogunate_war_white_peace_defender_desc: "$liberty_war_white_peace_defender_desc$"
+ shogunate_war_white_peace_attacker_desc: "$liberty_war_white_peace_attacker_desc$"
+ shogunate_war_white_peace_desc: "$liberty_war_white_peace_desc$"
+ shogunate_war_white_peace_end_desc: "The [shogunate_faction|E] is disbanded, its members cannot join factions for [SCOPE.ScriptValue('faction_war_white_peace_cooldown')|0] years."
+
+ shogunate_war_defeat_defender_desc: "$liberty_war_defeat_defender_desc$"
+ shogunate_war_defeat_attacker_desc: "$liberty_war_defeat_attacker_desc$"
+ shogunate_war_defeat_desc: "$liberty_war_defeat_desc$"
+ shogunate_war_defeat_end_desc: "The [shogunate_faction|E] is disbanded, its members cannot join factions for [SCOPE.ScriptValue('faction_war_defeat_cooldown')|0] years."
+ 
+ replace_shogun_war: "War for the Governate"
+ shogun_diadochi_war: "War for the Governate"
+ governator_WAR_NAME: "War for the Governate"
+ governator_war_victory_desc: "[attacker.GetName|U] replaces [defender.GetName|U] as the [shogun|E] of the Empire of California."
+ governator_war_victory_defender_desc: "The [shogunate|U] will continue with [attacker.GetName|U] as [shogun|U]."
+
+ governator_war_white_peace_desc_defender: "You remain the [shogunate_diarch|U]."
+ governator_war_white_peace_desc: "[defender.GetShortUIName|U] remains the Governator."
+
+ governator_war_defeat_desc_defender: "You remain the [shogunate_diarch|E]. [attacker.GetShortUIName|U] is [imprisoned|E]."
+ governator_war_defeat_desc_attacker_claimant: "[defender.GetShortUIName|U] remains the [shogunate_diarch|E]. You is [imprisoned|E]."
+ governator_war_defeat_desc_attacker: "[defender.GetShortUIName|U] remains the [shogunate_diarch|E]. [attacker.GetShortUIName|U] are [imprisoned|E]."
+ governator_war_defeat_desc: "[defender.GetShortUIName|U] remains the [shogunate_diarch|E]. [attacker.GetShortUIName|U] is [imprisoned|E]."
+
+ msg_governate_war_invalidated_message: "The [war.GetName] has ended: [defender.GetShortUIName] can no longer become the Governator."
+
+
+ # restoration_WAR_NAME: "Restoration Faction Revolt"
+ # restoration_faction_war_victory_desc: "The [shogunate|E] is dismantled."
+ # restoration_war_victory_defender_desc: "The [shogunate|E] will be dismantled, and all power will go back to the [ruler|E]."
+
+ # restoration_war_white_peace_defender_desc: "$liberty_war_white_peace_defender_desc$"
+ # restoration_war_white_peace_attacker_desc: "$liberty_war_white_peace_attacker_desc$"
+ # restoration_war_white_peace_desc: "$liberty_war_white_peace_desc$"
+ # restoration_war_white_peace_end_desc: "The [restoration_faction|E] is disbanded, its members cannot join factions for [SCOPE.ScriptValue('faction_war_white_peace_cooldown')|0] years."
+
+ # restoration_war_defeat_defender_desc: "$liberty_war_defeat_defender_desc$"
+ # restoration_war_defeat_attacker_desc: "$liberty_war_defeat_attacker_desc$"
+ # restoration_war_defeat_desc: "$liberty_war_defeat_desc$"
+ # restoration_war_defeat_end_desc: "The [restoration_faction|E] is disbanded, its members cannot join factions for [SCOPE.ScriptValue('faction_war_defeat_cooldown')|0] years."
+
+ # FACTION_SHOGUNATE_INVITE: "[faction_invite_from.Custom2('AppropriateGreeting', ROOT.Char)]"
+ # FACTION_SHOGUNATE_INVITE_DESC: "[faction_target.GetName] occupies a throne that should rightly be yours! I am willing to support your claim with word and sword, and I am sure others in the realm will also champion this rightful cause. All you need to do is accept."
+ # FACTION_SHOGUNATE_INVITE_ACCEPT: "Finally!"
+ # FACTION_SHOGUNATE_INVITE_REFUSE: "It is not right..."
+ # FACTION_SHOGUNATE_INVITE_ACCEPTED: "[faction_claimant.Custom2('AppropriateGreeting', ROOT.Char)]"
+ # FACTION_SHOGUNATE_INVITE_ACCEPTED_DESC: "Finally! [faction_target.GetName] is nothing more than a jester acting a [faction_target.GetTitleAsNameNoTooltip], and I am sure the realm will rise to my cause. Those who aid me will not be forgotten."
+ # FACTION_SHOGUNATE_INVITE_ACCEPTED_OPT: "It is only a matter of time..."
+
+ ep3_interactions_events.0630.shogunate: "With all the palace in concordance, I hereby end your tenure as [recipient.GetTitleAsNameNoTooltip]. All titles you hold, along with the revenues and honors of office, are to be relinquished.\n\nFor all labors in service of [recipient.GetPrimaryTitle.GetTierAsNameNoTooltip] and [actor.GetDiarch.GetPrimaryTitle.GetTierAsName], your people and sovereign both are grateful."
+
+ ate_char_interaction.0232.desc:0 "For too long I have suffered indignities at the hands of [actor.GetTitledFirstName]. I will not stand idly by while our [shogun|E] abuses [actor.GetHerHis] loyal vassals. I urge you to join me in the fight to depose this tyrant."
+
+ shogunate_grant_governorship_interaction: "Grant Californian Appointment"
+ shogunate_grant_governorship_interaction_desc: "Appoint [recipient.GetShortUINameNoTooltip] as [governor|E] of a [province|E] of California"
+
+ imperial_shogun_desc: "Incumbent [shogun|E]"
+ 
+
+ ##################################################
+ ## Vice Presidency
+ vice_presidency_diarchy_type: "[vice_presidency|E]"
+ vice_presidency_diarch_title: "Vice President"
+
+
+ appoint_vice_president_interaction.tt.enter_vice_presidency_with_secondary_recipient: "You create the [vice_presidency|E] with [secondary_recipient.GetTitledFirstName] as your [vice_president|E]"
+
+ recipient_secondary_appoint_vice_president_interaction: "Recipient"
+ 
+ ##################################################
+
+ # #Parameters
+ diarchy_is_vice_presidency: "[diarchy|E] as a [vice_presidency|E]"
+
+ # Interactions
+ appoint_vice_president_interaction: "Instate $game_concept_vice_president$"
+ appoint_vice_president_interaction_desc: "Raise a trusted [family_member|E] or [vassal|E] of your [realm|E] to the position of [vice_president|E], making them your heir and helping #EMP both#! of you acquire more [influence|E]"

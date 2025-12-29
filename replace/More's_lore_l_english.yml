@@ -1,0 +1,40 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ game_concept_lore:0 "Lore"
+ game_concept_lore_desc:0 "LUUUUUURRRRRRHHHHHH"
+
+ game_concept_lore_almighty_spirit:0 "The Almighty Spirit"
+ game_concept_lore_almighty_spirit_desc:0 "Highest of all the gods is the Almighty, The Great Spirit of the West. Older than all the others by a country mile, the Almighty was there when the horizons had no sun and the World was entirely mountains. In this time, he had his most ancient form, that of the Buffalo God; in these days he trampled the mountains to create the expanses of the prairies. As such, the Almighty and the land are tied together. He senses the changes and happenings of the earth, and longs ever after for the wide open expanses. Bison and maize are sacred to him. The shamans say that the sites holiest with the Almighty's power are those remote places far removed from the works of men. Alone in the land, at the lowering twilight, they say the presence of the Spirit of the West is the most clear."
+ 
+ game_concept_lore_first_rodeo:0 "The First Rodeo"
+ game_concept_lore_first_rodeo_desc:0 "The First Rodeo was called by  [lore_almighty_spirit|E] at the beginning of the Wayback When. He summoned the great godly powers of the Frontier to come together and compete against each other to see who should be the Sheriff of All Gods and Lawmaker of the Worlds. There were many competitions held. and much fame was won, but in the end the [lore_almighty_spirit|E] proved himself to be the mightiest and wisest god of all. As the final contest, he brought forth a great bull from the Frontier itself and dared any other to ride it for the time it took Raven to fly across the world and back. He alone could accomplish this feat, and so the other gods agreed to his right to rule. In its wake they formed the Great Council as a union of their powers."
+ 
+ game_concept_lore_great_council:0 "The Great Council"
+ game_concept_lore_great_council_desc:0 "The Great Council is the  union to which most of the gods belong, and it is here they consult with each other and hash out their differences. It was formed by its head, the [lore_almighty_spirit|E], early in the [lore_wayback_when|E], after he bested all the other gods in [lore_first_rodeo|E]. Despite the use by Trailwalkers to refer to their deities in general, some of the recognized gods are apart from it, specifically [lore_ol_bear|E] and [lore_star_clan|E]."
+ 
+ game_concept_lore_iron_horse:0 "Iron Horse"
+ game_concept_lore_iron_horse_desc:0 "Iron Horse is one of the primordial gods. He is the god of endeavor and labor, not to mention the creator of horses. It is said of Iron Horse that his muscles are so huge they look like metal wheels, and his tendons so mighty they are like shafts of steel. Within his chest beats a brazen heart of heat and light; his breath billows black and white steam across the sky of the Frontier. Iron Horse carries a shield which can displace any obstacle, no matter how immovable; as such, Trailwalkers pray to him for help in overcoming many different struggles \n \n Long a friend of the Leadcasters for their similar love of effort and creation, Iron Horse is wed to the goddess Lockwood, who guards the Ghost Country and is sister to the Peacemaker. The fruit of their love is their son the Colt. \n \n Iron Horse's achievements are not merely physical, but spiritual as well: he is the one who lays the [lore_iron_trails|E], the immovable paths that are the greatest of all [lore_trails|E]."
+ 
+ game_concept_lore_iron_trails:0 "The Iron Trails"
+ game_concept_lore_iron_trails_desc:0 "The Iron Trails, the greatest of all [lore_trails|E]. Imovable paths, they veer not from their course but give surety and strength to those who walk them. Iron Horse is their layer, and he involved the wisdom and of many other gods in their construction. the two which are most famed are the Stairway of Heaven and the Real Road."
+ 
+ game_concept_lore_living_fire:0 "Living Fire"
+ game_concept_lore_living_fire_desc:0 "Living Fire is fire as the Range knows it now: a flame that burns as long as it is fed and will not die of age like mortal things. Trailwalkers say that it was not originally native to the Range, but was made by the Peacemaker in the Wayback When, in days when the horizons had no sun. His greatest creation, the Peacemaker guarded it jealously, and would not even allow it to be used in the making of the [lore_trailwalker_sun|E]. \n \n But he could not keep the Living Fire contained forever. As accounted in one of the greatest stories of [lore_campfire_round|E], [lore_theft_living_fire|E], the Three Tricksters conspired together, stole the Peacemaker's creation, and brought it to the Range."
+ 
+ game_concept_lore_the_nameless:0 "The Nameless"
+ game_concept_lore_the_nameless_desc:0 "The Nameless is an avatar of the [lore_almighty_spirit|E]; a familiar of mystery and the unknown, he is associated with death, the stranger, crossroads, and the wake that follows meetings of chance. Though his sphere is oft considered foreboding and his manner is dark, he is lawful, just, and heroic, and many tales are told of salvation he brought at the most desperate of times. Trailwalkers often extend courtesy to wanderers and strangers - both to walk upon generous and honest trails, and because one never knows when they may meet the Nameless incognito."
+ 
+ game_concept_lore_ol_bear:0 "Ol Bear"
+ game_concept_lore_ol_bear_desc:0 "Ol Bear is a fierce god of the north and winter. He is the greatest and the most powerful of [lore_star_clan|E], and the signs of Ursa Major and Minor are tied to him. Ol Bear is associated with the turning of seasons, and the awaking of dormant life. Though worshiped warily in the south, the Midnight Sun faith holds him in high regard. \n \n Ol Bear is a guardian of the sun, and he engages in constant battle against many fearsome critters that wish to see it stolen or destroyed. The Aura Borealis is his blood from these fights spilling out of the Frontier and into the Range. During the Polar Night, when the sun grows dim in the North and gathers its powers, this war is fiercest and most dire. Trailwalkers hold that the hibernation of the black and brown bears are the creatures entering the Frontier in dreams to aid their master, and it is taboo amongst all Trailwalkers to rouse or harm one while during the winter months. \n \n When Ol Bear and the Star Clan emerge triumphant, the sun comes again in full force, beating away the dark powers and lighting the land. During the period of the midnight sun, it shines upon the Star Clan without stop, and they revel and feast beyond the sights of men."
+ 
+ game_concept_lore_star_clan:0 "The Star Clan"
+ game_concept_lore_star_clan_desc:0 "The Star Clan is a kin of distant gods, residing in the stellar heavens. Their lord and oldest member is 'Ol Bear, an angry and bad tempered god who rules the North of the world. They did not partake in the First Rodeo nor do yhey recognize the [lore_great_council|E], but begrudgingly concede the supremacy of the [lore_almighty_spirit|E]."
+ 
+ game_concept_lore_trails:0 "The Trails"
+ game_concept_lore_trails_desc:0 "Trails are that which the Trailwalker religion is named for - lines of destiny and purpose that connect and define all things. They are tied indelibly to the Frontier, and connect the fates of men to the magic of that realm. Some Trails can be chosen, some cannot; and in time, even the gods are bound to walk certain Trails. For a human being to leave the Trails entirely is to endanger their soul, both in the moment and in eternity. Man did so once, and thus so angered the gods, that they caused the Fall to come upon the Earth."

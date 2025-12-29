@@ -1,0 +1,62 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ # Update and info event loc #
+ ate_info_event.1.t:0 "After the End CK3 0.20 "Inaugurations""
+ ate_info_event.1.desc:0 "Kneel before the throne and rise resplendent in After the End CK3 version 0.20 "Inaugurations".\n\nThe "Inaugurations" update brings coronations to After the End. It also includes updates to California's faith map, along with a new Quebecois "Souveraignism" religion. Uruguay's starting position has been changed as well with new special buildings, reworked faiths, and a new landless adventurer.\n\nAnd in case you didn't already know; #V #Bold the map can be rotated to a north-south orientation by unchecking "Camera Rotation Reset" in the Game settings menu and then holding right-click to spin the camera!#!#!"
+ ate_info_event.1.a:0 "This event can be disabled with a gamerule."
+ ate_info_event_tooltip:0 "#V #Bold Long may you reign.#!#!"
+
+ # Clam Chowder event localizations -Almostender
+ ateflavor.0001.t:0 "Clam Chowder"
+ ateflavor.0001.desc:0 "As you stroll through the bustling markets of [county.GetNameNoTier], the smell of freshly baked bread and roasting meat fills your nostrils. You make your way past various vendors, selling everything from juicy apples to handcrafted furniture. But one vendor, in particular, catches your eye. The aroma of their clam chowder is simply irresistible. The creamy soup is filled with chunks of tender clams, potatoes, and spices. You must decide whether to indulge in the delicious soup or continue on your way."
+ ateflavor.0001.a:0 "No thanks, I'm not hungry."
+ ateflavor.0001.b:0 "I'll have a bowl."
+ ateflavor.0001.c:0 "Why don't I sponsor your shop?"
+
+ clam_chowder_modifier:0 "Ate Clam Chowder"
+ clam_chowder_province_modifier:0 "Sponsored Clam Chowder Vendor"
+
+#Tribal clan chowder localizations
+ ateflavor.0002.t:0 "Clam Chowder"
+ ateflavor.0002.desc:0 "As you approach the tribal markets of [county.GetNameNoTier], you are greeted by the sight of colorful tents and booths, each with their own unique offerings. The air is filled with the sound of laughter and chatter, as well as the savory aroma of roasting meat and simmering stews. As you make your way through the market, you come across a vendor selling a traditional local food - a hearty clam chowder, made with fresh clams and vegetables gathered from the surrounding forests and rivers. The soup has been a staple of the community for generations, and the vendor takes pride in sharing this traditional dish with visitors. You must decide whether to sample this delicious soup or continue on your way through the bustling market."
+ ateflavor.0002.a:0 "No thanks, I'm not hungry."
+ ateflavor.0002.b:0 "I'll have a bowl."
+ ateflavor.0002.c:0 "Why don't I sponsor your shop?"
+
+ #Restore Dominion Grand Command
+ restore_dominion_grand_command_decision:0 "Restore Dominion Grand Command"
+ restore_dominion_grand_command_decision_confirm:0 "Establish a new religious head"
+ restore_dominion_grand_command_decision_desc:0 "The office of the [ROOT.Char.GetFaith.ReligiousHeadName] has been vacant since Remembrants were driven out of Ottawa and prevented from accessing the Tomb of the Unknown Soldier. Yet, if we are able to retake control of enough of our ancestral holy sites as well as Ottawa, a new priesthood could be established."
+ restore_dominion_grand_command_decision_tooltip:0 "The highest [ROOT.Char.GetFaith.GetAdjective] priesthood is re-established."
+
+ ate_religious_decision.233.t:0 "The New [scoped_ruler.GetFaith.GetAdjective] Command"
+ ate_religious_decision.233.desc.intro:0 "There has not been a Dominion Grand Commander since the Remembrants were driven out of Ottawa and prevented from accessing the Tomb of the Unknown Soldier roughly a few hundred years ago. At long last, this position has been filled, and the High Priesthood reconstituted.\n\n"
+ ate_religious_decision.233.desc.not_me:0 "Our new spiritual leader, [new_priest.GetName] will certainly enjoy the respect of the [ROOT.Char.GetFaith.GetAdjective] religious communities now that the ceremony has been held at the Tomb of the Unknown Soldier."
+ ate_religious_decision.233.a:0 "May [new_priest.GetHerHis] leadership inspire us!"
+ ate_religious_decision.234.desc.others:0 "Following the re-establishment of a significant [scoped_ruler.GetFaith.GetReligion.GetAdjective] presence in Ottawa, [scoped_ruler.GetTitledFirstName] has promoted the founding of a new [new_priest.GetFaith.GetAdjective] Dominion Grand Command to lead them.\n\nLed by [new_priest.GetTitledFirstName], this congregation is expected to bring unity and guidance to the growing communities of Ottawa and beyond."
+ ate_religious_decision.234.a:0 "May [new_priest.GetHerHis] leadership inspire us!"
+ ate_religious_decision.234.b:0 "I see..."
+
+# Statue of Liberty Claim Decision
+ claim_the_statue_of_liberty:0 "Claim the Statue of Liberty"
+ claim_the_statue_of_liberty_effect_tooltip:0 "The Statue of Liberty will be placed back under its rightful jurisdiction"
+ claim_the_statue_of_liberty_confirm:0 "Liberty!"
+ claim_the_statue_of_liberty_jersey_desc:0 "Though she undoudedtly falls within the territorial waters of New Jersey, since the days of old, the Statue of Liberty has been held by the lords of New York. Any fool with a map can see that the Statue rightfully belongs to New Jersey. Now, we have the power to correct this ancient injustice."
+ claim_the_statue_of_liberty_new_york_desc:0 "The lords of New Jersey have always been covetous of the Statue. However, it is only in recent times that they have managed to enforce their dominion over it. For this injustice to be corrected, New York must be granted control of the Statue of Liberty."
+ claim_the_statue_of_liberty_decision_tooltip:0 "The Statue of Liberty will be placed back under its rightful jurisdiction"
+
+ # Metis Red River Flavour
+ red_river_collapse.1.t:0 "An Unwelcome Domain"
+ red_river_collapse.1.desc:0 "The Rivyayr Roozh Kingdom was developed out of a time of crisis and religious fervor. As various Hetmans consolidated control over the Canadian Plains, the Metis followers of Riel were among the first to suffer.\n\nThe Infallible Pontiff in Winnipeg, with enemies at the gates, called upon the faithful to protect the New Rome. However, when Jarema the Old conquered northern and western Manitoba with his praire hordes and declared himself Hetman, devoted Metis knights and nobles built a new foundation on the legacy of Riel's Red River Rebellion.\n\nThrough many centuries of defense and blood, Winnipeg has stood free, but her foremost defender has been subjagated. Should these new rulers not wish to carry on the task of protecting the Infallible Pontiff, they will surely cast the Rivyayr Roozh Kingdom to the dustbin of history."
+ red_river_collapse.1.a:0 "This Kingdom always did live on borrowed time."
+ red_river_collapse.1.b:0 "Li Zheezeu and Riel will guide my path! May Kishay Menitou forgive my transgressions."
+
+ red_river_collapse.2.t:0 "A Purpose Fufilled"
+ red_river_collapse.2.desc:0 "The Rivyayr Roozh Kingdom was developed out of a time of crisis and religious fervor. As various Hetmans consolidated control over the Canadian Plains, the Metis followers of Riel were among the first to suffer.\n\nThe Infallible Pontiff in Winnipeg, with enemies at the gates, called upon the faithful to protect the New Rome. However, when Jarema the Old conquered northern and western Manitoba with his praire hordes and declared himself Hetman, devoted Metis knights and nobles built a new foundation on the legacy of Riel's Red River Rebellion.\n\nFinally, after centuries of seperation, Riel's chosen flock have reclaimed the Province he founded. Our first step in completing Riel's dream of a united North America has been achieved, and it will be under a Manitoban flag that our armies march with from now on."
+ red_river_collapse.2.a:0 "Rivyayr Roozh, you served us well. You may now rest, with the grace of Li Bon Jeu."

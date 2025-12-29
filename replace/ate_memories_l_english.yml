@@ -1,0 +1,16 @@
+﻿l_spanish:
+
+ ate_converted_faith:0 "Converted Faith"
+ ate_converted_faith_desc:0 "I converted from [ROOT.Var('old_faith').Faith.GetName] to [ROOT.Var('new_faith').Faith.GetName]"
+ ate_converted_faith_desc_second_perspective:0 "You converted from [ROOT.Var('old_faith').Faith.GetName] to [ROOT.Var('new_faith').Faith.GetName]"
+ ate_converted_faith_desc_third_perspective:0 "[owner.GetFirstName] converted from [ROOT.Var('old_faith').Faith.GetName] to [ROOT.Var('new_faith').Faith.GetName]"
+
+ ate_became_custodian:0 "Became Custodian of a Holy Place"
+ ate_became_custodian_desc:0 "I became the Custodian of [ROOT.Var('custodian_place').GetProvince.GetCounty.GetName], the holiest place for the [ROOT.Var('custodian_faith').Faith.GetName] faithful"
+ ate_became_custodian_desc_second_perspective:0 "you became the Custodian of [ROOT.Var('custodian_place').GetProvince.GetCounty.GetName], the holiest place for the [ROOT.Var('custodian_faith').Faith.GetName] faithful"
+ ate_became_custodian_desc_third_perspective:0 "[owner.GetName] became the Custodian of [ROOT.Var('custodian_place').GetProvince.GetCounty.GetName], the holiest place for the [ROOT.Var('custodian_faith').Faith.GetName] faithful"
+
+ ate_lost_custodianship:0 "Became Custodian of a Holy Place"
+ ate_lost_custodianship_desc:0 "I lost custodianship of [ROOT.Var('custodian_place').GetProvince.GetCounty.GetName], the holiest place for the [ROOT.Var('custodian_faith').Faith.GetName] faithful"
+ ate_lost_custodianship_desc_second_perspective:0 "you lost custodianship of [ROOT.Var('custodian_place').GetProvince.GetCounty.GetName], the holiest place for the [ROOT.Var('custodian_faith').Faith.GetName] faithful"
+ ate_lost_custodianship_desc_third_perspective:0 "[owner.GetName] lost custodianship of [ROOT.Var('custodian_place').GetProvince.GetCounty.GetName], the holiest place for the [ROOT.Var('custodian_faith').Faith.GetName] faithful"

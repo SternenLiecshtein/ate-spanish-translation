@@ -1,0 +1,21 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ bg_gametype_pachisi:0 "ludo"
+ bg_gametype_hnefatafl:0 "jenga"
+ bg_gametype_tabula:0 "blackjack"
+ bg_gametype_fichell:0 "bul"
+
+ start_bout_interaction_board_game_pachisi:0 "Ludo"
+ start_bout_interaction_board_game_tabula:0 "Blackjack"
+ start_bout_interaction_board_game_hnefatafl:0 "Jenga"
+ start_bout_interaction_board_game_fidchell:0 "Bul"
+
+ game_concept_board_game_type_pachisi:0 "Ludo"  
+ game_concept_board_game_type_hnefatafl:0 "Jenga"	
+ game_concept_board_game_type_tabula:0 "Blackjack"	
+ game_concept_board_game_type_fidchell:0 "Bul"	

@@ -1,0 +1,92 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+commodity_map_mode: "Commodities"
+commodity_map_mode_desc: "Shows [commodities|E] and where they can be produced on the map."
+
+commodity_map_mode_province_coffee:0 "[coffee|E]"
+commodity_map_mode_province_wine:0 "[wine|E]"
+commodity_map_mode_province_tobacco:0 "[tobacco|E]"
+commodity_map_mode_province_sugar_cane:0 "[sugar_cane|E]"
+commodity_map_mode_province_cocoa:0 "[cocoa|E]"
+commodity_map_mode_province_maple:0 "[maple_syrup|E]"
+commodity_map_mode_province_mate:0 "[mate|E]"
+commodity_map_mode_province_olive:0 "[olives|E]"
+commodity_map_mode_province_tixinda:0 "[tixinda|E]"
+commodity_map_mode_province_cochineal:0 "[cochineal|E]"
+commodity_map_mode_province_farmlands:0 "Farmlands"
+
+commodity_region_coffee_north:0 "Northern Coffee Belt"
+commodity_region_coffee_south:0 "Southern Coffee Belt"
+commodity_region_coffee_all:0 "Coffee Growing Regions"
+
+commodity_region_tobacco_north:0 "Northern Tobacco Belt"
+commodity_region_tobacco_central:0 "Central Tobacco Belt"
+commodity_region_tobacco_south:0 "Southern Tobacco Belt"
+commodity_region_tobacco_all:0 "Tobacco Growing Regions"
+
+commodity_region_sugar_cane_north:0 "Northern Sugar Cane Belt"
+commodity_region_sugar_cane_central:0 "Central Sugar Cane Belt"
+commodity_region_sugar_cane_south:0 "Southern Sugar Cane Belt"
+commodity_region_sugar_cane_all:0 "Sugar Cane Growing Regions"
+
+commodity_region_cocoa_north:0 "Northern Cocoa Belt"
+commodity_region_cocoa_south:0 "Southern Cocoa Belt"
+commodity_region_cocoa_all:0 "Cocoa Growing Regions"
+
+commodity_region_wine_north:0 "Northern Viticultural Regions"
+commodity_region_wine_south:0 "Southern Viticultural Regions"
+commodity_region_wine_all:0 "Viticultural Regions"
+
+commodity_region_olive_north:0 "Northern Olive Region"
+commodity_region_olive_south:0 "Southern Olive Region"
+commodity_region_olive_all:0 "Olive Growing Regions"
+
+commodity_region_maple:0 "Maple Syrup Cultivation Region"
+commodity_region_mate:0 "Yerba-maté Cultivation Region"
+
+commodity_region_old_south:0 "Tenant Plantation System Zone"
+commodity_region_hacienda:0 "Hacienda System Zone"
+commodity_region_fazenda:0 "Fazenda System Zone"
+
+sericulture_domicile_house_modifier:0 "Silk Family Business"
+sericulture_domicile_house_modifier_desc:0 "This house is skilled in #italic sericulture#!, the production of silk, a highly lucrative and exclusive craft."
+
+carmine_domicile_house_modifier:0 "Cochineal Family Business"
+carmine_domicile_house_modifier_desc:0 "This house is skilled in cultivating cochineal beetles, the source of prestigious carmine dye, a highly lucrative and exclusive craft."
+
+apiculture_domicile_house_modifier:0 "Apiculture Family Business"
+apiculture_domicile_house_modifier_desc:0 "This house is skilled in beekeeping, a source of honey and beeswax that make for highly-regared luxury goods."
+
+guile_legacy_4_venom_effect_desc:0 "Can take a decision to add the [GetModifier('venom_domicile_house_modifier').GetNameWithTooltip] to the houses of your dynasty."
+venom_domicile_house_modifier:0 "Terrorarium Keepers"
+venom_domicile_house_modifier_desc:0 "Rumours claim this dynasty maintains a [Glossary( 'terrorarium', 'TERRORARIUM_GLOSS' )] within its home estate, no doubt for a variety of nefarious purposes."
+
+game_concept_commodity: "Commodity"
+PROVINCE_TIXINDA_DESC: "#T $Tixinda Suitability$ #!\n\nThis [province|E] is rich with [Concept('tixinda','tixinda')|E].\nSea snails here secrete a clear liquid, which oxidizes into a vibrant purple dye when exposed to air and sunlight.\nThis rare and highly prized natural pigment has been used for centuries in textiles and ceremonial garments.\nThe rocky coastal environment provides the perfect conditions for sustainable harvesting.\n\n#help Unlocks the #bold $Tixinda Fisheries$ #! building line in this barony.#!"
+
+PROVINCE_COCHINEAL_DESC: "#T $Cochineal Suitability$ #!\n\nThis [province|E] provides an ideal habitat for [Concept('cochineal','cochineal')|E].\nA small parasitic insect, it thrives on prickly pear cacti.\nWhen dried and processed, these insects produce a highly valuable red dye, prized for its deep crimson hue.\nThe warm, arid climate ensures a steady supply of cacti, making large-scale dye production possible.\n\n#help Unlocks the #bold $Cochineal Farms$ #! building line in this barony.#!"
+
+PROVINCE_MATE_DESC: "#T $Mate Suitability$ #!\n\nThe climate and soil of this [province|E] make it ideal for cultivating [Concept('mate','mate')|E].\nThis plant is used to produce a highly sought-after herbal beverage.\nThe humid subtropical conditions allow for strong, flavorful leaves that are harvested and dried for infusion.\nMate is a highly valued [commodity|E] for its stimulating effects and health benefits.\n\n#help Unlocks the [GetBuilding('plantation_mate_01').GetTypeName] building line in this barony for characters with either the [GetCultureInnovationType('innovation_hacienda').GetName], [GetCultureInnovationType('innovation_fazenda').GetName] or [GetCultureInnovationType('innovation_tenant_plantations').GetName] Cultural Innovation.#!"
+
+PROVINCE_MAPLE_DESC: "#T $Maple Suitability$ #!\n\nThe dense forests of this [province|E] are home to [Concept('maple_syrup','maple')|E] trees.\nThese trees can be tapped for their sweet sap and processed into high-quality maple syrup.\nCold winters followed by warm springs create the ideal conditions for sap flow, ensuring a steady harvest each year.\nThe syrup is a prized [commodity|E] both locally and in distant markets.\n\n#help Unlocks the [GetBuilding('plantation_maple_01').GetTypeName] building line in this barony for characters with the [GetCultureInnovationType('innovation_syrup_makers').GetName] Cultural Innovation.#!"
+
+PROVINCE_COCOA_DESC: "#T $Cocoa Suitability$ #!\n\nThis [province|E] boasts the perfect climate for cultivating [Concept('cocoa','cocoa')|E].\nThe tree's pods contain beans used to make chocolate.\nThe combination of warm temperatures, high humidity, and nutrient-rich soil allows for a steady yield of high-quality beans.\nThe fermented and dried seeds are a valuable export for trade and confectionery.\n\n#help Unlocks the [GetBuilding('plantation_cocoa_01').GetTypeName] building line in this barony for characters with either the [GetCultureInnovationType('innovation_hacienda').GetName], [GetCultureInnovationType('innovation_fazenda').GetName] or [GetCultureInnovationType('innovation_tenant_plantations').GetName] Cultural Innovation.#!"
+
+PROVINCE_TOBACCO_DESC: "#T $Tobacco Suitability$ #!\n\nThis [province|E] has the ideal conditions for growing [Concept('tobacco','tobacco')|E].\nA crop valued for its aromatic leaves, it thrives in well-drained soil and a warm climate.\nThese conditions allow for a smooth curing process, enhancing the leaf’s quality for smoking, chewing, or snuff production.\nTobacco is a highly sought-after [commodity|E] in many markets.\n\n#help Unlocks the [GetBuilding('plantation_tobacco_01').GetTypeName] building line in this barony for characters with either the [GetCultureInnovationType('innovation_hacienda').GetName], [GetCultureInnovationType('innovation_fazenda').GetName] or [GetCultureInnovationType('innovation_tenant_plantations').GetName] Cultural Innovation.#!"
+
+PROVINCE_SUGAR_DESC: "#T $Sugar Suitability$ #!\n\nThis [province|E] is well-suited for cultivating [Concept('sugar_cane','sugar cane')|E].\nA fast-growing crop, it thrives in warm, humid conditions.\nThe tall stalks of sugarcane are harvested, crushed, and processed to extract the sweet juice.\nThis juice is then refined into sugar or distilled into spirits.\nThe fertile soil ensures a steady supply of this valuable [commodity|E].\n\n#help Unlocks the [GetBuilding('plantation_sugar_cane_01').GetTypeName] building line in this barony for characters with either the [GetCultureInnovationType('innovation_hacienda').GetName], [GetCultureInnovationType('innovation_fazenda').GetName] or [GetCultureInnovationType('innovation_tenant_plantations').GetName] Cultural Innovation.#!"
+
+PROVINCE_OLIVE_DESC: "#T $Olive Suitability$ #!\n\nThe dry, sun-drenched terrain of this [province|E] is perfect for growing [Concept('olives','olive')|E] trees.\nThese trees have been cultivated for their oil and fruit for centuries.\nThe rocky soil and long summers contribute to a rich, flavorful yield.\nOlive oil is a prized product for trade and culinary use.\n\n#help Unlocks the [GetBuilding('grove_olive_01').GetTypeName] building line in this barony for characters with the [GetCultureInnovationType('innovation_med_triad').GetName] Cultural Innovation.#!"
+
+PROVINCE_WINE_DESC: "#T $Wine Suitability$ #!\n\nThe rolling hills and temperate climate of this [province|E] make it an excellent location for cultivating [Concept('wine','wine')|E] grapes.\nThe balance of sun exposure, rainfall, and mineral-rich soil helps produce fine wines.\nVineyards in this [province|E] are known for their distinct flavors and high-quality harvests.\n\n#help Unlocks the [GetBuilding('winery_01').GetTypeName] building line in this barony for characters with the [GetCultureInnovationType('innovation_med_triad').GetName] Cultural Innovation.#!"
+
+PROVINCE_COFFEE_DESC: "#T $Coffee Suitability$ #!\n\nThe highland climate and volcanic soil of this [province|E] provide the perfect conditions for cultivating [Concept('coffee','coffee')|E].\nThe cool temperatures, ample rainfall, and shade-grown methods produce beans with deep, complex flavors.\nOnce harvested and roasted, coffee becomes a highly valued [commodity|E], fueling trade and culture alike.\n\n#help Unlocks the  [GetBuilding('plantation_coffee_01').GetTypeName] building line in this barony for characters with either the [GetCultureInnovationType('innovation_hacienda').GetName], [GetCultureInnovationType('innovation_fazenda').GetName] or [GetCultureInnovationType('innovation_tenant_plantations').GetName] Cultural Innovation.#!"
+
+MERCHANTILE_ACTIONS:0 "mercantile actions"
+interaction_category_mercantile:0 "Mercantile"

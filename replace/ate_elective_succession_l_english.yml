@@ -1,0 +1,29 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ tooltip_egalitarian_elective_domain_size:0 "[domain|E] Size: $VALUE|=+0$"
+ tooltip_egalitarian_elective_development:2 "Total [development|E], modified by [faith|E] and [heritage|E]: $VALUE|=+0$"
+ tooltip_egalitarian_elective_capital_opinion:0 "Capital [county_opinion|E]: $VALUE|=+0$"
+ tooltip_egalitarian_elective_capital_development:0 "Capital [county_development|E]: $VALUE|=+0$"
+ tooltip_egalitarian_elector_vote_prowess:0 "[candidate.GetSheHe|U] is a warrior of great [prowess|E]: $VALUE|=+0$"
+
+ tooltip_egalitarian_elector_vote_elective: "[diplomacy|E] Score: $VALUE|=+0$"
+
+ SUCCESSION_ELECTION_WINDOW_PROMOTE: "Promote"
+ SUCCESSION_ELECTION_WINDOW_SLANDER: "Slander"
+ is_in_line_of_succession_or_elector: "[recipient.GetShortUIName|U] [CharAreIs(recipient)] #bold not#! is either an elector or is in line to become [actor.GetTopLiege.GetTitleAsName] or inherit any [actor.Custom( 'GetProvincePluralConcept' )]"
+ scheme_slandered_modifier: "Slandered"
+ scheme_slandered_modifier_desc: "This character's public reputation, their trustworthiness for office, has been ruined by a torrent of smears.\n$EFFECT_LIST_BULLET$ $scheme_slandered_candidacy_elective_tt$\n$EFFECT_LIST_BULLET$ $scheme_slandered_candidacy_appointment_tt$\n$EFFECT_LIST_BULLET$ $scheme_slandered_candidacy_acclamation_tt$\n$EFFECT_LIST_BULLET$ [governor_efficiency|E]: [governor_efficiency_i]#N [EmptyScope.ScriptValue('efficiency_slandered_value')|0]%#!"
+ scheme_promoted_modifier: "Promoted"
+ scheme_promoted_modifier_desc: "This character's reputation has been pushed forward by a successful promotional campaign.\n$EFFECT_LIST_BULLET$ $scheme_promoted_candidacy_elective_tt$\n$EFFECT_LIST_BULLET$ $scheme_promoted_candidacy_appointment_tt$\n$EFFECT_LIST_BULLET$ $scheme_promoted_candidacy_acclamation_tt$"
+ scheme_slandered_candidacy_elective_tt: "Elective Succession [vote_strength|E]: #N -50%#!"
+ scheme_promoted_candidacy_elective_tt: "Elective Succession [vote_strength|E]: #P +25%#!"
+
+ scheme_interaction_tt_slander_approved: "Attempt to harm [recipient.GetShortUINamePossessiveNoTooltip] [influence|E] and greatly reduce [recipient.GetHerHis] [candidate_score|E] and [voting_strength|E] for all [titles|E]"
+ scheme_interaction_tt_promote_approved: "Attempt to promote [recipient.GetShortUINamePossessiveNoTooltip] [voting_strength|E] and candidacy  to [administrative|E] positions"
+ 
+ 

@@ -1,0 +1,48 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ k_shogunate:0 "Governate of California"
+ k_shogunate_article:0 "the "
+ kingdom_shogunate: "$game_concept_shogunate_diarch$"
+ kingdom_shogunate_female: "$game_concept_shogunate_diarch$"
+
+ d_regent_shogunate:0 "Vigovship of California"
+ d_regent_shogunate_article:0 "the "
+ regent_shogunate_title: "Vigov"
+ regent_shogunate_title_female: "$regent_shogunate_title$"
+ duchy_regent_shogunate: "$regent_shogunate_title$"
+ duchy_regent_shogunate_female: "$regent_shogunate_title$"
+
+ CaliforniaThroneTitle.holder: "Redwood Throne"
+
+ e_guruship:0 "The Lost Guruship"
+
+ k_rivyayr_roozh:0 "Rivyayr Roozh Kingdom"
+ k_rivyayr_roozh_article:0 "the "
+
+
+#titular titan-kingdoms: title history only
+ k_grand_rapids:0 "Grand Rapids"
+ k_battle_creek:0 "Battle Creek"
+ k_flint:0 "Flint"
+ k_midland:0 "Midland"
+
+ king_hcc: "Governor"
+ king_hcc_female: "Governor"
+ kingdom_hcc: "Imperial State"
+
+ kingdom_hcc_archduke: "Archduke"
+ kingdom_hcc_archduchess: "Archduchess"
+ kingdom_hcc_archduchy: "Archduchy"
+
+ d_vice_presidency: "Vice Presidency"
+ d_vice_presidency_article: "the "
+ vice_presidency_title: "Vice President"
+ vice_presidency_title_female: "$vice_presidency_title$"
+ duke_vice_presidency: "$vice_presidency_title$"
+ duke_vice_presidency_female: "$vice_presidency_title$"

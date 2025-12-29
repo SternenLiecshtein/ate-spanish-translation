@@ -1,0 +1,9 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ COURT_AUTHORITY_IS_ON_COOLDOWN: "You recently changed Court Authority. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'crown_authority_cooldown') )]"
+ CHARACTER_CANNOT_LOWER_COURT_AUTHORITY:0 "[CHARACTER.GetShortUIName|U] already has the lowest possible [court_authority|E]"

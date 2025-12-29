@@ -1,0 +1,131 @@
+﻿l_spanish:
+ sombrism_religion: "Sombrism"
+ sombrism_religion_adj: "Sombrist"
+ sombrism_religion_adherent: "Sombrist"
+ sombrism_religion_adherent_plural: "Sombrists"
+ sombrism_religion_desc: "Sombrism has always been a religion of the forgotten and dispossessed, appealing to those who felt cast aside by the mainstream church. For this, it has often faced persecution by authorities who perceived its practice as subversive. Freed from state oppression after the collapse of the old order, this pre-[Concept('the_event_ate','Event')|E] movement has blossomed into a new post-Christian tradition which views death as an integral part of life that practitioners can invoke."
+
+ sombrist_santa_meurte: "Santa Muerte"
+ sombrist_santa_meurte_possessive: "Santa Muerte's"
+
+ santa_muerte: "Church of La Santísima Muerte"
+ santa_muerte_adj: "Santísima Muerte"
+ santa_muerte_adherent: "Muertista"
+ santa_muerte_adherent_plural: "Muertistas"
+ santa_muerte_desc: "Muertistas revere their patron saint, the eponymous Santísima Muerte, or the Saintliest Death above all others, as she cares neither for status, motive, or morality when the faithful come to her for aid. Adherents can ask for her intercession by clothing effigies of her in garments of different colors depending on the nature of their request, sacrificing something in her name, or consulting with one of the Naguales, witches who are both revered for the healing and protection they can provide and feared for the curses and harm they can inflict. This dichotomy is wholly natural to those who devote themselves to la Santísima Muerte, who caresses and kills with the same hand."
+
+ santa_muerte_high_god_name: "la Santísima Muerte"
+ santa_muerte_high_god_name_possessive: "la Santísima Muerte's"
+ santa_muerte_creator_god_name: "Dios"
+ santa_muerte_creator_god_name_possessive: "Dios'"
+ santa_muerte_health_god_name: "$santa_muerte_high_god_name$"
+ santa_muerte_health_god_name_possessive: "$santa_muerte_high_god_name_possessive$"
+ santa_muerte_fertility_god_name: "la Calavera Roja"
+ santa_muerte_fertility_god_name_possessive: "la Calavera Roja's"
+ santa_muerte_wealth_god_name: "la Parca Dorada"
+ santa_muerte_wealth_god_name_possessive: "la Parca Dorada's"
+ santa_muerte_household_god_name: "la Blanca Pálida"
+ santa_muerte_household_god_name_possessive: "la Blanca Pálida's"
+ santa_muerte_fate_god_name: "$santa_muerte_high_god_name$"
+ santa_muerte_fate_god_name_possessive: "$santa_muerte_high_god_name_possessive$"
+ santa_muerte_knowledge_god_name: "el Tecolote"
+ santa_muerte_knowledge_god_name_possessive: "el Tecolote's"
+ santa_muerte_war_god_name: "la Muerte con Hoz"
+ santa_muerte_war_god_name_possessive: "la Muerte con Hoz's"
+ santa_muerte_trickster_god_name: "los Chanekes"
+ santa_muerte_trickster_god_name_possessive: "los Chanekes'"
+ santa_muerte_night_god_name: "la Muerte Negra"
+ santa_muerte_night_god_name_possessive: "la Muerte Negra's"
+ santa_muerte_water_god_name: "el Lago Catemaco"
+ santa_muerte_water_god_name_possessive: "el Lago Catemaco's"
+ santa_muerte_devil_name: "Lucifer"
+ santa_muerte_devil_name_possessive: "Lucifer's"
+ 
+ santa_muerte_devotee_male: "venerador"
+ santa_muerte_devotee_male_plural: "veneradors"
+ santa_muerte_devotee_female: "veneradora"
+ santa_muerte_devotee_female_plural: "veneradoras"
+ santa_muerte_devotee_neuter: "veneradore"
+ santa_muerte_devotee_neuter_plural: "veneradores"
+ santa_muerte_priest: "fiel"
+ santa_muerte_priest_plural: "fiels"
+ santa_muerte_bishop_male: "sacerdote"
+ santa_muerte_bishop_male_plural: "sacerdotes"
+ santa_muerte_bishop_female: "sacerdota"
+ santa_muerte_bishop_female_plural: "sacerdotas"
+ santa_muerte_religious_head: "Gran Sacerdote"
+ santa_muerte_religious_head_title_name: "Gran Sacerdocio"
+ santa_muerte_negative_afterlife: "el Infierno"
+ santa_muerte_pantheon: "el Cielo"
+
+ ghw_la_gran_mortandad: "Gran Mortandad"
+ ghw_la_gran_mortandads: "Gran Mortandads"
+ santa_muerte_house_of_worship: "templo"
+ santa_muerte_house_of_worship_plural: "templos"
+ santa_muerte_religious_symbol: "Santísima Muerte"
+ santa_muerte_religious_text: "Rituales"
+
+ calaquismo: "Calaquismo"
+ calaquismo_adj: "Calaco"
+ calaquismo_adherent: "Calaco"
+ calaquismo_adherent_plural: "Calacos"
+ calaquismo_desc: "Calacos believe that life is short and sweet, and therefore they attempt to make the most of it. By focusing on the cause of carousing, the faithful feast in honor of el Cosmos, their fun-loving father who made them to relish life's revelries and recreations. During the rests between each fresh festivity, humorous poems called Calaveritas are composed to credit la Calaca, their morose mother who will one day save them from their exhausting existence. Treasuring both peculiar parents, adherents accept that their destiny is to delight in life’s never-ending cyclical celebration before their buried bones begin to power the perpetual party. To Calacos, the idea that some try to avoid seeing humor in the unstoppable decay, so that they can suffer through a world of inevitable death and agony, is an unthinkable lunacy."
+
+ calaquismo_la_calaca: "la Calaca"
+ calaquismo_la_calaca_possessive: "la Calaca's"
+
+ calaquismo_la_calavera: "la Calavera"
+ calaquismo_la_calavera_possessive: "la Calavera's"
+ 
+ calaquismo_el_cosmos: "el Cosmos"
+ calaquismo_el_cosmos_possessive: "el Cosmos'"
+
+ calaquismo_danza_de_la_muerte: "Danza de la Muerte"
+ calaquismo_danza_de_la_muerte_possessive: "Danza de la Muerte's"
+
+ calaquismo_pantheon: "la Pareja Cósmica"
+
+ calaquismo_house_of_worship: "parranda"
+ calaquismo_house_of_worship_plural: "parrandas"
+ 
+ calaquismo_religious_text: "las Viejas Rolas"
+
+ calaquismo_religious_head: "Parrandero Mayor"
+ calaquismo_religious_head_title_name: "Alma de la Fiesta"
+
+ calaquismo_bishop: "parrandero"
+ calaquismo_bishop_plural: "parranderos"
+ 
+ calaquismo_bishop_female: "parrandera"
+ calaquismo_bishop_female_plural: "parranderas"
+
+ calaquismo_positive_afterlife: "Eterno Descanso"
+ calaquismo_negative_afterlife: "Inmortalidad"
+
+ pascualito: "Súbditos del Rey San Pascual"
+ pascualito_adj: "Rey Pascual"
+ pascualito_adherent: "Pascualito"
+ pascualito_adherent_plural: "Pascualitos"
+ pascualito_desc: "Long before the [Concept('the_event_ate','Event')|E], when typhus ravaged a village located in what would become Guatemala, a skeletal king carrying a scythe in hand presented himself to a dying man with a prophecy and a covenant: The man will die, but if his people were to venerate the king, Rey San Pascual, then they will be spared. Nine days later, the man perished, and the pact was ordained, saving the lives of the new followers of the King of the Graveyard. The Pascualitos believe that by bargaining with and praying to the various harvesters of life, they may receive healing, protection, and even gifts. These embodiments of death are ancient figures who blur the line between Catholic saint and Indigenous deity. While death must ultimately take humanity into its delirious dance, Pascualitos look to their grim benefactors for clemency and favor."
+
+ pascualito_rey_san_pascual: "Rey San Pascual"
+ pascualito_rey_san_pascual_possessive: "Rey San Pascual's"
+
+ pascualito_san_pascualito: "San Pascualito"
+ pascualito_san_pascualito_possessive: "San Pascualito's"
+
+ pascualito_ku: "Ku"
+ pascualito_ku_possessive: "Ku's"
+
+ pascualito_los_aluxes: "los Aluxes"
+ pascualito_los_aluxes_possessive: "los Aluxes'"
+
+ pascualito_maximon: "Maximón"
+ pascualito_maximon_possessive: "Maximón's"
+
+ pascualito_lucifer: "Lucifer"
+ pascualito_lucifer_possessive: "Lucifer's"
+
+ pascualito_pantheon: "Pixano'ob U Kíimile'"
+ pascualito_xibalba: "Xibalbá"
+ pascualito_negative_afterlife: "Ho Najo'ob’il Xibalbá"

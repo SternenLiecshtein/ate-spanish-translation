@@ -1,0 +1,8 @@
+﻿l_spanish:
+ #duchy buildings
+  poi_stadium.visit:0 "Visited the Stadium of [province.GetName]"
+  TRAVEL_POINT_OF_INTEREST_TT_poi_stadium:0 "Stadium of [Province.GetBaronyNameExplicitly]"
+  #metropolis buildings
+  poi_metropolis_university.visit:0 "Visited the University of [province.GetName]"
+  TRAVEL_POINT_OF_INTEREST_TT_poi_metropolis_university:0 "University of [Province.GetBaronyNameExplicitly]"
+

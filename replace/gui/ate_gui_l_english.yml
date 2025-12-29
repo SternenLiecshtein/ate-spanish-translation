@@ -1,0 +1,16 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ ATE_VERSION:0 "After The End Beta 9.1"
+
+ diarch_hereditary_succession: "Hereditary Succession"
+ diarch_k_shogunate: "Governate of California"
+
+ CV_TAB_TRADE: "Trade"
+ IMPORTER_LABEL: "Commodity Buyers"
+ EXPORTER_LABEL: "Commodity Sellers"
+

@@ -1,0 +1,413 @@
+﻿l_spanish:
+
+#artifacts\artifacts_l_spanish.yml overrides and additions
+ metal_stainless_steel:0 "stainless steel"
+ feature_blade_metal_stainless_steel:0 "$metal_stainless_steel$"
+ feature_head_metal_stainless_steel:0 "$metal_stainless_steel$"
+ feature_handle_metal_stainless_steel:0 "$metal_stainless_steel$"
+ feature_blade_stainless_steel:0 "stainless steel"
+ metal_corinthian_bronze:0 "American bronze"
+ 
+ wood_sycamore:0 "sycamore"
+ wood_rosewood:0 "brazilwood"
+ wood_coromandel:0 "calamander"
+ wood_madrone:0 "madrone"
+ wood_imbuia:0 "imbuia"
+ wood_aspen:0 "aspen"
+ wood_tupelo:0 "tupelo"
+ wood_beech:0 "beech"
+ wood_redbud:0 "redbud"
+ wood_hackberry:0 "hackberry"
+ wood_alder:0 "alder"
+ wood_eucalyptus:0 "eucalyptus"
+ wood_redwood:0 "redwood"
+ feature_generic_material_wood_sycamore:0 "$wood_sycamore$"
+ feature_generic_material_wood_aspen:0 "$wood_aspen$"
+ feature_generic_material_wood_tupelo:0 "$wood_tupelo$"
+ feature_generic_material_wood_redbud:0 "$wood_redbud$"
+ feature_generic_material_wood_redbud:0 "$wood_hackberry$"
+ feature_generic_material_wood_hackberry:0 "$wood_hackberry$"
+ feature_generic_material_wood_hickory:0 "$wood_hickory$"
+ feature_generic_material_wood_alder:0 "$wood_alder$"
+ feature_generic_material_wood_madrone:0 "$wood_madrone$"
+ feature_generic_material_wood_beech:0 "$wood_beech$"
+ feature_generic_material_wood_redwood:0 "$wood_redwood$"
+ feature_generic_material_wood_eucalyptus:0 "$wood_eucalyptus$"
+ feature_generic_material_wood_imbuia:0 "$wood_imbuia$"
+ 
+ feature_shaft_wood_sycamore:0 "$wood_sycamore$"
+ feature_shaft_wood_tupelo:0 "$wood_tupelo$"
+ feature_shaft_wood_redbud:0 "$wood_redbud$"
+ feature_shaft_wood_hackberry:0 "$wood_hackberry$"
+ feature_shaft_wood_hickory:0 "$wood_hickory$"
+ feature_shaft_wood_aspen:0 "$wood_aspen$"
+ feature_shaft_wood_beech:0 "$wood_beech$"
+ 
+ feature_bow_wood_redbud:0 "redbud"
+ feature_bow_wood_tupelo:0 "tupelo"
+
+ vines:0 "vines"
+ vine_kudzu:0 "kudzu"
+ vine_jessamine:0 "jessamine"
+ vine_wisteria:0 "wisteria"
+ vine_virginia_creeper:0 "Virginia creeper"
+ vine_grape:0 "grapevine"
+ vine_hydrangea:0 "hydrangea"
+ vine_primavera:0 "primavera"
+ vine_passionfruit:0 "passionfruit"
+ vine_cats_claw:0 "cat's-claw"
+ 
+ 
+ feature_decoration_material_cloth_linen:0 "$cloth_linen$" #not sure why we need this but the error log says so
+ 
+ gem_fluorite:0 "fluorite"
+ gem_fluorite_plural:0 "fluorites"
+ gem_aventurine:0 "aventurine"
+ gem_aventurine_plural:0 "aventurines"
+ feature_decoration_material_gem_fluorite:0 "$gem_fluorite$"
+ feature_decoration_material_gem_aventurine:0 "$gem_aventurine$"
+ hsb_ivory:0 "whale ivory"
+ hsb_llama_bone:0 "llama bone"
+ feature_decoration_material_inlay_HSB_camel_bone:0 "$hsb_llama_bone$"
+ feature_decoration_material_inlay_HSB_llama_bone:0 "$hsb_llama_bone$"
+
+ ## fund_inspiration.6001-6006 trinkets from your adventurer
+ morin_khuur_ornament_name:0 "Coin Guitar Pick"
+ morin_khuur_ornament_description:1 "A copper guitar pick, fashioned from an antique coin. Sent to [owner.GetTitledFirstNameNoTooltip] by [inspiration_owner.GetTitledFirstNameNoTooltip] during [inspiration_owner.GetHerHis] adventures."
+
+ animal_ring_name:0 "Gaudy Jaguar Ring"
+ animal_ring_description:1 "Jewel-encrusted and in far too many colors, you are likelier to be able to blind your courtiers with it than impress with your sense of fashion. Sent to [owner.GetTitledFirstNameNoTooltip] by [inspiration_owner.GetTitledFirstNameNoTooltip] during [inspiration_owner.GetHerHis] adventures."
+
+ ostrich_shell_necklace_name:0 "Necklace of Coral Beads"
+ ostrich_shell_necklace_description:1 "A delicate piece of jewelry, made of black coral, larimar, and amber. Sent to [owner.GetTitledFirstNameNoTooltip] by [inspiration_owner.GetTitledFirstNameNoTooltip] during [inspiration_owner.GetHerHis] adventures."
+
+ pilgrimage_figurine_name:0 "Soapstone Santa Teresa Figure"
+ pilgrimage_figurine_description:1 "A figurine of Teresa Urrea, a Mexican mystic venerated throughout the Sonoran Desert, and who inspired resistance against abuses and tyranny by the Mayo and Yaqui. "La Santa de Cábora" has been depicted with outstretched arms. Sent to [owner.GetTitledFirstNameNoTooltip] by [inspiration_owner.GetTitledFirstNameNoTooltip] during [inspiration_owner.GetHerHis] adventures."
+
+ saint_margaret_fingernails_name:0 "Hair of an Unknown Soldier"
+ saint_margaret_fingernails_description:1 "The hair of an unknown individual, abandoned after a fierce battle. Saved as a remembrance of what can be lost. Sent to [owner.GetTitledFirstNameNoTooltip] by [inspiration_owner.GetTitledFirstNameNoTooltip] during [inspiration_owner.GetHerHis] adventures."
+
+ seahorse_brooch_name:0 "Silver Balangandã"
+ seahorse_brooch_description:1 "A fine piece of jewelry, consisting of a loop holding a variety of charms depicting fruit, animals, and tools, symbolizing various virtues and spiritual forces. Sent to [owner.GetTitledFirstNameNoTooltip] by [inspiration_owner.GetTitledFirstNameNoTooltip] during [inspiration_owner.GetHerHis] adventures."
+
+ #fund_inspiration.6500- trinkets from your adventurer
+ kurgan_ornament_name:0 "Aluminum Tumbler"
+ kurgan_ornament_description:0 "An ancient, dented cup looted by [inspiration_owner.GetTitledFirstName] from an antediluvian grave."
+
+ kurgan_saddle_name:0 "Ruined Rifle"
+ kurgan_saddle_description:1 "A hunting rifle swiped by [inspiration_owner.GetTitledFirstName] from an antediluvian grave. Hundreds of years old, the passage of time has damaged the device between all hope of repair, from rust and decay. Still, it was clearly a great weapon once, and perhaps we can still learn something of these weapons of old."
+
+#artifacts\court_artifacts_l_spanish.yml overrides and additions
+ animal_type_stag:0 "buck"
+ animal_type_lion:0 "mountain lion"
+ animal_type_jaguar:0 "jaguar"
+
+ animal_type_lions:0 "mountain lions"
+ animal_type_jaguars:0 "jaguars"
+
+ artifact_hide_type_stag:0 "a majestic buck"
+ artifact_hide_type_lion:0 "a mountain lion"
+ artifact_hide_type_jaguar:0 "a jaguar"
+
+ artifact_wall_animal_skull_hippo:0 "a hippo with dangerous-looking tusks"
+ artifact_wall_animal_skull_stag:1 "a buck, boasting an impressive-sized rack,"
+ artifact_wall_animal_skull_moose:1 "a moose, boasting an impressive-sized rack,"
+ artifact_wall_animal_skull_jaguar:1 "a fierce jaguar, king of the jungle,"
+ artifact_wall_animal_skull_alligator:0 "a lethal alligator"
+
+ feature_animal_hide_type_hart:1 "a majestic prize buck"
+ feature_animal_hide_type_stag:1 "a proud buck"
+ feature_animal_hide_type_hippo:1 "a massive hippo"
+ feature_animal_hide_type_jaguar:1 "a ferocious jaguar"
+ feature_animal_hide_type_alligator:1 "a menacing alligator"
+ feature_animal_hide_type_roe:0 "a swift deer"
+ feature_animal_hide_type_gazelle:0 "a musky muskox"
+ feature_animal_hide_type_antelope:0 "a fleet pronghorn"
+ feature_animal_hide_type_moose:1 "a huge moose"
+
+ feature_animal_skull_type_gazelle:0 "a lumbering muskox"
+ feature_animal_skull_type_moose:0 "a majestic moose"
+ feature_animal_skull_type_jaguar:0 "a fierce jaguar"
+ feature_animal_skull_type_hippo:0 "a massive hippo"
+ feature_animal_skull_type_alligator:0 "a savage alligator"
+
+ feature_book_title_learning_freud:0 "$artifact_name_prefix_artifact_scope$ The Interpretation of Dreams"
+ feature_book_title_diplomacy_franklin:0 "$artifact_name_prefix_artifact_scope$ Diplomacy"
+ feature_book_title_diplomacy_thousand_and_one_nights:0 "$artifact_name_prefix_artifact_scope$ One Thousand and One Nights"
+ feature_book_title_learning_lusiad:0 "$artifact_name_prefix_artifact_scope$ The Lusiads"
+ 
+ feature_book_topic_lunatic_pickle:0 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] manuscript of a few dozen pages of strangely spelled and formatted Old American. It is apparently the biography of a man who held written language in contempt. Likely created as practice, though whether by a brilliant or incompetent copier is hard to gauge."
+
+ artifact_book_topic_travels_brazil:0 "Brazil"
+ artifact_book_topic_travels_andes:0 "the Andes"
+ artifact_book_topic_travels_caribbean:0 "the Caribbean"
+ artifact_book_topic_travels_usa:0 "the Old USA"
+
+ feature_box_material_sycamore:0 "$wood_sycamore$"
+
+ feature_guru_statue_material_stone:0 "stone"
+ feature_guru_statue_material_wood:0 "[Artifact.GetFeatureText( 'generic_material_wood' )]"
+ feature_guru_statue_bronze:0 "$metal_bronze$"
+ feature_guru_statue_gold:0 "$metal_gold$"
+ feature_guru_statue_jade:0 "$gem_jade$"
+ feature_box_material_tupelo:0 "$wood_tupelo$"
+
+
+
+
+# Game start additional unique artifacts
+
+ artifact_liberty_bell_name:0 "Liberty Bell"
+ artifact_liberty_bell_description:0 "This enormous copper bell, smoothed by centuries past, is amongst the oldest relics of Old America that remains. Said to have been rung to announce Old America's declaration of independence, artisans in Philadelphia have carefully repaired the bell, fixing the crack along its side that likely dated to the turbulent times of the [Concept('the_event_ate','Event')|E].\n\nMany pilgrims, merchants and travellers visiting Philadelphia stop to see the bell, rubbing its side for good luck."
+
+ artifact_declaration_independence_copy_name:0 "'Declaration of Independence'"
+ artifact_declaration_independence_copy_description:0 "There is nary a ruler in the East who doesn't claim to have the true Declaration of Independence, signed by the Founders themselves. Wars are paid for by selling Declarations of Independence, and you must hope your guests don't catch another displaying this hallowed text."
+
+ artifact_jefferson_quran_name:0 "Thomas Jefferson's Koran"
+ artifact_jefferson_quran_description:0 "This curious relic is not simply a copy of the Islamic holy scriptures; legend states that Thomas Jefferson himself read its pages and took on its guidance in the founding days of Old America."
+
+ artifact_lincoln_memorial_head_name:0 "Head of the Lincoln Memorial"
+ artifact_lincoln_memorial_head_description:0 "Taken from the Capitol Mall following its fall in prominence, this enormous marble head depicting the ancient president of America is a highly prestigous decoration to any ruler's throne room, though those who hold Lincoln as holy are sure to find this blasphemous..."
+
+ artifact_sherman_sword_name:0 "Sword of Sherman"
+ artifact_sherman_sword_description:0 "This sword is said to have been wielded by the great Americanist hero Sherman, whose sword was said to burn with righteous divine fire against slaving seccessionist traitors and other servants of Tyranny. While the sacred flame does not function for lesser men, it is a mighty weapon that inspires great feats of heroism and bravery in the successors of Sherman's cause."
+
+ artifact_sunsphere_shard_relic_king_james_name:0 "Blood-Soaked Shard of the Martyr"
+ artifact_sunsphere_shard_relic_king_james_description:0 "This dazzling shard of golden glass remains encrusted with the dark blood of the martyred King James Royall, second Emperor of the Holy Columbian Commonwealth, killed from his wounds after the shard fell from a pagan temple in Knoxville and pierced his chest, moments after King James had toppled the enormous glass sphere at the centre of the temple.\n\nGenerations of emperors in the Holy Columbian Commonwealth have displayed this shard in the memory of King James, and many hold hope that it may be incorporated into a memorial church to King James Royall some day into the future.\n\nAmong the Appalachian pagans however, many have spoken of designs that may restore the sphere, with this blood-soaked shard at its centre..."
+
+ artifact_hcc_crown_name:0 "Crown of Leonidas"
+ artifact_hcc_crown_description:0 "Forged in the year 2339 for the coronation ceremony of Leonidas I, the Crown of Leonidas has been an iconic imperial symbol for the Emperors of the Holy Columbian Commonwealth ever since. \n\nThe crown's octagonal body is decorated by dozens of gems found throughout the Old South, including sapphires, amethysts, rubies, topazes, quartz stones, and emeralds. The famous Carolina Emperor, an exquisite and enormous emerald, is placed in the center of the crown's front plate. \n\nFour enameled plates circle the crown, depicting Jesus Christ, Martin Luther King, King George Washington and Leonidas himself."
+
+ artifact_jessamine_sword_name:0 "#italic Jessamine#!"
+ artifact_jessamine_sword_description:0 "This legendary sword belonged to Leonidas Royall, founder of the Holy Columbian Commonwealth.\n\nLegend tells that Leonidas found this sword as a young man after an angelic prophecy within a dream, and stories say that the holder may draw on his legendary wisdom and strength in their own exploits.\n\nThe hilt of the sword is engraved with vines of jessamine, and the handle wrapped in a gold braid, with a broad pommel and wide hilt."
+
+ artifact_nfl_helmet_name:0 "Ancient League Helmet"
+ artifact_nfl_helmet_description:0 "Battle-tried and true, this helmet is worn of its original paint and stained with the blood and sweat of the north's ancestors due to centuries of battle even before the [Concept('the_event_ate','Event')|E]. Rumored to have been worn during the battles of the old League, it continues to protect the wearer and inspires other warriors around them."
+ 
+ artifact_defibrillator_sword_name:0 "#italic Defibrillator#!"
+ artifact_defibrillator_sword_description:0 "This gleaming scimitar engraved with palm fronds has been forged to catch the eyes of onlookers. Contrary to its namesake; it finds more success stopping heartbeats than starting them."
+ 
+ artifact_bolivar_sword_name:0 "#italic Símon Bolívar's Sword#!"
+ artifact_bolivar_sword_description:0 "Every would-be caudillo, tyrant and charismatic warlord from Gran Colombia proclaims to hold one of the blades that Bolívar himself wielded, invoking the spirit of the great Libertador to justify their rule.\nThese claims are often backed by dubious tales of the sword's recovery from long-lost battlefields, secret tombs, or handed down through ancient bloodlines."
+ 
+ artifact_hobbes_stuffy_name:0 "Pantherine Philosopher"
+ artifact_hobbes_stuffy_description:0 "Life could be worse, Calvin."
+
+ artifact_brazil_imperial_crown_name:0 "Magnanimous Diamantine Crown of Brazil"
+ artifact_brazil_imperial_crown_description:0 "Legends tell of this crown dating back to the first Brazilian Empire, its dark-green velvet and golden spires metaphorically placing the world upon the head of the Emperor and the Imperial Families that have ruled Brazil since time immemorial. \n\nTo wear this crown states to the world a desire to emulate the splendour of the first Brazilian Empire, and to maintain an above all magnanimous nature in all things."
+
+ artifact_inca_imperial_crown_name:0 "Musogmaskaypacha"
+ artifact_inca_imperial_crown_description:0 "Legendarily found by Tupac Amaru Condorcanqui, Sapa Inca and restorer of Tawantinsuyu some 900 years after its fall, the famed crown of the Sapa Inca's stands as a testament to the blessings of Inti upon the renewed Inca state."
+
+ ###Californian Artifacts
+
+ artifact_meditations_on_moloch_name:0 "Meditations on Moloch"
+ artifact_meditations_on_moloch_description:0 "A famed philosophical treatise on politics and theology written by Emperor Elton the Lawgiver, the codifier of Imperial Sahasrara. \n\nDrawing on ancient theories of governance and demonology, the text outlines the true nature of the demon Moloch, and advocates for the careful guidance of a "Totally Righteous" ruler as being at the centre of a well-ruled realm.\n\nThe text makes up part of the broader Great Spiritual Accords, the central texts of the Sahasrara faith."
+
+ artifact_bonsai_redwood_name:0 "Bonsai Redwood"
+ artifact_bonsai_redwood_description:0 "This delicate item, at first glance a highly detailed model, is actually a miniature version of a living, growing redwood tree. Highly regarded in the west for its immense size, this tiny plant is an exquisite decoration for any court."
+
+ artifact_bonsai_saguaro_name:0 "Bonsai Saguaro"
+ artifact_bonsai_saguaro_description:0 "This delicate item, at first glance a highly detailed model, is actually a miniature version of a living, growing saguaro cactus. Highly regarded in the west for its immense size, this tiny plant is an exquisite decoration for any court.\n\nJust mind the spines."
+
+ artifact_kensington_runestone_name:0 "Kensington Runestone"
+ artifact_kensington_runestone_description:0 "This enormous slab of greywacke stone is covered in strange symbols, indecipherable to the best scholars of our age.\n\nThough many rulers dismiss this artifact as a heathen object of no importance, legends among the Lacustrine faiths claim these symbols tell great stories of their ancestors and the fantastical voyages they underwent to inhabit the lands around the Great Lakes."
+
+ artifact_charm_of_power_name:0 "[SCOPE.Custom('ArtifactCharmOfPowerName')|U]"
+ artifact_charm_of_power_description:0 "[SCOPE.Custom('ArtifactCharmOfPowerDesc')|U]"
+
+ artifact_pabodie_necronomicon_name: "Miskatonic Necronomicon"
+ artifact_pabodie_necronomicon_description: "Stolen from the Crimson Library, this copy of the Necronomicon is believed to be one of the oldest in the world. Written in ancient English, the text is inscrutable to most, but for some, it is a treasure trove of mystic knowledge."
+
+ artifact_plastic_block_name:0 "Plastic Block Collection"
+ artifact_plastic_block_description:0 "Imprinted with an unclear name, these small blocks are built out of the sturdy ancient material known as 'plastic', making them both useful for constructing tiny models and stopping barefoot intruders in their tracks."
+
+ artifact_rubiks_cube_name:0 "Colorful Rotating Cube"
+ artifact_rubiks_cube_description:0 "This odd cube is comprised of rotating squares in various colours, seemingly scattered randomly across the cube. With much effort, especially skilled individuals are able to arrange the faces into singular blocks of colours.\n\nSome scholars suggest this may have been an item used in meditation rituals by sage's prior to the Event."
+
+ artifact_tupperware_name:0 "Sturdy Plastic Container"
+ artifact_tupperware_description:0 "Constructed from the long-lost 'plastic', the durable lid on this container is useful in preventing vermin from spoiling any food or ingredients sealed within."
+
+ artifact_old_coin_name:0 "Antique Coin"
+ artifact_old_coin_description:0 "Enscribed with the visage of a long dead ruler from before the Event, coins like these are relatively common across the Americas, reflecting the sheer wealth of the pre-Event world.\n\nStill, there is some prestige to be had in owning this curio."
+
+ artifact_playboy_name:0 "#italic Playboy#! Manuscript"
+ artifact_playboy_description:0 "Copied from a long decayed text, this illuminated manuscript is said to contain a treasure trove of interviews and articles written by pre-Event philosophers and intellectuals.\n\nScribes and scholars are known to spend hours reading through this text, with many wondering at the purpose of the blank pages faithfully recreated throughout the manuscript."
+
+ artifact_zamzam_well_water_name:0 "Pilgrim Flask from the Zamzam Well"
+ artifact_zamzam_well_water_description:0 "This ornate flask is said to hold water raised from the Zamzam Well, an ancient well adjacent to the holy Kaaba in the sacred Islamic city of Mecca.\n\nAs the Hajj has remained impossible to complete since the Event, custodianship of this ancient flask has been hotly contested between those who would lead the Ummah in the Americas."
+
+ artifact_ancient_shofar_name:0 "Shofar of the Lubavitcher Rebbe"
+ artifact_ancient_shofar_description:0 "This ram's horn trumpet is said to have been once owned by the Lubavitcher Rebbe, a legendary Chabad Rebbe from before the Event that some believed could be Moschiach. The horn is now exceedingly fragile, with only the most skilled players trusted to play it for Rosh Hashanah and the end of Yom Kippur"
+
+ artifact_ancient_torah_scroll_name:0 "Ancient Torah Scroll"
+ artifact_ancient_torah_scroll_description:0 "Said to have been brought from across the seas amidst a great calamity that preceeded the Event, this Torah scroll remains a honoured relic among the Jewish community."
+
+ artifact_book_of_abraham_name:0 "Book of Abraham"
+ artifact_book_of_abraham_description:0 "Encased in a glass box, this ancient parchment is covered in strange symbols and wondrous illustrations, said to date back to a time long before even ancient America. Although the symbols are now unreadable, church tradition states this to be a copy of the Book of Abraham, a text written by the ancient patriarch about Creation and the premortal life."
+
+ artifact_pipe_organ_name:0 "Gilded Pipe Organ"
+ artifact_pipe_organ_description:0 "A fine-quality pipe organ commissioned by Chief Judge David I Shepherd, in commemoration of the restoration of Utah by his father Dallin, for use in the home stake of the Chief Judges of Salt Lake."
+
+ artifact_seer_stone_name:0 "Seer Stone"
+ artifact_seer_stone_description:0 "Though unassuming, this small stone has been used by prophets to discern the will of God in the past."
+
+ artifact_tabernacle_organ_nail_name:0 "Nail from the Tabernacle Organ"
+ artifact_tabernacle_organ_nail_description:0 "Taken during the process of renovating the immense Tabernacle Pipe Organ, this large nail is highly-regarded by the Latter Day Saints faithful."
+
+ artifact_george_washington_dentures_name:0 "George Washington's Dentures"
+ artifact_george_washington_dentures_description:0 "A fragile and expensive-looking set of false teeth that are said to have once belonged to George Washington himself. Constructed from ivory, mounted on wood and held together with golden springs, many rulers across America desire to gain some of Washington's legendary skill as a ruler."
+
+ artifact_george_washington_tooth_name:0 "True Tooth of Washington"
+ artifact_george_washington_tooth_description:0 "Held within this small container lies a singular blackened tooth, said to be the last natural tooth of George Washington, gifted by him to his dentist John Greenwood as a keepsake.\n\nWhether or not there is any truth to the origin of this tooth, this relic remains a truly holy artifact for pious Americanists, being the only physical remnant of Washington's body."
+
+ artifact_betsy_ross_flag_name:0 "Betsy Ross Flag"
+ artifact_betsy_ross_flag_description:0 "This ornate reliquary contains what is said to be the first flag flown by the Founders, sewn by the ancient patriot Betsy Ross. Since the time of Rushmore Pitchstone, newly elected presidents take the Oath of Office with their right hand held upon this sacred artifact."
+
+ artifact_john_henry_hammer_name:0 "Hammer of John Henry"
+ artifact_john_henry_hammer_description:0 "This hammer is said to have belonged to the legendary figure John Henry. Seen as both a hero and tragic figure, John Henry is famed for his battle against a Steel Driver, a mythic creature powered by Industry. Whether a testament to the power of determination, or a cautionary tale of the sin of hubris against Industry, this hammer remains a prized, if fragile, regalia for those who know John Henry's ballad."
+
+ artifact_paul_bunyan_axe_name:0 "Paul Bunyan's Axe"
+ artifact_paul_bunyan_axe_description:0 "This sturdy axe is said to have belonged to the mythic Paul Bunyan, a towering figure featured in tall tales across America."
+
+ artifact_sitting_bull_rifle_name:0 "Sitting Bull's Rifle"
+ artifact_sitting_bull_rifle_description:0 "This pre-Event weapon known as a 'rifle' was said to belong to the great Lakota leader Thatháŋka Íyotake, also known as Sitting Bull, famous for his resistance against the old United States. Although far too fragile to be used, displaying this weapon remains a sign of one's power as a ruler."
+
+ artifact_stanley_cup_name:0 "[SCOPE.Custom('ArtifactStanleyCupName')|U]"
+ artifact_stanley_cup_description:0 "This large silver cup, placed atop a tower of names engraved into its base, is one of the most sought after relics by the peoples surrounding the Great Lakes. [SCOPE.Custom('ArtifactStanleyCupDesc')|U]"
+ artifact_stanley_cup_name_generic:0 "Stanley Cup"
+ artifact_stanley_cup_desc_generic:0 "Currently held by the [owner.GetFaith.GetAdjectiveNoTooltip] faithful, the cup is a highly prestigious decoration in it's owner's court."
+ artifact_stanley_cup_name_catholic:0 "Saint Stanley's Chalice"
+ artifact_stanley_cup_desc_catholic:0 "Currently held by the [owner.GetFaith.GetAdjectiveNoTooltip] faithful, the chalice is used as a baptismal font by the [owner.GetFaith.GetNameNoTooltip]"
+ artifact_stanley_cup_name_ursuline:0 "Saint Stanley's Chalice"
+ artifact_stanley_cup_desc_ursuline:0 "Currently held by the [owner.GetFaith.GetAdjectiveNoTooltip] faithful, the chalice is used as a baptismal font by the [owner.GetFaith.GetNameNoTooltip]"
+ artifact_stanley_cup_name_industrialist:0 ""
+ artifact_stanley_cup_desc_industrialist:0 ""
+ artifact_stanley_cup_name_viking:0 "Coach Stanley's Mug"
+ artifact_stanley_cup_desc_viking:0 "Currently held by the [owner.GetFaith.GetAdjectiveNoTooltip] faithful, the bowl is filled with beer, drunk at the end of a Grand Bonfire in celebration of the sacrifices made to the [world_tree|E]."
+ artifact_stanley_cup_name_lakeshore:0 "Vessel of the Lady's Blessing"
+ artifact_stanley_cup_desc_lakeshore:0 "Currently held by the [owner.GetFaith.GetAdjectiveNoTooltip] faithful, the vessel is used to carry the sacred waters of the Great Lakes in the rituals of the faith."
+
+ artifact_book_of_remembrance_name:0 "Book of Remembrance"
+ artifact_book_of_remembrance_description:0 "This delicately-illuminated text is said to contain the names of the martyrs who died alongside the [unknown_saviour|E] in the [war_to_end_all|E]. These names are revered by people from across Old Canada, and many a ruler claims descent from one of the names depicted within."
+
+ artifact_socal_guru_statue_name:0 "Devotional Statue of [ROOT.Char.Custom('ArtifactSocalGuruStatueName')]"
+ artifact_socal_guru_statue_description:0 "Designed in the traditional Southern Californian style, this statue depicts [ROOT.Char.Custom('ArtifactSocalGuruStatueName')]. Constructed from [ROOT.Char.Custom('ArtifactStatueMaterial')], this small statue acts as a focus for the prayers and meditations of Harmonious devotees."
+
+ artifact_socal_guru_statue_large_name:0 "Large Devotional Statue of [ROOT.Char.Custom('ArtifactSocalGuruStatueName')]"
+ artifact_socal_guru_statue_large_description:0 "Designed in the traditional Southern Californian style, this statue depicts [ROOT.Char.Custom('ArtifactSocalGuruStatueName')]. Constructed from [ROOT.Char.Custom('ArtifactStatueMaterial')], this imposing statue impresses upon visitors the piety and prestige of any ruler with it in their possession."
+
+ artifact_fossil_skull_rex_name:0 "Skull of the Tyrant King"
+ artifact_fossil_skull_rex_description:0 "This immense skull is all that remains of a 'Tyrant Lizard', said to have stalked the lands long before the event. With huge teeth and a head that surely could have swallowed a man whole, some scholars suggest this creature may in fact be related to stories of dragons that exist from before the Event. A ruler with this in their court has truly spared no expense."
+
+ artifact_fossil_skull_triceratops_name:0 "Skull of a Horned Beast"
+ artifact_fossil_skull_triceratops_description:0 "This immense skull is all that remains of a terrifying beast said to exist long before the Event. With the beak of a bird and the horns of a unicorn, some scholars suggest this skull may have belonged to a Rhinoceros, whilst others suggest this creature was one of the mythical 'Thunder Lizards'."
+
+ artifact_fossil_skull_smilodon_name:0 "Sabre-Tooth Tiger's Skull"
+ artifact_fossil_skull_smilodon_description:0 "This imposing skull is all that remains of a legendary Fearsome Critter, the Sabre-Tooth Tiger. Equipped with enormous fangs in its jaw, powerful rulers from before the Event were said to keep these creatures, breeding them for their skills in magic." 
+
+ artifact_fossil_mammoth_tusk_name:0 "Bone of a Terrible Beast"
+ artifact_fossil_mammoth_tusk_description:0 "This enormous fossil bone from a long-dead creature is an awe-inspiring sight, even with its exact provenance being a mystery. Some scholars suggest it to be a unicorn's horn, whereas others suggest that this may in fact be an enormous dragon's tooth."
+
+ artifact_atom_rod_name:0 "Divine Rod of Atomos"
+ artifact_atom_rod_description:0 "A small golden rod, enscribed in archaic English and carved with the symbol of Atomos.\n\nRods such as this are vital to rituals in the worship of Atomos, with priests anointing the young, the sick and the elderly with these sacred relics."
+
+ artifact_demon_core_name:0 "Sanctified Core of the Demon"
+ artifact_demon_core_description:0 "This metallic half-sphere is said to hold a legendary demon, a being capable of vast destructive power. Many powerful mystics have been said to call upon the power of this demon; those who lose dominion of the being are said to sicken and die from the loss of its cthonic powers."
+
+ artifact_divine_egg_name:0 "Divine Egg"
+ artifact_divine_egg_description:0 "An enormous iron egg emblazoned with the sacred trefoil. Some worshippers say that, when the time is right, it will hatch and Atomos will be reborn."
+
+ artifact_aztec_sun_stone_name:0 "#italic Piedra del Sol#!"
+ artifact_aztec_sun_stone_description:0 "This truly enormous stone monolith is covered in intricate carved images and symbols, with a large face placed in the centre. Said to depict the Nahuatl gods from long before the Event itself, this monolith has long been a symbol of power among the peoples of Mexico."
+
+ artifact_moon_rock_name:0 "Fragment of the Moon"
+ artifact_moon_rock_description:0 "Although the provenance may be murky, this plaque contains within a glass box a small piece of rock said to originate from the moon itself; a testament to the immense power wielded by the rulers of the Americas before the Event."
+
+ artifact_francisco_morazan_bones_name:0 "Bones of Francisco Morazan"
+ artifact_francisco_morazan_bones_description:0 "Kept within an ornate reliquary, these bones are said to belong to the first man to unite Central America under his just and enlightened rulership.\n\nRulers of the region are known to fight bitter battles over control of these bones, eager to gain the legitimacy ownership of them entails."
+ 
+ artifact_che_guevara_hand_name:0 "Hand of Che"
+ artifact_che_guevara_hand_description:0 "These ancient bones once belonged to the revered figure 'Che', a famed itinerant warrior who fought to protect the poor and downtrodden in the pre-Event world, claimed by some to be an new embodiment of Christ himself."
+
+ artifact_elton_foreskin_name:0 "Prepuce of the Lawgiver"
+ artifact_elton_foreskin_description:0 "Contained within an ornate redwood box, decorated with gold and jade reliefs, this reliquary contains the only remaining part of Elton the Lawgiver's physical body."
+
+ artifact_parasol_name:0 "[parasol_merchant.GetCurrentLocation.GetCulture.GetNameNoTooltip] Parasol"
+ artifact_parasol_description:0 "An elegant parasol designed in the [parasol_merchant.GetCurrentLocation.GetCulture.GetNameNoTooltip] style. The parasol has a delicate [parasol_merchant.Custom('GetSimpleColor')] canopy made from [parasol_merchant.GetCurrentLocation.Custom('GetRegionalClothMaterial')]. \n\nAlong its [parasol_merchant.GetCurrentLocation.Custom('GetRandomRegionalWood')] handle, details of [parasol_merchant.GetCurrentLocation.Custom('GetRandomRegionalVine')] are carved into it."
+
+ artifact_water_filter_name:0 "São João Water Filter"
+ artifact_water_filter_description:0 "This two-chambered ceramic container acts to filter impurities from water, providing a clean source of drinking water to its owner."
+
+ artifact_carranca_name:0 "Carranca"
+ artifact_carranca_description:0 "Originating from the indigenous cultures of the São Francisco River, carved statues like this are often found attached to the heads of boats along the river, identifying the owner and protecting the boat from dangerous currents and evil spirits."
+
+ artifact_rimet_cup_name:0 "Lost Grail of Rimet"
+ artifact_rimet_cup_description:0 "Lost even before the event itself, this legendary grail was once fought over by nations prior to its mysterious disapperance into legend. Rumours abound of its rejuvenating powers, with some scholars claiming drinking from it will bring immense strength to the drinker."
+
+ artifact_pedro_heart_name:0 "Heart of the First Emperor"
+ artifact_pedro_heart_description:0 "Within this gilded relic remains the heart of the first Emperor of Brazil, Pedro I. Once said to have been lost in the Old World during the [Concept('the_event_ate','Deluge')|E], ownership of this sacred relic is a sure sign of one's legitimate rule over all of Brazil."
+
+ artifact_first_serpent_name:0 "Skin of the Serpent"
+ artifact_first_serpent_description:0 "This fragile relic is claimed to be one of the shed skins of the Serpent, a widely-revered figure associated with knowledge, health and fertility by the Vernacular faiths, though one often seen as a Satanic figure by the Christians surrounding them. Ownership of this relic has been seen as a sure sign of the supremacy of its owner's faith over the other Vernacular faiths."
+
+ artifact_peacemaker_name:0 "Peacemaker"
+ artifact_peacemaker_description:0 "A carefully-restored relic from before the Event, this delicate weapon remains a near-mythical artifact across the Americas, striking fear into those on the wrong end of the gun's barrel."
+
+ #[ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] 
+ 
+ ##fixing a vanilla typo, remove if they fix it
+ marco_polo_quote_desc_2: "And I assure you that the womenfolk buy and sell and do all that is needful for their husbands and households. For the men do not bother themselves about anything but hunting and warfare and falconry. They live on meat and milk and game and on rats, which are abundant everywhere. (...)"
+
+ artifact_religious_trinket_pocket_art_name:0 "[owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] Figurine"
+ artifact_religious_trinket_pocket_art_description:0 "A small figurine, depicting a traditional [owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] figure: [SCOPE.Custom('ArtifactReligionArtDesc')|U]."
+
+ artifact_religious_trinket_pocket_art_name:0 "[owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] Pocket Image"
+ artifact_religious_trinket_pocket_art_description:0 "A small image, sized to be carried in a pocket, depicting a traditional [owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] image: [SCOPE.Custom('ArtifactReligionArtDesc')|U]."
+
+ artifact_religious_court_wall_small_name:0 "Small [owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] Image"
+ artifact_religious_court_wall_small_description:0 "A small wall hanging, depicting a traditional [owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] image: [SCOPE.Custom('ArtifactReligionArtDesc')|U]."
+
+ artifact_religious_court_wal_big_name:0 "Large [owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] Image"
+ artifact_religious_court_wal_big_description:0 "A large wall hanging, depicting a traditional [owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] image: [SCOPE.Custom('ArtifactReligionArtDesc')|U]."
+
+ artifact_jewish_court_wall_small_name:0 "Small [owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] Papercut Image"
+ artifact_jewish_court_wall_small_description:0 "Cut from parchment, this small and delicate image depicts a traditional [owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] image: [SCOPE.Custom('ArtifactReligionArtDesc')|U]."
+
+ artifact_jewish_court_wal_big_name:0 "Large [owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] Papercut Image"
+ artifact_jewish_court_wal_big_description:0 "Cut from parchment, this large and elaborate image depicts a traditional [owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] image: [SCOPE.Custom('ArtifactReligionArtDesc')|U]."
+
+ artifact_religious_court_sculpture_name:0 "Large [owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] Statue"
+ artifact_religious_court_sculpture_description:0 "A large statue, depicting a traditional [owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] figure: [SCOPE.Custom('ArtifactReligionArtDesc')|U]."
+
+ artifact_religious_court_pedestal_name:0 "Small [owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] Statue"
+ artifact_religious_court_pedestal_description:0 "A small statue, depicting a traditional [owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] figure: [SCOPE.Custom('ArtifactReligionArtDesc')|U]."
+
+ artifact_scepter_lotus_california_name:0 "Scepter of The Totally Righteous One"
+ artifact_scepter_lotus_california_description:0 "This sacred regalia of California, crafted for the coronation of Elton the Lawgiver, has long been held to symbolise divine wisdom and just governance emanating from the Redwood Throne. Formed from gold, jade and redwood, the scepter is inlaid with gems in the Imperial Red of California, alongside ones in colours that symbolise the traditional Californian Elements."
+
+ #Artifact Custom Loc
+
+ 
+
+ ##Religious Art Custom Loc
+
+ artifact_religious_art_catholic_desc:0 "[owner.Custom('RandomCatholicArtTopic')]"
+
+ artifact_religious_art_eastern_christian_desc:0 "[owner.Custom('RandomEasternChristianArtTopic')]"
+
+ artifact_religious_art_protestant_desc:0 "[owner.Custom('RandomProtestantArtTopic')]"
+
+ artifact_religious_art_artistic_desc:0 "[owner.Custom('RandomArtisticArtTopic')]"
+
+ artifact_religious_art_buddhist_desc:0 "[owner.Custom('RandomBuddhistArtTopic')]"
+
+ artifact_religious_art_hindu_desc:0 "[owner.Custom('RandomHinduArtTopic')]"
+
+ artifact_religious_art_jain_desc:0 "[owner.Custom('RandomJainArtTopic')]"
+
+ artifact_religious_art_jewish_desc:0 "[owner.Custom('RandomJewishArtTopic')]"
+
+ artifact_religious_art_rastafari_desc:0 "[owner.Custom('RandomRastafariArtTopic')]"
+
+ artifact_religious_art_placeholder_desc:0 "[owner.Custom('RandomPlaceholderArtTopic')]"

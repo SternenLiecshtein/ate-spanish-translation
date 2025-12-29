@@ -1,0 +1,63 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ hold_comic_con:0 "Sponsor the Comic's Con"
+ hold_comic_con_desc:0 "The Comic's Con was one of the greatest festivals of ancient times, and it still continues to this day. Thousands come to the city each year to participate in the festivities, which include performance entertainment, music, a large market of literary works, props and collector's items. But most famously, is the widespread pratice of cosplaying. Festival-goers dress themselves as mythical figures, folk heros and characters from works of fiction; books, plays and the like. By sponsoring the Con, I can further encourage the buisness it generates within the city of San Diego."
+ hold_comic_con_tooltip:0 "Sponsor the Comic's Con"
+ hold_comic_con_confirm:0 "Sound the horns!"
+
+ flavour_decision.100.title:0 "The Comic's Con"
+ flavour_decision.100.desc:0 "colorful and wild characters roam the streets of San Diego, adults and children squeal in equal delight at carved figures and replicas of mythical swords. My funding has brought great success to the Con, and the boulevards are overflowing with anthropomorphic animal costumes and men in short dresses and long socks. Either way, the visitors have brought their coin en-masse, and my Steward already informs me of the booming buisness in the stores of both the Con and the wider city."
+ flavour_decision.100.a:0 "Whatever floats their boat."
+ 
+ comic_con_modifier:0 "San Diego Comic's Con"
+ 
+ las_vegas_gambling:0 "Gamble on the Strip"
+ las_vegas_gambling_tooltip:0 "Go Gambling on the Strip"
+ las_vegas_gambling_desc:0 "A night on the town is tradition for the nobility of Las Vegas, Gambling is pratically a way of life for many here. I should take some time to go out and enjoy my money."
+ las_vegas_gambling_confirm:0 "I'm a betting man!"
+ 
+ flavour_decision.200.title:0 "Viva Las Vegas"
+ flavour_decision.200.desc:0 "The City of Sinners has always been the place to spend your coin in seedy casinos, at roulette wheels, poker tables. As the Strip is within my realm, I take a trip to it's famous boulevard, passing many colorful street performers. I enter into one of the more respectable buildings, withdrawing my coin purse. "
+ flavour_decision.200.a:0 "To the Poker table!"
+ flavour_decision.200.b:0 "Now I think about it, I'd rather keep my coin."
+ 
+ flavour_decision.201.desc:0 "I find an avaliable table and take my seat, a variety of destitute characters stand around me, but the dealer stands proud and smiling. I place my bets, take my cards, and the game begins."
+ flavour_decision.201.a:0 "I will leave the game in the hands of [ROOT.Char.GetFaith.FateGodName]"
+ flavour_decision.201.intrigue:0 "The House won't win this time."
+ flavour_decision.201.intrigue.success:0 "Your cheating pays off"
+ flavour_decision.201.intrigue.success_title:0 "You win the game"
+ flavour_decision.201.intrigue.failure:0 "Your cheating fails"
+ flavour_decision.201.intrigue.failure_title:0 "You lose your bets"
+ 
+ flavour_decision.201.diplomacy:0 "My charm will distract my slight of hand."
+ flavour_decision.201.diplomacy.success:0 "It pays off"
+ flavour_decision.201.diplomacy.success_title:0 "You distract the table successfully"
+ flavour_decision.201.diplomacy.failure:0 "It doesn't pay off"
+ flavour_decision.201.diplomacy.failure_title:0 "The table isn't distracted"
+ 
+ flavour_decision.201.stewardship:0 "I will play carefully, with deliberate and measured bets"
+ flavour_decision.201.stewardship.success:0 "It pays off"
+ flavour_decision.201.stewardship.success_title:0 "Your strategy succeeds"
+ flavour_decision.201.stewardship.failure:0 "It doesn't pay off"
+ flavour_decision.201.stewardship.failure_title:0 "Your strategy fails you."
+ 
+ ate_major_decisions.0005.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that in order to capitalize on our strategic economic position, we must adopt a city state government. It is the crucial next step on our road to greatness!"
+
+
+#Description written by Chun
+ contemplate_gender:0 "Contemplate your Gender Identity"
+ contemplate_gender_desc:0 "Since long before The Fall, many different civilizations had innovative and revolutionary ideas when it comes to one's own gender identity, with some even suggesting that we, as a species, should not be required to follow the strict rules of male and female. Wile some smaller minded individuals reject these ideas, I understand the deep meaning and importance of understanding oneself. Therefore, I must retreat to my quarters to contemplate this powerful question: Who am I?"
+ contemplate_gender_tooltip:0 "You will contemplate your gender identity"
+ contemplate_gender_confirm:0 "Begin questioning."
+
+ gender_decision.100.title:0 "Questioning my Identity"
+ gender_decision.100.desc:0 "Deep in thought about my life, I thoroughly examine what my personal identity has meant to me, and how I'd like others to see me. After many hours, I finally, I come to the conlusion..."
+ gender.decision.100.a:0 "That I conform to no gender."
+ gender_decision.100.b:0 "That I am one with both genders."
+ gender_decision.100.c:0 "I need more time to think about this."

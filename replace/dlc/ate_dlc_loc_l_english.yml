@@ -1,0 +1,42 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ ##################################################
+ dlc_ATE: "After the End"
+ dlc_ATE_desc: "History repeats itself in After the End, an imagined future where neo-medieval practices have become dominant as society has rebuilt itself long after a mysterious apocalypse ended the modern world. For more information on how DLC is used within the mod, check the other icons to the right of this one."
+
+ DLC_BUTTON_TOOLTIP:1 "#T [DlcItem.GetDlc.GetName]#!\n[DlcItem.GetDlc.GetDesc]\n\n#low [SelectLocalization( Or( DlcItem.GetDlc.IsEnabled, EqualTo_string(DlcItem.GetDlc.GetName, Localize('dlc_ATE') ) ), 'DLC_ENABLED', 'DLC_NOT_ENABLED' )]#![AddTextIf( Not( EqualTo_string(DlcItem.GetDlc.GetName, Localize('dlc_ATE') ) ), '\n#I Click to visit store#!' )]"
+
+ dlc_001:0 "$DLC001_PREORDER$"
+ dlc_001_desc:0 "Unlocks new clothing options."
+ dlc_002:0 "$DLC002_SP_DAY1$"
+ dlc_002_desc:0 "Unlocks new clothing options."
+ dlc_003:0 "$DLC003_FP1$"
+ dlc_003_desc:0 "Unlocks new flavor, predominantly for the Vikings of the Great Lakes."
+ dlc_004:0 "$DLC004_EP1$"
+ dlc_004_desc:0 "Unlocks DLC content that is integrated into AtE."
+ dlc_005:0 "$DLC005_FP2$"
+ dlc_005_desc:0 "Unlocks a Struggle and flavor for Mexico."
+ dlc_006:0 "$DLC006_BP1$"
+ dlc_006_desc:0 "Unlocks new events."
+ dlc_007:0 "$DLC007_EP2$"
+ dlc_007_desc:0 "Unlocks the DLC activities and AtE content that interfaces with it."
+ dlc_008:0 "$DLC008_SP2$"
+ dlc_008_desc:0 "Unlocks new clothing options"
+ dlc_009: "$DLC009_BP2$"
+ dlc_009_desc: "Unlocks new events."
+ dlc_010: "$DLC010_FP3$"
+ dlc_010_desc: "Unlocks DLC cultural traditions and certain elements of government can be found across the map."
+ dlc_011: "$DLC011_CE1$"
+ dlc_011_desc: "Unlocks the Legends and Diseases, which AtE iterates upon."
+ dlc_012: "$DLC012_CP1$"
+ dlc_012_desc: "Unlocks new clothing options."
+ dlc_013: "$DLC013_SP3$"
+ dlc_013_desc: "Unlocks new clothing options."
+ dlc_014_desc: "Unlocks the Landless governments and content associated with it. Important for Brazil, Mexico, California, and High Republics."
+ dlc_015_desc: "Unlocks the content associated with the DLC, including acitivities and a new lifestyle tree."
+ dlc_016_desc: "Unlocks new clothing options."

@@ -1,0 +1,110 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ atomic_blessing_interaction:0 "Bestow Atomic Blessing"
+ atomic_blessing_interaction_desc:0 "Bestow [recipient.GetShortUINameNoTooltip] with the Blessing of the Atom! The Atom may bless [recipient.GetShortUINameNoTooltip], with wonderous abilities, or the Atom may curse [recipient.GetShortUINameNoTooltip] and cut [recipient.GetHerHis] life short..."
+ 
+ atomic_blessing_decision_self:0 "Undergo the Blessing of the Atom"
+ atomic_blessing_decision_self_desc:0 "Although I am a [ROOT.Char.GetFaith.GetAdherentName] of [ROOT.Char.GetFaith.GetNameNoTooltip], I have yet to receive the Blessing of the Atom. Perhaps it is time that I rectified this..."
+ atomic_blessing_decision_self_effect_message:0 "You contact [chaplain.GetCouncilTitleFirstName] and inform [chaplain.GetHerHim] that you would like to undergo the Blessing of the Atom."
+ atomic_blessing_decision_self_effect_tt:0 "Your [faith|E] has the Atomic Blessing tenet"
+ atomic_blessing_decision_self_effect_tooltip:0 "You undergo an Atomic Blessing."
+ 
+ ate_atomic_blessing.1.t:0 "The Immersion"
+ ate_atomic_blessing.1.desc:0 "The glowing atomic potion has been extracted from its ancient vessel and poured into the ritual bowl, and I have brought [scope:atomic_baptized.GetFirstName] before it to receive the blessing of the Atom. [scope:atomic_baptized.GetSheHe|U], like most children of [scope:atomic_baptized.GetHerHis] age, is intimidated by the solemnity of the proceedings and the ethereal, otherworldly glow of the sacred liquid. [scope:atomic_baptized.GetSheHe|U] turns to look at me with wide eyes as I recite the customary prayer and place my hand upon [scope:atomic_baptized.GetHerHis] head."
+ ate_atomic_blessing.1.a:0 "It will be over before you know it, [scope:atomic_baptized.GetFirstName]..."
+ ate_atomic_blessing.1.a.tt:0 "You immerse [scope:atomic_baptized.GetFirstName]'s head into the glowing potion. The judgement of the Atom will become clear within a few months..."
+ 
+ ate_atomic_blessing.2.t:0 "The Atom's Acknowledgement"
+ ate_atomic_blessing.2.desc:0 "It has been some months since [scope:atomic_baptized.GetFirstName] was immersed in the sacred potion, and [scope:atomic_baptized.GetSheHe] looks no worse for wear. Although it seems that the Atom has not seen fit to bless [scope:atomic_baptized.GetFirstName] with great power, neither has it cursed [scope:atomic_baptized.GetHerHim] with sickness. Although [scope:atomic_baptized.GetFirstName] has been connected with the Atom, it has chosen to merely acknowledge [scope:atomic_baptized.GetHerHim]."
+ ate_atomic_blessing.2.a:0 "Not great, not terrible."
+ ate_atomic_blessing.2.a.tt:0 "[scope:atomic_baptized.GetFirstName] has been blessed with a Glow of Acknowledgement."
+ 
+ ate_atomic_blessing.3.t:0 "The Atom's Blesing"
+ ate_atomic_blessing.3.desc:0 "It has been some months since [scope:atomic_baptized.GetFirstName] was immersed in the sacred potion, and since then [scope:atomic_baptized.GetSheHe] has become far more intelligent and inquisitive, while also suffering from periodic headaches. This is a clear sign that the Atom has blessed [scope:atomic_baptized.GetFirstName] with great intellect by increasing the size of [scope:atomic_baptized.GetHerHis] brain! [scope:atomic_baptized.GetFirstName] is surely destined for great things..."
+ ate_atomic_blessing.3.a:0 "Mind over matter!"
+ ate_atomic_blessing.3.a.tt:0 "[scope:atomic_baptized.GetFirstName] has been blessed with an Overdeveloped Cranium."
+ 
+ ate_atomic_blessing.4.t:0 "The Atom's Blessing"
+ ate_atomic_blessing.4.desc:0 "It has been some months since [scope:atomic_baptized.GetFirstName] was immersed in the sacred potion, and since then [scope:atomic_baptized.GetSheHe] has become much stronger than a typical child, while also developing a fearsome temper. This is a clear sign that the Atom has blessed [scope:atomic_baptized.GetFirstName] with great strength using the power of the Gamma Ray! [scope:atomic_baptized.GetFirstName] is surely destined for greatness..."
+ ate_atomic_blessing.4.a:0 "You wouldn't like [scope:atomic_baptized.GetFirstName] when [scope:atomic_baptized.GetSheHe]'s angry..."
+ ate_atomic_blessing.4.a.tt:0 "[scope:atomic_baptized.GetFirstName] is now a Gamma Bruiser!"
+ 
+ ate_atomic_blessing.5.t:0 "The Atom's Blessing"
+ ate_atomic_blessing.5.desc:0 "It has been some months since [scope:atomic_baptized.GetFirstName] was immersed in the sacred potion, and since then [scope:atomic_baptized.GetHerHis] skin has become tattered and leathery, but [scope:atomic_baptized.GetSheHe] is also more quick to realize when [scope:atomic_baptized.GetSheHe] is being lied to, and [scope:atomic_baptized.GetSheHe] has also developed a habit of sneaking up on people. The Atom appears to have given [scope:atomic_baptized.GetFirstName] the mixed blessing of a ghoul-like visage. [scope:atomic_baptized.GetFirstName] will have to live with their new appearance..."
+ ate_atomic_blessing.5.a:0 "The Atom works in mysterious ways."
+ ate_atomic_blessing.5.tt:0 "[scope:atomic_baptized.GetFirstName] has developed a Ghoulish Visage."
+ 
+ ate_atomic_blessing.6.t:0 "The Atom's Curse!"
+ ate_atomic_blessing.6.desc:0 "It has been some months since [scope:atomic_baptized.GetFirstName] was immersed in the sacred potion, and since then [scope:atomic_baptized.GetSheHe] has grown sickly, and [scope:atomic_baptized.GetHerHis] body has become cold to the touch. The reason for this is clear - the Atom has seen fit to curse [scope:atomic_baptized.GetFirstName] with incurable illness and a shortened lifespan. Hopefully, [scope:atomic_baptized.GetFirstName] will not suffer too much before [scope:atomic_baptized.GetHerHis] inevitable passing..."
+ ate_atomic_blessing.6.a:0 "Why have you allowed this to happen, [scope:atomic_baptizer.GetFaith.GetHealthGodName]?"
+ ate_atomic_blessing.6.a.tt:0 "[scope:atomic_baptized.GetFirstName] has been struck with the Curse of the Atom."
+ 
+ ate_atomic_blessing.20.t:0 "The Immersion"
+ ate_atomic_blessing.20.desc:0 "The glowing atomic potion has been extracted from its ancient vessel and poured into the ritual bowl, and I have been brought before it to receive the blessing of the Atom. Although I was initially excited by the prospect of communing with the Atom, I cannot help but be intimidated by the solemnity of the proceedings and the ethereal, otherworldly glow of the sacred liquid. [scope:atomic_baptizer.GetFirstName] gives me a reassuring smile as [scope:atomic_baptizer.GetSheHe] begins reciting the customary prayers in preparation for my immersion."
+ ate_atomic_blessing.20.a:0 "Too late to turn back now, I suppose."
+ ate_atomic_blessing.20.a.tt:0 "You immerse your head in the glowing potion. The judgement of the Atom will become clear within a few months..."
+ 
+ ate_atomic_blessing.21.t:0 "The Atom's Acknowledgement"
+ ate_atomic_blessing.21.desc:0 "It has been some months since I was immersed in the sacred potion, and I am no worse for wear. Although it seems that the Atom has not seen fit to bless me with great power, it has also chosen not to curse me with sickness. I have communed with the Atom, but it has merely acknowledged me."
+ ate_atomic_blessing.21.a:0 "Not great, not terrible."
+ ate_atomic_blessing.21.a.tt:0 "You are blessed with a Glow of Acknowledgement."
+ 
+ ate_atomic_blessing.22.t:0 "The Atom's Blesing"
+ ate_atomic_blessing.22.desc:0 "It has been some months since I was immersed in the sacred potion, and I have begun suffering from piercing headaches on a regular basis. However, I have also noticed that matters which were once difficult for me to comprehend now seem straightforward and clear. This is a clear sign that the Atom has blessed me with great intellect by increasing the size of my brain!"
+ ate_atomic_blessing.22.a:0 "Mind over matter!"
+ ate_atomic_blessing.22.a.tt:0 "You are blessed with an Overdeveloped Cranium."
+ 
+ ate_atomic_blessing.23.t:0 "The Atom's Blessing"
+ ate_atomic_blessing.23.desc:0 "It has been some months since I was immersed in the sacred potion, and my physical strength has increased substantially. Things which were once difficult to pick up or move around now seem light as a feather! However, I have also noticed that my temper is shorter and more terrible than ever. This is a clear sign that the Atom has blessed me with great strength using the power of the Gamma Ray!"
+ ate_atomic_blessing.23.a:0 "You wouldn't like me when I'm angry..."
+ ate_atomic_blessing.23.a.tt:0 "You become a Gamma Bruiser!"
+ 
+ ate_atomic_blessing.24.t:0 "The Atom's Blessing"
+ ate_atomic_blessing.24.desc:0 "It has been some months since I was immersed in the sacred potion, and since then my skin has become tattered and leathery, much to my dismay. However, I have also gotten better at realizing when I am being lied to, and despite my remarkable appearance, people seem less aware of my presence in general. The Atom appears to have given me the mixed blessing of a ghoul-like visage."
+ ate_atomic_blessing.24.a:0 "I could have done without this..."
+ ate_atomic_blessing.24.a.tt:0 "You have devloped a Ghoulish Visage."
+ 
+ ate_atomic_blessing.25.t:0 "The Atom's Curse!"
+ ate_atomic_blessing.25.desc:0 "It has been some months since I was immersed in the sacred potion, and since then I have grown feeble, sickly, and fatigued. The reason for this is clear - the Atom has seen fit to curse me with incurable illness and a shortened lifespan. Hopefully, I will not suffer too much before my inevitable passing..."
+ ate_atomic_blessing.25.a:0 "Why have you done this to me, [scope:atomic_baptizer.GetFaith.GetHealthGodName]?"
+ ate_atomic_blessing.25.a.tt:0 "You have been struck with the Curse of the Atom."
+ 
+ ate_atomic_blessing.50.t:0 "The Funny Liquid"
+ ate_atomic_blessing.50.desc:0 "Today, [atomic_baptizer.GetFirstName] brought me into the [atomic_baptizer.GetFaith.HouseOfWorship] and made me stand in front of a bowl full of scary-looking glowy stuff. [atomic_baptizer.GetSheHe|U] spent forever reading from the [atomic_baptizer.GetFaith.ReligiousText], and then, out of nowhere, [atomic_baptizer.GetSheHe] pushed my head into the glowy stuff and held it down until I started choking! [atomic_baptizer.GetFirstName] seemed really sorry, and when I asked [atomic_baptizer.GetHerHim] why [atomic_baptizer.GetSheHe] did that [atomic_baptizer.GetSheHe] said it was part of some special ritual to make the Atom notice me. [atomic_baptizer.GetSheHe|U] explained that in a few months, I'll know exactly how the Atom feels about me."
+ ate_atomic_blessing.50.a:0 "That glowy stuff tasted awful!"
+ ate_atomic_blessing.50.a.tt:0 "You have experienced an Atomic Blessing."
+ 
+ ate_atomic_blessing.51.t:0 "Nothing Happened!"
+ ate_atomic_blessing.51.desc:0 "It's been forever since [atomic_baptizer.GetFirstName] pushed me into the glowy liquid, and nothing happened! Today, [atomic_baptizer.GetFirstName] took me aside and explained that the Atom doesn't think I'm special, but also doesn't think I'm a bad person. [atomic_baptizer.GetSheHe|U] seemed to think that it was good that nothing happened, but I kind of wish the Atom had given me a special superpower! That would've been really cool."
+ ate_atomic_blessing.51.a:0 "I want shapeshfting powers! Or invisibility!"
+ ate_atomic_blessing.51.a.tt:0 "You spend the rest of the day thinking about which superpower you would've picked."
+ 
+ ate_atomic_blessing.52.t:0 "Brain Blast!"
+ ate_atomic_blessing.52.desc:0 "It has been a few months since [atomic_baptizer.GetFirstName] immersed me in the holy fluid, and my intelligence has increased dramatically! All of the adults are incredibly impressed by my sophisticated vocabulary and, uh, flagelliferous demeanor? I think that's the correct term. Anyway, [atomic_baptizer.GetFirstName] took me aside and told me that the Atom has enlarged my brain and increased my intellect! I asked [atomic_baptizer.GetSheHe] if my recent headaches were caused by my brain pushing against my skull, and [atomic_baptizer.GetSheHe] was surprised that I figured that out myself!"
+ ate_atomic_blessing.52.a:0 "I am most pleased with this development!"
+ ate_atomic_blessing.52.a.tt:0 "The Atom has blessed you with an Overdeveloped Cranium!"
+ 
+ ate_atomic_blessing.53.t:0 "[atomic_baptized.GetFirstName] Smash!"
+ ate_atomic_blessing.53.desc.t:0 "Ever since [atomic_baptizer.GetFirstName] pushed me into that glowy stuff, I've been super angry all the time and I keep breaking all of my things! But instead of putting me in time-out, the adults don't seem to care at all. Today, [atomic_baptizer.GetFirstName] told me that I keep breaking things because the Atom made me super strong using a gamma something something. I wasn't really listening, because I was upset about my favorite toy getting broken!"
+ ate_atomic_blessing.53.a:0 "I want a new toy!"
+ ate_atomic_blessing.53.a.tt:0 "You are now a Gamma Bruiser!"
+ 
+ ate_atomic_blessing.54.t:0 "Ghoulified"
+ ate_atomic_blessing.54.desc:0 "It's been a few months since [atomic_baptizer.GetFirstName] pushed my head into that glowing liquid, and now my skin is really messed up and ugly-looking! All of the other kids are scared of me, even though the adults tell them to be kind. Today, [atomic_baptizer.GetFirstName] explained that I look like this because of the Atom, and that it's actually a blessing. I'm not sure if he's right, though. He didn't seeem confident about it..."
+ ate_atomic_blessing.54.a:0 "What are you looking at, smoothskin?"
+ ate_atomic_blessing.54.a.tt:0 "You have developed a Ghoulish Visage."
+ 
+ ate_atomic_blessing.55.t:0 "Cursed by the Atom"
+ ate_atomic_blessing.55.desc:0 "Ever since [atomic_baptizer.GetFirstName] pushed me into that glowy stuff, I've been really sick. My hair's started falling out in clumps, and the adults say I look like skin and bones. Today, [atomic_baptizer.GetFirstName] told me that the Atom has cursed me, and that I'm going to be sick for the rest of my life unless the Atom changes its mind. [atomic_baptizer.GetSheHe|U] looked like [atomic_baptizer.GetSheHe] was about to cry when [atomic_baptizer.GetSheHe] told me..."
+ ate_atomic_blessing.55.a:0 "Why doesn't the Atom like me?"
+ ate_atomic_blessing.55.a.tt:0 "You have been struck with the Curse of the Atom."
+ 
+ #this also contains some of the loc relating to atom cancer
+ commit_suicide_decision_desc_atom_cancer:0 "The Atom has forsaken me. Death is inevitable. I just want the pain to stop."
+ stress_trait_ongoing.0506.desc_atom_cancer:0 "Weeks drag by, a waiting game for this shooting pain or that. Some days are tolerable, but others I can hardly move or talk, and my breathe comes slower and slower. I can feel my remaining time on Earth falling away from me, robbed by the Atom."

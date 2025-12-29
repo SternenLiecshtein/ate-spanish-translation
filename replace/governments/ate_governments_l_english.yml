@@ -1,0 +1,1597 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+
+ imperial_government:0 "Imperial Bureaucracy"
+ imperial_government_desc:0 "$game_concept_imperial_desc$\n\n#F Tracing its roots to pre-[Concept('the_event_ate','Event')|E] times, the [Concept('old_brazil','traditional Brazilian political system')|E] is ultimately based on the [federative_pact|E], the individual oaths defining the rights and obligations of the Crown and its vassals; and the [grand_national_accord|E], an intricate and fragile compendium of deals balancing the interests of the military, the state bureaucracy and the regional elites. The system as a whole is overseen by a monarch who assumes the role of arbitrator among these various factions.#!"
+ imperial_government_grand_national_accord:0 "[grand_national_accord|E]"
+ governorate_government:0 "Governorate"
+ captaincy_government:0 "Captaincy"
+ government_is_imperial:0 "[government|E] type is [GetGovernment( 'imperial_government' ).GetName]"
+
+ imperial_vassal: "Imperial"
+
+ BUREAUCRACY_AUTHORITY_IS_ON_COOLDOWN:2 "You recently changed Bureaucracy Authority. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'bureaucracy_authority_cooldown') )]"
+
+ state_bureaucracy_liege_vassals_will_convert: "As my [liege|E] has a [state_bureaucracy_government|E], my [tribal|E] vassals will become $game_concept_state_bureaucracy$"
+ 
+ state_bureaucracy_vassal: "Eurekan"
+
+ state_bureaucracy_government:1 "Eurekan Bureaucracy"
+ state_bureaucracy_government_desc:1 "$game_concept_state_bureaucracy_desc$\n\n#F Eurekan Bureaucracy is a system of administration which centers around philosophical thought related to the [eurekan_elements|E], the Emperor of California, and the unique religious environment of the West Coast. Primarily dictated by the service of the five main bureaucratic State Departments, made up of numerous smaller agencies, each of which corresponds with ideas promoted by the different Elements. Bureaucratic and aristocratic interests often find themselves ruthlessly competing for favoritism with the Emperor and control over the Empire.#!"
+ 
+ state_bureaucracy_government_adjective:1 "Eurekan Bureaucracy"
+ state_bureaucracy_government_realm:1 "Eurekan Bureaucracy Realm"
+ state_bureaucracy_government_vassals_label:2 "Eurekan Bureaucracy [obligations|E] are based on each [vassal|E]'s [feudal_contract|E]"
+ state_bureaucracy_government_obligations:1 "[GetGovernment( 'state_bureaucracy_government' ).GetName] [obligations|E]"
+ government_is_state_bureaucracy:0 "[government|E] type is [GetGovernment( 'state_bureaucracy_government' ).GetName]"
+ 
+ state_bureaucracy_tax_slot:2 "Department Jurisdiction"
+ state_bureaucracy_tax_slot_add:1 "$MOD_NUM_TAX_SLOTS$"
+ state_bureaucracy_tax_slot_no_tax_collector:2 "Department Jurisdiction"
+ state_bureaucracy_tax_slot_tax_collector:2 "Department Jurisdiction: [character.GetName]"
+ 
+ gold_department_tax_collector:0 "Finances and Tax"
+ surf_department_tax_collector:0 "Audit and Reform"
+ wood_department_tax_collector:0 "Human Development"
+ mountain_department_tax_collector:0 "Public Safety"
+ spirit_department_tax_collector:0 "Spiritual Education"
+ 
+ gold_department_tax_collector_flavor_desc:0 "The dominant State Department within the Imperial Bureaucracy, the Department of Finance and Tax draws its mission as an organization from the philosophy surrounding the Element of Gold. This apparatus tends to seek dominion above other Departments, while remaining focused on making sure that every element of the Empire is honed towards furthering the practical functions of the State, confident in the present perfection of California."
+ surf_department_tax_collector_flavor_desc:0 "An outlier among Departments, in theory the Department of Audit and Reform has authority over all other Departments. In practice, the Department is often maligned and rarely given the power to carry out its mission. Based on the philosophy of Surf and its emphasis on constant change and flexibility, Audit and Reform exists to ensure that corruption and inefficiency is removed from the bureaucracy, by any means necessary."
+ wood_department_tax_collector_flavor_desc:0 "Focused on the growth and improvement of the Empire, the Department of Human Development is responsible for long term public projects and the distribution of alms. Sacrificing short term benefits to cultivate future prosperity, Human Development bases its thought on the philosophy of the Element of Wood. Disinterested in the contemporary problems and darknesses of society, Human Development affixes its gaze to making sure that California will bloom beautifully upon the next sunrise."
+ mountain_department_tax_collector_flavor_desc:0 "Highly militarized, the Department of Public Safety devotes itself to preventing the Empire from falling apart due to the actions of countless internal and external threats. Taking inspiration from the steadfast Element of the Mountain, Public Safety has authority over matters of conscription, military organization, and civil unrest mitigation. Often zealous in preventing threats that have not yet materialized, Public Safety tends to advocate for expanding the Empire in the name of preemptive action."
+ spirit_department_tax_collector_flavor_desc:0 "Devoted to the enlightenment of the diverse peoples of California, the Department of Spiritual Education maintains the culture of tolerance and reason that has helped the Golden State prosper. Despite its jurisdiction only covering matters of education and inter-faith relations, Spiritual Education is highly influential, often dictating matters of faith and encouraging unity beneath the Eternal Living Guru. Representatives of the Department often assist with or write theological treatises which inform discourse throughout the civilized world, that is to say, within the bounds of the Empire."
+ spirit_department_tax_collector_desc:0 "#emphasis #bold [vassal|E] Privilege:#!#!\nThe [vassals|E]' [court_chaplain|E] will convert [faith|E] in [counties|E] +33% faster"
+
+ gold_department_tax_collector_short:0 "Dep. Fin. and Welf."
+ surf_department_tax_collector_short:0 "Dep. of Audit and Ref."
+ wood_department_tax_collector_short:0 "Dep. of Human Dev."
+ mountain_department_tax_collector_short:0 "Dep. of Pub. Safety"
+ spirit_department_tax_collector_short:0 "Dep. of Spir. Edu."
+
+ state_bureaucracy_themes: "Available Department Types"
+
+ gold_department_theme: "@gold_department! Finances and Tax"
+ gold_department_theme_short: "@gold_department! Financial"
+ gold_department_theme_text_icon: "@gold_department!"
+ gold_department_theme_benefits: "#emphasis #bold [vassal|E] Benefits:#!#!\nIncreases [governor_efficiency|E] based on [diplomacy|E]#indent_newline:4 \n#weak Adds an extra [EmptyScope.ScriptValue('efficiency_skill_increase_value')|+1%/] for each [skill|E] Point#!#!\nDoubles [influence|E] gained from sending gifts"
+ gold_department_theme_desc: "#flavor The dominant State Department within the Imperial Bureaucracy, the Department of Finance and Tax draws its mission as an organization from the philosophy surrounding the Element of Gold. This apparatus tends to seek dominion above other Departments, while remaining focused on making sure that every element of the Empire is honed towards furthering the practical functions of the State, confident in the present perfection of California.#!"
+
+ surf_department_theme: "@surf_department! Audit and Reform"
+ surf_department_theme_short: "@surf_department! Reform"
+ surf_department_theme_text_icon: "@surf_department!"
+ surf_department_theme_benefits: "#emphasis #bold [vassal|E] Benefits:#!#!\nIncreases [governor_efficiency|E] based on [intrigue|E]#indent_newline:4 \n#weak Adds an extra [EmptyScope.ScriptValue('efficiency_skill_increase_value')|+1%/] for each [skill|E] Point#!#!\nIncreases [powerful_family|E] Rating\nCannot have appointment revoked without a [revoke_title_reason|E]"
+ surf_department_theme_desc: "#flavor An outlier among Departments, in theory the Department of Audit and Reform has authority over all other Departments. In practice, the Department is often maligned and rarely given the power to carry out its mission. Based on the philosophy of Surf and its emphasis on constant change and flexibility, Audit and Reform exists to ensure that corruption and inefficiency is removed from the bureaucracy, by any means necessary.#!"
+
+ wood_department_theme:0 "@wood_department! Human Development"
+ wood_department_theme_short: "@wood_department! Development"
+ wood_department_theme_text_icon: "@wood_department!"
+ wood_department_theme_benefits: "#emphasis #bold [vassal|E] Benefits:#!#!\nIncreases [governor_efficiency|E] based on [stewardship|E]#indent_newline:4 \n#weak Adds an extra [EmptyScope.ScriptValue('efficiency_skill_increase_value')|+1%/] for each [skill|E] Point#!#!\n[influence|E] gained from constructing [buildings|E] in held [counties|E] is increased"
+ wood_department_theme_desc: "#flavor Focused on the growth and improvement of the Empire, the Department of Human Development is responsible for long term public projects and the distribution of alms. Sacrificing short term benefits to cultivate future prosperity, Human Development bases its thought on the philosophy of the Element of Wood. Disinterested in the contemporary problems and darknesses of society, Human Development affixes its gaze to making sure that California will bloom beautifully upon the next sunrise.#!"
+
+ mountain_department_theme:0 "@mountain_department! Public Safety"
+ mountain_department_theme_short: "@mountain_department! Safety"
+ mountain_department_theme_text_icon: "@mountain_department!"
+ mountain_department_theme_benefits: "#emphasis #bold [vassal|E] Benefits:#!#!\n\nIncreases [governor_efficiency|E] based on [martial|E]#indent_newline:4 \n#weak Adds an extra [EmptyScope.ScriptValue('efficiency_skill_increase_value')|+1%/] for each [skill|E] Point#!#!\nUnlocks the #high $EXPANSION_DUCHY_CB_NAME$#! [casus_belli|E]"
+ mountain_department_theme_desc: "#flavor Highly militarized, the Department of Public Safety devotes itself to preventing the Empire from falling apart due to the actions of countless internal and external threats. Taking inspiration from the steadfast Element of the Mountain, Public Safety has authority over matters of conscription, military organization, and civil unrest mitigation. Often zealous in preventing threats that have not yet materialized, Public Safety tends to advocate for expanding the Empire in the name of preemptive action.#!"
+
+ spirit_department_theme:0 "@star_department! Spiritual Education"
+ spirit_department_theme_short: "@star_department! Spiritual"
+ spirit_department_theme_text_icon: "@star_department!"
+ spirit_department_theme_benefits: "#emphasis #bold [vassal|E] Benefits:#!#!\n\nIncreases [governor_efficiency|E] based on [learning|E]#indent_newline:4 \n#weak Adds an extra [EmptyScope.ScriptValue('efficiency_skill_increase_value')|+1%/] for each [skill|E] Point#!#!\n100 [influence|E] gained per converted province\n25% faster county conversion"
+ spirit_department_theme_desc: "#flavor Devoted to the enlightenment of the diverse peoples of California, the Department of Spiritual Education maintains the culture of tolerance and reason that has helped the Golden State prosper. Despite its jurisdiction only covering matters of education and inter-faith relations, Spiritual Education is highly influential, often dictating matters of faith and encouraging unity beneath the Eternal Living Guru. Representatives of the Department often assist with or write theological treatises which inform discourse throughout the civilized world, that is to say, within the bounds of the Empire.#!"
+
+ ADMIN_WINDOW_THEME_EUREKA_TYPE_TEXT_ICON: "[Title.GetHolder.GetVassalContract.GetTextIconObligationLevelNameWithHighlightFor( 'state_bureaucracy_themes' )]"
+ ADMIN_WINDOW_THEME_IMPERIAL_TYPE_TEXT_ICON: "[Title.GetHolder.GetVassalContract.GetTextIconObligationLevelNameWithHighlightFor( 'special_contract_brazilian_imperial' )]"
+
+ ADMIN_WINDOW_THEME_EUREKA_TYPE: "[Title.GetHolder.GetVassalContract.GetShortObligationLevelNameWithHighlightFor( 'state_bureaucracy_themes' )]"
+ ADMIN_WINDOW_THEME_IMPERIAL_TYPE: "[Title.GetHolder.GetVassalContract.GetShortObligationLevelNameWithHighlightFor( 'special_contract_brazilian_imperial' )]"
+
+ ADMINISTRATIVE_CONTRACT: "[Character.Custom( 'GetProvinceConceptNoTooltip' )] Administration"
+ admin_theme_frontier_valid_desc: "The [vassal.Custom( 'GetProvinceConceptNoTooltip' )] must border another [realm|E]"
+#  gold_departament_theme_valid_desc: "Only one [vassal.Custom( 'GetProvinceConceptNoTooltip' )] can have this administration active"
+ state_bureaucracy_contract_forbids_revocation_desc: "You cannot revoke [titles|E] or Appointments from a [vassal|E] governing with the [GetVassalContractType( 'administrative_themes' ).GetObligationName( 'gold_departament_theme' )] unless you have a [revoke_title_reason|E]"
+ 
+ spirit_department_theme_valid_desc: "Only vassals of the State Faith can have Spiritual Education"
+ 
+
+ state_bureaucracy.1000.t: "The Structure of our Government"
+ state_bureaucracy.1000.desc: "As am no longer a subject of the [GetTitleByKey('e_california').GetName], I must decide how to handle the bureaucracy they left behind. While I have the option of entirely dismantling it, I could also leave it in place."
+ state_bureaucracy.1000.a: "The bureaucracy is an impediment that shall be removed."
+ state_bureaucracy.1000.b: "The bureaucrats have proven their worth."
+ 
+ religious_rights_imperial:0 "Religious Rights"
+ 
+ court_authority:0 "[court_authority|E]"
+ court_authority_0:0 "Bureaucratic-Dominated Court"
+ court_authority_1:0 "Bureaucratic-Leaning Court"
+ court_authority_2:0 "Balanced Court"
+ court_authority_3:0 "Military-Leaning Court"
+ court_authority_4:0 "Military-Dominated Court"
+
+
+ court_authority_0_effects:0 "$EFFECT_LIST_BULLET$All councilors are [Concept('elector','electors')|E]\n$EFFECT_LIST_BULLET$Only Governorate [vassals|E] are allowed to vote\n$EFFECT_LIST_BULLET$All councilors are auto-appointed\n$EFFECT_LIST_BULLET$The [liege] cannot revoke [titles|E] from Governorate [vassals|E]\n$EFFECT_LIST_BULLET$The [liege] cannot retract [vassals|E] from Governorate subjects\n$EFFECT_LIST_BULLET$Foreign [wars|E] are forbidden\n$EFFECT_LIST_BULLET$[vassals|E] cannot wage [war|E] against other [vassals|E] unless they use a [hook|E] on their [liege|E]\n$EFFECT_LIST_BULLET$[titles|E] cannot leave the realm on succession"
+
+ court_authority_1_effects:0 "$EFFECT_LIST_BULLET$All councilors are [Concept('elector','electors')|E]\n$EFFECT_LIST_BULLET$$game_concept_stewards$ and $game_concept_chancellors$ are auto-appointed\n$EFFECT_LIST_BULLET$Foreign [wars|E] are forbidden\n$EFFECT_LIST_BULLET$[titles|E] can be revoked\n$EFFECT_LIST_BULLET$[vassals|E] can be retracted\n$EFFECT_LIST_BULLET$All internal [wars|E] are prohibited\n$EFFECT_LIST_BULLET$All [vassals|E] who refuse Title revocation or [vassal|E] retraction are considered [criminals|E]\n$EFFECT_LIST_BULLET$[titles|E] cannot leave the realm on succession"
+
+ court_authority_2_effects:0 "$EFFECT_LIST_BULLET$[titles|E] can be revoked\n$EFFECT_LIST_BULLET$[vassals|E] can be retracted\n$EFFECT_LIST_BULLET$Rulers can change between all available [succession_laws|E]\n$EFFECT_LIST_BULLET$Can designate [heirs|E]\n$EFFECT_LIST_BULLET$All [vassals|E] who refuse Title revocation or [vassal|E] retraction are considered [criminals|E]\n$EFFECT_LIST_BULLET$[titles|E] cannot leave the realm on succession"
+
+ court_authority_3_effects:0 "$EFFECT_LIST_BULLET$[marshals|E] and [knights|E] are [Concept('elector','electors')|E]\n$EFFECT_LIST_BULLET$[marshals|E] are auto-appointed\n$EFFECT_LIST_BULLET$[titles|E] can be revoked\n$EFFECT_LIST_BULLET$[vassals|E] can be retracted\n$EFFECT_LIST_BULLET$[titles|E] cannot leave the realm on succession"
+ 
+ court_authority_4_effects:0 "$EFFECT_LIST_BULLET$All councilors are [Concept('elector','electors')|E]\n$EFFECT_LIST_BULLET$[marshals|E], [knights|E] and [commanders|E] are [Concept('elector','electors')|E]\n$EFFECT_LIST_BULLET$The [liege] cannot revoke [titles|E] from Captaincy [vassals|E]\n$EFFECT_LIST_BULLET$The [liege] cannot retract [vassals|E] from Captaincy subjects"
+
+ court_authority_war_tooltip:0 "#V Under an [GetGovernment( 'imperial_government' ).GetName], #bold Bureaucratic courts cannot declare wars#!. Reform your [court_authority|E] to Balanced or Military in order to freely attack other realms. #!"
+
+ COURT_AUTHORITY_IS_ON_COOLDOWN:0 "You recently changed Court Authority. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'court_authority_cooldown') )]"
+
+ COURT_AUTHORITY_FORBIDS_REVOCATION:0 "Your court authority forbids revokation of this kind of vassal"
+ 
+ special_contract_californian_imperial:0 "Imperial Contracts"
+ special_contract_nominal:0 "Nominal Subject"
+ special_contract_nominal_short:0 "Nominal"
+ special_contract_obligations:0 "Loyal Subject"
+ special_contract_obligations_short:0 "Loyal"
+ 
+ special_contract_brazilian_imperial:0 "Special Imperial Status"
+ special_contract_brazilian_none:0 "No Special Status"
+ special_contract_brazilian_none_short:0 "@balanced_administration! Regular"
+ special_contract_brazilian_none_desc: "#flavor This regime seeks to balance the needs and interests of all groups within the realm, ensuring that no single faction dominates. Local officials work closely with the central administration to address local concerns and implement policies effectively.#!"
+ special_contract_brazilian_none_text_icon: "@balanced_administration!"
+
+ special_contract_brazilian_governorate:0 "Bureaucratic Admnistration"
+ special_contract_brazilian_governorate_short:0 "@civilian_administration! Governorate"
+ special_contract_brazilian_governorate_desc: "#flavor The state bureaucracy is managed by an appointed governor, whose primary responsibility is the efficient collection of taxes on behalf of the central government. Under the mounting costs of maintaining a standing army, as well as the economic risks associated with conscripting a large portion of the peasant population, authorities may favor supplementing their military strength by hiring mercenary units.#!"
+ special_contract_brazilian_governorate_text_icon: "@civilian_administration!"
+
+ special_contract_brazilian_captaincy:0 "Military Rule"
+ special_contract_brazilian_captaincy_short:0 "@military_administration! Captaincy"
+ special_contract_brazilian_captaincy_desc: "#flavor In certain strategic areas, the government may place the state bureaucracy under the control of a high-ranking military officer, whose chief concern is the enhancement of the realm’s defense capabilities, ensuring that military readiness is prioritized. Under this regime, resources are often redirected to fortify the region against external threats.#!"
+ special_contract_brazilian_captaincy_text_icon: "@military_administration!"
+
+ #Putting these here because I have no idea where else they should go:
+ military_war_defeat_attacker_desc:0 "Our rightfull rebellion has been defeated. We put ourselves at our monarch's mercy... Court authority levels remain unchanged."
+ military_war_defeat_defender_desc:0 "We have defeated our rebellious vassals and their petty revolt. Court authority levels remain unchanged. We also have the right to imprison the leaders of this so-called revolution."
+ military_war_defeat_end_desc:0 " "
+  military_war_victory_defender_desc:0 "We have been defeated by our rebellious vassals. As part of the peace negotiations, the Military faction will gain more influence in the Court."
+ military_war_victory_desc:0 "Our rightfull rebellion is triumphant! As part of the peace negotiations, the Military faction will gain more influence in the Court."
+ military_war_victory_end_desc:0 " "
+ military_war_white_peace_attacker_desc:0 "#italic Status quo ante bellum#!. Court authority levels remain unchanged. All warring parties retain their [titles|E]."
+ military_war_white_peace_defender_desc:0 "#italic Status quo ante bellum#!. Court authority levels remain unchanged. All warring parties retain their [titles|E]."
+ military_war_white_peace_end_desc:0 "As usual, all combatants are pardoned under a broad, general and unrestricted amnesty. Their rebellious #italic lieges#!, however, do not have the same luck..."
+bureaucratic_war_defeat_attacker_desc:0 "Our rightfull rebellion has been defeated. We put ourselves at our monarch's mercy... Court authority levels remain unchanged."
+bureaucratic_war_defeat_defender_desc:0 "We have defeated our rebellious vassals and their petty revolt. Court authority levels remain unchanged. We also have the right to imprison the leaders of this so-called revolution."
+bureaucratic_war_defeat_end_desc:0 " "
+bureaucratic_war_victory_defender_desc:0 "We have been defeated by our rebellious vassals. As part of the peace negotiations, the Bureaucratic faction will gain more influence in the Court."
+bureaucratic_war_victory_desc:0 "Our rightfull rebellion is triumphant! As part of the peace negotiations, the Bureaucratic faction will gain more influence in the Court."
+bureaucratic_war_victory_end_desc:0 " "
+bureaucratic_war_white_peace_attacker_desc:0 "#italic Status quo ante bellum#!. Court authority levels remain unchanged. All warring parties retain their [titles|E]."
+bureaucratic_war_white_peace_defender_desc:0 "#italic Status quo ante bellum#!. Court authority levels remain unchanged. All warring parties retain their [titles|E]."
+bureaucratic_war_white_peace_end_desc:0 "As usual, all combatants are pardoned under a broad, general and unrestricted amnesty. Their rebellious #italic lieges#!, however, do not have the same luck..."
+ 
+ state_bureaucracy_water_rights:0 "Water Rights"
+ state_bureaucracy_water_limited_access:0 "Normal Water Access"
+ state_bureaucracy_water_limited_access_short:0 "Normal"
+ state_bureaucracy_water_rationed:0 "Drought-Level Water Acces"
+ state_bureaucracy_water_rationed_short:0 "Drought"
+ state_bureaucracy_water_priority_access:0 "Priority Water Access"
+ state_bureaucracy_water_priority_access_short:0 "Priority"
+
+ state_bureaucracy_obligation_low:3 "Low $state_bureaucracy_government_obligations$"
+ state_bureaucracy_obligation_high:3 "High $state_bureaucracy_government_obligations$"
+ state_bureaucracy_government_taxes:0 "[GetGovernment( 'state_bureaucracy_government' ).GetNameNoTooltip] [taxes|U]"
+ state_bureaucracy_government_levies:0 "[GetGovernment( 'state_bureaucracy_government' ).GetNameNoTooltip] [levies|U]"
+ state_bureaucracy_government_taxes_levies:0 "[GetGovernment( 'state_bureaucracy_government' ).GetNameNoTooltip] [taxes|U] & [levies|U]"
+
+ state_bureaucracy_obligation_low_short:0 "$feudal_obligation_low_short$"
+ state_bureaucracy_obligation_normal_short:0 "$feudal_obligation_normal_short$"
+ state_bureaucracy_obligation_high_short:0 "$feudal_obligation_high_short$"
+ state_bureaucracy_tax_exempt:0 "$feudal_tax_exempt$"
+ state_bureaucracy_tax_exempt_short:0 "$feudal_tax_exempt_short$"
+ state_bureaucracy_tax_low:0 "Low Contribution"
+ state_bureaucracy_tax_low_short:0 "$feudal_tax_low_short$"
+ state_bureaucracy_tax_normal:0 "Normal Contribution"
+ state_bureaucracy_tax_normal_short:0 "$feudal_tax_normal_short$"
+ state_bureaucracy_tax_high:0 "High Contribution"
+ state_bureaucracy_tax_high_short:0 "$feudal_tax_high_short$"
+ state_bureaucracy_tax_extortionate:0 "Massive Contribution"
+ state_bureaucracy_tax_extortionate_short:0 "$feudal_tax_extortionate_short$"
+ state_bureaucracy_levies_exempt:0 "$feudal_levies_exempt$"
+ state_bureaucracy_levies_exempt_short:0 "$feudal_levies_exempt_short$"
+ state_bureaucracy_levies_low:0 "Low Contribution"
+ state_bureaucracy_levies_low_short:0 "$feudal_levies_low_short$"
+ state_bureaucracy_levies_normal:0 "Normal Contribution"
+ state_bureaucracy_levies_normal_short:0 "$feudal_levies_normal_short$"
+ state_bureaucracy_levies_high:0 "High Contribution"
+ state_bureaucracy_levies_high_short:0 "$feudal_levies_high_short$"
+ state_bureaucracy_levies_extortionate:0 "Massive Contribution"
+ state_bureaucracy_levies_extortionate_short:0 "$feudal_levies_extortionate_short$"
+ 
+ eurekan_war_law: "[provincial|E] [war|E] Declaration"
+ eurekan_war_law_0: "War Declaration Allowed"
+ eurekan_war_law_0_effects_not_in_prev: "$EFFECT_LIST_BULLET$#indent_newline:3 [governors|E] can wage external [wars|E]#!"
+ eurekan_war_law_1: "War Declaration Restricted"
+ eurekan_war_law_1_effects_not_in_prev: "$EFFECT_LIST_BULLET$#indent_newline:3 Only [governors|E] with [GetVassalContractType( 'state_bureaucracy_themes' ).GetObligationName( 'mountain_department_theme' )] can wage external [wars|E]#!"
+ eurekan_war_law_2: "War Declaration Approval"
+ eurekan_war_law_2_effects_not_in_prev: "$EFFECT_LIST_BULLET$#indent_newline:3 Only [governors|E] with [GetVassalContractType( 'state_bureaucracy_themes' ).GetObligationName( 'mountain_department_theme' )] can wage external [wars|E] but must request permission from the Governator to do so#!"
+ eurekan_war_law_3: "War Declaration Banned"
+ eurekan_war_law_3_effects_not_in_prev: "$EFFECT_LIST_BULLET$#indent_newline:3 [governors|E] #bold cannot#! wage external [wars|E]#!"
+ 
+ ate_governor_request_war_permission_interaction: "Request Permission to Declare War"
+ ate_governor_request_war_permission_interaction_desc: "Ask [recipient.GetShortUIName] for permission to declare a single [war|E] to expand the borders of the [realm|E]"
+ ate_governor_request_war_permission_interaction_extra_icon: "$hook_extra_icon$"
+ eurekan_has_war_permission_already_desc: "You already have permission to declare a war"
+ eurekan_gain_war_permission_desc: "You will gain permission to start a single [war|E] against another [realm|E]"
+ eurekan_gained_war_permission_title: "War Request Approved"
+ eurekan_gained_war_permission_desc: "You gained permission to declare [war|E]"
+ eurekan_declined_war_permission_title: "War Request Denied"
+ eurekan_declined_war_permission_desc: "Your request to declare [war|E] was denied"
+
+ base_taxes:0 "Base Taxes"
+
+ mining_permit:0 "Mining Permit"
+ mining_permit_short:0 "Mining Permit"
+ mining_permit_granted:0 "Granted"
+ mining_permit_granted_short:0 "Granted"
+ mining_permit_granted_desc:0 "#flavor The mineral wealth of California belongs to the Redwood Throne, but the [vassal] may be granted a charter to mine the land with the consent of their [liege]. This charter dictates that the [vassal] pays #high [EmptyScope.ScriptValue('mining_permit_contract_taxes_tooltip')|0]%#! more [tax] than what their $state_bureaucracy_government_taxes$ [obligation] dictates.#!"
+
+ logging_permit:0 "Logging Permit"
+ logging_permit_short:0 "Logging Permit"
+ logging_permit_granted:0 "Granted"
+ logging_permit_granted_short:0 "Granted"
+ logging_permit_granted_desc:0 "#flavor The bountiful forests of California belong to the Redwood Throne, but the [vassal] may be granted a charter to log them with the consent of their [liege]. This charter dictates that the [vassal] pays #high [EmptyScope.ScriptValue('mining_permit_contract_taxes_tooltip')|0]%#! more [tax] than what their $state_bureaucracy_government_taxes$ [obligation] dictates.#!"
+ 
+ building_permit:0 "Building Permit"
+ building_permit_short:0 "Building Permit"
+ building_permit_granted:0 "Granted"
+ building_permit_granted_short:0 "Granted"
+ building_permit_granted_desc:0 "#flavor All construction within the Golden Empire has its associated duties and fees. However, these may be waived them with the consent of their [liege]. This charter dictates that the [vassal] pays #high [EmptyScope.ScriptValue('mining_permit_contract_taxes_tooltip')|0]%#! more [tax] than what their $state_bureaucracy_government_taxes$ [obligation] dictates.#!"
+
+ employment_fee:0 "Employment Fee"
+ employment_fee_active:1 "Employment Fee"
+ employment_fee_active_short:1 "Employment Fee"
+ siege_weapons_ban:1 "Siege Weapons Tax"
+ siege_weapons_ban_active:1 "Siege Weapons Tax"
+ siege_weapons_ban_active_short:1 "Siege Weapons Tax"
+ substance_ban:1 "Substance Tax"
+ substance_ban_active:1 "Substance Tax"
+ substance_ban_active_short:1 "Substance Tax"
+
+
+ customs_fee:0 "Customs Fee"
+ customs_fee_active:1 "Levied"
+ customs_fee_active_short:1 "Levied"
+
+ siege_rights:1 "Siege Rights"
+ siege_rights_active:1 "Sanctioned"
+ siege_rights_active_short:1 "Sanctioned"
+
+ substance_tax:1 "Sumptuary Tax"
+ substance_tax_active:1 "Levied"
+ substance_tax_active_short:1 "Levied"
+ 
+ game_concept_bureaucracy_authority:0 "Bureaucracy Authority"
+ game_concept_bureaucracy_authority_desc:0 "$game_concept_bureaucracy_authority$ represents the balance of power of central bureaucracy in an Eurekan Bureaucracy."
+
+ bureaucracy_authority:0 "[bureaucracy_authority|E]"
+
+ 
+ bureaucracy_authority_0: "Decentralized Realm"
+ bureaucracy_authority_0_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 Vassals' [titles|E] cannot be inherited by Characters outside the [realm|E]#!"
+ bureaucracy_authority_1: "Limited Administration"
+ bureaucracy_authority_1_effects: "$EFFECT_LIST_BULLET$[titles|E] can be revoked\n$EFFECT_LIST_BULLET$[vassals|E] can be retracted"
+ bureaucracy_authority_1_effects_not_in_prev: "$EFFECT_LIST_BULLET$#indent_newline:3 Non-[administrative|E] [vassals|E] cannot wage [war|E] against other Vassals unless they use a [hook|E] on their [liege|E]#!"
+ bureaucracy_authority_2: "Centralized Bureaucracy"
+ bureaucracy_authority_2_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 All Vassals who refuse Title revocation or Vassal retraction are considered [criminals|E]#!\n$EFFECT_LIST_BULLET$#high $demand_admin_interaction$#! cost is reduced"
+ bureaucracy_authority_2_effects_not_in_prev: "$EFFECT_LIST_BULLET$#indent_newline:3 Cost for [liege|E] to call upon [provincial_armies|E]: [influence_i|E]#P -[EmptyScope.ScriptValue('admin_law_cost_reduction_value')|+0%]#!#!\n$EFFECT_LIST_BULLET$#indent_newline:3 Non-[administrative|E] [vassals|E] cannot wage any [war|E] unless they use a [hook|E] on their [liege|E]#!"
+ bureaucracy_authority_3: "Absolute Autocracy"
+ bureaucracy_authority_3_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 Cost for [liege|E] to call upon [provincial_armies|E]: [influence_i|E]#P -[EmptyScope.ScriptValue('admin_law_cost_reduction_high_value')|+0%]#!#!"
+ bureaucracy_authority_3_effects_not_in_prev: "$EFFECT_LIST_BULLET$#indent_newline:3 Non-[administrative|E] [vassals|E] can never declare [war|E]#!"
+ BUREAUCRACY_AUTHORITY_IS_ON_COOLDOWN: "You recently changed [bureaucracy_authority|E]. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'imperial_bureaucracy_cooldown') )]"
+ bureaucracy_authority_pending_law_change: "#alert_trial Your [liege|E] recently adopted this [law|E] and you will soon adopt it automatically#!"
+
+
+
+
+ bureaucratic_succession_law:0 "Bureaucratic Succession Law"
+ military_succession_law:0 "Military Succession Law"
+ martial_succession_law:0 "Martial Succession Law"
+ imperial_succession_law:0 "Imperial Succession Law"
+ 
+ bureaucratic_elective_electors:0 "Bureaucratic Electors"
+ bureaucratic_elective_electors_tooltip:0 "In order to be a valid [elector|E] under Imperial Succession, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$Be only one or two [ranks|E] below the title"
+ military_elective_electors:0 "Military Electors"
+ military_elective_electors_tooltip:0 "In order to be a valid [elector|E] under Imperial Succession, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$Be only one or two [ranks|E] below the title"
+ imperial_elective_electors:0 "Imperial Electors"
+ imperial_elective_electors_tooltip:0 "In order to be a valid [elector|E] under Imperial Succession, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$Be only one or two [ranks|E] below the title"
+ bureaucratic_elective_candidates:0 "Bureaucratic Candidates"
+ bureaucratic_elective_candidates_tooltip:0 "In order to be a valid Candidate for Bureaucratic Succesion, a character must fulfill the following conditions:\n$EFFECT_LIST_BULLET$Be a capable adult$EFFECT_LIST_BULLET$One of the following\n$EFFECT_LIST_BULLET$Diplomacy education, lifestyle trait or at least 14 in that attribute\n$EFFECT_LIST_BULLET$Stewardship education, lifestyle trait or at least 14 in that attribute\n$EFFECT_LIST_BULLET$Learning education, lifestyle trait or at least 16 in that attribute\n$EFFECT_LIST_BULLET$Chancellor or Steward council position\n$EFFECT_LIST_BULLET$Any positive vestibular trait\n$EFFECT_LIST_BULLET$If the court is bureaucratic-leaning, can't have failed vestibular and must have at least 10 in one of Diplomacy, Stewardship or Learning\n$EFFECT_LIST_BULLET$If the court is bureaucratic, must have passed vestibular and must have at least 12 in one of Diplomacy, Stewardship or Learning"
+ military_elective_candidates:0 "Military Candidates"
+ military_elective_candidates_tooltip:0 "In order to be a valid Candidate for Military Succesion, a character must fulfill the following conditions:Capable adult\n$EFFECT_LIST_BULLET$One of the following\n$EFFECT_LIST_BULLET$Martial education, lifestyle trait or at least 14 in that attribute\n$EFFECT_LIST_BULLET$Prowess education, lifestyle trait or at least 14 in that attribute\n$EFFECT_LIST_BULLET$Marshal council position\n$EFFECT_LIST_BULLET$Be a knight\n$EFFECT_LIST_BULLET$Have any commander trait\n$EFFECT_LIST_BULLET$If the court is military-leaning, must have at least 10 martial\n$EFFECT_LIST_BULLET$If the court is military, must have at least 12 martial"
+ imperial_elective_candidates:0 "Imperial Candidates"
+ imperial_elective_candidates_tooltip:1 "In order to be a valid Candidate for Imperial Succession, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate [close_family|E] member of the current ruler, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a Theocracy or Republic. Court authority might remove candidates if they don't have the minimum required skills:If Bureaucratic-leaning or bureaucratic, you can't have failed vestibular. In addition, one of the following:\n$EFFECT_LIST_BULLET$Diplomacy education, lifestyle trait or at least 12 in that attribute\n$EFFECT_LIST_BULLET$Stewardship education, lifestyle trait or at least 12 in that attribute\n$EFFECT_LIST_BULLET$Learning education, lifestyle trait or at least 12 in that attribute\n$EFFECT_LIST_BULLET$Chancellor or Steward council position\n$EFFECT_LIST_BULLET$Any positive vestibular trait\n$EFFECT_LIST_BULLET$If the the court is fully bureaucratic, you must have also succeded in vestibular.\n$EFFECT_LIST_BULLET$If military-leaning or military, you must have one of the following:\n$EFFECT_LIST_BULLET$Martial education, lifestyle trait or at least 12 in that attribute\n$EFFECT_LIST_BULLET$At least 12 prowess\n$EFFECT_LIST_BULLET$Be a knight\n$EFFECT_LIST_BULLET$Marshal council position\n$EFFECT_LIST_BULLET$Have at least one commander trait\n$EFFECT_LIST_BULLET$If fully military, you must have at least 10 martial\n$EFFECT_LIST_BULLET$If it's balanced there are no restrictions"
+  
+ default_theocracy:0 "Priestly Theocracy"
+ default_theocracy_short:0 "Priestly Theocracy"
+
+ 
+ imperial_government_taxes:2 "[GetGovernment( 'imperial_government' ).GetNameNoTooltip] [taxes|U]"
+ imperial_government_levies:2 "[GetGovernment( 'imperial_government' ).GetNameNoTooltip] [levies|U]"
+
+ imperial_tax_exempt:0 "$feudal_tax_exempt$"
+ imperial_tax_exempt_short:0 "$feudal_tax_exempt_short$"
+ imperial_tax_low:0 "$feudal_tax_low$"
+ imperial_tax_low_short:0 "$feudal_tax_low_short$"
+ imperial_tax_normal:0 "$feudal_tax_normal$"
+ imperial_tax_normal_short:0 "$feudal_tax_normal_short$"
+ imperial_tax_high:0 "$feudal_tax_high$"
+ imperial_tax_high_short:0 "$feudal_tax_high_short$"
+ imperial_tax_extortionate:0 "$feudal_tax_extortionate$"
+ imperial_tax_extortionate_short:0 "$feudal_tax_extortionate_short$"
+ imperial_levies_exempt:0 "$feudal_levies_exempt$"
+ imperial_levies_exempt_short:0 "$feudal_levies_exempt_short$"
+ imperial_levies_low:0 "$feudal_levies_low$"
+ imperial_levies_low_short:0 "$feudal_levies_low_short$"
+ imperial_levies_normal:0 "$feudal_levies_normal$"
+ imperial_levies_normal_short:0 "$feudal_levies_normal_short$"
+ imperial_levies_high:0 "$feudal_levies_high$"
+ imperial_levies_high_short:0 "$feudal_levies_high_short$"
+ imperial_levies_extortionate:0 "$feudal_levies_extortionate$"
+ imperial_levies_extortionate_short:0 "$feudal_levies_extortionate_short$"
+ 
+ high_republic_government:0 "High Republic"
+ high_republic_government_desc:0 "$game_concept_high_republic_desc$\n\n#F Rather than ruling through brute force or divine right, high republics base themselves on the pre-[Concept('the_event_ate','Event')|E] institutions of republicanism. Upon the death of a ruler, their vassals will convene and elect a replacement from amongst each other as well as the previous ruler's heirs.#!"
+ high_republic_government_adjective:0 "High Republican"
+ high_republic_government_realm:0 "High Republic"
+ high_republic_government_vassals_label:1 "High Republic [obligations|E] are based on each [vassal|E]'s [feudal_contract|E]"
+ high_republic_government_obligations:0 "[GetGovernment( 'high_republic_government' ).GetName] [obligations|E]"
+ government_is_high_republic:0 "[government|E] type is [GetGovernment( 'high_republic_government' ).GetName]"
+
+ 
+ high_republic_gerrymandering:0 "Administration Division"
+ high_republic_none:0 "Department"
+ high_republic_none_short:0 "Department"
+ high_republic_none_theme:0 "Department"
+ high_republic_none_desc:0 "A Department is a standard appointed district within our realm, organized for ease of governance and record-keeping. Here, appointed [governors|E] enforce the laws and collect tax, ensuring that our rule is exercised with precision and efficiency across all corners of our lands." 
+ high_republic_territory:0 "Territory"
+ high_republic_territory_short:0 "Territory"
+ high_republic_territory_theme:0 "Territory"
+ high_republic_territory_desc:0 "This land is claimed not only for its people and its strategic value but as a crucible for military strength. Its fields and fortifications are the training grounds of our warriors and the staging posts for our campaigns. [governorship|E] here is a role of duty rather than honor—often seen as a managerial post tasked with logistical and martial preparations, lacking the luster of high office." 
+ high_republic_citystate:0 "City-State"
+ high_republic_citystate_short:0 "City-State"
+ high_republic_citystate_theme:0 "City-State"
+ high_republic_citystate_desc:0 "The city-state stands at the very heart of our republic—a self-contained polis where citizens craft laws and culture with pride. Its leaders are chosen from among its most esteemed citizens, and its [governorship|E] is a mark of honor and authority." 
+ high_republic_colony:0 "Colony"
+ high_republic_colony_short:0 "Colony"
+ high_republic_colony_theme:0 "Colony"
+ high_republic_colony_desc:0 "Far from the core of our republic, these outposts are founded to tap the riches of land itselfthat fuel Republic. The [governorship|E] of such a colony is widely regarded as a thankless assignment: a necessary, yet decidedly unprestigious, post reserved for administrators who manage resource extraction rather than commanding the respect of high society." 
+ colony_desc_succession:0 "Governor of a Colony:#N  -50%#!"
+ high_republic_colony:0 "Colony"
+ high_republic_colony_short:0 "Colony"
+ high_republic_colony_theme:0 "Colony"
+ high_republic_colony_desc:0 "Far from the core of our republic, these outposts are founded to tap the riches of land itselfthat fuel Republic. The [governorship|E] of such a colony is widely regarded as a thankless assignment: a necessary, yet decidedly unprestigious, post reserved for administrators who manage resource extraction rather than commanding the respect of high society." 
+
+ high_republic_colony_benefits: "#emphasis #emphasis #bold [vassal|E] Maluses:#!#!\nDecreases [voting_strength|E] by #N 50% #!\n\n#emphasis #bold [vassal|E] Benefits:#!#!\nIncreases [governor_efficiency|E] based on [stewardship|E]#indent_newline:4 \n#weak Adds an extra [EmptyScope.ScriptValue('efficiency_skill_increase_value')|+1%/] for each [skill|E] Point#!#!\n[influence|E] gained from constructing [buildings|E] in held [counties|E] is increased"
+ high_republic_territory_benefits: "#emphasis #emphasis #bold [vassal|E] Maluses:#!#!\nDecreases [voting_strength|E] by #N 50% #!\nUnlocks the #high $frontier_influence_war_interaction$#! [interaction|E] allowing the liege to request the [vassal|E] to declare war for a foreign [duchy|E]-tier [title|E]\n\n#emphasis #bold [vassal|E] Benefits:#!#!\nIncreases [governor_efficiency|E] based on [prowess|E]#indent_newline:4 \n#weak Adds an extra [EmptyScope.ScriptValue('efficiency_skill_increase_value')|+1%/] for each [skill|E] Point#!#!\nUnlocks the #high $EXPANSION_DUCHY_CB_NAME$#! [casus_belli|E]\nEnables [raiding|E]"
+ high_republic_citystate_benefits: "#emphasis #emphasis #bold [vassal|E] Benefits:#!#!\nIncreases [voting_strength|E] by #P 50% #!\nIncreases [governor_efficiency|E] based on [prestige_level|E]#indent_newline:4 \n#weak Adds an extra [EmptyScope.ScriptValue('efficiency_currency_level_increase_value')|+0%/] for each level#!#!\nIncreases [powerful_family|E] Rating\nCannot have appointment revoked without a [revoke_title_reason|E]"
+
+ high_republic_no_gerrymandering:0 "No Vassal Gerrymandering"
+ high_republic_no_gerrymandering_short:0 "No Gerrymandering"
+ high_republic_gerrymandered:0 "Vassal Gerrymandering"
+ high_republic_gerrymandered_short:0 "Gerrymandering"
+ 
+ high_republic_obligation_low:3 "Low $high_republic_government_obligations$"
+ high_republic_obligation_high:3 "High $high_republic_government_obligations$"
+ high_republic_government_taxes:2 "[GetGovernment( 'high_republic_government' ).GetNameNoTooltip] [taxes|U]"
+ high_republic_government_levies:2 "[GetGovernment( 'high_republic_government' ).GetNameNoTooltip] [levies|U]"
+
+ high_republic_obligation_low_short:0 "$feudal_obligation_low_short$"
+ high_republic_obligation_normal_short:0 "$feudal_obligation_normal_short$"
+ high_republic_obligation_high_short:0 "$feudal_obligation_high_short$"
+ high_republic_tax_exempt:0 "$feudal_tax_exempt$"
+ high_republic_tax_exempt_short:0 "$feudal_tax_exempt_short$"
+ high_republic_tax_low:0 "$feudal_tax_low$"
+ high_republic_tax_low_short:0 "$feudal_tax_low_short$"
+ high_republic_tax_normal:0 "$feudal_tax_normal$"
+ high_republic_tax_normal_short:0 "$feudal_tax_normal_short$"
+ high_republic_tax_high:0 "$feudal_tax_high$"
+ high_republic_tax_high_short:0 "$feudal_tax_high_short$"
+ high_republic_tax_extortionate:0 "$feudal_tax_extortionate$"
+ high_republic_tax_extortionate_short:0 "$feudal_tax_extortionate_short$"
+ high_republic_levies_exempt:0 "$feudal_levies_exempt$"
+ high_republic_levies_exempt_short:0 "$feudal_levies_exempt_short$"
+ high_republic_levies_low:0 "$feudal_levies_low$"
+ high_republic_levies_low_short:0 "$feudal_levies_low_short$"
+ high_republic_levies_normal:0 "$feudal_levies_normal$"
+ high_republic_levies_normal_short:0 "$feudal_levies_normal_short$"
+ high_republic_levies_high:0 "$feudal_levies_high$"
+ high_republic_levies_high_short:0 "$feudal_levies_high_short$"
+ high_republic_levies_extortionate:0 "$feudal_levies_extortionate$"
+ high_republic_levies_extortionate_short:0 "$feudal_levies_extortionate_short$"
+ 
+ game_concept_executive_authority:0 "Executive Authority"
+ game_concept_executive_authority_desc:0 "$game_concept_executive_authority$ represents the balance of power between the republican institutions and the central executive power. Low executive authority will limit the options available to rulers but allow the state to be run more effectively, while high executive power will give them more liberty to act."
+
+ executive_authority:0 "[executive_authority|E]"
+ executive_authority_0:0 "Judicialized Executive"
+ executive_authority_0_effects:1 "$EFFECT_LIST_BULLET$[vassals|E] cannot wage [war|E] against other Vassals unless they use a [hook|E] on their [liege|E]\n$EFFECT_LIST_BULLET$Vassals' [titles|E] cannot be inherited by Characters outside the [realm|E]\n"
+ executive_authority_1:0 "Curtailed Executive"
+ executive_authority_1_effects:1 "$EFFECT_LIST_BULLET$[vassals|E] cannot wage [war|E] against other Vassals unless they use a [hook|E] on their [liege|E]\n$EFFECT_LIST_BULLET$Vassals' [titles|E] cannot be inherited by Characters outside the [realm|E]\n$EFFECT_LIST_BULLET$Rulers can change between all available [succession_laws|E]\n$EFFECT_LIST_BULLET$[vassals|E] can be retracted"
+ executive_authority_2:0 "Balanced Executive"
+ executive_authority_2_effects:1 "$EFFECT_LIST_BULLET$[vassals|E] cannot wage [war|E] against other Vassals unless they use a [hook|E] on their [liege|E]\n$EFFECT_LIST_BULLET$Vassals' [titles|E] cannot be inherited by Characters outside the [realm|E]\n$EFFECT_LIST_BULLET$Rulers can change between all available [succession_laws|E]\n$EFFECT_LIST_BULLET$[vassals|E] can be retracted\n$EFFECT_LIST_BULLET$[titles|E] can be revoked"
+ executive_authority_3:0 "Centralized Executive"
+ executive_authority_3_effects:1 "$EFFECT_LIST_BULLET$[vassals|E] cannot wage [war|E] against other Vassals unless they use a [hook|E] on their [liege|E]\n$EFFECT_LIST_BULLET$Vassals' [titles|E] cannot be inherited by Characters outside the [realm|E]\n$EFFECT_LIST_BULLET$Rulers can change between all available [succession_laws|E]\n$EFFECT_LIST_BULLET$[vassals|E] can be retracted\n$EFFECT_LIST_BULLET$[titles|E] can be revoked"
+ executive_authority_4:0 "Autocratic Executive"
+ executive_authority_4_effects:1 "$EFFECT_LIST_BULLET$[vassals|E] cannot wage [war|E] against other Vassals unless they use a [hook|E] on their [liege|E]\n$EFFECT_LIST_BULLET$Vassals' [titles|E] cannot be inherited by Characters outside the [realm|E]\n$EFFECT_LIST_BULLET$Rulers can change between all available [succession_laws|E]\n$EFFECT_LIST_BULLET$[vassals|E] can be retracted\n$EFFECT_LIST_BULLET$[titles|E] can be revoked\n$EFFECT_LIST_BULLET$All Vassals who refuse Title revocation or Vassal retraction are considered [criminals|E]"
+ EXECUTIVE_AUTHORITY_IS_ON_COOLDOWN:2 "You recently changed Executive Authority. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'executive_authority_cooldown') )]"
+ 
+ game_concept_succession_election_law:0 "Election Law"
+ game_concept_succession_election_laws:0 "Election Laws"
+ game_concept_succession_election_law_desc:0 " "
+ always:0 "Always"
+
+ succession_election_laws_singular:0 "[succession_election_law|E]"
+ succession_election_laws:0 "[succession_election_laws|E]"
+
+ technocracy_succession_election_law_effects:0 "\nA Technocracy is a system where [rulers|E] are expected to have a high level of scientific or technical knowledge. Candidates are often specialists on their field or have an academic background.\n\n$EFFECT_LIST_BULLET$Candidates with [education|E]-related traits, as well as [diplomacy|E], [learning|E] and [stewardship|E] levels, have better chances on this system.\n$EFFECT_LIST_BULLET$Electors must be a [count|E]-level or above de jure [vassal|E] of the [title|E] being voted on."
+ technocracy_elective_succession_law_effects:0 "$technocracy_succession_election_law_effects$"
+
+ paternalism_succession_election_law_effects:0 "\nOn a Monarchical Elective system, [family|E] ties matter the most. Electors tend to vote on candidates from their own [dynasties|E] in order to advance their interests, while power and influence are inclined to concentrate on a single line for generations. In the eyes of some, this is no different from a monarchy in all but name.\n\n$EFFECT_LIST_BULLET$Voters are expected to chose a candidate from within their close or extended [family|E].\n$EFFECT_LIST_BULLET$Electors must be a [count|E]-level or above de jure [vassal|E] of the [title|E] being vote on."
+ paternalism_elective_succession_law_effects:0 "$paternalism_succession_election_law_effects$"
+
+ stratocracy_succession_election_law_effects:0 "\nOn a stratocratic system, might makes power: The public has entrusted the army to guide the elections. Although not explicitly a military dictatorship, candidates tend to come exclusively from the officer class, with civilians often occupying second-tier posts in the administration. During Election Day, there's always the possibility of a lord deploying their loyal troops on the streets, just to ensure that the electors vote for the #italic right #!candidate...\n\n$EFFECT_LIST_BULLET$Candidates possessing larger numbers of troops, [knights|E] and [martial|E] bonuses and [traits|E] have better chances on this system.\n$EFFECT_LIST_BULLET$Electors must be a [count|E]-level or above de jure [vassal|E] of the [title|E] being voted on."
+ stratocracy_elective_succession_law_effects:0 "$stratocracy_succession_election_law_effects$"
+
+ theodemocracy_succession_election_law_effects:0 "\nA theodemocratic or hierocratic system draws its legitimacy from the clergy. By combining elements from theocratic states and pre-[Concept('the_event_ate','Event')|E] democracies, we ensure that only the most pious are eligible to office.\n\n$EFFECT_LIST_BULLET$Candidates with high [piety|E], [learning|E] [education|E] and [virtuous|E] [traits|E] have better chances on this system.\n$EFFECT_LIST_BULLET$Electors must be a [count|E]-level or above de jure [vassal|E] of the [title|E] being voted on." 
+ theodemocracy_elective_succession_law_effects:0 "$theodemocracy_succession_election_law_effects$"
+
+ populism_succession_election_law_effects:0 "\nDrawing from the Democracies of old, a populist system favors the most charismatic and prestigious candidates, as well as those capable of better articulating their views to the overall public. Electoral campaigns often incorporate elements such as speeches, rallies and debates, which serve to illustrate the populace on each candidate's proposals and promises.\n\n$EFFECT_LIST_BULLET$High [prestige|E] and [diplomacy|E]-focused candidates have better chances on this system.\n$EFFECT_LIST_BULLET$Electors must be a [count|E]-level or above de jure [vassal|E] of the [title|E] being voted on."
+ populism_elective_succession_law_effects:0 "$populism_succession_election_law_effects$"
+
+ oligarchy_succession_election_law_effects:0 "\nTradition and stability are the basis of an oligarchic republic. This system favors the traditional landed gentry, their rights and privileges, to the detriment of other classes.\n\n$EFFECT_LIST_BULLET$Higher tiered [title|E] holders have better chances on this system.\n$EFFECT_LIST_BULLET$Electors must be a [count|E]-level or above de jure [vassal|E] of the [title|E] being voted on."
+ oligarchy_elective_succession_law_effects:0 "$oligarchy_succession_election_law_effects$"
+
+ plutocracy_succession_election_law_effects:0 "\nIn a plutocratic republic, the electoral system has abandoned the farce of prestigious and charismatic candidates. The electoral process instead focuses on what really matters: How much [gold|E] a candidate is willing to invest in their campaign. Some even say this is a more accurate depiction of some pre-[Concept('the_event_ate','Event')|E] democracies...\n\n$EFFECT_LIST_BULLET$High [income|E] and [stewardship|E]-focused candidates have better chances on this system.\n$EFFECT_LIST_BULLET$Electors must be a [count|E]-level or above de jure [vassal|E] of the [title|E] being voted on."
+ plutocracy_elective_succession_law_effects:0 "$plutocracy_succession_election_law_effects$"
+
+ kleptocracy_succession_election_law_effects:0 "\nFear, intrigue and subterfuge make an intrinsic part of the political life in this Republic. While a façade of Democracy remains visible to the general public, the electoral system rests on a complex web of backroom deals, bribes, secrets and constant surveillance.\n\n$EFFECT_LIST_BULLET$Candidates with higher [intrigue|E] levels have better chances on this system.\n$EFFECT_LIST_BULLET$Electors must be a [count|E]-level or above de jure [vassal|E] of the [title|E] being voted on."
+ kleptocracy_elective_succession_law_effects:0 "$kleptocracy_succession_election_law_effects$"
+
+
+ populism_elective_succession_law:0 "Populist Succession"
+ populism_elective_electors:0 "Populist Electors"
+ populism_elective_candidates:0 "Populist Candidates"
+ populism_succession_election_law:0 "Populist"
+ 
+ oligarchy_elective_succession_law:0 "Oligarchic Succession"
+ oligarchy_elective_electors:0 "Oligarch Electors"
+ oligarchy_elective_candidates:0 "Oligarch Candidates"
+ oligarchy_succession_election_law:0 "Oligarchic"
+ 
+ stratocracy_elective_succession_law:0 "Stratocratic Succession"
+ stratocracy_elective_electors:0 "Stratocratic Electors"
+ stratocracy_elective_candidates:0 "Stratocratic Candidates"
+ stratocracy_succession_election_law:0 "Stratocratic"
+
+ kleptocracy_elective_succession_law:0 "Cut-Throat Succession"
+ kleptocracy_elective_electors:0 "Cut-Throat Electors"
+ kleptocracy_elective_candidates:0 "Cut-Throat Candidates"
+ kleptocracy_succession_election_law:0 "Cut-Throat"
+
+
+ theodemocracy_elective_succession_law:0 "Hierocratic Succession"
+ theodemocracy_elective_electors:0 "Hierocratic Electors"
+ theodemocracy_elective_candidates:0 "Hierocratic Candidates"
+ theodemocracy_succession_election_law:0 "Hierocratic"
+
+ technocracy_elective_succession_law:0 "Technocratic Succession"
+ technocracy_elective_electors:0 "Technocratic Electors"
+ technocracy_elective_candidates:0 "Technocratic Candidates"
+ technocracy_succession_election_law:0 "Technocratic"
+
+ paternalism_elective_succession_law:0 "Monarchical Succession"
+ paternalism_elective_electors:0 "Monarchical Electors"
+ paternalism_elective_candidates:0 "Monarchical Candidates"
+ paternalism_succession_election_law:0 "Monarchical"
+ 
+ plutocracy_elective_succession_law:0 "Plutocratic Succession"
+ plutocracy_elective_electors:0 "Plutocratic Electors"
+ plutocracy_elective_electors_tooltip:0 "In order to be a valid [elector|E] in a plutocracy, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a [de_jure|E] vassal of the title\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$Be Adult\n$EFFECT_LIST_BULLET$NOT be Incapable"
+ plutocracy_elective_candidates:0 "Plutocratic Candidates"
+ plutocracy_elective_candidates_tooltip:1 "In order to be a valid Candidate in Plutocracies, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated\n$EFFECT_LIST_BULLET$Be a [powerful_vassal_powerful|E] [de_jure] Feudal Vassal of the title"
+ plutocracy_succession_election_law:0 "Plutocratic"
+ 
+ tooltip_vote_strength_prestige_reserve:0 "Prestige Value: $VALUE|=+0$"
+ tooltip_vote_strength_prestige_level:0 "Level of Fame: $VALUE|=+0$"
+ tooltip_vote_strength_education_diplomacy:0 "Diplomatic Education: $VALUE|=+0$"
+ tooltip_vote_strength_education_diplomacy_3:0 "Diplomatic Education - Tier 3: $VALUE|=+0$"
+ tooltip_vote_strength_education_diplomacy_4:0 "Diplomatic Education - Tier 4: $VALUE|=+0$"
+ tooltip_vote_strength_lifestyle_diplomacy:0 "Diplomacy Lifestyle: $VALUE|=+0$"
+ tooltip_vote_strength_lifestyle_diplomacy_trait:0 "Diplomacy Lifestyle Trait: $VALUE|=+0$"
+ tooltip_vote_strength_diplomacy_points:0 "Diplomatic Skill: $VALUE|=+0$"
+ tooltip_vote_strength_chancellor:0 "Chancellor: $VALUE|=+0$"
+
+ tooltip_vote_strength_gold:0 "Gold Reserve: $VALUE|=+0$"
+ tooltip_vote_strength_monthly_income:0 "Monthly Income: $VALUE|=+0$"
+ tooltip_vote_strength_education_stewardship:0 "Stewardship Education: $VALUE|=+0$"
+ tooltip_vote_strength_education_stewardship_3:0 "Stewardship Education - Tier 3: $VALUE|=+0$"
+ tooltip_vote_strength_education_stewardship_4:0 "Stewardship Education - Tier 4: $VALUE|=+0$"
+ tooltip_vote_strength_lifestyle_stewardship:0 "Stewardship Lifestyle: $VALUE|=+0$"
+ tooltip_vote_strength_lifestyle_stewardship_trait:0 "Stewardship Lifestyle Trait: $VALUE|=+0$"
+ tooltip_vote_strength_stewardship_points:0 "Stewardship Skill: $VALUE|=+0$"
+ tooltip_vote_strength_steward:0 "Steward: $VALUE|=+0$"
+
+ tooltip_vote_military_strength:0 "Military Strength: $VALUE|=+0$"
+ tooltip_vote_number_of_knights:0 "Number of Knights: $VALUE|=+0$"
+ tooltip_vote_strength_education_martial:0 "Martial Education: $VALUE|=+0$"
+ tooltip_vote_strength_education_martial_3:0 "Martial Education - Tier 3: $VALUE|=+0$"
+ tooltip_vote_strength_education_martial_4:0 "Martial Education - Tier 4: $VALUE|=+0$"
+ tooltip_vote_strength_lifestyle_martial:0 "Martial Lifestyle: $VALUE|=+0$"
+ tooltip_vote_strength_lifestyle_martial_trait:0 "Martial Lifestyle Trait: $VALUE|=+0$"
+ tooltip_vote_strength_martial_points:0 "Martial Skill: $VALUE|=+0$"
+ tooltip_vote_strength_marshall:0 "Marshall: $VALUE|=+0$"
+ tooltip_vote_strength_commander_traits:0 "Has Commander Traits: $VALUE|=+0$"
+ tooltip_vote_strength_commander_traits_number:0 "Number of Commander Traits: $VALUE|=+0$"
+
+ tooltip_vote_strength_piety:0 "Piety Value: $VALUE|=+0$"
+ tooltip_vote_strength_piety_level:0 "Level of Devotion: $VALUE|=+0$"
+ tooltip_vote_strength_sinful_traits:0 "Sinful Traits: $VALUE|=+0$"
+ tooltip_vote_strength_virtuous_traits:0 "Virtuous Trait: $VALUE|=+0$"
+ tooltip_vote_strength_virtuous_traits_number:0 "Vituous Traits: $VALUE|=+0$"
+ tooltip_vote_strength_education_learning:0 "Learning Education: $VALUE|=+0$"
+ tooltip_vote_strength_education_learning_3:0 "Learning Education - Tier 3: $VALUE|=+0$"
+ tooltip_vote_strength_education_learning_4:0 "Learning Education - Tier 4: $VALUE|=+0$"
+ tooltip_vote_strength_lifestyle_learning:0 "Learning Lifestyle: $VALUE|=+0$"
+ tooltip_vote_strength_lifestyle_learning_trait:0 "Learning Lifestyle Trait: $VALUE|=+0$"
+ tooltip_vote_strength_lifestyle_learning_perks:0 "Learning Lifestyle Perks: $VALUE|=+0$"
+ tooltip_vote_strength_learning_points:0 "Learning Skill: $VALUE|=+0$"
+ tooltip_vote_strength_chaplain:0 "Court Chaplain: $VALUE|=+0$"
+ 
+ tooltip_vote_strength_education_intrigue:0 "Intrigue Education: $VALUE|=+0$"
+ tooltip_vote_strength_education_intrigue_3:0 "Intrigue Education - Tier 3: $VALUE|=+0$"
+ tooltip_vote_strength_education_intrigue_4:0 "Intrigue Education - Tier 4: $VALUE|=+0$"
+ tooltip_vote_strength_lifestyle_intrigue:0 "Intrigue Lifestyle: $VALUE|=+0$"
+ tooltip_vote_strength_lifestyle_intrigue_trait:0 "Intrigue Lifestyle Trait: $VALUE|=+0$"
+ tooltip_vote_strength_intrigue_points:0 "Intrigue Skill: $VALUE|=+0$"
+ tooltip_vote_strength_spymaster:0 "Spymaster: $VALUE|=+0$"
+ tooltip_vote_strength_secrets:0 "Known secrets: $VALUE|=+0$"
+ tooltip_vote_strength_schemes:0 "Owned schemes: $VALUE|=+0$"
+ tooltip_vote_strength_hooks:0 "Owned hooks: $VALUE|=+0$"
+
+ tooltip_vote_strength_councillor: "Councillor: $VALUE|=+0$"
+ 
+ tooltip_vote_strength_influence_level:0 "Influence Level: $VALUE|=+0$"
+ tooltip_vote_strength_influence_reserve:0 "Influence Reserve: $VALUE|=+0$"
+ tooltip_vote_strength_slandered:1 "Slandered: #negative_value -50%#!"
+ tooltip_vote_strength_promoted:0 "Promoted: #positive_value 25%#!"
+ 
+  tooltip_appointment_strength_prestige_reserve:0 "Prestige Value"
+ tooltip_appointment_strength_prestige_level:0 "Level of Fame"
+ tooltip_appointment_strength_education_diplomacy:0 "Diplomatic Education"
+ tooltip_appointment_strength_education_diplomacy_3:0 "Diplomatic Education - Tier 3"
+ tooltip_appointment_strength_education_diplomacy_4:0 "Diplomatic Education - Tier 4"
+ tooltip_appointment_strength_lifestyle_diplomacy:0 "Diplomacy Lifestyle"
+ tooltip_appointment_strength_lifestyle_diplomacy_trait:0 "Diplomacy Lifestyle Trait"
+ tooltip_appointment_strength_diplomacy_points:0 "Diplomatic Skill"
+ tooltip_appointment_strength_chancellor:0 "Chancellor"
+
+ tooltip_appointment_strength_gold:0 "Gold Reserve"
+ tooltip_appointment_strength_monthly_income:0 "Monthly Income"
+ tooltip_appointment_strength_education_stewardship:0 "Stewardship Education"
+ tooltip_appointment_strength_education_stewardship_3:0 "Stewardship Education - Tier 3"
+ tooltip_appointment_strength_education_stewardship_4:0 "Stewardship Education - Tier 4"
+ tooltip_appointment_strength_lifestyle_stewardship:0 "Stewardship Lifestyle"
+ tooltip_appointment_strength_lifestyle_stewardship_trait:0 "Stewardship Lifestyle Trait"
+ tooltip_appointment_strength_stewardship_points:0 "Stewardship Skill"
+ tooltip_appointment_strength_steward:0 "Steward"
+
+ tooltip_appointment_military_strength:0 "Military Strength"
+ tooltip_appointment_number_of_knights:0 "Number of Knights"
+ tooltip_appointment_strength_education_martial:0 "Martial Education"
+ tooltip_appointment_strength_education_martial_3:0 "Martial Education - Tier 3"
+ tooltip_appointment_strength_education_martial_4:0 "Martial Education - Tier 4"
+ tooltip_appointment_strength_lifestyle_martial:0 "Martial Lifestyle"
+ tooltip_appointment_strength_lifestyle_martial_trait:0 "Martial Lifestyle Trait"
+ tooltip_appointment_strength_martial_points:0 "Martial Skill"
+ tooltip_appointment_strength_marshall:0 "Marshall"
+ tooltip_appointment_strength_commander_traits:0 "Has Commander Traits"
+ tooltip_appointment_strength_commander_traits_number:0 "Number of Commander Traits"
+
+ tooltip_appointment_strength_piety:0 "Piety Value"
+ tooltip_appointment_strength_piety_level:0 "Level of Devotion"
+ tooltip_appointment_strength_sinful_traits:0 "Sinful Traits"
+ tooltip_appointment_strength_virtuous_traits:0 "Virtuous Trait"
+ tooltip_appointment_strength_virtuous_traits_number:0 "Vituous Traits"
+ tooltip_appointment_strength_education_learning:0 "Learning Education"
+ tooltip_appointment_strength_education_learning_3:0 "Learning Education - Tier 3"
+ tooltip_appointment_strength_education_learning_4:0 "Learning Education - Tier 4"
+ tooltip_appointment_strength_lifestyle_learning:0 "Learning Lifestyle"
+ tooltip_appointment_strength_lifestyle_learning_trait:0 "Learning Lifestyle Trait"
+ tooltip_appointment_strength_lifestyle_learning_perks:0 "Learning Lifestyle Perks"
+ tooltip_appointment_strength_learning_points:0 "Learning Skill"
+ tooltip_appointment_strength_chaplain:0 "Court Chaplain"
+ 
+ tooltip_appointment_strength_education_intrigue:0 "Intrigue Education"
+ tooltip_appointment_strength_education_intrigue_3:0 "Intrigue Education - Tier 3"
+ tooltip_appointment_strength_education_intrigue_4:0 "Intrigue Education - Tier 4"
+ tooltip_appointment_strength_lifestyle_intrigue:0 "Intrigue Lifestyle"
+ tooltip_appointment_strength_lifestyle_intrigue_trait:0 "Intrigue Lifestyle Trait"
+ tooltip_appointment_strength_intrigue_points:0 "Intrigue Skill"
+ tooltip_appointment_strength_spymaster:0 "Spymaster"
+ tooltip_appointment_strength_secrets:0 "Known secrets"
+ tooltip_appointment_strength_schemes:0 "Owned schemes"
+ tooltip_appointment_strength_hooks:0 "Owned hooks"
+
+ tooltip_appointment_strength_councillor:0 "Councillor"
+ 
+ tooltip_appointment_strength_influence_level:0 "Influence Level"
+ tooltip_appointment_strength_influence_reserve:0 "Influence Reserve"
+ tooltip_appointment_strength_slandered:1 "Slandered"
+ tooltip_appointment_strength_promoted:0 "Promoted"
+
+ high_obligations:0 "High Vassal [obligations|E]"
+ normal_obligations:0 "Normal Vassal [obligations|E]"
+ low_obligations:0 "Low Vassal [obligations|E]"
+
+ hr_term_limit_2_law:0 "2 Year Term"
+ hr_term_limit_1_law:0 "1 Year Term"
+ hr_term_limit_5_law:0 "5 Year Term"
+ hr_term_limit_10_law:0 "10 Year Term"
+ hr_term_limit_20_law:0 "20 Year Term"
+ hr_term_limit_life_law:0 "Life Term"
+
+ tooltip_feudal_vote_strength_count_tier: "Landed Noble: $VALUE|=+0$"
+
+ populism_elective_candidates:0 "Close Family, Vassals and Claimants"
+ populism_elective_candidates_tooltip:1 "In order to be a valid Candidate under Populist Succession, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate [close_family|E] member of the current ruler, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a Theocracy or Republic\n$EFFECT_LIST_BULLET$Be a valid Republican [elector|E] to the title"
+ populism_elective_electors:0 "Ruler and Vassals"
+ populism_elective_electors_tooltip:0 "In order to be a valid [elector|E] under Populist Succession, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$NOT be a Baron"
+
+ oligarchy_elective_candidates:0 "Close Family, Vassals and Claimants"
+ oligarchy_elective_candidates_tooltip:1 "In order to be a valid Candidate under Oligarchic Succession, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate [close_family|E] member of the current ruler, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a Theocracy or Republic\n$EFFECT_LIST_BULLET$Be a valid Republican [elector|E] to the title"
+ oligarchy_elective_electors:0 "Ruler and Vassals"
+ oligarchy_elective_electors_tooltip:0 "In order to be a valid [elector|E] under Oligarchic Succession, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$NOT be a Baron"
+
+ equality_elective_candidates:0 "Close Family, Vassals and Claimants"
+ equality_elective_candidates_tooltip:1 "In order to be a valid Candidate under Egalitarian Succession, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate [close_family|E] member of the current ruler, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a Theocracy or Republic\n$EFFECT_LIST_BULLET$Be a valid Republican [elector|E] to the title"
+ equality_elective_electors:0 "Ruler and Vassals"
+ equality_elective_electors_tooltip:0 "In order to be a valid [elector|E] under Egalitarian Succession, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$NOT be a Baron"
+ 
+ CITY_STATE_DUCHY_TITLE_NAME:4 "[capital_province.GetNameNoTierNoTooltip]"
+
+ game_concept_metropolitan_authority:0 "Metropolitan Focus"
+ game_concept_metropolitan_authority_desc:0 "$game_concept_metropolitan_authority$ represents how much admnistrative focus the capital of a [GetGovernment( 'high_republic_government' ).GetName] has when compared to the rest of the [realm|E]."
+
+
+ game_concept_election_span:0 "Term Length"
+ game_concept_election_span_desc:0 "Dictates the $game_concept_election_span$ of the [GetGovernment( 'high_republic_government' ).GetName]."
+
+
+ election_span: "[election_span|E]"
+ election_span_0: "5 Year Term"
+ election_span_1: "10 Years Term"
+ election_span_2: "20 Years Term"
+ election_span_3: "Lifelong Term"
+ ELECTION_LIMIT_IS_ON_COOLDOWN:0 "You recently changed the realm's Term Length. It can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'metropolitan_authority_cooldown') )]"
+ 
+ action_next_election_label:0 "Next Election Approaching"
+ action_next_election:0 "Next Election Approaching"
+ action_next_election_desc: "The next election is scheduled to occur in [GetPlayer.GetTopLiege.MakeScope.Var('election_date_year').GetValue].[GetPlayer.GetTopLiege.MakeScope.Var('election_date_month').GetValue].[GetPlayer.GetTopLiege.MakeScope.Var('election_date_day').GetValue]"
+ action_next_election_click: "#I Click to open [GetPlayer.GetTopLiege.GetPrimaryTitle.GetName] Election Screen#!"
+
+ metropolitan_liege_authority:0 "[metropolitan_authority|E]"
+ metropolitan_liege_authority_0:0 "Peripheral Influence"  
+ metropolitan_liege_authority_1:0 "Regional Prominence"  
+ metropolitan_liege_authority_1_effects:0 "\n[top_liege|E]:\n- [domain_limit|E]: #N -2 #!\n- [vassal_limit|E]: #N -8 #!\n- [domain_taxes|E]: @gold_icon! #P +10% #!\n- [men_at_arms|E] Recruitment Cost: @gold_icon! #P -10% #!\n- [men_at_arms|E] Maintenance Cost: @gold_icon! #P -10% #!\n- Size of [men_at_arms|E] Regiments:  #P +1 #!\n- Max Number of [men_at_arms|E] Regiments:  #P +1 #!\n- Number of @knight_icon! [knights|E]: #P +2 #!\n- [mercenaries|E] Hiring Cost: @gold_icon! #P -10% #!\n- [vassals|E] Opinion: #N -15 #!\n- @knight_icon! Defender [advantage|E] @advantage_icon!: #P +3 #!\n- [levy|E] Size: @soldier_icon! #P +20% #!\n- [development|E] Growth: @development_icon! #P +10% #!\n"  
+ metropolitan_liege_authority_2:0 "Capital-Centric"  
+  metropolitan_liege_authority_2_effects:0 "\n[top_liege|E]:\n- [domain_limit|E]: #N -4 #!\n- [vassal_limit|E]: #N -16 #!\n- [domain_taxes|E]: @gold_icon! #P +30% #!\n- [men_at_arms|E] Recruitment Cost: @gold_icon! #P -30% #!\n- [men_at_arms|E] Maintenance Cost: @gold_icon! #P -30% #!\n- Size of [men_at_arms|E] Regiments:  #P +2 #!\n- Max Number of [men_at_arms|E] Regiments:  #P +2 #!\n- Number of @knight_icon! [knights|E]: #P +4 #!\n- [mercenaries|E] Hiring Cost: @gold_icon! #P -30% #!\n- [vassals|E] Opinion: #N -30 #!\n- @knight_icon! Defender [advantage|E] @advantage_icon!: #P +6 #!\n- [levy|E] Size: @soldier_icon! #P +40% #!\n- [development|E] Growth: @development_icon! #P +30% #!\n- [fort_level|E]: @fort_icon! #P+1#! "  
+ metropolitan_liege_authority_3:0 "Urban Dominion"  
+  metropolitan_liege_authority_3_effects:0 "\n[top_liege|E]:\n- [domain_limit|E]: #N -6 #!\n- [vassal_limit|E]: #N -24 #!\n- [domain_taxes|E]: @gold_icon! #P +50% #!\n- [men_at_arms|E] Recruitment Cost: @gold_icon! #P -50% #!\n- [men_at_arms|E] Maintenance Cost: @gold_icon! #P -50% #!\n- Size of [men_at_arms|E] Regiments:  #P +5 #!\n- Max Number of [men_at_arms|E] Regiments:  #P +3 #!\n- Number of @knight_icon! [knights|E]: #P +3 #!\n- [mercenaries|E] Hiring Cost: @gold_icon! #P -50% #!\n- [vassals|E] Opinion: #N -45 #!\n- @knight_icon! Defender [advantage|E] @advantage_icon!: #P +9 #!\n- [levy|E] Size: @soldier_icon! #P +50% #!\n- [development|E] Growth: @development_icon! #P +50% #!\n- [fort_level|E]: @fort_icon! #P+1#! "  
+ metropolitan_authority:0 "[metropolitan_authority|E]"
+ metropolitan_authority_0:0 "Peripheral Influence"  
+ metropolitan_authority_1:0 "Regional Prominence"  
+ metropolitan_authority_2:0 "Capital-Centric"  
+ metropolitan_authority_3:0 "Urban Dominion"  
+ METROPOLITAN_AUTHORITY_IS_ON_COOLDOWN:0 "You recently changed Metropolitan Authority. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'metropolitan_authority_cooldown') )]"
+
+
+
+
+ TERM_ELECTION_WINDOW_LAW: "[SuccessionElectionWindow.GetTitle.GetHolder.Custom('NextElectionTermCustom')]"
+ nextelectiontermlife: "Next Election: On Liege's Death"
+ nextelectionterm: "Next Election: [SuccessionElectionWindow.GetTitle.GetHolder.MakeScope.Var('election_date_year').GetValue].[SuccessionElectionWindow.GetTitle.GetHolder.MakeScope.Var('election_date_month').GetValue].[SuccessionElectionWindow.GetTitle.GetHolder.MakeScope.Var('election_date_day').GetValue]"
+
+I_HAVE_POWERFUL_VASSAL_WITH_NEGATIVE_OPINION_ELECTIVE:"You have one or more [powerful_vassals|E] who have a negative opinion of you and are blocking all $game_concept_election_span$ changes"
+
+
+
+high_republic_event.0020.t: "The [GetPlayer.GetTopLiege.GetTitleAsNameNoTooltip] Re-Elected: [GetPlayer.GetTopLiege.GetHouse.GetName] Endures"
+high_republic_event.0020.desc: "Once again, [GetPlayer.GetTopLiege.GetTitledFirstNamePossessiveRegnal] mandate is renewed as House [GetPlayer.GetTopLiege.GetHouse.GetName] has once again emerged victorious from the most recent [GetPlayer.GetTopLiege.GetPrimaryTitle.GetNameNoTierPossessive] Election!\n\n[GetPlayer.GetTopLiege.GetHouse.GetName] banners flutter anew over [GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier] - but do they signal stability... or stagnation?"
+
+high_republic_event.0020.a: "The [GetPlayer.GetTopLiege.GetTitleAsNamePossessiveNoTooltip] [GetPlayer.GetTopLiege.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))] shall be rewarded!"
+high_republic_event.0020.b: "I must denounce this regime!"
+high_republic_event.0020.b.flavor: "And prepare to, in the shadows, do more than simply denounce..."
+high_republic_event.0020.c: "Publicly, I support the new [GetPlayer.GetTopLiege.GetTitleAsNameNoTooltip]."
+high_republic_event.0020.c.flavor_high_legit: "Who could do anything but?"
+high_republic_event.0020.c.flavor_low_legit: "Though it will earn me only ridicule."
+high_republic_event.0020.c.flavor_med_legit: "Such fealty is expected."
+high_republic_event.0020.d: "Few opinions have I of my liege."
+high_republic_event.0020.e: "As expected."
+high_republic_event.0020.f: "It is [GetPlayer.GetPrimaryTitle.GetHeir.GetName]'s turn to rule now."
+
+
+ ayllu_government: "Ayllu"
+ ayllu_government_desc: "$game_concept_ayllu_desc$\n\n#F Ayllu refers to a traditional Andean social and economic unit, typically a community or extended family, characterized by shared resources, communal work, and mutual support, within the broader organizational framework of an intricate bureaucratic structure.#!"
+ government_is_ayllu:0 "[government|E] type is [GetGovernment( 'ayllu_government' ).GetName]"
+
+ ayllu_vassal: "Ayllu"
+
+ ayllu_tax_slot: "Tax Jurisdiction"
+ ayllu_tax_slot_add: "$MOD_NUM_TAX_SLOTS$"
+ ayllu_tax_slot_no_tax_collector: "Tax Jurisdiction"
+ ayllu_tax_slot_tax_collector: "Tax Jurisdiction: [character.GetName]"
+ MOD_NUM_TAX_SLOTS: "Available [tax_jurisdictions|E]"
+ tax_jurisdictions: "Tax Jurisdiction"
+ ayllu_government_vassal_opinion:0 "[ayllu|E] [vassal|E] Opinion"
+
+ 
+ ayllu_antagonistic_partition_succession_law: "Antagonistic Succession"
+ ayllu_antagonistic_partition_succession_law_subname: "All Children Inherit Equally"
+ ayllu_antagonistic_partition_succession_law_effects: "\n#V Under $ayllu_antagonistic_partition_succession_law$, your [titles] will be divided equally between your children.#!\n\n[vassals|E] from your [house|E] gain a [claim|E] on your [primary_title|E]#!\n\n#weak $partition_base_desc$#!"
+
+ ayllu_competitive_partition_succession_law: "Competitive Succession"
+ ayllu_competitive_partition_succession_law_subname: "All Children Inherit Equally"
+ ayllu_competitive_partition_succession_law_effects: "\n#V Under $ayllu_competitive_partition_succession_law$, your [titles] will be divided equally between your children.#!\n\n[vassals|E] from your [house|E] gain a [claim|E] on your [primary_title|E]\n\n#weak $partition_base_desc$#!"
+
+ ayllu_impassive_partition_succession_law: "Impassive Succession"
+ ayllu_impassive_partition_succession_law_subname: "All Children Inherit"
+ ayllu_impassive_partition_succession_law_effects: "\n#V Under $ayllu_impassive_partition_succession_law$, the lion's share of [titles] will go to your [player_heir] – the rest will be divided between your children.#!\n\n#weak $partition_base_desc$\n#!The Player Heir will #emp always#! inherit at least a quarter of the late Ruler's Titles.\n#!"
+
+ ayllu_friendly_partition_succession_law: "Friendly Succession"
+ ayllu_friendly_partition_succession_law_subname: "All Children Inherit"
+ ayllu_friendly_partition_succession_law_effects: "\n#V Under $ayllu_friendly_partition_succession_law$, the lion's share of [titles] will go to your [player_heir] – the rest will be divided between your children.#!\n\n#weak $partition_base_desc$\n#!The Player Heir will #emp always#! inherit at least half of the late Ruler's Titles.\n#!"
+
+ ayllu_harmonious_partition_succession_law: "Harmonious Succession"
+ ayllu_harmonious_partition_succession_law_subname: "All Children Inherit"
+ ayllu_harmonious_partition_succession_law_effects: "\n#V Under $ayllu_harmonious_partition_succession_law$, the lion's share of [titles] will go to your [player_heir] – the rest will be divided between your children.#!\n\n#weak $partition_base_desc$\n#!The Player Heir will #emp always#! inherit at least three quarters of the late Ruler's Titles.\n#!"
+
+ kinship_government: "Kinship"
+ kinship_government_desc: "$game_concept_clan_desc$\n\n#F The clan is united by kinship — either by blood or a shared relation with a symbolic ancestor. A clan leader relies heavily on the support of the clan. United, they are a strength to be reckoned with, but a discontent clan withers from within.#!"
+ kinship_government_vassals_label:1 "Kinship [obligations|E] are based on kinship level"
+ kinship_government_obligations:0 "From Kinship"
+ kinship_government_tax_contribution_postfix:0 " (max [FixedPointToProgressbarValue(EmptyScope.ScriptValue('kinship_government_tax_max_possible'))|1V])"
+ kinship_government_levies_contribution_postfix:0 " (max [FixedPointToProgressbarValue(EmptyScope.ScriptValue('kinship_government_levies_max_possible'))|1V])"
+ kinship_government_unclamped_contribution_label:0 "Based on kinship"
+ kinship_government_vassal_opinion:0 "[clan|E] [vassal|E] Opinion"
+ kinship_vassal: "Kinship"
+ kinship_government_min_contribution_label:0 "[crown_authority|E] minimum"
+ 
+ becom_clan_decision: "Become Kinship"
+
+ government_is_kinship:0 "Kinship Government"
+ kinship_level_to_liege:0 "Kinship level to liege"
+ kinship_obligations:0 "Family Obligations"
+ kinship_obligations_base:0 "Family Obligations"
+ family_on_council_modifier:0 "Family on council"
+ 
+ court_kinship_elder_court_position:0 "Family Elder"
+
+ yankee_elective_succession_law:0 "Yankee Elective"
+ yankee_elective_succession_law_subname:0 "Open Meeting"
+ yankee_elective_succession_law_effects:0 "The [ruler|E] and all direct, adult [de_jure|E] vassals of one or two [ranks|E] below the [title|E] can nominate a [title_heir|E] from the most [powerful_vassal|E] amongst them, the ruler's [legitimate|E] children, and any other valid [claimant|E]."
+ culture_parameter_yankee_succession_enabled:0 "Can enact the #high $yankee_elective_succession_law$#! [succession_law|E]"
+ yankee_succession_enabled_name:0 "Town Council"
+ 
+ texan_elective_succession_law:0 "Texan Elective"
+ texan_elective_succession_law_subname:0 "Outing"
+ texan_elective_succession_law_effects:0 "The [ruler|E] and all direct, adult [de_jure|E] vassals of one or two [ranks|E] below the [title|E] can nominate a [title_heir|E] from the most [powerful_vassal|E] amongst them, the ruler's [legitimate|E] children, and any other valid [claimant|E]."
+ culture_parameter_texan_succession_enabled:0 "Can enact the #high $texan_elective_succession_law$#! [succession_law|E]"
+ tradition_the_texan_name:0 "Six Banners"
+
+ micmaq_elective_succession_law:0 "Wabanaki Elective"
+ micmaq_elective_succession_law_subname:0 "Mawiómi"
+ micmaq_elective_succession_law_effects:0 "The [ruler|E] and all [de_jure|E] [vassals|E] (except Barons) can nominate a [title_heir|E] amongst the ruler's [extended_family|E] and any available [claimants|E]. [voting_power|E] in this [succession_law|E] is influenced by the [elector|E]'s total [domain|E] [county_development|E] and [capital|E] [county_opinion|E]."
+ culture_parameter_micmaq_elective_enabled:0 "Can enact the #high $micmaq_elective_succession_law$#! [succession_law|E]"
+ tradition_the_micmaq_name:0 "Band Council"
+ 
+ range_government:0 "Range"
+ range_government_desc:0 "$game_concept_range_desc$\n\n#F Range governments represent post-nomadic societies in which the nobility have rights and responsibilities over land, but no direct land ownership over large regions. Nobles employ sheriffs and deputies to oversee and tax their domains, and vassals may receive special rights to exploit the otherwise open range fields.#!"
+ government_is_range:0 "[government|E] type is [GetGovernment( 'range_government' ).GetName]"
+
+ range_vassal: "Range"
+ 
+ become_range_decision: "Become Range"
+
+ range_tax_slot:0 "Tax Jurisdiction"
+ range_tax_slot_add:0 "$MOD_NUM_TAX_SLOTS$"
+ range_tax_slot_no_tax_collector:0 "Tax Jurisdiction"
+ range_tax_slot_tax_collector:0 "Tax Jurisdiction: [character.GetName]"
+ #MOD_NUM_TAX_SLOTS: "Available [tax_jurisdictions|E]"
+ #tax_jurisdictions: "Tax Jurisdiction"
+ range_government_vassal_opinion:0 "[range|E] [vassal|E] Opinion"
+ range_tax_collector_court_position:0 "Deputy Sheriff"
+ 
+ open_range_tax_collector:0 "Open Range"
+ open_range_tax_collector_flavor_desc:0 "The standard taxation approach that most range administrations utilize, where in exchange for soldiers and horses, little gold is extracted. This system often places no interest in fortifications, non-cavalry forces, or long term growth, being primarily a method to fuel further conquests."
+
+ free_cities_special_rights_tax_collector:0 "Free Cities"
+ free_cities_special_rights_tax_collector_desc:0 "Requirements: the [vassal|E] must have at most one province"
+ free_cities_special_rights_tax_collector_flavor_desc:0 "In exchange for limited conscription, within a free cities system, local rulers are encouraged to maximize trade and income. Mercenaries tend to take on a larger role within realms that employ these more commercially focused taxation schemes."
+ 
+ ranching_special_rights_tax_collector:0 "Ranching Rights"
+ ranching_special_rights_tax_collector_desc:0 "Requirements: the [vassal|E] must have a minimum 40% of easily accessible terrain, such as Farmlands, Prairie, or Plains"
+ ranching_special_rights_tax_collector_flavor_desc:0 "Empowered local rulers are given defined properties and fenced land, mimicking the more organized feudal systems. The standardized titles, grants, and rights tend to make lords within a ranch structure more satisfied compared to other methods of administration."
+
+ plantation_special_rights_tax_collector:0 "Plantation Rights"
+ plantation_special_rights_tax_collector_desc:0 "Requirements: the [vassal|E] must have a minimum 33% of Farmlands or Floodplains terrain"
+ plantation_special_rights_tax_collector_flavor_desc:0 "In exchange for reduced conscription drives in times of war, local rulers are encouraged to employ the idle workforce in major farms specializing in cash crops. While not every type of soil is suitable for intensive year-round farming, these plantations often provide an increased tax output for the local administrator and their liege."
+ irrigation_special_rights_tax_collector:0 "Irrigation Rights"
+ irrigation_special_rights_tax_collector_desc:0 "Requirements: the [vassal|E] must have a minimum 60% of Deserts, Desert Mountains, Floodplains, Oasis, or Drylands terrain"
+ irrigation_special_rights_tax_collector_flavor_desc:0 "Part of the local workforce is allocated to work on great waterworks, which will greatly improve the produtivity and prosperity of arid lands."
+ 
+ prospection_special_rights_tax_collector:0 "Prospection Rights"
+ prospection_special_rights_tax_collector_desc:0 "Requirements: the [vassal|E] must have a minimum 40% of Forests, Taiga, Jungle, Deep Jungle, Hills, Mountains, or Desert Mountains terrain"
+ prospection_special_rights_tax_collector_flavor_desc:0 "The restrictions on land usage are further dimished, allowing prospectors, enterpreneus and adventurers to take their chances and exploit the local riches. The increased revenue is balanced by diminished control as opportunists flock to these lands."
+ 
+ nature_reserve_special_rights_tax_collector:0 "Nature Reserve"
+ nature_reserve_special_rights_tax_collector_desc:0 "Requirements: the [vassal|E] must have a minimum 50% of Forests, Taiga, Jungle, Deep Jungle, Hills, Mountains, or Desert Mountains terrain"
+ nature_reserve_special_rights_tax_collector_flavor_desc:0 "No tree or rock might be moved in these awe-inspiring natural landscapes so all might be blessed to contemplate them for centuries to come."
+ 
+ convert_whole_realm_to_range_decision:0 "Convert Realm to Range"
+ convert_whole_realm_to_range_decision_desc:0 "For [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] to keep expanding and developing we must leave the old ways behind and adopt a new method of governance, together."
+ convert_whole_realm_to_range_decision_tooltip:0 "You adopt Range government"
+ convert_whole_realm_to_range_decision_confirm:0 "It's time"
+ 
+ major_decisions.0007.t:0 "A New Era"
+ major_decisions.0007.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt range and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
+ major_decisions.0007.a:0 "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+
+ 
+ perform_a_coup_d_etat:0 "End Republican Governance!"
+ perform_a_coup_d_etat_desc:0 "Republican institutions only limit our potential. We must fully centralize the state around one person: me!"
+ perform_a_coup_d_etat_tooltip:0 "You adopt Feudal government with maximum crown authority"
+ perform_a_coup_d_etat_confirm:0 "This is how republics die: with thunderous applause!"
+ max_authority_level:0 "Have the maximum [crown_authority|E] law for your [government|E]"
+
+ technocracy_succession_election_law_effects:0 "\nA Technocracy is a system where [rulers|E] are expected to have a high level of scientific or technical knowledge. Candidates are often specialists on their field or have an academic background.\n\n$EFFECT_LIST_BULLET$Candidates with [education|E]-related traits, as well as [diplomacy|E], [learning|E] and [stewardship|E] levels, have better chances on this system.\n$EFFECT_LIST_BULLET$Electors must be a [count|E]-level or above de jure [vassal|E] of the [title|E] being voted on."
+ technocracy_elective_succession_law_effects:0 "$technocracy_succession_election_law_effects$"
+
+ paternalism_succession_election_law_effects:0 "\nOn a Monarchical Elective system, [family|E] ties matter the most. Electors tend to vote on candidates from their own [dynasties|E] in order to advance their interests, while power and influence are inclined to concentrate on a single line for generations. In the eyes of some, this is no different from a monarchy in all but name.\n\n$EFFECT_LIST_BULLET$Voters are expected to chose a candidate from within their close or extended [family|E].\n$EFFECT_LIST_BULLET$Electors must be a [count|E]-level or above de jure [vassal|E] of the [title|E] being vote on."
+ paternalism_elective_succession_law_effects:0 "$paternalism_succession_election_law_effects$"
+
+ stratocracy_succession_election_law_effects:0 "\nOn a stratocratic system, might makes power: The public has entrusted the army to guide the elections. Although not explicitly a military dictatorship, candidates tend to come exclusively from the officer class, with civilians often occupying second-tier posts in the administration. During Election Day, there's always the possibility of a lord deploying their loyal troops on the streets, just to ensure that the electors vote for the #italic right #!candidate...\n\n$EFFECT_LIST_BULLET$Candidates possessing larger numbers of troops, [knights|E] and [martial|E] bonuses and [traits|E] have better chances on this system.\n$EFFECT_LIST_BULLET$Electors must be a [count|E]-level or above de jure [vassal|E] of the [title|E] being voted on."
+ stratocracy_elective_succession_law_effects:0 "$stratocracy_succession_election_law_effects$"
+
+ theodemocracy_succession_election_law_effects:0 "\nA theodemocratic or hierocratic system draws its legitimacy from the clergy. By combining elements from theocratic states and pre-[Concept('the_event_ate','Event')|E] democracies, we ensure that only the most pious are eligible to office.\n\n$EFFECT_LIST_BULLET$Candidates with high [piety|E], [learning|E] [education|E] and [virtuous|E] [traits|E] have better chances on this system.\n$EFFECT_LIST_BULLET$Electors must be a [count|E]-level or above de jure [vassal|E] of the [title|E] being voted on." 
+ theodemocracy_elective_succession_law_effects:0 "$theodemocracy_succession_election_law_effects$"
+
+ populism_succession_election_law_effects:0 "\nDrawing from the Democracies of old, a populist system favors the most charismatic and prestigious candidates, as well as those capable of better articulating their views to the overall public. Electoral campaigns often incorporate elements such as speeches, rallies and debates, which serve to illustrate the populace on each candidate's proposals and promises.\n\n$EFFECT_LIST_BULLET$High [prestige|E] and [diplomacy|E]-focused candidates have better chances on this system.\n$EFFECT_LIST_BULLET$Electors must be a [count|E]-level or above de jure [vassal|E] of the [title|E] being voted on."
+ populism_elective_succession_law_effects:0 "$populism_succession_election_law_effects$"
+
+ oligarchy_succession_election_law_effects:0 "\nTradition and stability are the basis of an oligarchic republic. This system favors the traditional landed gentry, their rights and privileges, to the detriment of other classes.\n\n$EFFECT_LIST_BULLET$Higher tiered [title|E] holders have better chances on this system.\n$EFFECT_LIST_BULLET$Electors must be a [count|E]-level or above de jure [vassal|E] of the [title|E] being voted on."
+ oligarchy_elective_succession_law_effects:0 "$oligarchy_succession_election_law_effects$"
+
+ plutocracy_succession_election_law_effects:0 "\nOn a plutocratic republic, the electoral system has abandoned the farce of prestigious and charismatic candidates. The electoral process instead focus on what really matters: How much [gold|E] a candidate is willing to invest in their campaign. Some even say this is a more accurate depiction of the pre-[Concept('the_event_ate','Event')|E] democracies...\n\n$EFFECT_LIST_BULLET$High [income|E] and [stewardship|E]-focused candidates have better chances on this system.\n$EFFECT_LIST_BULLET$Electors must be a [count|E]-level or above de jure [vassal|E] of the [title|E] being voted on."
+ plutocracy_elective_succession_law_effects:0 "$plutocracy_succession_election_law_effects$"
+
+ kleptocracy_succession_election_law_effects:0 "\nFear, intrigue and subterfuge make an intrinsic part of the political life in this Republic. While a façade of Democracy remains visible to the general public, the electoral system rests on a complex web of backroom deals, bribes, secrets and constant surveillance.\n\n$EFFECT_LIST_BULLET$Candidates with higher [intrigue|E] levels have better chances on this system.\n$EFFECT_LIST_BULLET$Electors must be a [count|E]-level or above de jure [vassal|E] of the [title|E] being voted on."
+ kleptocracy_elective_succession_law_effects:0 "$kleptocracy_succession_election_law_effects$"
+ 
+ doctrine_parameter_can_form_republic:0 "Can adopt a [GetGovernment( 'high_republic_government' ).GetName] government"
+ culture_parameter_can_form_republic:0 "Can adopt a [GetGovernment( 'high_republic_government' ).GetName] government"
+ can_form_republic_name:0 "Doctrine or tradition allows the adoption of [GetGovernment( 'high_republic_government' ).GetName] government"
+ culture_parameter_can_form_city_states:0 "Can adopt a [GetGovernment( 'high_republic_government' ).GetName] government"
+ 
+ doctrine_parameter_supports_stratocracy:0 "Can adopt Stratocratic succession at a discounted cost"
+ doctrine_parameter_supports_kleptocracy:0 "Can adopt Cut-throat succession at a discounted cost"
+ doctrine_parameter_supports_theodemocracy:0 "Can adopt Hierocratic succession at a discounted cost"
+ culture_parameter_supports_stratocracy:0 "Can adopt Stratocratic succession at a discounted cost"
+ culture_parameter_supports_kleptocracy:0 "Can adopt Cut-throat succession at a discounted cost"
+ culture_parameter_supports_theodemocracy:0 "Can adopt Hierocratic succession at a discounted cost"
+
+ culture_parameter_supports_theodemocracy:0 "Can adopt Hierocratic succession at a discounted cost"
+
+ culture_parameter_supports_theodemocracy:0 "Can adopt Hierocratic succession at a discounted cost"
+
+ game_concept_authority: "Authority"
+ game_concept_authority_desc: "$game_concept_authority$ represents the general power that a [ruler|E] wields over their [vassals|E].\n\nThere are multiple $game_concept_authority$ types present in the game; [crown_authority|E], [tribal_authority|E], [nomadic_authority|E], [court_authority|E], [executive_authority|E], [bureaucracy_authority|E], [metropolitan_authority|E], and [federal_authority|E]."
+
+ range_liege_vassals_will_convert: "As my [liege|E] has a [range_government|E], my [tribal|E] vassals will become $game_concept_range$"
+
+ high_republic_liege_vassals_will_convert: "As my [liege|E] has a [high_republic_government|E], my [tribal|E] vassals will become $game_concept_high_republic$"
+
+ kinship_liege_vassals_will_convert: "As my [liege|E] has a [kinship_government|E], my [tribal|E] vassals will become $game_concept_kinship$"
+
+ state_bureaucracy_liege_vassals_will_convert: "As my [liege|E] has a [state_bureaucracy_government|E], my [tribal|E] vassals will become $game_concept_state_bureaucracy$"
+
+ imperial_liege_vassals_will_convert: "As my [liege|E] has a [imperial_government|E], my [tribal|E] vassals will become $game_concept_imperial$"
+
+ ayllu_liege_vassals_will_convert: "As my [liege|E] has a [ayllu_government|E], my [tribal|E] vassals will become $game_concept_ayllu$"
+
+##############
+# USA Empire #
+##############
+
+ custom_old_usa: "Old America"
+
+ federal_government: "Federal"
+ federal_government_desc: "$game_concept_federal_desc$\n\n#F The Federal Government is the supreme institution holding the United States of America together. Upon the death of the President, an election will be held to replace them. However, if there is currently a Vice President, the Vice President will assume the Presidency.#!"
+ federal_government_adjective: "Federal"
+ federal_government_realm: "The United States"
+ government_is_federal:0 "[government|E] type is [GetGovernment( 'federal_government' ).GetName]"
+
+
+ game_concept_federal_authority: "DEFCON Level"
+ game_concept_federal_authority_desc: "The $game_concept_federal_authority$ describes how much power the President is allowed to wield."
+ federal_authority: "[federal_authority|E]"
+
+ federal_authority_0: "DEFCON 5"
+ federal_authority_0_effects_not_in_prev:0 "#weak Vassals provide [levies|E] and [taxes|E], but are otherwise free to do as they wish#!"
+
+ federal_authority_1: "DEFCON 4"
+ federal_authority_1_effects:1 "$EFFECT_LIST_BULLET$[vassals|E] cannot wage [war|E] against other Vassals unless they use a [hook|E] on their [liege|E]\n$EFFECT_LIST_BULLET$[vassals|E] can be retracted"
+
+ federal_authority_2: "DEFCON 3"
+ federal_authority_2_effects:3 "$EFFECT_LIST_BULLET$All Vassals who refuse Vassal retraction are considered [criminals|E]"
+
+ federal_authority_3: "DEFCON 2"
+ federal_authority_3_effects:1 "$EFFECT_LIST_BULLET$[vassals|E] cannot wage any [war|E] unless they use a [hook|E] on their [liege|E]"
+
+ federal_authority_4: "DEFCON 1"
+ federal_authority_4_effects:1 "$EFFECT_LIST_BULLET$[titles|E] can be revoked\n$EFFECT_LIST_BULLET$Rulers can designate their [heir|E] or appoint a [vice_president|E]"
+
+ federal_tax_slot: "Department Jurisdiction"
+ federal_tax_slot_add: "$MOD_NUM_TAX_SLOTS$"
+ federal_tax_slot_no_tax_collector: "Department Jurisdiction"
+ federal_tax_slot_tax_collector: "Department Jurisdiction: [character.GetName]"
+
+ treasury_department_tax_collector:0 "Treasury Department"
+ state_department_tax_collector:0 "State Department"
+ justice_department_tax_collector:0 "Justice Department"
+ defense_department_tax_collector:0 "Defense Department"
+ security_department_tax_collector:0 "Homeland Security Department"
+
+ treasury_department_tax_collector_flavor_desc:0 "The dominant Department within the Federal Government, the Department of the Treasury's primary interest is in collecting tax revenues."
+
+ state_department_tax_collector_flavor_desc:0 "Likely the most prominent Department within the Federal Government, the Department of State is tasked with managing relations with foreign realms."
+
+ justice_department_tax_collector_flavor_desc:0 "Tasked with enforcing the law, the Department of Justice theoretically has power over all the other Departments in the Federal Government."
+
+ defense_department_tax_collector_flavor_desc:0 "The Department of Defense is responsible for the maintenance, organization, and potential deployment of the military forces of the Federal Government.\n\n#emphasis #bold [vassal|E] Privilege:#!#!\nThe [vassals|E] under this Department will gain the Manifest Destiny [casus_belli|E] on rulers in the [GetGeographicalRegion('custom_old_usa').GetName] [region|E]"
+ 
+ security_department_tax_collector_flavor_desc:0 "The Department of Homeland Security is the Department responsible for ensuring the stability of the Federal Government, from threats both foreign and domestic."
+
+ treasury_department_tax_collector_short:0 "USDT"
+ state_department_tax_collector_short:0 "DOS"
+ justice_department_tax_collector_short:0 "DOJ"
+ defense_department_tax_collector_short:0 "DOD"
+ security_department_tax_collector_short:0 "DHS"
+
+ vice_president_court_position:1 "Vice President"
+ vice_president_court_position_desc: "When the President passes away, the $vice_president_court_position$ will assume the Presidency."
+ vice_president_employer_custom_effect_description:1 "$BULLET$The $vice_president_court_position$ is the designated [heir|E] to the Presidency."
+ 
+ I_LACK_LAW_ALLOWING_TITLE_REVOCATION:0 "Authority does not allow you to [revoke|E] [titles|E]"
+ LIEGE_LACKS_LAW_ALLOWING_TITLE_REVOCATION:0 "Authority does not allow your [liege|E] to [revoke|E] [titles|E]"
+
+ I_LACK_LAW_ALLOWING_TITLE_REVOCATION_FEDERAL:1 "[federal_authority|E] does not allow you to [revoke|E] [titles|E]"
+ LIEGE_LACKS_LAW_ALLOWING_TITLE_REVOCATION_FEDERAL:0 "[federal_authority|E] does not allow your [liege|E] to [revoke|E] [titles|E]"
+
+ I_LACK_LAW_ALLOWING_TITLE_REVOCATION_REPUBLIC:1 "Executive Authority does not allow you to [revoke|E] [titles|E]"
+ LIEGE_LACKS_LAW_ALLOWING_TITLE_REVOCATION_REPUBLIC:1 "Executive Authority does not allow your [liege|E] to [revoke|E] [titles|E]"
+
+ I_LACK_LAW_ALLOWING_TITLE_SUCCESSION_NOMADIC:1 "You do not have Low Nomadic Authority or better"
+ I_LACK_LAW_ALLOWING_TITLE_SUCCESSION_EXECUTIVE:1 "You do not have Low Executive Authority or better"
+ I_LACK_LAW_ALLOWING_TITLE_SUCCESSION_COURT:1 "You do not have Balanced Court"
+ I_LACK_LAW_ALLOWING_TITLE_SUCCESSION_FEDERAL:1 "You do not have [federal_authority|E] 4 or higher"
+
+
+ federal_government_obligations:0 "[GetGovernment( 'federal_government' ).GetName] [obligations|E]"
+ federal_obligation_low:3 "Low $federal_government_obligations$"
+ federal_obligation_low_short:0 "Low"
+ federal_obligation_normal:3 "Normal $federal_government_obligations$"
+ federal_obligation_normal_short:0 "Normal"
+ federal_obligation_high:3 "High $federal_government_obligations$"
+ federal_obligation_high_short:0 "High"
+
+ federal_government_taxes:2 "[GetGovernment( 'federal_government' ).GetNameNoTooltip] [taxes|U]"
+ federal_tax_exempt:0 "[tax|E] Exempt"
+ federal_tax_exempt_short:0 "Exempt"
+ federal_tax_miniscule:0 "Miniscule $game_concept_taxes$"
+ federal_tax_miniscule_short:0 "Miniscule"
+ federal_tax_low:0 "Low $game_concept_taxes$"
+ federal_tax_low_short:0 "Low"
+ federal_tax_normal:0 "Normal $game_concept_taxes$"
+ federal_tax_normal_short:0 "Normal"
+ federal_tax_high:0 "High $game_concept_taxes$"
+ federal_tax_high_short:0 "High"
+ federal_tax_extortionate:0 "Extortionate $game_concept_taxes$"
+ federal_tax_extortionate_short:0 "Extortionate"
+
+ federal_government_levies:2 "[GetGovernment( 'federal_government' ).GetNameNoTooltip] [levies|U]"
+ federal_levies_exempt:0 "No Contribution"
+ federal_levies_exempt_short:0 "None"
+ federal_levies_miniscule:0 "Miniscule $game_concept_levy$"
+ federal_levies_miniscule_short:0 "Miniscule"
+ federal_levies_low:0 "Low $game_concept_levy$ Contribution"
+ federal_levies_low_short:0 "Low"
+ federal_levies_normal:0 "Normal $game_concept_levy$ Contribution"
+ federal_levies_normal_short:0 "Normal"
+ federal_levies_high:0 "High $game_concept_levy$ Contribution"
+ federal_levies_high_short:0 "High"
+ federal_levies_extortionate:0 "Massive $game_concept_levy$ Contribution"
+ federal_levies_extortionate_short:0 "Massive"
+
+ presidential_election_succession_law:0 "Presidential Election"
+ presidential_election_electors:0 "Electoral College"
+ presidential_election_electors_tooltip:0 "In order to be a valid elector for Presidential Elections, a character must fulfill the following conditions:\n$EFFECT_LIST_BULLET$Be a [direct_vassal|E] of the current ruler.\n$EFFECT_LIST_BULLET$Hold a [kingdom|E]-tier title in the [GetGeographicalRegion('custom_old_usa').GetName] [region|E]."
+ presidential_election_candidates:0 "Presidential Candidates"
+ presidential_election_candidates_tooltip:0 "In order to be a valid Candidate for Presidential Elections, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a [direct_vassal|E] of the current ruler and hold a [duchy|E] or [kingdom|E]-tier title in the [GetGeographicalRegion('custom_old_usa').GetName] [region|E].\n$EFFECT_LIST_BULLET$Be an [independent|E] [de_jure|E] [vassal|E] of the current ruler and hold a [duchy|E] or [kingdom|E]-tier title.\n$EFFECT_LIST_BULLET$Be a legitimate member of the ruler's [extended_family|E], who is not in line to inherit a Theocracy or Republic."
+ presidential_election_succession_election_law:0 "Original Electoral College"
+ presidential_election_succession_election_law_effects:0 "\nThe ancient customs of the Electoral College will be used for the Presidential Election."
+ presidential_election_succession_law_effects:0 "$presidential_election_succession_election_law_effects$"
+
+ presidential_election_reformed_succession_law:0 "Reformed Presidential Election"
+ presidential_election_reformed_electors:0 "College of Electors"
+ presidential_election_reformed_electors_tooltip:0 "In order to be a valid elector for Reformed Presidential Elections, a character must fulfill the following condition:\n$EFFECT_LIST_BULLET$Be a [de_jure|E] [direct_vassal|E] of the current ruler."
+ presidential_election_reformed_candidates:0 "Presidential Candidates"
+ presidential_election_reformed_candidates_tooltip:0 "In order to be a valid Candidate for Presidential Elections, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a [direct_vassal|E] of the current ruler and hold a [duchy|E] or [kingdom|E]-tier title in the [GetGeographicalRegion('custom_old_usa').GetName] [region|E].\n$EFFECT_LIST_BULLET$Be an [independent|E] [de_jure|E] [vassal|E] of the current ruler and hold a [duchy|E] or [kingdom|E]-tier title.\n$EFFECT_LIST_BULLET$Be a legitimate member of the ruler's [extended_family|E], who is not in line to inherit a Theocracy or Republic."
+ presidential_election_reformed_succession_election_law:0 "Reformed Electoral College"
+ presidential_election_reformed_succession_election_law_effects:0 "\nThe Electoral College will follow reformed rules, reflecting the current population, for the Presidential Election."
+ presidential_election_reformed_succession_law_effects:0 "$presidential_election_succession_election_law_effects$"
+
+ gubernatorial_election_succession_law:0 "Gubernatorial Election"
+ gubernatorial_election_electors:0 "Senators"
+ gubernatorial_election_electors_tooltip:0 "In order to be a valid elector for Gubernatorial Elections, a character must fulfill the following conditions:\n$EFFECT_LIST_BULLET$Be a [de_jure|E] [vassal|E] of the title.\n$EFFECT_LIST_BULLET$Be a [vassal|E] of the [holder|E] of the title."
+ gubernatorial_election_candidates:0 "Gubernatorial Candidates"
+ gubernatorial_election_candidates_tooltip:0 "In order to be a valid Candidate for Gubernatorial Elections, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a [de_jure|E] [vassal|E] of the title.\n$EFFECT_LIST_BULLET$Be a legitimate member of the ruler's [extended_family|E], who is neither [landed|E] nor line to inherit a Theocracy or Republic."
+
+ gubernatorial_election_succession_election_law:0 "State"
+ gubernatorial_election_succession_election_law_effects:0 "\nThe State is reponsible for overseeing all elections."
+ gubernatorial_election_succession_law_effects:0 "$gubernatorial_election_succession_election_law_effects$"
+
+ senatorial_election_succession_law:0 "Senatorial Election"
+ senatorial_election_electors:0 "Representatives"
+ senatorial_election_electors_tooltip:0 "In order to be a valid elector for Senatorial Elections, a character must fulfill the following conditions:\n$EFFECT_LIST_BULLET$Be a [de_jure|E] [vassal|E] of the title.\n$EFFECT_LIST_BULLET$Be a [vassal|E] of the [holder|E] of the title."
+ senatorial_election_candidates:0 "Senate Candidates"
+ senatorial_election_candidates_tooltip:0 "In order to be a valid Candidate for Senatorial Elections, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a [de_jure|E] [vassal|E] of the title.\n$EFFECT_LIST_BULLET$Be a legitimate member of the ruler's [extended_family|E], who is neither [landed|E] nor line to inherit a Theocracy or Republic."
+
+ senatorial_election_succession_election_law:0 "Local"
+ senatorial_election_succession_election_law_effects:0 "\nLocal Representatives are responsible for the elections."
+ senatorial_election_succession_law_effects:0 "$senatorial_election_succession_election_law_effects$"
+
+ tooltip_federal_elector_vote_other_dynasty: "[candidate.GetSheHe|U] is of a different [dynasty|E] than [holder.GetShortUIName]: $VALUE|=+0$"
+ tooltip_federal_elector_vote_relative: "[candidate.GetSheHe|U] is from the same [dynasty|E] as [holder.GetShortUIName]: $VALUE|=+0$"
+ tooltip_federal_elector_vote_close_relative: "[candidate.GetSheHe|U] is from the same [house|E] as [holder.GetShortUIName]: $VALUE|=+0$"
+ tooltip_federal_elector_vote_state: "[candidate.GetSheHe|U] is a Governor: $VALUE|=+0$"
+ tooltip_federal_elector_vote_vice_president: "[candidate.GetSheHe|U] is the Vice President: $VALUE|=+0$"
+
+ FEDERAL_AUTHORITY_IS_ON_COOLDOWN:2 "You recently changed DEFCON Level. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'federal_authority_cooldown') )]"
+
+ # Electoral Votes
+ num_electoral_votes_desc:0 "Electors: $VALUE|=+0$"
+
+ tooltip_federal_vote_strength_baronies:0 "Backing of the Barons: $VALUE|=+0$"
+ tooltip_federal_vote_strength_development:0 "Population Size: $VALUE|=+0$"
+ tooltip_federal_vote_strength_parliament:0 "$tooltip_feudal_vote_strength_parliament$"
+
+ # Petition for State
+ petition_liege.0101.t.title_create_state:0 "$petition_liege_header$ Restore State"
+ petition_liege.0101.desc.title_create_state:0 "I control the territory of the old [state_title.GetName], and respectfully request that you issue an Executive Order restoring the Kingdom and granting it to me." \n\n"My [petition_liege.GetLadyLord], as President of the [petition_liege.GetPrimaryTitle.GetName], you have a sacred duty to restore all of the Old States.""
+ petition_liege.0101.accept.title_create_state:0 "Very well, the [state_title.GetTierAsNameNoTooltip|l] is yours."
+ petition_liege.0101.bribe_gold.title_create_state:0 "How much is the State worth to you?"
+ petition_liege.0101.bribe_favor.title_create_state:0 "I would not soon forget the debt owed to me."
+ petition_liege.0101.bribe_factions.title_create_state:0 "I could issue the order, but I expect your loyalty."
+ petition_liege.0101.bribe_contract.title_create_state:0 "This title comes with greater dues."
+ petition_liege.0101.refusal.title_create_state:0 "The [state_title.GetNameNoTierNoTooltip] will be restored eventually, but the time has not yet arrived."
+ petition_liege.0201.desc.title_create_state:0 "\n\nI respectfully assert my request for an Executive Order that restores the [state_title.GetName] and grants it to me, and await the [petition_liege.GetTitleAsNamePossessiveNoTooltip] reply."
+ petition_liege.0201.desc.title_create_state_bridge:1 "\n\nAfter listening to the speech, [petition_liege.GetSheHe] nods and states "Absolutely, Governor. I shall issue the Executive Order immediately.""
+ petition_liege.9001.title_create_state:0 "Restore a State."
+
+ doctrine_parameter_can_form_feudal:0 "Can adopt a [GetGovernment( 'feudal_government' ).GetName] government"
+ culture_parameter_can_form_feudal:0 "Can adopt a [GetGovernment( 'feudal_government' ).GetName] government"
+ can_form_feudal_name:0 "Doctrine or tradition allows the adoption of [GetGovernment( 'feudal_government' ).GetName] government"
+ doctrine_parameter_can_form_range:0 "Can adopt a [GetGovernment( 'range_government' ).GetName] government"
+ culture_parameter_can_form_range:0 "Can adopt a [GetGovernment( 'range_government' ).GetName] government"
+ can_form_range_name:0 "Doctrine or tradition allows the adoption of [GetGovernment( 'range_government' ).GetName] government"
+ doctrine_parameter_can_form_clan:0 "Can adopt a [GetGovernment( 'kinship_government' ).GetName] government"
+ culture_parameter_can_form_clan:0 "Can adopt a [GetGovernment( 'kinship_government' ).GetName] government"
+ can_form_clan_name:0 "Doctrine or tradition allows the adoption of [GetGovernment( 'kinship_government' ).GetName] government"
+ doctrine_parameter_can_form_imperial:0 "Can adopt a [GetGovernment( 'imperial_government' ).GetName] government"
+ culture_parameter_can_form_imperial:0 "Can adopt a [GetGovernment( 'imperial_government' ).GetName] government"
+ can_form_imperial_name:0 "Doctrine or tradition allows the adoption of [GetGovernment( 'imperial_government' ).GetName] government"
+ doctrine_parameter_can_form_state_bureaucracy:0 "Can adopt a [GetGovernment( 'state_bureaucracy_government' ).GetName] government"
+ culture_parameter_can_form_state_bureaucracy:0 "Can adopt a [GetGovernment( 'state_bureaucracy_government' ).GetName] government"
+ can_form_state_bureaucracy_name:0 "Doctrine or tradition allows the adoption of [GetGovernment( 'state_bureaucracy_government' ).GetName] government"
+ doctrine_parameter_can_form_ayllu:0 "Can adopt a [GetGovernment( 'ayllu_government' ).GetName] government"
+ culture_parameter_can_form_ayllu:0 "Can adopt a [GetGovernment( 'ayllu_government' ).GetName] government"
+ can_form_ayllu_name:0 "Doctrine or tradition allows the adoption of [GetGovernment( 'ayllu_government' ).GetName] government"
+
+ special_doctrine_is_range_faith_name:0 "Free Range doctrine"
+ 
+ convert_whole_realm_to_clan_decision:0 "Convert Realm to Kinship"
+ convert_whole_realm_to_clan_decision_desc:0 "For [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] to keep expanding and developing we must leave the old ways behind and adopt a new method of governance, together."
+ convert_whole_realm_to_clan_decision_tooltip:0 "You adopt Kinship government"
+ convert_whole_realm_to_clan_decision_confirm:0 "It's time"
+ 
+ convert_whole_realm_to_feudal_decision:0 "Convert Realm to Feudal"
+ convert_whole_realm_to_feudal_decision_desc:0 "For [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] to keep expanding and developing we must leave the old ways behind and adopt a new method of governance, together."
+ convert_whole_realm_to_feudal_decision_tooltip:0 "You adopt Feudal government"
+ convert_whole_realm_to_feudal_decision_confirm:0 "It's time"
+ 
+ convert_whole_realm_to_high_republic_decision:0 "Convert Realm to High Republic"
+ convert_whole_realm_to_high_republic_decision_desc:0 "For [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] to keep expanding and developing we must leave the old ways behind and adopt a new method of governance, together."
+ convert_whole_realm_to_high_republic_decision_tooltip:0 "You adopt High Republic government"
+ convert_whole_realm_to_high_republic_decision_confirm:0 "It's time"
+ 
+ convert_whole_realm_to_imperial_decision:0 "Convert Realm to Imperial Bureaucracy"
+ convert_whole_realm_to_imperial_decision_desc:0 "For [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] to keep expanding and developing we must leave the old ways behind and adopt a new method of governance, together."
+ convert_whole_realm_to_imperial_decision_tooltip:0 "You adopt Imperial Bureaucracy government"
+ convert_whole_realm_to_imperial_decision_confirm:0 "It's time"
+ 
+ convert_whole_realm_to_state_bureaucracy_decision:0 "Convert Realm to Eurekan Bureaucracy"
+ convert_whole_realm_to_state_bureaucracy_decision_desc:0 "For [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] to keep expanding and developing we must leave the old ways behind and adopt a new method of governance, together."
+ convert_whole_realm_to_state_bureaucracy_decision_tooltip:0 "You adopt Eurekan Bureaucracy government"
+ convert_whole_realm_to_state_bureaucracy_decision_confirm:0 "It's time"
+ 
+ convert_whole_realm_to_ayllu_decision:0 "Convert Realm to Ayllu"
+ convert_whole_realm_to_ayllu_decision_desc:0 "For [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] to keep expanding and developing we must leave the old ways behind and adopt a new method of governance, together."
+ convert_whole_realm_to_ayllu_decision_tooltip:0 "You adopt Ayllu government"
+ convert_whole_realm_to_ayllu_decision_confirm:0 "It's time"
+ 
+ convert_whole_realm_to_range_liege_converted_decision:0 "Convert Realm to Range"
+ convert_whole_realm_to_range_liege_converted_decision_desc:0 "For [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] to keep expanding and developing we must leave the old ways behind and adopt a new method of governance, together."
+ convert_whole_realm_to_range_liege_converted_decision_tooltip:0 "You adopt Range government"
+ convert_whole_realm_to_range_liege_converted_decision_confirm:0 "It's time"
+ 
+ convert_whole_realm_to_clan_liege_converted_decision:0 "Convert Realm to Kinship"
+ convert_whole_realm_to_clan_liege_converted_decision_desc:0 "For [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] to keep expanding and developing we must leave the old ways behind and adopt a new method of governance, together."
+ convert_whole_realm_to_clan_liege_converted_decision_tooltip:0 "You adopt Kinship government"
+ convert_whole_realm_to_clan_liege_converted_decision_confirm:0 "It's time"
+ 
+ convert_whole_realm_to_feudal_liege_converted_decision:0 "Convert Realm to Feudal"
+ convert_whole_realm_to_feudal_liege_converted_decision_desc:0 "For [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] to keep expanding and developing we must leave the old ways behind and adopt a new method of governance, together."
+ convert_whole_realm_to_feudal_liege_converted_decision_tooltip:0 "You adopt Feudal government"
+ convert_whole_realm_to_feudal_liege_converted_decision_confirm:0 "It's time"
+ 
+ convert_whole_realm_to_high_republic_liege_converted_decision:0 "Convert Realm to High Republic"
+ convert_whole_realm_to_high_republic_liege_converted_decision_desc:0 "For [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] to keep expanding and developing we must leave the old ways behind and adopt a new method of governance, together."
+ convert_whole_realm_to_high_republic_liege_converted_decision_tooltip:0 "You adopt High Republic government"
+ convert_whole_realm_to_high_republic_liege_converted_decision_confirm:0 "It's time"
+ 
+ convert_whole_realm_to_imperial_liege_converted_decision:0 "Convert Realm to Imperial Bureaucracy"
+ convert_whole_realm_to_imperial_liege_converted_decision_desc:0 "For [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] to keep expanding and developing we must leave the old ways behind and adopt a new method of governance, together."
+ convert_whole_realm_to_imperial_liege_converted_decision_tooltip:0 "You adopt Imperial Bureaucracy government"
+ convert_whole_realm_to_imperial_liege_converted_decision_confirm:0 "It's time"
+ 
+ convert_whole_realm_to_state_bureaucracy_liege_converted_decision:0 "Convert Realm to Eurekan Bureaucracy"
+ convert_whole_realm_to_state_bureaucracy_liege_converted_decision_desc:0 "For [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] to keep expanding and developing we must leave the old ways behind and adopt a new method of governance, together."
+ convert_whole_realm_to_state_bureaucracy_liege_converted_decision_tooltip:0 "You adopt Eurekan Bureaucracy government"
+ convert_whole_realm_to_state_bureaucracy_liege_converted_decision_confirm:0 "It's time"
+ 
+ convert_whole_realm_to_ayllu_liege_converted_decision:0 "Convert Realm to Ayllu"
+ convert_whole_realm_to_ayllu_liege_converted_decision_desc:0 "For [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] to keep expanding and developing we must leave the old ways behind and adopt a new method of governance, together."
+ convert_whole_realm_to_ayllu_liege_converted_decision_tooltip:0 "You adopt Ayllu government"
+ convert_whole_realm_to_ayllu_liege_converted_decision_confirm:0 "It's time"
+ 
+ convert_to_range.0001.t:0 "A New Era"
+ convert_to_range.0001.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt Range government and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
+ convert_to_range.0001.a:0 "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ convert_to_range.0002.t:0 "A New Era"
+ convert_to_range.0002.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt Range government and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
+ convert_to_range.0002.a:0 "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ 
+ convert_to_feudal.0001.t:0 "A New Era"
+ convert_to_feudal.0001.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt Feudal government and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
+ convert_to_feudal.0001.a:0 "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ convert_to_feudal.0002.t:0 "A New Era"
+ convert_to_feudal.0002.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt Feudal government and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
+ convert_to_feudal.0002.a:0 "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+
+ convert_to_clan.0001.t:0 "A New Era"
+ convert_to_clan.0001.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt Kinship government and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
+ convert_to_clan.0001.a:0 "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ convert_to_clan.0002.t:0 "A New Era"
+ convert_to_clan.0002.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt Kinship government and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
+ convert_to_clan.0002.a:0 "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+
+ convert_to_high_republic.0001.t:0 "A New Era"
+ convert_to_high_republic.0001.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt High Republic government and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
+ convert_to_high_republic.0001.a:0 "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ convert_to_high_republic.0002.t:0 "A New Era"
+ convert_to_high_republic.0002.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt High Republic government and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
+ convert_to_high_republic.0002.a:0 "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+
+ convert_to_imperial.0001.t:0 "A New Era"
+ convert_to_imperial.0001.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt Imperial Bureaucracy government and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
+ convert_to_imperial.0001.a:0 "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ convert_to_imperial.0002.t:0 "A New Era"
+ convert_to_imperial.0002.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt Imperial Bureaucracy government and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
+ convert_to_imperial.0002.a:0 "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+
+ convert_to_state_bureaucracy.0001.t:0 "A New Era"
+ convert_to_state_bureaucracy.0001.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt Eurekan Bureaucracy government and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
+ convert_to_state_bureaucracy.0001.a:0 "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ convert_to_state_bureaucracy.0002.t:0 "A New Era"
+ convert_to_state_bureaucracy.0002.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt Eurekan Bureaucracy government and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
+ convert_to_state_bureaucracy.0002.a:0 "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+
+ convert_to_ayllu.0001.t:0 "A New Era"
+ convert_to_ayllu.0001.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt Ayllu government and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
+ convert_to_ayllu.0001.a:0 "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ convert_to_ayllu.0002.t:0 "A New Era"
+ convert_to_ayllu.0002.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt Ayllu government and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
+ convert_to_ayllu.0002.a:0 "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ 
+ adopt_feudal_government:0 "Adopt Feudal government"
+ adopt_feudal_government_desc:0 "Our current form of government is not appropriate for us anymore."
+ adopt_feudal_government_tooltip:0 "You and your vassals adopt [GetGovernment( 'feudal_government' ).GetName] [government|E]."
+ adopt_feudal_government_confirm:0 "The more vassals, the merrier!"
+ 
+ adopt_kinship_government:0 "Adopt Clan government"
+ adopt_kinship_government_desc:0 "Our current form of government is not appropriate for us anymore."
+ adopt_kinship_government_tooltip:0 "You and your vassals adopt [GetGovernment( 'kinship_government' ).GetName] [government|E]."
+ adopt_kinship_government_confirm:0 "Family first!"
+ 
+ 
+ adopt_range_government:0 "Adopt Range government"
+ adopt_range_government_desc:0 "Our current form of government is not appropriate for us anymore."
+ adopt_range_government_tooltip:0 "You and your vassals adopt [GetGovernment( 'range_government' ).GetName] [government|E]."
+ adopt_range_government_confirm:0 "Let's roam free!"
+ 
+ adopt_imperial_government:0 "Adopt Imperial Bureaucracy government"
+ adopt_imperial_government_desc:0 "Our current form of government is not appropriate for us anymore."
+ adopt_imperial_government_tooltip:0 "You and your vassals adopt [GetGovernment( 'imperial_government' ).GetName] [government|E]."
+ adopt_imperial_government_confirm:0 "I just need to fill in this form..."
+ 
+ adopt_state_bureaucracy_government:0 "Adopt Eurekan Bureaucracy government"
+ adopt_state_bureaucracy_government_desc:0 "Our current form of government is not appropriate for us anymore."
+ adopt_state_bureaucracy_government_tooltip:0 "You and your vassals adopt [GetGovernment( 'state_bureacracy_government' ).GetName] [government|E]."
+ adopt_state_bureaucracy_government_confirm:0 "I just need to fill in this form..."
+ 
+ adopt_ayllu_government:0 "Adopt Ayllu government"
+ adopt_ayllu_government_desc:0 "Our current form of government is not appropriate for us anymore."
+ adopt_ayllu_government_tooltip:0 "You and your vassals adopt [GetGovernment( 'ayllu_government' ).GetName] [government|E]."
+ adopt_ayllu_government_confirm:0 "That's the right way to govern!"
+
+ keeper_of_swans_court_position:0 "Fish and Wildlife Director"
+ keeper_of_swans_court_position_desc:0 "The $keeper_of_swans_court_position$ is in charge of public lands. Estimations of the health and prevalence of wildlife, and keeping rolls of those permitted to hunt and fish within public land, are the responsibility of this position."
+ 
+ imperial_government_with_icon:0 "@government_type_imperial! $imperial_government$"
+ imperial_government_adjective:0 "Imperial"
+ imperial_government_realm:0 "Imperial Realm"
+ imperial_government_filter_option:0 "$game_concept_imperial$"
+ imperial_government_filter_option_desc:0 "Only show characters with [imperial|E] [government|E]"
+ game_concept_imperial_i:0 "@government_type_imperial!"
+ 
+ range_government_with_icon:0 "@government_type_range! $range_government$"
+ range_government_adjective:0 "Range"
+ range_government_realm:0 "Range Realm"
+ range_government_filter_option:0 "$game_concept_range$"
+ range_government_filter_option_desc:0 "Only show characters with [range|E] [government|E]"
+ game_concept_range_i:0 "@government_type_range!"
+ 
+ nomadic_government_with_icon:0 "@government_type_nomadic! $nomad_government$"
+ nomadic_government_adjective:0 "Nomadic"
+ nomadic_government_realm:0 "Nomadic Realm"
+ nomadic_government_filter_option:0 "$game_concept_nomadic$"
+ nomadic_government_filter_option_desc:0 "Only show characters with [nomadic|E] [government|E]"
+ game_concept_nomadic_i:0 "@government_type_nomadic!"
+ 
+ ayllu_government_with_icon:0 "@government_type_ayllu! $ayllu_government$"
+ ayllu_government_adjective:0 "Ayllu"
+ ayllu_government_realm:0 "Ayllu Realm"
+ ayllu_government_filter_option:0 "$game_concept_ayllu$"
+ ayllu_government_filter_option_desc:0 "Only show characters with [ayllu|E] [government|E]"
+ game_concept_ayllu_i:0 "@government_type_ayllu!"
+ 
+ federal_government_with_icon:0 "@government_type_federal! $federal_government$"
+ federal_government_adjective:0 "Federal"
+ federal_government_realm:0 "Federal Realm"
+ federal_government_filter_option:0 "$game_concept_federal$"
+ federal_government_filter_option_desc:0 "Only show characters with [federal|E] [government|E]"
+ game_concept_federal_i:0 "@government_type_federal!"
+ 
+ high_republic_government_with_icon:0 "@government_type_high_republic! $high_republic_government$"
+ high_republic_government_adjective:0 "High Republican"
+ high_republic_government_realm:0 "High Republic Realm"
+ high_republic_government_filter_option:0 "$game_concept_high_republic$"
+ high_republic_government_filter_option_desc:0 "Only show characters with [high_republic|E] [government|E]"
+ game_concept_high_republic_i:0 "@government_type_high_republic!"
+ 
+ state_bureaucracy_government_with_icon:0 "@government_type_state_bureaucracy! $state_bureaucracy_government$"
+ state_bureaucracy_government_adjective:0 "Eurekan Bureaucratic"
+ state_bureaucracy_government_realm:0 "Eureran Bureaucracy Realm"
+ state_bureaucracy_government_filter_option:0 "$game_concept_state_bureaucracy$"
+ state_bureaucracy_government_filter_option_desc:0 "Only show characters with [state_bureaucracy|E] [government|E]"
+ game_concept_state_bureaucracy_i:0 "@government_type_state_bureaucracy!"
+
+ kinship_government_with_icon:0 "@government_type_clan! $kinship_government$"
+ kinship_government_adjective:0 "Kinship"
+ kinship_government_realm:0 "Kinship Realm"
+ kinship_government_filter_option:0 "$game_concept_clan$"
+ kinship_government_filter_option_desc:0 "Only show characters with [clan|E] [government|E]"
+ game_concept_clan_i:0 "@government_type_clan!"
+ 
+ high_republic_appointment_succession_law: "High Republican Appointment Succession"
+ high_republic_appointment_succession_law_subname: "Candidate with the Highest Score Inherits"
+ high_republic_appointment_succession_law_effects: "#V Under $high_republic_appointment_succession_law$, the [title|E] and its associated [holdings|E] will be inherited by the candidate with the highest score. Any [adult|E] in the [realm|E] may strive to attain a [governorship|E] through various means from [scheming|E] to spending [influence|E].#!"
+
+ imperial_appointment_succession_law: "Imperial Appointment Succession"
+ imperial_appointment_succession_law_subname: "Candidate with the Highest Score Inherits"
+ imperial_appointment_succession_law_effects: "#V Under $imperial_appointment_succession_law$, the [title|E] and its associated [holdings|E] will be inherited by the candidate with the highest score. Any [adult|E] in the [realm|E] may strive to attain a [governorship|E] through various means from [scheming|E] to spending [influence|E].#!"
+ 
+ very_talented_desc:0 "Remarkably positive [traits|E]"
+ no_vestibular_desc:0 "Was not approved on Vestibular Exams"
+ has_vestibular_desc:0 "Vestibular grades"
+ has_commander_traits_desc:0 "Commander [traits|E]"
+ captain_in_military_court_desc:0 "Officer in a military court"
+ governor_in_bureaucratic_court_desc:0 "Bureaucrat in a bureaucratic court"
+ not_bureaucratic_enough_desc:0 "Not bureaucratic enough for this court"
+ not_martial_enough_desc:0 "Not martial enough for this court"
+ forced_to_abdicate_desc:0 "Was forced to abdicate"
+ 
+ similar_to_local_culture_succession_desc:0 "Similar to local [culture|E]"
+ language_of_local_culture_succession_desc:0 "Native speaker of local language"
+ of_regional_culture_succession_desc:0 "Is of a regional [culture|E]"
+ similar_to_regional_culture_succession_desc:0 "Similar to a regional [culture|E]"
+ language_of_regional_culture_succession_desc:0 "Native speaker of a regional language"
+ 
+ of_local_faith_succession_desc:0 "Is of local [faith|E]"
+ 
+ title_not_elective_tt:0 "Title is not elective"
+ 
+ imperial_icon_concept:0 "$game_concept_imperial_i$"
+ ayllu_icon_concept:0 "$game_concept_ayllu_i$"
+ high_republic_icon_concept:0 "$game_concept_high_republic_i$"
+ state_bureaucracy_icon_concept:0 "$game_concept_state_bureaucracy_i$"
+ federal_icon_concept:0 "$game_concept_federal_i$"
+ range_icon_concept:0 "$game_concept_range_i$"
+ nomadic_icon_concept:0 "$game_concept_nomadic_i$"
+ 
+ #Domiciles - TODO, move them to a better place in the future
+ THEOCRATIC_SEE: "[theocratic_see|E]"
+ THEOCRATIC_SEE_BUILDINGS: "[theocratic_see_buildings|E]"
+ THEOCRATIC_SEE_FAMILY: "[Character.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ theocratic_see: "theocratic see"
+ theocratic_see_plural: "theocratic sees"
+ 
+ game_concept_theocratic_see: "Theocratic See"
+ game_concept_theocratic_sees: "Theocratic Sees"
+ game_concept_theocratic_see_desc: "An $game_concept_theocratic_see$ is a type of [domicile|E] held by the [head_of_faith|E] of a theocratic [faith|E]. They represent religious landholdings untied to any particular [landed|E] [title|E].\n"
+ game_concept_theocratic_see_building: "Theocratic See Building"
+ game_concept_theocratic_see_buildings: "Theocratic See Buildings"
+ 
+ theocratic_see_buildings_desc: "[theocratic_see_buildings|E]"
+ domicile_theocratic_see: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ 
+ ### Estates
+ theocratic_see_main_01_domicile_building: "Theocratic Office"
+ theocratic_see_main_02_domicile_building: "Theocratic Headquarters"
+ theocratic_see_main_03_domicile_building: "Theocratic Complex"
+ theocratic_see_main_04_domicile_building: "Theocratic Palace"
+ theocratic_see_main_05_domicile_building: "Theocratic Grand Palace"
+ 
+ theocratic_see_living_quarters_01_domicile_building: "Fine Living Quarters"
+ theocratic_see_living_quarters_02_domicile_building: "Luxurious Bedchambers"
+ theocratic_see_living_quarters_03_domicile_building: "Statuary Courtyards"
+ theocratic_see_living_quarters_04_domicile_building: "Sumptuous Decorations"
+
+ theocratic_see_trophy_room_01_domicile_building: "Trophy Room"
+ theocratic_see_trophy_room_02_domicile_building: "Trophy Displays"
+ theocratic_see_trophy_room_03_domicile_building: "War Table"
+ theocratic_see_trophy_room_04_domicile_building: "Weapon Collection"
+
+ theocratic_see_office_01_domicile_building: "Private Study"
+ theocratic_see_office_02_domicile_building: "Courier's Office"
+ theocratic_see_office_03_domicile_building: "Clerk's Office"
+ theocratic_see_office_04_domicile_building: "Administrative Office"
+
+ theocratic_see_servants_quarters_01_domicile_building: "Servant's Quarters"
+ theocratic_see_servants_quarters_02_domicile_building: "Secluded Hallways"
+ theocratic_see_servants_quarters_03_domicile_building: "Generous Staff Housing"
+ theocratic_see_servants_quarters_04_domicile_building: "Chamberlain's Offices"
+
+ theocratic_see_library_01_domicile_building: "Book Collection"
+ theocratic_see_library_02_domicile_building: "Library"
+ theocratic_see_library_observatory_03_domicile_building: "Observatory"
+ theocratic_see_library_observatory_04_domicile_building: "Famed Observatory"
+ theocratic_see_library_education_03_domicile_building: "Tutor's Office"
+ theocratic_see_library_education_04_domicile_building: "Education Hall"
+
+ theocratic_see_bath_01_domicile_building: "Bath"
+ theocratic_see_bath_02_domicile_building: "Bathhouse"
+ theocratic_see_bath_03_domicile_building: "Steam Baths"
+ theocratic_see_bath_04_domicile_building: "Pleasure Houses"
+
+ theocratic_see_guest_room_01_domicile_building: "Guest Room"
+ theocratic_see_guest_room_02_domicile_building: "Guest Chambers"
+ theocratic_see_guest_room_03_domicile_building: "Large Guest Chambers"
+ theocratic_see_guest_room_04_domicile_building: "Visitor Wing"
+ theocratic_see_guest_room_05_domicile_building: "Spacious Visitor Wing"
+ theocratic_see_guest_room_06_domicile_building: "Luxurious Visitor Wing"
+
+ theocratic_see_wine_cellar_01_domicile_building: "Wine Room"
+ theocratic_see_wine_cellar_02_domicile_building: "Wine Cellar"
+ theocratic_see_wine_cellar_03_domicile_building: "Immense Wine Cellar"
+
+ theocratic_see_courtyard_01_domicile_building: "Courtyard"
+ theocratic_see_courtyard_02_domicile_building: "Large Courtyard"
+ theocratic_see_courtyard_03_domicile_building: "Grand Courtyard"
+ theocratic_see_courtyard_04_domicile_building: "Majestic Courtyard"
+
+ theocratic_see_prison_01_domicile_building: "Prison Cell"
+ theocratic_see_prison_02_domicile_building: "Prison"
+ theocratic_see_prison_03_domicile_building: "Oubliette"
+ theocratic_see_prison_04_domicile_building: "Torture Chamber"
+
+ theocratic_see_reception_hall_01_domicile_building: "Reception Hall"
+ theocratic_see_reception_hall_02_domicile_building: "Grand Reception Hall"
+ theocratic_see_reception_hall_03_domicile_building: "Grandiose Pavilion"
+ theocratic_see_reception_hall_04_domicile_building: "Regal Ballroom"
+ theocratic_see_reception_hall_05_domicile_building: "Imperial Belvedere"
+ theocratic_see_domicile_building_parameter_legitimacy_counter: "Members of House [GetPlayer.GetHouse.GetName] will receive an additional [legitimacy_i][GetPlayer.GetHouse.MakeScope.Var('ep3_legacy_legitimacy_counter').GetValue|V0] upon becoming [GetPlayer.GetTopLiege.GetTitleAsName] of [GetPlayer.GetTopLiege.GetPrimaryTitle.GetName|l]#WEAK;indent_newline:5 \n#indent_newline:2 $EFFECT_LIST_BULLET$This value increases when [house|E] members host a [GetActivityType('activity_feast').GetName] or [GetActivityType('activity_wedding').GetName] in the [barony|E] where the [GetPlayer.GetDynasty.GetBaseNameNoTooltip] [estate|E] is located#!#!"
+ theocratic_see_domicile_building_parameter_reception_hall_legitimacy_loss_01: "#N 100%#! of [legitimacy_i][legitimacy|E] counter lost on succession"
+ theocratic_see_domicile_building_parameter_reception_hall_legitimacy_loss_02: "#N 75%#! of [legitimacy_i][legitimacy|E] counter lost on succession"
+ theocratic_see_domicile_building_parameter_reception_hall_legitimacy_loss_03: "#N 50%#! of [legitimacy_i][legitimacy|E] counter lost on succession"
+ theocratic_see_domicile_building_parameter_reception_hall_legitimacy_loss_04: "#N 25%#! of [legitimacy_i][legitimacy|E] counter lost on succession"
+ theocratic_see_domicile_building_parameter_reception_hall_legitimacy_loss_05: "#P 0%#! of [legitimacy_i][legitimacy|E] counter lost on succession"
+
+ theocratic_see_cabinet_of_curiosities_01_domicile_building: "Cabinet of Curiosities"
+ theocratic_see_cabinet_of_curiosities_02_domicile_building: "Hall of Wonders"
+ theocratic_see_cabinet_of_curiosities_03_domicile_building: "Gallery of Marvels"
+ theocratic_see_cabinet_of_curiosities_upgrade_trigger_2_global_not: "[artifact|E] Quality Score must be #V 15#! or higher"
+ theocratic_see_cabinet_of_curiosities_upgrade_trigger_3_global_not: "[artifact|E] Quality Score must be #V 35#! or higher"
+ theocratic_see_DOMICILE_ARTIFACT_COUNTER_TOOLTIP: "#T [artifact|E] Quality Score: [DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('cabinet_of_curiosities_artifact_score')|V0]#!\n\nCommon Artifacts ([DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_common').GetValue|V0]): #P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_common_score')|0]#!\nMasterwork Artifacts ([DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_masterwork').GetValue|V0]): #P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_masterwork_score')|0]#!\nFamed Artifacts ([DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_famed').GetValue|V0]): #P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_famed_score')|0]#!\nIllustrious Artifacts ([DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_illustrious').GetValue|V0]): #P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_illustrious_score')|0]#!\n"
+ theocratic_see_domicile_building_parameter_can_receive_artifacts: "Building upgrades dependent on contributed [artifacts|E]"
+ theocratic_see_domicile_building_parameter_house_head_can_ask_for_artifacts: "[house_head|E] can ask for [artifacts|E] through the $house_head_request_interaction$ [interaction|E]"
+
+ theocratic_see_grand_solar_01_domicile_building: "Rustic Hearth"
+ theocratic_see_grand_solar_02_domicile_building: "Family Sitting Rooms"
+ theocratic_see_grand_solar_03_domicile_building: "Spacious Family Solar"
+ theocratic_see_grand_solar_04_domicile_building: "Salon of Heirlooms"
+ theocratic_see_domicile_building_parameter_solar_white_peace_stress_loss: "On [white_peace|E], every [house|E] Member loses [stress|E]"
+
+ theocratic_see_temple_small_01_domicile_building: "Shrine"
+ theocratic_see_temple_small_02_domicile_building: "Chapel"
+ theocratic_see_temple_small_03_domicile_building: "Stone Chapel"
+ theocratic_see_temple_crypt_04_domicile_building: "Family Graveyard"
+ theocratic_see_temple_crypt_05_domicile_building: "House Crypt"
+ theocratic_see_temple_crypt_06_domicile_building: "Dynastic Catacombs"
+ theocratic_see_temple_large_04_domicile_building: "Church"
+ theocratic_see_temple_large_05_domicile_building: "Decorated Church"
+ theocratic_see_temple_large_06_domicile_building: "Grand Church"
+ theocratic_see_temple_monastery_04_domicile_building: "Monastery"
+ theocratic_see_temple_monastery_05_domicile_building: "Enclosed Monastery"
+ theocratic_see_temple_monastery_06_domicile_building: "Grand Monastery"
+ theocratic_see_domicile_large_temple: "[GetDomicileBuilding('temple_large_04').GetName]"
+ 
+ #New buildings
+ theocratic_see_pilgrim_01_domicile_building: "Pilgrimage Center"
+ domicile_building_parameter_theocratic_see_pilgrim_01: "Enables the [GetTravelOption('adventurers_proselytize_zealously_option').GetName] [travel_option|E]\n[GetTrait('pilgrim').GetName( GetNullCharacter )] [trait|E]: #P +5#! [travel_speed|E] and [travel_safety|E]"
+ theocratic_see_pilgrim_option: "Assisted by Pilgrims"
+ theocratic_see_pilgrim_option_desc: "Thanks to the Pilgrimage Center, you can count on a network of seasoned pilgrims to make any journey safer and more pious."
+ pilgrim_recruited.tt: "A Master Pilgrim will be recruited to your entourage"
+ theocratic_see_missionary_01_domicile_building: "Missionary School"
+ domicile_building_parameter_theocratic_see_missionary_01: "Missionary [adventurers|E] and [court_chaplains|E]: #P 10%#! [convert_county|E]"
+ theocratic_see_holy_order_01_domicile_building: "Holy Order Headquarters"
+ domicile_building_parameter_theocratic_see_holy_order_01: "[GetTrait('order_member').GetName( GetNullCharacter )] [trait|E]: #P +2#! [martial|E] and #P +2#! [prowess|E]"
+ theocratic_see_monastery_01_domicile_building: "Monastic Headquarters"
+ domicile_building_parameter_theocratic_see_monastery_01: "[GetTrait('devoted').GetName( GetNullCharacter )] [trait|E]: #P +1#! [stewardship|E], #P +1#! [intrigue|E] and #P +1#! [learning|E]"
+ theocratic_see_seminary_01_domicile_building: "Seminary School"
+ domicile_building_parameter_theocratic_see_seminary_01: "Traits such as [GetTrait('education_learning_2').GetName( GetNullCharacter )]: #P +1#! [learning|E] per level of [piety_level|E]"
+ 
+ theocratic_see_domicile_title: "The [CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip] $game_concept_theocratic_see$"
+ theocratic_see_domicile_type: "$game_concept_theocratic_see$"
+ theocratic_see_domicile_type_tooltip: "$THEOCRATIC_SEE$"
+ theocratic_see_domicile_type_possessive: "Theocratic See's"
+ theocratic_see_move_desc: "#T Move Theocratic See#!\nMove your [theocratic_see|E] to another [barony|E] within the [realm|E].\n@alert_icon! #alert_trial You will be unable to move it again for [EmptyScope.ScriptValue('estate_move_cooldown_value')|V0] days#!\n\n#S Cost:\n#![GetCostString( DOMICILE_TYPE.GetMoveCost( Character.Self ) )]\n\n#P Click to move your Theocratic See#!"
+ domicile_theocratic_see: "[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ 
+ ##Landless adventurers
+ tooltipped_camp_purpose_missionaries: "[GetLaw('camp_purpose_missionaries').GetName]"
+ camp_purpose_type_missionaries: "Missionaries"
+ camp_purpose_missionaries: "Missionaries"
+ 
+ camp_purpose_missionaries_effects: "$EFFECT_LIST_BULLET$Finds more [learning|E] and [diplomacy|E] [task_contracts|E]\n$EFFECT_LIST_BULLET$Can use the $zealous_missionary_try_to_convert$ [decision|E] to spread your [faith|E] in local provinces\n$EFFECT_LIST_BULLET$The Zealous Missionary Path — Ascension [decision|E] is unlocked\n$EFFECT_LIST_BULLET$Unlocks [camp_buildings|E]:\n$BULLET_WITH_TAB$#high [GetDomicileBuilding('barber_tent_reference_corpus').GetName]#!\n$BULLET_WITH_TAB$#high [GetDomicileBuilding('supply_tent_reserve_provisions').GetName]#!\n$BULLET_WITH_TAB$#high [GetDomicileBuilding('baggage_train_scribes').GetName]#!\n$BULLET_WITH_TAB$#high [GetDomicileBuilding('baggage_train_ascetics').GetName]#!\n$BULLET_WITH_TAB$#high [GetDomicileBuilding('camp_fire_nightly_debates').GetName]#!\n$BULLET_WITH_TAB$#high [GetDomicileBuilding('camp_fire_local_hangers_on').GetName]#!\n\n#WEAK For some, the call of religion is felt in daily services at the same corner of the world. For others, religion compels them to preach it as far as they can go.#!"
+
+ 
+ ep3_can_have_missionaries_camp_purpose_trigger.tt.explanation:0 "Any of the following:\n\nYour [faith|E] must have one of the following tenets:\n[GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName]\n\nYour [head_of_faith|E]'s [theocratic_see|E] has the [GetDomicileBuilding('theocratic_see_missionary_01').GetName] upgrade\n\nYou are a [GetFaithDoctrine('doctrine_wandering_head').GetBaseName] [head_of_faith|E]"
+ camp_fire_local_hangers_on.tt.unlocked_by_purpose: "Your $camp_purpose$ must be [GetLaw('camp_purpose_explorers').GetName] or [GetLaw('camp_purpose_missionaries').GetName]"
+ camp_fire_nightly_debates.tt.unlocked_by_purpose: "Your $camp_purpose$ must be [GetLaw('camp_purpose_scholars').GetName] or [GetLaw('camp_purpose_missionaries').GetName]"
+ baggage_train_ascetics.tt.unlocked_by_purpose: "Your $camp_purpose$ must be [GetLaw('camp_purpose_scholars').GetName] or [GetLaw('camp_purpose_missionaries').GetName]"
+ baggage_train_scribes.tt.unlocked_by_purpose: "Your $camp_purpose$ must be [GetLaw('camp_purpose_scholars').GetName], [GetLaw('camp_purpose_legitimists').GetName], or [GetLaw('camp_purpose_missionaries').GetName]"
+ barber_tent_reference_corpus.tt.unlocked_by_purpose: "Your $camp_purpose$ must be [GetLaw('camp_purpose_scholars').GetName] or [GetLaw('camp_purpose_missionaries').GetName]"
+ supply_tent_reserve_provisions.tt.unlocked_by_purpose: "Your $camp_purpose$ must be [GetLaw('camp_purpose_explorers').GetName] or [GetLaw('camp_purpose_missionaries').GetName]"
+ 
+ #########################
+ ####Vanilla compatibility
+ #########################
+ 
+ vanilla_imperial_government:0 "Imperial Bureaucracy"
+ vanilla_imperial_government_desc:0 "$game_concept_imperial_vanilla_desc$\n\n#F Tracing its roots to pre-[Concept('the_event_ate','Event')|E] times, the [Concept('old_brazil','traditional Brazilian political system')|E] is ultimately based on the [federative_pact|E], the individual oaths defining the rights and obligations of the Crown and its vassals; and the [grand_national_accord|E], an intricate and fragile compendium of deals balancing the interests of the military, the state bureaucracy and the regional elites. The system as a whole is overseen by a monarch who assumes the role of arbitrator among these various factions.#!"
+ vanilla_imperial_government_with_icon:0 "@government_type_imperial! $imperial_government$"
+ vanilla_imperial_government_adjective:0 "Imperial"
+ vanilla_imperial_government_realm:0 "Imperial Realm"
+ vanilla_imperial_government_filter_option:0 "$game_concept_imperial$"
+ vanilla_imperial_government_filter_option_desc:0 "Only show characters with [imperial|E] [government|E]"
+ 
+ vanilla_high_republic_government:0 "High Republic"
+ vanilla_high_republic_government_desc:0 "$game_concept_high_republic_vanilla_desc$\n\n#F Rather than ruling through brute force or divine right, high republics base themselves on the pre-[Concept('the_event_ate','Event')|E] institutions of republicanism. Upon the death of a ruler, their vassals will convene and elect a replacement from amongst each other as well as the previous ruler's heirs.#!"
+ vanilla_high_republic_government_with_icon:0 "@government_type_high_republic! $high_republic_government$"
+ vanilla_high_republic_government_adjective:0 "High Republican"
+ vanilla_high_republic_government_realm:0 "High Republic Realm"
+ vanilla_high_republic_government_filter_option:0 "$game_concept_high_republic$"
+ vanilla_high_republic_government_filter_option_desc:0 "Only show characters with [high_republic|E] [government|E]"
+ 
+ vanilla_state_bureaucracy_government:1 "Eurekan Bureaucracy"
+ vanilla_state_bureaucracy_government_desc:1 "$game_concept_state_bureaucracy_vanilla_desc$\n\n#F Eurekan Bureaucracy is a system of administration which centers around philosophical thought related to the [eurekan_elements|E], the Emperor of California, and the unique religious environment of the West Coast. Primarily dictated by the service of the five main bureaucratic State Departments, made up of numerous smaller agencies, each of which corresponds with ideas promoted by the different Elements. Bureaucratic and aristocratic interests often find themselves ruthlessly competing for favoritism with the Emperor and control over the Empire.#!"
+ vanilla_state_bureaucracy_government_with_icon:0 "@government_type_state_bureaucracy! $state_bureaucracy_government$"
+ vanilla_state_bureaucracy_government_adjective:0 "Eurekan Bureaucratic"
+ vanilla_state_bureaucracy_government_realm:0 "Eureran Bureaucracy Realm"
+ vanilla_state_bureaucracy_government_filter_option:0 "$game_concept_state_bureaucracy$"
+ vanilla_state_bureaucracy_government_filter_option_desc:0 "Only show characters with [state_bureaucracy|E] [government|E]"
+ 
+ vanilla_bureaucratic_succession_law:0 "Bureaucratic Succession Law"
+ vanilla_military_succession_law:0 "Military Succession Law"
+ vanilla_martial_succession_law:0 "Martial Succession Law"
+ vanilla_imperial_succession_law:0 "Imperial Succession Law"
+ 
+ vanilla_bureaucratic_elective_electors:0 "Bureaucratic Electors"
+ vanilla_bureaucratic_elective_electors_tooltip:0 "In order to be a valid [elector|E] under Imperial Succession, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$Be only one or two [ranks|E] below the title"
+ vanilla_military_elective_electors:0 "Military Electors"
+ vanilla_military_elective_electors_tooltip:0 "In order to be a valid [elector|E] under Imperial Succession, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$Be only one or two [ranks|E] below the title"
+ vanilla_imperial_elective_electors:0 "Imperial Electors"
+ vanilla_imperial_elective_electors_tooltip:0 "In order to be a valid [elector|E] under Imperial Succession, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$Be only one or two [ranks|E] below the title"
+ vanilla_bureaucratic_elective_candidates:0 "Bureaucratic Candidates"
+ vanilla_bureaucratic_elective_candidates_tooltip:0 "In order to be a valid Candidate for Bureaucratic Succesion, a character must fulfill the following conditions:\n$EFFECT_LIST_BULLET$Be a capable adult$EFFECT_LIST_BULLET$One of the following\n$EFFECT_LIST_BULLET$Diplomacy education, lifestyle trait or at least 14 in that attribute\n$EFFECT_LIST_BULLET$Stewardship education, lifestyle trait or at least 14 in that attribute\n$EFFECT_LIST_BULLET$Learning education, lifestyle trait or at least 16 in that attribute\n$EFFECT_LIST_BULLET$Chancellor or Steward council position\n$EFFECT_LIST_BULLET$Any positive vestibular trait\n$EFFECT_LIST_BULLET$If the court is bureaucratic-leaning, can't have failed vestibular and must have at least 10 in one of Diplomacy, Stewardship or Learning\n$EFFECT_LIST_BULLET$If the court is bureaucratic, must have passed vestibular and must have at least 12 in one of Diplomacy, Stewardship or Learning"
+ vanilla_military_elective_candidates:0 "Military Candidates"
+ vanilla_military_elective_candidates_tooltip:0 "In order to be a valid Candidate for Military Succesion, a character must fulfill the following conditions:Capable adult\n$EFFECT_LIST_BULLET$One of the following\n$EFFECT_LIST_BULLET$Martial education, lifestyle trait or at least 14 in that attribute\n$EFFECT_LIST_BULLET$Prowess education, lifestyle trait or at least 14 in that attribute\n$EFFECT_LIST_BULLET$Marshal council position\n$EFFECT_LIST_BULLET$Be a knight\n$EFFECT_LIST_BULLET$Have any commander trait\n$EFFECT_LIST_BULLET$If the court is military-leaning, must have at least 10 martial\n$EFFECT_LIST_BULLET$If the court is military, must have at least 12 martial"
+ vanilla_imperial_elective_candidates:0 "Imperial Candidates"
+ vanilla_imperial_elective_candidates_tooltip:1 "In order to be a valid Candidate for Imperial Succession, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate [close_family|E] member of the current ruler, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a Theocracy or Republic. Court authority might remove candidates if they don't have the minimum required skills:If Bureaucratic-leaning or bureaucratic, you can't have failed vestibular. In addition, one of the following:\n$EFFECT_LIST_BULLET$Diplomacy education, lifestyle trait or at least 12 in that attribute\n$EFFECT_LIST_BULLET$Stewardship education, lifestyle trait or at least 12 in that attribute\n$EFFECT_LIST_BULLET$Learning education, lifestyle trait or at least 12 in that attribute\n$EFFECT_LIST_BULLET$Chancellor or Steward council position\n$EFFECT_LIST_BULLET$Any positive vestibular trait\n$EFFECT_LIST_BULLET$If the the court is fully bureaucratic, you must have also succeded in vestibular.\n$EFFECT_LIST_BULLET$If military-leaning or military, you must have one of the following:\n$EFFECT_LIST_BULLET$Martial education, lifestyle trait or at least 12 in that attribute\n$EFFECT_LIST_BULLET$At least 12 prowess\n$EFFECT_LIST_BULLET$Be a knight\n$EFFECT_LIST_BULLET$Marshal council position\n$EFFECT_LIST_BULLET$Have at least one commander trait\n$EFFECT_LIST_BULLET$If fully military, you must have at least 10 martial\n$EFFECT_LIST_BULLET$If it's balanced there are no restrictions"
+  
+ vanilla_federal_government:0 "Federal"
+ vanilla_federal_government_desc:0 "$game_concept_federal_desc$\n\n#F The Federal Government is the supreme institution holding the United States of America together. Upon the death of the President, an election will be held to replace them. However, if there is currently a Vice President, the Vice President will assume the Presidency.#!"
+ vanilla_federal_government_adjective:0 "Federal"
+ vanilla_federal_government_realm:0 "The United States"
+
+ eureka_diplomacy_obligation_bonus_desc: "[diplomacy|E] #weak ([GetVassalContractType( 'state_bureaucracy_themes' ).GetObligationName( 'gold_department_theme' )])#!"
+ eureka_intrigue_obligation_bonus_desc: "[intrigue|E] #weak ([GetVassalContractType( 'state_bureaucracy_themes' ).GetObligationName( 'surf_department_theme' )])#!"
+ eureka_martial_obligation_bonus_desc: "[martial|E] #weak ([GetVassalContractType( 'state_bureaucracy_themes' ).GetObligationName( 'mountain_department_theme' )])#!"
+ eureka_learning_obligation_bonus_desc: "[learning|E] #weak ([GetVassalContractType( 'state_bureaucracy_themes' ).GetObligationName( 'spirit_department_theme' )])#!"
+ eureka_stewardship_obligation_bonus_desc: "[stewardship|E] #weak ([GetVassalContractType( 'state_bureaucracy_themes' ).GetObligationName( 'wood_department_theme' )])#!"
+ eureka_conversion_bonus_desc: "#weak ([GetVassalContractType( 'state_bureaucracy_themes' ).GetObligationName( 'surf_department_theme' )])#! Bonus"
+ 
+ court_groundhog_keeper_court_position:0 "Groundhogkeeper"
+ court_groundhog_keeper_court_position_desc:0 "Folklore tells us that interpreting the behavior of captive groundhogs can predict the weather. The Court Groundhogkeeper cares for these prognosticating creatures throughout the year."
+ 
+ court_groundhog_keeper_position_task_speak_to_the_groundhogs: "Speak with the Groundhogs"
+ court_groundhog_keeper_position_task_speak_to_the_groundhogs_desc:"Your Groundhogkeeper will hold demonstrations of their mystical ability to communicate with the groundhogs. In particular, they will teach their liege the secrets of these skills."
+
+ court_groundhog_keeper_position_task_public_prophecies: "Proclaim Public Prophecies"
+ court_groundhog_keeper_position_task_public_prophecies_desc: "Your Groundhogkeeper will consult the groundhogs for prophecies regarding various topics. The peasants will probably enjoy these greatly! "
+
+ groundhogs_culture:0 "Your culture is or is descended from one of the [groundhog_cultures_list|L]"
+ 
+ groundhog_counties_tt:0 "You must [completely_control|E] at least [EmptyScope.ScriptValue('groundhog_counties_to_control_value')|0] [county|E] of the [GetGeographicalRegion('groundhog_counties').GetName]"
+ groundhog_counties:0 "Traditional Groundhog Locales"
+ 
+ can_form_high_republic_trigger:0 "You can form a republic if any of the following conditions are met:\n- Your faith permits republican governance, you are highly pious (Piety Level 4 or higher), and none of your powerful vassals:\n  - Disapprove of you, or\n  - Belong to a faith that forbids republics.\n- Your culture supports republican governance, you are highly prestigious (Prestige Level 4 or higher), and none of your powerful vassals:\n  - Disapprove of you, or\n  - Belong to a culture that opposes republics.\n- You are an admirer of presidentialism (having the traits Scholar or Diplomat), eccentric, highly prestigious (Prestige Level 4 or higher), and rule with maximum authority."
+ 
+ government_not_imperial_tt:0 "Government is not [imperial_government|E]"
+ 
+ TITLE_NOMAD_NAME_CULTURE_HEAD: "$CULTURE_COLLECTIVE$" #removed "\the\" from a few of these due to issues related to AtE map font not being all uppercase for titles. If you want to try and make it work...
+ TITLE_NOMAD_NAME_HOUSE_HEAD: "$DYNASTY_NAME$ $CULTURE_COLLECTIVE$"
+ TITLE_NOMAD_NAME_CULTURE_HEAD_DEFINITE_FORM: "$CULTURE_COLLECTIVE$"
+ TITLE_NOMAD_NAME_HOUSE_HEAD_DEFINITE_FORM: "$DYNASTY_NAME$ $CULTURE_COLLECTIVE$"
+ TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME: "$CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+ TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME: "$DYNASTY_NAME$ $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+ TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "$CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+ TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "$DYNASTY_NAME$ $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+
+ no_hostile_attrition_in_steppe: "#indent_newline:3 No #V Hostile County#! [attrition|E] while [raiding|E] in [nomadic_north_america|E], [nomadic_llanos|E], or [nomadic_south_america|E]#!"

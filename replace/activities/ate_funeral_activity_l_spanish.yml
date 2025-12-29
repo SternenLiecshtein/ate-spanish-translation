@@ -1,0 +1,51 @@
+﻿l_spanish:
+
+ cannot_do_funeral_activity_name:0 "Funeral Tabú [doctrine|E]"
+
+ wakename_water_burial:0 "Preparativos Finales"
+ wakedesc_water_burial:0 "Este es el momento de preparar el cuerpo para su viaje final y de que los dolientes ayuden a acondicionar la embarcación que llevará al difunto hacia [ROOT.Char.GetFaith.PositiveAfterLife]."
+ ceremonyname_water_burial:0 "Entierro Acuático"
+ ceremonydesc_water_burial:0 "El cuerpo es entregado a las aguas, para que derive donde deba en su viaje final."
+
+ ceremonyname_nature_burial:0 "Entierro Natural"
+ ceremonydesc_nature_burial:0 "El cuerpo es sepultado en la tierra y se planta una semilla sobre él, para que el difunto continúe el ciclo de la vida."
+
+ wakename_consecrative:0 "Procesión Ceremonial"
+ wakedesc_consecrative:0 "Este es el momento en que los dolientes se reúnen y expresan sus emociones mientras el difunto, escoltado por una guardia de honor y cubierto con el estandarte de su país, se dirige a su lugar de descanso final."
+ ceremonyname_consecrative:0 "Capilla Ardiente"
+ ceremonydesc_consecrative:0 "El cuerpo es colocado en su ataúd y mantenido en un espacio público, para que los asistentes y el público en general puedan rendir homenaje al servicio del difunto al reino."
+
+ wakename_celebration_of_life:0 "Lectura Abierta"
+ wakedesc_celebration_of_life:0 "Este es el momento de honrar la vida del difunto y rememorar los buenos tiempos, los malos y todo lo vivido entre ambos."
+ ceremonyname_celebration_of_life:0 "Despedida Final"
+ ceremonydesc_celebration_of_life:0 "La familia del difunto ofrece sus palabras finales y el cuerpo es sepultado de la manera que el difunto deseaba."
+
+ activity_funeral_water_access:0 "#P ++ Acceso al Agua#!\n"
+ activity_funeral_realm_capital:0 "#P ++ Capital del Reino#!\n"
+ 
+ funeral.0100.desc.intro2.water_burial:0 "Mientras nos reunimos en la orilla para enviar a las aguas a [ROOT.Var('ancestor_to_bury').Char.GetFirstNamePossessive], escucho el sonido de las olas que ruedan suavemente mientras se prepara la embarcación funeraria para su viaje inaugural —y final—."
+ funeral.0100.desc.outro.water_burial:0 "Finalmente, se da la señal y la embarcación, que contiene el cuerpo de [ROOT.Char.Custom2('RelationToMe', ROOT.Var('ancestor_to_bury').Char)], parte hacia [ROOT.Char.GetFaith.PositiveAfterLife] y el abrazo de [ROOT.Char.GetFaith.WaterGodNamePossessive]."
+ funeral.0100.option.water_burial:0 "Que tu travesía sea serena..."
+ funeral.0101.desc.intro2.water_burial:0 "$funeral.0101.desc.intro2.water_burial$"
+ funeral.0101.desc.outro.water_burial:0 "Finalmente, se da la señal y la embarcación, que contiene el cuerpo de [deceased.GetHerHis], parte hacia [ROOT.Char.GetFaith.PositiveAfterLife] y el abrazo de [ROOT.Char.GetFaith.WaterGodNamePossessive]."
+
+ funeral.0100.desc.intro2.consecrative:0 "[deceased.GetFirstName|U], tras haber sido llevado al mausoleo en una grandiosa y solemne procesión, reposa ahora ante nosotros con dignidad. Cada asistente ha avanzado para rendir sus respetos."
+ funeral.0100.desc.outro.consecrative:0 "Con la ceremonia privada concluida, el nombre de [deceased.GetFirstNamePossessive|U] es inscrito en el gran muro del mausoleo y las puertas se abren para el público. Durante generaciones, la gente podrá venir aquí y recordar las hazañas de [deceased.GetFirstNamePossessive|U]."
+ funeral.0101.desc.intro2.consecrative:0 "$funeral.0100.desc.intro2.consecrative$"
+ funeral.0101.desc.outro.consecrative:0 "$funeral.0100.desc.outro.consecrative$"
+
+ funeral.1000.celebration_of_life.a:0 "Todos tenemos recuerdos que compartir."
+ funeral.0100.t.celebration_of_life:0 "Un Último Discurso"
+ funeral.0101.t.celebration_of_life:0 "$funeral.0100.t.celebration_of_life$"
+ funeral.0100.desc.intro2.celebration_of_life:0 "Las celebraciones comienzan a llegar a su fin, y cada asistente, tras dar sus palabras sobre [deceased.GetFirstName|U] y sus recuerdos de [deceased.GetHerHim], se reúne para la despedida final."
+ funeral.0100.desc.outro.celebration_of_life:0 "Ante un gran retrato del difunto en la plenitud de su vida, subo al podio y me giro hacia la multitud de asistentes. A pesar del ambiente alegre de los eventos previos, algunos comienzan a emocionarse cuando afloran los sentimientos. Respiro hondo y comienzo mi elogio con..."
+ funeral.0100.option.celebration_of_life:0 "Gracias, [deceased.GetFirstName|U]."
+ funeral.0101.desc.intro2.celebration_of_life:0 "$funeral.0101.desc.intro2.celebration_of_life$"
+ funeral.0101.desc.outro.celebration_of_life:0 "Ante un gran retrato del difunto en la plenitud de su vida, [host.GetFirstName|U] sube al podio y se gira hacia la multitud de asistentes. A pesar del ambiente alegre de los eventos previos, algunos asistentes, incluyéndome, comienzan a emocionarse cuando afloran los sentimientos. [host.GetFirstName|U] se arma de valor y comienza su discurso con una simple frase: Gracias, [deceased.GetFirstName|U]."
+
+ funeral.0100.desc.intro2.nature_burial:0 "Colocado en un ataúd sencillo diseñado para descomponerse con rapidez, los demás dolientes y yo observamos cómo [deceased.GetFirstName|U] es bajado a la tierra y luego cubierto con la tierra extraída para hacer espacio al féretro."
+ funeral.0100.desc.outro.nature_burial:0 "Finalmente, se planta la semilla de un árbol local en el suelo sobre [deceased.GetHerHim], para que [deceased.GetSheHe] pase a formar parte plena de la naturaleza."
+ funeral.0101.desc.intro2.nature_burial:0 "$funeral.0100.desc.intro2.nature_burial$"
+ funeral.0101.desc.outro.nature_burial:0 "$funeral.0100.desc.outro.nature_burial$"
+ funeral.0100.nature_burial.a:0 "La vida nace de la muerte, como siempre."
+ funeral.0100.nature_burial.b:0 "El lugar de descanso de [deceased.GetFirstNamePossessive|U] será un parque, para que otros puedan disfrutar de la naturaleza junto a [deceased.GetHerHim]."

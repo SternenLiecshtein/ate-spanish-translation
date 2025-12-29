@@ -1,0 +1,24 @@
+﻿l_spanish:
+
+#############################################
+# CCU Patcher
+# Por Vertimnus
+# Este archivo fue compilado por una máquina.
+# Nunca debe editarse manualmente.
+#############################################
+
+culture_parameter_heritage_family_bolivarian:0 "#P +[EmptyScope.ScriptValue('same_heritage_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con culturas que comparten la [heritage_family|E] Bolivariana"
+culture_parameter_heritage_family_brazilian:0 "#P +[EmptyScope.ScriptValue('same_heritage_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con culturas que comparten la [heritage_family|E] Brasileña"
+culture_parameter_heritage_family_central_american:0 "#P +[EmptyScope.ScriptValue('same_heritage_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con culturas que comparten la [heritage_family|E] Centroamericana"
+culture_parameter_heritage_family_east_coast:0 "#P +[EmptyScope.ScriptValue('same_heritage_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con culturas que comparten la [heritage_family|E] de la Costa Este"
+culture_parameter_heritage_family_eastern_indigenous:0 "#P +[EmptyScope.ScriptValue('same_heritage_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con culturas que comparten la [heritage_family|E] Indígena Oriental"
+culture_parameter_heritage_family_european:0 "#P +[EmptyScope.ScriptValue('same_heritage_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con culturas que comparten la [heritage_family|E] Europea"
+culture_parameter_heritage_family_great_guyanese:0 "#P +[EmptyScope.ScriptValue('same_heritage_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con culturas que comparten la [heritage_family|E] Gran Guayanesa"
+culture_parameter_heritage_family_indigenous_sa:0 "#P +[EmptyScope.ScriptValue('same_heritage_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con culturas que comparten la [heritage_family|E] Indígena Sudamericana"
+culture_parameter_heritage_family_mennonite_fam:0 "#P +[EmptyScope.ScriptValue('same_heritage_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con culturas que comparten la [heritage_family|E] Menonita"
+culture_parameter_heritage_family_mesoamerican:0 "#P +[EmptyScope.ScriptValue('same_heritage_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con culturas que comparten la [heritage_family|E] Mesoamericana"
+culture_parameter_heritage_family_mountain_central:0 "#P +[EmptyScope.ScriptValue('same_heritage_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con culturas que comparten la [heritage_family|E] Montañosa Central"
+culture_parameter_heritage_family_siberian:0 "#P +[EmptyScope.ScriptValue('same_heritage_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con culturas que comparten la [heritage_family|E] Siberiana"
+culture_parameter_heritage_family_southern_cone:0 "#P +[EmptyScope.ScriptValue('same_heritage_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con culturas que comparten la [heritage_family|E] del Cono Sur"
+culture_parameter_heritage_family_west_coast:0 "#P +[EmptyScope.ScriptValue('same_heritage_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con culturas que comparten la [heritage_family|E] de la Costa Oeste"
+culture_parameter_heritage_family_western_indigenous:0 "#P +[EmptyScope.ScriptValue('same_heritage_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] con culturas que comparten la [heritage_family|E] Indígena Occidental"

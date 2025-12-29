@@ -1,0 +1,59 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ councillor_court_chaplain_generic_county:0 "Court Priest"
+ councillor_court_chaplain_generic_duchy:0 "Court Priest"
+ councillor_court_chaplain_generic_kingdom:0 "High Priest"
+ councillor_court_chaplain_generic_kingdom_female:0 "High Priestess"
+ 
+ #Christian
+ councillor_court_chaplain_dryad:1 "Head Dryad"
+ councillor_court_chaplain_dryad_possessive:0 "Head Dryad's"
+ councillor_court_chaplain_dryad_female:1 "Head Dryad"
+ 
+ 
+ realm_priest_male_stokeist:0 "Court Ripper"
+ realm_priest_female_stokeist:0 "Court Ripper"
+ 
+ realm_priest_male_industrial:0 "Lead Engineer"
+ realm_priest_female_industrial:0 "Lead Engineer"
+ 
+ realm_priest_promethean:0 "Court Supervisor"
+ realm_priest_promethean_possessive:0 "Court Supervisor's"
+ realm_priest_female_promethean:0 "Court Supervisor"
+ 
+ realm_priest_male_santeria:0 "Court Babalao"
+ realm_priest_male_santeria_possessive:0 "Court Babalao's"
+ realm_priest_female_santeria:0 "Court Iyalorisha"
+ realm_priest_female_santeria_possessive:0 "Court Iyalorisha's"
+ 
+ realm_priest_male_palo:0 "Court Taita-nganga"
+ realm_priest_male_palo_possessive:0 "Court Taita-nganga's"
+ realm_priest_female_palo:0 "Court Mama-nganga"
+ realm_priest_female_palo_possessive:0 "Court Mama-nganga's"
+ 
+ realm_priest_male_vodou:0 "Court Houngan"
+ realm_priest_male_vodou_possessive:0 "Court Houngan's"
+ realm_priest_female_vodou:0 "Court Mambo"
+ realm_priest_female_vodou_possessive:0 "Court Mambo's"
+ 
+ realm_priest_male_voodoo:0 "Court Traiteur"
+ realm_priest_male_voodoo_possessive:0 "Court Traiteur's"
+ realm_priest_female_voodoo:0 "Court Traiteuse"
+ realm_priest_female_voodoo_possessive:0 "Court Traiteuse's"
+ 
+ realm_priest_male_candomble_tambor:0 "Court Pai-de-santo"
+ realm_priest_male_candomble_tambor_possessive:0 "Court Pai-de-santo's"
+ realm_priest_female_candomble_tambor:0 "Court Mãe-de-santo"
+ realm_priest_female_candomble_tambor_possessive:0 "Court Mãe-de-santo's"
+ 
+ realm_priest_male_americanist:0 "Court Judge"
+ realm_priest_female_americanist:0 "Court Judge"
+ 
+ realm_priest_male_yeomanist:0 "Court Guru"
+ realm_priest_female_yeomanist:0 "Court Guru"

@@ -1,0 +1,17 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ doctrine_holy_order_head_name:0 "Holy Order"
+ doctrine_holy_order_head_desc:0 "When the physical world comes under attack it is those blessed by the spiritual that should come to its defence. It only makes sense that those who lead the defence of the faith should lead the faith itself."
+ doctrine_parameter_holy_order_head_of_faith:0 "The [head_of_faith|E] [title|El] is an [unlanded|El] [holy_order|E] which can be hired by the faithful or have titles [leased|El] to them."
+ doctrine_parameter_no_holy_orders_til_hof:0 "[Concept('holy_order','Holy Orders')|E] cannot be established unless the [head_of_faith|E] exists."
+ at_least_one_open_barony_in_domain:0 "At least one barony in your domain must be empty to host a Holy Order"
+ doctrine_wandering_head_name:0 "Wandering"
+ doctrine_wandering_head_desc:0 "While our faith usually has no formal leadership, sometimes wandering pious people are recognized as informal leaders, renewing our zeal as they move from place to place, preaching the truth to nobles and smallfolk alike."
+ doctrine_parameter_wandering_head_of_faith:0 "The [head_of_faith|E] [title|El] is an [unlanded|El] [adventurer|E] followed by [GetLaw('camp_purpose_missionaries').GetName]."
+
+

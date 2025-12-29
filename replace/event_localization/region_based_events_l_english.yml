@@ -1,0 +1,29 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ region_based_event.001.t:0 "The Salmon Run"
+ region_based_event.001.desc:0 "The annual salmon runs are just around the corner. However, the mood is tense this year, strange weather phenomena and other oddities have some convinced that this salmon run will be different."
+ region_based_event.001.a:0 "We shall see"
+ region_based_event.001.b:0 ""...The pinkfish will emerge from the sea, devouring all...""
+ 
+ region_based_event.002.t:0 "The Big Run"
+ region_based_event.002.desc:0 "This year's salmon run exceeded our highest expectations, the waterways are so thick with salmon that it's being reported that people are able to cross streams by walking on the backs of the salmon!"
+ region_based_event.002.a:0 "A year to remember!"
+ 
+ region_based_event.003.t:0 "A Great Run"
+ region_based_event.003.desc:0 "Reports from across the realm tell of one of the best salmon runs in recent memory! Fishermen have swarmed to the rivers to take advantage of the plentiful food, and many storehouses are already filling up to the brim with dried Salmon."
+ region_based_event.003.a:0 "Wonderful"
+ 
+ region_based_event.004.t:0 "A Lackluster Run"
+ region_based_event.004.desc:0 "The Salmon came and went in a very underwhelming salmon run. In previous years a skilled fisherman could easily catch enough salmon to keep their family well fed though the winter and make a little money on the side, but this year there has been no such luck."
+ region_based_event.004.a:0 "Unfortunate"
+ 
+ region_based_event.005.t:0 "No Run"
+ region_based_event.005.desc:0 "The rivers and streams usually full of migrating salmon are barren. The streets of the capital are already begining to fill with fanatics proclaiming that this is divine punishment for your rule or that the end draws near"
+ region_based_event.005.a:0 "Lean times are ahead"
+ 

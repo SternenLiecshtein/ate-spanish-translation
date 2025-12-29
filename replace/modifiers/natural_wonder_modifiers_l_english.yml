@@ -1,0 +1,16 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ ate_renewed_purpose: "Renewed Purpose"
+ ate_renewed_purpose_desc: "This character has clarity of their goals in this life."
+ ate_tabacco_ties_on_tree: "Tabacco Prayer Ties"
+ ate_tabacco_ties_on_tree_desc: "This character has recently put tabacco prayer ties around a tree."
+ ate_fury_of_the_wild: "Fury of the Wilds"
+ ate_fury_of_the_wild_desc: "This character claims divine favor of [ROOT.Char.GetFaith.DeathDeityName] in taking down their enemies."
+ ate_secrets_of_the_west: "Secrets of the West"
+ ate_secrets_of_the_west_desc: "This character claims divine guidance of [ROOT.Char.GetFaith.DeathDeityName] in finding the secrets of the Old West."

@@ -1,0 +1,68 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ eusebian_leadership.0001.title:0 "Transfer of Power"
+ eusebian_leadership.0001.desc:0 "The higher clergy has decided that someone else should lead our faith."
+ eusebian_leadership.0001.a:0 "I trust their decision"
+ eusebian_leadership.0002.title:0 "Transfer of Power"
+ eusebian_leadership.0002.desc:0 "The higher clergy has decided that you should lead the faith"
+ eusebian_leadership.0002.a:0 "I will not disappoint them"
+ 
+ reform_amazonah_judaism_decision:0 "Reform Amazonah Jewish Structures"
+ reform_amazonah_judaism_decision_desc:0 "The $edah_amazonah_adj$ faith has long been decentralized and uncodified. We must reform the old ways and establish ourselves as a properly practiced Jewish faith."
+ reform_amazonah_judaism_decision_tooltip:0 "A folk religion no more!"
+ reform_amazonah_judaism_decision_confirm:0 "We commit to our faith!"
+ reform_amazonah_judaism_decision.path_fundamentalist:0 "If we reform our [faith|E] to be more $doctrine_pluralism_fundamentalist_name$"
+ reform_amazonah_judaism_decision.path_righteous:0 "If we reform our [faith|E] to be more $doctrine_pluralism_righteous_name$"
+ reform_amazonah_judaism_decision.path_amerindian:0 "If we reform our [faith|E] to be more $doctrine_pluralism_pluralistic_name$"
+ 
+ ate_religious_decision.212.t:0 "The [ROOT.Char.GetTitleAsNameNoTooltip] and the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Faith"
+ ate_religious_decision.212.desc:1 "For generations, the nobility of the [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] have professed devotion to the [ROOT.Char.GetFaith.GetNameNoTooltip] faith, but religious pluralism with local faiths has been commonplace within [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] society. Additionally, the lack of a clear hierarchy has stifled my attempts to build a stronger and more pious state within the [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]. As such, I have decided to promulgate a codification of [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] doctrine in preparation for the future establishment of a religious leader for our community.\n\nThis is a perfect opportunity for me to leverage my position as a powerful [ROOT.Char.GetTitleAsNameNoTooltip] in order to tweak our faith's ethos to serve better ends, should I choose."
+ ate_religious_decision.212.a:0 "A good [ROOT.Char.GetTitleAsNameNoTooltip] allows [ROOT.Char.GetHerHis] people their ways."
+ ate_religious_decision.212.b:0 "Perhaps a moderate reform would better equip our faith for realm management."
+ ate_religious_decision.212.c:1 "[ROOT.Char.GetFaith.GetNameNoTooltip] must become divinely resolute in its convictions!"
+ ate_religious_decision.212.jewish.tt:2 "Every Jewish [vassal|E]"
+ ate_religious_decision.212.nonjewish.tt:2 "Every Non-Jewish [vassal|E]"
+ ate_religious_decision.212.amerindians.tt:0 "Every [vassal|E] following an Amerindian faith"
+ can_never_reform_edah_amazonah_tt:0 "[GetFaithByKey('edah_amazonah').GetName] will permanently keep its existing tenets."
+ ate_religious_decision.213.t:0 "The [amazonah_leader.GetTitleAsNameNoTooltip] and the [amazonah_leader.GetFaith.GetAdherentNameNoTooltip] Faith"
+ ate_religious_decision.212.d:0 "It's time to codify our mingling with our friends in the Amazon and beyond!"
+ ate_religious_decision.213.desc.intro:0 "For generations, the nobility of [amazonah_leader.GetPrimaryTitle.GetNameNoTierNoTooltip] have professed devotion to the [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] faith, but religious pluralism with local faiths has been commonplace within [amazonah_leader.GetPrimaryTitle.GetAdjectiveNoTooltip] society."
+ ate_religious_decision.213.desc.body:0 "However, as late the [amazonah_leader.GetTitleAsNameNoTooltip] and rabbis of the realm have been in heated debate over the nature of hierarchical religious organization within the [amazonah_leader.GetPrimaryTitle.GetTierAsNameNoTooltip].\n\nThe [amazonah_leader.GetTitleAsNameNoTooltip] has, however, come to a decision. "
+ ate_religious_decision.213.desc.righteous:1 "According to a new royal decree, the soon-to-be-established religious leader within the [amazonah_leader.GetPrimaryTitle.GetTierAsNameNoTooltip] will have the authority to exclude sinners, and all those who swear fealty to the [amazonah_leader.GetTitleAsNameNoTooltip] must also swear fealty to [amazonah_leader.GetFaith.HighGodName] himself."
+ ate_religious_decision.213.desc.fundamentalist:0 "Not only is religious pluralism at an end, but any not practicing orthodox [amazonah_leader.GetFaith.GetNameNoTooltip] are necessarily an enemy of the [amazonah_leader.GetPrimaryTitle.GetTierAsNameNoTooltip]. The [amazonah_leader.GetTitleAsNameNoTooltip] seeks to establish [amazonah_leader.GetFaith.GetNameNoTooltip] as a warrior's faith, declaring it the duty of any good [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] to strike at tyrants and fight for their convictions."
+ ate_religious_decision.213.desc.amerindian_syncretism:0 "[amazonah_leader.GetPrimaryTitle.GetTierAsNameNoTooltip] has codified the integration of native Amerindian traditions and even beliefs within the doctrines of [amazonah_leader.GetFaith.GetNameNoTooltip]. This marks offcial theological recognition of syncretism within the faith."
+ ate_religious_decision.213.a:0 "Truly a dark day for [ROOT.Char.GetFaith.GetNameNoTooltip]"
+ ate_religious_decision.213.b:0 "It’s about time!"
+ 
+ 
+ reform_toadas_bumba_decision:0 "Reform Bumba-Toadeiro Structures"
+ reform_toadas_bumba_decision_desc:0 "The $toadas_bumba_adj$ faith has long been decentralized and uncodified. We must reform the old ways and establish ourselves as a properly practiced Bumbotheist faith."
+ reform_toadas_bumba_decision_tooltip:0 "A folk religion no more!"
+ reform_toadas_bumba_decision_confirm:0 "We commit to our faith!"
+ reform_toadas_bumba_decision.path_holy_order:0 "If we reform our [faith|E] to have a $doctrine_holy_order_head_name$ Head"
+ reform_toadas_bumba_decision.path_temporal:0 "If we reform our [faith|E] to have a $doctrine_temporal_head_name$ Head"
+ reform_toadas_bumba_decision.path_spiritual:0 "If we reform our [faith|E] to have a $doctrine_spiritual_head_name$ Head"
+ 
+ ate_religious_decision.214.t:0 "The [ROOT.Char.GetTitleAsNameNoTooltip] and the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Faith"
+ ate_religious_decision.214.desc:1 "For generations, the nobility of the [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] have professed devotion to the [ROOT.Char.GetFaith.GetNameNoTooltip] faith, but religious pluralism with local faiths has been commonplace within [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] society. Additionally, the lack of a unified and codified scriptural base has stifled my attempts to build a stronger and more pious state within the [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]. As such, I have decided to promulgate a codification of [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] doctrine.\n\nThis is a perfect opportunity for me to leverage my position as a powerful [ROOT.Char.GetTitleAsNameNoTooltip] in order to tweak our faith's ethos to serve better ends, should I choose."
+ ate_religious_decision.214.a:0 "A good [ROOT.Char.GetTitleAsNameNoTooltip] allows [ROOT.Char.GetHerHis] people their ways."
+ ate_religious_decision.214.b:0 "Perhaps some slight reform would immortalize our efforts to praise Bumba."
+ ate_religious_decision.214.c:1 "[ROOT.Char.GetFaith.GetNameNoTooltip] must become militant for the sake of our beliefs!"
+ ate_religious_decision.214.bumbotheist.tt:2 "Every Bumbotheist [vassal|E]"
+ ate_religious_decision.214.nonbumbotheist.tt:2 "Every Non-Bumbotheist [vassal|E]"
+ ate_religious_decision.214.amazonians.tt:0 "Every [vassal|E] following an Amazonian-influenced faith"
+ can_never_reform_toadas_bumba_tt:0 "[GetFaithByKey('toadas_bumba').GetName] will permanently keep its existing tenets."
+ ate_religious_decision.215.t:0 "The [bumba_leader.GetTitleAsNameNoTooltip] and the [bumba_leader.GetFaith.GetAdherentNameNoTooltip] Faith"
+ ate_religious_decision.214.d:0 "It's time to throw off the yoke of civilization and return to natural life!"
+ ate_religious_decision.215.desc.intro:0 "For generations, the nobility of [bumba_leader.GetPrimaryTitle.GetNameNoTierNoTooltip] have professed devotion to the [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] faith, but religious pluralism with local faiths has been commonplace within [bumba_leader.GetPrimaryTitle.GetAdjectiveNoTooltip] society."
+ ate_religious_decision.215.desc.body:0 "However, as late the [bumba_leader.GetTitleAsNameNoTooltip] and caboclos of the realm have been in heated debate over the nature of hierarchical religious organization within the [bumba_leader.GetPrimaryTitle.GetTierAsNameNoTooltip].\n\nThe [bumba_leader.GetTitleAsNameNoTooltip] has, however, come to a decision."
+ ate_religious_decision.215.desc.megaliths:1 "[bumba_leader.GetNameNoTooltip] has declared that the [bumba_leader.GetFaith.GetNameNoTooltip] religion will de-emphasize the importance of the ephemeral celebration practices. While still present, the faith now seeks to immortalize its worship practice by building great megaliths for outdoor religious practice."
+ ate_religious_decision.215.desc.militant:0 "Not only is religious pluralism at an end, but any not practicing orthodox [bumba_leader.GetFaith.GetNameNoTooltip] are necessarily an enemy of the [bumba_leader.GetPrimaryTitle.GetTierAsNameNoTooltip]. The [bumba_leader.GetTitleAsNameNoTooltip] seeks to establish [amazonah_leader.GetFaith.GetNameNoTooltip] as a warrior's faith, declaring it the duty of any good [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] to take up arms and fight for divine will."
+ ate_religious_decision.215.desc.natural_primitivism:0 "According to a new royal decree, the newly established religious leader of [bumba_leader.GetFaith.GetNameNoTooltip] will codify the abolition of oppressive civilizational markers within the [bumba_leader.GetPrimaryTitle.GetTierAsNameNoTooltip]. This is most noticably expressed through total nudity, but extends throughout society in other spheres as well."
+ ate_religious_decision.215.a:0 "Truly a dark day for [ROOT.Char.GetFaith.GetNameNoTooltip]"
+ ate_religious_decision.215.b:0 "It’s about time!"

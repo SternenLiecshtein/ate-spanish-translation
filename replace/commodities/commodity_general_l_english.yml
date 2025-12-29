@@ -1,0 +1,100 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+####Common
+#interface
+ SUPPLIERS_LABEL:0 "Suppliers"
+ BUYERS_LABEL:0 "Buyers"
+#relations
+ relation_exporter:0 "exporter"
+ relation_importer:0 "importer"
+#interactions
+ TRAVEL_TO_TARGET:0 "Travel to the trade recipient"
+ TRAVEL_TO_TARGET_TT:0 "A travel plan will be created"
+ ALREADY_IMPORTS:0 "They already import this commodity"
+ ALREADY_IMPORTS_TT:0 "They already import this commodity"
+ ALREADY_EXPORTS:0 "They already export this commodity"
+ ALREADY_EXPORTS_TT:0 "They already export this commodity"
+ ADMINISTRATIVE_EXPORTER:0 "Exporter is [administrative|E]"
+ ADMINISTRATIVE_EXPORTER_TT:0 "Exporter is [administrative|E]"
+ ADMINISTRATIVE_IMPORTER:0 "Importer is [administrative|E]"
+ ADMINISTRATIVE_IMPORTER_TT:0 "Importer is [administrative|E]"
+ EXPORT_TIER_1:0 "Minor export"
+ EXPORT_TIER_2:0 "Average export"
+ EXPORT_TIER_3:0 "Major export"
+ EXPORT_TIER_4:0 "Massive export"
+ EXPORT_TIER_5:0 "Largest export"
+ IMPORT_DISTANCE_1:0 "Direct from producer"
+ IMPORT_DISTANCE_2:0 "Nearby import"
+ IMPORT_DISTANCE_3:0 "Distant import"
+ IMPORT_DISTANCE_4:0 "Remote import"
+ IMPORT_DISTANCE_5:0 "Farthest import"
+ IMPORTER_IS_COUNT:0 "Importer is a count"
+ IMPORTER_IS_DUKE:0 "Importer is a duke"
+ IMPORTER_IS_KING:0 "Importer is a king"
+ IMPORTER_IS_EMPEROR:0 "Importer is an emperor"
+ IMPORTER_IS_HIGH_REPUBLIC:0 "Importer is a [government_high_republic|E]"
+ ADMINISTRATIVE_IMPORTER:0 "Importer is [administrative|E]"
+ EXPORTER_IS_COUNT:0 "Exporter is a count"
+ EXPORTER_IS_DUKE:0 "Exporter is a duke"
+ EXPORTER_IS_KING:0 "Exporter is a king"
+ EXPORTER_IS_EMPEROR:0 "Exporter is an emperor"
+ EXPORTER_IS_HIGH_REPUBLIC:0 "Exporter is a [government_high_republic|E]"
+ ADMINISTRATIVE_EXPORTER:0 "Exporter is [administrative|E]"
+ TOO_FAR_WITHOUT_TRAVEL:0 "Too far without travel"
+ TOO_FAR_WITHOUT_TRAVEL_TT:0 "Due to major distances, you must travel to the receiver"
+#parameters
+ commodity_trade_range_bonus:0 "Trade range of [commodities|E] is increased"
+ culture_parameter_commodity_trade_range_bonus:0 "Trade range of [commodities|E] is increased"
+ doctrine_parameter_commodity_trade_range_bonus:0 "Trade range of [commodities|E] is increased"
+ domicile_building_parameter_commodity_trade_range_bonus:0 "Trade range of [commodities|E] is increased"
+#traits
+ trait_merchant:0 "Merchant"
+ trait_track_merchant:0 "$trait_merchant$"
+ trait_track_merchant_desc:0 "Some say a merchant must have the glibness of an orator, the precision of an accountant and the resilience of a sailor. Others will sell you a better answer if you are willing to pay for it.\n\n#weak This [trait|E] can be levelled through interacting with the trade of [commodities|E]. Travelling and activelly engaging on the trade leads to a faster progression.\n\nHigher levels of this trait increase the Trade Range of [commodities|E].#!"
+ trait_merchant_desc:0 "This character has gained valuable skills in their role as a merchant."
+ trait_merchant_3:0 "Veteran Merchant"
+ trait_merchant_2:0 "Experienced Merchant"
+ trait_merchant_1:0 "Merchant"
+ trait_merchant_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an exceptional trader, traveller and negotiator and would feel at home in any market across the Americas."
+ trait_merchant_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has plenty of experience exchanging commodities for currency, both at home and in foreign ports."
+ trait_merchant_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has gained valuable skills buying and selling commodities as a merchant."
+ high_republic_government_opinion:0 "[high_republic|E] Ruler Opinion"
+
+#events
+ commodity_general.020.title:0 "Mercantile Opportunities - Fooled!"
+ commodity_general.020.desc:0 "The docks of [target.GetCapitalLocation.GetTitle.GetBaseNameNoTier] teemed with opportunity—or so I thought. The merchant guilds whispered of lucrative deals, and I, ever the eager trader, sought to claim my share. Alas, I placed my trust in silver-tongued swindlers who weaved false promises as deftly as they wove their counterfeit ledgers. When the truth unraveled, my coin had long since vanished into the alleys."
+ commodity_general.020.a:0 "A costly lesson, paid in gold."
+ 
+ commodity_general.021.title:0 "Mercantile Opportunities - Minor Success"
+ commodity_general.021.desc:0 "The market squares of [target.GetCapitalLocation.GetTitle.GetBaseNameNoTier] hum with trade, a symphony of barter and coin. With careful negotiation and a touch of luck, I secured modest returns on my ventures. It is not the wealth of kings, but profit nonetheless."
+ commodity_general.021.a:0 "Profit is profit indeed."
+ 
+ commodity_general.022.title:0 "Mercantile Opportunities - Major Returns"
+ commodity_general.022.desc:0 "Fortune favors the bold! The docks of [target.GetCapitalLocation.GetTitle.GetBaseNameNoTier] overflowed with eager buyers, and I, with my keen eye for opportunity, struck the perfect bargain. My coffers swell with silver, my name is spoken with admiration among the merchant class, and even [target.GetName] has noticed by businesses go far beyond our mutual contract."
+ commodity_general.022.a:0 "I should return more often!"
+ 
+ commodity_general.023.title:0 "Mercantile Opportunities - Jackpot!"
+ commodity_general.023.desc:0 "Never have I seen such prosperity! Every venture I pursued in [target.GetCapitalLocation.GetTitle.GetBaseNameNoTier] flourished beyond expectation: locals pay small fortunes for the most trival [trader.GetCapitalLocation] trinkets while legendary [target.GetCapitalLocation.GetCounty.GetCulture.GetName] fine goods seem to be easily sold as scraps. My original purpose here pales in comparison to the wealth I will be bringing back home!"
+ commodity_general.023.a:0 "[target.GetCapitalLocation.GetTitle.GetBaseNameNoTier], it has been a pleasure!"
+ 
+ commodity_general.030.title:0 "A Day Off - Wasted!"
+ commodity_general.030.desc:0 "I sought respite in the streets of [target.GetCapitalLocation.GetTitle.GetBaseNameNoTier], hoping to ease the burdens of trade. Yet, everywhere I turned, I was beset by the noise of haggling vendors, the jostling of crowds, the stench of unwashed docks. My mind, longing for peace, found only chaos. Exhausted, I return to my quarters, more weary than before."
+ commodity_general.030.a:0 "I should have stayed in my cabin."
+                    
+ commodity_general.031.title:0 "A Day Off - Deserved Rest"
+ commodity_general.031.desc:0 "As the sun dipped below the skyline of [target.GetCapitalLocation.GetTitle.GetBaseNameNoTier], I set out to explore the city's finer establishments. A quiet tavern, the warmth of well-spiced [target.Custom('RegionalDrink')], and the sound of a minstrel’s lute made for a fine evening."
+ commodity_general.031.a:0 "I should come here more often!"
+                    
+ commodity_general.032.desc:0 "Trade fills my coffers, but it is food that fills the soul! The markets of [target.GetCapitalLocation.GetTitle.GetBaseNameNoTier] offered delicacies unknown to my homeland: [target.Custom('GetExpensiveMeal')] prepared with [target.Custom('GetFoodDetail')] sauce, succulent roasted [target.Custom('GetFoodBird')], fresh [target.Custom('GetLocalStreetFood')] and the finest [target.Custom('RegionalDrink')] to be drank. I gorged myself with delight, savoring each bite as if it were a king’s feast."
+ commodity_general.032.title:0 "A Day Off - Delicious Delicacies"
+ commodity_general.032.a:0 "This, truly, is the wealth of nations."
+                    
+ commodity_general.033.title:0 "A Day Off - A Day Seized!"
+ commodity_general.033.desc:0 "What began as a simple stroll through the streets of [target.GetCapitalLocation.GetTitle.GetBaseNameNoTier] became an evening of revelry! The locals welcomed me as one of their own, their laughter infectious, their hospitality boundless (and their [target.Custom('GetLocalStreetFood')] addictive!). By the time the moon stood high, I was singing [target.GetCulture.GetNameNoTooltip] songs I did not know and drinking varieties of [target.Custom('RegionalDrink')] I could not name. Trade may build fortunes, but nights like this make life worth living."
+ commodity_general.033.a:0 "'Carpe Diem', my friends!"
+#triggers

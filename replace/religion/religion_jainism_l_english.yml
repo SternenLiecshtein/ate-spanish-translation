@@ -1,0 +1,94 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+
+ jainism_religion:1 "Jainism"
+ jainism_religion_adj:1 "Jain"
+ jainism_religion_adherent:1 "Jain"
+ jainism_religion_adherent_plural:1 "Jains"
+ jainism_religion_desc:1 "Jainism is a mostly nontheistic Dharmic tradition originating from the far-off land of India. Jains believe in the Tirthankaras, great religious leaders who lived in previous world cycles, and in the teachings of Mahavira, who refounded Jainism in the current world cycle some 3000 years ago. Key elements common to Jain practice include pacifism, asceticism, and orienting one’s life towards the attainment of Moksha (liberation from the cycle of rebirth) after death."
+ 
+ 
+ jainism_high_god_name:0 "The Tirthankaras"
+ jainism_high_god_name_possessive:0 "The Tirthankaras'"
+ jainism_good_god_rishabhanatha:0 "Rishabhanatha"
+ jainism_good_god_mahavira:0 "Mahavira"
+ jainism_devil_name:0 "Mithyatva"
+ jainism_devil_name_possessive:0 "Mithyatva's"
+ jainism_house_of_worship:0 "basadi"
+ jainism_house_of_worship_plural:0 "basadis"
+ jainism_religious_symbol:0 "Ahimsa"
+ jainism_religious_text:0 "Agamas"
+ jainism_religious_head_title:0 "High Acharya"
+ jainism_religious_head_title_name:0 "Sangha"
+ jainism_devotee_male:0 "muni"
+ jainism_devotee_male_plural:0 "munis"
+ jainism_devotee_female:0 "aryika"
+ jainism_devotee_female_plural:0 "aryikas"
+ jainism_devotee_neuter:0 "upasaka"
+ jainism_devotee_neuter_plural:0 "upasakas"
+ jainism_alternate_priest_term_plural:0 "sangha"
+ jainism_priest:0 "purohit"
+ jainism_priest_plural:0 "purohits"
+ jainism_bishop:0 "acharya"
+ jainism_bishop_plural:0 "acharyas"
+ jainism_divine_realm:0 "Siddhasila"
+ jainism_positive_afterlife:0 "Siddhasila"
+ jainism_negative_afterlife:0 "Naraka"
+ jainism_death_deity:0 "Jiva"
+ jainism_death_deity_possessive:0 "Jiva's"
+
+ jainism_creator_god_name:0 "Jiva"
+ jainism_creator_god_name_possessive:0 "Jiva's"
+ jainism_health_god_name:0 "Mahavira"
+ jainism_health_god_name_possessive:0 "Mahavira's"
+ jainism_fertility_god_name:0 "Ambika"
+ jainism_fertility_god_name_possessive:0 "Ambika's"
+ jainism_wealth_god_name:0 "Lakshmi Devi"
+ jainism_wealth_god_name_possessive:0 "Lakshmi Devi's"
+ jainism_household_god_name:0 "Ambika"
+ jainism_household_god_name_possessive:0 "Ambika's"
+ jainism_fate_god_name:0 "karma"
+ jainism_fate_god_name_possessive:0 "karma's"
+ jainism_knowledge_god_name:0 "Rishabhanatha"
+ jainism_knowledge_god_name_possessive:0 "Rishabhanatha's"
+ jainism_war_god_name:0 "The Tirthankaras"
+ jainism_war_god_name_possessive:0 "The Tirthankaras'"
+ jainism_trickster_god_name:0 "$jainism_fate_god_name$"
+ jainism_trickster_god_name_possessive:0 "$jainism_fate_god_name_possessive$"
+ jainism_night_god_name:0 "Suparśvanātha"
+ jainism_night_god_name_possessive:0 "Suparśvanātha's"
+ jainism_water_god_name:0 "Jiva"
+ jainism_water_god_name_possessive:0 "Jiva's"
+ 
+ 
+ 
+ 
+ 
+ shraman_dharma:0 "Shraman Dharma"
+ shraman_dharma_adj:0 "Shraman Dharma"
+ shraman_dharma_adherent:0 "Shramana"
+ shraman_dharma_adherent_plural:0 "Shramanas"
+ shraman_dharma_desc:0 "Shraman Dharma, meaning “religion of self-reliance,” is a Jain movement formed in opposition to the de-emphasization of ascetic monasticism among the Jain diaspora post-[Concept('the_event_ate','Event')|E]. Shramanas have re-introduced the strict monastic orders with new lineages independent from those in India, as well as the practice of ritual nudity among these monastics. The Shramanas are seen by other Jains as somewhat radical in their neo-traditionalism, yet also novel for their unique adaptations in light of their new environment and the changing times of the past few centuries in the Americas."
+
+ united_jain:0 "United Jain Sangha"
+ united_jain_adj:0 "United Jain"
+ united_jain_adherent:0 "United Jain"
+ united_jain_adherent_plural:0 "United Jains"
+ united_jain_desc:0 "The United Jain Sangha is an association that combines the two dominant forms of Jain worship under one roof. While both Svetambara and Digambara laypeople are represented in United Jain places of worship, the [Concept('the_event_ate','Event')|E] cutting off both groups from their heartland in India had a profound impact on the diaspora’s connection to the initiated monastics; as Svetambara monastics had more of a presence in the Americas due to their laxer restrictions, their practices became the norm among the United Jains of the Americas. That said, the various differences in worship cohabit the same communities without issue."
+ 
+ 
+ 
+ shramana_wealth_god_name:0 "Shri Padmavati"
+ shramana_wealth_god_name_possessive:0 "Shri Padmavati's"
+ 
+ shramana_bishop:0 "sadhu"
+ shramana_bishop_plural:0 "sadhus"
+ 
+ shramana_religious_head_title:0 "High Sadhu"
+ shramana_religious_head_title_name:0 "Monastic Order"

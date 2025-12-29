@@ -1,0 +1,23 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+  ate_religious_decision_alternative_society.0001.t:0 "The Ever-changing Ways"
+  ate_religious_decision_alternative_society.0001.desc:0 "What does [ROOT.Char.GetFaith.HighGodName] want? What is the absolute truth? What is the meaning of life? Will these mysteries ever be known to man or god? Probably not. However, by experiencing life in as many different manners as possible, we may get one step closer to the answers.\n\nWhen facing the new challenges of existence, we must seek the guidance of [ROOT.Char.GetFaith.KnowledgeGodName] on how we will perceive the world in the coming years..."
+  ate_religious_decision_alternative_society.0001.option:0 "I'd rather be, now, the complete opposite of what I was before"
+  walking_metamorphosis_diplomacy_bonus:"Way of Diplomacy"
+  walking_metamorphosis_martial_bonus:"Way of the Arms"
+  walking_metamorphosis_stewardship_bonus:"Way of Stewardship"
+  walking_metamorphosis_intrigue_bonus:"Way of Intrigue"
+  walking_metamorphosis_learning_bonus:"Way of Learning"
+  walking_metamorphosis_wanderer_bonus:"Way of Wandering"
+  
+ change_focus_decision:0 "Pick a new lifestyle" 
+ change_focus_decision_desc:0 "Across history, countless men and women have let their hubris set their path unchallenged for their entire life. Not us: We know that our journey will not be complete unless we take all possible detours. According to [ROOT.Char.GetFaith.ReligiousText], constant change is a necessity in face of an ever-changing world. We must strive to experience different points of view throughout our lifetime as we continue our path towards spiritual enlightenment."  
+ change_focus_tooltip:0 "Change your lifestyle to better suit the world you live in."
+ change_focus_decision_tooltip:0 "You are longing for holy guidance."
+ change_focus_decision_confirm:0 "The world is always changing and so must we!"
+ 

@@ -1,0 +1,43 @@
+﻿l_spanish:
+
+
+ feudal_government_desc:1 "$game_concept_feudal_desc$\n\n#F Feudalism is the dominant government form in the Americas during the 27th century. The feudal system is based on the relationship between the landholder and those who provide services and labor in order to live there. The rulers who hold the land appoint vassals which are given fiefs to govern. In return, the vassals provide their liege with [soldiers|E] and [taxes|E].#!"
+
+ strict_taxation_tax_collector:0 "Strict Taxes"
+ strict_taxation_tax_collector_flavor_desc:0 "Enforcing stringent taxes on the wealthy, typically done through various luxury taxes, is done to generate additional income for the state and to support those in need."
+
+ muqata_special_rights_tax_collector:0 "Lenient Taxes"
+ muqata_special_rights_tax_collector_flavor_desc:0 "A tax system characterized by lenient taxes, fostering greater autonomy and reduced tax burdens. This approach aims to promote stability and encourage sustained, long-term development."
+
+ mita_special_rights_tax_collector:0 "Mit'a"
+ mita_special_rights_tax_collector_flavor_desc:0 "The Mit'a system represents a labor tribute system where individuals, often from distant regions, are obligated to provide a certain amount of labor for communal projects. This historic practice aims to encourage communal development and sustainability."
+
+ religious_special_rights_tax_collector:0 "Religious Taxes"
+ religious_special_rights_tax_collector_desc:0 "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [liege|E] cannot [demand_conversion|E] of the [vassal|E]\nThe [liege|E] cannot use [convert_county|E] in the [vassals|E]' lands\nThe [liege|E] cannot use [faith|E] as a reason to avoid [tyranny|E] when revoking titles\nThe [liege|E] cannot revoke the [vassals_possessive|E] [titles|E]\n\n#flavor The [vassal|E] is guaranteed ownership of their [titles], preventing the [liege|E] from revoking them – regardless of the $game_concept_liege$ having a [revoke_title_reason|E] or not.\nThe $game_concept_vassal$ is also granted a special protected status, with the realm officially recognizing their right to practice their own [faith|E].#!"
+ religious_special_rights_tax_collector_flavor_desc:0 "By applying a special tax to religious minorities they are granted the privilege to practice their faith in peace"
+
+ ghazi_special_rights_tax_collector:0 "Brigandage"
+ ghazi_special_rights_tax_collector_desc:0 "#emphasis #bold [vassal|E] Privilege:#!#!\nThe [vassal|E] pays less [piety|E] to use [holy_war|E] [casus_bellis|E] but more [prestige_i][prestige|E] for any other [casus_bellis|E] \n\n#flavor The [vassal|E] is chosen as a warrior of the [faith|E] by the [liege|E], charged with carrying the borders outwards through [holy_war|E].#!"
+ ghazi_special_rights_tax_collector_flavor_desc:0 "Our brigands amass wealth through plunder and acts of banditry, waging an unrelenting war against the state's adversaries."
+
+ iqta_special_rights_tax_collector:0 "Land Grant"
+ iqta_special_rights_tax_collector_desc:0 "The [vassal|E] has lower obligations but helps contributing [men_at_arms|E] to the [liege|E]."
+ iqta_special_rights_tax_collector_flavor_desc:0 "A land grant system is a tax collection arrangement where local magnates are granted broad authority to gather taxes on behalf of the state. In return, they are obligated to supply substantial numbers of soldiers for their liege."
+
+#  vizierate_diarchy_type:0 "Viceroyalty"
+#  game_concept_vizier: "Viceroy"
+#  game_concept_viziers: "Viceroys"
+#  game_concept_vizierate: "Viceroyalty"
+
+ COUNCILLOR_MISSING_VIZIER:0 "You have no [vizier|E] or [spouse|E]"
+ COUNCILLOR_LIEGE_MISSING_VIZIER:0 "[CouncilWindow.GetCharacter.GetShortUIName] has no [vizier|E] or [spouse|E]"
+ councillor_vizier:0 "Confidant"
+ councillor_vizier_desc:0 "As a [ayllu_government|E] Ruler you can decide to assign either your [vizier|E] or any of your [spouses|E] as your Confidant. Whoever you choose will support you in your daily tasks."
+ councillor_vizier_possessive:0 "Confidant's"
+
+ game_concept_clan_desc:0 "Kinship is a [government_form|E] in which the amount of [levies|E] and [taxes|E] given to a [liege|E] by their [vassals|E] is determined by their degree of kinship to said Liege. However, the Liege's [crown_authority|E] can increase the minimum amount they must provide regardless of kinship."
+
+ ayllu_tax_collector_obligations: "[tax_collector|E] Aptitude"
+ range_tax_collector_obligations: "[tax_collector|E] Aptitude"
+ federal_tax_collector_obligations: "[tax_collector|E] Aptitude"
+ state_bureaucracy_tax_collector_obligations: "[tax_collector|E] Aptitude"

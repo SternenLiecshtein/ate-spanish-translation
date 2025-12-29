@@ -1,0 +1,11 @@
+﻿l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+  game_concept_feudal_contract:0 "Contrato"
+  game_concept_feudal_contracts:0 "Contratos"
+  game_concept_contract:0 "Contrato"
+  game_concept_feudal_contract_desc:2 "Un $game_concept_contract$ especifica las [obligations|E] entre un [vassal|E] y su [liege|E]. Las formas de gobierno Feudal, Familiar, por Rango, Imperial, de la Alta República y Federal permiten [government_forms|E] a cada vasallo negociar sus obligaciones de forma individual.\n\nLos contratos especiales, como los contratos: #V $special_contract_march_short$#!, #V $special_contract_scutage_short$#! o #V $special_contract_palatinate_short$#!, solo pueden ser celebrados por [vassals|E] de rango [duchy|E] o superior."

@@ -1,0 +1,254 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ knight_culture_player:0 "[GetPlayer.Custom( 'KnightCulture' )]"
+ knight_culture_player_plural:0 "[GetPlayer.Custom( 'KnightCulturePlural' )]"
+ knight_culture_player_no_tooltip:0 "[GetPlayer.Custom( 'KnightCultureNoTooltip' )]"
+ knight_culture_player_plural_no_tooltip:0 "[GetPlayer.Custom( 'KnightCulturePluralNoTooltip' )]"
+ knight_culture_player_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )]"
+ knight_culture_player_plural_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCulturePluralNoTooltipLowercase' )]"
+ knight_culture_player_plural_possessive_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCulturePluralPossessiveNoTooltipLowercase' )]"
+ knight_culture_player_adjective_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCultureAdjectiveNoTooltipLowercase' )]"
+ 
+ # No tooltip versions
+ knight_default_no_tooltip:0 "Knight"
+ knight_default_no_tooltip_plural:0 "Knights"
+ 
+ # AtE Fallback, placeholder
+ knight_ate_default_no_tooltip:0 "Champion"
+ knight_ate_default_no_tooltip_plural:0 "Champions"
+
+ knight_faris_no_tooltip:0 "Fāris"
+ knight_faris_no_tooltip_plural:0 "Fāris"
+
+ knight_baghatur_no_tooltip:0 "Baghatur"
+ knight_baghatur_no_tooltip_plural:0 "Baghaturs"
+
+ knight_shoorveer_no_tooltip:0 "Shoorveer"
+ knight_shoorveer_no_tooltip_plural:0 "Shoorveers"
+
+ knight_aswaran_no_tooltip:0 "Aswār"
+ knight_aswaran_no_tooltip_plural:0 "Aswārān"
+
+ knight_hetaeria_no_tooltip:0 "Hetaireiarches"
+ knight_hetaeria_no_tooltip_plural:0 "Hetaireiarchai"
+
+ knight_champion_no_tooltip:0 "Champion"
+ knight_champion_no_tooltip_plural:0 "Champions"
+ 
+ 
+ # Lowercase versions
+ knight_default_no_tooltip_lowercase:0 "knight"
+ knight_default_no_tooltip_lowercase_plural:0 "knights"
+ knight_default_no_tooltip_lowercase_plural_possessive:0 "knights'"
+ knight_default_no_tooltip_lowercase_adjective:0 "knightly"
+ 
+ knight_ate_default_no_tooltip_lowercase:0 "champion"
+ knight_ate_default_no_tooltip_lowercase_plural:0 "champions"
+ knight_ate_default_no_tooltip_lowercase_plural_possessive:0 "champions'"
+ knight_ate_default_no_tooltip_lowercase_adjective:0 "champion"
+
+ knight_faris_no_tooltip_lowercase:0 "fāris"
+ knight_faris_no_tooltip_lowercase_plural:0 "fāris"
+ knight_faris_no_tooltip_lowercase_plural_possessive:0 "fāris'"
+ knight_faris_no_tooltip_lowercase_adjective:0 "furūsiyya"
+
+ knight_baghatur_no_tooltip_lowercase:0 "baghatur"
+ knight_baghatur_no_tooltip_lowercase_plural:0 "baghaturs"
+ knight_baghatur_no_tooltip_lowercase_plural_possessive:0 "baghaturs'"
+ knight_baghatur_no_tooltip_lowercase_adjective:0 "baghatur"
+
+ knight_shoorveer_no_tooltip_lowercase:0 "shoorveer"
+ knight_shoorveer_no_tooltip_lowercase_plural:0 "shoorveers"
+ knight_shoorveer_no_tooltip_lowercase_plural_possessive:0 "shoorveers'"
+ knight_shoorveer_no_tooltip_lowercase_adjective:0 "shoorveer"
+
+ knight_aswaran_no_tooltip_lowercase:0 "aswār"
+ knight_aswaran_no_tooltip_lowercase_plural:0 "aswārān"
+ knight_aswaran_no_tooltip_lowercase_plural_possessive:0 "aswārān's"
+ knight_aswaran_no_tooltip_lowercase_adjective:0 "aswār"
+
+ knight_hetaeria_no_tooltip_lowercase:0 "hetaeria"
+ knight_hetaeria_no_tooltip_lowercase_plural:0 "hetaeriae"
+ knight_hetaeria_no_tooltip_lowercase_plural_possessive:0 "hetaeriae's"
+ knight_hetaeria_no_tooltip_lowercase_adjective:0 "hetaeria"
+
+ knight_champion_no_tooltip_lowercase:0 "champion"
+ knight_champion_no_tooltip_lowercase_plural:0 "champions"
+ knight_champion_no_tooltip_lowercase_plural_possessive:0 "champions'"
+ knight_champion_no_tooltip_lowercase_adjective:0 "champion"
+ 
+
+ #Game Concept versions
+ knight_default:0 "[Concept( 'knight', '$knight_default_no_tooltip|q$' )|E]"
+ knight_default_plural:0 "[Concept( 'knight', '$knight_default_no_tooltip_plural|q$' )|E]"
+
+ knight_ate_default:0 "[Concept( 'knight', '$knight_ate_default_no_tooltip|q$' )|E]"
+ knight_ate_default_plural:0 "[Concept( 'knight', '$knight_ate_default_no_tooltip_plural|q$' )|E]"
+ 
+ knight_faris:0 "[Concept( 'knight', '$knight_faris_no_tooltip|q$' )|E]"
+ knight_faris_plural:0 "[Concept( 'knight', '$knight_faris_no_tooltip_plural|q$' )|E]"
+
+ knight_baghatur:0 "[Concept( 'knight', '$knight_baghatur_no_tooltip|q$' )|E]"
+ knight_baghatur_plural:0 "[Concept( 'knight', '$knight_baghatur_no_tooltip_plural|q$' )|E]"
+
+ knight_shoorveer:0 "[Concept( 'knight', '$knight_shoorveer_no_tooltip|q$' )|E]"
+ knight_shoorveer_plural:0 "[Concept( 'knight', '$knight_shoorveer_no_tooltip_plural|q$' )|E]"
+
+ knight_aswaran:0 "[Concept( 'knight', '$knight_aswaran_no_tooltip|q$' )|E]"
+ knight_aswaran_plural:0 "[Concept( 'knight', '$knight_aswaran_no_tooltip_plural|q$' )|E]"
+
+ knight_hetaeria:0 "[Concept( 'knight', '$knight_hetaeria_no_tooltip|q$' )|E]"
+ knight_hetaeria_plural:0 "[Concept( 'knight', '$knight_hetaeria_no_tooltip_plural|q$' )|E]"
+
+ knight_champion:0 "[Concept( 'knight', '$knight_champion_no_tooltip|q$' )|E]"
+ knight_champion_plural:0 "[Concept( 'knight', '$knight_champion_no_tooltip_plural|q$' )|E]"
+
+
+ knight_knight_no_tooltip:0 "Knight"
+ knight_knight_no_tooltip_plural:0 "Knights"
+ knight_knight_no_tooltip_lowercase:0 "knight"
+ knight_knight_no_tooltip_lowercase_plural:0 "knights"
+ knight_knight_no_tooltip_lowercase_plural_possessive:0 "knights'"
+ knight_knight_no_tooltip_lowercase_adjective:0 "knightly"
+ knight_knight:0 "[Concept( 'knight', '$knight_knight_no_tooltip|q$' )|E]"
+ knight_knight_plural:0 "[Concept( 'knight', '$knight_knight_no_tooltip_plural|q$' )|E]"
+
+
+ knight_jagunco_no_tooltip:0 "Jagunço"
+ knight_jagunco_no_tooltip_plural:0 "Jagunços"
+ knight_jagunco_no_tooltip_lowercase:0 "jagunço"
+ knight_jagunco_no_tooltip_lowercase_plural:0 "jagunços"
+ knight_jagunco_no_tooltip_lowercase_plural_possessive:0 "jagunços'"
+ knight_jagunco_no_tooltip_lowercase_adjective:0 "jagunço"
+ knight_jagunco:0 "[Concept( 'knight', '$knight_jagunco_no_tooltip|q$' )|E]"
+ knight_jagunco_plural:0 "[Concept( 'knight', '$knight_jagunco_no_tooltip_plural|q$' )|E]"
+
+
+ knight_mountie_no_tooltip:0 "Mountie"
+ knight_mountie_no_tooltip_plural:0 "Mounties"
+ knight_mountie_no_tooltip_lowercase:0 "mountie"
+ knight_mountie_no_tooltip_lowercase_plural:0 "mounties"
+ knight_mountie_no_tooltip_lowercase_plural_possessive:0 "mounties'"
+ knight_mountie_no_tooltip_lowercase_adjective:0 "mountie"
+ knight_mountie:0 "[Concept( 'knight', '$knight_mountie_no_tooltip|q$' )|E]"
+ knight_mountie_plural:0 "[Concept( 'knight', '$knight_mountie_no_tooltip_plural|q$' )|E]"
+
+ #knight_centroavante_no_tooltip:0 "Centroavante"
+ #knight_centroavante_no_tooltip_plural:0 "Centroavantes"
+ #knight_centroavante_no_tooltip_lowercase:0 "centroavante"
+ #knight_centroavante_no_tooltip_lowercase_plural:0 "centroavantes"
+ #knight_centroavante_no_tooltip_lowercase_plural_possessive:0 "centroavantes'"
+ #knight_centroavante_no_tooltip_lowercase_adjective:0 "centroavante"
+ #knight_centroavante:0 "[Concept( 'knight', '$knight_centroavante_no_tooltip|q$' )|E]"
+ #knight_centroavante_plural:0 "[Concept( 'knight', '$knight_centroavante_no_tooltip_plural|q$' )|E]"
+
+ knight_atacante_no_tooltip:0 "Atacante"
+ knight_atacante_no_tooltip_plural:0 "Atacantes"
+ knight_atacante_no_tooltip_lowercase:0 "atacante"
+ knight_atacante_no_tooltip_lowercase_plural:0 "atacantes"
+ knight_atacante_no_tooltip_lowercase_plural_possessive:0 "atacantes'"
+ knight_atacante_no_tooltip_lowercase_adjective:0 "atacante"
+ knight_atacante:0 "[Concept( 'knight', '$knight_atacante_no_tooltip|q$' )|E]"
+ knight_atacante_plural:0 "[Concept( 'knight', '$knight_atacante_no_tooltip_plural|q$' )|E]"
+ 
+ knight_cavaleiro_no_tooltip:0 "Cavaleiro"
+ knight_cavaleiro_no_tooltip_plural:0 "Cavaleiros"
+ knight_cavaleiro_no_tooltip_lowercase:0 "cavaleiro"
+ knight_cavaleiro_no_tooltip_lowercase_plural:0 "Cavaleiros"
+ knight_cavaleiro_no_tooltip_lowercase_plural_possessive:0 "cavaleiros'"
+ knight_cavaleiro_no_tooltip_lowercase_adjective:0 "cavaleiro"
+ knight_cavaleiro:0 "[Concept( 'knight', '$knight_cavaleiro_no_tooltip|q$' )|E]"
+ knight_cavaleiro_plural:0 "[Concept( 'knight', '$knight_cavaleiro_no_tooltip_plural|q$' )|E]"
+ 
+ knight_peao_no_tooltip:0 "Peão"
+ knight_peao_no_tooltip_plural:0 "Peões"
+ knight_peao_no_tooltip_lowercase:0 "peão"
+ knight_peao_no_tooltip_lowercase_plural:0 "peões"
+ knight_peao_no_tooltip_lowercase_plural_possessive:0 "peões'"
+ knight_peao_no_tooltip_lowercase_adjective:0 "peão"
+ knight_peao:0 "[Concept( 'knight', '$knight_peao_no_tooltip|q$' )|E]"
+ knight_peao_plural:0 "[Concept( 'knight', '$knight_peao_no_tooltip_plural|q$' )|E]"
+
+
+ knight_punta_no_tooltip:0 "Punta"
+ knight_punta_no_tooltip_plural:0 "Puntas"
+ knight_punta_no_tooltip_lowercase:0 "punta"
+ knight_punta_no_tooltip_lowercase_plural:0 "puntas"
+ knight_punta_no_tooltip_lowercase_plural_possessive:0 "puntas'"
+ knight_punta_no_tooltip_lowercase_adjective:0 "delantero"
+ knight_punta:0 "[Concept( 'knight', '$knight_punta_no_tooltip|q$' )|E]"
+ knight_punta_plural:0 "[Concept( 'knight', '$knight_punta_no_tooltip_plural|q$' )|E]"
+
+
+ knight_screecher_no_tooltip:0 "Screecher"
+ knight_screecher_no_tooltip_plural:0 "Screechers"
+ knight_screecher_no_tooltip_lowercase:0 "screecher"
+ knight_screecher_no_tooltip_lowercase_plural:0 "screechers"
+ knight_screecher_no_tooltip_lowercase_plural_possessive:0 "screechers'"
+ knight_screecher_no_tooltip_lowercase_adjective:0 "screecher"
+ knight_screecher:0 "[Concept( 'knight', '$knight_screecher_no_tooltip|q$' )|E]"
+ knight_screecher_plural:0 "[Concept( 'knight', '$knight_screecher_no_tooltip_plural|q$' )|E]"
+
+
+ knight_guaripola_no_tooltip:0 "Guaripola"
+ knight_guaripola_no_tooltip_plural:0 "Guaripolas"
+ knight_guaripola_no_tooltip_lowercase:0 "guaripola"
+ knight_guaripola_no_tooltip_lowercase_plural:0 "guaripolas"
+ knight_guaripola_no_tooltip_lowercase_plural_possessive:0 "guaripolas'"
+ knight_guaripola_no_tooltip_lowercase_adjective:0 "guaripola"
+ knight_guaripola:0 "[Concept( 'knight', '$knight_guaripola_no_tooltip|q$' )|E]"
+ knight_guaripola_plural:0 "[Concept( 'knight', '$knight_guaripola_no_tooltip_plural|q$' )|E]"
+
+ knight_weychafe_no_tooltip:0 "Weychafe"
+ knight_weychafe_no_tooltip_plural:0 "Weychafe"
+ knight_weychafe_no_tooltip_lowercase:0 "weychafe"
+ knight_weychafe_no_tooltip_lowercase_plural:0 "weychafe"
+ knight_weychafe_no_tooltip_lowercase_plural_possessive:0 "weychafe's"
+ knight_weychafe_no_tooltip_lowercase_adjective:0 "weychafe"
+ knight_weychafe:0 "[Concept( 'knight', '$knight_weychafe_no_tooltip|q$' )|E]"
+ knight_weychafe_plural:0 "[Concept( 'knight', '$knight_weychafe_no_tooltip_plural|q$' )|E]"
+
+
+ knight_chevalier_no_tooltip:0 "Chevalier"
+ knight_chevalier_no_tooltip_plural:0 "Chevaliers"
+ knight_chevalier_no_tooltip_lowercase:0 "chevalier"
+ knight_chevalier_no_tooltip_lowercase_plural:0 "chevaliers"
+ knight_chevalier_no_tooltip_lowercase_plural_possessive:0 "chevaliers'"
+ knight_chevalier_no_tooltip_lowercase_adjective:0 "chevalier"
+ knight_chevalier:0 "[Concept( 'knight', '$knight_chevalier_no_tooltip|q$' )|E]"
+ knight_chevalier_plural:0 "[Concept( 'knight', '$knight_chevalier_no_tooltip_plural|q$' )|E]"
+
+
+ knight_cuauhocelomeh_no_tooltip:0 "Cuauhocelomeh"
+ knight_cuauhocelomeh_no_tooltip_plural:0 "Cuauhocelotl"
+ knight_cuauhocelomeh_no_tooltip_lowercase:0 "cuauhocelomeh"
+ knight_cuauhocelomeh_no_tooltip_lowercase_plural:0 "cuauhocelotl"
+ knight_cuauhocelomeh_no_tooltip_lowercase_plural_possessive:0 "cuauhocelotl'"
+ knight_cuauhocelomeh_no_tooltip_lowercase_adjective:0 "cuauhoceloyoh"
+ knight_cuauhocelomeh:0 "[Concept( 'knight', '$knight_cuauhocelomeh_no_tooltip|q$' )|E]"
+ knight_cuauhocelomeh_plural:0 "[Concept( 'knight', '$knight_cuauhocelomeh_no_tooltip_plural|q$' )|E]"
+
+
+ knight_quangariecha_no_tooltip:0 "Quangariecha"
+ knight_quangariecha_no_tooltip_plural:0 "Quangariechas"
+ knight_quangariecha_no_tooltip_lowercase:0 "quangariecha"
+ knight_quangariecha_no_tooltip_lowercase_plural:0 "quangariechas"
+ knight_quangariecha_no_tooltip_lowercase_plural_possessive:0 "quangariechas'"
+ knight_quangariecha_no_tooltip_lowercase_adjective:0 "quangariecha"
+ knight_quangariecha:0 "[Concept( 'knight', '$knight_quangariecha_no_tooltip|q$' )|E]"
+ knight_quangariecha_plural:0 "[Concept( 'knight', '$knight_quangariecha_no_tooltip_plural|q$' )|E]"
+
+
+ knight_veteran_no_tooltip:0 "Veteran"
+ knight_veteran_no_tooltip_plural:0 "Veterans"
+ knight_veteran_no_tooltip_lowercase:0 "veteran"
+ knight_veteran_no_tooltip_lowercase_plural:0 "veterans"
+ knight_veteran_no_tooltip_lowercase_plural_possessive:0 "veterans'"
+ knight_veteran_no_tooltip_lowercase_adjective:0 "veteran"
+ knight_veteran:0 "[Concept( 'knight', '$knight_veteran_no_tooltip|q$' )|E]"
+ knight_veteran_plural:0 "[Concept( 'knight', '$knight_veteran_no_tooltip_plural|q$' )|E]"

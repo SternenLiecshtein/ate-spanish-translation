@@ -1,0 +1,27 @@
+﻿l_spanish: 
+ juventide_event_troops:0 "Rebels With A Cause"
+ 
+ juventide_rebellion.1001.t:0 "Juventide Rebellion"
+ juventide_rebellion.1001.desc:0 "It seems that a dangerous belief is taking hold among the youth of [juventide_county.GetName]. The movement calls itself the Juventides, and seeks to "glorify the superiority of freedom and life over tyranny and death."\n\nThe local officials are concerned, but surely a religious fad led by a mere child is nothing to worry about?"
+ juventide_rebellion.1001.a:0 "Why would this be of any concern to me?"
+ juventide_rebellion.1001.a.flavor:0 "When has a fringe religious group in the mountains ever caused trouble for anyone?"
+ juventide_rebellion.1001.b:0 "Let's root this out before it takes proper hold..."
+ juventide_rebellion.1001.b.conversion_tt:0 "If you are already converting the faith in [juventide_county.GetName], progress may be lost if you choose this option!"
+ juventide_rebellion.1001.player_warning:0 "@warning_icon! #X Failing to convert [juventide_county.GetNameNoTier] away from [juventide.GetName] swiftly enough will lead to the rise of the Juventides. Be prepared.#!"
+
+ juventide_rebellion.1002.desc:0 "The religious movement known as the Juventides have sallied forth from their commune, intent on "taking down the death-worshippers", by force if necessary!\n\nTheir leader, [juventide_prophet.GetTitledFirstName] was once shunned by adults for being — quite frankly — an insolent brat in [juventide_prophet.GetHerHis] insistence on the superiority of youth over old age. However, [juventide_prophet.GetSheHe] has now amassed a veritable horde of child warriors and declared [juventide_prophet.GetHerselfHimself] a living god!"
+ juventide_rebellion.1002.a:0 "As if this snot-nosed brat poses any threat!"
+ juventide_rebellion.1002.a.target.tt:0 "The Juventides go to war against you!"
+ juventide_rebellion.1002.a.not_target.tt:0 "The Juventides go to war against your liege!"
+ juventide_rebellion.1002.b:0 "[juventide_prophet.GetSheHe|U] has some very good points, actually."
+ juventide_rebellion.1002.b.flavor:0 "I can hardly call myself a worthy faithful..."
+
+ juventide_rebellion.1003.desc:0 "With [juventide_prophet.GetTitledFirstName]'s death, the Juventides have lost their living god. As a result, the movement no longer has a spiritual leader, and each community is free to operate as it sees fit. The Juventides have adapted to this lack of structure rather easily, which is unsurprising for a faith so focused on passion and freedom."
+ juventide_rebellion.1003.a:0 "Kids will be kids..."
+ juventide_rebellion.1003.a.tt:0 "The Juventides lose their head of faith."
+ 
+ juventide_leader_modifier:0 "Juventide Leader"
+ 
+ fervor_gain_juventide:0 "Juventide Rebellion"
+
+

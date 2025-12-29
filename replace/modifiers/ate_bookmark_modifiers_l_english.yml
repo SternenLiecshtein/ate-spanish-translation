@@ -1,0 +1,40 @@
+﻿l_spanish:
+ lengacher_callous: "Old Order Divorce"
+ lengacher_forgiving: "High Infidelity"
+ lengacher_content: "Life's Been Good"
+
+ beaton_ambitious: "War, What Is It Good For?"
+ beaton_just: "Keeping It Together"
+ beaton_generous: "Giving Them Some Grace"
+
+ outer_heaven: "Mercenary's Paradise"
+ apology_decree: "Writ of Forgiveness"
+ acadien_taxes: "Acadien Investments"
+
+ constantine_reform: "Viking Ambition"
+ constantine_convert: "New Theology"
+
+ cuba_contest_for_the_throne: "Contest for the Throne"
+
+ portia_caribbean_queen: "Downpressor Woman"
+ portia_caribbean_queen_desc: "[counties|E] required to form [empire|E]: #P -15% #! "
+
+ pabodie_quest: "Eternal Animation"
+ pabodie_quest_desc: "Until I live forever, reach from beyond the veil of death, I will yearn for Antarctica."
+
+ pabodie_dynasty_reward: "Heirs to the Lich-King of Antarctica"
+ pabodie_dynasty_reward_desc: "#italic In the land of ice where the wind howls its awful cry, there walks a King who can never die.#!"
+
+ alqazwini_reward: "Al-Qazwinis Ascendant"
+ alqazwini_reward_desc: "Against all odds, I have won my family the power it has always deserved. Now, I bask in the common recognition of our deeds."
+
+ haredi_no_convert: "Sunrise, Sunset"
+ haredi_no_convert_desc: "I shall endure as my people have endured for millennia."
+ shoftim_convert: "Nothing Else Matters"
+ shoftim_convert_desc: "I shall stand up for justice, even if it is the death of me."
+ meshichist_convert: "Spirit in the Sky"
+ meshichist_convert_desc: "I shall prepare my people for the peace of the Moshiach."
+
+ hate_religion: "I Hate His Faith"
+ hate_culture: "I Hate His Culture"
+ hate_peasantry: "I Hate His Birth"

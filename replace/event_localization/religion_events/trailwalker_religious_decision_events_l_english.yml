@@ -1,0 +1,17 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ aykayay.0201.t:0 "Branded By The Gods"
+ aykayay.0201.desc.start:0 "Those who walk the Trails are just as subject to sin and vice as other men; but through the knowin' of the gods granted to Sacagawea and Lewison Clark, they have been taught the ways by which one may atone and purge the corruption from their souls. Most prized among these is branding - to give a part of yourself over to the jurisdiction of the gods by passing through pain and taking their mark upon you."
+ aykayay.0201.branding:0 "\n\n The brand which you shall recieve is one most commonly found on the flesh of Trailwalkers: the Barbed Barrier, the holy fence that keeps the realms apart and preserves the safety of the Range. \n\n Your Gunslinger, [court_chaplain.GetFirstName], takes a great iron and heats it within a high and bright fire, till it grows in color from dull rust to glimmering orange. Besides [court_chaplain.GetHerHim], assistants prepare five other striking irons; together, the six shall make upon your skin the mark of the Barbed Barrier."
+ aykayay.0201.generic:0 "When the time comes, you stretch yourself out upon a table and bare your back. \n\n[court_chaplain.GetFirstName] prays aloud: "Oh, Almighty of of Law-And-Land, he who makes the bounds of all territories! Oh, Iron Horse, who taught us to mark with scar and burn! Oh, Tricksters Three, who, willing and unwilling, brought to us the Living Fire! Watch over this brand and know that as [ROOT.Char.GetTitledFirstName] walks upon your blazed Trails, the Trails are blazed upon them!" \n\n When the prayer is done, the group draws forth their irons and approaches..."
+ aykayay.0201.marked:0 "It burns, burns, burns!"
+ aykayay.0201.stern.RrDrSs:0 "Let the iron stay long, long as Rattle-Mother's tail!"
+ aykayay.0201.craven:0 "E-easy now; I'm sensitive back there!"
+ aykayay.0201.flagellant:0 "I have never felt so close to the Frontier!"
+ aykayay.0201.deviant:0 "MORE, MORE!"

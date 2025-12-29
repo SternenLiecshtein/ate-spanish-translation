@@ -1,0 +1,101 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ hold_carnival_decision:0 "Hold Carnival"
+ hold_carnival_decision_tooltip:0 "Hold Carnival Celebrations"
+ hold_carnival_decision_desc:0 "Carnival is a traditional celebration, originating in Catholic practice but now evolved into a celebration of our culture. Carnivals often feature long parades, dancing and fanciful costumes as well as general public revelry"
+ hold_carnival_decision_confirm:0 "O Brasil é lindo maravilhoso!"
+ hold_carnival_decision.tt:0 "You gain [prestige|E] and your Capital gains [GetModifier('carnival_modifer').GetNameWithTooltip]"
+ 
+ hold_rio_carnival_decision:0 "Hold Rio Carnival"
+ hold_rio_carnival_decision_tooltip:0 "Hold the Carnival of Rio"
+ hold_rio_carnival_decision.tt:0 "You gain [prestige|E] and Rio gains [GetModifier('rio_carnival_modifer').GetNameWithTooltip]"
+ hold_rio_carnival_decision_confirm:0 "O Brasil é lindo maravilhoso!"
+ hold_rio_carnival_decision_desc:0 "the Carnival of Rio is the largest Carnival in the world. During it's celebrations, the streets are filled with ecstatic performance, dancing, partying and the unending drumming of the Samba Schools."
+ 
+ carnival_modifer:0 "Held a Carnival"
+ rio_carnival_modifer:0 "Held Rio Carnival"
+
+ ate_culture_tradition_events.001.t:0 "Carnival"
+ ate_culture_tradition_events.001.desc:0 "The Samba Drums fill the street, cheers of joy follow the wind. Dancers form dazzling phalanxes performing in many styles of many different peoples. Great floats move like islands through the ocean of humans. Commoners mix with nobility in dance and song. It is all a carnival should be."
+ ate_culture_tradition_events.001.a:0 "Legal!"
+ 
+ ate_culture_tradition_events.002.t:0 "Carnival of Rio"
+ ate_culture_tradition_events.002.desc:0 "The greatest carnival on Earth has commenced. I wouldn't be surprised if the drums could be heard from the Arctic. King Momo and his Carnival Queens lead a might dancing host beneath the shadow of Cristo Redentor. Samba floats drawn by the strongest horses clothed in garish saddles send vibrations through the air, the Samba dancers with their feathers and golden twinkle shake wildly. It seems a great state of joy as descended upon the entire city."
+ ate_culture_tradition_events.002.a:0 "Legal!"
+
+ hold_potlatch_decision:0 "Hold a Potlatch"
+ hold_potlatch_decision_desc:0 "A Potlatch is a traditional feast of the [ROOT.Char.GetCulture.GetNameNoTooltip]. It's celebrations involve dancing, gift-giving, playing games and allocating time for resolving community disagreements. One powerful ceremony includes the burning of valuables and wealth, to prove one's power and status."
+ hold_potlatch_decision_confirm:0 "Call the Numaym"
+ hold_potlatch_decision.tt:0 "You will lose [stress|E] and gain different amounts of [prestige|E] and Modifiers depending how much [gold|E] you burn."
+ hold_potlatch_decision_tooltip:0 "$hold_potlatch_decision.tt$"
+ 
+ ate_culture_tradition_events.003.t:0 "Potlatch"
+ ate_culture_tradition_events.003.desc:0 "My Numaym has come together in my halls. Together they celebrate in an atmosphere thick with song and dance. In quiet corners, community leaders mediate agreements and resolve disputes. Ceremonial and Land Rights are handed out to deserving Numayma, who take their deserving seats. Then, gifts are handed out, I recieve them in turn. Animal skins, food baskets, pious trinkets and axes are but some I recieve. It is then the fires are lit, and it is expected that participants must cast their wealth into the flames."
+ ate_culture_tradition_events.003.a:0 "My greatest valuables will burn!"
+ ate_culture_tradition_events.003.b:0 "I wll thrown in some of my more expensive items."
+ ate_culture_tradition_events.003.c:0 "Perhaps, I can hold back a little."
+ ate_culture_tradition_events.003.d:0 "My Wealth? Burn?!"
+ 
+ held_large_potlatch_modifier:0 "Significant wealth Burning"
+ held_medium_potlatch_modifier:0 "Average wealth Burning"
+ held_small_potlatch_modifier:0 "Small wealth Burning"
+ held_bad_potlatch_modifier:0 "Didn't burn wealth."
+ 
+ day_of_the_dead_decision:0 "Celebrate the Day of the Dead"
+ day_of_the_dead_decision_tooltip:0 "Celebrate the Day of the Dead"
+ day_of_the_dead_decision_desc:0 "The Day of the Dead is a time for joyous celebration of one's ancestors. It is common for living family members to come together, share gifts, and create a home alter for those that have departed."
+ day_of_the_dead_decision.tt:0 "You gain [dynasty_prestige|E] and lose [stress|E] depending on how much [gold|E] you spend"
+ day_of_the_dead_decision_confirm:0 "Time to welcome our ancestors"
+ 
+ ate_culture_tradition_events.004.t:0 "Día de Muertos"
+ ate_culture_tradition_events.004.desc:0 "The members of [ROOT.Char.GetHouse.GetBaseName] have gathered in my [ROOT.Char.Custom('FortifiedBuilding')] to celebrate Día de Muertos. but before the familial celebrations begin, I must have an Ofrenda to my departed ancestors constructed."
+ ate_culture_tradition_events.004.a:0 "It will be a grand Ofrenda!"
+ ate_culture_tradition_events.004.b:0 "I will offer the finest food and drink to them."
+ ate_culture_tradition_events.004.c:0 "Small things they loved in life will be offered."
+ ate_culture_tradition_events.004.d:0 "I'm sure the dead are content with a small altar."
+ 
+ drink_mate_decision:0 "Host a Maté Gathering"
+ drink_mate_decision_desc:0 "Maté, also known as chimarrão, cimarrón or ka'ay, is a herbal tea that has been consumed for centuries by the peoples of the Platine Basin and beyond. The infusion is made by soaking the dried leaves of the yerba-maté plant in hot water, and is traditionally served with a metal straw in a cup made from a calabash gourd. For these cultures, maté is not just a drink, but an important social ritual that reinforces familial and communal bonds."
+ drink_mate_decision_confirm:0 "Prepare the fire and call everyone!"
+ drink_mate_decision.tooltip:0 "Gather your family and court for this traditional ritual"
+ 
+ ate_culture_tradition_events.005.t:0 "Drink Yerba-maté"
+ ate_culture_tradition_events.005.desc:0 "The bitter aroma of the tea fills the air, while my family and my court chat around the fire. As the head of this home, it is my duty to fill the gourd with dried yerba-maté leaves, pour the hot water just so, and offer it to the next person in line. \n \nI take a moment to savor the first sip before passing it along, ensuring that each person in our circle receives their turn. As the gourd makes its rounds, I prepare a refill and watch with a satisfied heart as each person enjoys not just the drink, but also the warmth brought by this timeless tradition."
+ ate_culture_tradition_events.005.a:0 "Yerba-maté strengthens the bonds that tie us together!"
+ ate_culture_tradition_events.005.bad:0 "#N TOO HOT! #!"
+  
+ ate_culture_tradition_events.006.t:0 "The Ceremony of the Black Hand"
+ ate_culture_tradition_events.006.desc:0 "The [ROOT.Char.GetFaith.PriestNeuter] awaits by the entrance of the main palace of [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. With solemn reverence, I anoint my hands by lowering them into the sacred vessel, brimming with black oil — just as the great emperors of [old_brazil|E], whose hands once bore this sign as a mark of nascent sovereignty. \n \nAfter a short prayer, I extend my oil-slicked hands toward the assembled masses, as they applaud and chant my name. I already had the blessing of [ROOT.Char.GetFaith.HighGodName] to rule over [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] but now, as the ancient tomes state, I also carry the burden to honor the legacy of those august sovereigns who came before me. After all, this ritual is not merely an act of ceremonial grandeur, but also a binding of past and future — an assertion of my dominion over the land, and my resolve to carve a prosperous destiny for my realm."
+ ate_culture_tradition_events.006.desc_paternalism:0 "The [ROOT.Char.GetFaith.PriestNeuter] awaits by the entrance of the main palace of [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. With solemn reverence, I anoint my hands by lowering them into the sacred vessel, brimming with black oil — just as the great emperors of [old_brazil|E], whose hands once bore this sign as a mark of nascent sovereignty. \n \n #bold "Ours is the oil" #!, the priest murmurs. #bold "May the wisdom of the Great Father guide and guard your reign" #!.\n \n After a short prayer, I extend my oil-slicked hands toward the assembled masses, as they applaud and chant my name. I already had the blessing of [ROOT.Char.GetFaith.HighGodName] to rule over [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] but now, as the ancient tomes state, I also carry the burden to honor the legacy of those august sovereigns who came before me. After all, this ritual is not merely an act of ceremonial grandeur, but also a binding of past and future — an assertion of my dominion over the land, and my resolve to carve a prosperous destiny for my realm."
+ ate_culture_tradition_events.006.a:0 "Dedicate this ceremony to my closest noble advisors"
+ ate_culture_tradition_events.006.b:0 "This ritual is held in honor of our clergy"
+ate_culture_tradition_events.006.c:0 "Emperors of Old knew the greatest strength is the people's will"
+
+ practice_football_decision:0 "Practice Football"
+ practice_football_decision_desc:0 "The people of this land have been practicing football for centuries. Although ball sports are prevalent all across our world, here the beautiful game is more than just a mere pastime - over the generations, it has evolved into a symbol of the unity of our folk. For the nobility, it is an opportunity to display their athletic skills. For the commoners, the simple act of playing together can forge friendship bonds stronger than iron. And, for our soldiers and knights, the pitch is the place where rivalries can be settled not with swords, but with the grace of a well-timed pass or a deft dribble. All the while, legends of heroic players from the past inspire the youth, reminding them that greatness could emerge from any background.\n\nAlso, it's the perfect excuse for some exercise!"
+ practice_football_decision_confirm:0 "Let's get the ball rolling!"
+ practice_football_decision.tooltip:0 "Play a little football - by yourself, with a courtier, or with your soldiers!"
+ 
+ ate_culture_tradition_events.007.t:0 "Practice Football"
+ ate_culture_tradition_events.007.desc:0 "In every clearing, in every street or backyard, we can witness peasants and commoners playing the beautiful game after a hard day's work, or children kicking a leather ball between their chores. Even the nobles, inside the high walls of their homes, are known to play football on their free time. \n\nMore than just a game, football has been an intrinsic element of our lifestyle for generations, often surrounded by legends about marvelous players who could command the awe of thousands of spectators, or lead their nations to glory in far-away places. In the present time, however, it is more often than not a chance for some good, open-air exercise - but also one of the few occasions where people from all ranks of life may take part on the same activity."
+ 
+ ate_culture_tradition_events.007.a:0 "Just some quick kick-ups to keep me fit."
+ ate_culture_tradition_events.007.b:0 "Invest some time in training sessions."
+ ate_culture_tradition_events.007.c:0 "Call [football_buddy.GetName] for a quick play."
+ ate_culture_tradition_events.007.d:0 "Organize a football match in the capital."
+ ate_culture_tradition_events.007.e:0 "Our soldiers could learn a bit from this game!"
+ 
+ friend_bond_at_football:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after playing football together"
+ 
+  ate_culture_tradition_events.008.t:0 "Alright, lads..."
+  ate_culture_tradition_events.008.desc:0 "The beautiful game of football and the military traditions of our land often intermingle. For instance, the old tales often speak of a legendary player who travelled to a far away land and, with his talent alone, managed to stop a war! Truth is, there are many lessons in tactics and strategy that our soldiers can learn by observing - and participating - in a match. As I stand on an open clearing, reviewing my troops, I ponder what should be the main theme of our training session..."
+  
+  ate_culture_tradition_events.008.a:0 "The best defense is always a good offense."
+  ate_culture_tradition_events.008.b:0 "In football or in war, who doesn't score is beaten."
+  ate_culture_tradition_events.008.c:0 "Reinforce the defense, prepare a counter-attack."

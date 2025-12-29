@@ -1,0 +1,51 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ OPEN_AMERICANIST_ELECTIONS:0 "View Elections"
+ AMERICANIST_ELECTIONS:0 "Americanist Elections"
+ ELECTION_CANDIDATES:0 "Potential Election Candidates\n#F #italic (Not all will run)#!#!"
+ IS_VALID_OR_NOT_NEXT_ELECTION:0 "[GetPlayer.Custom('GetValidForElections')]"
+ YOU_ARE_NOT_VALID_FOR_ELECTION:0 "Does Not Qualify As Electee"
+ YOU_ARE_VALID_FOR_ELECTION:0 "Qualifies As Electee"
+ YOU_REFUSE_ELECTION:0 "You Are Not Running As Electee"
+ YOU_ARE_ALREADY_PRESIDENT:0 "You Are Already President"
+ DO_NOT_RUN_DURING_ELECTIONS:0 "Do Not Run in Elections"
+ RUN_DURING_ELECTIONS:0 "Run in Next Election"
+ CURRENT_PRESIDENT:0 "Current President"
+ ELECTION_IN_PROGRESS_CANDIDATES:0 "Election in Progress\n#F #italic Candidates:#!#!"
+ running_for_election_now:0 "Election Started - Candidate"
+ running_for_election_now.tt:0 "With the death of [dying_person.GetName], Presidential elections have started"
+
+ k_presidency:0 "Presidency"
+ k_presidency_adj:0 "Presidential"
+ k_presidency_article:0 "the "
+ doctrine_parameter_follows_americanist_presidency:0 "Considers the $k_presidency$ [Concept('head_of_faith', 'Head of the Faithful')|E] and Leader of the Free World"
+ election_history:0 "Elected"
+
+ americanist_election_events.1001.t:0 "Presidential Election"
+ americanist_election_events.1001.desc:0 "It's time for us to elect a new President of these United States, leader of the faithful and of the free world. Many candidates have presented themselves, and, though most are paragons of honor, bravery, and patriotism, only one can rise to the highest office in the land, and your voice may well be the deciding one. For who will you cast your vote?"
+ americanist_election_events.1001.a:1 "[electee_one.GetTitledFirstName] is obviously best!"
+ americanist_election_events.1001.b:1 "How about [electee_two.GetTitledFirstName]."
+ americanist_election_events.1001.c:1 "[electee_three.GetTitledFirstName] sounds like a good candidate."
+ americanist_election_events.1001.d:1 "I'm thinking I pick [electee_four.GetTitledFirstName]."
+ americanist_election_events.1001.e:1 "[electee_five.GetTitledFirstName] would be competent."
+ americanist_election_events.1001.f:1 "I'll go with [electee_six.GetTitledFirstName]."
+
+ americanist_election_events.1003.t:0 "Election Over"
+ americanist_election_events.1003.desc.one_candidate:0 "In all of America, there was but one candidate that was eligible to take on the mantle of president. That being the case, [president_holder.GetFirstName] is our new president, and will serve in the office until [president_holder.GetHerHis] death. It's time to put away the campaign buttons, the pithy slogans, and the ballot boxes... for now. After all, the next election cycle is just around the corner."
+ americanist_election_events.1003.desc.won_election:0 "Hail to the Chief! While there were many worthy candidates, the people have spoken. I have been elected president, and will serve in this office until my death! It's time to put away the campaign buttons, the pithy slogans, and the ballot boxes. Now, the real work begins."
+ americanist_election_events.1003.desc.friend_won_election:0 "Hail to the Chief! The people have spoken, and they have spoken wisely. My good friend [president_holder.GetFirstName] has been elected president. The founders would surely be pleased! It's time to put away the campaign buttons, the pithy slogans, and the ballot boxes... for now. After all, the next election cycle is coming when he dies."
+ americanist_election_events.1003.desc.rival_won_election:0 "The people have spoken, and we have a new president. Unfortunately, through some manner of trickery or deceit, the corrupt [president_holder.GetFirstName] has been elected, and [president_holder.GetSheHe] will surely lead us all into dark times. Founders save America! Still, It's time to put away the campaign buttons, the pithy slogans, and the ballot boxes... for now. After all, the next election cycle is just around the corner."
+ americanist_election_events.1003.desc.election_over:0 "The will of the people has been made clear. [president_holder.GetFirstName] is the new president of America, and will serve in the office until [president_holder.GetHerHis] death. It's time to put away the campaign buttons, the pithy slogans, and the ballot boxes... for now. After all, the next election cycle is just around the corner."
+ americanist_election_events.1003.desc.two_candidates:0 "The results are in:\n[GetGlobalVariable('electee_one_votes').GetValue|0] votes for [electee_one.GetTitledFirstName]\n[GetGlobalVariable('electee_two_votes').GetValue|0] votes for [electee_two.GetTitledFirstName]\n\n"
+ americanist_election_events.1003.desc.three_candidates:0 "The results are in:\n[GetGlobalVariable('electee_one_votes').GetValue|0] votes for [electee_one.GetTitledFirstName]\n[GetGlobalVariable('electee_two_votes').GetValue|0] votes for [electee_two.GetTitledFirstName]\n[GetGlobalVariable('electee_three_votes').GetValue|0] votes for [electee_three.GetTitledFirstName]\n\n"
+ americanist_election_events.1003.desc.four_candidates:0 "The results are in:\n[GetGlobalVariable('electee_one_votes').GetValue|0] votes for [electee_one.GetTitledFirstName]\n[GetGlobalVariable('electee_two_votes').GetValue|0] votes for [electee_two.GetTitledFirstName]\n[GetGlobalVariable('electee_three_votes').GetValue|0] votes for [electee_three.GetTitledFirstName]\n[GetGlobalVariable('electee_four_votes').GetValue|0] votes for [electee_four.GetTitledFirstName]\n\n"
+ americanist_election_events.1003.desc.five_candidates:0 "The results are in:\n[GetGlobalVariable('electee_one_votes').GetValue|0] votes for [electee_one.GetTitledFirstName]\n[GetGlobalVariable('electee_two_votes').GetValue|0] votes for [electee_two.GetTitledFirstName]\n[GetGlobalVariable('electee_three_votes').GetValue|0] votes for [electee_three.GetTitledFirstName]\n[GetGlobalVariable('electee_four_votes').GetValue|0] votes for [electee_four.GetTitledFirstName]\n[GetGlobalVariable('electee_five_votes').GetValue|0] votes for [electee_five.GetTitledFirstName]\n\n"
+ americanist_election_events.1003.desc.six_candidates:0 "The results are in:\n[GetGlobalVariable('electee_one_votes').GetValue|0] votes for [electee_one.GetTitledFirstName]\n[GetGlobalVariable('electee_two_votes').GetValue|0] votes for [electee_two.GetTitledFirstName]\n[GetGlobalVariable('electee_three_votes').GetValue|0] votes for [electee_three.GetTitledFirstName]\n[GetGlobalVariable('electee_four_votes').GetValue|0] votes for [electee_four.GetTitledFirstName]\n[GetGlobalVariable('electee_five_votes').GetValue|0] votes for [electee_five.GetTitledFirstName]\n[GetGlobalVariable('electee_six_votes').GetValue|0] votes for [electee_six.GetTitledFirstName]\n\n"
+ americanist_election_events.1003.a:1 "Excellent!"
+ americanist_election_events.1003.b:1 "This is a disgrace."
+ vote_for_this_candidate:0 "Vote for this Candidate"

@@ -1,0 +1,16 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ ATE_VISIT_NATURAL_WONDER_DECISION_NEXT_STEP_BUTTON: "Plan Trip"
+ ATE_VISIT_NATURAL_WONDER_DECISION_SELECT_NATURAL_WONDER: "Choose Sightseeing Companion"
+ ate_visit_natural_wonder_sightseeing_companion_option: "Bring a travel companion"
+ ate_visit_natural_wonder_sightseeing_companion_desc: "Doesn't hurt to bring a companion"
+ ate_visit_natural_wonder_sightseeing_companion_tooltip: "You can choose a companion to join you"
+ NEED_COMPANION_TRIGGER: "You have no [courtier|E] that can join"
+ ate_visit_natural_wonder_alone_option: "Travel Alone"
+ ate_visit_natural_wonder_alone_desc: "You don't need anyone"
+ ate_visit_natural_wonder_alone_tooltip: "Only your carvan master, if any, will join you"

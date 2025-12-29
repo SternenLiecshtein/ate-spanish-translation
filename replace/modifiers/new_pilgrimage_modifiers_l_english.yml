@@ -1,0 +1,10 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ pilgrimage_defensive_shield_modifier:0 "Assisted in Containment"
+ pilgrimage_defensive_shield_modifier_desc:0 "This character has been on a Pilgrimage to a controlled holy site while following the [GetFaithDoctrine('tenet_defensive_shield').GetBaseName] [core_tenet|E]."
+

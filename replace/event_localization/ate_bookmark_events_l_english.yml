@@ -1,0 +1,247 @@
+﻿l_spanish:
+
+ lengacher.0001.t: "The Chain"
+ lengacher.0001.desc: "I am the King of the Deitscherei. I am the heir of two hundred years of peace and prosperity. The fruits of two centuries of my family’s humility and piousness are enjoyed across the realm. Every day I bear witness to the modest triumphs of my people. Yet, despite all that I have been blessed with, there is a lingering discomfort. The aches of guilt from a failed obligation.\n\nMy dear Isadora… how I wish we had been lucky. Thirty years of marriage, and not a single child to show for it. Our vows to each other are eternal, and to defy them would be unthinkable. Impossible, even. And yet, every day a sense of dread creeps over me. The knowledge that my house’s two hundred year lineage shall end with me sinks deeper into my spirit, dragging me into a mire of fear and guilt. Unless…"
+
+ lengacher.0001.a: "I will do what I must to ensure that the bloodline survives!"
+ lengacher.0001.b: "May she forgive me as I would her…"
+ lengacher.0001.c: "I must live with the fate that I have been given."
+
+ lengacher.0002.t: "November Rain"
+ lengacher.0002.desc: "Each night, when I go to sleep, I begin to resent the next morning more and more. I wake up and take a look at my wife. I realize she is very plain. My whole life, in fact, has featured few pleasures or joys. Now, the end seems to only grow closer, and I wonder about whether I have ever truly enjoyed my time on earth. With these sad thoughts flooding my mind, I set out alone to reflect on this overcast morning.\n\nI sit underneath a tree, looking out onto a forest broken by a calm stream. The rain has begun to softly drizzle, clattering off the leaves. I feel it will soon pick up into a storm. Suddenly, the peaceful monotony is interrupted by an weak cry. A shrill, lonely wail… is that the sound of a baby? A baby floating along in the reeds?"
+
+ lengacher.0002.a: "No, I am completely alone in misery."
+ lengacher.0002.b: "A son! A gift from God in the form of an abandoned babe!"
+ lengacher.0003.c: "Those are the cries of a child. I must save it!"
+
+ beaton.0001.t: "Come Together"
+ beaton.0001.desc: "For fifty-five long, stressful, joyous, messy, lovely, awful years, I have been the High Queen of Tìramara, Lady of the Maritimes. And by the [unknown_saviour|E], it has not been easy! I have ruled much longer than most in my position, and overseen cooperation between the various peoples of these cold shores. And I have done my best to keep the problems of my subjects from tearing Tìramara into pieces. Despite the triumph of merely surviving, I have not yet been able to see my people thrive. Moreover, I fear that my heirs will be elected to a kingdom that they cannot hold.\n\nThe Maritimes, and by extension, my family face three major issues. The island lords of the Mi'kmaq have ceased acknowledging my rule, and ideally should be brought back into the fold. The northwestern Acadiens are beginning to chafe against my authority through the leadership of [jacques.GetTitledFirstName]. And the cockroach-like Irvings remain a painful thorn in my side. If I have any hope of making sure my heirs are elected, I need to quash these problems. How am I going to do that?"
+
+ beaton.0001.a: "It is time to assert old claims and return the Mi'kmaw to the fold!"
+ beaton.0001.b: "The Acadiens have faced many hardships. I will not add another."
+ beaton.0001.c: "I need to give the Irvings another chance..."
+
+ beaton.0002.t: "Burning Bridges"
+ beaton.0002.desc: "Since beginning the work required to bring the fringes of the Maritimes beneath my control, two complications have arisen. The first, which I have no recourse towards, is the influx of mercenaries and adventurers flocking to the banners of [daniel.GetFirstNameNicknamed] in response to my efforts. The fiend has promised tax breaks and bits of land to those that would serve his cause, which has made it easy enough for him to secure willing warriors. The second issue, which I do have some ability to mitigate, are the efforts by [jacques.GetTitledFirstName] and [dergavel.GetTitledFirstName] to prepare their realms for some unclear upcoming conflict. At present, I may be able to assuage one of the two, although I have not yet decided which. Alternatively, it could be more wise to not divert from my current plans."
+
+ beaton.0002.a: "The only change I'll make is to hire [elcid.GetFirstNameNicknamed] as backup!"
+ beaton.0002.b: "The crimes of the Irvings have been punished sufficiently."
+ beaton.0002.c: "Could the Acadien lands benefit from some investments?"
+
+ beaton.0003.t: "Acadien Driftwood"
+ beaton.0003.desc: "The right thing to do is obviously to negotiate and compromise. Afterall, Tìramara is a land of many peoples, and despite their false gods, the Acadiens are my subjects too. My messages to [jacques.GetTitledFirstName] have focused on promises of autonomy and tolerance. So far, nothing concrete has been agreed to, but it seems like the relations between myself and [jacques.GetTitledFirstName] have improved to the point where I doubt that he will be much of a threat for the time being. Now the question is, how do I capitalize on this further?"
+
+ beaton.0003.a: "Let us try diplomacy with the Mi'kmaw..."
+ beaton.0003a.tooltip: "[daniel.GetTitledFirstName] enters a mutual [alliance|E] with you"
+ beaton.0003.b: "[jacques.GetTitledFirstName] and I must build on our shared devotion to justice!"
+ beaton.0003.c: "I think this is the start of something great!"
+ beaton.0003c.tooltip: "[jacques.GetTitledFirstName] enters a mutual [alliance|E] with you"
+
+ beaton.0004.t: "Why Can't We Be Friends?"
+ beaton.0004.desc: "The Irvings and the Beatons have feuded for centuries. I know that whatever I do in the remainder of my life will be unlikely to end the bad blood between our families, but I must still try. [dergavel.GetTitledFirstName] has agreed to begin negotiations on reconciliation, however, I must decide how I will approach the prospect. Will I be like my father, [basil.GetFirstNameNicknamed]? Will I prepare the Irvings for my succession? Or will I try something radically different?"
+
+ beaton.0004.a: "This was all a ruse. The legacy of [basil.GetFirstNameNicknamed] lives on in me!"
+ beaton.0004.b: "Hate me if you must, but let my children have a clean slate."
+ beaton.0004.c: "It is time for the Beatons and Irvings to have a new relationship..."
+
+ #theovelt.0001.t: "Empire State of Mind"
+ #theovelt.0001.desc: ""
+
+ # Quebec Feud
+ ate_bookmark.111.t: "The Castel Feud"
+ ate_bookmark.111.desc: "For 27 years, we have been asserting our claim to the throne of Quebec over that of the vile Castels. Yet, though the realm is fractured, they still hold Québec and some pretenses of legitimacy. The false king [castel_feud_head.GetFirstName] is the latest in their line of pretenders, and just as incapable as the rest. For the good of Quebec and the dignity of the Turcot name, the Castels must be dealt with in a more permanent fashion."
+ ate_bookmark.111.a: "This ends with us."
+
+ #Constantine Events
+ constantine.5001.t: "Content Warning"
+ constantine.5001.desc: "Constantine Soady’s event chain has some disturbing themes involved. These include but are not limited to explicit descriptions of homophobic actions, graphic depictions of traumatic events, and abuse. If this is something that would potentially have an adverse effect on your mental health, we have prepared an alternate path which still allows you to gain all avalible modifiers and experience much of the content within the event chain."
+ constantine.5001.a: "Proceed with the full event chain."
+ constantine.5001.b: "Proceed with the alternate chain."
+
+ constantine.5002.t: "Tormented Sleep"
+ constantine.5002.desc: "I am stirred awake by yet another nightmare, the one of [albert.GetFirstName] shouting at me when he found [hanklover.GetFirstName] and I stowed away on his ship. The dream then shifts to a snow covered clearing in the woods. My father forces me to kill my lover, lest I be left to the wolves. It’s a nightmare that I am plagued by often."
+ constantine.5002.a: "It's just a nightmare..."
+ constantine.5002.b: "On second thought, I would like the alternate event chain"
+
+ constantine.5003.t: "Signal Flagging"
+ constantine.5003.desc: "The cool breeze off of Lake Huron brushes against my skin as I walk through the markets of the port. My bandana is tucked firmly into my pants. I’m here on the guise of inspecting the port, yet that is not my real goal. This becomes realized as a man a few years my elder comes up and taps on my shoulder. The first thing I notice is the warmth and boldness that radiates out from him. We quickly hit it off, and I lead him to the hole-in-the-wall of a bar that I have been secretly fostering since I arrived here."
+ constantine.5003.a: "Just a quick fling, nothing more."
+ constantine.5003.b: "This man feels like something special."
+
+ constantine.5004.t: "A Shining Light in a Dark World"
+ constantine.5004.desc: "[paul.GetFirstName] and I are walking through the halls of my keep when suddenly, [alvin.GetFirstName] insistently pulls me into a side room. He states that he knows what I am doing and that [alphonse.GetFirstName] would be incredibly disappointed in me. After all, as he always used to say, 'Good things come to those who shoot straight'. Alvin then continues to berate and yell at me before finally storming off. I am now alone in this room, yet as much as I want to cry, not a single tear comes out. After a while, Paul sheepishly enters the room with a bruise on his face, no doubt from Alvin. He then presents me with a box and says 'I was going to give this to you on your birthday, yet I feel like you need it more now.'"
+ constantine.5104.desc: "[paul.GetFirstName] and I are walking through the halls of my keep when suddenly, [alvin.GetFirstName] insistently pulls me into a side room. He proceeds to shame me for my affair with Paul before storming out. I am now alone in this room, yet as much as I want to cry, not a single tear comes out. After a while, Paul sheepishly enters the room. He then presents me with a box and says 'I was going to give this to you on your birthday, yet I feel like you need it more now.'"
+ constantine.5004.a: "Paul, I love you, but I can’t keep going like this. You keep it."
+ constantine.5004.b: "Thank you so much Paul. I’ll treasure it always."
+
+ constantine.5005.t: "Sweet Dreams"
+ constantine.5005.desc: "[paul.GetFirstName] and I lay down for bed. He typically sleeps in the servant’s quarters but tonight is different. After all, there’s a risk of [alvin.GetFirstName] exposing us anyways. We blow out the lanterns and kiss each other goodnight."
+ constantine.5005.a: "Goodnight, my dearest."
+
+ constantine.5006.t: "The Witch of November"
+ constantine.5006.desc: "I hear [lucia.GetFirstName] calling out to me, as I am pulled up from the frigid waters of Lake Superior. Relieved, she rushes over to me and hugs me tight. I had fallen overboard as a November Storm rolled through. As I am in her embrace she says 'Thank Polaris you’re safe, my child. I don’t know what I would have done if you had drowned'. I ask 'Who’s Polaris? Is he like Thor?' She responds; 'No, my child, Polaris is more than him. Polaris is the calming light of the Northern Star, guiding sailors to safety for as long as anyone can remember-' before suddenly being cut off by [albert.GetFirstName]. 'Oh don’t listen to her, son. Polaris is of no use to us, for it is Thor who guides us through our lives. Now, run along Constantine.'"
+ constantine.5006.a: "A voice I have not heard in a long time..."
+
+ constantine.5007.t: "Together We Can Get Somewhere?"
+ constantine.5007.desc: "I find myself in the hull of a boat, hidden behind some barrels with [hanklover.GetFirstName]. We had snuck aboard as [albert.GetFirstName] and his raiding party set off to who knows where. We planned to sneak off the boat whenever it docked at a far off port. Yet that was not to be the fate of this journey. I once again find myself in that Gods forsaken clearing. The ax weighs heavy in my hand."
+ constantine.5007.a: "No, not again!"
+
+ constantine.5008.t: "All Good Things..."
+ constantine.5008.desc: "Suddenly, some other force compels me. I begin running, running away from it all.  I don’t know what it is I am running to, but whatever it is, it’s the very thing I am running from. Before too long I find myself stopping. I clutch the necklace that [paul.GetFirstName] had given to me when I see a man step out from behind a tree. With a chuckle, he says 'Son, if you don’t know where to start, go back to the beginning'. I somehow instinctively know that this is [alphonse.GetFirstName], the founder of the Soady Clan. He reassures me, and explains that to shoot straight does not mean to follow a rigid path set by your upbringing. Rather it means to be strong, to stick to your guts, and to never let anyone, not even your own family, tell you how to live your life. That is how you shoot straight."
+ constantine.5108.desc: "Towards the end of my dream I find myself running through the woods. I don’t know what it is I am running to, but whatever it is, it’s the very thing I am running from. Suddenly I find myself stopping. I clutch the very necklace that Paul had given to me when I see a man step out from behind a tree. With a chuckle, he says 'Son, if you don’t know where to start, go back to the beginning.' I somehow instinctively know that this is [alphonse.GetFirstName], the founder of the Soady Clan. He reassures me, and explains that to shoot straight does not mean to follow a rigid path set by your upbringing. Rather it means to be strong, to stick to your guts, and to never let anyone, not even your own family, tell you how to live your life. That is how you shoot straight."
+ constantine.5008.a: "...Come to those who shoot straight..."
+
+ constantine.5009.t: "To Challenge Fate"
+ constantine.5009.desc: "I find myself awake once more, next to [paul.GetFirstName]. He stirs awake a few moments later. I begin to tell him everything that happened in my dream, from [lucia.GetFirstName] to [hanklover.GetFirstName], and to [albert.GetFirstName] and the encounter with [alphonse.GetFirstName]. It is then that I realize that I do have the power to change my fate. The only question is, what path shall I take?"
+ constantine.5009.a: "I shall forge a new idea of what it means to be a Viking!"
+ constantine.5009.b: "I shall sail the path of Polaris, just as my mother did before me."
+ constantine.5009.c: "I shall look elsewhere, make my way to some other port, just as Hank and I had planned..."
+
+ #Regis Boreales events
+ regis.6000.t: "Perhaps, This is Hell"
+ regis.6000.desc: "An unmistakable metallic taste fills my mouth as soliders clash on a bloodstained clearing in the woods. The agonizing screams of the dying pierce my ears like a speartip through flesh. As the battle disperses, my men march forward into an idyllic village, not unlike the ones at home. The only sound the characteristic crunch of snow beneath our boots. I hear the orders to take everything of value, including their foodstocks, spill out of my mouth. These words feel foreign, as if a different man had spoken them. I see a mother arguing with one of the knights, before a blade is mercilessly thrust into her. The world spins and I find myself on my own kitchen floor."
+ regis.6000.a: "Where am I? Oh, right."
+
+ regis.6001.t: "Heaven Sent"
+ regis.6001.desc: "The cook looks down towards me, setting his knife on the counter. He had just finished sharpening his knife before preparing a cut of meat. My daughter rushes up to me, hugging me on the floor. She asks if I am alright. I tell her that I am now, and I thank her for her concern. I think about how the life of a soldier is long behind me, how I’ve fostered a realm that is safe from the advancing armies of my family. A realm where my daughter won’t have to know the horrors that I partook in."
+ regis.6001.a: "May [ROOT.Char.GetFaith.HighGodName] watch over us."
+
+ anastasia.0001.t: "The Heartbreaker"
+ anastasia.0001.desc: "Ever since the days of Leonidas the Conqueror and his companion Cadmus Josias, the women of House Josias have long been haunted with the title of “the Heartbreakers”. This unfortunate moniker follows many powerful women of the Josias family.\n\nDuke Richard Josias was considered a prime contender for the leadership of the Commonwealth and ran against Duke Agamenticus Littlepage of Lowcountry. His lack of a male heir and the specter of the old and slanderous title on his daughters, however, caused his succession to be questioned and, in the eyes of House Josias, robbed him of the crown. When Agamenticus was crowned, Richard apparently died of a heart attack and left his realm to his eldest daughter who was then only 18.\n\nDuchess Anastasia has proved to be a magnanimous and charismatic ruler, opening up the Cadmean Hall for yearly festivals and celebrations and unfurling the banner of the pierced heart with pride. Renowned as one of the most beautiful women in the Commonwealth, her powerful title renders her the most eligible belle in the entire South. Some wonder if there is any match suitable for a woman as shrewd, fair, and wealthy as Anatasia. Time will tell if she will accept a lower match, for it seems that nothing is above her except the Imperial Crown itself."
+ anastasia.0001.a: "A true Southern Belle!"
+
+ portia.0001.t: "A Dream of Empire"
+ portia.0001.desc: "The many realms and creeds of the Caribbean have been split since long before the [Concept('the_event_ate','Event')|E], but there is no reason why this situation must continue. I, Portia Seacole, have constructed the perfect situation for it to end, and like the legendary queen Nyabinghi, I have seized the opportunity. It has gone well so far, as Cuba lies weak and fractured, the Petion kings of Hispanola squabble and feud, and all else is ours— or soon will be. The only question now is where to go next."
+ portia.0001.a: "Cuba will be mine!"
+ portia.0001.a.tt: "You will intervene in Cuba."
+ portia.0001.b: "Hispanola will be mine!"
+ portia.0001.b.tt: "You will intervene in Hispanola."
+ portia.0001.c: "Actually, what we have now is enough."
+ portia.0001.c.tt: "You will give up on your dream."
+
+ portia.0002.t: "The Divided Island"
+ portia.0002.desc: "The two branches of the Petion family control opposite sides of the island of Hispanola, and their squabbles are never-ending. It is the perfect situation for me to intervene in. Esau Petion, in the west, will be the easiest to attack. However, the Duke of El Cibao in Domingo is crafty and willing to work with us, for the price of his half of the island."
+ portia.0002.a: "The direct approach is best."
+ portia.0002.b: "Local supporters will ease the conquest."
+ portia.0002.b.tt: "An offer will be sent."
+
+ portia.0003.t: "Buenavista Woes"
+ portia.0003.desc: "The Buenavista family of Cuba has allowed their kingdom to descend into disorder. From the south, a rebellion has risen to cast down this prestigious family, and the rest of the island is divided among the squabbling scions of the dynasty. The rebel leader is still insecure in her position, but her enemy to the north, the Buenavista duke of Camagüey, is weak and craves our protection, as well as the rebelling territory."
+ portia.0003.a: "We shall land in the south!"
+ portia.0003.b: "The Duke of Camagüey will bow to us."
+
+ portia.0004.t: "An Offer from Queen Seacole"
+ portia.0004.desc: "The meteoric rise of Queen Portia of the West Indies has not gone unnoticed in your court. Her conquests and diplomatic victories alike have sent fear through the hearts of many, not in the least your own. Now, she has sent a representative to you, and promised you assistance against the rebel in the south, in exchange for your fealty."
+ portia.0004.a: "It is what must be done."
+ portia.0004.b: "We can fight our own battles!"
+
+ portia.0005.t: "Dealing with Portia"
+ portia.0005.desc: "Our position in El Cibao is strong, but I believe that it could be stronger. The ambitious Queen of the West Indies has thus far proven successful in her aims, and she has sent us an inviting offer. If we rebel against our liege and seize the kingdom of Domingo, she will assist us in exchange for fealty to her once the rest of the Caribbean has been united, something that she takes as a certainty."
+ portia.0005.a: "Send back our acceptance."
+ portia.0005.b: "No way."
+
+ #Herbert Pabodie / Snowbirds
+
+ pabodie.6666.t: "Beyond the Wall of Death"
+ pabodie.6666.desc: "I am awake, but my mind weaves feverous visions of the texts I read long ago in the Crimson Library, of the mountains without peaks in land of Antarctica, a barren plain of icy cliffs and towering columns, where hidden among their unfaltering frost lies an enormous city, covered in the same Masonic Magicks that I have become an expert in already, trapped beneath its permanent freeze, whereby the same mysterious principle that a ghastly corpse refuses to fester or rot while it hardens in the blistering cold, one can utilize antique knowledge to imbue themselves with that same piercing immortality, staving off the cackling jaws of death; I see the listless shadows and hear the murky laughs which taunt me, telling me that my doom is nigh, yet at the same time, I feel the Grand Architect pointing me, commanding me to embrace my destiny, no - my duty to become the guardian of secrets, master of all learning that is known or unknown, and that I will find these concealed within the impenetrable glaciers which lie so far past the sweltering steam of the South, that it once again becomes a palace of snow!"
+ pabodie.6666.a: "I shall claim my station!"
+ pabodie.6666.b: "Am I standing at the mouth of madness?"
+
+ yates.0001.t:0 "Cannonball Run"
+ yates.0001.desc:0 "The legends of the [gilded_age|E] speak of many great feats which we can no longer accomplish, much less exceed. However, I believe that one of them is now within my grasp. The tale speaks of a great race called the Cannonball Run, stretching from Manhattan to a location called [GetTitleByKey('b_us_ca_inglewood').GetNameNoTier]. Unfortunately, the completion times are lost, so I can't be sure if we beat the records or not. However, I am confident that I will shatter them and achieve living [Concept('titans_of_industry','titanhood')|E] on the spot! Since we embarked in May, we have reached the city of [GetTitleByKey('c_cincinnati').GetNameNoTier]. As the hububb of Findlay Market swirls around us, I plot our next steps."
+ yates.0001.a:0 "I am sure that we don't have that much farther to go..."
+
+ yates.0002.t:0 "Cannonball Done"
+ yates.0002.desc:0 "I have done it! We went through many tribulations along the way, but at long last, [GetTitleByKey('d_laamp_cannonball_runners').GetName] have finally reached Redondo Beach! As we stand on the pier, marveling at all of the strange people in this strange place, I am struck by the breadth of my options. Now that this great feat in the eyes of [ROOT.Char.GetFaith.PantheonTerm] and men alike has been accomplished, the world is my oyster."
+ yates.0002.a:0 "I could do anything!"
+
+ hamoudi.0001.t:0 "Turn the Page"
+ hamoudi.0001.desc:0 "Only three days ago, my once loyal vassal, [traitor.GetTitledFirstName] betrayed the Caliphate. Now, I sit here, on the outskirts of what was once my realm, with my parents and my loyal knights. I could return to reclaim my rightful land… but should I? I am young, and looking out at the open skies, I realize that I have complete freedom to choose my path forward. Yet, I can not forget the rage in my heart over the traitor that now holds Calgary. What shall I do? What will be the story of my life?"
+ hamoudi.0001.a:0 "I forge it today"
+
+ jennings.0001.t:0 "The Great Commoner"
+ jennings.0001.desc:0 "My family earned its keep working the Range, following our liege with the seasons and tending the herds. From the day I could walk, I was taught that the [Concept('trails','Trails')|E] laid my station in life, and that to stray from them was to stray from the Real Road itself. I had always chafed against the lot the Trails had assigned me, and on my fourteenth birthday I struck out with a merchant caravan, seeking fortune beyond the pasture. Though lasting success never found me, I wandered far and was introduced to many exotic sights.\n \nTwo months ago, starving and alone after my caravan abandoned me in the desert, I was struck by a vision. The great hero Jennings appeared to me, clad in silver and crowned with a halo of light, commanding me to cast off the greed of the gold-chasers and take up the plow of righteousness in his name. Since that day, I have begun to gather a party, which may soon grow into a band of partisans, who will believe as I do in the righteousness of the covenant and the need to spread our gospel across the heartland."
+ jennings.0001.a:0 "The humblest citizen of all the land, when clad in the armor of a righteous cause..."
+
+ ate_bookmark.178.t:0 "Volunteers Fighting Daily"
+ ate_bookmark.178.desc:0 "The sound of clanging metal and swords hacking into leather reveberates through our camp as I watch over Lake Michigan, the summer wind gently blowing across its vast waters. To our west, the Windy City sits atop the mouth of the Mississippi, and to our east lies the great cities of Detroit, New York and Washington DC.\n\nThere are many paths before us - and many battles yet to make a name for ourselves."
+ ate_bookmark.178.a:0 "May [ROOT.Char.GetFaith.WarGodName] lead us forward."
+
+ levi.0001.t:0 "Tradition, Part I"
+ levi.0001.desc:0 "It is coming up on a year since my ascension to leadership over my people. A terrible riot, caused by [GetReligionByKey('americanist_religion').GetAdjective] idolatry being brought into our shul, quickly spiraled beyond what our former [GetTitleByKey('d_south_jersey').GetNameNoTier] overlords could control. A week later, after they had been beat back from [GetTitleByKey('b_us_nj_lakewood').GetNameNoTier], one of their "judges" deemed it unjust for their [GetTitleByKey('d_new_york').GetNameNoTier] allies to send troops to slaughter us, at least for the time being. Now, I grow restless. A law is only as strong as the will to uphold it, and I know that the decadent republics around us are looking at our freedom with hungry eyes. They are under no restrictions, and our strongest enemies, those in [GetTitleByKey('c_new_york').GetNameNoTier], are sure to tear up the piece of paper denying them of their bloodlust soon. I have done all I can to prepare my people for the inevitable difficulties we will face, but now I know it is time to make sure I am right with the Lord."
+ levi.0001.a:0 "You delivered the mighty into the hands of the weak!"
+
+ levi.0002.t:0 "Tradition, Part II"
+ levi.0002.desc:0 "I have called forth the wise men of the realm to advise me on whether my choices as a ruler so far are what God would want, and what I must do next. My own older brother, [tevye.GetTitledFirstName], tells me that I am already on the right path, and that I should not stray from the tradition of our forefathers. [judah.GetFullName] speaks with fiery passion, telling me that while I have done much good, I cannot rest. I must fight onward against the idolaters to tear down their cruel empire. The last man, the venerable [moshe.GetFullName], talks calmly of the miraculous in this world and the one to come. He is committed to tradition, though there is an underlying transcendence in his goals. He says that I must look to the power of the Rebbe for my path forward. I am not a man who fully understands halakah. I am one who takes action, who works with his hands. That is why I called these rabbis here to this shul in the first place. Yet, I must make my choice. Which of these three paths shall I take?"
+ levi.0002.a:0 "I keep my balance through... Tradition!"
+ levi.0002.b:0 "Justice! Justice I shall pursue."
+ levi.0002.c:0 "If I am connected Above, I won’t fall down!"
+
+ wagstaff.0001.t:0 "You Get What You Give"
+ wagstaff.0001.desc:0 "I think of one man, over and over and over again. He haunts my very #tooltip_subheading dreams#!, even though I met him in person only once. His name is [levi.GetFirstName] [levi.GetHouse.GetName]. They call him "[levi.GetNickname]". If my body were pulled apart into a string as thin as gossamer and the word "#XB hate#!" was written upon it and wrapped across the width of the earth, it would still be a mere #tooltip_subheading fraction#! of the #XB hate#! I feel for that man. He usurped my land, and when I called for aid from [GetTitleByKey('d_new_york').GetNameNoTier], one of his #tooltip_subheading kind#! convinced a court to issue an injunction to prevent any reinforcements from being deployed. And [theovelt.GetHouse.GetName] allowed it in fear of his own realm's Jews. #tooltip_subheading Disgusting#!. Until I reclaim my rightful elected position and the #tooltip_subheading respect#! that the [eugene.GetHouse.GetName] name deserves, I am only driven by #XB hate#!. What do I #tooltip_subheading despise#! the most about [levi.GetFirstName] "[levi.GetNickname]" [levi.GetHouse.GetName]?"
+ wagstaff.0001.a:0 "I #XB hate#! his heretical laws and unpatriotic god."
+ wagstaff.0001.b:0 "I #XB hate#! his un-American way of life."
+ wagstaff.0001.c:0 "I #XB hate#! his low birth and uncouth manner"
+
+ camiroaga.0001.1: "Let's get to it, then."
+ camiroaga.0001.desc: "I find myself in my carriage, headed to the Congress of Valparaíso, admiring the hills of the so-called Pearl of the Pacific. Some paths, now indistinguishable from the others, are said to have once held the ‘ascensores’. I recall stories from my grandpa, who told that in Old Chile, these machines assisted the Porteños in navigating the hills of the city. They were stripped down for steel after the [Concept('the_event_ate','Deluge')|E], with some of the structures set up to scrap them eventually becoming renowned forges, or so their blacksmiths say. Commoners and burghers gather around the streets, trying to catch a glimpse of the arrivals to the Baburizza Palace—an old mansion used by [valpolord.GetTitledFirstName] and the seat for the upcoming Congress\n\nThe Congress is composed of the lords and ladies of 'El Centro,' those who, after the signing of ‘El Cahuín de Vitacura’, elected me as Lord of the Central Valleys—leader of the rebellion and, in practice, liege to all of them. We are here to discuss the future of our lands after the Flight to Curicó, from the so-called 'loyal' court of the absent Don [chilelord.GetFirstName], #EMP former #!King of Chile. As I start to remember the years before the rebellion, struggling to get a word with him and usually finding him tending to his horse or in his study, neglecting his duties, my carriage suddenly stops, and my driver tells me, "We have arrived, Don Felipe.""
+ camiroaga.0001.t: "The Congress of Valparaíso: Sol de Invierno"
+ camiroaga.0002.desc: "As I enter the casona, I see various figures from Valparaíso and Santiago high society, here to attend to their lords. Don [valpolord.GetFirstName] rises from his chair to grab some food, and another attendant swiftly takes his seat. [valpolord.GetFirstName], the Alcalde of Valparaíso, talks to some servants, while a few noblemen discuss building a house in one of the resort towns on the coast.\n\nAs people notice my presence, slowly but surely, a line forms to greet and exchange a few words with me. Nobles and burghers alike—faces from all over the Central Valley smile at me, both in feigned and genuine warmth. I realize that, even after years in my position, my leadership status still troubles me."
+ camiroaga.0002.t: "The Congress of Valparaíso: Yo No Te Pido la Luna"
+ camiroaga.0002.1: "Carefully dodge them, hopefully this will end soon."
+ camiroaga.0002.1.tt: "You really don't want to deal with all these people—you want to go back to Santiago as a count."
+ camiroaga.0002.2.tt1: "You become lost in various conversations—perhaps even lowering your guard."
+ camiroaga.0002.2.tt2: "#warning @skill_diplomacy_icon! There is a small chance of your vassals obtaining a weak hook on you! The chance is based on your diplomacy versus theirs.#!"
+ camiroaga.0002.2: "Warmly greet everyone in line."
+ camiroaga.0003.t: "The Congress of Valparaíso: La Joya del Pacífico"
+ camiroaga.0003.desc: "The hours pass, and our conversations cover various topics, including fortress-keeping, winemaking rights and grants, compensation for various peasant communities and unions affected by the war, and other minor topics. As this happens, I hear [valpolord.GetTitledFirstName] approach me, "Don Felipe, as you know, the ancient rights of Valparaíso were rescinded by kings of Chile's past. We Porteños have been loyal to the cause, but the structures and traditions of our beloved port should, in our opinion," he says, referring to the people of Valparaíso, "be restored."\n\nI pause. Is he asking for the restoration of Gran Valparaíso? San Antonio's lords would be back under Porteño suzerainty! Valparaíso used to be a powerful naval power until its election of the King of Chile as Governor. Restoring such a powerful title and institution would certainly benefit trade and make him a strong ally for the rest of the Central Valley, but this move could grant de facto independence, and the Porteños may become as rowdy as the penquistas of Concepción."
+ camiroaga.0003.1: "Let us unchain the Pearl of the Pacific"
+ camiroaga.0003.2: "San Antonio and Valparaíso must be under the same authority"
+ camiroaga.0003.3: "Valparaíso must stay as it is."
+ camiroaga.0004.t: "The Congress of Valparaíso: El Rey y Yo"
+ camiroaga.0004.desc: "As the lords and ladies vote on various motions, I notice [catalina.GetTitledFirstName], seated in her chair, frowning, probably something troubling her mind. I wonder-..."Felipe!" she exclaims—"The former King and the rest of the court are still in Curicó. Are we just going to sit here and do nothing? The Naranjos are waiting to jump in and have our heads once Tulio makes up his mind!" Other lords cheer her on, but [joaquin.GetTitledFirstName] rises from his chair and declares, "Our rights and privileges are asserted now! Why should we go and campaign down south when we clearly have achieved the rebellion’s purpose!". Others, like Don [quillotalord.GetFirstName] of Quillota, support Catalina. I remember how during the rebellion he pushed for me to claim the throne, as we, the Camiroagas, married into past royal families—but I refused.\n\nAll these factions were dormant during the rebellion, but it seems that this congress reactivated them. Who shall I support? They clearly are waiting for me to say something. Four paths seem to pass through my mind as the lords raise their voices and the dispute gains steam."
+ camiroaga.0004.1: "The Rebellion has achieved its purpose. Go home. I am no longer your leader."
+ camiroaga.0004.2: "The Rebellion has achieved its purpose. We need to concentrate our efforts."
+ camiroaga.0004.3: "Catalina is right! Clearly, there can't be two Kings of Chile!"
+ camiroaga.0004.3.tta: "#warning You won't return to Santiago a count.#!"
+ camiroaga.0004.4: "Catalina is right! A Naranjo must never be king!"
+ camiroaga.0004.4.tt: "Currently does nothing"
+ camiroaga.0004.1.t: "Lord of the Central Valleys, Shmord of the Shmentral Shmalleys."
+ camiroaga.0004.2.t: "Developing our infrastrcture is key now."
+ camiroaga.0004.3.t: "Soon, a Camiroaga will sit on La Moneda as the King!"
+ camiroaga.0004.4.t: "The Naranjos forfeited their right to the throne; we ride to Curicó now."
+
+#Al-Qazwini flavor event/decision
+
+ alqazwini_decision.title: "Our Wisdom Prevails"
+ alqazwini_decision.desc: "God is great! We now control the major cities of the Great Lakes, and thus we stand at an crossroads. What will be the faith of our realm? We must proclaim this, and let it stand for the world to see, a beacon of our knowledge, power and jurisprudence. So, what will be the choice of our family?"
+ alqazwini_decision.a: "We must never compromise on unity"
+ alqazwini_decision.b: "We will return to our roots"
+ alqazwini_decision.c: "We must prepare to battle the Antichrist"
+ alqazwini_decision.d: "We must not deviate from our current path"
+
+ alqazwini_flavor_empire: "Establish Al-Qazwini Hegemony"
+ alqazwini_flavor_empire_desc: "One of the most noteworthy Muslim families in the Great Lakes, one that has historically ruled over both the [GetTitleByKey('d_detroit').GetName] and the [GetTitleByKey('d_maumee').GetName], our family, Al-Qazwini, is on the verge of renown, the precipice of history itself. If only we could just reach out and take it..."
+ alqazwini_flavor_empire_tooltip: "Enshrine the rule of Al-Qazwinis for centuries to come"
+ alqazwini_flavor_empire_confirm: "May our name shine like gold!"
+ 
+ 
+ 
+ ate_bookmark.874.t: "Fate and the Painter"
+ ate_bookmark.874.desc: "I was born in a workshop lost in Florida, surrounded by a family of acclaimed artists. The Artesanos raised me from a young age to be one of them. I was trained in all the arts of men with the promise that one day I would create something so great it would mend the wounds of our world. But this life was simply not for me. I failed over and over again. What was I to create when the prospect of my whole life was encased within the old walls of the workshop? What creation can grow from someone who has never experienced life at its fullest?\n\nIt was too much for me, and one day when the candles went out, I walked away from the workshop. I made a living working as a wandering doctor, and in time, many joined with me to learn and keep helping others. I saw the polished lakes of Córdoba, the endless curtains of water at Iguazú, the golden beaches of Florianópolis, and the sprawling streets of Buenos Aires. I helped wherever I could, and I even found a muse to journey with.\n \nBut still I feel an emptiness. Now that I see the world in its entirety, I do not feel the same disgust I once felt for those who raised me. Perhaps they were harsh and demanding, yes, but they taught me to see where other men walk blind. The power is held in the hands of those who believe they can twist the world into something that it's not. And am I not like them? Did I not believe that I could discover the world as it truly is through my own eyes alone? I cannot run from what the Equilibrium has placed upon me. If the brush must once again rest in my hands, then perhaps it's time to paint a new beginning."
+ ate_bookmark.874.a: "A new masterpiece..."
+ 
+ate_bookmark.900.t:0 "A Crimson Legacy"
+ate_bookmark.900.desc:0 "The past week has been hot and dry, the [Glossary( 'Santa Ana winds', 'SANTA_ANA_GLOSS' )] spreading grit and dust endlessley across San Diego and the surrounds. Even the nights have remained almost unbearably hot, and I find myself rousing some hours before dawn.\n\nResigned to the day, I make my way out to the courtyard of my estate, the manicured garden covered in a fine layer of sediment deposited by the wind. I find myself in an alcove ovelooking the Pacific, watched by a portrait of my ancestor [benito.GetNameNicknamed], founder of my dynasty.\n\nI gaze at the portrait, taking a moment to think back on the stories I have heard of this man; born with no father, setting sail for Mexico near 200 years ago, and returning with a wife, extravagant wealth and that most valuable of dyes.\n\n #italic Carmine#!."
+ate_bookmark.900.a:0 "#italic 'El que controla el tinte, controla el mundo'#!."
+ate_bookmark.900.a.tooltip:0 "#italic He who controls the dye, controls the world...#!."
+
+ate_bookmark.901.t:0 "A Crimson Dawn"
+ate_bookmark.901.desc:0 " #italic Carmine#!. A truly exquisite dye of deep crimson, used in clothes, cosmetics and even the most luxurious of foods. Each pound takes the blood of thousands of cochineal beetles and hundreds of manhours to produce. Tales in the Carmine family attribute our wealth, influence, motto and even our dynastic name to [benito.GetFirstNameNicknamedNoTooltip]'s shrewd monopoliziation of the carmine trade many years ago.\n\nDawn breaks. Though I too am [ROOT.Char.GetTitleAsNameNoTooltip], as [benito.GetFirstNameNoTooltip] before me, my legacy is nothing to his. A thought crosses my mind.\n\nThough the Mexican Carmine trade has long fallen away, the secrets of the cochineal remain exclusive to our family in California; a lucrative source of income for any future plans. \n\nA quiet smile graces my lips as I look out upon the [GetDomicileBuilding('carmine_02').GetName] set out upon my estate. Perhaps it is time to paint California red. Carmine Red."
+ate_bookmark.901.a:0 "[ROOT.Char.GetHouse.GetMotto]."
+ate_bookmark.901.a.tooltip:0 "#italic By the Blood, We shall prevail#!."
+ate_bookmark.901.a.building_tooltip:0 "The Cochineal Estate Building chain will be started in your estate."
+
+ yipster.t:0 "Manifesto of the Youth Internationale"
+ yipster.desc:0 "We are a new nation.\n\nWe believe in life.\n\nAnd we want to live free.\n \nKalifornia doesn't even live on holy days.\n\nKalifornia is a [Concept('the_machine','death machine')|E]. Little Troy runs it by and for a hulking wheezing oligarchy whose power determines a society based on war, oppression, and the desecration of the Sages' teachings. Our life-energy is the greatest threat to the machine.\n\nSo they're out to stop us. They have to make us like them. They steal our wealth, conscript us from our villages to fight a rich man's war in Jefferson, ban our music festivals, induct us into terracotta bureaucrats.\n\nWhen we raised our voices against the war at the university at Berkeley, they drove us out, expelled us. We were blacklisted, exiled for daring to speak. But they only freed us.\n\nWe are living in the capital of the world war being waged against life. The Kalifornian bureaucrats trap us forever in Samsara, recycling our souls over and over again into new bodies for the next imperial war, an endless harvest of blood and obedience. We can and must stop the death machine from butchering the planet."
+ yipster.a:0 "Kalifornia has declared war on our New Nation!"

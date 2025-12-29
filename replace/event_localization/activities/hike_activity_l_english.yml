@@ -1,0 +1,212 @@
+﻿l_spanish:
+
+# Common
+hike_major.press_on: "Press on towards loftier vistas."
+hike_major.rest_up: "Rest up."
+
+### Major
+hike_major.0100.t: "Antediluvian Ruins"
+hike_major.0100.explore_ruins: "What wonders may lie inside?"
+hike_major.0100.explore_ruins.tt: "You explore the ancient ruin."
+
+hike_major.0101.t: "A Glittering Treasure"
+hike_major.0101.take_gold: "Finder's keepers."
+hike_major.0101.divide_gold_among_party: "We will all share in this find."
+hike_major.0101.leave_treasures_be: "Such things are better left undisturbed."
+
+hike_major.0102.t: "A Strange Shrine"
+hike_major.0102.pray_at_shrine: "Whatever Gods they worshipped must be powerful."
+hike_major.0102.desecrate_shrine: "Burn it all in the name of [ROOT.Char.GetFaith.HighGodName]."
+hike_major.0102.study_shrine: "These mysteries are worth analysis."
+
+hike_major.0103.t: "An Ambush Predator"
+hike_major.0103.fight: "Die, vile beast!"
+hike_major.0103.run: "Flee as fast as you can!"
+
+hike_major.0200.t: "Where There's Smoke"
+hike_major.0200.seek_it_out: "Let us find the source of that smoke."
+hike_major.0200.seek_it_out.tt: "You seek out the source of the smoke."
+
+hike_major.0210.t: "The Lone Hermit"
+hike_major.0210.talk_to_hermit: "Hello?"
+hike_major.0210.talk_to_hermit.tt: "You approach the hermit."
+hike_major.0210.ignore_hermit: "Those types are better left ignored."
+
+hike_major.0211.t: "A Crazed Hermit"
+hike_major.0211.fight_them_off: "Get away from me!"
+hike_major.0211.no_one_owns_forest: "No one owns the land."
+hike_major.0211.i_own_forest: "No. I own this land."
+
+hike_major.0212.t: "An Opportune Employment"
+hike_major.0212.accept_terms: "I'd gladly pay."
+hike_major.0212.persuade_to_join_for_free: "Perhaps we could reach more favorable terms."
+
+hike_major.0213.t: "Initiation"
+hike_major.0213.accept: "Show me your ways."
+hike_major.0213.decline: "I'd rather not."
+
+hike_major.0220.t: "The Bandit Camp"
+hike_major.0220.negotiate_with_bandits: "Perhaps I could turn this to my advantage."
+hike_major.0220.sneak_past: "We must not let them see us."
+hike_major.0220.negotiate.failure.tt: "The bandits ignore your overtures and get in position to attack."
+hike_major.0220.negotiate.success.tt: "The bandits are willing to speak with you."
+hike_major.0220.sneak.failure.tt: "The bandits spot you."
+hike_major.0220.sneak.success.tt: "You manage to sneak past the bandits."
+
+hike_major.0221.t: "Stand and Deliver"
+hike_major.0221.fight_them_off: "To battle!"
+hike_major.0221.give_in: "We surrender."
+
+hike_major.0222.t: "A Tense Negotiation"
+hike_major.0222.recruit: "I could use people like you."
+hike_major.0222.trade: "What do you have to sell?"
+hike_major.0222.demand_repentance: "You must give up your ways."
+hike_major.0222.demand_repentance.tt: "Who knows how the bandits will react."
+
+hike_major.0230.t: "An Isolated Rite"
+hike_major.0230.join_ritual: "Greetings, sisters."
+hike_major.0230.burn_them: "A perfect opportunity to strike."
+hike_major.0230.join_coven: "May I join you?"
+hike_major.0230.pass_them_by: "They seem busy."
+
+hike_major.0240.t: "Poachers"
+hike_major.0240.kill_the_poachers: "The penalty for poaching is death."
+hike_major.0240.hire_as_trainer: "Show me how it is you hunt."
+hike_major.0240.hire_as_guide: "You seem familiar with these lands."
+
+hike_major.0250.t: "Seeking Refuge"
+hike_major.0250.resettle_them: "We have plenty of room for your people."
+hike_major.0250.send_them_back: "You must return to your liege at once."
+hike_major.0250.leave_them_here: "My hands are full."
+
+hike_major.0300.t: "A Camp of Corpses"
+hike_major.0300.give_proper_funeral: "We must give them a proper funeral."
+hike_major.0300.scavenge_supplies: "Let us see what they had on them."
+
+hike_major.0400.t: "A Dangerous Shortcut"
+hike_major.0400.take_shortcut: "Risk the more dangerous path."
+
+### Minor
+
+hike_minor.0010.t: "An Inspiring Vista"
+hike_minor.0010.view_vista: "Focus on the beauty before you."
+hike_minor.0010.plan_ahead: "Use this opportunity to plan out the route ahead."
+
+hike_minor.0020.t: "A Sudden Fall"
+hike_minor.0020.trip_on_root: "DAMNED ROOT!"
+
+hike_minor.0030.t: "The Monotony of Travel"
+hike_minor.0030.become_athlete: "Practice makes perfect."
+hike_minor.0030.show_off: "Look at what I can do!"
+hike_minor.0030.focus_on_walk: "One foot in front of the other."
+hike_minor.0030.strike_up_a_conversation: "So, how's the weather?"
+
+hike_minor.0040.t: "Herbal Medicine"
+hike_minor.0040.become_herbalist: "Examine the herbs."
+
+hike_minor.0050.t: "Fascinating Flowers"
+hike_minor.0050.keep_plants: "Thse could make for a beautiful garden."
+hike_minor.0050.sell_plants: "I'm sure someone would be willing to buy these."
+hike_minor.0050.leave_them_be: "It is not our place to despoil nature's bounty."
+
+hike_minor.0060.t: "Trailsign"
+hike_minor.0060.add_to_cairn: "I'll find another stone to add to the pile."
+hike_minor.0060.ignore_cairn: "Leave no trace."
+hike_minor.0060.topple_cairn: "Hyah!"
+
+hike_minor.0070.t: "Creature of the Wilds"
+hike_minor.0070.hunt_it_down: "I've found our dinner for tonight."
+hike_minor.0070.leave_it_be: "What a majestic creature."
+
+hike_minor.0080.t: "Playing Cards"
+hike_minor.0080.play_to_win: "I'm winning this game."
+hike_minor.0080.play_to_make_friends: "You need any help?"
+
+hike_minor.0090.t: "Begging and Choosing"
+hike_minor.0090.hunt_it_down: "A fine, albeit meager, quarry."
+hike_minor.0090.leave_it_be: "I'm sorry, little one."
+hike_minor.0090.feed_it: "Awww..."
+
+hike_minor.0100.t: "A Shortcut to Mushrooms"
+hike_minor.0100.eat_mushrooms: "I bet its delicious!"
+hike_minor.0100.ignore_mushrooms: "I think we should skip it tonight..."
+
+### Intent
+
+hike_intent.0110.t: "Dinner Served"
+hike_intent.0110.overdrink: "Another round!"
+hike_intent.0110.overeat: "Are you serving thirds?"
+hike_intent.0110.bicker: "You're clearly incorrect."
+hike_intent.0110.shun_food: "On second thought, I'm not hungry."
+hike_intent.0110.relax: "Time to sit back and enjoy the night."
+
+hike_intent.0120.t: "Beneath the Stars"
+hike_intent.0120.speak_freely: "I could talk to you for hours."
+hike_intent.0120.proposition_partner: "Wanna go back to my tent?"
+hike_intent.0120.shun_company: "I'd rather spend the night alone."
+hike_intent.0120: "Time to sit back and enjoy the night."
+
+hike_intent.0130.t: "The Crack of Dawn"
+hike_intent.0130.duel_partner: "A perfect opportunity to practice swordplay."
+hike_intent.0130.go_for_run: "Might as well go on a morning run."
+hike_intent.0130.relax: "What else to do but sit around."
+
+hike_intent.0210.t: "A Sprained Ankle"
+hike_intent.0210.make_brace: "I think I know how to make a brace."
+hike_intent.0210.carry_them: "I'll carry you!"
+
+hike_intent.0220.t: "A Promise for Eternity"
+hike_intent.0220.carve_initials: "Let what is blossoming between us last forever."
+hike_intent.0220.ignore_opportunity: "Doesn't that hurt the trees?"
+
+hike_intent.0230.t: "'Sleeping Together'"
+hike_intent.0230.proposition_them: "As long as we're sharing a tent, I thought we might share something more."
+hike_intent.0230.rest: "Well, we best get to sleep."
+
+hike_intent.0310.t: "A Tragic Slip"
+hike_intent.0310.push: "I tried to save them."
+hike_intent.0310.wait_for_better_opportunity: "A better chance will come."
+
+hike_intent.0320.t: "Stagnant Water"
+hike_intent.0320.poison_them: "I can fill everyone's waterskins tonight."
+hike_intent.0320.wait_for_better_opportunity: "A better chance will come."
+
+hike_intent.0330.t: "Sabotage"
+hike_intent.0330.sabotage_their_gear: "A few minor modifications..."
+hike_intent.0330.wait_for_better_opportunity: "A better chance will come."
+
+hike_intent.0410.t: "Trauma Bonding"
+hike_intent.0410.run_away_together: "This way!"
+hike_intent.0410.faster_than_you: "I just have to outrun you."
+
+hike_intent.0420.t: "As the Fire Dies Down"
+hike_intent.0420.stay_up_together: "Talk into the wee hours of the morning"
+hike_intent.0420.go_to_bed: "I suppose its time to retire."
+
+hike_intent.0430.t: "Cooking Duty"
+hike_intent.0430.focus_on_the_conversation: "The perfect opportunity to talk."
+hike_intent.0430.focus_on_the_meal: "Let's make this meal the best we can."
+
+hike_intent.0510.t: "Self Improvement"
+hike_intent.0510.replace_personality: "I realize what I've been doing wrong."
+hike_intent.0510.stay_as_you_are: "I'm fine how I am."
+
+hike_intent.0520.t: "Nature's Medicine"
+hike_intent.0520.lose_coping_mechanism: "I have finally found solace."
+hike_intent.0520.stay_as_you_are: "I'm fine how I am."
+
+hike_intent.0530.t: "A Moment of Reflection"
+hike_intent.0530.reflect_on_hiking: "I've learned so much about hiking."
+hike_intent.0530.crossapply_ideas: "I've learned so much about life."
+
+hike_intent.0610.t: "A Trail Race"
+hike_intent.0610.race_along_trail: "I'll beat you to the end!"
+hike_intent.0610.ignore_opportunity: "Perhaps another time."
+
+hike_intent.0620.t: "A Fork in the Road"
+hike_intent.risky_path: "A perfect opportunity to show off."
+hike_intent.0620.safe_path: "Better safe than sorry."
+
+hike_intent.0630.t: "A Shirtless Run"
+hike_intent.0630.show_off: "I'll certainly make an impression."
+hike_intent.0630.ignore_opportunity: "Perhaps another time."

@@ -1,0 +1,34 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ ate_commodity.10.t:0 "Renovating the Plantation"
+ ate_commodity.10.desc:0 "Although the plantation I have in my private estate has always been productive, since moving to a new location I have found the yields have become increasingly weak. As such, I have called my private gardeners to replant the plantation with new crops that will better suit the new terrain."
+ ate_commodity.10.a:0 "Time for a change!"
+ ate_commodity.10.a.tooltip:0 "You will replace your private plantation with the correct building for the terrain your estate is in"
+ ate_commodity.10.b:0 "On second thoughts, perhaps this is a bad idea..."
+ ate_commodity.10.b.tooltip:0 "You decide against changing your private plantation. This will prevent you from upgrading the building chain"
+
+ ate_commodity.15.t:0 "Renovating the Grove"
+ ate_commodity.15.desc:0 "Although the grove I have in my private estate has always been productive, since moving to a new location I have found the yields have become increasingly weak. As such, I have called my private gardeners to replant the grove with new crops that will better suit the new terrain."
+ ate_commodity.15.a:0 "Time for a change!"
+ ate_commodity.15.a.tooltip:0 "You will replace your private grove with the correct building for the terrain your estate is in"
+ ate_commodity.15.b:0 "On second thoughts, perhaps this is a bad idea..."
+ ate_commodity.15.b.tooltip:0 "You decide against changing your private grove. This will prevent you from upgrading the building chain"
+
+ ate_commodity.20.t:0 "Renovating the Insectarium"
+ ate_commodity.20.desc:0 "Although the insectarium I have in my private estate has always been productive, recent changes suggest it is time for us to replace the creatures we currently cultivate. As such, I have called my private animal keepers to renew the insectarium with new critters that will better suit our future plans."
+ ate_commodity.20.a:0 "Silk is the way of the future!"
+ ate_commodity.20.a.tooltip:0 "You will begin to keep silkworms in your insectarium"
+ ate_commodity.20.b:0 "Carmine dye must flow!"
+ ate_commodity.20.b.tooltip:0 "You will begin to keep cochineal beetles in your insectarium"
+ ate_commodity.20.c:0 "Bees! The bees!"
+ ate_commodity.20.c.tooltip:0 "You will begin to keep honey bees in your insectarium"
+ ate_commodity.20.d:0 "It will be a true [Glossary( 'Terrorarium', 'TERRORARIUM_GLOSS' )]!"
+ ate_commodity.20.d.tooltip:0 "You will begin to keep venomous creatures in your insectarium"
+ ate_commodity.20.e:0 "On second thoughts, perhaps this is a bad idea..."
+ ate_commodity.20.e.tooltip:0 "You decide against changing your private insectarium. This may prevent you from upgrading the building chain"

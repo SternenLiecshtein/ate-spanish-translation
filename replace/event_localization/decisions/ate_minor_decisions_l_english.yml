@@ -1,0 +1,58 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ stress_loss_coffee_decision_level_1:0 "Drink Coffee"
+ stress_loss_coffee_decision_level_1_desc:0 "With all the work and other tasks I need to keep up with, I'm constantly in need of a little boost. Taking a moment to have a nice cup of coffee will surely be just the thing I need!"
+ stress_loss_coffee_decision_level_1_confirm:0 "Drink up!"
+ stress_loss_coffee_decision_tooltip:0 "Indulge in a hot cup of joe."
+
+ stress_loss_coffee_decision_level_2:0 "Drink More Coffee"
+ stress_loss_coffee_decision_level_2_desc:0 "The hours get longer and there's always more to do, but regularly indulging in coffee helps keep me sharp and alert as the day drags on! Plus, it seems to keep away my headaches I've been getting..."
+ stress_loss_coffee_decision_level_2_confirm:0 "Drink up!"
+
+ stress_loss_coffee_decision_level_3:0 "Drink A Lot Of Coffee"
+ stress_loss_coffee_decision_level_3_desc:0 "Sleep? Rest? That's for the weak! I have more and more on my plate and its all I can do to keep up with it! Sure it's expensive, but when it keeps you going like this, who wouldn't drink it!"
+ stress_loss_coffee_decision_level_3_confirm:0 "Drink up!"
+
+ stress_loss_coffee_decision_level_4:0 "Drink A Dangerous Amount of Coffee"
+ stress_loss_coffee_decision_level_4_desc:0 "Waking up feels awful until I can get that first cup of coffee to get me going, but once I've had that I can keep going through the day! Plus, I'm sure the jitters are just showing how much energy I have!"
+ stress_loss_coffee_decision_level_4_confirm:0 "Drink up!"
+
+ stress_loss_smoker_decision:0 "Have a Smoke"
+ stress_loss_smoker_decision_desc:0 "Nothing helps calm my nerves like taking a moment to have a smoke. Finding somewhere quiet to have a quick smoke will help me feel a lot better, and might even help with my cough!"
+ stress_loss_smoker_decision_confirm:0 "Time for a break!"
+ stress_loss_smoker_decision_tooltip:0 "Take a moment to have a smoke"
+
+ swap_personal_plantation_decision:0 "Replant my Personal Plantation"
+ swap_personal_plantation_decision_desc:0 "Whilst the plantation on my estate has brought me many riches, since moving our estate I have found the terrain no longer suitable for my current crop.\n\nWhilst there is a cost, replanting my plantation will allow me to undertake further steps to improve it in the future."
+ swap_personal_plantation_decision_tooltip:0 "You will have your artisans undertake the necessary steps to change your personal plantation"
+ swap_personal_plantation_decision_confirm:0 "Strike the Earth!"
+
+ swap_private_grove_decision:0 "Replant my Private Grove"
+ swap_private_grove_decision_desc:0 "Whilst the grove on my estate has brought me many riches, since moving our estate I have found the terrain no longer suitable for my current crop.\n\nWhilst there is a cost, replanting my grove will allow me to undertake further steps to improve it in the future."
+ swap_private_grove_decision_tooltip:0 "You will have your artisans undertake the necessary steps to change your private grove"
+ swap_private_grove_decision_confirm:0 "Strike the Earth!"
+
+ swap_private_insectarium_decision:0 "Raise a new species in my Insectarium"
+ swap_private_insectarium_decision_desc:0 "Whilst the insectarium on my estate has brought me many riches, I feel it is time for our cultivated creatures to be reassessed.\n\nWhilst there is a cost, changing out our critters will allow me to undertake further steps to improve it in the future."
+ swap_private_insectarium_decision_tooltip:0 "You will have your artisans undertake the necessary steps to change your private insectarium"
+ swap_private_insectarium_decision_confirm:0 "Strike the Earth!"
+
+
+ establish_family_terrorarium_decision:0 "Establish the Family Terrorarium"
+ establish_family_terrorarium_decision_desc:0 "With our family's extensive knowledge of subterfuge and intrigue, we have constantly been searching for ways to maintain our edge against our many enemies. By beginning to maintain a [Glossary( 'terrorarium', 'TERRORARIUM_GLOSS' )], we may ensure that our web of intrigue remains ever lurking in the shadows."
+ establish_family_terrorarium_decision_tooltip:0 "You will establish your family's ability to keep venomous creepy-crawlies"
+ establish_family_terrorarium_decision_confirm:0 "We shall spin our web!"
+ terrorarium_not_too_cold:0 "The [terrain|E] or [region|E] your [estate|E] is located in is warm enough to support cold-blooded terrors."
+ unlocked_estate_venom_buildings:0 "Unlocks [GetDomicileBuilding('venom_02').GetName] [estate|E] [building|E]"
+ unlocked_estate_venom_buildings_t:0 "[GetDomicileBuilding('venom_02').GetName] Unlocked"
+
+ unlocked_estate_silk_buildings:0 "Unlocks [GetDomicileBuilding('silk_02').GetName] [estate|E] [building|E]"
+ unlocked_estate_silk_buildings_t:0 "[GetDomicileBuilding('silk_02').GetName] Unlocked"
+
+

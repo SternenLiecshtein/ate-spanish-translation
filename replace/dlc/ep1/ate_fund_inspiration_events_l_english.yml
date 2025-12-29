@@ -1,0 +1,231 @@
+﻿l_spanish:
+
+
+#dlc\ep1\dlc_ep1_fund_inspiration_events_l_spanish.yml overrides and additions
+
+ #Adventurer destinations
+ fund_inspiration.0051.far_north:0 "Explore $world_far_north$!"
+ fund_inspiration.0051.arctic:0 "Travel to $world_arctic$!"
+ fund_inspiration.0051.eastern_canada:0 "I want you to explore $world_eastern_canada$!"
+ fund_inspiration.0051.central_canada:0 "Explore $world_central_canada$!"
+ fund_inspiration.0051.western_canada:0 "Explore $world_western_canada$ in my name!"
+ fund_inspiration.0051.us_region:0 "$world_us_region$ has always fascinated me!"
+ fund_inspiration.0051.us_eastern:0 "I want you to go east of the Mississippi!"
+ fund_inspiration.0051.us_middle:0 "Journey to the Great Plains of Old America!"
+ fund_inspiration.0051.us_western:0 "The Old West has always fascinated me!"
+ fund_inspiration.0051.mexico_region:0 "See what $world_mexico_region$ has to offer!"
+ fund_inspiration.0051.mexico_north:0 "To $world_mexico_north$!"
+ fund_inspiration.0051.mexico_central:0 "Go to $world_mexico_central$!"
+ fund_inspiration.0051.mexico_yucatan:0 "I want you to go to $world_mexico_yucatan$!"
+ fund_inspiration.0051.caribbean_basin:0 "You will explore $world_caribbean_basin$!"
+ fund_inspiration.0051.caribbean:0 "The West Indies is a worthy destination!"
+ fund_inspiration.0051.central_america:0 "I want you to travel to $world_central_america$!"
+ fund_inspiration.0051.spanish_main:0 "The Spanish Main has always fascinated me!"
+ fund_inspiration.0051.south_america_guyanas:0 "See what the $world_south_america_guyanas$ have to offer!"
+ fund_inspiration.0051.brazil_region:0 "See what Brazil and its frontiers may offer!"
+ fund_inspiration.0051.south_america_interior:0 "Travel to $world_south_america_interior$!"
+ fund_inspiration.0051.south_america_amazon:0 "You will explore $world_south_america_amazon$!"
+ fund_inspiration.0051.south_america_brasil_coast:0 "Go to $world_south_america_brasil_coast$!"
+ fund_inspiration.0051.greater_andes:0 "You will explore $world_greater_andes$!"
+ fund_inspiration.0051.south_america_andes:0 "You will explore $world_south_america_andes$!"
+ fund_inspiration.0051.south_america_la_plata:0 "Travel to $world_south_america_la_plata$!"
+ fund_inspiration.0051.south_america_patagonia:0 "Journey to $world_south_america_patagonia$!"
+
+ #Burial mound event
+
+ ## Postcards from your Adventurer by Isabella Welch - relocs
+ #USA
+ fund_inspiration.6001.t:0 "The grand old woods of Old America sing in my heart,"
+ fund_inspiration.6001.desc:1 "I have traveled the old roads for months on end. My rear shall never recover! .\n\nI've recently been accompanied by a self-described band of "knights-errant," one of whom fancies himself a musician. With this courier, I send a guitar pick, fashioned from an old coin — a gift of these knights. Perhaps you have a use for it."
+ fund_inspiration.6001.a:0 "I'll hold onto this!"
+ fund_inspiration.6001.b:0 "Send it to the Court Musician."
+
+ #Andes
+ fund_inspiration.6002.t:0 "My jaunt through the Andes marches on!"
+ fund_inspiration.6002.desc:0 "The mountains and plains along my journey hold a tremendous variety of peoples and wealth - but the climbs and descents make me yearn for more level pastures.\n\nI have sent a courier with a particularly tasteless gift I was given by a wealthy highland merchant — a jaguar's head ornament on a ring, with jewels for eyes. Have you ever seen something so garish?"
+ fund_inspiration.6002.a:0 "I rather like it, it's his loss."
+ fund_inspiration.6002.b:0 "Ghastly! Take it apart and sell the gems."
+
+ #Carribean
+ fund_inspiration.6003.t:0 "I dream of the ocean,"
+ fund_inspiration.6003.desc:0 "My liege, my journey along the Caribbean Sea is underway, and I have joined a caravan traversing the coast. During a rest, one of my companions took me to the sea, and showed me the reef there. Truly a thing of beauty - a forest of stone reaching for the heavens.\n\nI send to you a piece of jewelry, a necklace made from polished corals and other stones of this region. I cannot show you the reef itself, but this small memento captures a piece of it."
+ fund_inspiration.6003.a:0 "A fine find! I will wear it myself."
+ fund_inspiration.6003.b:1 "I shall give it to [event_spouse.GetTitledFirstNameNoTooltip]."
+
+ #Mexico
+ fund_inspiration.6004.t:0 "Ah, to be a pilgrim,"
+ fund_inspiration.6004.desc:0 "My journey through Mexico has mostly involved fighting off hoards of peddlers on the pilgrim-paths.\n\nOft, in order not to delay my quest over-long, I give in and buy one of their little trinkets. I have sent a courier bearing the tat your way. Perhaps it shall provide some amusement."
+ fund_inspiration.6004.a:0 "What use is an adventurer who takes the common path?"
+ fund_inspiration.6004.b:0 "These are some pretty baubles..."
+
+ #Far North
+ fund_inspiration.6005.t:0 "My adventures are frigid,"
+ fund_inspiration.6005.desc:0 "My Lord, I have found a few trite relics so far in my adventures, which I have sent with this courier, but I am unsure what I may uncover next.\n\nThis land confuses me, and the Sun seems confused as well for how far it strays from its path. It is both frozen and damp, and my sleep has been ruined by the strange hours of daylight. If you are a gracious liege, please send word to call me back."
+ fund_inspiration.6005.a:0 "This isn't a holiday! Quest on!"
+ fund_inspiration.6005.b:0 "Poor soul, I suppose these rewards shall suffice."
+ fund_inspiration.6005.b.tt:0 "You permit [inspiration_owner.GetTitledFirstName] to return home"
+
+ #Brazil
+ fund_inspiration.6006.t:0 "Greetings from Brazil,"
+ fund_inspiration.6006.desc:0 "My travels throughout Brazil have left me with quite a taste for beef, cheese and manioc, and I have sent some recipes along with this courier.\n\nI have been given a silver piece of jewelry, called a balangandã, which I also send to you. The main ring unclips, and is designed to hold a variety of charms with special meanings. I've selected some charms I believe you shall like."
+ fund_inspiration.6006.a:0 "Order our chefs to prepare these dishes at once!"
+ fund_inspiration.6006.b:0 "[inspiration_owner.GetSheHe|U] seems to be having too much fun on this quest..."
+
+# Adventurer hasn't actually gone on the adventure!
+ fund_inspiration.6400.t:1 "$fund_inspiration.title$ Pub Crawl"
+ fund_inspiration.6400.desc:0 "On a visit to the tavern in [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], I spy one of the patrons at the heart of all attention.\n\n[inspiration_owner.GetSheHe|U] is more grizzled than the rest of the patrons, and smells as if [inspiration_owner.GetSheHe] has been there for an age. To my horror, I recognize my adventurer, [inspiration_owner.GetTitledFirstName], who appears not to have made it out of the homeland after months of funding!\n\n"And for my next journey, I shall cross the Caribbean in a single gulp!" [inspiration_owner.GetSheHe] promptly scoffs an entire glass of [ROOT.Char.Custom('RegionalAlcoholicDrink')] and cheering rings through the drinking-hall."
+ fund_inspiration.6400.a:0 "Get out of here and hit the road!"
+ fund_inspiration.6400.b:0 "Charlatan! I'm not paying for any more of your drink!"
+ fund_inspiration.6400.a.success:0 "You convince the adventurer to pull [inspiration_owner.GetHerselfHimself] together"
+ fund_inspiration.6400.a.success_continue:0 "The adventure continues!"
+ fund_inspiration.6400.a.failure:0 "Adventurer runs off with gold!"
+
+ fund_inspiration.6500.t:0 "$fund_inspiration.title$ Bringing Music to the Jungle"
+ fund_inspiration.6500.introduction:0 "I receive a missive from my adventurer, with words embellished so, I can see [inspiration_owner.GetHerHim] in the theater of my mind."
+ fund_inspiration.6500.desc:0 "\n\n'I have been afoot in the jungle. The calling of the birds pounds into my skull, and I find it a dread dirge indeed. The few inhabitants here tell me they find it the most pleasing music. They've clearly never heard the works of, [court_musician.GetTitledFirstNameNoTooltip].\n\n'I tried playing one of [court_musician.GetHerHis] melodies on one of their reed pipes, and the locals chased me out of their town and nicked me with a poison blade. Though I lived, I thought "if I die bringing chamber music to the jungle, so be it!""
+ fund_inspiration.6500.action:0 "\n\n'You can probably imagine what I did next...'"
+ fund_inspiration.6500.a:0 "You started singing, and won them over!"
+ fund_inspiration.6500.b:0 "You fled to more civilized lands."
+ fund_inspiration.6500.c:0 "A great cat jumped between you and your attackers!"
+ fund_inspiration.6500.a.success:0 "Adventurer charms jungle dwellers"
+ fund_inspiration.6500.a.failure:0 "Adventurer annoys jungle dwellers"
+ fund_inspiration.6500.b.success:0 "The adventurer darts away"
+ fund_inspiration.6500.b.failure:0 "The adventurer doesn't flee fast enough"
+ fund_inspiration.6500.c.tt:0 "The adventurer helps fight the leopard off"
+ fund_inspiration.6500.c.tt_failure:0 "The adventurer is injured attempting to flee"
+
+ fund_inspiration.6501.t:0 "$fund_inspiration.title$ Voyage over Land"
+ fund_inspiration.6501.desc:1 "\n\n'We have been sailing up rivers around the winding hills. After a drought, the locals told us the river we traveled by dried up ahead of our vessel.\n\n'Instead of giving up, or turning back, we attempted the impossible. I commanded my crew to start building a track and pulley system, and we started dragging our boat across the land towards the next river. It sailed in a sea of grass and daisies."
+ fund_inspiration.6501.a:0 "I hope you turned back and cut your losses."
+ fund_inspiration.6501.b:0 "The boat just about survived the journey."
+ fund_inspiration.6501.b.success:0 "Adventurer drags boat up a cliff"
+ fund_inspiration.6501.b.failure:0 "Adventurer stranded fixing broken boat"
+ fund_inspiration.6501.c:0 "The locals took pity, and gave you a new boat at a discount."
+
+ fund_inspiration.6502.t:0 "$fund_inspiration.title$ Burning Thirst"
+ fund_inspiration.6502.desc:0 "\n\n'I am not in the desert, I am in a land of dreams. The difference between awakening and sleep is gone. My guide tells me I hallucinate what I desire the most. A paradise, a pool of water glistening like diamonds, laced with treasures at its banks.\n\n'Instead, my [ROOT.Char.GetLadyLord], all I see is you here with me. Forever one sand bank ahead. Beckoning me to keep going. And it breaks me to know each step I take towards that mirage, I step further away from the true you.'"
+ fund_inspiration.6502.a:0 "Oh, I feel thirst myself, and I'm not in the desert."
+ fund_inspiration.6502.b:0 "I might consider your attention, if you were to bring a grand prize."
+ fund_inspiration.6502.c:0 "I blame this on the heat, and burn these words."
+
+ fund_inspiration.6503.t:0 "$fund_inspiration.title$ Antediluvian Whispers"
+ fund_inspiration.6503.desc:0 "\n\n'I have delved into a ruin, an ancient mound barely distinguishable from the surrounding scenery but for evidence that I was not the first to find this place. Furrows in the earth revealed what may have once been a home, made a makeshift grave and memorial to an unknown tragedy by its once-residents, partially excavated by a farmer. It was a remnant of the ancient world, lost to time.\n\n'I saw some unnoticed items emerging from the earth. Knowing of my duty to seek knowledge for our realm, I considered stealing a relic from the tomb when my guide was not watching to bring to you."
+ fund_inspiration.6503.a:0 "You pocketed something rare and prestigious."
+ fund_inspiration.6503.b:0 "You brought an ancient weapon, for our study."
+ fund_inspiration.6503.c:0 "You didn't dare disturb the dead."
+
+ fund_inspiration.6504.t:0 "$fund_inspiration.title$ [inspiration_owner.GetLadyLord|U] [inspiration_owner.GetFirstNamePossessiveNoTooltip] Lover"
+ fund_inspiration.6504.desc:0 "\n\n'Er, my [ROOT.Char.GetLadyLord], on my travels, I stayed at a farm attended to by [adventurer_lover.GetTitledFirstName]."
+ fund_inspiration.6504.pregnant:0 "\n\n'I have forged a fine artifact while at the farm! Namely, a child! While this may be an imposition, I cannot take [adventurer_lover.GetTitledFirstName] on my travels in [adventurer_lover.GetHerHis] state. [adventurer_lover.GetSheHe|U] has little wealth, and it is my hope we could look after [adventurer_lover.GetHerHim] at court.'"
+ fund_inspiration.6504.female_lover:0 "\n\n'After so many moons by myself on the road, [adventurer_lover.GetSheHe] stirs my heart like a fantastical creature. I cannot help but think this is where my quest was meant to take me."
+ fund_inspiration.6504.male_lover_homosexual:0 "\n\n'Free from the eyes of the court, I have been able to lie in the arms of a man for nights on end."
+ fund_inspiration.6504.male_lover:0 "\n\n'I am in love, and I would take a week of watching [adventurer_lover.GetHerHim] shovel horse-dung over any banquet at court."
+ fund_inspiration.6504.lover_ultimatum:0 "I cannot walk away from this farm, knowing I may never kiss [adventurer_lover.GetHerHim] again. Either [adventurer_lover.GetSheHe] travels to you and joins our court, or my journey ends here.'"
+ fund_inspiration.6504.a:0 "Begone with you, if you disrespect my patronage."
+ fund_inspiration.6504.a.tt:0 "[inspiration_owner.GetTitledFirstName] will stay at the farm."
+ fund_inspiration.6504.b:0 "I shall permit it, but blame me not for the scandal."
+ fund_inspiration.6504.c:0 "The child does not deserve poverty."
+ fund_inspiration.6504.d:0 "PEASANTS? In MY court? NOT LIKELY."
+
+ fund_inspiration.6505.t:0 "$fund_inspiration.title$ The Beach Chapter"
+ fund_inspiration.6505.desc:0 "\n\n'Amidst my panting in the desert heat, I have discovered some pristine waters, the very sight of which compelled me to remove all of my clothing. Rather than take it as an offense, my guide chuckled in quiet understanding, and began to sketch my form on a page. Our fellow travelers on the tour waved palm leaves to cool me down, in an act of fan service.\n\n'We spent many a happy-hour splashing around. In the next village, I hired a weaver to capture the moment of paradise, and I send you a memory with this courier.'"
+ fund_inspiration.6505.a:0 "My eyes! My eyes!"
+ fund_inspiration.6505.a_blind:0 "I'd gouge my eyes out, if I weren't already blind."
+ fund_inspiration.6505.a_one_eyed:0 "My eye! My eye!"
+ fund_inspiration.6505.b:0 "I'm hanging this in my bedroom!"
+ fund_inspiration.6505.c:0 "The whole court must know of this exotic pastime!"
+ fund_inspiration.6505.d:0 "Ahh, a sacred image for our people!"
+
+# Adventurer unhappy about being in the swamp
+ fund_inspiration.6506.t:0 "$fund_inspiration.title$ Not Unreasonable Squalor"
+ fund_inspiration.6506.introduction:0 "A missive arrives from my adventurer. It is so caked in mud, I must cut it open with a knife.\n\n"
+ fund_inspiration.6506.desc:1 "'My [ROOT.Char.GetLadyLord], I am in a wetland swamp, and all my years of tutelage have not prepared me for it. I am wading through sloshing oozes night and day. Last night I dreamt of a lover's embrace, and awoke to find a newt was at my lips instead of a tongue.\n\n'I was wondering if there were a slight chance I could go to a more #EMP civilized#! location. As an indication of how obscene this place is, I have sent the spawn a frog laid in my sodden boots in a jar along with my message.'"
+ fund_inspiration.6506.a:0 "It builds character!"
+ fund_inspiration.6506.b:0 "If you wish to go to tamer lands, you may."
+
+#Adventurer gets bee'd in a meadow
+ fund_inspiration.6507.t:0 "$fund_inspiration.title$ Not the Bees!"
+ fund_inspiration.6507.introduction:1 "I receive a missive from my adventurer — lines written mingled with a splash of blood."
+ fund_inspiration.6507.desc:0 "\n\n'The plains and meadows I wander have been gorgeously adorned with wildlife. As I was off my steed, stooping to sniff a flower, a shadow was cast over me by [grumpy_liege.GetTitledFirstName], the liege of these lands, and a [grumpy_liege.GetWomanMan] who thinks none too highly of you.\n\n'"The grubs of [ROOT.Char.GetTitledFirstNameNoTooltip] shall not suckle in my meadows."[grumpy_liege.GetSheHe|U] dismounted and ordered guards to seize me. They brought out a box containing a beehive, which they forced onto my head! I was #EMP bee'd#!! There is still a stinger lodged in my eye!'"
+ fund_inspiration.6507.a:0 "I shall send [grumpy_liege.GetHerHim] some denunciations!"
+ fund_inspiration.6507.b:0 "I will have [grumpy_liege.GetHerHis] head for this!"
+ fund_inspiration.6507.c:0 "The scars will look rather fetching!"
+
+#Adventurer studying beavers in the Taiga
+ fund_inspiration.6508.t:0 "$fund_inspiration.title$ Nature's Architects"
+ fund_inspiration.6508.introduction:0 "I receive a missive from my adventurer, who has been in the crisp lands of the taiga forests.\n\n"
+ fund_inspiration.6508.desc:0 "'I have spent some while surrounded by the finest company a journey[inspiration_owner.GetWomanMan] could ask for — a colony of beavers! With this courier I send to you a book of sketches of the structures they use to catch fish in the waters! O, to be a semi-aquatic rodent!'\n\n"
+ fund_inspiration.6508.architect_desc:0 "'I am certain at least [court_architect.GetTitledFirstName] could learn a thing or two from an animal cleverer than [court_architect.GetHerHim].'"
+ fund_inspiration.6508.a:0 "I shall pour over this thoroughly."
+ fund_inspiration.6508.b:0 "Indeed, [court_architect.GetTitledFirstNameNoTooltip] could use a lesson."
+ fund_inspiration.6508.b.tt:0 "[court_architect.GetTitledFirstNamePossessive] aptitude as an architect slightly increases"
+ fund_inspiration.6508.c:1 "What #EMP adorable#! animals! [child.GetFirstName] should have this book!"
+ fund_inspiration.6508.d:0 "Good work, I shall send funds to extend your travels."
+
+#Adventurer massively exaggerating what an alligator looks like-floodplains 
+ fund_inspiration.6509.t:0 "$fund_inspiration.title$ Whispers of a Beast"
+ fund_inspiration.6509.intro_desc:0 "I receive a missive from my adventurer, who has been drifting through floodplains on a raft."
+ fund_inspiration.6509.desc:0 "\n\n'My [ROOT.Char.GetLadyLord], we have been hunted on our travels by a creature so fearsome, I am almost loath to write of it.\n\n'The alligator can grow up to fifty steps long, and is a monster which has swallowed one of our mules whole. It is a slender beast, with a body in the shape of an arrow, bearing a beak at the helm, and a rattling tail at the rear. The spikes and bumps covering it are poisonous to the touch.'"
+ fund_inspiration.6509.a:0 "We shall impress visitors with a tapestry of this monster!"
+ fund_inspiration.6509.b:0 "O, it is too horrible to be true!"
+ fund_inspiration.6509.c:0 "I know what an alligator is, halfwit!"
+
+#Adventurer meeting a vigilante band who hide in the forest
+
+ fund_inspiration.6510.t:0 "$fund_inspiration.title$ Men in Tights"
+ fund_inspiration.6510.intro_desc:0 "I receive a missive from my adventurer, who has been skulking through the forest mulch."
+ fund_inspiration.6510.desc:1 "\n\n'My apologies, my [ROOT.Char.GetLadyLord], but in the forest I've encountered a vigilante band who rob the likes of you. Facing against the authoritarian fist of [enemy_liege.GetTitledFirstName] who rules here, they steal as much as they can by waylaying nobles. My heart has rather fallen in with this ragtag band, and I do not think I shall be returning to court.\n\n'Their tights also look much better than the fashion in your court, and rather suit me.'"
+ fund_inspiration.6510.a:0 "Perhaps you could help me do more for the poor?"
+ fund_inspiration.6510.b:0 "If you do not return, I shall send an assassin after you!"
+ fund_inspiration.6510.b.toast_outcome.positive:0 "[inspiration_owner.GetTitledFirstNameNoTooltip] is intimidated"
+ fund_inspiration.6510.b.toast_outcome.positive.continue:0 "The adventure continues"
+ fund_inspiration.6510.b.toast_outcome.positive.flee:0 "[inspiration_owner.GetSheHe|U] flees from your court."
+ fund_inspiration.6510.b.toast_outcome.refusal:0 "[inspiration_owner.GetTitledFirstNameNoTooltip] is unimpressed"
+ fund_inspiration.6510.c:0 "Enjoy your life of squalor!"
+
+ fund_inspiration.6511.t:0 "$fund_inspiration.title$ Wanderer in the Sea of Snow"
+ fund_inspiration.6511.intro_desc:0 "I receive a missive from my adventurer, and after the first few lines, I know it will be the last."
+ fund_inspiration.6511.old_age:0 "\n\n'My old age has brought many wonders before me in my time. When I reached the snowy summit of the mountain I now scribe these words from, the only living being above a sea of fog, I knew I would never see such beauty again for the rest of my days.\n\n'It was never my wish to return from the mountain, and by now you may assume I am one with the ice. Weep not, for I could not have done otherwise. My march to [inspiration_owner.GetFaith.PositiveAfterLife] is as steady as a glacier.'"
+ fund_inspiration.6511.poor_health:0 "\n\n'I am but a wretched, twisting thing now as my health and body betrays me. But in this state, I never thought I would be capable of witnessing such a sight as a snowy kingdom of clouds and fog from atop a mountain. Such a withered flower does not deserved this beauty.\n\n'Knowing that my time will perhaps be upon me at any moment, I have decided to leave myself to the ice. Perhaps the cold will preserve me with a semblance of myself intact."
+ fund_inspiration.6511.winter:0 "\n\n'I was atop a mountain at the cruelest time. Each snowdrop upon my bitten cheek was the laugh of winter, the villain. Battles I have seen, but no violence as exquisite as this duel against the blood in my very body. My dominant hand works well enough to write this, but my other not so.\n\n'Know that I was truly glad to see the world as I did, and I feel the rest of the living poorer than I.'"
+ fund_inspiration.6511.a:0 "A truer romancer of danger there never was!"
+
+
+ fund_inspiration.6512.t:0 "$fund_inspiration.title$ [ROOT.Char.GetTitleAsNameNoTooltip|U] of the Mount"
+ fund_inspiration.6512.intro_desc:0 "I receive a missive from my adventurer, and it is covered in ruddy dust, from [inspiration_owner.GetHerHis] journey through the desert mountains."
+ fund_inspiration.6512.desc:1 "\n\n'I have scaled another beast, and atop these thousands of flat plateaus, I have seen no sign another [inspiration_owner.GetWomanMan] has ever trod upon this rock. Today, I braved the highest I have yet scaled.\n\n'I think the rock cries out for a worthy name, to commemorate this achievement being overseen by the finest [ROOT.Char.GetTitleAsNameNoTooltip] in the cosmos.'"
+ fund_inspiration.6512.a:0 "I'm sure the locals have named the mountain already."
+ fund_inspiration.6512.b:0 "'Rocky' — a silly name!"
+ fund_inspiration.6512.c:0 "'[ROOT.Char.GetFaith.WarGodNamePossessive] Blade'"
+ fund_inspiration.6512.d:0 "'[ROOT.Char.GetFaith.FateGodNamePossessive] Gauntlet'"
+ fund_inspiration.6512.e:0 "After my darling, [lover.GetFirstNameNoTooltip]."
+ fund_inspiration.6512.f:0 "[ROOT.Char.GetFirstNamePossessiveNoTooltip] Tooth!"
+ fund_inspiration.6512.g:0 "[ROOT.Char.GetFirstNamePossessiveNoTooltip] Rod!"
+ fund_inspiration.6512.h:0 "[rival.GetFirstNamePossessiveNoTooltip] Bane!"
+ fund_inspiration.6512.i:0 "Forget this — bring me some rocks!"
+
+
+#AtE Adventurer Events
+
+ ate_adventurer_event.1.t:0 "Wish you were here!"
+ ate_adventurer_event.1.desc:0 "My [ROOT.Char.GetLadyLord], my travels have been continuing well, and I am sure to arrive at my destination any day now! I did briefly take some time to search through an old ruin for fo- out of curiosity, and I found this remarkable [trinket_souvenir.GetName] which I have enclosed and had posted to you. I dare say there will surely be much more where that one came from in the future!"
+ ate_adventurer_event.1.a:0 "Oh, how exotic!"
+ #ate_adventurer_event.1.b:0 "What is this rubbish? Don't waste my time with it!"
+
+ ate_adventurer_event.2.t:0 "Wish you were here!"
+ ate_adventurer_event.2.desc:0 "The sun is so intense in this region that the locals are almost never seen without a parasol, eh? Aye, I have acquired one in the [parasol_merchant.GetCurrentLocation.GetCulture.GetNameNoTooltip] style for you my [ROOT.Char.GetLadyLord], and I am sure you will be the talk of the town once it arrives!"
+ ate_adventurer_event.2.a:0 "I shall stay cool under my parasol, eh!"
+
+ ate_adventurer_event.3.t:0 "Some educational reading,"
+ ate_adventurer_event.3.desc:0 "Here in [inspiration_owner.GetCurrentLocation.GetNameNoTooltip], I have had the good fortune to visit a local monastery and peruse their collection of manuscripts. Please see enclosed a copy of one of them that I acquired, emblazoned with the profile of a hare; there are many interesting articles within it that I hope you will find of great interest!\n\nAs to the blank pages, I am afraid the head of the monastery refused to tell me of the original's content, and turned a deep scarlet when I pressed the issue! You must simply imagine what existed there, my [ROOT.Char.GetLadyLord]!"
+ ate_adventurer_event.3.a:0 "I shall read this for its articles with great interest!"
+
+ #Brazil
+
+ ate_adventurer_event.21.t:0 "I have come to Brazil,"
+ ate_adventurer_event.21.desc:0 "The weather here, my [ROOT.Char.GetLadyLord], has been absolutely stifling, hot and humid with no break. Thankfully, the local Brazilians have an ingenious device, one of which I have enclosed in this package for you; the clay pot works to store and filter water, allowing one to stay hydrated without fear of dysentery! I hope this gift keeps you well until my return!"
+ ate_adventurer_event.21.a:0 "What a wonderful gift!"
+
+ ate_adventurer_event.22.t:0 "From under an indigo sky, greetings!"
+ ate_adventurer_event.22.desc:0 "My travels in Brazil have seen me travelling along the São Francsico River, a beautiful if at times treacherous river. The locals attach small statues, known as 'Carranca' to their boats to scare away any demons along their travels. I have acquired you one, and hope it serves you well!"
+ ate_adventurer_event.22.a:0 "I will be careful with its teeth!"

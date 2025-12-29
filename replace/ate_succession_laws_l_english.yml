@@ -1,0 +1,54 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ princely_elective_succession_law_effects:1 "The Emperor and the seven Prince–Electors can nominate a [title_heir|E] from among themselves, any [legitimate|E] children and siblings of the [ruler|E], as well as any other major [de_jure|E] [vassal|E] of the Empire. If an historical elector [title|E] is held by infidels or does not exist, another [de_jure|E] vassal will take its place. This [succession_law|E] places a significant importance on [faith|E] and [piety|E].\n\nThe Electoral titles for this realm are the Counties of Durham and Charleston, and the Duchies of Peachtree, Birmingham, Piedmont Crescent, Cape Fear, and Savannah."
+
+ saxon_elective_candidates_tooltip:1 "In order to be a valid Candidate, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate child of the current ruler, who is not in line to inherit a Theocracy or Republic\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated\n$EFFECT_LIST_BULLET$Be a [powerful_vassal_powerful|E] [de_jure] Feudal Vassal of the title"
+ saxon_elective_electors_tooltip:0 "In order to be a valid [elector|E], a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a [de_jure|E] vassal of the title\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$Be Adult\n$EFFECT_LIST_BULLET$NOT be Incapable"
+
+ scandinavian_elective_candidates_tooltip:1 "In order to be a valid Candidate, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate member of the ruler's [extended_family|E], who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a Theocracy or Republic"
+ scandinavian_elective_electors_tooltip:0 "In order to be a valid [elector|E], a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$NOT be a Baron"
+
+ get_hcc_elector_1:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('hcc_elector_1').GetLandedTitle.GetName]"
+ get_hcc_elector_2:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('hcc_elector_2').GetLandedTitle.GetName]"
+ get_hcc_elector_3:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('hcc_elector_3').GetLandedTitle.GetName]"
+ get_hcc_elector_4:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('hcc_elector_4').GetLandedTitle.GetName]"
+ get_hcc_elector_5:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('hcc_elector_5').GetLandedTitle.GetName]"
+ get_hcc_elector_6:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('hcc_elector_6').GetLandedTitle.GetName]"
+ get_hcc_elector_7:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('hcc_elector_7').GetLandedTitle.GetName]"
+
+ tooltip_feudal_elector_vote_gives_medicine_society:0 "[candidate.GetSheHe|U] is a [GetTrait('lifestyle_physician').GetName( candidate.Self )]: $VALUE|=+0$"
+
+ tooltip_feudal_elector_vote_gives_medicine_society_2:0 "[candidate.GetSheHe|U] is a [GetTrait('lifestyle_physician').GetName( candidate.Self )]: $VALUE|=+0$"
+
+ tooltip_feudal_elector_vote_gives_medicine_society_3:0 "[candidate.GetSheHe|U] is a [GetTrait('lifestyle_physician').GetName( candidate.Self )]: $VALUE|=+0$"
+
+ # Eureka Succession Law (Adapted from Byzantium, EP3, for California) #Todo - expand on this - Haghog
+ eurekan_succession_law: "Eurekan Succession"
+ eurekan_succession_law_subname: "$appointment_succession_law_subname$"
+ eurekan_succession_law_effects: "\n#V Under $eurekan_succession_law$, the [empire|E] [title|E] and its associated [holdings|E] will be inherited by the candidate with the highest score. The pool of candidates is limited to the [family|E] of the [holder|E]. \n#!"
+
+ shogunate_succession_law: "Governate Succession"
+ shogunate_succession_law_subname: "$appointment_succession_law_subname$"
+ shogunate_succession_law_effects: "\n#V Under $shogunate_succession_law$, the [shogunate|E] [title|E] and its associated [holdings|E] will be inherited by the candidate with the highest score. The pool of candidates is typically limited to the [family|E] of the [shogun|E], though any [councillor|E], holder of a [court_position|E], or [vassal|E] in their [realm|E] may be nominated. \n#!"
+
+ title_not_shoguns: "[holder|E] cannot be [shogun|E]"
+ not_shogun: "Candidate cannot be [shogun|E]"
+
+ california_not_eternal_guru_family_desc:0 "Not descended from the [ROOT.Char.GetTopLiege.GetDynasty.GetNameNoTooltip] Dynasty"
+ california_legitimate_emperor_desc:0 "The [ROOT.Char.GetTopLiege.GetDynasty.GetNameNoTooltip] Dynasty are the legitimate rulers of California"
+ california_not_state_faith_desc:0 "Not [ROOT.Char.GetTopLiege.GetFaith.GetAdherentNameNoTooltip]"
+ california_not_cetic_desc:0 "Only [ROOT.Char.GetTopLiege.GetFaith.GetAdherentNameNoTooltip] rulers may ascend to the Californian Panth"
+
+ california_not_shogun_family_desc:0 "[ROOT.Char.GetTopLiege.GetDiarchy.GetDiarch.GetDynasty.GetName] Dynasty Rules Governate"
+ eldest_son_desc: "Eldest Son"
+ son_desc: "Son of [holder|E]"
+ eldest_daughter_desc: "Eldest Daughter"
+ daughter_desc: "Daughter of [holder|E]"
+ eldest_child_desc: "Eldest Child"
+ child_desc: "Child of [holder|E]"
+ imperial_close_family_desc: "[close_family|E] of the [ROOT.Char.GetTopLiege.GetTitleAsName]"

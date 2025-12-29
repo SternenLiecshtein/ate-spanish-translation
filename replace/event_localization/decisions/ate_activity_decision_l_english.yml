@@ -1,0 +1,70 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ start_salvage_hunt:0 "Start a Salvage Hunt"
+ start_salvage_hunt_desc:0 "You call your men to find old-world artifacts"
+ start_salvage_hunt_tooltip:0 "You scour the lands in search for old-world artifacts"
+ start_salvage_hunt_confirm:0 "Start the Hunt"
+
+ determine_personal_orisha:0 "Determine a Personal Orisha"
+ determine_personal_orisha_desc:0 "It is by this ancient custom that I seek the protection of one of the great patrons, as did those who preceded me. But to which of these noble entities should I entrust myself?"
+ determine_personal_orisha_tooltip:0 "You pick a personal orisha"
+ determine_personal_orisha_confirm:0 "Determine the Orisha"
+ 
+ determine_winti_pantheon:0 "Determine Your Winti Pantheon"
+ determine_winti_pantheon_desc:0 "My ancestors kept alive the traditions of following the Winti spirit pantheons, and the time has come for me to follow in their footsteps. However, I have a choice to make; which spirit pantheon should I make offerings to for their guidance?"
+ determine_winti_pantheon_tooltip:0 "You pick a Pantheon"
+ determine_winti_pantheon_confirm:0 "Determine Your Pantheon"
+ 
+ determine_patron_spirits_islam:0 "Select a Patron Spirit"
+ determine_patron_spirits_islam_desc:0 "I may select a divinely inspired patron to aid me in my rule. But which one should I call upon?"
+ determine_patron_spirits_islam_tooltip:0 "You pick a patron spirit"
+ determine_patron_spirits_islam_confirm:0 "Determine Your Patron"
+ 
+ determine_galvanist_union:0 "Join a Titan's Union"
+ determine_galvanist_union_desc:0 "According to the Codex of Regulations, it is a sacred obligation for every adult Galvanist to join a Union. Many of these sacred Unions are dedicated to individual Titans, emphasizing their individual Regulations and Ideals.\n\nI should contemplate these sacred Unions and decide which one calls to me the most."
+ determine_galvanist_union_tooltip:0 "You pick a Union"
+ determine_galvanist_union_confirm:0 "Initiate into a Union"
+ 
+ determine_nago_orixa:0 "Find your patron Orixá"
+ determine_nago_orixa_desc:0 "The worshipping of the Orixás, the deities of the Yorubá faith, has been a core part of our beliefs since time immemorial. It is now time for me to devote my life and rule to one of these entities. I shall call a [ROOT.Char.GetFaith.PriestNeuter] and determine my patron..."
+ determine_nago_orixa_tooltip:0 "You pick an Orixá"
+ determine_nago_orixa_confirm:0 "Determine your own patron Orixá"
+ 
+ determine_candomble_orixa:0 "Find Your Patron Orixá"
+ determine_candomble_orixa_desc:0 "Orixá worship has been a core part of our faith for centuries, and it is time for me to devote my life and rule to one such spirit. Now, I shall call a [ROOT.Char.GetFaith.PriestNeuter] and determine my patron."
+ determine_candomble_orixa_tooltip:0 "You pick an Orixá"
+ determine_candomble_orixa_confirm:0 "Determine your Patron Orixá"
+ 
+ determine_patron_fogsong:0 "Find Your Patron God"
+ determine_patron_fogsong_desc:0 "The spirits of the Northeast watch over us still, and with the right rituals I may call upon one to dedicate my rule to.\n\nThe time has come for me to choose one such god, as is the ancient custom of my faith."
+ determine_patron_fogsong_tooltip:0 "Pick a God"
+ determine_patron_fogsong_confirm:0 "Determine Your Patron"
+ 
+ determine_tambor_de_mina_house:0 "Choose Your Patron Spirit House"
+ determine_tambor_de_mina_house_desc:0 "In Tambor de Mina, multitudes of spirit intermediaries are revered. These spirits organize into houses, and now, it is time for me to call on a [ROOT.Char.GetFaith.PriestNeuter] and dedicate my rule to one such spirit house."
+ determine_tambor_de_mina_house_tooltip:0 "You pick a Spirit House"
+ determine_tambor_de_mina_house_confirm:0 "Select a Patron House"
+ 
+ start_whale_hunt:0 "Start a Whale Hunt"
+ start_whale_hunt_desc:0 "The sun shines bright on the cold, grey waters as your boats sail out of the harbor. Your brave crew is excited, as are your noble companions. There is great prestige in bringing home a whale, and the honor given to [ROOT.Char.GetFaith.HighGodName] for offerings of these great leviathans is incalculable."
+ start_whale_hunt_confirm:0 "Ready the Harpoons!"
+ start_whale_hunt_tooltip:0 "There is great prestige in bringing home a whale, and the honor given to [ROOT.Char.GetFaith.HighGodName] for offerings of these great leviathans is incalculable."
+
+ ate_visit_natural_wonder_devils_tower_decision: "Visit [GetPlayer.Custom('devils_tower_bears_lodge')]"
+ ate_visit_natural_wonder_devils_tower_decision_desc: "$building_type_wonder_devils_tower_desc$"
+ ate_visit_natural_wonder_devils_tower_decision_tooltip: "Climb [GetPlayer.Custom('devils_tower_bears_lodge')] or pray at its base"
+ ate_visit_natural_wonder_devils_tower_decision_effect_tooltip: "Travel to [GetPlayer.Custom('devils_tower_bears_lodge')] to climb the butte or pray at its base"
+ ate_visit_natural_wonder_devils_tower_decision_confirm: "Time for Sightseeing"
+
+ #added loc for Meditate in Seclusion new terrain
+ 
+ religious_decision.0201.arctic:1 "The freezing cold of [arctic_location.GetName]."
+ 
+ religious_decision.0211.desc.beginning.arctic:1 "With the omnipresent cold air in [meditation_location.GetName] surrounding me, I looked inward to seek greater understanding of my place in the universe."
+

@@ -1,0 +1,22 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ NOMADIC_MIGRATION_WAR_NAME:0 "Migration to [TITLE.GetNameNoTier]"
+ NOMADIC_MIGRATION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ NOMADIC_MIGRATION_CB_NAME:0 "Migration"
+ MIGRATION_TOOLTIP:0 "Some counties change to [attacker.GetCulture.GetName|U]"
+ GRAND_RAID_WAR_NAME:0 "[ATTACKER.GetTitledFirstName|U]'s [ATTACKER.GetCulture.GetName|U] Grand Raid"
+ GRAND_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ GRAND_RAID_CB:0 "Grand Raid"
+ grand_raid_war_warning_desc:0 "#X You may only attempt one grand raid every 5 years#!"
+ GRAND_RAID_TOOLTIP:0 "Gold and Prestige are calculated when war is declared"
+ nomadic_invasion_war_warning_desc:0 "\n\n#X You may only attempt one migration per lifetime#!"
+
+ nomadic_war_victory_desc_attacker:0 "You seize all titles within [defender.GetShortUINamePossessive] realm in the dejure lands of the target title. All lands outside of this will be abandoned."
+ nomadic_war_victory_desc:0 "Seizes all titles within [defender.GetShortUINamePossessive] realm in the dejure lands of the target title. All lands outside of this will be abandoned."
+
+ war_West_Kansas: "War Against the Witch of West Kansas"

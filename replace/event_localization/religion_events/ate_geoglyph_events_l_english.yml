@@ -1,0 +1,16 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ 
+ ate_geoglyph.0111.t:0 "Constructing a Geoglyph"
+ ate_geoglyph.0111.desc.intro:0 "The time has come to select where in my domain to commence construction of a geoglyph, in order to unite the people and signal our willingness to learn from [ROOT.Char.GetFaith.HighGodName]."
+ ate_geoglyph.0111.desc.outro:0 "While all settlements should one day have their own grand geoglyphs, today we are only building one in a location of my choice."
+ 
+ ate_geoglyph.0111.a:0 "[location_a.GetNameNoTierNoTooltip|U] would be a good place."
+ ate_geoglyph.0111.b:0 "[location_b.GetNameNoTierNoTooltip|U] seems decent enough?"
+ ate_geoglyph.0111.c:0 "[location_c.GetNameNoTierNoTooltip|U] makes a fine choice!"
+ 

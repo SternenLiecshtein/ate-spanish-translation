@@ -1,0 +1,20 @@
+﻿l_spanish:
+
+
+ dismantle_guruship_decision:0 "Dismantle the Guruship"
+ dismantle_guruship_decision_desc:0 "The doctrine set out by the Talanques, used to justify their stranglehold upon California's people, is a lie meant to ensure they and they alone may call themselves Emperor. Though their empire has fallen, they still claim that only a Guru can be Emperor - I will take the Golden State for her people!"
+ dismantle_guruship_decision_tooltip:0 "Dismantle the Guru's stranglehold on California and claim the Empire for yourself"
+ dismantle_guruship_decision_confirm:0 "No longer shall California be bound to the Gurus!"
+ dismantle_guruship_california_gone: "The [GetTitleByKey('e_california').GetName] must not exist."
+ fervor_loss_guruship_destroyed: "The Guruship Destroyed"
+ fervor_guruship_restored: "The Guruship Restored"
+
+ restore_guruship_decision:0 "Restore the Guruship"
+ restore_guruship_decision_desc:0 "The calamity which befell the followers of the Gurus, which saw the imperial throne be taken by pretenders, has finally been rectified. Though we came to the brink of collapse, clarity and reason have triumphed over ignorance and barbarism - now is the time to proclaim that the Eternal Guru lives once more!"
+ restore_guruship_decision_tooltip:0 "Return California to the embrace of the Gurus"
+ restore_guruship_decision_confirm:0 "California walks the righteous path once again."
+ 
+ recruit_witch_decision:0 "Seek out a Witch"
+ recruit_witch_decision_desc:0 "Those versed in the arts of magic are often shunned and feared by others, forced into exile or worse by suspicious and conspiratorial peasants and the religious leaders who stoke their hatred — unlike them, our faith welcomes practitioners of the occult ways. By sending out messengers along hidden paths, we might entice those spurned from their homes to find a new one with us."
+ recruit_witch_decision_tooltip:0 "Find a witch to aid us."
+ recruit_witch_decision_confirm:0 "Seek out a witch"

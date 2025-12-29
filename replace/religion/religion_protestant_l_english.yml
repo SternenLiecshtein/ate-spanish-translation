@@ -1,0 +1,652 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ #Common Christian Localization
+ #christianity_religion: "Christianity"
+ #christianity_religion_adj: "Christian"
+ #christianity_religion_adherent: "Christian"
+ #christianity_religion_adherent_plural: "Christians"
+ #christianity_religion_desc: "Christianity has been fundamentally altered by the [Concept('the_event_ate','Deluge')|E], splintering into innumerable new sects which sometimes diverge far from traditional orthodoxy. However, they are united in their belief that Jesus Christ was the Messiah, the only begotten son of God who died for mankind's sins on the cross. Christian sects believe that, if one accepts Jesus as their savior and repents for their sins, they can join him in Heaven."
+ protestant_religion: "Protestantism"
+ protestant_religion_adj: "Protestant"
+ protestant_religion_adherent: "Protestant"
+ protestant_religion_adherent_plural: "Protestants"
+ protestant_religion_desc: "Protestantism has its origins in the rejection of Catholic authority, seeking a more personal relationship with God and finding truth in the Bible alone and salvation through faith - a sentiment only exacerbated by the chaos of the [Concept('the_event_ate','Deluge')|E]. Now, the Protestant denominations of the old Americas forge new paths away from the scattered remnants of ecumenism."
+
+ evangelical: "Evangelicalism"
+ evangelical_adj: "Evangelical"
+ evangelical_adherent: "Evangelical"
+ evangelical_adherent_plural: "Evangelicals"
+ evangelical_desc: "The Evangelical Church is the main claimant to the legacy of antediluvian United States Protestantism. In the face of post-[Concept('the_event_ate','Deluge')|E] upheavals, various Protestant churches banded together, putting aside minor theological differences in favor of establishing an Evangelical Convention of Churches presided over by an ecumenical council of bishops. However, some Christians chafe against the doctrines and restrictions imposed by this Convention..."
+ evangelical_priest_neuter: "pastor"
+ evangelical_priest_neuter_plural: "pastors"
+ evangelical_bishop: "reverend"
+ evangelical_bishop_plural: "reverends"
+ evangelical_religious_head_title: "President"
+ evangelical_religious_head_title_name: "Church"
+
+ charismaticism: "Neo-Charismaticism"
+ charismaticism_adj: "Neo-Charismatic"
+ charismaticism_adherent: "Neo-Charismatic"
+ charismaticism_adherent_plural: "Neo-Charismatics"
+ charismaticism_desc: "Neo-Charismatics are not known as such because of their charm, but rather their belief that 'charismata', the gifts of the Holy Spirit, are still available to all believers simply through baptism and faith. Believing themselves to carry the Third Wave of the Holy Spirit beyond traditional Charismatics and Pentecostals, Neo-Charismatics believe in the availability of gifts including the ability to speak in tongues, miraculous healing of the cripples, gifts of prophecy and more events often considered extraordinary. However, they also desire a structural renewal where apostles and prophets will lead the church to the Kingdom of God. This radical push for an Apostolic Renewal against the hierarchy of the Evangelical Convention has lead the Convention to declare these beliefs heretical, but the Neo-Charismatic faith continues to thrive outside the jurisdiction of the Holy Columbian Commonwealth."
+
+ global_throne: "Church of the Global Throne"
+ global_throne_adj: "Global Throne"
+ global_throne_adherent: "Tronista"
+ global_throne_adherent_plural: "Tronistas"
+ global_throne_desc: "Claiming to be a continuation of the National Evangelical Assembly, the 'Igreja do Trono Global' - the Church of the Global Throne - ultimately traces its origins to several antediluvian third-wave, charismatic and neopentecostal denominations from [old_brazil|E]. Apart from following common evangelical practices, like speaking in tongues or healing by prayer, the Church also adheres to more spectacular customs, such as a heavy emphasis on extraordinary spiritual encounters or the exorcising of demons through deliverance ministries. It claims to be both the one, True Church and the literal Kingdom of God. Embracing the belief that the expansion of its flock and territory will hasten the return of Jesus, Trono Global envisions a future where the world is wholly under its divine rule, awaiting the moment when Christ reclaims His Throne on Earth."
+
+ anglican: "Anglicanism"
+ anglican_adj: "Anglican"
+ anglican_adherent: "Anglican"
+ anglican_adherent_plural: "Anglicans"
+ anglican_desc: "Anglicanism describes itself as being a 'via media', or middle way, between Protestantism and the Catholic Church. After the [Concept('the_event_ate','Deluge')|E], the Anglican Church in the Caribbean refused to participate in the Evangelical Convention called by the churches in the American South, instead asserting itself as a separate faith unto itself. It soon became the dominant faith in much of the Anglophone Caribbean, as its tolerance for both Protestant and Catholic practices allowed it to serve as a unifying force for Christians in the area. The highest authority in Anglicanism is the Archbishop of the West Indies."
+ anglican_religious_head_title: "Archbishop"
+ anglican_religious_head_title_name: "General Synod of the Anglican Church"
+
+ anabaptist: "Old Order"
+ anabaptist_adj: "Old Order"
+ anabaptist_adherent: "Anabaptist"
+ anabaptist_adherent_plural: "Anabaptists"
+ anabaptist_desc: "The Old Order are a collection of groups of Conservative Amish, Mennonites, and Brethren, focused on separation from the outside or 'English' world, a principle of nonviolence, and plain living. These tenets make life after the apocalypse difficult and often quite short. Due to the religious violence and general chaos inherent to the post-[Concept('the_event_ate','Deluge')|E] social order, the Old Order has abandoned its former practice of absolute pacifism, but members still strive to avoid violent conflict whenever possible. Using violence in any context - even self-defense - is highly discouraged."
+
+ mennonite: "Mennonite Church"
+ mennonite_adj: "Mennonite"
+ mennonite_adherent: "Mennonite"
+ mennonite_adherent_plural: "Mennonites"
+ mennonite_desc: "One of the largest and oldest of the Anabaptist Protestants, the Mennonite Church traces itself to the teachings of Menno Simons, one of the Radical Reformers in contrast to Calvin or Luther. Aiming to restore the old church of Christianity from the time of its foundation, Mennonites emphasize their service to Christ and the renunciation of the sword and oath. While historically Mennonite communities were divided along degrees of participation with the pre-[Concept('the_event_ate','Event')|E] world, those separations were set aside as their policies of religious tolerance and social cohesion allowed them to unite isolated communities left vulnerable by the collapse."
+ 
+ moravian: "Moravian Synod"
+ moravian_adj: "Moravian"
+ moravian_adherent: "Moravian"
+ moravian_adherent_plural: "Moravians"
+ moravian_desc: "Moravianism's roots lie in ancient Christian conflict. Moravians were originally a small branch of Protestantism that emphasized community, unity, and simple living; after the [Concept('the_event_ate','Deluge')|E], many Miskitos saw the differences between religions as institutional rather than theological. This mindset sustained a spirit of unity among the Miskito, which continues to this day. United by a synod, Catholic, Protestant and Traditional beliefs came together to bring peace to the region. Believers experience divinity through dreams as well as through spirited discourses on the nature of good, evil, and the human spirit. Adherents, who call themselves brothers and sisters, are united in celebrations called Love Feasts held in honor of the Victorious Lamb."
+ moravian_health_god_name: "Santa María Romero"
+ moravian_health_god_name_possessive: "Santa María Romero's"
+ moravian_fertility_god_name: "Santa Madre Albertina"
+ moravian_fertility_god_name_possessive: "Santa Madre Albertina's"
+ moravian_wealth_god_name: "San Jorge Augusto Federico"
+ moravian_wealth_god_name_possessive: "San Jorge Augusto Federico's"
+ moravian_household_god_name: "Jesucristo"
+ moravian_household_god_name_possessive: "Jesucristo's"
+ moravian_fate_god_name: "Los Profetas"
+ moravian_fate_god_name_possessive: "Los Profetas's"
+ moravian_night_god_name: "Juan Huss"
+ moravian_night_god_name_possessive: "Juan Huss's"
+ moravian_knowledge_god_name: "San Jerónimo"
+ moravian_knowledge_god_name_possessive: "San Jerónimo's"
+ moravian_war_god_name: "the Victorious Lamb"
+ moravian_war_god_name_possessive: "the Victorious Lamb's"
+ moravian_trickster_god_name: "the Duhindu"
+ moravian_trickster_god_name_possessive: "the Duhindu's"
+ moravian_water_god_name: "Lidawanka"
+ moravian_water_god_name_possessive: "Lidawanka's"
+
+ moravian_devil_name: "Satanas"
+ moravian_devil_name_possessive: "Satanas'"
+
+ moravian_evil_god_pruradawanka: "Pruradawanka"
+ moravian_evil_god_lasas: "Lasas"
+
+ nonconformism: "Non-Conformism"
+ nonconformism_adj: "Non-Conformist"
+ nonconformism_adherent: "Non-Conformist"
+ nonconformism_adherent_plural: "Non-Conformists"
+ nonconformism_desc: "Non-Conformists are the modern descendants of a wide variety of different Protestant branches and churches who broke away from the Evangelical Convention of South America after the Neo-Pentecostalists attained dominance and imposed restrive controls on the other member churches. Non-Conformists remain the broadest and most pluralistic convention of Protestants on the continent, existing outside the reach of the Brazilian Empire. Their political core is centered mainly on Y Wladfa."
+
+ assembleiano: "Assemblies of Christ"
+ assembleiano_adj: "Assembleiano"
+ assembleiano_adherent: "Assembleiano"
+ assembleiano_adherent_plural: "Assembleianos"
+ assembleiano_desc: "The National Evangelical Assembly was the first major attempt to unify all remaining third-wave Protestant movements in Brazil, such as the Christian Congregation, the Assemblies of God and the Baptist fellowships. The initiative was short-lived, however: during the months of Doctrinarian Debates, the fundamentalist neopentecostal sects assumed control over all key posts of the Assembly and expelled those mainstream denominations which refused to submit to their theology. Shortly after, these rejected groups banded together into the new Assemblies of Christ, which later expanded into other parts of Latin America. While individual churches are nominally independent, they all share a number of core doctrines, like Continuationism - that is, the belief that the gifts of the Holy Spirit, such as speaking in tongues, miraculous healings, blessings and prophetic proclamations, are still available to all those who believe in Jesus Christ as their savior."
+ 
+ retete: "Reteté Communities"
+ retete_adj: "Reteté"
+ retete_adherent: "Crente-do-Reteté"
+ retete_adherent_plural: "Crentes-do-Reteté"
+ retete_desc: "The eclectic nature of Brazilian spirituality allowed for the development of syncretic traditions even within the normally strict doctrine of Pentecostal Christianity. Reteté cults often take place in small house churches or in open-air clearings and incorporate thinly-disguised elements from Afro-Brazilian religions, such as heavy drumming, dancing and spiritual trances - which, they claim, are not manifestations of the Orishas, but signs of the presence of the Holy Spirit itself. The informal nature of their communities, often lacking any traditional hierarchy, and the assimilation of 'heathen' customs, however, leads to Reteté Christianity being seen with contempt, scorn, or even outright hostility by the traditional Protestant churches."
+ 
+ retete_old: "Ancient Reteté Assemblies"
+ retete_old_adj: "Ancient Reteté"
+ retete_old_adherent: "Old Reteté"
+ retete_old_adherent_plural: "Old Retetés"
+ 
+ retete_health_god_name: "the Holy Spirit"
+ retete_health_god_name_possessive: "the Holy Spirit's"
+ retete_trickster_god_name: "Exú"
+ retete_trickster_god_name_possessive: "Exú's"
+ retete_night_god_name: "Pomba-Gira"
+ retete_night_god_name_possessive: "Pomba-Gira's"
+ retete_devil_name: "the Enemy"
+ retete_devil_name_possessive: "the Enemy's"
+ retete_evil_god_encosto: "Encosto"
+ retete_house_of_worship: "holy ground"
+ retete_house_of_worship_plural: "holy spaces"
+ retete_religious_text: "Scriptures and the songs"
+ retete_religious_head_title: "Apostle"
+ retete_religious_head_title_name: "Apostolate"
+ retete_priest_male: "pastor"
+ retete_priest_male_plural: "pastors"
+ retete_priest_alternate_plural: "ministers"
+ retete_bishop: "bishop"
+ retete_bishop_plural: "bishops"
+ 
+ templarios: "Born-Again Templars of Christ"
+ templarios_adj: "Templário"
+ templarios_adherent: "Templário"
+ templarios_adherent_plural: "Templários"
+ templarios_desc: "Rooted in eschatological neopentecostal traditions, the fundamentalist Born-Again Templars of Christ, or Templários, believe that the [Concept('the_event_ate','Deluge')|E] marked the beginning of Satan's dominion over the world. However, just as Jesus announced 'I did not come to bring peace but a sword', Templários prepare for battle - both spiritual and literal - against the forces of evil. For the Templários, expanding the dominion of Christian law is paramount, and doing so through militant action it is the only way to completely liberate mankind from demonic control. Their prophecies tell of an apocalyptical Final War between the armies of good and the forces of Satan himself, whose defeat will herald the beginning of the utopian Kingdom of God. However, Jesus himself will only sit on His earthly throne once the faithful construct the new biblical Temple of Solomon upon the New World."
+ templarios_bishop: "prophet"
+ templarios_bishop_plural: "prophets"
+ templarios_priest_neuter: "pastor"
+ templarios_priest_neuter_plural: "pastors"
+ templarios_religious_head_title: "General-Templário"
+ templarios_religious_head_title_name: "Kingdom of the Temple of Christ"
+ 
+ lutherische: "Lutherische Kirchenbund"
+ lutherische_adj: "Lutherische"
+ lutherische_adherent: "Lutheran"
+ lutherische_adherent_plural: "Lutherans"
+ lutherische_desc: "The Lutheran Union arose from the association of several ethnic German congregations, preserving the traditions of Mainline Protestantism in South America. Amid the post-[Concept('the_event_ate','Event')|E] world, the faith held to life in tight-knit ethnic enclaves, steadfast in its commitment to tolerance, charity and social justice. The Kirchenbund - literally, the Federation of Churches - believes in the sanctity of the individual’s relationship with God and upholds the doctrine of salvation by the Lord's grace alone through faith in Jesus Christ. To ensure its survival, the church adopted a policy of armed vigilance: it entrusted its missionary and outreach efforts to the Society of Rotermund, a chivalric order dedicated to defending the faithful, ensuring that its message of peace remains resilient against the chaos of the world."
+ lutherische_religious_head_title: "Moderator"
+ lutherische_religious_head_title_name: "Society of Rotermund"
+
+ muckerism: "Muckerism"
+ muckerism_adj: "Mucker"
+ muckerism_adherent: "Mucker"
+ muckerism_adherent_plural: "Muckers"
+ muckerism_desc: "Muckers follow the teachings of a long tradition of female prophets, beginning with Jacobina Mentz Maurer, a self-proclaimed messiah and reincarnation of Jesus who lived many decades before the [Concept('the_event_ate','Deluge')|E]. These popular preachers, claiming to have received visions of God and Christ, lead their followers to live in strict devotion and holiness. Believers are taught that the Scriptures command them to renounce the temptations of the world and live in absolute purity, rejecting the indulgences of money, lust, and pleasure. Followers of Muckerism often form isolated communities, dedicated to prayer and ascetic practices - both out of fear from surrounding faiths that condemn their strict piety, as well as to ensure their protection from the moral decay of the outside world. And they will stop at nothing, silencing any threat with unflinching resolve, to preserve their beliefs and keep external influences at bay."
+ muckerism_war_god_name: "João Maurer"
+ muckerism_war_god_name_possessive: "João Maurer's"
+ muckerism_fertility_god_name: "Jacobina Mentz Maurer"
+ muckerism_fertility_god_name_possessive: "Jacobina Mentz Maurer's"
+ muckerism_religious_head_title: "Prophet"
+ muckerism_religious_head_title_name: "Community"
+
+ nonconformism_health_god_name: "Jesus Christ"
+ nonconformism_health_god_name_possessive: "Jesus Christ's"
+ nonconformism_fertility_god_name: "the Lord"
+ nonconformism_fertility_god_name_possessive: "the Lord's"
+ nonconformism_wealth_god_name: "God"
+ nonconformism_wealth_god_name_possessive: "God's"
+ nonconformism_household_god_name: "God"
+ nonconformism_household_god_name_possessive: "God's"
+ nonconformism_fate_god_name: "the Lord"
+ nonconformism_fate_god_name_possessive: "the Lord's"
+ nonconformism_knowledge_god_name: "God"
+ nonconformism_knowledge_god_name_possessive: "God's"
+ nonconformism_war_god_name: "God"
+ nonconformism_war_god_name_possessive: "God's"
+ nonconformism_trickster_god_name: "God"
+ nonconformism_trickster_god_name_possessive: "God's"
+ nonconformism_water_god_name: "Jesus Christ"
+ nonconformism_water_god_name_possessive: "Jesus Christ's"
+ nonconformism_night_god_name: "The Lord"
+ nonconformism_night_god_name_possessive: "The Lord's"
+ nonconformism_bishop: "reverend"
+ nonconformism_bishop_plural: "reverends"
+ nonconformism_priest_neuter: "pastor"
+ nonconformism_priest_neuter_plural: "pastors"
+
+ global_throne_bishop: "prophet"
+ global_throne_bishop_plural: "prophets"
+ global_throne_priest_neuter: "pastor"
+ global_throne_priest_neuter_plural: "pastors"
+ global_throne_religious_head_title: "Apostle"
+ global_throne_religious_head_title_name: "Kingdom of the Global Throne"
+
+ assembleiano_bishop: "pastor-minister"
+ assembleiano_bishop_plural: "pastor-ministers"
+ assembleiano_priest_neuter: "pastor"
+ assembleiano_priest_neuter_plural: "pastors"
+ assembleiano_religious_head_title: "Pastor-President" 
+ assembleiano_religious_head_title_name: "Christian Assembly"
+ d_assembleiano: "General Assemblies of Christ"
+
+ united_church: "United Church"
+ united_church_adj: "United Church"
+ united_church_adherent: "United Churcher"
+ united_church_adherent_plural: "United Churchers"
+ united_church_desc: "Originally one of the many offshoots of Protestant Christianity in Toronto, the United Church differs from its fellows by its belief that the Holy Spirit acts through all faiths, and that God’s will therefore is best understood through dialogue with other creeds. Through inter-faith services, adherents invite members of other faiths into their holy spaces to perform their own rituals, so as to open new pathways to the divine. The Church retains many elements of traditional Protestant Christianity, believing that the Bible is God’s most direct revelation to humankind, and that Communion is a holy act."
+
+ ucc_religious_head_title: "Moderator"
+ ucc_religious_head_title_name: "General Council"
+
+ calvertan: "Calvertanism"
+ calvertan_adj: "Calvertan"
+ calvertan_adherent: "Calvertan"
+ calvertan_adherent_plural: "Calvertans"
+ calvertan_desc: "Calvertans emerge from the teachings of a charismatic young preacher who spoke out against the imperial entanglements of the Church. Adopting the name of an ancient act that once guaranteed the right of free worship to all Christians, Calvertans believe in a more personal faith, divorced from the trappings of secular power. Wandering Calvertan preachers hold no possessions of their own except for the clothes on their back and the Bible from which they preach, subsisting entirely on the hospitality and charity of strangers."
+
+ congregationism:1 "Congregationalism"
+ congregationism_adj:1 "Congregationalist"
+ congregationism_adherent:1 "Congregationalist"
+ congregationism_adherent_plural:1 "Congregationalists"
+ congregationism_desc: "Congregationalists are firmly against any kind of church hierarchy, believing that churches should be entirely independent from each other and should be led only by their local communities. They also firmly believe in the merging of church and state -  laws should conform to Christian morals and should not interfere with the word of God or the teachings of the Bible. As such, they are both moralistic and legalistic, believing that each individual has a responsibility to uphold the principles set down by Moses. Their declaration of faith, adopted by nearly all Congregationalist churches, holds the Evangelical Council to be the Antichrist."
+
+ restorationism: "Restorationism"
+ restorationism_adj: "Restorationist"
+ restorationism_adherent: "Restorationist"
+ restorationism_adherent_plural: "Restorationists"
+ restorationism_desc: "In the ancient days of the Second Great Awakening, the two legendary ministers Stone and Campbell were said to have restored the Original Gospel of ancient Christianity. They eschewed all authority or polity beyond that of the local church, all trappings of denominational power, and even all instruments of faith in a fervent pursuit of what they believed to be the authentic, pure, and unadultured Christianity of the Apostles. To this day, those who cling to their teachings are still distrustrful of any institutions of faith and repudiate the instruments and iconography common to other Christian churches."
+
+ river_baptist: "River Baptism"
+ river_baptist_adj: "River Baptist"
+ river_baptist_adherent: "River Baptist"
+ river_baptist_adherent_plural: "River Baptists"
+ river_baptist_desc: "Named after their practice of baptizing people in Jordan, meaning within a natural river rather than a font, the River Baptists are a rejection of the hierarchical structure of the Evangelical council. Their pastors are typically highly respected, taking a leading role in community organization, and adherents are expected to live humbly, putting justice and charity at the forefront of their lives."
+ 
+ river_baptist_health_god_name: "Jesus Christ"
+ river_baptist_health_god_name_possessive: "Jesus Christ's"
+ river_baptist_household_god_name: "the Holy Ghost"
+ river_baptist_household_god_name_possessive: "the Holy Ghost's"
+ river_baptist_knowledge_god_name: "the Holy Ghost"
+ river_baptist_knowledge_god_name_possessive: "the Holy Ghost's"
+ river_baptist_war_god_name: "the Holy Ghost"
+ river_baptist_war_god_name_possessive: "the Holy Ghost's"
+ river_baptist_devil_name: "Devil"
+ river_baptist_devil_name_possessive: "Devil's"
+ river_baptist_night_god_name: "the Holy Ghost"
+ river_baptist_night_god_name_possessive: "the Holy Ghost's"
+ river_baptist_death_name: "Death"
+ river_baptist_death_name_possessive: "Death's"
+ 
+ river_baptist_house_of_worship: "chapel"
+ river_baptist_house_of_worship_plural: "chapels"
+ river_baptist_religious_head_title: "President"
+ river_baptist_religious_head_title_name: "National Baptist Convention"
+ river_baptist_devotee: "deacon"
+ river_baptist_devotee_plural: "deacons"
+ river_baptist_priest: "reverend"
+ river_baptist_priest_plural: "reverends"
+ river_baptist_bishop: "pastor"
+ river_baptist_bishop_plural: "pastors"
+
+ redemptionist: "Redemptionist Convention"
+ redemptionist_adj: "Redemptionist"
+ redemptionist_adherent: "Redemptionist"
+ redemptionist_adherent_plural: "Redemptionists"
+ redemptionist_desc: "The Evangelical Council was created by the Emperor to serve the Empire, and as such could never have served the purpose of moral guide and guardian that it claimed; this is the line of thought that justified the creation of the Redemptionist sect. They demand a strict primacy of church over state in a way often compared to a shepherd leading his flock, including the destruction of heresy and heathenry, the 'wolves' of spirituality, regardless of whether it is within the heart of the poorest peasant or the richest king. Conversely, they also demand the church only focus on the spiritual, believing that having them deal with the particulars of governance will encourage lenience when dealing with the politically powerful."
+ 
+ redemptionist_household_god_name: "Jesus Christ"
+ redemptionist_household_god_name_possessive: "Jesus Christ's"
+ redemptionist_devil_name: "Devil"
+ redemptionist_devil_name_possessive: "Devil's"
+ 
+ redemptionist_religious_text: "King James Bible"
+ redemptionist_religious_head_title: "President"
+ redemptionist_religious_head_title_name: "Redemptionist Convention"
+ redemptionist_devotee: "deacon"
+ redemptionist_devotee_plural: "deacon"
+ redemptionist_priest: "pastor-teacher"
+ redemptionist_priest_plural: "pastor-teachers"
+ redemptionist_bishop: "minister"
+ redemptionist_bishop_plural: "ministers"
+
+ restorationist: "Restorationist Synod"
+ restorationist_adj: "Restorationist"
+ restorationist_adherent: "Restorationist"
+ restorationist_adherent_plural: "Restorationists"
+ restorationist_desc: "As Christian communities faltered in the wake of the [Concept('the_event_ate','Deluge')|E], besieged on all sides by enemies of the faith, various Protestant and Catholic groups on the Christian frontier set aside their differences in favor of synthesis. Emphasizing faith alone and love for God, but within a very clear and traditional hierarchy, the Restorationist Synods created a new denomination out of the various Christian sects of the Midwest. Over time, this faith intertwined itself with the Papacy in St. Louis, the rightful heirs to St. Peter, now cleansed of its indulgent history. While this harmed their relationship with independent Protestant churches, it has allowed the schism of the Reformation to begin to heal. Now the Restorationist Synods seek to restore the Christian dominance of the pre-Event Americas via a distinctly new approach."
+ restorationist_religious_text: "Holy Bible"
+ restorationist_religious_head_title: "Bishop of All America"
+ restorationist_religious_head_title_name: "Bishop of All America"
+ 
+ holy_order_knights_of_the_luther_rose: "Knights of the Luther Rose"
+ holy_order_warriors_of_christ: "Warriors of Christ"
+
+ lutheran: "Confessionalist Synod"
+ lutheran_adj: "Confessionalist"
+ lutheran_adherent: "Confessionalist"
+ lutheran_adherent_plural: "Confessionalists"
+ lutheran_desc: "Born from the teachings of the ancient Martin Luther who lends the movement its name, Lutherans, of which the Confessionalist Synod is the largest surviving mainline denomination in the continental states, hold many of the same practices as pre-Reformation Christendom, but reject the centralized nature of the Catholic Church as a corrupt entity in favor of decentralized congregations. These congregations solve disputes and dilemmas through conference rather than relying on the decision of a single religious authority. In the wake of the [Concept('the_event_ate','Event')|E], Lutheranism receded greatly, with many of the remaining congregations putting aside differences between one another against the Catholic and Viking ascendancy."
+
+ lutheran_religious_head_title: "President"
+ lutheran_religious_head_title_name: "President"
+ 
+ waldensian: "Waldensian Church"
+ waldensian_adj: "Waldensian"
+ waldensian_adherent: "Waldensian"
+ waldensian_adherent_plural: "Waldensians"
+ waldensian_desc: "Regarded as the oldest Protestant denomination in all of the Americas, the Waldensians actually predate the Reformation by several centuries. Originally a divergent movement of the Catholic church preaching extreme poverty and rejecting the authority of the priesthood, they willingly joined with the Protestant churches and officially adopted Calvinist theology. Having faced severe persecution in their ancient homeland of Italy, the Waldensians immigrated to Uruguay and the Platine basin in order to practice their faith freely. Despite the turmoils of the merger and migration, the Waldensian Evangelical Church continues its original mission of voluntary poverty, serving the downtrodden and dispossessed of their local communities as part of their calling."
+
+ swordminded: "Sword-Minded"
+ swordminded_adj: "Sword-Minded"
+ swordminded_adherent: "Sword-Minder"
+ swordminded_adherent_plural: "Sword-Minders"
+ swordminded_desc: "The [Concept('the_event_ate','Event')|E] ushered in an unprecedented level of violence and chaos, threatening the very existence of many minor religious communities who professed the doctrine of pacifism. While many chose to turn the other cheek and remain set in their ways, others concluded that the only way to defend themselves was to take up the sword. This new 'Sword-Minded' movement holds that the sinful world can no longer be shunned, it must be saved and redeemed. Self-defense is taught to adherents, and warfare is permitted so long as it takes place for righteous reasons. Missionary work is also encouraged, with the movement believing that all mankind must be a part of God’s flock before an age of peace can begin. Tolerating no deviation from God’s words, they often decry other Christians as having fallen to sin due to perceived lapses in morality or commitment to the truth of the Bible."
+
+ quaker: "Society of Quaker Friends"
+ quaker_adj: "Quaker"
+ quaker_adherent: "Quaker"
+ quaker_adherent_plural: "Quakers"
+ quaker_desc: "Despite the name, the Society of Friends, more commonly referred to as Quakers, is not one unified church but instead a variety of community worship organizations with a common goal - to find the presence of God within them and to follow that inner light of Christ towards righteousness. This light can be discovered both on an individual and community level, with religious and social decisions being made by holding meetings in which the attendees collectively determine what path God desires them to take. Lacking a centralized hierarchy, Quaker communities can differ vastly on some doctrines such as baptism, icons, or even theism, but some common beliefs include pacifism, simple living, and a mission to promote social reform and community harmony."
+ 
+ hutterite: "Hutterite Brethren"
+ hutterite_adj: "Hutterite"
+ hutterite_adherent: "Hutterite"
+ hutterite_adherent_plural: "Hutterites"
+ hutterite_desc: "The Hutterite Brethren are a small ethnoreligious group tracing their origins to the Radical Reformation. Having settled in the Great Plains after migrating from Europe, the Hutterites built small autonomous towns known as [Concept('colonies_hutterite','colonies')|E]. Hutterites are distinct among the traditional Anabaptist denominations for their doctrine of the community of goods, rejecting the idea of private ownership of property in favor of communal ownership. This way of life has continued mostly uninterrupted since the [Concept('the_event_ate','Event')|E], working to better their communities and continuing their service to God and one another."
+ 
+ hutterite_religious_head_title: "Ältistor" 
+ hutterite_religious_head_title_name: "Eldership"
+ 
+ shango_baptist: "Shango Baptist Church"
+ shango_baptist_adj: "Shango Baptist"
+ shango_baptist_adherent: "Shango Baptist"
+ shango_baptist_adherent_plural: "Shango Baptists"
+ shango_baptist_desc: "The islands of the eastern Caribbean have been home to a multitude of religious traditions since before the [Concept('the_event_ate','Deluge')|E]. Two faiths in Trinidad were more interlinked than most; the Shangoists, an Afro-Diasporic tradition similar to Santeria, and the Spiritual Baptists, a Protestant church descended from Gullah who came to the island after a long-ago war. The 'Shango Baptist Church' is a term recognizing the interlinked nature of these two traditions, juxtaposed as they are under one label. Broadly speaking, both sects of the Shango Baptists believe in a Holy Trinity of three distinct persons who are often co-identified with Yoruba divinities like Olorun and who have their own wills. Orishas and the spirits of saints act as intermediaries to the Trinity (as well as the Holy Spirit himself, who can possess worshippers). Unusually, the use of Catholic-style saint icons is common in worship rituals as well."
+		
+ shango_baptist_high_god_name: "The Holy Trinity"
+ shango_baptist_high_god_name_possessive: "The Holy Trinity's"
+ shango_baptist_high_god_name_alternate: "the Supreme Beings"
+ shango_baptist_high_god_name_alternate_possessive: "the Supreme Beings'"
+ shango_baptist_devil_name: "Legbara"
+ shango_baptist_devil_name_possessive: "Legbara's"
+ shango_baptist_death_deity_name: "The Prince of the Cemetery"
+ shango_baptist_death_deity_name_possessive: "The Prince of the Cemetery's"
+ shango_baptist_house_of_worship: "palais-church"
+ shango_baptist_house_of_worship_plural: "palais-churches"
+ shango_baptist_religious_symbol: "bells"
+ shango_baptist_religious_text: "Bible"
+ shango_baptist_religious_head_title: "Archbishop"
+ shango_baptist_religious_head_title_name: "Spiritual Archdiocese"
+ shango_baptist_devotee: "shouter"
+ shango_baptist_devotee_plural: "shouters"
+ shango_baptist_priest_male: "mongwa"
+ shango_baptist_priest_male_plural: "mongwas"
+ shango_baptist_priest_female: "Shango Queen"
+ shango_baptist_priest_female_plural: "Shango Queens"
+ shango_baptist_bishop: "bishop"
+ shango_baptist_bishop_plural: "bishops"
+ shango_baptist_pantheon: "The Trinity and the Orishas"
+
+ shango_baptist_creator_god_name: "Olorun the Father"
+ shango_baptist_creator_god_name_possessive: "Olorun the Father's"
+ shango_baptist_health_god_name: "Saint Francis Osain"
+ shango_baptist_health_god_name_possessive: "Saint Francis Osain's"
+ shango_baptist_fertility_god_name: "Saint John Shango"
+ shango_baptist_fertility_god_name_possessive: "Saint John Shango's"
+ shango_baptist_wealth_god_name: "Saint Catherine Oya"
+ shango_baptist_wealth_god_name_possessive: "Saint Catherine Oya's"
+ shango_baptist_household_god_name: "Jesus Obatala"
+ shango_baptist_household_god_name_possessive: "Jesus Obatala's"
+ shango_baptist_fate_god_name: "the Holy Spirit"
+ shango_baptist_fate_god_name_possessive: "the Holy Spirit's"
+ shango_baptist_knowledge_god_name: "$shango_baptist_fertility_god_name$"
+ shango_baptist_knowledge_god_name_possessive: "$shango_baptist_fertility_god_name_possessive$"
+ shango_baptist_war_god_name: "Saint Michael Ogun"
+ shango_baptist_war_god_name_possessive: "Saint Michael Ogun's"
+ shango_baptist_trickster_god_name: "Saint Peter Eshu"
+ shango_baptist_trickster_god_name_possessive: "Saint Peter Eshu's"
+ shango_baptist_night_god_name: "$shango_baptist_high_god_name$"
+ shango_baptist_night_god_name_possessive: "$shango_baptist_high_god_name_possessive$"
+ shango_baptist_water_god_name: "Saint Anna Emanjah"
+ shango_baptist_water_god_name_possessive: "Saint Anna Emanjah's"
+
+ cavalier: "Cavalier Church"
+ cavalier_adj: "Cavalier"
+ cavalier_adherent: "Cavalier"
+ cavalier_adherent_plural: "Cavaliers"
+ cavalier_desc: "Once the religion of the pre-[Concept('the_event_ate','Deluge')|E] American nobility, the Cavalier Church has had its influence massively reduced over the centuries since that great calamity. Still nostalgic for this magnificent past, Cavaliers idealize the lost standards of chivalry and piousness that were once upheld by the elites of society. These bonds of honor and law, based on the teachings of Jesus, had given those of lower birth the freedom to worship God and live decently underneath the protection of their rulers. The church’s staunch adherence to tradition and usage of an ancient liturgical book, the Book of Common Prayer, make it a strange anachronism in the modern day. Yet, this gives the faithful all the more motivation to keep their glorious history from ever being forgotten."
+
+ cavalier_priest_neuter: "rector"
+ cavalier_priest_neuter_plural: "rectors"
+ cavalier_religious_head_title: "Presiding Bishop"
+ cavalier_religious_head_title_name: "General Convention"
+
+ new_birth_revival: "New Birth Revivalists"
+ new_birth_revival_adj: "Revivalist"
+ new_birth_revival_adherent: "Revivalist"
+ new_birth_revival_adherent_plural: "Revivalists"
+ new_birth_revival_desc: "Much like the lowly sinner finding Jesus, some Protestants found the need to revitalize the faith after the [Concept('the_event_ate','Deluge')|E]. Utilizing tent revivals and camp meetings as their primary structures, Revivalists rely on blessed individuals to periodically lead these events and organize the faithful towards various divine purposes. During these seasons of energy, converts are often won over via miraculous healing and passionate gospel music. However, after the initial zeal fades, the Revivalists set themselves apart from many religions by viewing new birth via baptism as forever granting someone salvation, regardless of later backsliding."
+
+#HighGod
+ new_birth_revival_high_god_name: "Jesus Christ"
+ new_birth_revival_high_god_name_possessive: "Jesus Christ's"
+ new_birth_revival_high_god_name_alternate: "the Man"
+ new_birth_revival_high_god_name_alternate_possessive: "the Man's"
+
+#Creator
+ new_birth_revival_creator_god_name: "the Man Upstairs"
+ new_birth_revival_creator_god_name_possessive: "the Man Upstairs's"
+
+#HealthGod
+ new_birth_revival_health_god_name: "Jesus Christ"
+ new_birth_revival_health_god_name_possessive: "Jesus Christ's"
+
+#FertilityGod
+ new_birth_revival_fertility_god_name: "the Holy Ghost"
+ new_birth_revival_fertility_god_name_possessive: "the Holy Ghost's"
+
+#WealthGod
+ new_birth_revival_wealth_god_name: "the Almighty"
+ new_birth_revival_wealth_god_name_possessive: "the Almighty's"
+
+#HouseholdGod
+ new_birth_revival_household_god_name: "the Carpenter"
+ new_birth_revival_household_god_name_possessive: "the Carpenter's"
+
+#FateGod
+ new_birth_revival_fate_god_name: "the Lamb of God"
+ new_birth_revival_fate_god_name_possessive: "the Lamb of God's"
+
+#KnowledgeGod
+ new_birth_revival_knowledge_god_name: "the Son of God"
+ new_birth_revival_knowledge_god_name_possessive: "the Son of God's"
+
+#WarGod
+ new_birth_revival_war_god_name: "the Lamb of God"
+ new_birth_revival_war_god_name_possessive: "the Lamb of God's"
+
+#TricksterGod
+ new_birth_revival_trickster_god_name: "the Carpenter"
+ new_birth_revival_trickster_god_name_possessive: "the Carpenter's"
+
+#NightGod
+ new_birth_revival_night_god_name: "God Almighty"
+ new_birth_revival_night_god_name_possessive: "God Almighty's"
+
+#WaterGod
+ new_birth_revival_water_god_name: "Jesus"
+ new_birth_revival_water_god_name_possessive: "Jesus's"
+
+ new_birth_revival_devil_name: "the Devil"
+ new_birth_revival_devil_name_possessive: "the Devil's"
+ new_birth_revival_death_deity_name: "Death"
+ new_birth_revival_death_deity_name_possessive: "Death's"
+ ghw_great_awakening: "Great Awakening"
+ ghw_great_awakenings: "Great Awakenings"
+
+
+ new_birth_revival_religious_head_title: "High Preacher"
+ new_birth_revival_religious_head_title_name: "Salvation Show"
+ new_birth_revival_house_of_worship: "tent"
+ new_birth_revival_house_of_worship_plural: "tents"
+ new_birth_revival_devotee_male: "brother"
+ new_birth_revival_devotee_male_plural: "brothers"
+ new_birth_revival_priest: "pastor"
+ new_birth_revival_priest_plural: "pastors"
+ new_birth_revival_devotee_female: "sister"
+ new_birth_revival_devotee_female_plural: "sisters"
+ new_birth_revival_bishop: "preacher"
+ new_birth_revival_bishop_plural: "preachers"
+
+ adventist: "Church of the Imminent Advent"
+ adventist_adj: "Adventist"
+ adventist_adherent: "Adventist"
+ adventist_adherent_plural: "Adventists"
+ adventist_desc: "Christ's investigation of our sins has concluded, and the time of troubles has begun. The Antichrist has woven Pope and Protestant together under his One World Government, branding all with his mark and consigning them to eternal separation from the Lord. There is, however, hope for humanity yet: the Church of the Imminent Advent. Bearing God's seal, the Saturday Sabbath, and blessed with the Holy Spirit's gifts, the Church holds out for Christ's return to this world and the deliverance of the truly righteous. It is every believer's duty to accelerate His return by resisting the Antichrist's agents, with those martyred in His name assured resurrection and rapture with the living."
+
+
+ adventist_religious_head_title: "President"
+ adventist_religious_head_title_name: "General Conference"
+
+ adventist_priest_neuter: "minister"
+ adventist_priest_neuter_plural: "ministers"
+ adventist_bishop: "elder minister"
+ adventist_bishop_plural: "elder ministers"
+
+ adventist_positive_afterlife: "New Jerusalem"
+ adventist_negative_afterlife: "Annihilation"
+ 
+ adventist_knowledge_god_name: "Ellen White"
+ adventist_knowledge_god_name_possessive: "Ellen White's"
+
+ colossalist: "Colossal Ministries"
+ colossalist_adj: "Colossalist"
+ colossalist_adherent: "Colossalist"
+ colossalist_adherent_plural: "Colossalists"
+ colossalist_desc: "Rejecting the cowardice and pathetic humility of other churches, the Colossal Ministries believe that God's house must be magnificent. There can be no expense spared to glorify Jesus Christ, for His Kingdom must display His strength with its opulence. This focus on grandeur and demonstration also extends to His pastors, who minister to adulant crowds of followers on God's might made manifest in them. Each pastor directly rules over their church in a spiritual and literal sense, competing amongst each other for followers and glory in Jesus Christ's name. As only one church can be worthy of God's presence, Colossalist pastor-kings strive to demonstrate they alone are worthy of such an honor."
+
+#HighGod
+ colossalist_high_god_name: "Alpha"
+ colossalist_high_god_name_possessive: "Alpha's"
+ colossalist_high_god_name_alternate: "Omega"
+ colossalist_high_god_name_alternate_possessive: "Omega's"
+
+#Creator
+ colossalist_creator_god_name: "Awesome God"
+ colossalist_creator_god_name_possessive: "Awesome God's"
+
+#HealthGod
+ colossalist_health_god_name: "Son of God"
+ colossalist_health_god_name_possessive: "Son of God's"
+
+#FertilityGod
+ colossalist_fertility_god_name: "Christ and His Bride"
+ colossalist_fertility_god_name_possessive: "Christ and His Bride's"
+
+#WealthGod
+ colossalist_wealth_god_name: "the Light of the World"
+ colossalist_wealth_god_name_possessive: "the Light of the World's"
+
+#HouseholdGod
+ colossalist_household_god_name: "the Savior of Mankind"
+ colossalist_household_god_name_possessive: "the Savior of Mankind's"
+
+#FateGod
+ colossalist_fate_god_name: "the Eternal Judge"
+ colossalist_fate_god_name_possessive: "the Eternal Judge's"
+
+#KnowledgeGod
+ colossalist_knowledge_god_name: "His Saving Grace"
+ colossalist_knowledge_god_name_possessive: "His Saving Grace's"
+
+#WarGod
+ colossalist_war_god_name: "the Mighty One"
+ colossalist_war_god_name_possessive: "the Mighty One's"
+
+#TricksterGod
+ colossalist_trickster_god_name: "Jesus H. Christ"
+ colossalist_trickster_god_name_possessive: "Jesus H. Christ's"
+
+#NightGod
+ colossalist_night_god_name: "the Holy Ghost"
+ colossalist_night_god_name_possessive: "the Holy Ghost's"
+
+#WaterGod
+ colossalist_water_god_name: "the Waterwalker"
+ colossalist_water_god_name_possessive: "the Waterwalker's"
+
+ colossalist_devil_name: "Satan the Deceiver"
+ colossalist_devil_name_possessive: "Satan the Deceiver's"
+ colossalist_witch_god_name: "the Antichrist"
+
+ colossalist_religious_head_title: "Archpastor"
+ colossalist_religious_head_title_name: "Gigachurch"
+ colossalist_house_of_worship: "megachurch"
+ colossalist_house_of_worship_plural: "megachurches"
+ colossalist_devotee: "youth-pastor"
+ colossalist_devotee_plural: "youth-pastors"
+ colossalist_priest: "junior-pastor"
+ colossalist_priest_plural: "junior-pastors"
+ colossalist_bishop: "pastor"
+ colossalist_bishop_plural: "pastors"
+
+ sanctifier: "Entire Sanctifiers"
+ sanctifier_adj: "Sanctifier"
+ sanctifier_adherent: "Sanctifier"
+ sanctifier_adherent_plural: "Sanctifiers"
+ sanctifier_desc: "Seeking to find God through meditation and the denial of the self, Entire Sanctifiers pursue complete and total spiritual perfection, accepting nothing less. This inward focus means their churches largely disregard proselytization, believing that salvation will find those worthy of it. Those who are deserving of that redemption through the purification of their spirit have access to God's gifts, which they demonstrate to other aspirants by working miracles of healing, speaking in tongues, or, more rarely, the handling of serpents."
+
+ evangelio: "Evangelio Internacional de Jesucristo"
+ evangelio_adj: "Evangelista"
+ evangelio_adherent: "Evangelista"
+ evangelio_adherent_plural: "Evangelistas"
+ evangelio_desc: "Forced underground after the Event, the Protestants of Central America are a disorganized and radical force. While each individual community can hold wildly different views from one another, every Evangelista church offers the same broad message: a direct, personal relationship with God, free of divine or temporal intermediaries, which manifests in His charismatic gifts. These doctrines are seen as heretical and subversive by the Catholic mainstream and therefore frequently suppressed. As a result, Evangelistas often operate in secret, keeping the Reformation's ideals strong in the face of adversity."
+
+ freechurchman: "Free Church Federation"
+ freechurchman_adj: "Freechurchman"
+ freechurchman_adherent: "Freechurchman"
+ freechurchman_adherent_plural: "Freechurchmen"
+ freechurchman_desc: "The Free Church Federation, originally a collection of various denominations, has since solidified into a single creed. Defined at first by its rejection of Anglican dominance over Protestantism in the Caribbean, Freechurchmen are noteworthy for their doctrine of ‘competitive conversion’, where it is the congregation’s duty to always be increasing the number of recent converts and new churches. Further, belief in Charismata and an extreme emphasis on function over form in their architecture set the Federation apart from other denominations."
+
+ stewardite: "Stewardship Confession"
+ stewardite_adj: "Stewardite"
+ stewardite_adherent: "Stewardite"
+ stewardite_adherent_plural: "Stewardites"
+ stewardite_desc: "The Stewardship Confession seeks to answer God's call to care for and protect the natural world. As God is sovereign over all, man is sovereign over nature, and man must be every bit as loving, just, and powerful as God is in His rule. Under the watchful eyes of their elders, Stewardites seek to cultivate their faith in God's creation by tending to it. They do not practice self-denial, however, and encourage rigorous self-improvement amongst believers to strengthen their bodies, morals, and conviction in Christ."
+
+ stewardite_high_god_name: "God Almighty"
+ stewardite_high_god_name_possessive: "God Almighty's"
+ stewardite_health_god_name: "Jesus Christ"
+ stewardite_health_god_name_possessive: "Jesus Christ's"
+ stewardite_fate_god_name: "God the Sovereign"
+ stewardite_fate_god_name_possessive: "God the Sovereign's"
+ stewardite_devil_name: "Satan the Despoiler"
+ stewardite_devil_name_possessive: "Satan the Despoiler's"
+
+ stewardite_house_of_worship: "meeting house"
+ stewardite_house_of_worship_plural: "meeting houses"
+ stewardite_priest: "elder"
+ stewardite_priest_plural: "elders"
+ ghw_great_conservation: "Great Conservation"
+ ghw_great_conservations: "Great Conservations"
+
+ televangelical: "Teleministry Broadcast"
+ televangelical_adj: "Televangelical"
+ televangelical_adherent: "Televangelical"
+ televangelical_adherent_plural: "Televangelicals"
+ televangelical_desc: "Taking the unorthodox position that the Holy Spirit is an invisible series of waves that permeate and connect all living things, the Teleministry Broadcast attempts to attune the majority of mankind to God's messages, constructing a 'network' of believers. Once this network outnumbers the unsaved, God will be able to end the world as it exists and establish the prosperous world to come. Until that hour, the faithful create holy objects by which they can receive the blessings of Christ and transmit their own prayer. These spiritual energies, alongside substantial temporal donations, are transferred to its leader, the Televangelist, who uses these resources to spread the Gospel. In turn, the laity will surely see their own spiritual and temporal success increase, spoken into being via the Word of Faith as part of their offered seeds and positive visualization."
+
+#HighGod
+ televangelical_high_god_name: "God"
+ televangelical_high_god_name_possessive: "God's"
+ televangelical_high_god_name_alternate: "the Lord"
+ televangelical_high_god_name_alternate_possessive: "the Lord's"
+
+#FertilityGod
+ televangelical_fertility_god_name: "Jesus"
+ televangelical_fertility_god_name_possessive: "Jesus's"
+
+#WealthGod
+ televangelical_wealth_god_name: "the Holy Spirit"
+ televangelical_wealth_god_name_possessive: "the Holy Spirit's"
+
+#HouseholdGod
+ televangelical_household_god_name: "the Word of Faith"
+ televangelical_household_god_name_possessive: "the Word of Faith's"
+
+ televangelical_devil_name: "Satan"
+ televangelical_devil_name_possessive: "Satan's"
+
+ televangelical_pantheon_name: "God's Network"
+ televangelical_religious_symbol: "cross"
+ televangelical_religious_text: "the Bible"
+ televangelical_religious_head_title: "Televangelist"
+ televangelical_religious_head_title_name: "God's Broadcast"
+ televangelical_house_of_worship: "megachurch"
+ televangelical_house_of_worship_plural: "megachurches"
+ televangelical_devotee: "volunteer"
+ televangelical_devotee_plural: "volunteers"
+ televangelical_priest: "pastor"
+ televangelical_priest_plural: "pastors"
+ televangelical_bishop: "minister"
+ televangelical_bishop_plural: "ministers"

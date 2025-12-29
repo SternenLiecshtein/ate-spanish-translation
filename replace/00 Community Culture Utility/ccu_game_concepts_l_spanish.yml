@@ -1,0 +1,23 @@
+﻿l_spanish:
+
+game_concept_heritage_family:0 "Familia de herencia"
+game_concept_heritage_families:0 "Familias de herencia"
+game_concept_heritage_family_desc:0 "Las familias de herencia son agrupaciones de [heritages|E] relacionadas. Compartir una misma familia de herencia incrementa la base de [cultural_acceptance|E]."
+
+game_concept_heritage_group:0 "Grupo de herencia"
+game_concept_heritage_groups:0 "Grupos de herencia"
+game_concept_heritage_group_desc:0 "Los grupos de herencia son agrupaciones de [heritages|E] relacionadas. Compartir un mismo grupo de herencia incrementa la base de [cultural_acceptance|E]."
+
+game_concept_language_group:0 "Grupo lingüístico"
+game_concept_language_groups:0 "Grupos lingüísticos"
+game_concept_language_group_desc:0 "Los grupos lingüísticos son agrupaciones de [languages|E] relacionadas. Compartir un mismo grupo lingüístico incrementa la base de [cultural_acceptance|E], y es más fácil aprender un idioma del mismo grupo que el de tu [culture|E]."
+
+game_concept_language_family:0 "Familia lingüística"
+game_concept_language_families:0 "Familias lingüísticas"
+game_concept_language_family_desc:0 "Las familias lingüísticas son agrupaciones de [language_groups|E] relacionados. Compartir una misma familia lingüística incrementa la base de [cultural_acceptance|E], y es más fácil aprender un idioma de la misma familia que el de tu [culture|E]."
+
+game_concept_language_union:0 "Unión lingüística"
+game_concept_language_unions:0 "Uniones lingüísticas"
+game_concept_language_union_desc:0 "Las uniones lingüísticas son sprachbunds de [languages|E] genéticamente no relacionados. Compartir una misma unión lingüística incrementa la base de [cultural_acceptance|E], y es más fácil aprender un idioma de la misma unión que el de tu [culture|E]."
+
+game_concept_heritages:0 "Herencias"

@@ -1,0 +1,68 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ city_state_government:0 "City-State"
+ city_state_government_adjective:0 "City-State"
+ city_state_government_realm:0 "City-State"
+ city_state_government_desc:1 "City-States are self-governing realms that manage the economic and political systems over its territory"
+
+ #nomad_government:0 "Nomadic"
+ #nomad_government_adjective:0 "Nomad"
+ #nomad_government_realm:0 "Nomads"
+ #nomad_government_desc:1 "$game_concept_tribal_desc$\n\n#F The Nomads never settle in one place but keep moving in search of food and other resources.#!"
+ #government_is_nomadic:0 "[government|E] type is [GetGovernment( 'nomad_government' ).GetName]"
+
+ #game_concept_nomadic: "Nomadic"
+ #game_concept_nomadic_authority: "Nomadic Authority"
+ #game_concept_nomadic_authority_desc: "Nomadic Authority represents the general influence that a [nomadic|E] [ruler|E] wields over their [vassals|E]."
+ 
+ #nomadic_authority:0 "[nomadic_authority|E]"
+ #nomadic_authority_0:0 "Disparate Nomads"
+ #nomadic_authority_1:0 "Low Nomadic Authority"
+ #nomadic_authority_2:0 "Medium Nomadic Authority"
+ #nomadic_authority_3:0 "High Nomadic Authority"
+ 
+ #nomadic_authority_1_effects:"$EFFECT_LIST_BULLET$Rulers can change between all available [succession_laws|E]\n"
+
+ #nomadic_authority_2_effects:"$EFFECT_LIST_BULLET$All [vassals|E] who refuse Title revocation or [vassal|E] retraction are considered [criminals|E]\n"
+
+
+ ECONOMIC_STABILITY:0 "Economic Stability"
+ 
+ change_to_city_state:0 "Adopt City-State Government"
+ change_to_city_state_desc:0 "By centralizing our small realm around our main city, we can better control the wealth that flows through our lands."
+ change_to_city_state_tooltip:0 "You adopt City-State government"
+ change_to_city_state_confirm:0 "It's time"
+ 
+ convert_whole_realm_to_city_state_decision:0 "Convert Realm to City State"
+ convert_whole_realm_to_city_state_decision_tooltip:0 "You adopt City-State government"
+ convert_whole_realm_to_city_state_decision_confirm:0 "It's time"
+ 
+ embrace_feudal_administration:0 "Embrace Feudal Administration"
+ embrace_feudal_administration_desc:0 "Our proud city state is struggling to administer our recent conquests, perhaps it is time we change our ways."
+ embrace_feudal_administration_tooltip:0 "You adopt feudalism government"
+ embrace_feudal_administration_confirm:0 "It's time"
+ 
+ embrace_range_administration:0 "Embrace Range Administration"
+ embrace_range_administration_desc:0 "Our proud city state is struggling to administer our recent conquests, perhaps it is time we change our ways."
+ embrace_range_administration_tooltip:0 "You adopt range government"
+ embrace_range_administration_confirm:0 "It's time"
+ 
+ embrace_republican_administration:0 "Embrace Republican Administration"
+ embrace_republican_administration_desc:0 "Our proud city state is struggling to administer our recent conquests, perhaps it is time we change our ways."
+ embrace_republican_administration_tooltip:0 "You adopt high republic government"
+ embrace_republican_administration_confirm:0 "It's time"
+ 
+ adopt_republican_government:0 "Adopt Republican Government"
+ adopt_republican_government_desc:0 "Like the great empires from before the [Concept('the_event_ate','Event')|E], we shall become a republic as well."
+ adopt_republican_government_tooltip:0 "You adopt high republic government"
+ adopt_republican_government_confirm:0 "Sic semper tyrannis!"
+ 
+ create_a_duchy_level_city_state:0 "Create a city-state title"
+ create_a_duchy_level_city_state_desc:0 "Our proud free city is ready to be recognized as a proper City-State"
+ create_a_duchy_level_city_state_tooltip:0 "You create a titular duchy-level title. This title will be destroyed if you ever obtain another duchy-level title"
+ create_a_duchy_level_city_state_confirm:0 "It's time"

@@ -1,0 +1,954 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+##afro-diasporic
+#candomble
+ holy_order_lambs_of_nana: "Lambs of Nanã"
+ holy_order_sons_of_aruanda: "Sons of Aruanda"
+ holy_order_thunderbolts_of_xango: "Thunderbolts of Xangô"
+
+#arara
+ holy_order_ire_amoyemo_fighters: "Ire Amoyemo Fighters"
+ holy_order_sabalu_warriors: "Sabalu Warriors"
+
+#kumina
+ holy_order_kumina_spirit_singers: "Kumina Spirit-Singers"
+
+#vodzu
+ holy_order_saraka_drozan_warriors: "Saraka Drozan Warriors"
+
+#alufa
+ holy_order_serigne_brotherhood: "Serigne Brotherhood"
+ 
+#nago-eba
+ holy_order_axeholders_of_xango: "Axeholders of Xango"
+ holy_order_legion_of_ope_uatana: "Legion of Ope Uatana"
+
+##amazonian
+#hekura
+ holy_order_horonamis_chosen: "Hõrõnãmi’s Chosen"
+
+#hekwapienai
+ holy_order_hohodene_warband: "Hohodene Warband"
+ holy_order_vetutalis_heirs: "Vetutali’s Heirs"
+
+#wasahure_sena
+ holy_order_huka_huka_warriors: "Huka Huka Warriors"
+ holy_order_mourners: "Mourners"
+ holy_order_kindotoko: "Kindotoko"
+
+##americanist
+ holy_order_secret_service: "Secret Service"
+ holy_order_minutemen: "Minutemen"
+ holy_order_marine_corps: "Marine Corps"
+ holy_order_national_guard: "National Guard"
+ holy_order_rough_riders: "Rough Riders"
+ holy_order_first_team: "First Team"
+ holy_order_american_legion: "American Legion"
+
+##astronomer
+#camino_estelar
+ holy_order_stellar_chasqui: "Stellar Chasqui"
+ holy_order_nazcan_sailors: "Nazcan Sailors"
+
+#amanhecer
+ holy_order_devotos_das_estrelas: "Devotos das Estrelas"
+ holy_order_iluminados: "Iluminados"
+ holy_order_escolhidos_dos_jaguaras: "Escolhidos dos Jaguares"
+
+#posadist
+ holy_order_la_cuarta_orden: "La Cuarta Orden"
+ holy_order_fraccion_delfinea: "Fracción Delfínea"
+
+#zetanology
+ holy_order_xcom: "X-Command"
+ 
+#potay espasyal
+ holy_order_daughters_of_ariane: "Daughters of Ariane"
+ holy_order_center_for_the_gateway: "Center for the Gateway"
+
+##athletic
+#gnarlist
+ holy_order_knights_of_dogtown: "Knights of Dogtown"
+ holy_order_blackshorts: "Blackshorts"
+ holy_order_wolfpack: "Wolfpack"
+
+#stokeist
+ holy_order_ski_council: "Ski Council"
+
+##britannic
+
+#waveruler
+ holy_order_royal_marines: "Royal Marines"
+ holy_order_british_commandos: "British Commandos"
+
+##atlantean
+ holy_order_last_sons_of_atlantis: "Last Sons of Atlantis"
+
+#theosophist
+ holy_order_the_brothers: "Brothers"
+
+#neomayan
+ holy_order_bringers_of_aquarius: "Bringers of Aquarius"
+
+#eckankar
+ holy_order_servants_of_the_eck_masters: "Servants of the Eck Masters"
+
+#egyptology
+ holy_order_summa_individuals: "Summa Individuals"
+ holy_order_chroniclers_of_kane: "Chroniclers of Kane"
+
+#ozymandian
+ holy_order_wizards_of_oz: "Wizards of Oz"
+ holy_order_knights_of_altruria: "Knights of Altruria"
+ holy_order_hollow_earthers: "Hollow-earthers"
+ holy_order_gifts_of_oz: "Giftbearers of Oz"
+
+##buddhist
+ holy_order_followers_of_vajrapani: "Followers of Vajrapani"
+
+#shangrilaist
+ holy_order_protectors_of_shangrila: "Protectors of Shangrila"
+
+#humanistic
+ holy_order_shaolin_warriors: "Shaolin Warriors"
+
+#spirit path of dharma
+ holy_order_spirit_path_warriors: "Spirit Path Warriors"
+
+#beatzen
+ holy_order_dharma_bums: "Dharma Bums"
+ holy_order_interzones_finest: "Interzone's Finest"
+ holy_order_merry_pranksters: "Merry Pranksters"
+
+##bumbotheist
+ holy_order_guerreiros_de_bumba: "Guerreiros de Bumba"
+ holy_order_amos_de_bumba: "Amos de Bumba"
+ holy_order_band_of_garantido: "Band of Garantido"
+ holy_order_band_of_caprichoso: "Band of Caprichoso"
+ holy_order_bulls_of_maioba: "Bulls of Maioba"
+ holy_order_bulls_of_axixa: "Bulls of Axixa"
+ holy_order_bulls_of_guimaraes: "Bulls of Guimarães"
+
+##cao dai
+ holy_order_guards_of_the_three_relics: "Guards of the Three Relics"
+
+##cariban
+
+#hebeyono bunahabe
+ holy_order_band_of_the_harpy_eagle: "Band of the Harpy Eagle"
+
+#jepirra anasu
+ holy_order_jepirra_bound: "Jepirra-bound"
+
+#taino areito
+ holy_order_caney_circle: "Caney Circle"
+
+##capitalist
+ holy_order_golden_archers: "Golden Archers"
+ holy_order_the_pumas: "Pumas"
+ holy_order_the_big_blue: "Big Blue"
+ 
+#consumerist + economist
+ holy_order_golden_bulls: "Golden Bulls of the Market"
+
+##catholic
+ holy_order_brotherhood_of_andrew: "Brotherhood of Saint Andrew"
+ holy_order_woodmen_order: "Woodmen Order"
+ holy_order_alhambra: "Knights of Alhambra"
+ holy_order_hibernians: "Hibernian Order"
+ holy_order_knights_of_columbus: "Knights of Columbus"
+ holy_order_knights_of_peter_claver: "Knights of Peter Claver"
+ holy_order_order_of_saint_patrick: "Knights of Saint Patrick"
+
+#ursuline
+ holy_order_knights_of_st_ursule: "Knights of Sainte Ursule"
+ holy_order_saint_flannel: "Knights of Saint Flannel"
+ holy_order_cent_milles: "Hundred Thousand Moths"
+
+#insular
+ holy_order_knights_of_malta: "Knights of Malta"
+ holy_order_knights_hospitallier: "Knights Hospitallier"
+ holy_order_thirty_caballeros: "Thirty Caballeros"
+
+#liberationist
+ holy_order_camilo_torres: "Knights of San Camilo Torres"
+ holy_order_oscar_romero: "Legion of San Óscar Romero"
+ holy_order_helder_camara: "Order of San Hélder Câmara"
+
+#cristeros
+ holy_order_distinguida_orden: "Distinguida Orden de Caballeros de Guadalupe"
+ holy_order_orden_de_adelitas: "Orden de Adelitas de San Carlos"
+ holy_order_antigua_orden: "Antigua Orden del Apostolado de la Cruz"
+ holy_order_knights_of_aparecida: "Knights of Aparecida"
+ holy_order_knights_of_the_new_song: "Knights of the New Song"
+
+#penitents
+ holy_order_cucuruchos: "Los Cucuruchos"
+ holy_order_order_of_santiago: "Order of Santiago"
+
+#nuu_asumatang
+ holy_order_walkers_of_grandmother_setans_path: "Walkers of Grandmother Se'ta'n's Path"
+
+#kojtumbrem
+ holy_order_ume_ayeta_matachinim: "Ume Ayeta Matachinim"
+ holy_order_ume_sontaom_yoemiari: "Ume Sontaom Yoemiari"
+ holy_order_ume_goj_naiki_puepplom: "Ume Goj naiki Puepplom"
+
+#mama_tatda
+ holy_order_bugodai: "Bugodai"
+
+#celeste
+ holy_order_bearded_monks: "Bearded Monks"
+ holy_order_twelve_pairs_of_france: "Twelve Pairs of France"
+
+#exovedate
+ holy_order_knights_of_dumont: "Knights of Dumont"
+ holy_order_order_of_the_north_west: "Order of the North-West"
+
+#santa_gilada
+ holy_order_santa_gauchada_de_antonio_gil: "Santa Gilada de Antonio Gil"
+
+#catholic charismatic
+ holy_order_knights_of_divine_grace: "Knights of Divine Grace"
+ holy_order_military_order_of_holy_glossolalia: "Military Order of Holy Glossolalia"
+
+#catholic workers
+ holy_order_direct_actiondoers: "Direct Actiondoers"
+
+#synodalists
+ holy_order_synodal_wayfarers: "Synodal Wayfarers"
+
+#michaelic vigilants
+ holy_order_major_exorcists_association: "Major Exorcists' Association"
+ holy_order_knights_of_the_inquisition: "Knights of the Inquisition"
+
+#catomexa
+ holy_order_inquisidores_del_progreso: "Los Inquisidores del Progreso"
+ holy_order_presbiterado_matacosmicos: "El Presbiterado Matacósmicos"
+ holy_order_episcopado_del_orden: "Episcopado del Orden"
+
+#jolljepunco
+ holy_order_obispado_militar_del_peru: "Obispado Militar del Perú"
+ 
+#particularist
+ holy_order_orden_caballeros_cruz_del_sur: "Orden de los Caballeros de la Cruz del Sur"
+ 
+#bracero
+ holy_order_caballeros_de_la_causa: "Caballeros de la Causa"
+ holy_order_order_of_santa_catalina: "Order of Santa Catalina"
+ holy_order_worker_knights: "Worker Knights"
+
+#animist
+ holy_order_cruzados: "La Cato"
+ 
+#old catholic
+ holy_order_order_of_savonarola: "Order of Savonarola"
+ 
+#cruzob
+ holy_order_caballeros_de_la_santisima_cruz: "Caballeros de la Santísima Cruz"
+ 
+#cicerite
+ holy_order_knights_of_canudos: "Knights of Canudos"
+
+##catimbo
+ holy_order_guerreiros_jurema: "Warriors of the Benzedura"
+ holy_order_cavaleiros_aruanda: "Knights of Aruanda"
+
+##concentric (earthvault)
+ holy_order_vault_watchers: "Vault Watchers"
+ holy_order_nissevolke: "Nissevolke"
+
+##chon
+ holy_order_guardians_of_the_shoon: "Guardians of the Shoon"
+
+##conterraneo
+ holy_order_comitiva_of_the_cerrado: "Comitiva of the Cerrado"
+ holy_order_comitiva_of_the_pantanal: "Comitiva of the Pantanal"
+ holy_order_comitiva: "Comitiva Esperança"
+ holy_order_death_mares: "Death Mares"
+ holy_order_stallion_riders: "Stallion Riders"
+
+##darian (artistic)
+#constructivist
+ holy_order_the_artguard: "Artguard"
+ holy_order_the_curators: "Curators"
+
+#darian (vanguardista?)
+ holy_order_the_vanguardia: "Vanguardia"
+ holy_order_army_for_national_sovereignty: "Army for National Sovereignty"
+ holy_order_swords_of_the_swan: "Swords of the Swan"
+
+##digital
+#webweaver
+ holy_order_broad_band: "Broad Band"
+ holy_order_assigned_numbers_authority: "Assigned Numbers Authority"
+
+#syncado
+ holy_order_los_electrodomesticos: "Los Electrodomésticos"
+ holy_order_synco_seguridad: "Synco Seguridad"
+
+##divina patriota/patria
+#mesias_che
+ holy_order_comandos_mambises: "Comandos Mambises"
+ holy_order_nancahuazu_guerrilla: "Nancahuazú Guerrilla"
+ holy_order_liberation_army: "Ejército de Liberación"
+ d_liberation_army_article: "the "
+ d_liberation_army: "Ejército de Liberación"
+ d_liberation_army_adj: "Liberación"
+
+#patria grande/madre_patria
+ holy_order_knights_of_the_new_song: "Knights of the New Song"
+ holy_order_knights_of_aparecida: "Knights of Aparecida"
+
+#gracia patriota
+ holy_order_ejercito_del_procer_de_la_gracia: "Ejército del Prócer de la Gracia"
+
+#movimiento juliano
+ holy_order_frente_internacional: "Frente Internacional"
+ holy_order_los_mambises: "Los Mambises"
+ holy_order_los_barbudos: "Los Barbudos"
+
+##dene
+#ayahan
+ holy_order_bears_of_the_lake: "Bears of the Lake"
+ holy_order_the_snow_snakes: "Snow Snakes"
+
+##druze
+ holy_order_jaysh_al_muwahhidun: "Jaysh Al Muwahhidin"
+ holy_order_harakat_al_jihad_al_duruzi: "Harakat Al Jihad Al Duruzi"
+ holy_order_jaysh_al_shuhadah_al_duruz: "Jaysh Al Shuhadah Al Duruz"
+
+ holy_order_knights_of_rotermund: "Society of Rotermund"
+
+##eastern_christian
+
+#assyrian
+ holy_order_assyrian_universal_alliance: "Assyrian Universal Alliance"
+
+#byzantine
+ holy_order_knights_of_saint_basil: "Knights of Saint Basil"
+
+#maronite
+ holy_order_golden_maronite_order: "Golden Maronite Order"
+
+#old believer
+ holy_order_swords_of_the_martyrs: "Swords of the Martyrs"
+
+#united orthodox
+ holy_order_order_of_saint_george_the_martyr: "Order of Saint George the Great Martyr"
+ 
+#armenian
+ holy_order_order_of_saint_gregory: "Order of Saint Gregory the Illuminator"
+
+##intercessory
+ holy_order_batallon_de_jesus: "Batallón de Jesús"
+
+#limpio
+ holy_order_orden_del_barro: "Orden del Barro"
+ holy_order_seguidores_del_espiritu: "Seguidores del Espíritu"
+ holy_order_orden_de_los_purgadores: "Orden de los Purgadores"
+
+#navagante
+ holy_order_orden_de_los_balleneros: "Orden de los Balleneros"
+ holy_order_los_buscaperlas: "Los Buscaperlas"
+ holy_order_buscadores_de_naufragios: "Buscadores de Naufragios"
+
+##gardenian
+#evonian
+ holy_order_queen_eves_spawn: "Queen Eve’s Spawn"
+
+#edenism
+ holy_order_yumka: "Yumká"
+ holy_order_semarnat: "SEMARNAT"
+ holy_order_thousand_voices_of_yu_balcah: "Thousand Voices of Yu-Balcah"
+
+##guaranitic
+ holy_order_pytajovai: "Order of Pytajovái"
+ holy_order_tiarajus_men: "Warriors of Sepé Tiaraju"
+
+##guruist
+#Harmonious (Sahasrara) (cetic)
+ holy_order_hawaiian_guard: "Hawaiian Guard"
+ holy_order_trojan_legion: "Trojan Legion"
+ holy_order_golden_legion: "Golden Legion"
+ 
+ #Aquarian
+ holy_order_the_lemurians_of_shasta: "Lemurians of Shasta"
+ holy_order_order_of_the_count_of_st_germain: "Order of the Count of St. Germain"
+ holy_order_the_indigo_children: "The Indigo Children"
+ holy_order_third_eye_openers: "Third Eye Openers"
+
+#dualist (manipura)
+ holy_order_order_of_the_lustrous_gem: "Order of the Lustrous Gem"
+ holy_order_order_of_the_crouching_tiger: "Order of the Crouching Tiger"
+ holy_order_order_of_the_hidden_dragon: "Order of the Hidden Dragon"
+ holy_order_order_of_the_golden_rooster: "Order of the Golden Rooster"
+
+#ananhata
+ holy_order_youth_international_army: "Youth International Army"
+ holy_order_the_weathermen: "Weathermen"
+ holy_order_end_poverty_league: "End Poverty League"
+
+##haudenosaunee
+ #reuse generic and ayahan
+
+##hinduism
+
+#kanadeva
+ holy_order_destroyers_of_worlds: "Destroyers of Worlds"
+
+##idiosyncretic
+#el santo (luchadors?)/hexagonal
+ holy_order_orden_de_la_mascara: "Orden de la Máscara"
+ holy_order_consejo_hexagonal_de_lucha: "Consejo Hexagonal de Lucha"
+ holy_order_la_sixtuple_a: "La Sixtuple A"
+
+#auditorista
+ holy_order_facultad_de_letras: "Facultad de Letras"
+ holy_order_facultad_de_filosofia: "Facultad de Filosofía"
+ holy_order_los_seseaches: "Los Seseaches"
+ holy_order_los_pumas: "Los Pumas"
+
+#alineado
+ holy_order_corporacion_rauda_y_operadores_capaces: "Corporación Rauda y de Operadores Capaces"
+ holy_order_corporacion_de_tropas_meritocraticas: "Corporación de Tropas Meritocráticas"
+ holy_order_corporacion_del_notable_control: "Corporación del Notable Control"
+
+#enigmatismo
+ holy_order_escuela_y_prepertoria_de_tecnicos: "Escuela y Preparatoria de Técnicos"
+ holy_order_prepertoria_tecnica_de_mecanicos: "Preparatoria Técnica de Mecánicos"
+ holy_order_prepertoria_ten_unidad_five: "Preparatoria 10 Unidad 5"
+
+#polislatria
+ holy_order_los_hijos_de_la_madre_patria: "Los Hijos de La Madre Patria"
+ holy_order_el_haren_de_la_sultana: "El Harén de La Sultana"
+ holy_order_la_falange_de_la_minerva: "La Falange de La Minerva"
+ holy_order_los_clavadistas_de_la_quebrada: "Los Clavadistas de la Quebrada"
+ holy_order_los_caporales_de_la_emerita: "Los Caporales de La Emérita"
+#sepelogia
+ holy_order_orden_cosmica_de_la_reforma: "Orden Cósmica de la Reforma"
+ holy_order_orden_cosmica_de_la_revolucion: "Orden Cósmica de la Revolución"
+ holy_order_orden_cosmica_de_la_independencia: "Orden Cósmica de la Independencia"
+ holy_order_orden_cosmica_contra_intervenciones: "Orden Cósmica contra Intervenciones"
+
+##industrialists
+ holy_order_the_wobblies: "Wobblies"
+ holy_order_the_teamsters: "Teamsters"
+ holy_order_the_auto_workers: "Auto Workers"
+
+#galvanists
+ holy_order_national_recovery_army: "National Recovery Army"
+ holy_order_tennessee_valley_army: "Tennessee Valley Army"
+
+#sustainablists
+ holy_order_civilian_conservation_corps: "Civilian Conservation Corps"
+
+#prometheans (best)
+ holy_order_militant_industrialists: "Militant Industrialists"
+
+#innovatorism
+ holy_order_skunkworkers: "Skunkworkers"
+ holy_order_men_of_the_future: "Men of the Future"
+
+#arsenalist
+ holy_order_corps_of_engineers: "Corps of Engineers"
+ holy_order_old_ironsides: "Old Ironsides"
+ holy_order_hellcats: "the Hellcats"
+
+#decorative
+ holy_order_steelers:0 "Steelers"
+ holy_order_symphonic_warriors:0 "Symphonic Warriors"
+
+#reforged
+ holy_order_workers_ring: "Workers' Ring"
+ holy_order_big_red_machine: "Big Red Machine"
+ holy_order_men_of_schewitz: "Men of Schewitz"
+##islam
+#ilmi
+ holy_order_knights_of_purity: "Knights of Purity"
+ holy_order_heralds_of_the_message: "Heralds of the Message"
+
+#shriner
+ holy_order_pharaohs: "Pharaohs"
+ holy_order_legion_of_honor: "Legion of Honor"
+ holy_order_sandman_unit: "Sandman Unit"
+ holy_order_provost_guard: "Provost Guard"
+ holy_order_swamp_rats: "Swamp Rats"
+ holy_order_keystone_kops: "Keystone Kops"
+ holy_order_sharpshooters: "Sharpshooters"
+ holy_order_oriental_band: "Oriental Band"
+
+#misrist
+ holy_order_fruit_of_islam: "Fruit of Islam"
+ holy_order_the_arkestra: "Arkestra" #egyptology uses as well
+
+#amriki
+ holy_order_american_irregulars: "American Irregulars"
+ holy_order_bluecoats: "Bluecoats"
+
+#ahmadiyya
+ holy_order_the_lions_of_ahmad: "Lions of Ahmad"
+
+#islahiyyun
+ holy_order_the_circle_of_el_tawhid_juma: "Circle of el-Tawhid Juma"
+ holy_order_the_five_nineteen: "Five-Nineteen"
+
+##jainism
+#copied from vanilla
+ holy_order_bulls_of_rishabha:0 "Bulls of Rishabha"
+ holy_order_jivas_of_madhya_loka:0 "Jivas of Madhya Loka"
+ holy_order_guardians_of_the_lotus_ocean:0 "Guardians of the Lotus Ocean"
+ holy_order_sacrifices_of_devloka:0 "Sacrifices of Devloka"
+
+##judaism
+#haredi
+ holy_order_bnai: "B'nai B'rith"
+
+#humanistic
+ holy_order_humanitarian_circle: "Humanitarian Circle"
+ holy_order_order_of_free_minds: "Order of Free Minds"
+
+#shoftim
+ holy_order_shomrim: "Shomrim"
+ 
+#renewal
+ holy_order_order_of_the_white_tiger: "Order of the White Tiger"
+ holy_order_order_of_the_green_dragon: "Order of the Green Dragon"
+
+##lacustrine
+ holy_order_wolverines: "Wolverines"
+#lakeshore
+ holy_order_lightbringers: "Lightbringers" #loc also used by covenantoclast
+
+#viking
+ holy_order_the_northern_league: "Northern League"
+ holy_order_the_aesir_league: "Aesir League"
+ holy_order_purple_people_eaters: "Purple People Eaters"
+ holy_order_cheesehead_pack: "Cheesehead Pack"
+ holy_order_midway_monsters: "Monsters of Midway"
+ holy_order_motown_madmen: "Motown Madmen"
+
+##llanoism
+#reused conteraino
+
+##mesoamerican
+#jakakukuecha
+ holy_order_achati_keriti: "Acháti Keriti"
+
+#wixarika
+ holy_order_tiivainuriixi_wixaritari: "Tïïváinuríixi Wixáritari"
+ holy_order_uquisi_wixaritari: "‘uquísi Wixáritari"
+ holy_order_taite_wixaritari: "Taite Wixáritari"
+ holy_order_tau_nuayate: "Táu Nu’áyate"
+ holy_order_xuxuricare: "Xuxuricare"
+
+##modernist
+ holy_order_klaxonic_army: "Klaxonic Army"
+ holy_order_warriors_of_the_constant_change: "Warriors of the Constant Change"
+ holy_order_brazilwood_batallion: "Brazilwood Battalion"
+
+#alternative society
+ holy_order_kavernista: "Great Kavernist Order"
+
+##mormon
+ holy_order_danites: "Danites"
+ holy_order_intermountain: "Intermountain Care"
+
+#lamanite
+ holy_order_mission: "Mission"
+
+#kolobite
+ holy_order_dogs_in_the_vineyard: "Dogs in the Vineyard"
+ holy_order_the_mormon_battallion: "Mormon Battallion"
+ holy_order_knights_of_rockwell: "Knights of Rockwell"
+ holy_order_the_terrestrial_legion: "Terrestrial Legion"
+ 
+#LDP
+ holy_order_patriot_battalion: "Patriot Battalion"
+
+##nanakpanthi
+#sikh
+ holy_order_nihang_order: "Nihang Order"
+
+##naturalist
+ holy_order_keepers_of_the_green_peace: "Keepers of the Green Peace"
+ holy_order_hex_girls: "Hex Girls"
+#holocenian
+ holy_order_the_steward-militant: "Steward-Militant"
+
+#revengeant (vengeant)
+ holy_order_daughters_of_the_fallen: "Daughters of the Fallen"
+
+#burner
+ holy_order_black_rock_rangers: "Black Rock Rangers"
+ holy_order_temple_guardians: "Temple Guardians"
+
+#saurian
+ holy_order_the_terrible_claws: "Terrible Claws"
+ holy_order_the_apex_predators: "Apex Predators"
+
+#(???)
+ holy_order_the_sea_shepherds: "Sea Shepherds"
+
+##nautical
+ holy_order_blackbeards_crew: "Blackbeard's Crew"
+ holy_order_the_sparrows: "Sparrows"
+
+##neltococayotl
+ holy_order_yektli_tlauelkixtilistli: "Yektli Tlauelkixtilistli"
+
+#paktokej
+ holy_order_kixtianomej_in_yaoyotl: "Kixtianomej In Yaoyotl"
+
+#miquiztonatiuh
+ holy_order_mekapapalotl: "Mekapapalotl"
+ holy_order_ajakakouatsintli: "Ajakakouatsintli"
+
+##neoponic
+#johrei
+ holy_order_heralds_of_terrestrial_paradise: "Heralds of the Terrestrial Paradise"
+ holy_order_knights_of_the_coming_light: "Knights of the Coming Light"
+
+##northwest (raven tales)
+ holy_order_raven_warriors: "Raven Warriors"
+ holy_order_band_of_the_eagle: "Band of the Eagle"
+
+#indian shaker
+ holy_order_knights_of_mud_bay: "Knights of Mud Bay"
+ holy_order_shaker_crusaders: "Shaker Crusaders"
+
+##occultist
+#masonic
+ holy_order_of_malta: "Order of Malta"
+ holy_order_of_the_temple: "Order of the Temple"
+ holy_order_of_prince_hall: "Order of Prince Hall"
+ holy_order_losers_club: "Loser's Club"
+
+#gothic
+ holy_order_yellow_sign: "Order of the Yellow Sign"
+ holy_order_brotherhood_of_the_beast: "Brotherhood of the Beast"
+
+#fathomless
+ holy_order_of_dagon: "Keepers of Dagon"
+ holy_order_warriors_of_dudleytown: "Warriors of Dudleytown"
+ holy_order_coast_guard: "Coast Guard"
+
+##originario
+ holy_order_nietos_de_maximon: "Nietos de Maximon"
+
+#votanzapatista
+ holy_order_en_pueblo_en_armas: "Pueblo en Armas"
+ holy_order_ejercito_de_los_pobres: "Ejercito de los Pobres"
+
+##pampeano
+ holy_order_infernales_de_guemes: "Infernales de Güemes"
+ holy_order_quilombo_sagrado: "Quilombo Sagrado"
+
+##patagonic
+ holy_order_cold_guard: "Cold Guard"
+ holy_order_fruit_wardens: "Fruit Wardens"
+
+#juventide
+ holy_order_los_ultimos_primeros_hombres: "Los Últimos Primeros Hombres"
+ holy_order_los_rejuvenecidos: "Los Rejuvenecidos"
+ holy_order_los_hijos_del_arbitro: "Los Hijos del Árbitro"
+
+#magallanico
+ holy_order_manojito_de_claveles: "Manojito de Claveles"
+ holy_order_malon_raiders: "Malon Raiders"
+
+##petrobaron
+ holy_order_petrobaron: "Big Oilers"
+
+#tycoon
+ holy_order_standard_oil_1: "Standard Oil of [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_standard_oil_2: "Standard Oil of [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_standard_oil_3: "Standard Oil of [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_standard_oil_4: "Standard Oil of [TITLE.GetNameNoTierNoTooltip]"
+
+#petromancy
+ holy_order_spreaders_of_soulfire: "Spreaders of Soulfire"
+ holy_order_warriors_for_the_worlds_soul: "Warriors for the World’s Soul"
+
+##platineans
+ holy_order_liberators: "Liberators"
+ 
+#heromaquia
+ holy_order_comando_de_los_caballeros: "Comando de los Caballeros"
+ holy_order_comando_de_los_nadadores: "Comando de los Nadadores"
+ holy_order_comando_de_los_condores: "Comando de los Cóndores"
+ 
+#dualema
+ holy_order_guardia_llameante: "Guardia Llameante"
+ holy_order_guardia_electrica: "Guardia Electrica"
+ holy_order_guardia_mojada: "Guardia Mojada"
+ 
+#justicialista
+ holy_order_montoneros: "Montoneros"
+ holy_order_hijos_de_evita: "Hijos de Evita" #shared with unidad basica
+ 
+#avatar de la liberacion
+ holy_order_granaderos: "Granaderos"
+ holy_order_orden_norte: "Orden del Norte"
+ holy_order_bravos_de_belgrano: "Bravos de Belgrano"
+ 
+#radicalista
+ holy_order_mitreros: "Mitreros"
+ holy_order_juventud_radicalista: "Juventud Radicalista"
+
+##post-adventist
+# so sad
+
+##protestant
+#muckerism
+ holy_order_knights_of_pentecostes: "Knights of Pentecostes"
+ holy_order_farrabras_company: "Farrabras Company"
+ holy_order_saint_leopold_company: "Saint Leopold Company"
+
+#evangelical
+ holy_order_knights_of_pythia: "Knights of Pythia"
+ holy_order_knights_of_civitan: "Knights of Civitan"
+ holy_order_tabor: "Order of the Twelve Knights and Daughters of Tabor"
+ holy_order_thriven: "Thriven Knights"
+ holy_order_national_cathedral_association: "National Cathedral Aasociation"
+
+#united church
+ holy_order_seraphim_rose: "Order of Seraphim Rose"
+ holy_order_junipero_serra: "Order of Junípero Serra"
+ holy_order_azusa_street: "Order of Azusa Street"
+
+#anabaptist
+ holy_order_lebanon_brethren: "Lebanon Brethren"
+
+#calvertan
+ holy_order_poor_folk: "Brotherhood of Poor Folk"
+ holy_order_ruritan: "Ruritan Knights"
+
+#lutheran
+ holy_order_knights_of_the_luther_rose: "Knights of the Luther Rose"
+ holy_order_warriors_of_christ: "Warriors of Christ"
+
+#global throne
+ holy_order_knights_of_salvation: "Knights of Salvation"
+ holy_order_knights_of_new_canaan: "Knights of New Canaan"
+
+#Assembleiano
+ holy_order_national_cathedral_association: "National Cathedral Association"
+
+#cavalier
+ holy_order_knights_of_the_round_table: "Knights of the Round-Table"
+ holy_order_continental_army: "Continental Army"
+ holy_order_first_cavalry: "First Cavalry"
+
+#adventist
+ holy_order_sanitarium: "Sanitarium"
+ holy_order_sign_of_the_times: "Sign of the Times"
+
+#new_birth_revivalist
+ holy_order_holy_rollers: "Holy Rollers"
+ holy_order_the_good_shepherds: "Good Shepherds"
+ holy_order_crusaders_for_christ: "Crusaders for Christ"
+
+#colossalist
+ holy_order_outreachers: "Outreachers"
+ holy_order_god_squad: "God Squad"
+
+#televangelical
+ holy_order_world_wide_christian_mission: "World Wide Christian Mission"
+ holy_order_commercial_breakers: "Commercial Breakers"
+ 
+#moravian
+ holy_order_order_of_brotherhood: "Order of Brotherhood"
+ 
+#templario
+ holy_order_gladiators_of_the_temple: "Gladiators of the Temple"
+ holy_order_crusaders_of_christ: "Crusaders of Christ"
+
+##reawakened
+#comfa
+ holy_order_white_robed_army: "White-Robed Army"
+ 
+#jesus freak
+ holy_order_flower_children: "Flower Children"
+ holy_order_the_superstars: "Superstars"
+ holy_order_gods_spellcasters: "God's Spellcasters"
+
+##rezadeiros
+ holy_order_guerreiros_benzedura: "Warriors of the Benzedura"
+ holy_order_todos_os_santos: "Army of All-Saints"
+ 
+##satanism
+ holy_order_the_black_flame: "Black Flame"
+ holy_order_baphometian_templars: "Baphometian Templars"
+ holy_order_left_hand_order: "Left-Hand Order"
+ 
+#covenantoclasts
+ holy_order_answering_genesis: "Answering Genesis"
+ holy_order_the_backsliders: "Backsliders"
+
+#delver
+ holy_order_satans_campaign: "Satan's Campaign"
+ holy_order_wizards_of_the_coast: "Wizards of the Coast"
+ holy_order_shadowrunners: "Shadowrunners"
+ holy_order_cult_of_cthulu: "Cult of Cthulu"
+
+##scientific
+ holy_order_sons_of_oppenheimer: "Sons of Oppenheimer"
+ holy_order_cedesi: "Cedesi"
+ holy_order_liquidators: "Liquidators"
+
+#thermonullist
+ holy_order_those_who_destroy: "Those-who-Destroy"
+ holy_order_those_who_degrade: "Those-who-Degrade"
+
+##seaspray
+#pelagic (fogsong)
+ holy_order_children_moving_tide: "Children of the Moving Tide"
+ holy_order_glooscaps_round_table: "Glooscap’s Round Table"
+ holy_order_band_of_holy_by: "Band of the Holy B’y"
+
+#merivant
+ holy_order_l_ordre_de_non_temps: "L'Ordre de non Temps"
+ holy_order_l_ordre_de_beausoleil: "L'Ordre de Beausoleil"
+ holy_order_l_ordre_de_bellair: "L'Ordre de Bellair"
+
+##sombrism
+ holy_order_orden_de_la_calavera: "Orden de la Calavera"
+ holy_order_los_tecolotes: "Los Tecolotes"
+ holy_order_los_huesodos: "Los Huesudos"
+
+#calaquismo
+ holy_order_los_no_rajones: "Los No Rajones"
+ holy_order_los_parranderos: "Los Parranderos"
+ holy_order_dead_mans_partiers: "Dead Man's Partiers"
+
+#pascualito
+ holy_order_yeekjocheen_joochoob: "Yéek'joch'e'en Joocho'ob"
+ holy_order_danza_de_la_muerte: "Danza de la Muerte"
+
+##spiritualism
+#santo daime
+ holy_order_knights_of_the_daime: "Knights of the Daime"
+
+#clairvoyant
+ holy_order_tarot_magicians: "Magicians"
+ holy_order_oneida_community: "Oneida Community"
+ holy_order_orangemen: "Orangemen"
+
+#transcendentalist
+ holy_order_the_eyeball: "Eyeball"
+ holy_order_the_rhodora: "Rhodora"
+ holy_order_the_dial: "Dial"
+
+#fourierist
+ holy_order_associationist_federation: "Associationist Federation"
+
+#vertebralist
+ holy_order_federation_of_chiropractic_associates: "Federation of Chiropractic Associates"
+ holy_order_palmer_school_and_cure: "Palmer School and Cure"
+ holy_order_ghost_busters: "Ghost Busters"
+
+##southwestern
+#tarahumara
+ holy_order_raramuri_nakoame: "Rarámuri Nakóame"
+ holy_order_sontarusi_raramuri: "Sontárusi Rarámuri"
+ holy_order_nimikiriame_raramuri: "Nimíkiriame Rarámuri"
+#himdag
+ holy_order_kiki_association: "Ki:Ki Association"
+ holy_order_himdag_ki: "Himdag Ki"
+
+##trailwalker
+#sagestepper
+ holy_order_sheepshooters: "Sheepshooters"
+
+#saguarorrinche
+ holy_order_parientes_del_saguaro: "Parientes del Saguaro"
+ holy_order_zorros_del_desierto: "Zorros del Desierto"
+
+##universal
+ holy_order_bahai: "Baha'i"
+
+##vernacular (best)
+ holy_order_flaming_sword: "Flaming Swords"
+ holy_order_colonels: "Colonels"
+
+#omenteller
+ holy_order_the_belled_buzzards_boys: "Belled Buzzard's Boys"
+ holy_order_blue_blazers: "Blue Blazers"
+ holy_order_yellow_blazers: "Yellow Blazers"
+
+#revelationist
+ holy_order_midnight_specialists: "Midnight Specialists"
+ holy_order_snakehandlers: "Heralds of the Holy Rattlesnakes"
+ holy_order_lambs_awashed: "Lamb's Awashed"
+
+#ophiolatry
+ holy_order_missionary_lizards: "Missionary Lizards"
+ holy_order_the_raptor_pack: "Raptor Pack"
+ holy_order_raiders_of_the_ark: "Raiders of the Ark"
+
+#hearthtender
+ holy_order_the_sufferers: "Sufferers"
+ holy_order_the_unbroken_circle: "Unbroken Circle"
+ holy_order_mothers_against_demonic_deeds: "Mothers Against Demonic Deeds"
+
+
+#springsearchers
+ holy_order_the_parrotheads: "Parrotheads"
+ holy_order_searchers_for_the_fountain: "Searchers for the Fountain"
+ holy_order_green_dolphin_street_guards: "Green Dolphin Street Guards"
+
+##veteranic
+#remembrant
+ holy_order_old_red_patch: "Old Red Patch"
+ holy_order_sir_arthur: "Sir Arthur Curie's Round Table"
+ holy_order_devils: "Little Black Devils"
+ holy_order_martyrs_entente: "Martyrs's Entente"
+
+#paracletian
+ holy_order_vulpine_marathoners: "Vulpine Marathoners"
+
+#tetramorph
+ holy_order_azure_berets: "Azure Berets"
+
+#avrodite
+ holy_order_squadron_of_the_archangel_avro: "Squadron of the Archangel Avro"
+ holy_order_royal_canadian_air_force: "Royal Canadian Air Force"
+ holy_order_avros_bombadiers: "Bombadiers"
+ holy_order_air_command: "Air Command"
+
+##viticulturian
+ holy_order_sacred_carousel: "Sacred Carousel"
+ holy_order_army_of_belgrano: "Army of Belgrano"
+
+##wellness
+ holy_order_unenlightened_anonymous: "Unenlightend Anonymous"
+ holy_order_leadership_dynamics: "Leadership Dynamics"
+ holy_order_living_in_the_now: "Living in the Now"
+
+##woodlands
+ holy_order_stompers_of_the_world: "Stompers of the World"
+
+#superfamily
+ holy_order_ruby_distributors: "Ruby Distributors"
+ holy_order_emerald_distributors: "Emerald Distributors"
+ holy_order_amethyst_distributors: "Amethyst Distributors"
+ holy_order_pearl_distributors: "Pearl Distributors"
+ holy_order_topaz_distributors: "Topaz Distributors"
+
+##zoroastrian
+ # conveniently enough, base game loc should already cover these
+
+#patriote
+ holy_order_nouveaux_patriotes: "Les Nouveaux Patriotes
+ holy_order_les_habs: "Les Habitants Temporel"
+ holy_order_bloc_populaire: "Le Bloc Populaire"
+ 
+ 
+

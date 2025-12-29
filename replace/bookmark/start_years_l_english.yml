@@ -1,0 +1,310 @@
+﻿l_spanish:
+ # l_spanish:
+ # l_german:
+ # l_french:
+ # l_russian:
+ # l_simp_chinese:
+ # l_korean:
+ bm_group_2666: "2666"
+ start_year_2666_07_04_desc:0 "The world suffered tremendously from the [Concept('the_event_ate','Event')|E], but did not die out completely. Although scarred, the Earth still provides home for humanity. Now, in the midst of the 27th century, one part of the world is beginning to organize themselves, to rebuild and expand outward. Driven by greed, by righteousness, by bloodlust and by all the sins and virtues, rulers and adventurers will reshape the world. Let there be man!"
+
+ #### Ghosts of the North
+  bm_ghost_of_the_north:0 "Ghosts of the North"
+  bm_ghost_of_the_north_desc:0 "The North is an old land, full of memories and ghosts. The once-proud kingdoms of Quebec and Ontario have fallen, laid low not by outsiders, but by threats and betrayal from within. The Lords of Hudsonia witnessed the fall, and fear a similar doom. Their King is a pale reflection of the dead Clintons, and each suspects the other of working to take the throne. Likewise, the Queen of the Maritimes rules her lands with an iron fist, brooking no internal discord - and yet, she sees her people diminish year by year, beset by raiders and worse. \n\nIn keeps and courts along the Saint Laurent, ambitious dukes and counts scheme and plot to reclaim their fallen kingdoms, a breakout sect of tolerant pacifists has brought a moment of calm to troubled lands in Ontario, and in New York, powerful monied interests aim to build their fortunes, capitalizing upon the coming wars. But, unknown to them all, in Boston, a dreamer has visions of a once and future kingdom, and on the shores of Lake Huron a young man has sworn oaths of blood and revenge, threatening to upend the entire affair."
+  ### CHARACTERS
+
+  bookmark_gn_franklin_ironwrit:0 "President Franklin"
+
+  bookmark_gn_hudsonia:0 "King Baltus"
+  bookmark_gn_hudsonia_desc:0 "Hudsonia's fortunes have declined somewhat of late, with its glory days under the Clinton kings long in the past. Although the realm appears united, the authority of the crown is weak, and Baltus III Vanderbronx's reign is plagued by religious strife and disloyal vassals. Many claim descent from the Clintons, and each believe themselves the rightful ruler of the throne. Beyond the borders of Hudsonia, Diabolists and Viking raiders stir. If Baltus can ride the storm and restore Hudsonia to its old strength, he will be remembered as the equal of those that came before. However, should he fail, he, and Hudsonia, will be doomed to obscurity."
+
+  bookmark_gn_deitsch:0 "King Abram VII"
+  bookmark_gn_deitsch_desc:0 "King Abram VII rules the Kingdom of Dutchland, one of the oldest and most stable realms in all of Old America. Dutchland has not seen war in over two hundred years, and it currently enjoys good relations with its fellow Anabaptists in the Kingdom of Hudsonia. However, Abram himself faces a rather serious problem. His wife, Isidora, has not yet given him a child, and, at age 49, it seems certain that she never will. Will the Lengacher dynasty die with him, or will he find a way to keep his line alive, no matter the cost?"
+
+  bookmark_gn_calvin_watterson:0 "King Calvin"
+  bookmark_gn_calvin_watterson_desc:0 "For centuries, the Kovacs-Clayton dynasty ruled over the twin monarchies of Greater Reserve and Alleghenia. However, when the last king died childless in a Lake Erie storm, the region plunged into chaos as once-peaceful neighbors  fought to claim the Crown for themselves. Into this chaos came Soady raiders, seeking to plunder the wealth of Erie's shores. Some lingered, attempting to carve out a kingdom for themselves but Boyd Watterson, a minor noble from outside Cleveland, rallied the lords of the Reserve to expel these Viking raiders. In a climactic battle, the invaders were broken and expelled, but not without losses. Now, Boyd's young, rambunctious child has been placed on this shaky throne, but can he hold the realm together while growing into this lofty position?"
+
+  bookmark_gn_nyc:0 "Duke Thaddeus"
+  bookmark_gn_nyc_desc:0 "The Big Apple was once the greatest city in the world. Though it is nowhere near the grandeur of its pre-cataclysmic days, it has survived and rebuilt, reclaiming its place as one of the economic and cultural capitals of the eastern seaboard. Over the centuries, the Republic has weathered war and calamity, surrounded by the many factions of the tumultuous Northeast. Thaddeus Theovelt is the newest patriarch of a long line to govern New York City. His rule has been wise and just, bringing both enemies and allies into the fold. But for all the glory that he has brought to the city that never sleeps, he must still beware, for his fellow patricians are ambitious. Americanists have few friends among their neighbors, and war is almost more common in the region than trade. Will New York prosper under his patronage, or will it fall to its enemies?"
+
+  bookmark_gn_boston:0 "Count Paul"
+  bookmark_gn_boston_desc:0 "Centuries ago, the House of Mahonic ruled a mighty, prosperous kingdom that bound together the people of the Northeast, and was a name known - and feared - by every living thing east of the Mississippi. Now, though, those days are distant memories, living only in tomes in the great Crimson Library or in tales told to scare young children into behaving. And yet, the Mahonics are not entirely gone. The road ahead is treacherous, but not hopeless - for young Paul dreams of ancient whispers, murmuring untold truths, guiding him as he strives to surpass his ancestors in his quest to reunite New England."
+
+  bookmark_gn_maritimes:0 "Queen Caitlin"
+  bookmark_gn_maritimes_desc:0 "The Maritimes stand where many others have failed. The sole old Canadian kingdom that remains, Queen Caitlin Beaton's realm is a beacon of stability in a region marked by turmoil. Yet, many seek to disturb the Queen’s peace. The devil worshiping tribes of New England threaten to raid and pillage, and sea pirates are at the shores. Internally, a delicate balance of power exists between Acadien, Maritimer, Gàidheal, and Mikmaq lords. Will the Beatons be able to keep their throne, or will this house of cards come crashing down?"
+
+  bookmark_gn_montreal:0 "King Roland"
+  bookmark_gn_montreal_desc:0 "Roland Turcot is the patriarch of an old noble family based in Montréal, the esteemed House of Turcot. In 2629 the death of Véronique Castel, Queen of Québec, sealed the fate of the Kingdom. With her descendants' legitimacy being brought into question, the realm entered into a state of constant civil wars between the Turcots and Castels. The kingdom suffered, fracturing into feuding petty local lords. Right now there is an uneasy peace, and while few acknowledge it, Roland has assumed the title of King of Upper Quebec. As the ambitious ruler of a powerful metropolis, only history will tell if Roland, or his descendants, can decisively defeat the Castels and unite Québec under their dynasty."
+
+  bookmark_gn_quebec:0 "King Paul"
+  bookmark_gn_quebec_desc:0 "Born from the controversial union of Queen Veronique Castel with Bouchard Turcot and sired amidst the war-torn conquest of Gaspé, Paul Castel's heritage has long been questioned by jealous cousins and onlookers. The bitter Quebecois civil war, sparked by Roland's insolent claim to the throne, persists as a grim echo of bygone conflicts. Yet, in the shadows of discord, Paul Castel's heart finds solace in his sole daughter, Veronique — a living tribute to his beloved mother.\nNavigating the twilight of his reign, the fragmented loyalties of Quebec echo the complexities of family and legacy, leaving Paul yearning for the elusive unity lost generational strife."
+
+  bookmark_gn_bruce_soady:0 "Constantine"
+  bookmark_gn_bruce_soady_desc:0 "Following the death of much of his family at the hands of the foolish Bruce of Bruce, Constantine Soady swore oaths of vengeance.\nGathering many of his half-siblings under his banner, and mustering a grand army of ambitious Yoopers and Northlanders, Constantine brought war to northern Ontario, claiming Bruce for his own.\nThough the erstwhile lord escaped, the ambitious Constantine now stands with a blooded and vicious army at his disposal, ready to carve out his own domain, and rival the fame of his great father, the legendary viking Albert Soady.  But it won't be too easy - though his siblings stand at his side for now. They, too, have ambitions."
+
+  bookmark_gn_toronto:0 "King Morley II"
+  bookmark_gn_toronto_desc:0 "50 years have passed since King Galway III of Ontario converted to the radically tolerant United Church, giving rise to unprecedented instability in the wake of his efforts to impose the church on the province. Now, his young son Morley has reclaimed the throne from his uncle and corrupt ex-regent Robertson Singh, and controls little outside of Toronto proper. A firm believer in his father’s adopted religion, Morley aspires to ensure the prosperity of the province. These hopes are unlikely to come to fruition, however, as his efforts to bring Robertson Singh to justice have lit the pile of kindling that was Ontario under Galway and Robertson. \nOpportunists now swarm, and among them are Morley’s own sister Maureen and the Viking raider Constantine Soady. Can he survive this onslaught of opportunists, or will Morley II become Morley the Last?"
+
+  bookmark_gn_allegheny:0 "Allegheny"
+  bookmark_gn_allegheny_desc:0 "ditto"
+
+  bookmark_gn_detroit:0 "Detroit"
+  bookmark_gn_detroit_desc:0 "ditto"
+
+  bookmark_gn_chicago:0 "Chicago"
+  bookmark_gn_chicago_desc:0 "ditto"
+
+ #### North of the Sixty
+  bm_north_of_the_sixty:0 "North of the Sixty"
+  bm_north_of_the_sixty_desc:0 "This is the place where the great myth of the frontier reached its apogee, and met its end. Where an ancient native cultural tapestry intersects with the ancient migrations from the south and east. A land of massive lakes and rivers, rolling hills, impassable and implacable mountains, and nigh-endless flats, where animal migrations dictate the flow of life. Cultures and faiths mingle here, as harsh natural conditions, short growing seasons, and ephemeral bounties force all people into common, shared modes of living. Christianity, in many forms, finds new champions, while the folklore of a rough land continues to enchant many people, who recognize few powers greater than the Midnight Sun."
+  ### CHARACTERS
+
+  bookmark_nots_greenland:0 "King Agsile"
+  bookmark_nots_greenland_desc:0 "Agsile is the young king of Greenland, new and untempered by the hardships of rule. He has a strong sense of duty and justice, and the common folk of his realm already speak of the “Good King Agsile,” yet his vassals tend to find him awkward and standoffish. While his eagerness to be a good king for everyone is evident to them, there are whispers that he doesn’t have the spine to be a strong king. Many, instead, look to the king’s nephew, an ambitious and charismatic young man. Will his nephew succeed in ousting the good king, or will Agsile manage to hold on to the throne?"
+  
+  bookmark_nots_iqaluit:0 "High Chieftain Jaasin"
+  bookmark_nots_iqaluit_desc:0 "A dashing adventurer in his youth, Jaasin underwent a journey that clasped at the boundaries of the known world and brought him fortune, glory, and a beautiful wife. He sailed into the Chukchi Sea and across the Bering Strait, meeting peoples few other even believe to be real. \n Now as he reaches middle age, Jaasin feels a deep hole in his spirit. His relationship with his foreign wife Maria has become strained and in his sleep, Jaasin dreams of distant shores and unknown lands. Will Jaasin embrace his wanderlust, or will he accept that his most treasured memories are forever behind him?"
+ 
+  bookmark_nots_avalon:0 "Morgan 'la Fay'"
+  bookmark_nots_avalon_desc:0 "Morgan was an entirely unremarkable child, the youngest of Gorlois Power’s seven children. Her fate, as much as can be described, was to be married off for alliance and prestige to one of the other Newfie lords, or to one of her father’s knights as a reward. That fate was upended entirely when, at age 12, she was struck down by a sickness that left her comatose for a week while her siblings were claimed one by one. When she awoke, finding her family gone and herself Queen of Avalon, Morgan spoke of having visited the realms of the fae, dancing with antlered courtiers, and been promised a great kingdom by a heather-crowned king enthroned in a mushroom-hall. Will the drive and ambition of this young woman bind together the tribes and petty kings of Newfoundland, or have the fae conspired to lead another mortal astray?"
+  
+  bookmark_nots_gwichin:0 "High Chieftain Paul"
+  bookmark_nots_gwichin_desc:0 "High Chieftain Paul is the most recent member of the ancient and prestigious house Charlie to unite the Gwich'in peoples, done by way of his unrivaled martial talents. \n Powerful enough to fend off his more threatening neighbors, like the heretical Inupiat on the coast, Paul's attentions are now drawn to several distinct possibilities of expansion: he could move into the Mackenzie and work to bind together the disunited peoples of Denendeh, proceed downriver to become protector of the peoples of the lower Yukon, or, at the urging of the faithful, he could stamp out the northern outposts of pagan idolatry in Dawson and Fairbanks, at last opening up the south to God and the Gwich'in. Where does his next conquest lie?"  
+  
+  bookmark_nots_alaska:0 "High Chieftain Nikolas"
+  bookmark_nots_alaska_desc:0 "Nikolas Valdeez is a learned man of law and order, and he knows much about the place of Alaska as the final frontier of Old America. He maintains a realm with greater technology and awareness of the past than any of its neighbours, and feels quite content to maintain what he has. Beyond the rich fishing waters of Cook Inlet and Prince William Sound, and the farmlands of the Mat-Su valley, there is little of immediate value to be taken: there are rustic tribes of trailwalkers further inland, Aleutian fishermen down the coast, and the stubbornly hostile Tlingit of the panhandle. However, his two sons Joseph and Gregory recognize that their realm is in a prime position to reunite the ancient 49th state, should it be inherited by a man of ambition. The frontier, they dream, may yet return home."
+  
+  bookmark_nots_qaqortoq:0 "High Chieftain Nanoq"
+  bookmark_nots_qaqortoq_desc:0 "Upon his birth, the white-haired son of Chief Eerik of Qaqortok was given the name Nanoq, meaning "polar bear" in Kalaallisut, following a traditional belief that by giving a child the name of an animal, they took on some of the characteristics of that animal. Be it divine interaction or coincidence, Nanoq indeed grew up strong and brave, but also calm and honest. He is respected for his martial skills and raw power, his snow-white hair striking terror on the battlefield. His skills, bravery, and fame will likely help him achieve many feats, maybe even fulfilling his birthright by blood - claiming the throne of Greenland."
+
+
+
+ #### Untamed West
+  bm_great_plains: "Untamed West"
+  bm_great_plains_desc: "The wide-open expanses of the Great Plains have always been dismissed as a backwater or romanticised as a wild frontier, merely a corridor between more “civilised” regions. Yet for the people who call these grasslands home, the vast, untamed west is a world unto itself. Here, great nomadic confederations rise and fall on the strength of their warriors, the fertility of their grazing grounds, and the fortunes of their trade routes. Upon this boundless sea of grass, nothing remains static. Even a lowly herder can carve out a legend—whether as hero, outlaw, or something far more ambiguous, through a single daring feat."
+
+  ### CHARACTERS
+
+  bookmark_gp_lakota: "Thašúŋke Lúta"
+  bookmark_gp_lakota_desc: "The current dominance of Očhéthi Šakówiŋ, or the Seven Council Fires, is a project generations in the making. Strategic intermarriage, careful expansion, and shared history have allowed them to avoid the instability that the Ozborns and their Garland successors have suffered to the south, and unite the plains of the Dakotas into a force to be reckoned with. For the past 13 years, Thašúŋke Lúta has diligently followed the path set by his ancestors. But opportunity abounds around him, and the weakness of his neighbours will not last.\n\nCan he chart a course that leads Očhéthi Šakówiŋ to dominion over the prairies? Or will his caution prove to obstruct his goals?"
+
+  bookmark_gp_comanche: "Isawura"
+  bookmark_gp_comanche_desc: "Young Isawura Tosaabitu rose from the southern plains, a Comanche war-leader who forged a coalition of exiles into a force that shattered Grangelander bands and pushed deep into Texan lands. Swift, disciplined, and relentless, he carved a foothold where others only raided.\n\nBut Tosaabitu’s strength isn’t just martial, it’s spiritual. His campfires burn late with prayer, song, and sacrament, and his words carry the weight of prophecy. He speaks of cleansing the land, of restoring harmony through struggle, of a sacred path that demands sacrifice. For many, it's this unshakable faith, not just his victories, that commands loyalty.\n\nNow, his war-band is becoming a realm. Tributaries swear fealty, rival chiefs offer uneasy respect, and Tosaabitu rules from a growing stronghold. But these alliances are fragile. Texans regroup, Grangelander remnants linger, and within not all share his fervor."
+
+  bookmark_gp_colorado: "Jen"
+  bookmark_gp_colorado_desc: "Chaos has been a rule among the Grangelanders for centuries. The gains of each new warlord inevitably turn to naught amidst the squabbing of their contentious offspring. The Garlands proved no exception to this, but Jen sees another path. The rich merchants of the Front Range, through their Buddhist faith and wealthy cities have outlasted many a Trailwalker warlord. But the weight of tradition is hard to resist, and Jen does not lack for opponents, least of all her battle-hardened older sister.\n\nCan she ensure that her family lasts in the shadow of the Flatiron Range? Or will the Garlands be just another name blowing in the Kansas wind?"
+
+  bookmark_gp_nebraska: "Absalom"
+  bookmark_gp_nebraska_desc: "For generations, the Ozborn family ruled most of the Central and Southern Plains with an iron grip, that is until the Garlands began their slow, calculated rise. As the Ozborns faltered, Absalom saw his chance.\n\nHe aligned himself with the ascending Garlands, charming his way into the inner circle of highborn lords and, more crucially, into the graces of Merriweather Garland’s young daughters. Through cunning, seduction, and careful maneuvering, Absalom won more than just favor, he convinced Merriweather to grant him his youngest daughter’s hand and even back his campaign to subdue Nebraska, the last great bastion of the Ozborns.\n\nIn return, Absalom served as a loyal instrument in the Garlands’ expansion... until the perfect moment showed itself. After Merriweather sudden and mysterious death, only his three daughters were left behind and Absalom found it easy to sow discontent amidst them.\n\n\nNow, with his wife ready to unseat her sisters and the Garland legacy set to be reshaped in his image, Absalom stands just two steps away from ruling the Central Plains."
+
+  bookmark_gp_preiryansky: "Zorïa Cherwona"
+  bookmark_gp_preiryansky_desc: "Zorïa Cherwona—the Red—rose from the wind-scoured sichs of the Preiryansky clans with a saber in her fist and bloodlust in her stride. They named her Cherwona not for her scarlet hair, but for the blood that turned the snow crimson after she massacred the Stephanyk House. For what began as a raid became a reckoning with only Petropawlo Poltavowych Stephanyk, once-king of Saskatchwan, escaping the ambush, finding refuge near the bands of Winnipegosis Lake.\n\nAlongside her faithful follower, Taras Nik’hordan, son of the war-king slain by the blade of Petropawlo himself, she has carved a path of conquest from Saskatoon to Regina.\nNow the prairies thunder with the hooves of her growing clans as foreign lords whisper her name with dread. Zoria’s response is unambiguous: banners raised, herds gathered, war drums sounding across the grass sea.\n\nIn the following years, the land will choose its truth: Saskatchewan as mere memory—or the cradle of an empire born in red snow."
+
+  bookmark_gp_cree: "Maskwa"
+  bookmark_gp_cree_desc: "Maskwa Cardinal, chief of the Pimicikamak Band and keeper of the Sun Dance ways, rose amidst the quiet spaces left by Stephanyk’s collapse. While warlords clashed, he gathered his scattered people, the broken lineages and old loyalties rekindled under his small realm.\nHe dreams of peace, of a homeland ruled not by the sword, but by custom and kinship. Yet Zorïa Cherwona’s rise darkens the horizon. Her scouts have been seen near the river crossings. Her silence, he knows, is a warning."
+
+  bookmark_gp_edmonton: "Gordon the Greasy"
+  bookmark_gp_edmonton_desc: "For Gordon, the oil tapped from the soil is not fuel for fires; they are a blessing. Drawn from the oozing shalebeds by hand and horn-ladle, it is used only in sacred ritual: anointing the hooves of stallions before a raid, sealing oaths in black, and breathed deep by the faithful. Warriors inhale it before battle, chieftains before decisions and religious officials during ceremonies. The Soiltappers do not waste it, Gordon, least of all.\n\nThough his scouts report new rich veins of dark blessing in foreign, heathen lands, Gordon has delayed the great migration. Not from cowardice, but from caution. He knows well what such claims demand: war, blood-feuds, and ash on the grass. And while many horse-lords would leap at the chance, Gordon’s callous patience holds. He would rather let rivals bleed each other first. When he rides, it will not be in haste; it shall be with purpose."
+
+
+
+ #### Sunshine Sagas
+ bm_sunshine_sagas:0 "Sunshine Sagas"
+ bm_sunshine_sagas_desc:0 "Florida has been home to many heroes and scholars that have tried to unify the fractious population of cunning outlaws, wannabe warlords, and canny merchants that call the Sunshine State their home. Over the many centuries, they have only managed to prove that these lands can not be ruled by cunning, strength, or gold - at least not alone."
+ 
+  ###Characters
+ 
+  bookmark_florida_argo_first_coast:0 "High Chieftain James II"
+  bookmark_florida_argo_first_coast_desc:0 "The First Coast is a realm doomed to perpetually walk a razors edge, but James Argo is a man prepared to walk it with grace. Many of his subjects clamor for plunder and loot; they wax endlessly of the days when Floridian riders harassed the Commonwealth with impunity. Simultaneously, the land-hungry Dukes of the South eye Floridian lands with greed. To them, pagan lands are as ripe fruits waiting to be plucked - they need no provocation. The Dixies already break their treaties to seize lands east of the Appalachicola that are rightfully Floridian.\n\nThough he is unwilling to strike first, James is not the meek poet many in his realm claim him to be. The winds are changing, and a storm brews. The Commonwealth is strong now, but a true Floridian knows that even the mightiest oak may be broken if it refuses to bend. In such an event, it may be time to show the northerners the true strength of a Florida man."
+  
+  bookmark_florida_gaspar_gasparailla:0 "Captain José"
+  bookmark_florida_gaspar_gasparailla_desc:0 "José Gaspar is the Last of the Buccaneers, the heir to an ancient dynasty of swashbucklers and scallywags that have terrorized the Gulf for centuries. Just some years ago, there was no enemy fleet that could dream of challenging the Mystic Crew of the Gaspars. It was mutiny that reduced the Commodore of Suncoast to the captain of a swamp port, forced to kiss the feet of a preening peacock, the bleeding heart Shriner Ali Nelson. In better times, the Shriners stitched the wounds of the real warriors that brought gold and glory to Tampa. They aren’t fit to captain a parade, much less a fleet of ships.\n\nEven so, there is hope. The winds are changing, and a storm brews. So long as José Gaspar has a sword and a ship, no man is safe. Soon, the Gaspar Crew will return to Tampa in triumph and send the ‘Fabulous He’, and any man, woman, or child that dared join his wretched mutiny, to plead their case before Davy Jones. After that, the Gaspars may return to their rightful place in the nightmares of landlubbers from Grenada to Galveston!"
+  
+  bookmark_florida_dorsalis_miami:0 "Duke Usnavi"
+  bookmark_florida_dorsalis_miami_desc:0 "Usnavi has never wanted for gold. The Coffee Current that spans from the jungles of Brazil to the wealthy cities of the Atlantic has made Miami one of the richest cities in America. Yet as the ancient proverb goes, more money brings more problems. His position is envied by the other wealthy families of the Gold Coast, who doubtless think they could steer trade towards their family’s ports. His vassals are wealthy and clever, but they lack self-control. Gold is easy to find in Miami, it is peace that Usnavi has come to treasure above all else.\n\nExperienced and wise in his age, Usnavi nevertheless worries for the future of his lands. The winds are changing, and a storm is coming. The realm is made weaker by the constant infighting between noble families seeking high office. It has been a century since the Gold Coast was last threatened, and Usnavi fears that without his sensible guidance the ship of state may not survive the next storm."
+
+  bookmark_florida_mico_everglades:0 "Count Holatta"
+  bookmark_florida_mico_everglades_desc:0 "Holatta rules a land that most families in the Gold Coast consider a worthless swamp. To them, being granted the Everglades is more of a curse than a gift. Holatta knows better. The Everglades were not granted as a gift, they were won by an unconquered people. Within them lies a wealth unseen by the gold-minded families to the east. Not in land to be dredged or in trinkets to be sold, but in life to be cherished.\n\nHolatta has fostered a strength rooted deeply in his lands and his people. Like a mangrove with its roots in the waters but its branches in the sky, Holatta is sure-footed even as he aspires to greater things. The winds are changing, and a storm is coming. Those who have forgotten to take root will be swept away. Let the city-folk play their games and amass their gold, Holatta will win his glory on horseback with the victory songs of his people carried on the mighty wind."
+  
+  bookmark_florida_waltney_mouse:0 "High Chieftain Elias"
+  bookmark_florida_waltney_mouse_desc:0 "The latest in an ancient tribe of storytellers, engineers, and leaders, Elias was the second born of his father. Where his elder brother Oswald was a boy of manicured appearance and careful contemplation, Elias was an adventurous youth with a love of the stars and sleeveless tunics. Old Mortimer saw in Elias a unique mix of joy, bravery, and ambition that destined him to become a paragon of the Imaginerian ideals. Elias was chosen to succeed his father in place of his elder brother, Oswald, for Mortimer knew that Elias had what it took to make his dreams come true. Soon after inheriting the leadership of the House of Mouse, Elias began to rally the rugged horsemen of the Eyefour with promises of something more than gold or fame. Elias spoke of a dream long dormant in these lands. A dream of a land where a poor artist could turn a worthless swamp into a kingdom of magic, a dream of a land where ships left to land on the surface of the moon, a dream of a land where people from all corners of the earth came for pilgrimage. In the hearts of cynical cowpokers and raiders, he rekindled the dream of America."
+  #\n\nNow Elias stands at the head of an army ready to follow him to the moon and back. No one knows what he intends to do next. Many believe he will want to consolidate Florida under the Waltney banner, but these people lack vision. The winds are changing, and a storm is coming. The certainties of the past give way to infinite possibilities. For now, Elias has something more valuable than a plan or strategy. He has something sacred to the Floridian ethos that has driven men to accomplish great and terrible deeds in the past. Elias has dreams."
+
+  bookmark_florida_nelson_suncoast:0 "Emir Ali 'Fabulous He'"
+  bookmark_florida_nelson_suncoast_desc:0 "What do you call a ruler that cares for his people? A man who uses the riches of the Gulf Sea commerce to build hospitals and housing for his people? A man who listens to the needs of his people like those of his children? A man who took up arms to free them from the tyrant Commodore Jose Gaspar? What epithet can describe a man who is looked upon with unrivalled love and devotion by his subjects? Why, what other title would suit that man than Emir Ali, Fabulous He, Lord of the Suncoast?\n\nAli’s favor in the eyes of the people is undisputed, yet among the ruling powers of Suncoast there is more dissent. Suncoast has always been ruled by the ruthless Gaspars, and many question whether the compassionate and soft-hearted Ali has what it takes to rule such a realm. The winds are changing, and a storm brews. Can Ali maintain his kindness and generosity in the face of adversity, or will the fabulous Emir be forced to muddy his reputation to secure his reign?"
+
+ #### Sea of Cannibals
+  bm_caribbean:0 "Sea of Cannibals"
+  bm_caribbean_desc:0 "For centuries, the balance of power in the Antilles was dominated by the two mighty kingdoms of Cuba and Hispaniola. However, with a peasant rebellion in Cuba challenging the undisputed rule of house Buenavista and the dynastic intrigues in the island of Hispaniola splitting the old kingdom in half, the old order has fallen prey to warring lords and intrepid pirates.\n\nAs a trawler in troubled waters, the situation has been seized by the young conqueror Portia Seacole, who has rapidly expanded her domain over the islands. Only time will tell if the old order will be restored or if a new power will rise over the sea of cannibals."
+
+  ### CHARACTERS
+
+  bookmark_caribe_indies:0 "Queen Portia"
+  bookmark_caribe_indies_desc:0 "After the mysterious death of her father, Portia was left with two things: a dream of unifying the Antilles under a single banner and an army powerful enough to make that ambition a reality. Through skill and sheer bravado, the young conqueror expanded her humble duchy of Jamaica into a powerful kingdom, but she is still far away from being able to call herself an empress.\n\nWill queen Portia live to see her dream fulfilled or will she be a flame that burns bright but doesn't last long?"
+
+  bookmark_caribe_havana:0 "Omara the Young"
+  bookmark_caribe_havana_desc:0 "As the firstborn of the king of Cuba, Omara’s destiny was always to rule. This destiny was stolen from her after the southern rebellion took her father’s life and caused the kingdom to collapse. After that, her treacherous uncles seized the opportunity to take away what was the young princess' birthright, like vultures to a carcass. Only the old capital remains in the heiress’ hands.\n\nCan princess Omara retake what is hers or are the days of house Buenavista on the throne over?"
+
+  bookmark_caribe_oriente:0 "Celia"
+  bookmark_caribe_oriente_desc:0 "For centuries over the Cuban neck lay a Christian yoke, but this came to an end with the rise of Celia the liberator. Born a simple peasant, Celia was given a vision at a young age that commanded her to liberate the native Santeros of Cuba from the oppressive rule of house Buenavista. So far, her holy quest has secured her the east of the island and the head of the old king as a trophy.\n\nWill Celia free her faithful brethren or is Cuba doomed to Christian rule for centuries to come?"
+
+  bookmark_caribe_haiti:0 "King Ésaü II"
+  bookmark_caribe_haiti_desc:0 "Son of a murdered father and heir to a usurped throne. Young Ésaü had his rightful place as king of Hispaniola stolen by his pusillanimous uncle and the women of the court that kept the coward in a short leash. But the young lion still had claws, and in a daring move the prince rose in rebellion and seized half the island, restoring the old throne of Haiti.\n\nWith the island divided and the usurper ruling in the east, Ésaü is still far from reclaiming his birthright. Will the new king regain his throne or is the island doomed to division?"
+
+  bookmark_caribe_dominicana:0 "King Israel"
+  bookmark_caribe_dominicana_desc:0 "Israel was the only trueborn son of the king of Hispaniola, a reality that his bastard brother refused to accept. As such, a conspiracy was webbed by the queen mother and the Christian lords of the island to place the rightful ruler on the throne and send the usurper to the grave. And yet, like a bad weed that refuses to die, the bastards’ son still had the audacity to rebel against his liege and take half the island for himself.\n\nWill Israel unify the land, or is his throne doomed to be ruled by an illegitimate line?"
+
+  bookmark_caribe_puerto_rico:0 "Duke Ramón"
+  bookmark_caribe_puerto_rico_desc:0 "The Ayala were once the proud rulers of a free Puerto Rico. That changed when the heretic invader Portia Seacole invaded the island and subjugated its inhabitants. And for the crime of defending his people, she executed not only the duke, but also his children. With the main branch of the family gone, Ramón Ayala was forced to swear fealty to the tyrant and kiss the ring of an infidel.\n\nCan Ramón avenge the slaughter of his loved ones, or will the Ayala be slaves to foreign rule for years to come?"
+
+  bookmark_caribe_trinidad:0 "Duke Aloysius"
+  bookmark_caribe_trinidad_desc:0 "The easygoing lord of Trinidad and Tobago, Duke Aloysius and his realm have prospered due to the Caribean trade routes. Remaining peaceful and stable in a relatively chaotic region, Aloysius is prepared to let the good things in life keep coming. Unfortunately, outside powers, be they from the West Indies or the South American mainland, may put Aloysius' calm in jeopardy. \n Will Aloysius be able to keep Trinidad and Tobago free, or will he and his people fall beneath the oppression of a more powerful ruler?"
+
+  bookmark_caribe_sparrow:0 "Captain Jacques"
+  bookmark_caribe_sparrow_desc:0 "Jacques is like a sparrow, completely unremarkable. He is not the smartest, the strongest, nor the best of the pirates. But he may be the luckiest, as he has risen recently as the ruler of the nest of killers, whores, and raiders that is the island of Tortuga. His domain is far from impressive, and his name is hardly known, but maybe one day that will change."
+  BOOKMARK_CHARACTER_DIFFICULTY_PIRATE:0 "YARRRR"
+
+
+ #### NORTHWEST
+ bm_northwest:0 "Upon the Misty Mountains"
+ bm_northwest_desc:0 ""
+
+
+ #  ### CHARACTERS
+
+ bookmark_nw_k_great_coast:0 "King Skilhlang II"
+ bookmark_nw_k_great_coast_desc:0 ""
+
+ bookmark_nw_d_lower_mainland:0 "Duke Karavanveer"
+ bookmark_nw_d_lower_mainland_desc:0 ""
+
+ bookmark_nw_d_vancouver_island:0 "Warden Garth"
+ bookmark_nw_d_vancouver_island_desc:0 ""
+
+ bookmark_nw_d_portlandia:0 "Warden Kaitlin"
+ bookmark_nw_d_portlandia_desc:0 ""
+
+ bookmark_nw_d_ahmadiyya:0 "Caliph Zulqarnain "Bronco""
+ bookmark_nw_d_ahmadiyya_decs:0 ""
+
+ #### Patria Grande
+  bm_patria_grande:0 "Six Hundred Years of Solitude"
+  bm_patria_grande_desc:0 "For a brief moment, it seemed like the Gran Colombia of old would be united once more. While that moment ended more than a century ago, its scars still mark the land. The faith that united the nation still dominates the hearts of its people, while strange heresies have appeared in its outskirts, and the blood of the heirs to the imperial throne has yet to die.\n\nTo the east, in the lands of old Venezuela, the faith of the land never arrived. The Caribbean still prays to its old gods, too numerous for anybody to know all their names. And in the plains, men who live among horses worship names of horror that outsiders would only whisper.\n\nWith the land fractured into a hundred little realms, it seems like uniting the Fatherland is nothing but a pipedream, but perhaps a land doomed to six hundred years of solitude will see her second life on Earth."
+
+  ### CHARACTERS
+
+  bookmark_patria_zac_patria:0 "Zacarías, the last caudillo"
+  bookmark_patria_zac_patria_desc:0 "Zacarías Alvarado is the heir to a glorious line, to the title of patriarch of the faithful, to the imperial throne of Colombia. And yet, over the generations, the possessions of his house have been reduced to a few lands near the old imperial capital. As the last caudillo of the line of the Falso Libertador enters his final years, the future of the dynasty and the faith seems darker than ever.\n\nCan the House of Alvarado return to its imperial glory, or is this truly the autumn of the patriarchs?"
+
+  bookmark_patria_panama:0 "Miguel the Usurper"
+  bookmark_patria_panama_desc:0 "Perfidious rumors have surrounded the king his entire life. Some say that his relationship with the late king Zacarías was more than platonic, some others that it was his hand that took the old monarch’s life, or even that he usurped the throne by trickery and deception. Ultimately, none of these lies matter to the king, for his is the hand that controls the lands that unite the North and the South.\n\nWill the king keep his good name and bring a prosperous rule to Panamá, or will his past finally catch up to him?"
+
+  bookmark_patria_chiriqui:0 "Bendición"
+  bookmark_patria_chiriqui_desc:0 "A heavy weight lays upon the soul of young Bendición Alvarado. Rumors swirl of her uncle's murder at the hands of a treacherous lover, the usurpation of her mother's rightful throne, and secret toasts made by unseen allies. It is a tragedy for a girl to lose her childhood, but as the heiress to a powerful royal family, she will have to learn how to play the games of rulership and intrigue or else she may lose much more than the freedom of her youth.\n\nWill the princess regain her family's honor or should her supporters accept that their princess is destined to lose?"
+  bookmark_patria_chiriqui_aristides:"Aristides"
+  BOOKMARK_RELATION_USURPER:"(Usurper)"
+  bookmark_patria_chiriqui_zacarias: "Zacarias"
+  BOOKMARK_RELATION_LATE_UNCLE:"(Late Uncle)"
+
+  bookmark_patria_macondo:0 "Arcadio III"
+  bookmark_patria_macondo_desc:0 "Macondo has no long and proud history, a land named after a city of dreams from an ancient holy book. Founded just a few generations ago by men tired of the tyranny of kings, the resulting republic only survives thanks to a delicate balance of power between influential men of different faiths and conflicting interests. While the land may be volatile, it is clear that its people will bow to no king.\n\nWill its newest ruler, Aracadio III, secure the future of the republic, or is Macondo a place destined to live only in legend?"
+  bookmark_patria_macondo_alvarado: "Apolinar"
+  BOOKMARK_RELATION_RIVAL: "(Rival)"
+  bookmark_patria_macondo_rebeca: "Rebeca"
+  BOOKMARK_RELATION_WIFE: "(Wife)"
+
+  bookmark_patria_zulia:0 "Oneida"
+  bookmark_patria_zulia_desc:0 "Queen Oneida Santos is the leading defender of the Madre Patriota faith and champion of the Wayuu people, continuing a proud tradition passed down through her family. Unlike her neighbors, Oneida has maintained a realm free from the drama and intrigue that often plague the region, positioning her advantageously amid surrounding chaos and infighting.\n\nRecently, she bolstered her influence by backing her sister-in-law's rise in the Aguas region, subduing the last Patriota holdouts in the southern Maracaibo Basin, and forging a strategic alliance with the ascendant Macondo Republic. These achievements have secured her a remarkably stable domain in a region typically marred by petty rivalries.\n\nAs she continues to consolidate power, will Oneida be able to maintain her realm's prosperity amidst the shifting tides of regional politics?"
+  bookmark_patria_zulia_juliana: "Juliana"
+  BOOKMARK_RELATION_SISTER_IN_LAW: "(Sister-in-Law)"
+  bookmark_patria_macondo_rebeca: "Rebeca"
+  BOOKMARK_RELATION_SISTER: "(Sister)"
+
+  bookmark_patria_venezuela:0 "Ariel"
+  bookmark_patria_venezuela_desc:0 "Ariel once dazzled Caracas with her brilliance. A gifted diplomat, compassionate leader, and the vibrant face of a prestigious dynasty that had long shaped Venezuela’s destiny, she was revered for her charm and skill in navigating the complex web of politics. Elected as Venezuela’s Queen, Ariel became a symbol of hope in a turbulent world, but the devastating loss of her father, and especially her beloved mother, shattered her spirit, plunging her into a deep, unshakable melancholy.\n\nNow, Ariel has become a recluse, trapped within the walls of her own grief and despair. She has withdrawn from the public eye, retreating into isolation and neglecting the nation she once vowed to protect. Her once vibrant court now echoes with whispers of concern and uncertainty as Venezuela drifts without her steady hand.\n\nAriel León must find the strength to rise above her sorrow, or risk losing the realm that so desperately needs her guidance."
+  bookmark_patria_venezuela_concepcion: "Concepcion"
+  BOOKMARK_RELATION_LATE_MOTHER: "(Late Mother)"
+  bookmark_patria_venezuela_maritza: "Maritza"
+  BOOKMARK_RELATION_CLAIMANT: "(Claimant)"
+
+  bookmark_patria_llanos:0 "Doña Barbara"
+  bookmark_patria_llanos_desc: "From her humble beginnings as a poor herder’s daughter, Barbara Gallegos has been driven by a single, consuming ambition: to conquer the world. Fixated on her quest, she followed in the footsteps of the infamous Juan Machete, making a fateful pact with the Devil. In exchange for her soul and life, she would achieve immortality—not through eternal life, but by becoming a legend etched forever in the hearts of men. Ruthless and relentless, Barbara will stop at nothing, exploiting and discarding anyone in her path, whether family or foe. She will burn it all down if she must, leading her hordes of horsemen to sweep across the land like a plague of locusts, crushing all who dare oppose her.\n\nBarbara will claim her place in history or perish in the attempt. Will her dark dreams of power satisfy her, or has she taken on more than she bargained for?"
+  bookmark_patria_llanos_marisela:"Marisela"
+  BOOKMARK_RELATION_DEPOSED_DAUGHTER:"(Deposed Daughter)"
+  bookmark_patria_llanos_santos: "Santos"
+  BOOKMARK_RELATION_LOVER: "(Lover)"
+
+  bookmark_patria_amacuro: "Udoni"
+  bookmark_patria_amacuro_desc: "Born in the marshes of the Orinoco Delta, Uboni Haburi’s early life was shaped by struggle and survival. From these humble beginnings, he rose to prominence through a rare blend of physical prowess and sharp cunning. While his feats as a hunter earned him admiration, it was his strategic mind and shrewd maneuvering that truly set him apart. In less than a year, Uboni evolved from a bold youth to a respected commander and now the young leader of the Delta itself.\n\nNow Uboni faces his greatest challenge yet, the unending ambitions of the growing Bolivar realm—a true test of his leadership, cunning, and resolve."
+
+  bookmark_patria_tierradentro: "Machiche"
+  bookmark_patria_tierradentro_desc: "Queen Machiche Araucaima was born into a society that relegated women to subservience, but with charm and cunning, she defied expectations and seized her rightful throne. Reveling in her newfound power, she surrounded herself with lovers and indulged in every excess.\n\n Her life changed with the arrival of Angela, a mysterious outsider who spoke of the grand matriarchy of Suuria beyond the Andes. Enchanted by these visions, Machiche embraced the Matriotica faith, publicly naming her lovers as official concubines and plunging her realm into turmoil. Angela’s influence only fueled the growing chaos, unsettling the Queen’s court.\n\n Now, Machiche stands at a crossroads: can she reclaim control of her fractured realm, or will the chaos she unleashed destroy everything she has built?"
+  bookmark_patria_tierradentro_angela: "Angela"
+  bookmark_patria_tierradentro_daza: "Lorenzo"
+  BOOKMARK_RELATION_REVOLTING_VASSAL: "(Revolting Vassal)"
+
+	bookmark_patria_antioquia: "Maria"
+  bookmark_patria_antioquia_desc: "Seeking revenge against her bastard uncle Atanasio for ousting her from the Antioquian kingdom after the mysterious deaths of her father and his brother, Duchess Maria Isaacs is gathering all her loyalist around Medellin to march against the man who usurped what is rightfully hers. However, Antioquia is not a realm without other contenders, as her cousin Efrain, a Duke ruling over Cauca Valley is raising is own bid for the realm. While the two have a complicated relationship, he may be a possible ally in their shared quest to defeat their uncle. Whether his own ambition might lead to betrayal remains to be seen.\n\nWill Maria be able to reclaim her birthright, or will her passions bring her to an early grave?"
+  bookmark_patria_antioquia_efrain: "Efrain"
+  bookmark_patria_antioquia_atanasio: "Atanasio"
+  BOOKMARK_RELATION_COUSIN: "(Cousin)"
+  BOOKMARK_RELATION_UNCLE: "(Uncle)"
+  
+	bookmark_patria_bolivar: "Rafael"
+  bookmark_patria_bolivar_desc: "For King Rafael Soto, his journey to unite the Orinoco basin began in the heat of conflict against a engihbouring band. What was meant to be a swift raid—one more demand for tribute—became something far more transformative when Rafael found himself face to face with the band’s ruler, Sigfrido Vellorini. At first, Sigfrido’s goal was simple: placate the invader and protect his people. But as their words unfolded, they discovered a shared conviction that went beyond conquest—an ambition to bind their territories together in mutual prosperity along the river’s fertile banks."
+  bookmark_patria_bolivar_sigfrido: "Sigfrido"
+  BOOKMARK_RELATION_CO-FOUNDER: "(Co-Founder)"
+  bookmark_patria_bolivar_gabriel: "Gabriel"
+  BOOKMARK_RELATION_COMPANION: "(Old Comrade)"
+
+  bookmark_patria_cundiboyaca: "Pabaquira"
+
+  bookmark_patria_nasar: "Bayardo"
+  bookmark_patria_nasar_desc: "Bayardo Nasar has no memories of his father, Santiago- those were stolen from him by his monstrous uncles, Pabaquira and Popan. The two lured their sister Ana, her lover Santiago, and their young son Bayardo to a feast under the guise of acceptence, despite the child's illegitimate birth. This was a cruel ruse. In the midst of the festivities, as the troubadours played on, the uncles siezed Santiago and butchered him in front of the revelers. They would have killed Bayardo too, had Ana not fled in terror while her brothers savagely tore into her lover. Bayardo grew up fatherless, haunted by a past he cannot remember.\n\nWill Bayardo avenge the family that was torn from him, can he find the strength to overcome his trauma and build a better life, or is he doomed to fall beneath the blades of his wicked uncles? "
+  bookmark_patria_nasar_ana: "Ana"
+  BOOKMARK_RELATION_MOTHER: "(Mother)"
+  bookmark_patria_nasar_pabaquira: "Pabaquira"
+  BOOKMARK_RELATION_UNCLE: "(Uncle)"
+
+ #### Tales of the West
+  bm_tales_of_the_west:0 "Tales of the West"
+  bm_tales_of_the_west_desc:0 "Placeholder #todo"
+
+  ### CHARACTERS
+
+  bookmark_west_cali_emperor:0 "Emppy"
+  bookmark_west_cali_emperor_desc:0 "Placeholder #todo"
+  bookmark_west_utah:0 "Kingy"
+  bookmark_west_utah_desc:0 "Placeholder #todo"
+  bookmark_west_jefferson:0 "Kingy"
+  bookmark_west_jefferson_desc:0 "Placeholder #todo"
+  bookmark_west_baja:0 "Kingy"
+  bookmark_west_baja_desc:0 "Placeholder #todo"
+
+ #### SOB O ANIL - BRAZIL
+  bm_sob_o_anil:0 "Sob o Anil"
+  bm_sob_o_anil_desc:0 "In a region shaped by the passage of over four centuries since the Restoration, whispers of discontent now weave through the air, carrying the potential for turmoil, rebellion and change. As embers of unrest smolder within the Empire, a vast expanse of untamed lands stretches westward and southward. There, the nomadic tribes of the Cerrado and the Pampas stand poised, their eyes gleaming with anticipation of Brazil's fall. In the north, amidst the lush embrace of the Amazon, different peoples, each bound to the land in their own unique way, cast wary gazes upon the encroaching threats from the outside world. \n\nUnder the blue sky, diversity reigns supreme, manifesting in a myriad of faiths, cultures, and languages. Each holds within its soul the echoes of ancient wisdom, nurturing the flame of survival against the imminent storms of change. Within this unique mixture, Old Brazil finds its soul."
+  
+  bookmark_brasil:0 "Pedro X"
+  bookmark_brasil_desc:0 "433 years after the Restoration of Maria de Ojarô, the Empire of Brazil encompasses a good part of the old pre-[Concept('the_event_ate','Event')|E] realm, stretching along the coast from the Amazon Delta to Florianópolis. An Empire composed of a myriad faiths, languages, and cultures, however, can only be held together by the delicate balance between its military, the bureaucracy, and regional interests. With the threat of rebellion once again on the horizon, Pedro X will need to divide his attention between the bickering politics of the Empire and the management of his armed forces - lest the undaunted colossus be broken once more."
+  
+  bookmark_barreiras:0 "Eduardo"
+  bookmark_barreiras_desc:0 "Situated between the lush São Francisco Valley, controlled by Brazil, and the smaller states of Old Goiás, the Duchy of Barreiras serves as the gateway between the northeastern regions of the Empire and the deep Cerrado of the nomads. While the potential of turmoil in Brazil may present an opportunity for expansion, Duke Eduardo must also pay attention to the hordes of Mato Grosso: Once his weaker neighbors to the west are gone, he may become the next target. Amidst these trials, the resilient souls of Barreiras persist, drawing strength from their ancestral Sagaranic religion and the fertile lands that have sustained them for generations."
+  
+  bookmark_campanha:0 "Érico"
+  bookmark_campanha_desc:0 "The blood of the indomitable gauchos runs in the veins of King Érico. Under his command, the realm of Campanha controls the southwestern parts of what was once known as Rio Grande do Sul, his nomadic hordes frequently raiding the petty states to his north. Old age, however, may prove to be his greatest enemy: As the king approaches his 60th birthday, his neighbors may seize the opportunity to attack. Campanha could potentially become a target for expansion by the kingdoms of Mesopotamia, Uruguay and Interior, or even face a Crusade promoted by the Particularist Church."
+  
+  bookmark_matogrosso:0 "Zezé"
+  bookmark_matogrosso_desc:0 "Over the last three generations, the Pena Branca dynasty has managed to forge one of the largest nomadic hosts in the history of the Cerrado. Zezé, a charismatic Boiadeiro lord, has further expanded the domains of his family over the past decade, forging a formidable horde that spans across the fertile plains of Mato Grosso. Yet, even amidst their triumphs, the horde faces its share of challenges, as the nomadic lifestyle demands constant movement and adaptability - thus, constant war. While Mato Grosso is surrounded by weaker, easier prey, rumors have reached their ears, carried on the winds of distant travelers, of great turmoil potentially brewing in the east..."
+  
+  bookmark_minas:0 "José Cláudio"
+  bookmark_minas_desc:0 "One of the most diverse regions of the Brazilian Empire, Minas is the dwelling place of followers of Terra Benta, Congada, Alternatives, Saudosists, and Apostolics - all united under the rule of King José Cláudio from the house of Maciel. Though a loyal vassal of the Emperor, rumors of instability may compel him to adopt pragmatic measures. In the event of open rebellion inside the Empire, his strategic location within reach of Rio de Janeiro will become a valuable asset for any side, leaving him with the decision to either honor his liege the Emperor, or fight for independence."
+  
+  bookmark_salvador:0 "Maurício José"
+  bookmark_salvador_desc:0 "From the sun-bathed shores to the harsh caatinga, the Kingdom of Salvador is under the benevolent rule of King Maurício, a vassal of the Brazilian Empire. While central Bahia consists of colonelates that answer directly to the Emperor in Rio de Janeiro, these could be easily compelled to pledge allegiance to Salvador, given the right opportunity. Nonetheless, some nobles anticipate that King Maurício will also look further west, toward the Kingdom of Baixo São Francisco, ruled by his own brother, José. The question remains: Will the two siblings unite to further the glory of the Van Derley dynasty, or will family rivalries transform the Northeast into a battleground?"
+  
+  bookmark_yeisibibeteri:0 "Alfredo"
+  bookmark_yeisibibeteri_desc:0 "For centuries, the Yanomami people have faced numerous threats to their existence at the hands of outsiders. While the chaos of the [Concept('the_event_ate','Event')|E] has given them the opportunity to recover their numbers and strengthen their unique culture, the recent rise of new powers in the region has rekindled the memories of the distant past. Alfredo of Yeisibibeteri, ruler of the last independent Yanomami state, finds himself squeezed between stronger neighbors, and may have to appeal to friends from afar in order to secure the safety of his people."
+  
+  bookmark_tapajos:0 "Jaciendi"
+  bookmark_tapajos_desc:0 "The Wuyjuyu people, also known as the Munduruku, have inhabited southwestern Pará since before written histories. Under the young cacique Jaciendi, the high chiefdom controls the key Tapajós Valley, one of the main arteries for trade and transportation between the Cerrado and the Amazon. For the next few years until he reaches his 16th birthday, however, Jaciendi will need to deal with his powerful regent, who will surely curb any of the young ruler's ambitious plans."

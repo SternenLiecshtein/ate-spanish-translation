@@ -1,0 +1,19 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ MY_REALM_WINDOW_HEAD_DRYAD_TAB:0 "Head Dryad"
+ YOUR_HEAD_DRYAD:0 "Your [Concept('realm_priest','Head Dryad')|E]"
+ set_councillor_head_dryad_effect.tt:0 "[THIS.Char.GetShortUIName] becomes [realm_priest|E]"
+ fire_councillor_head_dryad_effect.tt:0 "[THIS.Char.GetShortUIName] is no longer [realm_priest|E]"
+ set_selected_dryad_relation_effect.tt:0 "Select [THIS.Char.GetShortUIName]"
+ remove_selected_dryad_relation_effect.tt:0 "Clear Selection"
+ 
+ SUCCESSION_LAW_CHANGE_WINDOW_CLAN_TITLE:0 "Changing [succession_laws|E]"
+ SUCCESSION_LAW_CHANGE_WINDOW_CLAN_DESC:0 "[succession_laws|E] are dictated by the current [house_unity|E] score. Each [house_unity_level|E] will activate its corresponding [succession_law|E] unless the ruler is using a $SUCCESSION_LAW_CHANGE_WINDOW_SINGLE_HEIR_LAWS$ law such as $single_heir_succession_law$."
+ SUCCESSION_LAW_CHANGE_WINDOW_CLAN_CHANGE_LAW_BUTTON_TOOLTIP:0 "You can't change the [succession_laws|E] this way. The [succession_laws|E] of [clan|E] is determinded by their [house_unity_level|E]."
+
+ 

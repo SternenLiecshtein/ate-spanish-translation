@@ -1,0 +1,21 @@
+﻿l_spanish:
+ game_concept_cow3: "Una Ciudad de Maravilla"
+ game_concept_cow3_desc: "Esta posesión alberga una de las ciudades más impresionantes del mundo, rebosante de riqueza, cultura y comodidades que la mayoría de la gente jamás podría imaginar ni soñar con experimentar por sí misma.\n\nProgreso:\nBurge -> Metrópolis -> Megalópolis"
+
+ city_of_wonder_modifier: "[Concept('cow3','Una Burge poderosa')|E]"
+ city_of_wonder_modifier_desc: "Antaño una humilde aldea, esta posesión ha crecido hasta convertirse en una ciudad bulliciosa y próspera.\n\nEnvalentonada por la protección que brindan los soldados que recorren las murallas, esta Burge #weak (ciudad amurallada)#! ahora ostenta un gran poder cultural y económico.\n"
+
+ city_of_wonder_2_modifier: "[Concept('cow3','Una Metrópolis próspera')|E]"
+ city_of_wonder_2_modifier_desc: "Esta burge se ha expandido hasta convertirse en una Metrópolis, sirviendo como el epicentro de la cultura y el comercio de la región. Han surgido distritos diferenciados que albergan estructuras únicas y la guarnición ha sido ampliada.\n\nAunque la ciudad es una de las más grandes del mundo conocido, aún queda trabajo por hacer antes de que alcance su cúspide."
+
+ city_of_wonder_3_modifier: "[Concept('cow3','Una Megalópolis de renombre mundial')|E]"
+ city_of_wonder_3_modifier_desc: "Esta ciudad es conocida por todas partes por las abundantes oportunidades que alberga; se dice que incluso el campesino más humilde puede encontrar fortuna aquí.\n\nLas casas se alinean por las calles hasta donde alcanza la vista, con carros y animales ocupados transportando mercancías por doquier.\n\nGrandes obras de arquitectura se elevan hacia el cielo mientras la población vive protegida bajo la atenta mirada de los castillos y murallas que la resguardan."
+
+ city_of_wonder_NO_modifier: "[Concept('cow3','Una Burge poderosa')|E]"
+ city_of_wonder_NO_modifier_desc: "Antaño una humilde aldea, esta posesión ha crecido hasta convertirse en una ciudad bulliciosa y próspera.\n\nEnvalentonada por la protección que brindan los soldados que recorren las murallas, esta Burge #weak (ciudad amurallada)#! ahora ostenta un gran poder cultural y económico."
+
+ city_of_wonder_2_NO_modifier: "[Concept('cow3','Una Metrópolis próspera')|E]"
+ city_of_wonder_2_NO_modifier_desc: "Esta burge se ha expandido hasta convertirse en una Metrópolis, sirviendo como el epicentro de la cultura y el comercio de la región. Han surgido distritos diferenciados que albergan estructuras únicas y la guarnición ha sido ampliada.\n\nAunque la ciudad es una de las más grandes del mundo conocido, aún queda trabajo por hacer antes de que alcance su cúspide."
+
+ city_of_wonder_3_NO_modifier: "[Concept('cow3','Una Megalópolis de renombre mundial')|E]"
+ city_of_wonder_3_NO_modifier_desc: "Esta ciudad es conocida por todas partes por las abundantes oportunidades que alberga; se dice que incluso el campesino más humilde puede encontrar fortuna aquí.\n\nLas casas se alinean por las calles hasta donde alcanza la vista, con carros y animales ocupados transportando mercancías por doquier.\n\nGrandes obras de arquitectura se elevan hacia el cielo mientras la población vive protegida bajo la atenta mirada de los castillos y murallas que la resguardan."

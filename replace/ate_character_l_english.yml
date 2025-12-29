@@ -1,0 +1,8 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ REGNAL_NAME_MULTIPLE_NAMES:0 "$FIRST_NAME$ $NUMBER$ $REMAINING_NAME$"

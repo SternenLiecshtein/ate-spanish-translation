@@ -1,0 +1,184 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ county_nature_burial:0 "Nature Burial Held"
+ character_hosted_nature_burial:0 "Hosted a Nature Burial"
+
+ working_ivory:0 "Working Ivory"
+ 
+ 
+ flooded_forests_development_growth_factor:1 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Flooded Forests ([terrain|E])"
+ flooded_forests_construction_gold_cost:0 "$MOD_CONSTRUCTION_GOLD_COST$ in Flooded Forests"
+ flooded_forests_holding_construction_gold_cost:0 "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Flooded Forests"
+ flooded_forests_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ in Flooded Forests"
+ flooded_forests_levy_size:0 "$MOD_LEVY_SIZE$ in Flooded Forests"
+ flooded_forests_attrition_mult:0 "[command_modifier_i|E][attrition|E] Taken in Flooded Forests"
+ 
+ deep_jungle_development_growth_factor:1 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Deep Jungle ([terrain|E])"
+ deep_jungle_construction_gold_cost:0 "$MOD_CONSTRUCTION_GOLD_COST$ in Deep Jungle"
+ deep_jungle_holding_construction_gold_cost:0 "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Deep Jungle"
+ deep_jungle_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ in Deep Jungle"
+ deep_jungle_levy_size:0 "$MOD_LEVY_SIZE$ in Deep Jungle"
+ deep_jungle_attrition_mult:0 "[command_modifier_i|E][attrition|E] Taken in Deep Jungle"
+ 
+ deep_jungle_advantage:1 "[command_modifier_i|E][advantage|E] in Deep Jungle"
+ deep_jungle_attrition_mult:1 "[command_modifier_i|E][attrition|E] Taken in Deep Jungle"
+ deep_jungle_cancel_negative_supply:1 "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Deep Jungle"
+ deep_jungle_max_combat_roll:1 "[command_modifier_i|E]Maximum [combat_roll|E] in Deep Jungle"
+ deep_jungle_min_combat_roll:1 "[command_modifier_i|E]Minimum [combat_roll|E] in Deep Jungle"
+
+ 
+ arctic_attrition_mult:1 "[command_modifier_i|E][attrition|E] Taken in Arctic"
+ arctic_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ in Arctic"
+ arctic_development_growth_factor:1 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Arctic ([terrain|E])"
+ arctic_levy_size:0 "$MOD_LEVY_SIZE$ in Arctic"
+ arctic_construction_gold_cost:0 "$MOD_CONSTRUCTION_GOLD_COST$ in Arctic"
+ tundra_attrition_mult:1 "[command_modifier_i|E][attrition|E] Taken in Tundra"
+ tundra_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ in Tundra"
+ tundra_development_growth_factor:1 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Tundra ([terrain|E])"
+ tundra_levy_size:0 "$MOD_LEVY_SIZE$ in Tundra"
+ tundra_construction_gold_cost:0 "$MOD_CONSTRUCTION_GOLD_COST$ in Tundra"
+
+
+ deep_jungle_fertility_growth_add: "[county_fertility|E] Growth in Deep Jungle [terrain|E]"
+ deep_jungle_fertility_growth_mult: "$deep_jungle_fertility_growth_add$"
+ deep_jungle_fertility_decline_add: "[county_fertility|E] Decline in Deep Jungle [terrain|E]"
+ deep_jungle_fertility_decline_mult: "$deep_jungle_fertility_decline_add$"
+ tundra_fertility_growth_add: "[county_fertility|E] Growth in Tundra [terrain|E]"
+ tundra_fertility_growth_mult: "$tundra_fertility_growth_add$"
+ tundra_fertility_decline_add: "[county_fertility|E] Decline in Tundra [terrain|E]"
+ tundra_fertility_decline_mult: "$tundra_fertility_decline_add$"
+ arctic_fertility_growth_add: "[county_fertility|E] Growth in Arctic [terrain|E]"
+ arctic_fertility_growth_mult: "$arctic_fertility_growth_add$"
+ arctic_fertility_decline_add: "[county_fertility|E] Decline in Arctic [terrain|E]"
+ arctic_fertility_decline_mult: "$arctic_fertility_decline_add$"
+
+
+ big_run_modifier:0 "Grand Salmon Run"
+ great_run_modifier:0 "Great Salmon Run"
+ small_run_modifier:0 "Lackluster Salmon Run"
+ no_run_modifier:0 "No Salmon Run"
+ 
+ 
+ arctic_travel_danger:0 "[GetTerrain( 'arctic' ).GetName] [travel_danger|E]"
+ tundra_travel_danger:0 "[GetTerrain( 'tundra' ).GetName] [travel_danger|E]"
+ flooded_forests_travel_danger:0 "[GetTerrain( 'flooded_forests' ).GetName] [travel_danger|E]"
+ deep_jungle_travel_danger:0 "[GetTerrain( 'deep_jungle' ).GetName] [travel_danger|E]"
+
+ steppe_fertility_growth_add: "[county_fertility|E] Growth in Prairie [terrain|E]"
+ steppe_fertility_growth_mult: "$steppe_fertility_growth_add$"
+ steppe_fertility_decline_add: "[county_fertility|E] Decline in Prairie [terrain|E]"
+ steppe_fertility_decline_mult: "$steppe_fertility_decline_add$"
+ 
+ dishonored_the_jefferson_pact:0 "Dishonored The Jefferson Pact"
+ lost_the_jefferson_frontier:0 "Lost The Jefferson Frontier"
+ secured_the_jefferson_frontier:0 "Secured The Jefferson Frontier"
+ 
+
+ stubborn_ruler:0 "Stubborn Ruler"
+ forced_to_abdicate:0 "Forced to Abdicate"
+ grand_national_accord_emperor:0 "Grand National Accord Emperor"
+ joined_initiation_rites:0 "Joined Initiation Rites"
+
+ coffee_cooldown:0 "Coffee Cooldown"
+ coffee_cooldown_desc:0 "This character cannot take more coffee-related decisions until this cooldown expires"
+
+ stress_coffee_boost:0 "Caffeine Pick-Me-Up"
+ stress_coffee_boost_desc:0 "This character has been regularly drinking a nice cup of coffee, helping them focus on the daily grind."
+
+ stress_coffee_buzz:0 "Caffeine Buzz"
+ stress_coffee_buzz_desc:0 "This character drinks several cups of coffee a day, energizing them and keeping them working and socializing at all hours."
+
+ stress_coffee_high:0 "Caffeine High"
+ stress_coffee_high_desc:0 "This character drinks copious amounts of coffee each day, pushing them through deadlines and sleepless nights."
+ 
+ stress_coffee_addict:0 "Caffeine Addict"
+ stress_coffee_addict_desc:0 "Everyone around this character knows not to talk to them before their morning coffee."
+
+ stress_coffee_headache:0 "Caffeine Headache"
+ stress_coffee_headache_desc:0 "This character hasn't been able to get their coffee fix recently, leaving them with a splitting headache."
+
+ stress_coffee_crash:0 "Caffeine Crash"
+ stress_coffee_crash_desc:0 "This character hasn't been able to keep up their heavy coffee habit, leaving them an exhausted, miserable wreck."
+
+ stress_coffee_jitters:0 "Caffeine Jitters"
+ stress_coffee_jitters_desc:0 "This character's compulsive coffee habit has left them feeling on edge and jittery, with shaking hands and a pounding heart."
+
+ stress_smokers_cough:0 "Smoker's Cough"
+ stress_smokers_cough_desc:0 "This character finds themself wracked by a hacking unpleasant cough, particularly afflicting them early in the morning."
+ 
+ culture_parameter_metropolis_more_productive:0 "Metropolises are more productive, with bonuses to taxes and build time"
+ culture_parameter_metropolis_better_managed:0 "Metropolises are better managed, with bonuses to control and development"
+
+
+ weak_influenza:0 "Weak Influenza"
+ weak_influenza_desc:0 "Although unpleasant, the current flu affliciting this character is relatively mild, making for a more positive future prognosis."
+
+ strong_influenza:0 "Dangerous Influenza"
+ strong_influenza_desc:0 "The current flu afflicting this character is an especially bad strain, significantly threatening their future wellbeing."
+
+ knights_fever:0 "The Knight's Fever"
+ knights_fever_desc:0 "Although this character appears to be strong and robust, something in their current afflication seems to turn this strength against them, their body wracked by fever and delirium."
+
+ knights_fever_lingering:0 "Lingering Knight's Fever"
+ knights_fever_lingering_desc:0 "While this character appears to have recovered from their bout of influenza, their body continues to be affected with malaise, their previous robustness taking some time to return"
+
+ portal_memorial_modifier:0 "Mysterious Stone Gate"
+ portal_memorial_modifier_desc:0 "Hidden in a remote corner of this province stands a strange and forboding archway, flanked by two enormous pillars. On these pillars are engraved two numbers -'4823' on the left, '4623' on the right - with the left pillar's number struckthrough with a line.\n\nJust what this bizarre archway represents has long been lost to time, with local tales of terrifying and fantastical creatures stretching back to time immemorial..."
+ portal_memorial_alaska_modifier:0 "Mysterious Stone Gate"
+ portal_memorial_alaska_modifier_desc:0 "Hidden in a remote corner of this province stands a strange and forboding archway, flanked by two enormous pillars. On these pillars are engraved two numbers -'4823' on the left, '4623' on the right - with the left pillar's number struckthrough with a line.\n\nJust what this bizarre archway represents has long been lost to time, with local tales of terrifying and fantastical creatures stretching back to time immemorial..."
+
+ portal_memorial_colombia_modifier:0 "Mysterious Stone Gate"
+ portal_memorial_colombia_modifier_desc:0 "Hidden in a remote corner of this province stands a strange and forboding archway, flanked by two enormous pillars. On these pillars are engraved two numbers -'2284' on the left, '4857' on the right - with the right pillar's number struckthrough with a line.\n\nJust what this bizarre archway represents has long been lost to time, with local tales of terrifying and fantastical creatures stretching back to time immemorial..."
+
+ portal_memorial_cerrado_modifier:0 "Mysterious Stone Gate"
+ portal_memorial_cerrado_modifier_desc:0 "Hidden in a remote corner of this province stands a strange and forboding archway, flanked by two enormous pillars. On these pillars are engraved two numbers -'2053' on the left, '2051' on the right - with the number on both pillars struckthrough with a line.\n\nJust what this bizarre archway represents has long been lost to time, with local tales of terrifying and fantastical creatures stretching back to time immemorial..."
+
+ mate_drinker_modifier:0 "Maté Drinker"
+ mate_drinker_modifier_desc:0 "This character is not only fond of a good sip of yerba-maté tea, but also a connoisseur of the social rituals and etiquette associated with the drink."
+
+ mate_drinker_burnt:0 "Burnt Tongue"
+ mate_drinker_burnt_desc:0 "Sometimes the tea is just #italic too #!hot..."
+
+ black_hand_nobility_modifier:0 "Anointed Hand in Oil - Nobility Focus"
+ black_hand_nobility_modifier_desc:0 "This character has emulated the emperors of [old_brazil|E] during their crowning, anointing their hands with black oil as a sign of prosperity, while dedicating the ceremony to the nobles of the realm."
+
+ black_hand_clergy_modifier:0 "Anointed Hand in Oil - Religious Focus"
+ black_hand_clergy_modifier_desc:0 "This character has emulated the emperors of [old_brazil|E] during their crowning, anointing their hands with black oil as a sign of prosperity, while dedicating the ceremony to the clergy of the realm."
+
+ black_hand_masses_modifier:0 "Anointed Hand in Oil - Focus on the Masses"
+ black_hand_masses_modifier_desc:0 "This character has emulated the emperors of [old_brazil|E] during their crowning, anointing their hands with black oil as a sign of prosperity, and dedicating the ceremony to the people of the realm."
+
+ football_small_health_bonus:0 "Weekend Footballer"
+ football_small_health_bonus_desc:0 "This character plays football sporadically, but they can already feel some health benefits!"
+
+ football_medium_health_bonus:0 "Regular Football Player"
+ football_medium_health_bonus_desc:0 "This character plays some football often, which brings some good health benefits!"
+
+ football_flirtatious:0 "The Striker of Love"
+ football_flirtatious_desc:0 "Ever since this character started playing football regularly, people have been seeing them with other eyes..."
+
+ football_popular_match:0 "Sponsor of the People's Game"
+ football_popular_match_desc:0 "This ruler has organized a legendary football match on the capital, bringing some much-needed enterteinment for the masses!"
+
+ football_martial_bonus:0 "Attacking Football Coach"
+ football_martial_bonus_desc:0 "This character has gained some military insights after coaching their soldiers on a football match: A good offense is the best defense!"
+
+ football_intrigue_bonus:0 "Scheming Football Coach"
+ football_intrigue_bonus_desc:0 "This character has gained some military insights after coaching their soldiers on a football match: Sometimes you need to surprise the opposing team..."
+
+ football_prowess_bonus:0 "Defensive Football Coach"
+ football_prowess_bonus_desc:0 "This character has gained some military insights after coaching their soldiers on a football match: Good results come when you surprise the opposing team with a counterattack!"
+
+ #noble_family_income_modifier:0 "Noble Family Income"
+ #noble_family_income_modifier_desc:0 "Whilst currently landless, this character remains at the head of a powerful noble family, making a tidy profit from the various patrons, enterprises and resources available to them."
+
+ favored_heir:0 "Favored Heir"
+ disfavored_heir:0 "Disfavored Heir"
+
+ 

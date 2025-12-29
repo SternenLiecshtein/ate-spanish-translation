@@ -1,0 +1,163 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ game_concept_the_event_ate: "The Event"
+ game_concept_the_event_ate_desc: "The Event was an unclear disaster or set of disasters that occurred around six or seven hundred years before 2666. The nature, details, and circumstances of the Event have been lost to any objective history, instead developing as mythologies over time. For the majority of people living in the present, concerns and worries about the Event have been relegated to theology or history. However, some groups may possess a certain level of anxiety about what has been lost because of it, while others may invest themselves in attempting to recreate or restore the world as they imagine it once was."
+
+ game_concept_court_authority:0 "Court Authority"
+ game_concept_court_authority_desc:0 "$game_concept_court_authority$ represents the balance of power between the two main factions in an [GetGovernment( 'imperial_government' ).GetName] government. There are five levels of $game_concept_court_authority$: Lower steps indicate that a court is dominated by the civilian bureaucracy, while higher levels represent a higher influence of the military faction.\n\nIncreasing or decreasing $game_concept_court_authority$ costs a certain amount of [prestige|E] depending on the level and the ruler's [learning|E].\n\n#weak Bureaucratic courts have a higher emphasis on tax collection, whereas a government dominated by military interests have a greater supply of levies from the vassals to their liege. A balanced court, however, is disliked by both factions, due to the extensive contributions demanded on both areas.\n\nKeep in mind: #bold Bureaucratic-Leaning and Bureaucratic-Dominated courts cannot declare wars#!. Reform your court to Balanced, Military-Leaning or Military-Dominated in order to freely attack other realms.#!"
+ #game_concept_court_authority_desc:0 "$game_concept_court_authority$ represents the balance of power between the Bureaucratic and Military factions in an [GetGovernment( 'imperial_government' ).GetName]  [ruler|E]'s court.\n\nThere are five levels of $game_concept_court_authority$; 1, 2, 3, 4, and 5. Increasing $game_concept_court_authority$ costs an amount of [prestige|E] depending on the level and the ruler's [learning|E].\n\n#weak A 1 emphasises tax collection, whereas a 5 demands more a more direct supply of levies to the ruler. Vassals dislike the extensive contributions that a 3 requires in both areas.#!"
+  
+ game_concept_federative_pact:0 "Federative Pact"
+#  game_concept_federative_pact_desc:0 "An [GetGovernment( 'imperial_government' ).GetName] government is, at its root, a federal system. Dating from centuries ago - even older than the [Concept('the_event_ate','Event')|E] itself - the #bold Federative Pact#! is a term used to refer to the individual oaths and customs which define the rights and duties of lieges and vassals - from the lowly barons to the counts, marquesses, governors and captain-generals, all the way to the Emperor himself. The Pact establishes the privileges of the lieges and the protections granted to their vassals, as well as their mutual obligations in fields such as taxation, defense and religious liberties."
+ game_concept_federative_pact_desc:1 "An [GetGovernment( 'imperial_government' ).GetName] government is, at its root, a federal system. A term older than the [Concept('the_event_ate','Event')|E] itself, the #bold Federative Pact#! refers to the oaths and customs which bind liege and vassal - from the lowly barons to the counts, marquesses, governors and captain-generals, all the way to the Emperor himself. The Pact establishes the privileges of the liege and the protections granted to the vassal, and outlines their mutual obligations in fields such as taxation, defense, and religious liberty."
+
+ game_concept_grand_national_accord:0 "Grand National Accord"
+#  game_concept_grand_national_accord_desc:0 "While the [federative_pact|E] defines the formal rights and obligations between the Crown and its vassals, the #bold Grand National Accord#! sets the moral mandate of the monarch towards their subjects. The Accord is an intricate and fragile compendium of deals, oaths and informal agreements balancing the interests of the military, the state bureaucracy and the regional elites.\n\nManaging the Accord is one of the main duties of a ruler in an [GetGovernment( 'imperial_government' ).GetName] government: If a monarch can't keep good governance across the realm, fails to maintain the equilibrium between the various interest groups - specially the privileges of their most powerful vassals - or is defeated in a war against an external enemy, this is often taken as a sign that they have lost the mandate of the Grand National Accord, thus opening the way for the right of rebellion against an weak or unjust ruler."
+
+ game_concept_grand_national_accord_desc:1 "While the [federative_pact|E] defines the formal rights and obligations between the Crown and its vassals, the #bold Grand National Accord#! outlines the moral mandate of the monarch towards their subjects. The Accord is an intricate and fragile compendium of deals, oaths, and informal agreements balancing the interests of the military, the bureaucracy and the regional elites.\n\nManaging the Accord is one of the primary responsibilities of a ruler in an [GetGovernment( 'imperial_government' ).GetName]: If a monarch can't ensure stable governance across the realm, is defeated in a war against an external enemy, or fails to maintain the equilibrium between the various interest groups - especially their most powerful vassals - this is often taken as a sign that they are failing to uphold the Grand National Accord, thus paving the way for rebellion.\n\n#help While vassals appreciate the security and prosperity provided by the Grand National Accord, neither Governors nor Captain-Generals like to see their power diluted by major territorial expansion and the incorporation of new vassals into the fold of the Federative Pact. Rulers following the traditional Brazilian bureaucratic government will experience (major) opinion losses from their vassals should they expand beyond 300 counties — unless the ruler of Brazil formally integrates the neighbouring de jure empires via special decisions.#!"
+  
+ game_concept_shrine:0 "Shrine"
+ game_concept_shrine_desc:0 "A shrine or “Ánimitas” houses the soul of the tragically departed, allowing for veneration by Animists. As the enshrined ánima gains notoriety, it may be selected as a Patron ánima by whoever lives near the shrine and has it as their [capital|E]. Powerful and pious rulers might build a sanctuary to the enshrined ánima, elevating it to a major ánima, and enabling all adherents of the faith to select it as their Patron, wherever they are."
+
+ game_concept_shogunate_diarch:0 "Governator"
+ game_concept_shogunate_diarchs:0 "Governators"
+ game_concept_shogunate_diarch_possessive:0 "Governator's"
+ game_concept_shogunate_diarchs_possessive:0 "Governators'"
+ game_concept_shogunate_diarch_desc:3 "The senior partner during a [shogunate|E], a $game_concept_shogunate_diarch$ rules the [realm|E] for their [liege|E].\n\nThe $game_concept_shogunate_diarch$ has access to [diarch_powers|E], and gain more of these as the [scales_of_power|E] tip in their favor.\n\nThe role is hereditary."
+
+ game_concept_shogun:0 "Governator"
+ game_concept_shoguns:0 "Governators"
+ game_concept_shogun_possessive:0 "Governator's"
+ game_concept_shoguns_possessive:0 "Governators'"
+ game_concept_shogun_desc:0 "A [shogun|E] is the name for a [diarch|E] during a [shogunate|E]. The Governator is the Senior Partner in a Governate.\n\nThe role is hereditary, and the [title|E] will move onto the next most suitable [vassal|E] in California if the heir is:\n\n $EFFECT_LIST_BULLET$A [spouse|E] or [concubine|E] of the [ruler|E] of California\n$EFFECT_LIST_BULLET$Of the same [house|E] as the ruler of California\n$EFFECT_LIST_BULLET$The [holder|E] of California"
+ # game_concept_shogun_desc:0 "A [shogun|E] is the name for a [diarch|E] during a [shogunate|E]. The Governator is the Senior Partner in a Governate.\n\nThe role is hereditary, and the [title|E] will move onto the next most suitable [vassal|E] in California if the heir is:\n\n $EFFECT_LIST_BULLET$A [spouse|E] or [concubine|E] of the [ruler|E] of the [GetTitleByKey('e_california').GetName]\n$EFFECT_LIST_BULLET$Of the same [house|E] as the ruler of the [GetTitleByKey('e_california').GetName]\n$EFFECT_LIST_BULLET$The [holder|E] of [GetTitleByKey('e_california').GetName]"
+
+ game_concept_shogunate:0 "Governate"
+ game_concept_shogunates:0 "Governates"
+ game_concept_shogunate_possessive:0 "Governate's"
+ game_concept_shogunates_possessive:0 "Governates'"
+ game_concept_shogunate_desc:0 "A [shogunate|E] is a unique form of hereditary [diarchy|E] that evolved in the Golden Empire of California when the imperial dynasty became incapable of militarily controlling the [realm|E] on their own.\n\nWhen a Governate is in place, the [replace_shogun_faction|E] may form to replace the [shogun|E]. The Emperor may attempt to dissolve the Governate if they wield enough power. If there is no Governate in place, the [shogunate_faction|E] may demand that a Governate be instituted, or the Emperor may also choose to institute one if they feel it is in the best interest of the realm. The Governate of California will typically be passed onto the [primary_heir|E] of the current [holder|E]. However, the [title|E] will move to the next most suitable [vassal|E] in California if the heir is:\n\n $EFFECT_LIST_BULLET$A [spouse|E] or [concubine|E] of the ruler of California\n$EFFECT_LIST_BULLET$Of the same [house|E] as the ruler of California\n$EFFECT_LIST_BULLET$The [holder|E] of California"
+ # game_concept_shogunate_desc:0 "A [shogunate|E] is a unique form of hereditary [diarchy|E] that evolved in the [GetTitleByKey('e_california').GetName] when the imperial dynasty became incapable of militarily controlling the [realm|E] on their own.\n\nWhen a Governate is in place, the [replace_shogun_faction|E] may form to replace the [shogun|E]. The [GetTitleByKey('e_california').GetHolder.GetTitleAsNameNoTooltip] may attempt to dissolve the Governate if they wield enough power. If there is no Governate in place, the [shogunate_faction|E] may demand that a Governate be instituted, or the [GetTitleByKey('e_california').GetHolder.GetTitleAsNameNoTooltip] may also choose to institute one if they feel it is in the best interest of the realm. [GetTitleByKey('k_shogunate').GetName] will typically be passed onto the [primary_heir|E] of the current [holder|E]. However, the [title|E] will move to the next most suitable [vassal|E] in California if the heir is:\n\n $EFFECT_LIST_BULLET$A [spouse|E] or [concubine|E] of the ruler of the [GetTitleByKey('e_california').GetName]\n$EFFECT_LIST_BULLET$Of the same [house|E] as the ruler of the [GetTitleByKey('e_california').GetName]\n$EFFECT_LIST_BULLET$The [holder|E] of [GetTitleByKey('e_california').GetName]"
+
+ game_concept_replace_shogun_faction:0 "$replace_shogun_faction$"
+ game_concept_replace_shogun_factions:0 "Replace Governator Factions"
+ game_concept_replace_shogun_faction_desc:0 "$replace_shogun_faction_desc$"
+ game_concept_shogunate_faction:0 "$shogunate_faction$"
+ game_concept_shogunate_factions:0 "Governate Factions"
+ game_concept_shogunate_faction_desc:0 "$shogunate_faction_desc$"
+ game_concept_shogun_succession_score:0 "Governator Succession Score"
+ game_concept_shogun_succession_score_desc:0 "In a [shogunate|E], the next [shogun|E] is the primary heir of the previous [shogun|E]."
+
+ game_concept_commodities:0 "Commodities"
+ game_concept_commodities_desc:0 "'Commodities', sometimes referred to as 'cash crops', are valuable products traded in large quantities across the Americas. Ranging from luxurious foods to addictive substances and exquisite textiles, the production of commodities often require specialized cultural knowledge, specific terrain or climatic conditions, or a mixture of these conditions. Producing commodities is a lucrative process for the rulers who are able to, and often provides them with gold and influence that allows them to become major powers in their regions.\n\nClick here to view all possible commodities in the [commodity_list|E]."
+ game_concept_commodity_list:0 "Commodity List"
+ game_concept_commodity_list_desc:0 "[cochineal|E]\n[cocoa|E]\n[coffee|E]\n[honey|E]\n[maple_syrup|E]\n[olives|E]\n[silk|E]\n[sugar_cane|E]\n[tixinda|E]\n[tobacco|E]\n[wine|E]\n[mate|E]"
+ game_concept_coffee:0 "Coffee"
+ game_concept_coffee_desc:0 "One of the most sought after commodities since the [Concept('the_event_ate','Event')|E], coffee cultivation fuels the economy of all the empires and kingdoms along the Coffee Current. Grown in large plantations in the tropical regions of Central and South America, coffee can be grown in [GetTerrain( 'hills' ).GetName] and [GetTerrain( 'mountains' ).GetName] within two regions:\n\n[GetGeographicalRegion('commodity_region_coffee_north').GetName]\n[GetGeographicalRegion('commodity_region_coffee_south').GetName]."
+
+ game_concept_cocoa:0 "Cocoa"
+ game_concept_cocoa_desc:0 "One of the most sought after commodities since the [Concept('the_event_ate','Event')|E], cocoa is a key ingredient in many delicacies and commands a high price along the trade routes that cross the Americas. Grown in a narrow band of regions in the centre of the Americas, cocoa can be grown in [GetTerrain( 'jungle' ).GetName] within two regions:\n\n[GetGeographicalRegion('commodity_region_cocoa_north').GetName]\n[GetGeographicalRegion('commodity_region_cocoa_south').GetName]."
+
+ game_concept_sugar_cane:0 "Sugar Cane"
+ game_concept_sugar_cane_desc:0 "One of the most sought after commodities since the [Concept('the_event_ate','Event')|E], sugar cane production is a lucrative source of income for many kingdoms and empires surrounding the Caribbean. Grown in sprawling plantations, sugar cane can be grown in [GetTerrain( 'floodplains' ).GetName] and [GetTerrain( 'wetlands' ).GetName] within three regions:\n\n[GetGeographicalRegion('commodity_region_sugar_cane_north').GetName]\n[GetGeographicalRegion('commodity_region_sugar_cane_central').GetName]\n[GetGeographicalRegion('commodity_region_sugar_cane_south').GetName]."
+
+ game_concept_tobacco:0 "Tobacco"
+ game_concept_tobacco_desc:0 "One of the most sought after commodities since the [Concept('the_event_ate','Event')|E], tobacco is a highly addictive substance popular with nobles and commoners alike throughout the Americas. Requiring immense manpower to cultivate, tobacco may be grown in [GetTerrain( 'plains' ).GetName] in three regions:\n\n[GetGeographicalRegion('commodity_region_tobacco_north').GetName]\n[GetGeographicalRegion('commodity_region_tobacco_central').GetName]\n[GetGeographicalRegion('commodity_region_tobacco_south').GetName]."
+
+ game_concept_maple_syrup:0 "Maple Syrup"
+ game_concept_maple_syrup_desc:0 "Tapped from maple trees in the northern forests of America, maple syrup is a valuable commodity traded across the Great Lakes and Atlantic Seaboard. Requiring specialised knowledge to cultivate, maple syrup can be produced in [GetTerrain( 'forest' ).GetName] by rulers with the cultural [GetCultureInnovationType('innovation_syrup_makers').GetName] innovation in the [GetGeographicalRegion('commodity_region_maple').GetName]"
+
+ game_concept_mate:0 "Yerba-maté"
+ game_concept_mate_desc:0 "Grown in the southern regions of South America, Yerba-maté is a caffienated beverage popular among many cultures of the Lower Plate Basin. Requiring specialised knowledge to cultivate, yerba-maté can be cultivated in large plantations in [GetTerrain( 'hills' ).GetName], [GetTerrain( 'jungle' ).GetName] and [GetTerrain( 'forest' ).GetName] by rulers with the cultural tradition [GetCultureTradition('tradition_materos').GetName] in the [GetGeographicalRegion('commodity_region_mate').GetName]"
+
+ game_concept_wine:0 "Wine"
+ game_concept_wine_desc:0 "Central to countless ceremonies and celebrations, wine is a highly prestigious product desired across the Americas. Produced from crushing grapes, vineyards may be cultivated in [GetTerrain( 'drylands' ).GetName], [GetTerrain( 'hills' ).GetName] and [GetTerrain( 'oasis' ).GetName] in the [GetGeographicalRegion('commodity_region_wine_all').GetName] of the Americas."
+
+ game_concept_olives:0 "Olives"
+ game_concept_olives_desc:0 "Said to have been cultivated for millenia in the Old World prior to the [Concept('the_event_ate','Event')|E], olives and their oil are highly-regarded crops used for both culinary purposes and sacred ceremonies, especially among the [GetReligionFamily('rf_abrahamic').GetName] religions across the Americas. Requiring dry climates and specialised irrigation, olive groves may be cultivated in [GetTerrain( 'desert' ).GetName] areas, as well as coastal [GetTerrain( 'drylands' ).GetName] and [GetTerrain( 'hills' ).GetName] in the [GetGeographicalRegion('commodity_region_olive_all').GetName] of the Americas."
+ 
+ game_concept_cochineal:0 "Carmine Dye"
+ game_concept_cochineal_desc:0 "An immensely valuable dye produced from crushing cochineal beetles, carmine dye is used to create crimson colours in everything from textiles to cosmetics to food, all at extravagant prices. With the secrets to its production closely-guarded by those privy to it, carmine dye is produced from southern Mexico to Chile, with the bulk of its production taking place in Peru.\n\nIt is said that whole towns in the Andes are centred around the cultivation of the cochineal and the cacti they live on, with many seeking to control this precious [Concept('commodities', 'commodity')|E].\n\nAs the old Chilean proverb goes, #italic 'El que controla el tinte, controla el mundo'#!.\n\nCochineal farms can be built in county capitals in counties with [GetTerrain( 'desert' ).GetName], [GetTerrain( 'desert_mountains' ).GetName], [GetTerrain( 'oasis' ).GetName], [GetTerrain( 'drylands' ).GetName], [GetTerrain( 'forest' ).GetName], and [GetTerrain( 'jungle' ).GetName] by rulers with the cultural traditions [GetCultureTradition('tradition_oaxaca_dyeworks').GetName] or [GetCultureTradition('tradition_carmine').GetName] in the [GetGeographicalRegion('commodity_region_cochineal_all').GetName]."
+
+ game_concept_tixinda:0 "Tixinda Dye"
+ game_concept_tixinda_desc:0 "Said to have once been lost to history prior to the [Concept('the_event_ate','Event')|E], 'Tixinda Purple' is a highly sought after [Concept('commodities', 'commodity')|E] produced almost exclusively along the Oaxaca coast in southern Mexico, with whole villages turned over to the secretive process of producing the dye. This dye in turn is used to create exquisite textiles that are highly sought out by rulers across the Americas.\n\nIt is said that a pound of Tixinda Purple would be enough to buy a grand [estate|E] in the heart of Mexico City itself.\n\nTixinda Dye farms can be built in coastal county capitals by rulers with the cultural tradition [GetCultureTradition('tradition_oaxaca_dyeworks').GetName] in the [GetGeographicalRegion('commodity_region_tixinda').GetName]."
+
+ game_concept_silk:0 "Silk"
+ game_concept_silk_desc:0 "Long admired for its softness and versatility, silk's long history almost came to an abrupt end in the chaos following the [Concept('the_event_ate','Event')|E], with only small communities in Southern Brazil retaining the knowledge required to cultivate silk. As such, silk remains an extrodinarily precious and rare [Concept('commodities', 'commodity')|E], limited to only the richest and most influential rulers along the routes making up the Coffee Current.\n\nSilk farms can be built in county capitals of rulers with the cultural tradition [GetCultureTradition('tradition_sericulture').GetName]."
+
+ game_concept_honey:0 "Honey"
+ game_concept_honey_desc:0 "Collected from both wild and domesticated bees, honey is but one of several bee-related products, including beeswax and honeycomb, that are held as prized [Concept('commodities', 'commodities')|E] for trade and consumption. Practiced everywhere outside of [GetGeographicalRegion('world_arctic').GetName], certain cultures are especially renowned for their beekeeping prowess, with these cultures having the [GetCultureTradition('tradition_RICE_expert_apiculture').GetName] cultural tradition."
+
+ game_concept_old_brazil:0 "Old Brazil"
+ game_concept_old_brazil_desc:0 "The term #bold Old Brazil#! refers to an ancient, pre-[Concept('the_event_ate','Event')|E] realm which, according to historical records, covered much of eastern and central South America. Although long gone and surrounded by legends and half-remembered stories, its cultural influences last to this day, as countless faiths and political institutions trace their origins to those times. From the Amazon Delta to the coast of São Paulo, many different peoples track their roots to a general Brazilian cultural complex.\n\n#weak As of 2666, the Empire of Brasil asserts to be the main heir to the legacy of Old Brazil, even though it does not claim to be a direct continuation of the old, antediluvian state.#!"
+
+ game_concept_eurekan_elements:0 "Eurekan Elements"
+ game_concept_eurekan_elements_desc:0 "The Eurekan Elemental system is the spiritual understanding of how the physical world operates which dominates the Golden Empire. This perception of natural laws is entwined with the various teachings of Gurus, especially those of the Eternal Living Guru. This system is composed of an elemental pentarchy: Wood, Mountain, Surf, Star, and Gold. Each of these elements are defined by properties, which are made up of two diametrically opposed pairs: Structured/Formless and Eternal/Ephemeral. Each of the individual elements correspond to the religious teachings of certain Gurus, their wisdom enlightening those willing to listen on the fundamental functions of the universe."
+
+ game_concept_state_bureaucracy:0 "Eurekan"
+ game_concept_state_bureaucracy_government:0 "Eurekan Government"
+ game_concept_eurekanism:0 "Eurekanism"
+ game_concept_state_bureaucracy_desc:0 "$game_concept_administrative$ is a [government_form|E] that appoints [characters|E] as [governors|E], to manage and preside over land, called [provinces|E], on behalf of their [liege|E].\n\n$game_concept_administrative$ Characters have access to [influence|E] and some also have a personal [family_estate|E].\n\nOnly [independent|E] [rulers|E] of an $game_concept_administrative$ [realm|E] have [legitimacy|E], while [vassals|E] do not.\n\n$admin_cannot_declare_internal_wars$"
+ game_concept_state_bureaucracy_vanilla_desc:0 "Under the Eurekan [government_form|E], a [liege|E] gives their [vassals|E] [land|E] to govern in exchange for [levies|E] and [taxes|E]. These obligations are regulated by individual [feudal_contracts|E] between Vassal and Liege and managed by the Imperial Bureaucracy via a [tax_collector|E]."
+
+ game_concept_state_bureaucracy: "Eurekan"
+ game_concept_state_bureaucracy_desc: "$game_concept_state_bureaucracy$ is a [government_form|E] that appoints [characters|E] as [governors|E], to manage and preside over land, called [provinces|E], on behalf of the Emperor and Governator.\n\n$game_concept_state_bureaucracy$ Characters have access to [influence|E] and some also have a personal [family_estate|E].\n\nOnly [independent|E] [rulers|E] of an $game_concept_state_bureaucracy$ [realm|E] have [legitimacy|E], while [vassals|E] do not.\n\n$state_bureaucracy_cannot_declare_internal_wars$"
+ state_bureaucracy_cannot_declare_internal_wars: "Eurekan [vassals|E] are encouraged to spend [influence|E] for [GetLaw('appointment_succession_law').GetName] and use [schemes|E] to acquire [titles|E] instead of declaring [war|E]."
+
+ game_concept_imperial:0 "Imperial"
+ game_concept_imperial_government:0 "Imperial Government"
+ game_concept_imperial_vanilla_desc:0 "Under the Imperial [government_form|E], a [liege|E] gives their [vassals|E] [land|E] to govern in exchange for [levies|E] and [taxes|E], regulated by individual [feudal_contracts|E] between Vassal and Liege."
+
+ 
+ game_concept_imperial_desc: "$game_concept_imperial$ is a [government_form|E] that appoints [characters|E] as [governors|E], to manage and preside over land, called [provinces|E], on behalf of the [liege|E].\n\n$game_concept_imperial$ Characters have access to [influence|E] and some also have a personal [family_estate|E].\n\nOnly [independent|E] [rulers|E] of an $game_concept_imperial$ [realm|E] have [legitimacy|E], while [vassals|E] do not.\n\n$imperial_cannot_declare_internal_wars$"
+ imperial_cannot_declare_internal_wars: "Imperial [vassals|E] are encouraged to spend [influence|E] for [GetLaw('appointment_succession_law').GetName] and use [schemes|E] to acquire [titles|E] instead of declaring [war|E]."
+
+ game_concept_federal:0 "Federal"
+ game_concept_federal_government:0 "Federal Government"
+ game_concept_federalism:0 "Federalism"
+ game_concept_federal_desc:0 "Under the Federal [government_form|E], all [duchy|E], [kingdom|E], and [empire|E] titles are elected. [vassals|E] are obligated to pay their [liege|E] [levies|E] and [taxes|E] in exchange for their protection. These obligations are regulated by individual [feudal_contracts|E] between Vassal and Liege and managed by the Federal Government via a [tax_collector|E]."
+
+ game_concept_range:0 "Range"
+ game_concept_range_government:0 "Range Government"
+ game_concept_range_desc:0 "Range is a [government_form|E] in which the amount of [levies|E] and [taxes|E] given to a [liege|E] by their [vassals|E] is determined by the [aptitude|E] of said Liege's [tax_collector|E]."
+
+ game_concept_ayllu:0 "Ayllu"
+ game_concept_ayllu_government:0 "Ayllu Government"
+ game_concept_ayllu_desc:0 "Ayllu is a [government_form|E] in which the amount of [levies|E] and [taxes|E] given to a [liege|E] by their [vassals|E] is determined by the [aptitude|E] of said Liege's [tax_collector|E]. Ayllus also make use of [house_unity|E]."
+
+ game_concept_high_republic:0 "High Republic"
+ game_concept_high_republic_government:0 "High Republic Government"
+ game_concept_high_republic_vanilla_desc:0 "Under the High Republic [government_form|E], a [liege|E] gives their [vassals|E] [land|E] to govern in exchange for [levies|E] and [taxes|E], regulated by individual [feudal_contracts|E] between Vassal and Liege."
+
+ game_concept_high_republic_desc: "$game_concept_high_republic$ is a [government_form|E] that appoints [characters|E] as [governors|E], to manage and preside over land, called [provinces|E], on behalf of the [liege|E].\n\n$game_concept_high_republic$ Characters have access to [influence|E] and some also have a personal [family_estate|E].\n\nOnly [independent|E] [rulers|E] of an $game_concept_high_republic$ [realm|E] have [legitimacy|E], while [vassals|E] do not.\n\n$high_republic_cannot_declare_internal_wars$"
+ high_republic_cannot_declare_internal_wars: "High Republic [vassals|E] are encouraged to spend [influence|E] for [GetLaw('appointment_succession_law').GetName] and use [schemes|E] to acquire [titles|E] instead of declaring [war|E]."
+
+
+
+ game_concept_vice_president:0 "Vice President"
+ game_concept_vice_presidents:0 "Vice Presidents"
+ game_concept_vice_president_possessive:0 "Vice President's"
+ game_concept_vice_presidents_possessive:0 "Vice Presidents'"
+ game_concept_vice_president_desc:0 "A [vice_president|E] is the name for the [diarch|E] during a [vice_presidency|E]."
+ # game_concept_vice_president_desc:0 "A [vice_president|E] is the name for a [diarch|E] during a [vice_presidency|E]. The Vice President is the Junior Partner in a Vice Presidency.\n\nThe role is hereditary, and the [title|E] will move onto the next most suitable [vassal|E] in California if the heir is:\n\n $EFFECT_LIST_BULLET$A [spouse|E] or [concubine|E] of the [ruler|E] of the [GetTitleByKey('e_usa').GetName]\n$EFFECT_LIST_BULLET$Of the same [house|E] as the ruler of the [GetTitleByKey('e_usa').GetName]\n$EFFECT_LIST_BULLET$The [holder|E] of [GetTitleByKey('e_usa').GetName]"
+
+ game_concept_vice_presidency:0 "Vice Presidency"
+ game_concept_vice_presidencies:0 "Vice Presidencies"
+ game_concept_vice_presidency_possessive:0 "Vice Presidency's"
+ game_concept_vice_presidencies_possessive:0 "Vice Presidencies'"
+ game_concept_vice_presidency_desc:0 "A [vice_presidency|E] is a unique form of [diarchy|E] that exists in the United States of America. \n\nThey generate passive [influence|E] for both themselves and their President. How much exactly scales up every [EmptyScope.ScriptValue('co_emperor_scale_years_in_job_value')|0] years in the job, including any time they spent as [vice_president|E].\n\nIn practice, most power still rests in the hands of the $game_concept_liege$ who actually holds the Presidency rather than their [vice_president|E], but the $game_concept_vice_president$ does have access to several powerful ways to affect the [realm|E] & is a cheaper candidate to promote for [federal|E] positions.\n\nNotably, $game_concept_vice_president$ can use the [imperial_expedition_cb|E] [casus_belli|E] at higher levels of [scales_of_power|E] swing.\n\n#WEAK $game_concept_vice_president$ are able to [usurp|E] their President via xxxx.#!"
+ 
+ game_concept_groundhog_cultures_list:0 "Groundhog Cultures"
+ game_concept_groundhog_cultures_list_desc:0 "Yinzic\nDeitsch\nPocono\nYouser\nGothamite\nUpstater\nBuckeye\nBeltway\nChicagoan\nCheesehead\nSouthron\nAtlantan\nMaritimer\nPrairielander\nQuebecois\nOntarian\nCanuck"
+
+ game_concept_brazilian_cosmopolitan_heritages:0 "Imperial Brazilian Heritages"
+ game_concept_brazilian_cosmopolitan_heritages_desc:0 "Cabano\nCafé com Leite\nCosteiro\nGeraizeiro\nManguetowner\nPaulistânico\nSerra do Mar\nSulista"
+ 
+ game_concept_munya:0 "Vacation Home"
+ game_concept_munyas:0 "Vacation Homes"
+ game_concept_munya_desc:0 "There are two [activities|E] associated with so-called Vacation Homes, available to [rulers|E] with a [realm_capital|E] in California, and who meet certain [culture|E] and [faith|E] requirements, such as following the Guruist religion or having Californian [heritage|E].\n\nThere are two varieties of this [activity|E]. A [GetActivityType( 'activity_RICE_granada_munya_vacation_private' ).GetName] allows you to relax by yourself, while a [GetActivityType( 'activity_RICE_granada_munya_vacation_group' ).GetName] is a chance to enjoy the company of others. You yourself may sometimes be invited to join your [liege|E] on an excursion to the countryside!\n\nBoth vacation types are distinct [activities|E] that can potentially provide different boons. For example, going by yourself may offer you chances to learn more about managing your realm's agriculture."

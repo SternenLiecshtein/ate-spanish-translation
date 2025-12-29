@@ -1,0 +1,259 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ 
+ 
+ flicker_of_youth_young:0 "Flicker of Youth: Young"
+ flicker_of_youth_old:0 "Flicker of Youth: Old"
+ 
+ 
+ 
+ week_of_22_disrespected:0 "Week of '22 - Religious Insensivity"
+ 
+
+ holy_building_protected:0 "Local Holy Building Protected"
+ holy_building_protected_desc:0 "The localy holy building has been protected from destruction in a civil war, with a treaty stipulating protection for the building. For a while, at least."
+ holy_building_construction_special:0 "Special Holy Building Under Construction"
+ holy_building_construction_special_desc:0 "A unique holy building is under construction in this county. Whether a new building or an ancient renovated holy place, this building is bringing many builders and contractors to the site, bringing their commerce with them."
+ holy_building_construction_cathedral:0 "Grand Cathedral Under Construction"
+ holy_building_construction_cathedral_desc:0 "A great cathedral is under construction in this county. Whether a new building or an ancient renovated holy place, this building is bringing many builders and contractors to the site, bringing their commerce with them."
+ holy_building_construction_mosque:0 "Grand Mosque Under Construction"
+ holy_building_construction_mosque_desc:0 "A great mosque is under construction in this county. Whether a new building or an ancient renovated holy place, this building is bringing many builders and contractors to the site, bringing their commerce with them."
+ holy_building_construction_synagogue:0 "Grand Synagogue Under Construction"
+ holy_building_construction_synagogue_desc:0 "A great synagogue is under construction in this county. Whether a new building or an ancient renovated holy place, this building is bringing many builders and contractors to the site, bringing their commerce with them."
+ holy_building_construction_temple_fire:0 "Grand Fire Temple Under Construction"
+ holy_building_construction_temple_fire_desc:0 "A great fire temple is under construction in this county. Whether a new building or an ancient renovated holy place, this building is bringing many builders and contractors to the site, bringing their commerce with them."
+ holy_building_construction_temple_harmonic:0 "Grand Harmonic Temple Under Construction"
+ holy_building_construction_temple_harmonic_desc:0 "A great harmonic temple is under construction in this county. Whether a new building or an ancient renovated holy place, this building is bringing many builders and contractors to the site, bringing their commerce with them."
+ holy_building_construction_temple_pagan:0 "Grand Pagan Temple Under Construction"
+ holy_building_construction_temple_pagan_desc:0 "A great pagan temple is under construction in this county. Whether a new building or an ancient renovated holy place, this building is bringing many builders and contractors to the site, bringing their commerce with them."
+ holy_building_construction_temple_civic:0 "Grand Civid Temple Under Construction"
+ holy_building_construction_temple_civic_desc:0 "A great civic temple is under construction in this county. Whether a new building or an ancient renovated holy place, this building is bringing many builders and contractors to the site, bringing their commerce with them."
+ holy_building_construction_temple_other:0 "Grand Temple Under Construction"
+ holy_building_construction_temple_other_desc:0 "A great temple is under construction in this county. Whether a new building or an ancient renovated holy place, this building is bringing many builders and contractors to the site, bringing their commerce with them."
+
+ holy_building_demolishing_quarry:0 "Demolishing a Holy Building for Materials"
+ holy_building_demolishing_quarry_desc:0 "The local holy building in this location has begun being demolished for materials. Whilst many of the local peasants are upset at seeing the iconic building destroyed, the materials are providing a strong boon to the local economy."
+ holy_site_demolished_quarry_complete:0 "Acquiring Building Materials from Local Ruins"
+ holy_site_demolished_quarry_complete_desc:0 "Artisans and peasants alike gather materials from the ruins present in this location, with few remembering the holy place that once stood in its place."
+ holy_building_demolishing_scrap:0 "Demolishing a Holy Building for Scrap"
+ holy_building_demolishing_scrap_desc:0 "The local holy building in this location is under demolition, its raw materials being sold as scrap, seriously upsetting the local peasants who are unhappy to see this iconic building destroyed."
+
+ fervor_holy_building_built:0 "Holy Building Completed"
+ fervor_holy_building_converted:0 "Holy Building Converted"
+ fervor_holy_building_destroyed:0 "We destroyed a heathen Holy Building"
+ fervor_holy_building_destroyed_own:0 "One of our Holy Buildings was destroyed"
+
+ #challa blessings
+
+ challa_blessing_1:0 "Pachamama's Blessing"
+ challa_blessing_1_desc:0 "This character has realized the Ch'alla ceremony and asked Pachamama for a fruitful season."
+ challa_blessing_2:0 "Pachamama's Blessing"
+ challa_blessing_2_desc:0 "This character has realized a generous Ch'alla ceremony and asked Pachamama for a fruitful season."
+ challa_blessing_3:0 "Pachamama's Blessing"
+ challa_blessing_3_desc:0 "This character has realized an extravagant Ch'alla ceremony and asked Pachamama for a fruitful season."
+
+ #huaca modifiers
+
+ huaca_great_economy:0 "Fortune in Wealth"
+ huaca_great_war:0 "Fortune in War"
+ huaca_great_piety:0 "Fortune in the Faith"
+ huaca_great_admin:0 "Fortune in Rulership"
+ huaca_good_economy:0 "Knowledge in Wealth"
+ huaca_good_war:0 "Knowledge in War"
+ huaca_good_piety:0 "Knowledge in the Faith"
+ huaca_good_admin:0 "Knowledge in Rulership"
+ huaca_bad_economy:0 "Misfortune in Wealth"
+ huaca_bad_war:0 "Misfortune in War"
+ huaca_bad_piety:0 "Misfortune in the Faith"
+ huaca_bad_admin:0 "Misfortune in Rulership"
+ huaca_great_economy_desc:0 "A great fortune in matters of wealth has been divined in the Huaca Oracle for this character."
+ huaca_great_war_desc:0 "A great fortune in matters of war has been divined in the Huaca Oracle for this character."
+ huaca_great_piety_desc:0 "A great fortune in matters of the gods has been divined in the Huaca Oracle for this character."
+ huaca_great_admin_desc:0 "A great fortune in matters of administration has been divined in the Huaca Oracle for this character."
+ huaca_good_economy_desc:0 "This character has heard tidings of both fortune and misfortune, allowing them to prepare for upcomings matter of wealth and prosperity."
+ huaca_good_war_desc:0 "This character has heard tidings of both fortune and misfortune, allowing them to prepare for upcomings matter of war and battle."
+ huaca_good_piety_desc:0 "This character has heard tidings of both fortune and misfortune, allowing them to prepare for upcomings matter of the gods and the faith."
+ huaca_good_admin_desc:0 "This character has heard tidings of both fortune and misfortune, allowing them to prepare for upcomings matter of rulership and administration."
+ huaca_bad_economy_desc:0 "Misfortune in matters of wealth has been divined in the Huaca Oracle for this character."
+ huaca_bad_war_desc:0 "Misfortune in matters of war has been divined in the Huaca Oracle for this character."
+ huaca_bad_piety_desc:0 "Misfortune in matters of the gods has been divined in the Huaca Oracle for this character."
+ huaca_bad_admin_desc:0 "Misfortune in matters of rulership has been divined in the Huaca Oracle for this character."
+
+ #programming
+
+ #software_magicks:0 "Software Magicks"
+ #software_magicks_desc:0 "This character is learned in the ways of software magick."
+ 
+ #hardware_magicks:0 "Hardware Magicks"
+ #hardware_magicks_desc:0 "This character is learned in the ways of hardware magick."
+
+ #programming_overclocked_martial:0 "Overclocked"
+ #programming_overclocked_martial_desc:0 "This character been successfully overclocked, granting [recipient.GetHerHim] great martial ability."
+ #programming_overclocked_intrigue:0 "Overclocked"
+ #programming_overclocked_intrigue_desc:0 "This character been successfully overclocked, granting [recipient.GetHerHim] great cunning."
+ #programming_overclocked_stewardship:0 "Overclocked"
+ #programming_overclocked_stewardship_desc:0 "This character been successfully overclocked, granting [recipient.GetHerHim] great skill with numbers."
+ #programming_overclocked_diplomacy:0 "Overclocked"
+ #programming_overclocked_diplomacy_desc:0 "This character been successfully overclocked, granting [recipient.GetHerHim] great skill with words."
+ #programming_overclocked_learning:0 "Overclocked"
+ #programming_overclocked_learning_desc:0 "This character been successfully overclocked, granting [recipient.GetHerHim] deep insight into life's mysteries."
+ #used_programming_overclock_modifier:0 "Overclocked Recently"
+ #used_programming_overclock_modifier_desc:0 "This character has recently overclocked someone."
+
+ #used_programming_debug_modifier:0 "Debugged a Mind Recently"
+ #used_programming_debug_modifier_desc:0 "This character has recently debugged a mind."
+ #programming_debugged:0 "Debugged"
+ #programming_debugged_desc:0 "This character's mind has been successfully debugged, granting [GetHerHim] unmatched confidence."
+
+ #used_programming_trojan_modifier:0 "Injected a Trojan Recently"
+ #used_programming_trojan_modifier_desc:0 "This character has recently injected Trojan magick into someone."
+
+ #trojan_infected:0 "Infected with a Trojan"
+ #trojan_infected_desc:0 "This character has had a veil cast over their eyes, leaving them blind to threats from both without and within."
+ #trojan_detected:0 "Repelled a Trojan"
+ #trojan_detected_desc:0 "This character is highly aware of threats against them, and will go the extra mile to protect themselves."
+
+ #stress_test_success:0 "Invigorated"
+ #stress_test_success_desc:0 "This character feels invigorated after a supernatural test."
+ #stress_test_fail:0 "Exhausted"
+ #stress_test_fail_desc:0 "This character feels completely spent after a supernatural test." 
+
+ #used_programming_stress_test_modifier:0 "Performed Stress Test Recently"
+ #used_programming_stress_test_desc:0 "This character has recently performed a stress test on someone."
+
+ #memento mori
+
+ visited_crypt_recent:0 "Recently Visited Crypt"
+ visited_crypt_recent_desc:0 "This character has recently visited their family crypt, and visiting it now won't affect them."
+ memento_mori_1:0 "Memento Mori (x1)"
+ memento_mori_1_desc:0 "This character holds one memento mori, a token from the body of a dead family member, that blesses them with good fortune."
+ memento_mori_2:0 "Memento Mori (x2)"
+ memento_mori_2_desc:0 "This character holds two memento mori, a token from the body of a dead family member, that blesses them with good fortune."
+ memento_mori_3:0 "Memento Mori (x3)"
+ memento_mori_3_desc:0 "This character holds three memento mori, a token from the body of a dead family member, that blesses them with good fortune."
+ memento_mori_4:0 "Memento Mori (x4)"
+ memento_mori_4_desc:0 "This character holds four memento mori, a token from the body of a dead family member, that blesses them with good fortune."
+ memento_mori_5:0 "Memento Mori (x5)"
+ memento_mori_5_desc:0 "This character holds five memento mori, a token from the body of a dead family member, that blesses them with good fortune."
+ county_memento_crypt:0 "Family Memento Crypt"
+ county_memento_crypt_desc:0 "This county has a crypt built in it to keep family memento mori. The owner can visit it periodically."
+ memento_legacy:0 "Legacy of Fortune"
+ memento_legacy_desc:0 "This character has a strong connection to a legacy of good fortune and success, living through their family's memento mori."
+ memento_legacy_dust:0 "Legacy of Dust"
+ memento_legacy_dust_desc:0 "This character has a negative connection to their family's legacy, finding only ruin in their memento mori."
+
+ #llanoism
+
+ night_mare:0 "Night Mare"
+ night_mare_desc:0 "This character is an initiate of the Night Mares cult, enabling access to the dark spells of La Sayona, La Bolefuego, and Rucio Moro."
+ hell_stallion:0 "Hell Stallion"
+ hell_stallion_desc:0 "This character is an initiate of the Hell Stallions cult, enabling access to the dark spells of Juan Machete, Florentino Cazadiablos, and Rucio Moro."
+ rucio_moro_blessing:0 "Rucio Moro's Blessing"
+ rucio_moro_blessing_desc:0 "This character has been blessed with rains of prosperity, supposedly by Rucio Moro themselves."
+ rucio_moro_not_blessing:0 "Ignored by Rucio Moro"
+ rucio_moro_not_blessing_desc:0 "This character has been not been blessed with rains of prosperity they have asked for, supposedly signaling rejection by Rucio Moro."
+
+ #I proceed to xD
+ poet_of_the_espantos:0 "Poet of the Espantos"
+ poet_of_the_espantos_desc:0 "This character has shown dedication to the art of Joropo though a Contrapunteo duel, earning a fame as a devout poet of the Espantos."
+
+
+#nguillatun
+ nguillatun_blessing_2:0 "Great Blessing"
+ nguillatun_blessing_2_desc:0 "This character has held a widely well-regarded Nguillatun, and is awaiting good and prosperous times."
+ nguillatun_blessing_1:0 "Good Blessing"
+ nguillatun_blessing_1_desc:0 "This character has held a generally well-regarded Nguillatun, and is awaiting rather prosperous times."
+ nguillatun_blessing_0:0 "Mediocre Blessing"
+ nguillatun_blessing_0_desc:0 "This character has held a generally poorly-regarded Nguillatun, and can hardly hope for prosperous times."
+
+#patria grande pantheon
+ pantheon_bolivar_1:0 "Devotee of Bolívar"
+ pantheon_bolivar_1_desc:0 "This character is a devotee of Simón Bolívar, called Simón Pedro or Saint Peter, the liberator who breaks the chains and brings death to the tyrants. Bolívar is the saint of war and freedom."
+ pantheon_bolivar_2:0 "Devotee of Bolívar"
+ pantheon_bolivar_2_desc:0 "This character is a devotee of Simón Bolívar, the liberator who breaks the chains and brings death to the tyrants. Bolívar is the prócer of war and freedom."
+ pantheon_santander_1:0 "Devotee of Santander"
+ pantheon_santander_1_desc:0 "This character is a devotee of Francisco de Paula Santander, called Saint Francis or the man of the laws. Santander is the great legislator, a sage who puts integrity and peace above all."
+ pantheon_santander_2:0 "Devotee of Santander"
+ pantheon_santander_2_desc:0 "This character is a devotee of Francisco de Paula Santander, called the man of the laws. Santander is the great legislator, a sage who puts integrity and peace above all."
+ pantheon_manuelita_1:0 "Devotee of Manuelita"
+ pantheon_manuelita_1_desc:0 "This character is a devotee of Manuelita Saenz, the Magdalene, the saint of fertility and love. A lady of a twofold nature, as a faithful consort and free spirited lover."
+ pantheon_manuelita_2:0 "Devotee of Manuelita"
+ pantheon_manuelita_2_desc:0 "This character is a devotee of Manuelita Saenz, the prócer of fertility and love. A lady of a twofold nature, as a faithful consort and free spirited lover."
+ pantheon_la_pola_1:0 "Devotee of La Pola"
+ pantheon_la_pola_1_desc:0 "This character is a devotee of La Pola, called Saint Apollonia, she who guards the Fatherland from the shadows. La Pola is the saint of the fear, secrets and the night."
+ pantheon_la_pola_2:0 "Devotee of La Pola"
+ pantheon_la_pola_2_desc:0 "This character is a devotee of La Pola, she who guards the Motherland from the shadows. La Pola is the prócer of the fear, secrets and the night."
+ corrupt_elector_assembly:0 "Corrupt Elector"
+ corrupt_elector_assembly_desc:0 "This character is known for being involved in unseemly dealings in matters of the faith."
+
+ desire_for_beauty:0 "Desire for Beauty"
+ detachment_from_wordly_affairs:0 "Detachment from Wordly Affairs"
+ peace_with_death:0 "At Peace with Death"
+ live_life_in_spite:0 "Living Life in Spite"
+ slave_of_destiny:0 "Slave of Destiny"
+ above_destiny:0 "Above Destiny"
+ no_time_like_present:0 "No Time like the Present"
+ unreal_nostalgia:0 "Unreal Nostalgia"
+ fleeing_from_romance:0 "Fleeing from Romance"
+ dying_of_love:0 "Dying of Love"
+
+ assembly_bribe_refused:0 "Refused my bribe"
+ 
+ #astronomer
+
+ county_drawn_geoglyph_modifier:0 "Constructed Geoglyphs"
+ county_drawn_bad_geoglyph_modifier:0 "Constructed Shoddy Geoglyphs"
+ county_drawn_good_geoglyph_modifier:0 "Constructed Noteworthy Geoglyphs"
+
+ #animist
+
+ county_dedicated_anima_shrine:0 "Dedicated Anima Shrine"
+ county_dedicated_anima_shrine_desc:0 "A shrine dedicated to [ROOT.Var('tragical_anima').Char.GetFirstName]"
+ county_dedicated_anima_sanctuary:0 "Hallowed Anima Sanctuary"
+ anima_child_patron:0 "Ánima of [ROOT.Var('patron_anima').Char.GetFirstNameNicknamed]"
+ anima_child_patron_desc:0 "Just a child before passing away, the pure and angelic soul of [ROOT.Var('tragical_anima').Char.GetFirstNameNicknamed] can [THIS.Var('tragical_anima').Char.GetFirstNameNicknamed] watch [shrine_location.Var('tragical_anima').Char.GetFirstNameNicknamed] over you and protect you."
+ anima_established_effect:0 "#P Other characters of your faith who have the location of the Anima Shrine as their capital will now be able to select the ánima of your shrine as their Patron Ánima.#!"
+ anima_made_greater_effect:0 "#P All characters of your faith will now be able to select the ánima of your sanctuary as their Patron Ánima.#!"
+ greater_anima_3:0 "Third Greater Ánima"
+
+#whale hunt stuff
+
+ successful_whale_hunt_modifier:0 "Bountiful Whale Hunt"
+ successful_whale_hunt_modifier_desc:0 "A successful whale hunt has spurred more economic activity in this province."
+
+ #equal exchange
+
+ equal_exchange_small:0 "Meager Exchange"
+ equal_exchange_small_desc:0 "A meager offering befits a meager result."
+
+ equal_exchange_mid:0 "Moderate Exchange"
+ equal_exchange_mid_desc:0 "A moderate offering befits a moderate result."
+
+ equal_exchange_big:0 "Large Exchange"
+ equal_exchange_mid_desc:0 "A large offering befits a large result."
+
+ #Popular Saints
+
+ learned_popular_saint_culture_modifier: "Learned about other cultures"
+ learned_popular_saint_culture_modifier_desc: "Speaking with a popular religious leader has taught this character about foreign practices."
+
+ #popular_saint_mission_modifier: "Popular Folk Leader's Assistance"
+ #popular_saint_mission_modifier_desc: "The advice and contributions of a popular religious leader has assisted evangelization in this area."
+
+ popular_saint_embraced_modifier: "Folk Leader Embraced"
+ popular_saint_embraced_modifier_desc: "The population has noticed the dedicated cooperation between a local folk religious leader and the powers that be."
+
+ popular_saint_missing_modifier: "Popular Leader Missing"
+ popular_saint_missing_modifier_desc: "An important religious leader among the peasants of this area was taken away."
+
+ popular_saint_advice_modifier: "Folk Leader's Advice"
+ popular_saint_advice_modifier_desc: "The local administration is listening to points of advice given by a prominent local religious leader."
+
+ dark_ritual_modifier: "Reputation for Blood Rituals"
+ dark_ritual_modifier_desc: "This character is feared and respected for the dark rituals that they partakes in."

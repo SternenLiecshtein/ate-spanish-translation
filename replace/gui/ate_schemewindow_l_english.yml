@@ -1,0 +1,2 @@
+﻿l_spanish:
+ SCHEME_VS_HOLY_ORDER_HOF:1 "[target.GetTitledFirstName] is your [holy_order_head_of_faith|E]: $VALUE|+0=-+$"

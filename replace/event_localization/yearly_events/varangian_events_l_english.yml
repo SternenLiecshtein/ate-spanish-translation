@@ -1,0 +1,60 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ innovation_druzhina:0 "Agents"
+ innovation_druzhina_desc:0 "Secret Service agents have long served as imposing bodyguards for the President, but they can just as easily serve as dedicated heavy infantry in our armies."
+ hold_court.7030.american_desc:0 "The next petitioner is an extremely angry [angry_vassal.GetName]. With the briefest of deference shown, [angry_vassal.GetTitledFirstNameNoTooltip] informs you that the Secret Service, led by [troublesome_warrior.GetName] have recently rampaged through [hold_court_7030_county.GetName] - the good [angry_vassal.GetTitlePossessive] own land.\n\n"They've plundered, looted and despoiled their way across my land, my [ROOT.Char.GetTitleAsNameNoTooltip]. I don't see what value they bring that could possibly outweigh their rowdiness and their drunkenness!"\n\n. What is to be done?"
+ send_to_varangian_guard_interaction_effect_desc:1 "#weak While serving in the Secret Service, [CHARACTER.GetShortUIName] might increase [CHARACTER.GetHerHis] [skills|E] or gain [traits|E] — but [CHARACTER.GetSheHe] might also become wounded, or worse. [CHARACTER.GetSheHe|U] will return within a few years, but cannot be recalled.#!"
+ murder_save.0010.t:0 "$murder_save_header$ Agents"
+ murder_save.0010.desc:0 "My attempt on [target.GetTitledFirstNamePossessive] life has been thwarted!\n\nThe assassin was stopped by one of those insipid Agents! I suppose the [target.GetTitleAsNameNoTooltip] got [target.GetHerHis] guard after all..."
+
+ varangian_arrived.title:0 "A New Agent"
+ varangian_arrived.desc:0 "[varangian_candidate.GetShortUIName|U] has joined the Secret Service"
+
+ varangian.0002.t:0 "The Secret Service"
+ varangian.0002.opening:0 "By the time [varangian_candidate.Custom2('MyCharacterIntroduction', ROOT.Char )] comes to me with [varangian_candidate.GetHerHis] plan, [varangian_candidate.GetSheHe] seems to have already made up [varangian_candidate.GetHerHis] mind.\n\n"Serving with the Agents in"
+ varangian.0002.washington:0 "Washington"
+ varangian.0002.elsewhere:0 "the Secret Service"
+ varangian.0002.end:0 "will bring both wealth and glory!"\n\nI cannot deny that part, but I could deny [varangian_candidate.GetHerHis] request. On the other hand, would it be right to stop someone in their pursuit of glory?"
+ varangian.0002.a:0 "Go, with [ROOT.Char.GetFaith.WarGodNamePossessive] blessing!"
+ varangian.0002.b:0 "No, I forbid it! You are needed here."
+
+ varangian.1002.t:0 "Returning From the Secret Service"
+ varangian.1002.opening:0 "I barely recognize [returning_varangian.Custom2('MyCharacterIntroduction', ROOT.Char )] as [varangian_candidate.GetSheHe] enters my great hall."
+ varangian.1002.new_partner:0 "And I certainly don't recognize the [partner.GetWomanMan] at [varangian_candidate.GetHerHis] side!"
+ varangian.1002.ending:0 "\n\n"I am home, [returning_varangian.Custom2('RelationToMeShort', ROOT.Char )]!" [returning_varangian.GetFirstNameNoTooltip] bellows. "There have been many a time I thought I would never see these lands again, but I am finally back."\n\nAs strange as it is to see my [ROOT.Char.Custom2('RelationToMeShort', returning_varangian )] after all these years, I cannot deny that I am impressed with [varangian_candidate.GetHerHis] [emperor.GetCulture.GetNameNoTooltip] dress, [varangian_candidate.GetHerHis] foreign jewelry, and the heavy coffer [returning_varangian.GetSheHe] has brought with [returning_varangian.GetHerHim]."
+ varangian.1002.a:0 "Welcome home, [returning_varangian.GetFirstNameNoTooltip]!"
+
+ varangian.3001.t:0 "Secret Service: An Honorable Death"
+ varangian.3001.desc:0 "[varangian.Custom2('MyCharacterIntroduction', ROOT.Char)] has died while serving in the Secret Service!\n\nI have received a missive from the [emperor.GetTitledFirstName] praising [varangian.GetHerHis] name, and describing how [varangian.GetSheHe] fought valiantly to save the life of the [emperor.GetTitleAsNameNoTooltip] from vicious assassins.\n\nNothing can ever bring [varangian.GetFirstNameNoTooltip] back, but the posthumous reward of gold from the [emperor.GetTitleAsNameNoTooltip] helps ease the sorrow."
+ varangian.3001.a:0 "Brave until the end, [varangian.GetFirstNameNoTooltip]..."
+ 
+ SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_VARANGIAN:0 "Having served in the Secret Service, [ROOT.Char.GetHerHis] adventurous spirit is likely to inspire [ROOT.Char.GetHerHis] subjects."
+ 
+ send_to_varangian_guard_interaction:0 "Send to the Secret Service #weak (Dynasty)#!"
+ send_to_varangian_guard_interaction_desc:0 "$dynasty_interaction_header$Send [recipient.GetShortUINameNoTooltip] away to gain glory and fortune in the Secret Service. Who knows, it might even help build character!"
+ send_to_varangian_guard_interaction_toast:1 "[recipient.GetShortUIName] left for the Secret Service"
+ send_to_varangian_guard_interaction_toast_desc:0 "Trust and Confidence"
+ 
+ rival_varangian:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] started despising each other while serving together in the Secret Service."
+ best_friend_varangian:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] formed an unbreakable bond while serving together in the Secret Service."
+ friend_varangian:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends while serving together in the Secret Service."
+ lover_varangian_local:0 "[CHARACTER.GetShortUIName|U] met [TARGET_CHARACTER.GetShortUIName], a local, while serving in the Secret Service."
+ lover_varangian_local_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] met [CHARACTER.GetShortUIName], a local, while serving in the Secret Service."
+ lover_varangian_lover:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUINamePossessive] served in the Secret Service together, and grew #EMP very#! close."
+ lover_varangian_lover_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUINamePossessive] served in the Secret Service together, and grew #EMP very#! close."
+ 
+ single_combat.0001.tt.stoic_veteran:0 "#BOL Stoic Veteran:#! using your Secret Service experience, you hew at [my_foe.GetFirstNameNoTooltip]"
+ single_combat.0001.desc.my_feedback.stoic_veteran:0 "The Secret Service doesn't encourage laxity. It takes a vigilant eye and a firm arm to excel as one of the President's guards, and with every blow, I show [my_foe.GetFirstNameNoTooltip] how Agents fight."
+ single_combat.0001.desc.opponent_response.stoic_veteran:0 "[my_foe.GetFirstNamePossessiveNoTooltip] time in the Secret Service has left [my_foe.GetHerHim] stoic, brutal, and deadly with [my_foe.Custom('SignatureWeaponArticle')] [my_foe.Custom('signature_weapon')], delivering [my_foe.Custom('SignatureWeaponAttemptedHeavy')] after [my_foe.Custom('SignatureWeaponAttemptedHeavy')] to my torso."
+ single_combat.0031.desc.sc_attacker.stoic_veteran:0 "In the Service, we chiefly protected the President against threats to their person, but most assassins flee at the sign of a heavily-armed Agent. My opponent, to [sc_victor.GetHerHis] credit, doesn't seem phased by my intimidating appearance, and my stoic hewing is met by with determined parry after determined parry.\n\n"
+ single_combat.0041.desc.opponent_response.stoic_veteran:0 "[sc_loser.GetFirstNameNoTooltip] uses [sc_loser.GetHerHis] [sc_loser.Custom('signature_weapon')] with all the competence typical of an Agent, hewing at me with long, even strikes of [sc_loser.GetHerHis] weapon. It's difficult, but nothing I'm not able to parry well enough.\n\n"
+ single_combat.0041.desc.opponent_response.stoic_veteran.fatality:0 "We fall into a tense pattern of strike-parry-riposte, with me slowly gaining the upper hand, wearing [sc_loser.GetFirstNameNoTooltip] down blow by blow, till [sc_loser.GetSheHe]'s accrued enough welts and wounds to kill most [sc_loser.GetWomenMen] twice over.\n\nEven [sc_loser.GetSheHe] has [sc_loser.GetHerHis] limits, though. And as the agent collapses to [sc_loser.GetHerHis] knees, ready for the deathblow, it becomes clear that we both know it."
+ 
+ d_varangian_guard_article:0 "the "
+ d_varangian_guard:0 "Secret Service"
+ d_varangian_guard_adj:0 "Agent"

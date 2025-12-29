@@ -1,0 +1,4 @@
+﻿l_spanish:
+
+ head_of_faith.0031.t:0 "$head_of_faith.0000.t$: Amriki"
+ head_of_faith.0031.desc:0 "Como Amrikis, nos importa poco cómo las otras sectas islámicas trazan la línea de sucesión del Profeta, y ellos nos rechazan a cambio. Mis compañeros [ROOT.Char.GetFaith.GetAdherentNamePlural]  ciertamente no esperan que declare nuestra sumisión a ningún califa existente.\n\nSin embargo, tal vez al jurar lealtad a una de las grandes potencias del Islam, puede comprarnos cierta seguridad y tolerancia para nuestra fe..."

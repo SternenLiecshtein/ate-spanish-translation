@@ -1,0 +1,12 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ #TITLE_SPECIAL_DESCRIPTION:0 "[Title.Custom('GetTitleSpecialDescription')]"
+ title_special_description_default:0 "[head_of_faith|E] Title" # [Title.GetSpecialDescription]
+ #title_special_description_papacy:0 "[head_of_faith|E] of [GetPlayer.Char.conclavian_scope.GetAdjective]" # Doesn't work
+ #title_special_description_presidency:0 "[head_of_faith|E] of [americanist_scope.GetAdjective]" # Doesn't work
+ 

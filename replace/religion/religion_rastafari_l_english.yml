@@ -1,0 +1,170 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ rastafari_religion: "Rastafari"
+ rastafari_religion_adj: "Rasta"
+ rastafari_religion_adherent: "Rasta"
+ rastafari_religion_adherent_plural: "Rastas"
+ rastafari_religion_desc: "Rastafari is a religion originating in Jamaica, formed from Christianity and the teachings of Marcus Garvey. Loosely organized into various sects known as “mansions”, the tradition worships a single god named Jah. The pre-[Concept('the_event_ate','Event')|E] emperor from Zion, known by various titles, chief among them Ras Tafari, is interpreted in many different ways. The Event itself is believed to be the result of Jah destroying the wicked forces of Babylon, which has ushered in a new age of peace and prosperity. Agents of Babylon still exist, however, and their actions threaten to corrupt existence with suffering and oppression if not resisted."
+
+ rastafari_jah: "Jah"
+ rastafari_jah_possessive: "Jah's"
+ rastafari_the_lord: "the Lord"
+ rastafari_the_lord_possessive: "the Lord's"
+ rastafari_ras_tafari: "Ras Tafari"
+ rastafari_ras_tafari_possessive: "Ras Tafari's"
+ rastafari_haile_salessie_i: "King Haile Salessie I"
+ rastafari_haile_salessie_i_possessive: "King Haile Salessie I's"
+ rastafari_prophet_garvey: "Prophet Garvey"
+ rastafari_prophet_garvey_possessive: "Prophet Garvey's"
+ rastafari_babylon: "Babylon"
+ rastafari_babylon_possessive: "Babylon's"
+ rastafari_satan: "Satan"
+ rastafari_death: "Death"
+ rastafari_death_possessive: "Death's"
+ rastafari_house_of_worship: "grounding"
+ rastafari_house_of_worship_plural: "groundings"
+ rastafari_religious_symbol: "lion of Judah"
+ rastafari_religious_text: "Promised Key"
+ rastafari_religious_head_title: "High Elder"
+ rastafari_religious_head_title_name: "High Eldership"
+ rastafari_devotee: "rasta"
+ rastafari_devotee_plural: "rastas"
+ rastafari_priest: "elder"
+ rastafari_priest_plural: "elders"
+ rastafari_divine_realm: "Zion"
+ rastafari_negative_afterlife: "Babylon"
+ 
+ bobo_ashanti_priest: "priest"
+ bobo_ashanti_priest_plural: "priests"
+ 
+ twelve_tribes_iyesus_kirisitos: "Iyesus Kirisitos"
+ twelve_tribes_iyesus_kirisitos_possessive: "Iyesus Kirisitos'"
+ twelve_tribes_prophet_gad: "Prophet Gad"
+ twelve_tribes_religious_text: "Bible"
+
+ bobo_ashanti: "Bobo Ashanti"
+ bobo_ashanti_adj: "Bobo Ashanti"
+ bobo_ashanti_adherent: "Ashanti"
+ bobo_ashanti_adherent_plural: "Ashantis"
+ bobo_ashanti_desc: "Bobo Ashanti, named for an ancient empire in Zion, is the strictest and most conservative of the popular Rasta mansions. Known for their vegetarian diets and a strong focus on ritualism and tradition, Bobo Ashanti members emphasize denying agents of Babylon any power by separating entirely from their influences. This manifests as an unusually formal but still highly decentralized form of monasticism. Central to their theology is their divine trinity, composed of Priest Emmanuel Charles, Prophet Marcus Garvey, and King Haile Salessie I."
+
+ bobo_ashanti_priest_emmanuel_charles: "Priest Emmanuel Charles"
+ bobo_ashanti_priest_emmanuel_charles_possessive: "Priest Emmanuel Charles'"
+ 
+ twelve_tribes: "Twelve Tribes of Israel"
+ twelve_tribes_adj: "Twelve Tribes"
+ twelve_tribes_adherent: "Israelite"
+ twelve_tribes_adherent_plural: "Israelites"
+ twelve_tribes_desc: "While other mansions stress to some degree the unique identity of Rastology, the Twelve Tribes emphasize the Christian and Jewish heritage of the movement. Members call themselves Israelites and break with other Rastas by asserting that Haile Selassie, although an emissary of Jah, was not Jah himself. Worship is instead directed to Iyesus Kirisitos, or Jesus, and the Bible is encouraged to be read by the faithful every day. The sect also takes a generally more tolerant perspective towards gender, interfaith relations, and sexual expression, alongside creating an informal spiritual leadership body that manages matters of doctrine."
+
+ twelve_tribes_religious_head_title: "First Among Equals"
+ twelve_tribes_religious_head_title_name: "Executive Board"
+ 
+ nyabinghi: "House of Nyabinghi"
+ nyabinghi_adj: "Nyabinghi"
+ nyabinghi_adherent: "Nyabinghi"
+ nyabinghi_adherent_plural: "Nyabinghis"
+ nyabinghi_desc: "The House of Nyabinghi, named for a legendary warrior queen, is the oldest of the Rasta mansion and known for their for their practice of incorporating binghi chants into their groundations, which they regard as a way to emphasize unity and community among Rastas. Keeping a united front is very important to the mansion, as adherents believe that the remaining agents of Babylon on Earth must be destroyed in order for Zion to come into its full being. The sect also believes Ras Tafari to be Jah and the reincarnation of Jesus Christ."  
+
+ special_doctrine_sacramental_herbs_name: "$tenet_sacramental_herbs_name$"
+ special_doctrine_sacramental_herbs_desc: "$tenet_sacramental_herbs_desc$"
+
+ ethiopianzion:0 "Ethiopian Zion Orthodoxy"
+ ethiopianzion_adj:0 "Ethiopian Zion"
+ ethiopianzion_adherent:0 "Ethiopian"
+ ethiopianzion_adherent_plural:0 "Ethiopians"
+ ethiopianzion_desc:0 "The relationship between the Rastafari and Christendom is a complex and tenuous one. Rastafarians generally hold that they follow the true beliefs of the Bible before its corruption by the Babylonian churches, while Christianity regards them either as heretics or outright apostasy. Ethiopian Zion Orthodoxy, however, represents an unexpected middle ground between the two. They proclaim themselves to be the faith of Haile Selassie, yet reject the assertion of other Rastafari mansions that Selassie is the Messiah and Jah incarnate. Instead, he is the temporal steward of distant Zion, of which Christ and Jah are king. While they retain other beliefs such as livity and adherence to the Old Testament, they diverge significantly from Rasta with their centralized ecclesiastical structure organized under a Patriarch and eccentric practices like consecrating churches with a replica of the Ark of the Covenant, to embody Jah’s presence in all things."
+ 
+ ethiopianzion_high_god_name:0 "Jah"
+ ethiopianzion_high_god_name_possessive:0 "Jah's"
+ ethiopianzion_high_god_name_alternate:0 "The Lord"
+ ethiopianzion_high_god_name_alternate_possessive:0 "The Lord's"
+
+ ethiopianzion_creator_god_name:0 "The Lord"
+ ethiopianzion_creator_god_name_possessive:0 "The Lord's"
+
+ ethiopianzion_health_god_name:0 "Jesus"
+ ethiopianzion_health_god_name_possessive:0 "Jesus'"
+
+ ethiopianzion_fertility_god_name:0 "God"
+ ethiopianzion_fertility_god_name_possessive:0 "God's"
+
+ ethiopianzion_wealth_god_name:0 "Ras Tafari"
+ ethiopianzion_wealth_god_name_possessive:0 "Ras Tafari's"
+
+ ethiopianzion_household_god_name:0 "Ras Tafari"
+ ethiopianzion_household_god_name_possessive:0 "Ras Tafari's"
+
+ ethiopianzion_fate_god_name:0 "The Lord"
+ ethiopianzion_fate_god_name_possessive:0 "The Lord's"
+
+ ethiopianzion_knowledge_god_name:0 "God"
+ ethiopianzion_knowledge_god_name_possessive:0 "God's"
+
+ ethiopianzion_war_god_name:0 "the Conquering Lion"
+ ethiopianzion_war_god_name_possessive:0 "the Conquering Lion's"
+
+ ethiopianzion_trickster_god_name:0 "God"
+ ethiopianzion_trickster_god_name_possessive:0 "God's"
+
+ ethiopianzion_night_god_name:0 "God"
+ ethiopianzion_night_god_name_possessive:0 "God's"
+
+ ethiopianzion_water_god_name:0 "Jesus"
+ ethiopianzion_water_god_name_possessive:0 "Jesus'"
+
+ ethiopianzion_pantheon:0 "Zion's Royal Court"
+
+ ethiopianzion_good_god_selassie:0 "Steward Haile Selassie"
+ ethiopianzion_good_god_garvey:0 "St. Garvey"
+ ethiopianzion_good_god_nine_saints:0 "the Nine Saints"
+ ethiopianzion_good_god_haymanot:0 "St. Haymanot"
+ ethiopianzion_good_god_elesbaan:0 "Steward Elesbaan"
+
+
+ ethiopianzion_devil_name:0 "Satan"
+ ethiopianzion_devil_name_possessive:0 "Satan's"
+
+ ethiopianzion_house_of_worship:0 "monastery"
+ ethiopianzion_house_of_worship_plural:0 "monasteries"
+ ethiopianzion_religious_symbol:0 "cross"
+ ethiopianzion_religious_text:0 "Bible"
+ ethiopianzion_religious_head_title:0 "Abuna"
+ ethiopianzion_religious_head_title_name:0 "Patriarchate of Zion-in-exile"
+
+ ethiopianzion_devotee:0 "debtera"
+ ethiopianzion_devotee_plural:0 "debteras"
+
+ ethiopianzion_priest_male:0 "priest"
+ ethiopianzion_priest_male_plural:0 "priests"
+ ethiopianzion_priest_female:0 "priestess"
+ ethiopianzion_priest_female_plural:0 "priestesses"
+ ethiopianzion_bishop:0 "Aleqa"
+ ethiopianzion_bishop_plural:0 "Aleqas"
+
+ ethiopianzion_divine_realm:0 "Zion"
+ ethiopianzion_positive_afterlife:0 "Heaven"
+ ethiopianzion_negative_afterlife:0 "Hell"
+
+ ethiopianzion_death_deity_name:0 "Death"
+ ethiopianzion_death_deity_name_possessive:0 "Death's"
+
+ ghw_ethiopianzion:0 "Crusade"
+ ghws_ethiopianzion:0 "Crusades"
+
+ ethiopianzion_witch_god_name:0 "Buda"
+
+
+ jahknowledge:0 "School of Jah Knowledge"
+ jahknowledge_adj:0 "Jah Knowledge"
+ jahknowledge_adherent:0 "Jah Knower"
+ jahknowledge_adherent_plural:0 "Jah Knowers"
+ jahknowledge_desc:0 "One of the central appeals of Rastafari is the sense of community it fosters among its practitioners, who all gather together and speak as equals in groundations. This commonality extends to spiritual matters, as Jah is said to reside within each and every follower. This ‘Jah Knowledge’ forms the core of this mystical sect, who assert that Zion is not a physical place but rather a mental state achieved when one fully realizes their unity with Jah. Conquering the inner Zion still requires the defeat of the physical Babylon, who enforce the mental trick of separation from the divine upon the unknowing. As a result, those who seek Jah Knowledge must liberate both their minds and their societies from the grips of deception."
+
+
+

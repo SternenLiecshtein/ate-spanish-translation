@@ -1,0 +1,48 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ #Generic Lines
+ historical_commander_trait.reject.tt:1 "#F You will look elsewhere for inspiration #!"
+
+ #Macarthur
+ historical_commander_trait.0001.t:0 ""The American Caesar""
+ historical_commander_trait.0001.desc:1 "While studying the tactics of ancient generals I was [ROOT.Char.Custom('surprised_reaction')] to learn about the exploits of Douglas  MacArthur during the Second World's War:\n\n#F Known as ‘The American Caesar’, MacArthur is hallowed for his prominent role in the defense of the distant Philippines. This culminated in the Battle of Bataan, where in spite of a lack of supplies MacArthur held onto the Bataan peninsula for three months of constant fighting, buying time for a proper defence to be mounted elsewhere#!"
+ historical_commander_trait.0001.a:0 "Like MacArthur, I will annihilate my enemies!"
+ historical_commander_trait.0001.b:0 "MacArthur's command over his forces kept them from obliteration."
+ historical_commander_trait.0001.c:0 "Despite the challenge, he held his ground, so will I."
+ historical_commander_trait.0001.d:0 "A great commander.. and yet he lost the battle."
+ historical_commander_trait.0001.d.good:0 "Brutality is not a trait to be envied, even in war."
+ #Caesar
+ historical_commander_trait.0002.t:0 ""El Libertador""
+ historical_commander_trait.0002.desc:0 "While studying the tactics of ancient generals I was amazed to learn of the campaigns of Simón Bolívar throughout South America.\n\n#F Hailed as "The Liberator" Simón Bolívar swore to end the oppressive Colonial regime. Leading a great host, Bolívar marched from Nation to Nation, dispatching the tyrants as he went. Despite early defeats, with his zealous desire for the freedom of the Latin population and help from Caribbean allies he returned and forged a bloody path through the Spanish oppressors. Being chosen as the leader of all countries in which he fought.#!"
+ historical_commander_trait.0002.a:0 "Without his planning, his fight would have failed."
+ historical_commander_trait.0002.b:0 "His versitility was a great strength."
+ historical_commander_trait.0002.c:0 "It was a great risk to take on such an enemy."
+ historical_commander_trait.0002.d:0 "Wars just aren't fought like that these days..."
+ #Alexander
+ historical_commander_trait.0003.t:0 ""The American Cincinnatus""
+ historical_commander_trait.0003.desc:0 "While studying the tactics of ancient generals I was [ROOT.Char.Custom('surprised_reaction')] to learn about the command of General Washington in his revolution.\n\n#F Despire facing the might of a global Empire, George Washington was able to led the young America to a decisive victory. Particularly the Crossing of the Delaware highlighed his ingenuity and leadership.#!"
+ historical_commander_trait.0003.a:0 "I shall cross rivers as he did!"
+ historical_commander_trait.0003.b:0 "The Siege of Yorktown was a great victory!"
+ historical_commander_trait.0003.c:0 "Washington used careful strategy."
+ historical_commander_trait.0003.d:0 "He could not have won without the help of Allies."
+
+ #Constantine
+ historical_commander_trait.0004.t:0 "His Horse is Crazy"
+ historical_commander_trait.0004.desc:0 "While studying the tactics of ancient generals I was inspired when I learned about Crazy Horse's victory over Custer at Little Bighorn.\n\n#F Despite facing a better armed enemy, Crazy Horse led the combined forces of the Lakota, Cheyenne, and Arapaho to victory over the forces of the Americans.#!"
+ historical_commander_trait.0004.a:0 "He was fighting for his land and his people."
+ historical_commander_trait.0004.b:0 "I must attack and crush my enemies, like Crazy Horse."
+ historical_commander_trait.0004.c:0 "Their fast movements won that battle."
+ historical_commander_trait.0004.d:0 "It was simply numbers that caused victory."
+
+ #Khalid ibn al-Walid
+ historical_commander_trait.0005.t:0 "Son of the Sun"
+ historical_commander_trait.0005.desc:0 "While studying the tactics of historical generals I was amazed by the conquests of the Incan Emperor Pachacuti.\n\n#F Pachacuti took the Incans from a small mountain kingdom to a great empire which dominated the Andes. Despite not being designated as a successor, he led a victorious defence of Cusco inspite of his father and older brother fleeing the city. It was this victory that got him recognised as the legitmate heir and blessed by the Sun.#!"
+ historical_commander_trait.0005.a:0 "He must've been divinely favoured."
+ historical_commander_trait.0005.b:0 "His devotion and strategy was unparalleled."
+ historical_commander_trait.0005.c:0 "To fight in the Andes requires great planning."
+ historical_commander_trait.0005.d:0 "His true talent was economics."

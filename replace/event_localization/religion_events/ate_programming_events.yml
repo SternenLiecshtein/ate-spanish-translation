@@ -1,0 +1,80 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ 
+ 
+ #programming.001.t:0 "The Initiation"
+ #programming.001.desc.male:0 "I am led into a dimly-lit room, in the middle of which lies an ancient Computing Altar. The square box and keyed slate above the altar and the oblong tower below the alter both beckon to me. As I sit in front of the ancient tools, the priests and priestesses chant frenzied ancient melodies.\n\nI am told that I may only leave once I have learned the secrets of the computing machine and the underlying Logic of the All-Go-Rhythm."
+ #programming.001.a:0 "I study the glass box and keyed slate intently."
+ #programming.001.b:0 "I crawl below the altar and begin examining the tower."
+
+ #programming.002.t:0 "RNGesus Giveth"
+ #programming.002.desc:0 "A great rainstorm has washed over the land, which will surely ensure a bumper crop and prosperity for my people. I chuckle to myself, knowing that this outcome was pre-ordained by RNGesus and predicted by my high dice roll."
+ #programming.002.a:0 "Praise you, RNGesus!"
+ #programming.003.t:0 "RNGesus Taketh Away"
+ #programming.003.desc:0 "A great drought has afflicted the land, which will surely bring hardship to my people. I sigh mournfully, knowing that this outcome was determined by RNGesus himself. Perhaps I should not have cast my die.. or, at least, I should not have rolled that 1."
+ #programming.003.a:0 "Curse you, RNGesus!"
+ 
+ #programming.005.t:0 "Debugging a Mind"
+ #programming.005.desc.you:0 "I steel myself one final time as I begin the process of debugging my own mind mind. Once I begin this journey, I am committed to see it through... regardless of what I uncover once I have fixed the most glaring bugs."
+ #programming.005.desc.others:0 "I steel myself one final time as I begin the process of debugging [recipient.GetTitledFirstNameNoTooltip]'s mind. Once I begin this journey, I am committed to see it through... regardless of what I uncover once I have fixed the most glaring bugs."
+ #programming.005.a:0 "Alright, let's crack this open..."
+ 
+ #programming.006.t:0 "Successful Debug"
+ #programming.006.desc.you:0 "I sigh and wipe the sweat from my brow, satisfied with my examination of my own mind. I have managed to identify all the mental blocks, logic loops, and flawed chains pf reasoning that have accumulated in my mind recently, and after removing them, I feel more functional than ever before!"
+ #programming.006.desc.others:0 "I sigh and wipe the sweat from my brow, satisfied with my examination of [recipient.GetTitledFirstNameNoTooltip]'s mind. I have managed to identify all the mental blocks, logic loops, and flawed chains of reasoning that have accumulated in [recipient.GetHerHis] mind, and after removing them, [recipient.GetSheHe] seems more functional than ever before!"
+ #programming.006.a:0 "Bugs, consider yourselves squashed!"
+ #programming.006.a.success:0 "Your mind has been successfully debugged, granting you renewed confidence."
+ 
+ #programming.007.t:0 "Unsuccessful Debug"
+ #programming.007.desc.you:0 "I curse angrily as I kick my ritual pad to one side before burying my head in my hands. Who knew that all of those mental blocks, logic loops, and flawed chains of reasoning existed for a good reason? I have learned a lot about myself... none of it good."
+ #programming.007.desc.others:0 "I curse angrily as I kick my ritual pad to one side before burying my head in my hands.  Who knew that all of those mental blocks, logic loops, and flawed chains of reasoning existed for a good reason? I fear I have condemned [recipient.GetTitledFirstNameNoTooltip] to years of misery..."
+ #programming.007.a:0 "The bugs have swarmed me!"
+ 
+ #programming.008.t:0 "Overclocking the Body"
+ #programming.008.desc:0 "I crack my neck before craning over the materials I have gathered for the overclocking ritual. With any luck, this ritual should cause the body to perform at, literally, 110 percent effectiveness! However, if I push things too far, the consequences will be dire."
+ #programming.008.a:0 "Let's crank this baby up to 11!"
+ 
+ #programming.009.t:0 "Successful Overclock"
+ #programming.009.desc.you:0 "I let out a whoop as the ritual concludes and I feel immense amounts of energy course through my body. I have done it! My body is surging with power, and I feel ready to take on the world!"
+ #programming.009.desc.others:0 "I let out a whoop as the ritual concludes and I feel immense amounts of energy redirect into [recipient.GetTitledFirstNameNoTooltip]'s body. Surely, they will be ready to take on the world!"
+ #programming.009.a:0 "Clock speed maximum!"
+ 
+ #programming.010.t:0 "Unsuccessful Overclock"
+ #programming.010.desc.you:0 "I collapse to the floor as the ritual concludes. I can feel energy coursing through my body, but it feels... wrong. Instead of being filled with power, my body is filled with anxiety and stress. I may have pushed things too far."
+ #programming.010.desc.others:0 "I collapse to the floor as the ritual concludes. I can feel energy coursing towards [recipient.GetTitledFirstNameNoTooltip]... but all of it is negative. They will surely be afflicted by anxiety and stress. I may have pushed things too far."
+ #programming.010.a:0 "That mega hurts!"
+ 
+ #programming.012.t:0 "Injecting a Trojan"
+ #programming.012.desc.you:0 "I grimace as I begin solemnly chanting the ancient Trojan melody. This ancient magick, passed down from generation to generation, tests the true mettle of the mind. Soon, I will know whether my mind is a true fortress, or whether its gates are unbarred and unguarded."
+ #programming.012.desc.others:0 "I grin as I begin excitedly chanting the ancient Trojan melody. This ancient magick, passed down from generation to generation, tests the true mettle of the mind. Soon, I will know whether [recipient.GetTitledFirstNameNoTooltip]'s mind is a true fortress, or whether its gates are unbarred and unguarded."
+ #programming.012.a:0 "Uplink established, upload commencing..."
+ 
+ #programming.013.t:0 "Trojan Infection"
+ #programming.013.desc.you:0 "As the melody concludes, I feel a searing pain directly across my brow. I realize, with a start, that my mind is not as secure as I thought. Rather than renewing my mental defenses, I have damaged them!"
+ #programming.013.desc.others:0 "As the melody concludes, I grin with delight. I can tell, even from this distance, that [recipient.GetTitledFirstNameNoTooltip]'s mind is weak and ready to be manipulated. [recipient.GetSheHe|U] should watch [recipient.GetHerHis] back..."
+ #programming.013.a:0 "Don't look a gift horse in the mouth."
+ 
+ #programming.014.t:0 "Trojan Repelled"
+ #programming.014.desc.you:0 "As the melody concludes, I feel a comforting warmth spread across my head. I realize, with relief, that my mind is just as secure as I assumed. This test has only made it more resilient, and I can rest easy knowing that plots made against me are sure to fail."
+ #programming.014.desc.others:0 "As the melody concludes, I frown with disappointment. It is obvious that [recipient.GetTitledFirstNameNoTooltip]'s mind is much stronger than I had assumed. Now, [recipient.GetSheHe] will be ready for anything."
+ #programming.014.a:0 "Don't look a gift horse in the mouth."
+ 
+ #programming.015.t:0 "Stress Test Initiated"
+ #programming.015.desc:0 "I gulp with anxiety as I begin to chant the words of the ancient stress test. This ritual is designed to push a person's strength and vitality to their limit. At the end, one is either made stronger from the effort, or is left so exhausted that they are vulnerable to disease and death..."
+ #programming.015.a:0 "Commence the test..."
+ 
+ #programming.016.t:0 "Stress Test Successful"
+ #programming.016.desc.you:0 "As the test concludes, I can feel strength and vitality pulse through the All-Go-Rhythm. The test has accomplished its purpose, leaving me renewed and refreshed."
+ #programming.016.desc.others:0 "As the test concludes, I can feel strength and vitality pulse through the All-Go-Rhythm. The test has accomplished its purpose, leaving [recipient.GetTitledFirstNameNoTooltip] renewed and refreshed."
+ #programming.016.a:0 "That was hardly 'stressful'!"
+ 
+ #programming.017.t:0 "Stress Test Unsuccessful"
+ #programming.017.desc.you:0 "As the test concludes, I can feel weakness pulse through my body. The test has accomplished its purpose... and I am absolutely exhausted."
+ #programming.017.desc.others:0 "As the test concludes, I can feel agony pulse through the All-Go-Rhythm. The test has accomplished its purpose... and [recipient.GetTitledFirstNameNoTooltip] is probably exhausted."
+ #programming.017.a:0 "That really was stressful..."
+ 

@@ -1,0 +1,9 @@
+﻿l_spanish:
+  # Religión
+  cc_nudity_doctrine_name: "$nudity_doctrine_name$"
+  special_doctrine_cc_clothed_priests_name: "Sacerdotes vestidos"
+  special_doctrine_cc_clothed_priests_desc: "Los sacerdotes deberían vestir algo respetable."
+
+  # Herramientas personalizadas
+  INCOMPATIBLE_DOCTRINE_SPECIAL_DOCTRINE_CC_CLOTHED_PRIESTS_NAME: "Incompatible con la [doctrine|E] [GetFaithDoctrine('special_doctrine_cc_clothed_priests_name').GetName( GetPlayer.GetFaith )]"
+  incompatible_doctrine_special_doctrine_cc_clothed_priests_name: "Incompatible con la [doctrine|E] [GetFaithDoctrine('special_doctrine_cc_clothed_priests_name').GetName( GetPlayer.GetFaith )]"
