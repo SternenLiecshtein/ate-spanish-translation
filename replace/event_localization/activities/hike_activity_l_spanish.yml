@@ -1,0 +1,212 @@
+﻿l_spanish:
+
+# Comunes
+hike_major.press_on: "Sigue adelante hacia vistas más elevadas.."
+hike_major.rest_up: "Descansa."
+
+### Mayores
+hike_major.0100.t: "Ruinas Antediluvianas"
+hike_major.0100.explore_ruins: "¿Qué maravillas habrá dentro?"
+hike_major.0100.explore_ruins.tt: "Exploras las ruinas antiguas."
+
+hike_major.0101.t: "Un tesoro resplandeciente"
+hike_major.0101.take_gold: "Quien lo encuentra se lo queda."
+hike_major.0101.divide_gold_among_party: "Todos compartiremos este hallazgo."
+hike_major.0101.leave_treasures_be: "Es mejor no tocar esas cosas."
+
+hike_major.0102.t: "Un extraño santuario"
+hike_major.0102.pray_at_shrine: "Los dioses que adoraban aquí deben ser poderosos."
+hike_major.0102.desecrate_shrine: "¡Quema todo esto en nombre de [ROOT.Char.GetFaith.HighGodName]!"
+hike_major.0102.study_shrine: "Estos misterios merecen ser estudiados."
+
+hike_major.0103.t: "Un depredador emboscado"
+hike_major.0103.fight: "¡Muere, bestia vil!"
+hike_major.0103.run: "¡Huye lo más rápido que puedas!"
+
+hike_major.0200.t: "Donde hay humo"
+hike_major.0200.seek_it_out: "Vamos a encontrar la fuente de ese humo."
+hike_major.0200.seek_it_out.tt: "Buscas la fuente del humo."
+
+hike_major.0210.t: "El ermitaño solitario"
+hike_major.0210.talk_to_hermit: "¿Hola?"
+hike_major.0210.talk_to_hermit.tt: "Te acercas al ermitaño."
+hike_major.0210.ignore_hermit: "Es mejor ignorar a este tipo."
+
+hike_major.0211.t: "Un ermitaño enloquecido"
+hike_major.0211.fight_them_off: "¡Aléjate de mí!"
+hike_major.0211.no_one_owns_forest: "Nadie posee estas tierras."
+hike_major.0211.i_own_forest: "No. Yo soy dueño de estas tierras."
+
+hike_major.0212.t: "Un empleo oportuno"
+hike_major.0212.accept_terms: "Pagaré con gusto."
+hike_major.0212.persuade_to_join_for_free: "Quizás podamos llegar a términos más favorables."
+
+hike_major.0213.t: "Iniciación"
+hike_major.0213.accept: "Muéstrame tus costumbres."
+hike_major.0213.decline: "Prefiero no hacerlo."
+
+hike_major.0220.t: "El campamento de bandidos"
+hike_major.0220.negotiate_with_bandits: "Quizás pueda sacar ventaja de esto."
+hike_major.0220.sneak_past: "No debemos dejar que nos vean."
+hike_major.0220.negotiate.failure.tt: "Los bandidos ignoran tus propuestas y se preparan para atacar."
+hike_major.0220.negotiate.success.tt: "Los bandidos están dispuestos a hablar contigo."
+hike_major.0220.sneak.failure.tt: "Los bandidos te descubren."
+hike_major.0220.sneak.success.tt: "Logras colarte entre los bandidos sin ser visto."
+
+hike_major.0221.t: "Resistencia y capitulación"
+hike_major.0221.fight_them_off: "¡A la batalla!"
+hike_major.0221.give_in: "Nos rendimos."
+
+hike_major.0222.t: "Una negociación tensa"
+hike_major.0222.recruit: "Podría usar gente como ustedes."
+hike_major.0222.trade: "¿Qué tienen para vender?"
+hike_major.0222.demand_repentance: "Deben abandonar sus caminos."
+hike_major.0222.demand_repentance.tt: "Quién sabe cómo reaccionarán los bandidos."
+
+hike_major.0230.t: "Un ritual aislado"
+hike_major.0230.join_ritual: "Saludos, hermanas."
+hike_major.0230.burn_them: "Una oportunidad perfecta para atacar."
+hike_major.0230.join_coven: "¿Puedo unirme a ustedes?"
+hike_major.0230.pass_them_by: "Parece que están ocupadas."
+
+hike_major.0240.t: "Cazadores furtivos"
+hike_major.0240.kill_the_poachers: "La pena por la caza furtiva es la muerte."
+hike_major.0240.hire_as_trainer: "Muéstrame cómo cazas."
+hike_major.0240.hire_as_guide: "Pareces familiarizado con estas tierras."
+
+hike_major.0250.t: "Buscando refugio"
+hike_major.0250.resettle_them: "Tenemos mucho lugar para tu gente."
+hike_major.0250.send_them_back: "Deben regresar con su señor de inmediato."
+hike_major.0250.leave_them_here: "Tengo las manos llenas."
+
+hike_major.0300.t: "Un campamento de cadáveres"
+hike_major.0300.give_proper_funeral: "Debemos darles un funeral apropiado."
+hike_major.0300.scavenge_supplies: "Veamos qué tenían en sus posesiones."
+
+hike_major.0400.t: "Un atajo peligroso"
+hike_major.0400.take_shortcut: "Arriesgarse por el camino más peligroso."
+
+### Menores
+
+hike_minor.0010.t: "Una vista inspiradora"
+hike_minor.0010.view_vista: "Enfócate en la belleza frente a ti."
+hike_minor.0010.plan_ahead: "Usa esta oportunidad para planear la ruta por delante."
+
+hike_minor.0020.t: "Una caída repentina"
+hike_minor.0020.trip_on_root: "¡MALDITA RAÍZ!"
+
+hike_minor.0030.t: "La monotonía del viaje"
+hike_minor.0030.become_athlete: "La práctica hace al maestro."
+hike_minor.0030.show_off: "¡Mira lo que puedo hacer!"
+hike_minor.0030.focus_on_walk: "Un pie delante del otro."
+hike_minor.0030.strike_up_a_conversation: "¿Qué tal está el clima?"
+
+hike_minor.0040.t: "Medicina herbal"
+hike_minor.0040.become_herbalist: "Examina las hierbas."
+
+hike_minor.0050.t: "Flores fascinantes"
+hike_minor.0050.keep_plants: "Estas podrían hacer un hermoso jardín."
+hike_minor.0050.sell_plants: "Estoy seguro de que alguien estaría dispuesto a comprar estas."
+hike_minor.0050.leave_them_be: "No es nuestro lugar arruinar la abundancia de la naturaleza."
+
+hike_minor.0060.t: "Señalización del sendero"
+hike_minor.0060.add_to_cairn: "Encontraré otra piedra para añadir al montón."
+hike_minor.0060.ignore_cairn: "No dejar huella."
+hike_minor.0060.topple_cairn: "¡Ja!"
+
+hike_minor.0070.t: "Criatura del bosque salvaje"
+hike_minor.0070.hunt_it_down: "He encontrado nuestra cena de esta noche."
+hike_minor.0070.leave_it_be: "Qué criatura más majestuosa."
+
+hike_minor.0080.t: "Jugando a las cartas"
+hike_minor.0080.play_to_win: "Voy a ganar este juego."
+hike_minor.0080.play_to_make_friends: "¿Necesitas ayuda?"
+
+hike_minor.0090.t: "Bénditos y eligiendo"
+hike_minor.0090.hunt_it_down: "Una presa fina, aunque escasa."
+hike_minor.0090.leave_it_be: "Lo siento, pequeño."
+hike_minor.0090.feed_it: "Qué lindo..."
+
+hike_minor.0100.t: "Un atajo hacia hongos"
+hike_minor.0100.eat_mushrooms: "¡Apuesto a que es delicioso!"
+hike_minor.0100.ignore_mushrooms: "Creo que deberemos saltarnos la cena esta noche..."
+
+### Intención
+
+hike_intent.0110.t: "Cena servida"
+hike_intent.0110.overdrink: "¡Otra ronda!"
+hike_intent.0110.overeat: "¿Sirves terceras porciones?"
+hike_intent.0110.bicker: "Claramente estás equivocado."
+hike_intent.0110.shun_food: "Pensandolo bien, no tengo hambre."
+hike_intent.0110.relax: "Tiempo para relajarse y disfrutar la noche."
+
+hike_intent.0120.t: "Bajo las estrellas"
+hike_intent.0120.speak_freely: "Podría hablarte durante horas."
+hike_intent.0120.proposition_partner: "¿Quieres volver a mi tienda?"
+hike_intent.0120.shun_company: "Preferío pasar la noche solo."
+hike_intent.0120: "Tiempo para relajarse y disfrutar la noche."
+
+hike_intent.0130.t: "Al despuntar el alba"
+hike_intent.0130.duel_partner: "Una oportunidad perfecta para practicar esgrima."
+hike_intent.0130.go_for_run: "Bien podría ir de carrera matutina."
+hike_intent.0130.relax: "Qué más hacer que sentarse alrededor."
+
+hike_intent.0210.t: "Un tobillo torcido"
+hike_intent.0210.make_brace: "Creo que sé cómo hacer un vendaje."
+hike_intent.0210.carry_them: "¡Te llevaré!"
+
+hike_intent.0220.t: "Una promesa por la eternidad"
+hike_intent.0220.carve_initials: "Que lo que florece entre nosotros dure para siempre."
+hike_intent.0220.ignore_opportunity: "¿No duele eso a los árboles?"
+
+hike_intent.0230.t: "'Durmiendo juntos'"
+hike_intent.0230.proposition_them: "Ya que estamos compartiendo una tienda, pensé que podríamos compartir algo más."
+hike_intent.0230.rest: "Bueno, es hora de dormir."
+
+hike_intent.0310.t: "Un desliz trágico"
+hike_intent.0310.push: "Intenté salvarlos."
+hike_intent.0310.wait_for_better_opportunity: "Vendrá una oportunidad mejor."
+
+hike_intent.0320.t: "Agua estancada"
+hike_intent.0320.poison_them: "Puedo llenar los odres de agua de todos esta noche."
+hike_intent.0320.wait_for_better_opportunity: "Vendrá una oportunidad mejor."
+
+hike_intent.0330.t: "Sabotaje"
+hike_intent.0330.sabotage_their_gear: "Unos pocos cambios menores..."
+hike_intent.0330.wait_for_better_opportunity: "Vendrá una oportunidad mejor."
+
+hike_intent.0410.t: "Unión por trauma"
+hike_intent.0410.run_away_together: "¡Por aquá!"
+hike_intent.0410.faster_than_you: "Solo tengo que dejarte atrás."
+
+hike_intent.0420.t: "Mientras el fuego se apaga"
+hike_intent.0420.stay_up_together: "Hablar hasta altas horas de la madrugada"
+hike_intent.0420.go_to_bed: "Supongo que es hora de retirarse."
+
+hike_intent.0430.t: "Turno de cocina"
+hike_intent.0430.focus_on_the_conversation: "La oportunidad perfecta para hablar."
+hike_intent.0430.focus_on_the_meal: "Hagamos que esta comida sea lo mejor posible."
+
+hike_intent.0510.t: "Automejora"
+hike_intent.0510.replace_personality: "Me doy cuenta de lo que he estado haciendo mal."
+hike_intent.0510.stay_as_you_are: "Estoy bien tal como soy."
+
+hike_intent.0520.t: "Medicina de la naturaleza"
+hike_intent.0520.lose_coping_mechanism: "Finalmente he encontrado consuelo."
+hike_intent.0520.stay_as_you_are: "Estoy bien tal como soy."
+
+hike_intent.0530.t: "Un momento de reflexión"
+hike_intent.0530.reflect_on_hiking: "He aprendido mucho sobre caminar."
+hike_intent.0530.crossapply_ideas: "He aprendido mucho sobre la vida."
+
+hike_intent.0610.t: "Una carrera por el sendero"
+hike_intent.0610.race_along_trail: "¡Te ganaré hasta el final!"
+hike_intent.0610.ignore_opportunity: "Quizás otra vez."
+
+hike_intent.0620.t: "Un cruce de caminos"
+hike_intent.0620.risky_path: "Una oportunidad perfecta para alardear."
+hike_intent.0620.safe_path: "Más vale prevenir que curar."
+
+hike_intent.0630.t: "Una carrera sin camisa"
+hike_intent.0630.show_off: "Ciertamente causaré impresión."
+hike_intent.0630.ignore_opportunity: "Quizás otra vez."

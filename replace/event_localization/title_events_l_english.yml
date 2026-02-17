@@ -1,36 +1,30 @@
 ﻿l_spanish:
-# l_spanish:
-# l_german:
-# l_french:
-# l_russian:
-# l_simp_chinese:
-# l_korean:
- 
- ate_title_event.1000.t:0 "The Bear Humbled"
- ate_title_event.1000.desc:0 "Through an alliance of convenience between the Nation of Phylos and the Yeomanists, referred to as "The Jefferson Pact", we have driven California from the lands of Jefferson. Now that we are free and the last of the bear flags are cast down, my Yeoman allies have petitioned me to end the pact so that we may go our separate ways."
- ate_title_event.1000.a:0 "Return to your homes as heroes."
- ate_title_event.1000.b:0 "Only I can guide the people of this land to a bright future."
- 
+ # Title Events
+ ate_title_event.1000.t:0 "El Oso Humillado"
+ ate_title_event.1000.desc:0 "A través de una alianza de conveniencia entre la Nación de Phylos y los Yeomanists, referida como "El Pacto de Jefferson", hemos expulsado a California de las tierras de Jefferson. Ahora que somos libres y las últimas banderas del oso han sido derribadas, mis aliados Yeomanistas han solicitado que termine el pacto para que podamos irnos por separado."
+ ate_title_event.1000.a:0 "Regresar a sus hogares como héroes."
+ ate_title_event.1000.b:0 "Solo yo puedo guiar al pueblo de esta tierra hacia un futuro brillante."
+
  ate_title_event.1001.t:0 "The Alliance Honored"
  ate_title_event.1001.desc:0 "The hippie King of Mount Shasta has wisely chosen to honor the Jefferson Pact and granted us our hard fought freedom. Now we are fit to govern ourselves as the great Founder Jefferson envisioned."
  ate_title_event.1001.a:0 "A new day has dawned..."
- 
+
  ate_title_event.1002.t:0 "The Alliance Dishonored"
  ate_title_event.1002.desc:0 "The vile hippie King of Mount Shasta has dishonored the Jefferson Pact and has declared himself the sole ruler of all the lands of Jefferson."
  ate_title_event.1002.a:0 "We will refresh the tree of liberty with the blood of that traitorous tyrant!"
- 
+
  ate_title_event.2000.t:0 "Jefferson Broken"
  ate_title_event.2000.desc:0 "Despite the best efforts of the people of Jefferson, the revolt has been broken, and the people remain under the Californian yoke."
  ate_title_event.2000.a:0 "The fight is not over."
- 
+
  ate_title_event.3000.t:0 "The Collapse of The Frontier"
  ate_title_event.3000.desc:0 "Despite our best efforts, the barbarians of Jefferson have succeeded in driving our forces from the Jefferson Frontier. Where once there was our enlightened order, now their backwards 'Common Law' rules the land."
  ate_title_event.3000.a:0 "Those barbarians will kneel once more."
- 
+
  ate_title_event.4000.t:0 "Jefferson Humbled"
  ate_title_event.4000.desc:0 "Peace and order has once again returned to Jefferson. Despite the efforts of the so called "Yeomen" and their Phylosian allies, our forces swept aside their little revolt and paraded their leaders through the streets of Sacramento as a warning to all who dare to defy the Empire!"
  ate_title_event.4000.a:0 "Jeffersonian independence, what a foolish idea."
- 
- plorgus.0011.t:0 "The end of an Empire"
+
+ plorgus.0011.t:0 "El fin de un Imperio"
  plorgus.0011.desc:0 "Unlike my ancestors, I simply don't have what it takes to be a conqueror."
  plorgus.0011.a:0 "Curses!"

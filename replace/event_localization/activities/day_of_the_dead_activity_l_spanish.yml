@@ -1,0 +1,65 @@
+﻿l_spanish:
+
+ activity_day_of_the_dead:0 "Día de Muertos"
+ activity_day_of_the_dead_desc:0 "El Día de Muertos es una celebración tradicional en México que dura dos días y honra la memoria de los familiares fallecidos. La celebración suele constar de tres eventos: la creación de ofrendas (ofrendas a los muertos), la visita a las tumbas familiares y, por último, las celebraciones comunitarias."
+ activity_day_of_the_dead_host_desc:0 "$BULLET_WITH_TAB$Puedes ganar [dynasty_prestige_i] [dynasty_prestige|E]\n$BULLET_WITH_TAB$Puedes ganar [piety_i|E] [piety|E]\n$BULLET_WITH_TAB$Puedes ganar [extended_family|E] [opinion|E]\n$BULLET_WITH_TAB$Puedes ganar [prestige_i|E] [prestige|E]\n$BULLET_WITH_TAB$Puedes perder [stress_loss_i] [stress|E]"
+ activity_day_of_the_dead_selection_tooltip:1 "Celebra la vida de tus familiares fallecidos.\n\nRecompensas previstas:\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[dynasty_prestige_i] [dynasty_prestige|E]"
+ activity_day_of_the_dead_conclusion_desc:1 "El [GetActivityType( 'activity_day_of_the_dead' ).GetName] ha terminado."
+ 
+ standard_day_of_the_dead_intent:0 "Honrar a los muertos"
+ day_of_the_dead_decision_month_req:0 "Solo se puede comenzar la preparación entre Septiembre y Noviembre."
+ 
+ day_of_the_dead.0001.t:0 "La Ofrenda"
+ day_of_the_dead.0001.desc:0 "En el día de los Angelitos, las ofrendas se realizan en nombre de los hijos de [ROOT.Char.GetHouse.GetBaseName] como forma de honrarlos, se les da juguetes, bocadillos y dulces. A medianoche, se ofrecen ofrendas de comida, tequila y atole a los adultos en el Día de los Difuntos, todo ello dispuesto sobre un mantel brillante junto con objetos personales y retratos. El día está lleno de caléndulas, las vibrantes flores que guían el camino a los espíritus. Los miembros de [ROOT.Char.GetHouse.GetBaseName] bailan y cantan en memoria de los buenos momentos con sus seres queridos. Es hora de que ofrezca mis ofrendas." 
+ day_of_the_dead.0001.a:0 "No es necesario convertirlo en un gran acontecimiento.." 
+ day_of_the_dead.0001.b:0 "Dediquemos nuestro tiempo a preparar una ofrenda adecuada."
+ day_of_the_dead.0001.c:0 "No escatimaré en gastos para mi familia. "
+ 
+ day_of_the_dead.0002.t:0 "Las Tumbas"
+ day_of_the_dead.0002.desc.intro:0 "Como parte del proceso de la Ofrenda, me encuentro en el cementerio de los miembros [ROOT.Char.GetHouse.GetBaseName] junto a mis invitados, limpiamos y ordenamos las tumbas de nuestros antepasados, para que sus espíritus puedan descansar en paz y con el respeto que se merecen. Colocamos caléndulas alrededor del perímetro y del camino para que puedan encontrar su camino. A mi alrededor, veo los nombres de familiares conocidos,"
+ day_of_the_dead.0002.desc.martial:0 "[martial_ancestor.GetName] [Select_CString( CHARACTER.IsFemale, 'una guerrera', 'un guerrero' )],"
+ day_of_the_dead.0002.desc.stewardship:0 "[stewardship_ancestor.GetName] un[CHARACTER.Custom('ES_XA')] economista,"
+ day_of_the_dead.0002.desc.intrigue:0 "[intrigue_ancestor.GetName] un[CHARACTER.Custom('ES_XA')] detective,"
+ day_of_the_dead.0002.desc.diplomacy:0 "[diplomacy_ancestor.GetName] [Select_CString( CHARACTER.IsFemale, 'una diplomática', 'un diplomático' )],"
+ day_of_the_dead.0002.desc.learning:0 "[learning_ancestor.GetName] [Select_CString( CHARACTER.IsFemale, 'una académica', 'un académico' )],"
+ day_of_the_dead.0002.desc.outro:0 "y muchos más. El Día de los Muertos se centra en recordar las vidas de nuestros familiares fallecidos, si me concentro en las tumbas de estos difuntos honrados, tal vez pueda encontrar algún conocimiento en el pasado."
+ 
+ day_of_the_dead.0002.a:0 "Es necesario rediseñarlos por completo."
+ day_of_the_dead.0002.b:0 "La limpieza es tarea de los sirvientes."
+ day_of_the_dead.0002.c:0 "¡Será mejor que me ponga a limpiar!"
+ day_of_the_dead.0002.martial:0 "[martial_ancestor.GetName] seguro que agradecería un poco de mi disciplina."
+ day_of_the_dead.0002.stewardship:0 "Debería lavar la tumba de [stewardship_ancestor.GetName]."
+ day_of_the_dead.0002.intrigue:0 "Una buena limpieza revelará todos los secretos de la tumba de [intrigue_ancestor.GetName]."
+ day_of_the_dead.0002.diplomacy:0 "El epitafio de [diplomacy_ancestor.GetName] es demasiado elocuente para ser cubierto con mugre."
+ day_of_the_dead.0002.learning:0 "La tumba de [learning_ancestor.GetName] se ha vuelto demasiado sucia."
+ 
+ day_of_the_dead.0003.desc:0 "Como parte del proceso de la Ofrenda, me encuentro en el cementerio de los miembros [ROOT.Char.GetHouse.GetBaseName], limpiamos y ordenamos las tumbas de nuestros antepasados, para que sus espíritus puedan descansar en paz y con el respeto que se merecen. Colocamos caléndulas alrededor del perímetro y del camino para que puedan encontrar su camino. A mi alrededor, veo los nombres de familiares conocidos,"
+ day_of_the_dead.0003.a:0 "Hicimos un buen trabajo."
+ 
+ day_of_the_dead.0005.t:0 "El desfile"
+ day_of_the_dead.0005.desc:0 "Una última tradición, aunque no todos participan en ella, son los desfiles y festivales de [ROOT.Char.GetCapitalLocation.GetName]. Allí, personas de todas las edades cantan y bailan en las calles, con las caras pintadas como calaveras. La bebida fluye libremente y los nobles y el pueblo llano se mezclan en alegría y reverencia por los muertos. La Calavera Catrina aparece en muchos murales y en los trajes de muchas mujeres."
+ 
+ day_of_the_dead.0005.a:0 "¡Ah, hora de festejar!"
+ day_of_the_dead.0005.b:0 "Es demasiado para mí."
+ 
+ day_of_the_dead.0004.desc:0 "La ofrenda es el núcleo de esta celebración, es una ofrenda a los difuntos. En este día honramos a los niños fallecidos de [ROOT.Char.GetHouse.GetBaseName] como parte del Día de los Angelitos con una ofrenda de juguetes, aperitivos y dulces. A medianoche, se entregan ofrendas de comida, tequila y atole a los adultos en el Día de los Difuntos, todo ello dispuesto sobre un mantel brillante junto con objetos personales y retratos. El día está lleno de caléndulas, las vibrantes flores que guían el camino a los espíritus. Los miembros de [ROOT.Char.GetHouse.GetBaseName] bailan y cantan en memoria de los buenos momentos con sus seres queridos. Es hora de que construya mis ofrendas."
+ day_of_the_dead.0004.a:0 "Este es un momento para la familia."
+ 
+ day_of_the_dead_phase_grave:0 "Visita a la tumba"
+ day_of_the_dead_phase_grave_desc:0 "Las familias visitan, decoran y limpian las tumbas de sus antepasados."
+ day_of_the_dead_phase_ofrenda:0 "Ofrenda"
+ day_of_the_dead_phase_ofrenda_desc:0 "Las familias hacen ofrendas a los niños y adultos fallecidos."
+ day_of_the_dead_phase_celebration:0 "Fiestas"
+ day_of_the_dead_phase_celebration_desc:0 "Las comunidades celebran su cultura y a los difuntos con festividades, desfiles y juergas públicas."
+ 
+ standard_day_of_the_dead_intent_desc:0 "Debo honrar a los difuntos de mi familia."
+ 
+ activity_day_of_the_dead_destination_selection:0 "Tu [capital|E] es la ubicación del cementerio de la [house|E]."
+ activity_day_of_the_dead_province_desc:0 "El cementerio familiar"
+ 
+ ofrenda_modifier:0 "Creó una ofrenda."
+ martial_grave_modifier:0 "Limpió una tumba de guerrero."
+ learning_grave_modifier:0 "Limpió una tumba de erudito."
+ stewardship_grave_modifier:0 "Limpió una tumba de administrador."
+ intrigue_grave_modifier:0 "Limpió una tumba de espía."
+ diplomacy_grave_modifier:0 "Limpió una tumba de diplomático."

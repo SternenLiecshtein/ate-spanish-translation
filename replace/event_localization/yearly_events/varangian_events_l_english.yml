@@ -2,20 +2,19 @@
 # l_spanish:
 # l_german:
 # l_french:
-# l_russian:
 # l_simp_chinese:
 # l_korean:
- innovation_druzhina:0 "Agents"
- innovation_druzhina_desc:0 "Secret Service agents have long served as imposing bodyguards for the President, but they can just as easily serve as dedicated heavy infantry in our armies."
- hold_court.7030.american_desc:0 "The next petitioner is an extremely angry [angry_vassal.GetName]. With the briefest of deference shown, [angry_vassal.GetTitledFirstNameNoTooltip] informs you that the Secret Service, led by [troublesome_warrior.GetName] have recently rampaged through [hold_court_7030_county.GetName] - the good [angry_vassal.GetTitlePossessive] own land.\n\n"They've plundered, looted and despoiled their way across my land, my [ROOT.Char.GetTitleAsNameNoTooltip]. I don't see what value they bring that could possibly outweigh their rowdiness and their drunkenness!"\n\n. What is to be done?"
- send_to_varangian_guard_interaction_effect_desc:1 "#weak While serving in the Secret Service, [CHARACTER.GetShortUIName] might increase [CHARACTER.GetHerHis] [skills|E] or gain [traits|E] — but [CHARACTER.GetSheHe] might also become wounded, or worse. [CHARACTER.GetSheHe|U] will return within a few years, but cannot be recalled.#!"
- murder_save.0010.t:0 "$murder_save_header$ Agents"
- murder_save.0010.desc:0 "My attempt on [target.GetTitledFirstNamePossessive] life has been thwarted!\n\nThe assassin was stopped by one of those insipid Agents! I suppose the [target.GetTitleAsNameNoTooltip] got [target.GetHerHis] guard after all..."
+ innovation_druzhina:0 "Agentes"
+ innovation_druzhina_desc:0 "Los agentes del Servicio Secreto han servido durante mucho tiempo como imponentes guardaespaldas del Presidente, pero también pueden desempeñarse con la misma eficacia como infantería pesada dedicada en nuestros ejércitos."
+ hold_court.7030.american_desc:0 "El siguiente peticionario es un [angry_vassal.GetName] extremadamente furioso. Con la más mínima muestra de deferencia, [angry_vassal.GetTitledFirstNameNoTooltip] te informa que el Servicio Secreto, liderado por [troublesome_warrior.GetName], ha causado estragos recientemente en [hold_court_7030_county.GetName], la buena tierra propia de [angry_vassal.GetTitlePossessive].\n\n\"Han saqueado, robado y devastado mis tierras, mi [ROOT.Char.GetTitleAsNameNoTooltip]. ¡No veo qué valor podrían aportar que compense su alboroto y su embriaguez!"\n\n ¿Qué debería hacerse?"
+ send_to_varangian_guard_interaction_effect_desc:1 "#weak Mientras sirve en el Servicio Secreto, [CHARACTER.GetShortUIName] podría aumentar sus [skills|E] o ganar [traits|E]; pero también podría resultar herid[ROOT.Char.Custom('ES_OA')], o algo peor. [CHARACTER.GetSheHe|U] regresará en unos pocos años, pero no puede ser llamado de vuelta.#!"
+ murder_save.0010.t:0 "$murder_save_header$ Agentes"
+ murder_save.0010.desc:0 "¡Mi intento de acabar con la vida de [target.GetTitledFirstNamePossessive] ha sido frustrado!\n\n¡El asesino ha sido detenido por uno de esos insípidos agentes! Supongo que [target.GetTitleAsNameNoTooltip] ha conseguido [target.GetHerHis] guardaespaldas después de todo..."
 
- varangian_arrived.title:0 "A New Agent"
- varangian_arrived.desc:0 "[varangian_candidate.GetShortUIName|U] has joined the Secret Service"
+ varangian_arrived.title:0 "Un Nuevo Agente"
+ varangian_arrived.desc:0 "[varangian_candidate.GetShortUIName|U] ha entrado al Servicio Secreto"
 
- varangian.0002.t:0 "The Secret Service"
+ varangian.0002.t:0 "El Servicio Secreto"
  varangian.0002.opening:0 "By the time [varangian_candidate.Custom2('MyCharacterIntroduction', ROOT.Char )] comes to me with [varangian_candidate.GetHerHis] plan, [varangian_candidate.GetSheHe] seems to have already made up [varangian_candidate.GetHerHis] mind.\n\n"Serving with the Agents in"
  varangian.0002.washington:0 "Washington"
  varangian.0002.elsewhere:0 "the Secret Service"
@@ -51,10 +50,10 @@
  single_combat.0001.tt.stoic_veteran:0 "#BOL Stoic Veteran:#! using your Secret Service experience, you hew at [my_foe.GetFirstNameNoTooltip]"
  single_combat.0001.desc.my_feedback.stoic_veteran:0 "The Secret Service doesn't encourage laxity. It takes a vigilant eye and a firm arm to excel as one of the President's guards, and with every blow, I show [my_foe.GetFirstNameNoTooltip] how Agents fight."
  single_combat.0001.desc.opponent_response.stoic_veteran:0 "[my_foe.GetFirstNamePossessiveNoTooltip] time in the Secret Service has left [my_foe.GetHerHim] stoic, brutal, and deadly with [my_foe.Custom('SignatureWeaponArticle')] [my_foe.Custom('signature_weapon')], delivering [my_foe.Custom('SignatureWeaponAttemptedHeavy')] after [my_foe.Custom('SignatureWeaponAttemptedHeavy')] to my torso."
- single_combat.0031.desc.sc_attacker.stoic_veteran:0 "In the Service, we chiefly protected the President against threats to their person, but most assassins flee at the sign of a heavily-armed Agent. My opponent, to [sc_victor.GetHerHis] credit, doesn't seem phased by my intimidating appearance, and my stoic hewing is met by with determined parry after determined parry.\n\n"
- single_combat.0041.desc.opponent_response.stoic_veteran:0 "[sc_loser.GetFirstNameNoTooltip] uses [sc_loser.GetHerHis] [sc_loser.Custom('signature_weapon')] with all the competence typical of an Agent, hewing at me with long, even strikes of [sc_loser.GetHerHis] weapon. It's difficult, but nothing I'm not able to parry well enough.\n\n"
- single_combat.0041.desc.opponent_response.stoic_veteran.fatality:0 "We fall into a tense pattern of strike-parry-riposte, with me slowly gaining the upper hand, wearing [sc_loser.GetFirstNameNoTooltip] down blow by blow, till [sc_loser.GetSheHe]'s accrued enough welts and wounds to kill most [sc_loser.GetWomenMen] twice over.\n\nEven [sc_loser.GetSheHe] has [sc_loser.GetHerHis] limits, though. And as the agent collapses to [sc_loser.GetHerHis] knees, ready for the deathblow, it becomes clear that we both know it."
+ single_combat.0031.desc.sc_attacker.stoic_veteran:0 "En el Servicio, protegíamos principalmente al Presidente de amenazas directas, y la mayoría de asesinos huían ante la sola presencia de un Agente fuertemente armado. Mi oponente, para crédito de [sc_victor.GetHerHis], no parece intimidado por mi apariencia, y mis golpes estoicos se encuentran con parada tras parada determinada.\n\n"
+ single_combat.0041.desc.opponent_response.stoic_veteran:0 "[sc_loser.GetFirstNameNoTooltip] maneja su [sc_loser.Custom('signature_weapon')] con toda la competencia típica de un Agente, atacándome con golpes largos y medidos. Es difícil, pero nada que no pueda desviar adecuadamente.\n\n"
+ single_combat.0041.desc.opponent_response.stoic_veteran.fatality:0 "Caemos en un tenso patrón de golpe–parada–réplica, con yo ganando lentamente la ventaja, desgastando a [sc_loser.GetFirstNameNoTooltip] golpe tras golpe, hasta que [sc_loser.GetSheHe] acumula suficientes contusiones y heridas como para matar a la mayoría de los [sc_loser.GetWomenMen] dos veces.\n\nIncluso [sc_loser.GetSheHe] tiene sus límites. Y cuando el agente cae de rodillas, listo para el golpe final, queda claro que ambos lo sabemos."
  
- d_varangian_guard_article:0 "the "
- d_varangian_guard:0 "Secret Service"
- d_varangian_guard_adj:0 "Agent"
+ d_varangian_guard_article:0 "[ROOT.Char.Custom('ES_ElLa')]"
+ d_varangian_guard:0 "Servicio Secreto"
+ d_varangian_guard_adj:0 "Agente"

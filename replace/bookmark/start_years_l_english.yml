@@ -1,21 +1,20 @@
 ﻿l_spanish:
- # l_spanish:
  # l_german:
  # l_french:
  # l_russian:
  # l_simp_chinese:
  # l_korean:
  bm_group_2666: "2666"
- start_year_2666_07_04_desc:0 "The world suffered tremendously from the [Concept('the_event_ate','Event')|E], but did not die out completely. Although scarred, the Earth still provides home for humanity. Now, in the midst of the 27th century, one part of the world is beginning to organize themselves, to rebuild and expand outward. Driven by greed, by righteousness, by bloodlust and by all the sins and virtues, rulers and adventurers will reshape the world. Let there be man!"
+ start_year_2666_07_04_desc:0 "El mundo sufrió enormemente por el [Concept('the_event_ate','Event')|E], pero no desapareció por completo. Aunque marcada por las cicatrices, la Tierra sigue siendo el hogar de la humanidad. Ahora, en pleno siglo XXVII, una parte del mundo está empezando a organizarse para reconstruirse y expandirse. Impulsados por la codicia, la justicia, la sed de sangre y todos los pecados y virtudes, los gobernantes y los aventureros remodelarán el mundo. ¡Hágase el hombre!"
 
- #### Ghosts of the North
-  bm_ghost_of_the_north:0 "Ghosts of the North"
-  bm_ghost_of_the_north_desc:0 "The North is an old land, full of memories and ghosts. The once-proud kingdoms of Quebec and Ontario have fallen, laid low not by outsiders, but by threats and betrayal from within. The Lords of Hudsonia witnessed the fall, and fear a similar doom. Their King is a pale reflection of the dead Clintons, and each suspects the other of working to take the throne. Likewise, the Queen of the Maritimes rules her lands with an iron fist, brooking no internal discord - and yet, she sees her people diminish year by year, beset by raiders and worse. \n\nIn keeps and courts along the Saint Laurent, ambitious dukes and counts scheme and plot to reclaim their fallen kingdoms, a breakout sect of tolerant pacifists has brought a moment of calm to troubled lands in Ontario, and in New York, powerful monied interests aim to build their fortunes, capitalizing upon the coming wars. But, unknown to them all, in Boston, a dreamer has visions of a once and future kingdom, and on the shores of Lake Huron a young man has sworn oaths of blood and revenge, threatening to upend the entire affair."
-  ### CHARACTERS
+ #### Los Fantasmas del norte
+  bm_ghost_of_the_north:0 "Fantasmas del norte"
+  bm_ghost_of_the_north_desc:0 "El norte es una tierra antigua, llena de recuerdos y fantasmas. Los reinos orgullosos de Quebec y Ontario han caído, derrotados no por extraños, sino por amenazas y traiciones internas. Los señores de Hudsonia presenciaron la caída, y temen un destino similar. Su rey es una débil réplica de los difuntos Clinton, y cada uno sospecha que el otro intenta tomar el trono. Del mismo modo, la reina de las Marítimas rige sus tierras con una mano de hierro, sin tolerar discordia interna - y sin embargo, ve cómo su pueblo disminuye año tras año, asediado por bandidos y peores cosas. \n\nEn fortalezas y cortes a lo largo del Saint Laurent, ambiciosos condes y duques conspiran para reclamar sus reinos caídos; una secta desbordante de pacifistas tolerantes ha traído un momento de calma a las tierras problemáticas en Ontario; y en Nueva York, intereses poderosos buscan construir sus fortunas, aprovechando las guerras venideras. Pero, desconocido para todos ellos, en Boston un soñador tiene visiones de un reino pasado y futuro; y en las orillas del lago Hurón un joven ha jurado venganza con sangre y venganza que amenazan con desestabilizar todo el asunto."
+  ### PERSONAJES
 
-  bookmark_gn_franklin_ironwrit:0 "President Franklin"
+  bookmark_gn_franklin_ironwrit:0 "Presidente Franklin"
 
-  bookmark_gn_hudsonia:0 "King Baltus"
+  bookmark_gn_hudsonia:0 "Rey Baltus"
   bookmark_gn_hudsonia_desc:0 "Hudsonia's fortunes have declined somewhat of late, with its glory days under the Clinton kings long in the past. Although the realm appears united, the authority of the crown is weak, and Baltus III Vanderbronx's reign is plagued by religious strife and disloyal vassals. Many claim descent from the Clintons, and each believe themselves the rightful ruler of the throne. Beyond the borders of Hudsonia, Diabolists and Viking raiders stir. If Baltus can ride the storm and restore Hudsonia to its old strength, he will be remembered as the equal of those that came before. However, should he fail, he, and Hudsonia, will be doomed to obscurity."
 
   bookmark_gn_deitsch:0 "King Abram VII"
@@ -170,12 +169,12 @@
  bm_northwest_desc:0 ""
 
 
- #  ### CHARACTERS
+ #  ### PERSONAJES
 
- bookmark_nw_k_great_coast:0 "King Skilhlang II"
+ bookmark_nw_k_great_coast:0 "Rey Skilhlang II"
  bookmark_nw_k_great_coast_desc:0 ""
 
- bookmark_nw_d_lower_mainland:0 "Duke Karavanveer"
+ bookmark_nw_d_lower_mainland:0 "Duque Karavanveer"
  bookmark_nw_d_lower_mainland_desc:0 ""
 
  bookmark_nw_d_vancouver_island:0 "Warden Garth"
@@ -193,10 +192,10 @@
 
   ### CHARACTERS
 
-  bookmark_patria_zac_patria:0 "Zacarías, the last caudillo"
+  bookmark_patria_zac_patria:0 "Zacarías, el último caudillo"
   bookmark_patria_zac_patria_desc:0 "Zacarías Alvarado is the heir to a glorious line, to the title of patriarch of the faithful, to the imperial throne of Colombia. And yet, over the generations, the possessions of his house have been reduced to a few lands near the old imperial capital. As the last caudillo of the line of the Falso Libertador enters his final years, the future of the dynasty and the faith seems darker than ever.\n\nCan the House of Alvarado return to its imperial glory, or is this truly the autumn of the patriarchs?"
 
-  bookmark_patria_panama:0 "Miguel the Usurper"
+  bookmark_patria_panama:0 "Miguel el usurpador"
   bookmark_patria_panama_desc:0 "Perfidious rumors have surrounded the king his entire life. Some say that his relationship with the late king Zacarías was more than platonic, some others that it was his hand that took the old monarch’s life, or even that he usurped the throne by trickery and deception. Ultimately, none of these lies matter to the king, for his is the hand that controls the lands that unite the North and the South.\n\nWill the king keep his good name and bring a prosperous rule to Panamá, or will his past finally catch up to him?"
 
   bookmark_patria_chiriqui:0 "Bendición"

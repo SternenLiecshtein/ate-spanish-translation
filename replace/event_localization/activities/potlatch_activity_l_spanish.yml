@@ -1,0 +1,40 @@
+﻿l_spanish:
+ activity_potlatch_host_desc:0 "$EFFECT_LIST_BULLET$ Los anfitriones obtendrán un modificador cuyos efectos variarán en función de su  [intent|E]\n$EFFECT_LIST_BULLET$ El anfitrión ganará [opinion|E] con los invitados"
+ activity_potlatch:0 "Potlatch"
+ activity_potlatch_desc:0 "Un potlatch es una fiesta tradicional de los [ROOT.Char.GetCulture.GetNameNoTooltip]. Las celebraciones incluyen bailes, entrega de regalos, juegos y tiempo para resolver los desacuerdos de la comunidad. La ceremonia principal del potlatch consiste en que los invitados se reúnen para recibir regalos del anfitrión y presenciar cómo este destruye y quema sus riquezas, lo que sirve como símbolo del poder y el prestigio del anfitrión."
+ activity_potlatch_conclusion_desc:0 "Mis invitados ya se han ido, tras resolver disputas, intercambiar regalos, bailar y cantar. Con una parte de mi riqueza distribuida o destruida, mi poder e influencia han quedado demostrados. Es cierto que ahora soy más pobre que antes, pero mi riqueza espiritual nunca ha sido mayor."
+ 
+ standard_potlatch_intent:0 "Potlatch Estándar"
+ standard_potlatch_intent_desc:0 "Quieres realizar una ceremonia en la que tu riqueza sea destruida y distribuida entre los invitados como símbolo de poder."
+ gift_potlatch_intent:0 "Ceremonia Potlatch de entrega de regalos"
+ gift_potlatch_intent_desc:0 "Quieres realizar una ceremonia en la que tu riqueza sea entregada únicamente a los invitados, como símbolo de tu poder y generosidad."
+ destroy_potlatch_intent:0 "Ceremonia Potlatch de destrucción de bienes"
+ destroy_potlatch_intent_desc:0 "Quieres realizar una ceremonia en la que tu riqueza sea únicamente destruida y quemada, como símbolo de tu poder y autoridad."
+ 
+ potlatch.0001.t:0 "El llamado"
+ potlatch.0001.desc:0 "He convocado un potlatch en [ROOT.Char.GetCapitalLocation.GetName]. Estoy deseando que lleguen las celebraciones, los debates y los apasionados discursos, pero sobre todo quiero demostrar mi riqueza y mi poder a todos los que acudan. Una vez finalizados los últimos preparativos, mis esclavos son expulsados del recinto ceremonial."
+ potlatch.0001.a:0 "Es una buena ley."
+ 
+ potlatch.0002.t:0 "La Ceremonia"
+ potlatch.0002.desc.intro:0 "Los miembros de cada Numaym han tomado asiento, organizados según su rango y título. Yo me encuentro frente a todos ellos, con las muestras de mi riqueza reunidas ante mí."
+ potlatch.0002.desc.standard:0 "Pieles de animales, cueros, baratijas, adornos y escudos de cobre. Parte de ello se aparta para repartirlo entre los invitados. El resto, sin embargo, se quemará, se fundirá, se desgarrará o se abollará. No muestro ninguna reacción ante la riqueza que estoy a punto de perder."
+ potlatch.0002.desc.gift:0 ""
+ potlatch.0002.desc.destroy:0 ""
+ potlatch.0002.a:0 "¡Que todos vean mi poder!"
+ potlatch.0002.b:0 "Que se conozca mi generosidad."
+ potlatch.0002.c:0 "¡Mi fuerza está a la vista de todos!"
+ potlatch.0002.d:0 "¿Tengo que perder todo?"
+ 
+ standard_potlatch_modifier:0 "Potlatch Estándar"
+ standard_potlatch_modifier_desc:0 "Este personaje organizó un potlatch."
+ gift_potlatch_modifier:0 "Ceremonia Potlatch de entrega de regalos"
+ gift_potlatch_modifier_desc:0 "Este personaje organizó un potlatch enfocado en la entrega de regalos."
+ destroy_potlatch_modifier:0 "Ceremonia Potlatch de destrucción de bienes"
+ destroy_potlatch_modifier_desc:0 "Este personaje organizó un potlatch enfocado en la destrucción de bienes."
+ no_potlatch_modifier:0 "Sin Potlatch"
+ no_potlatch_modifier_desc:0 "Este personaje se negó a compartir sus riquezas."
+ 
+ culture_parameter_has_potlatch_feasts:0 "Los gobernantes pueden celebrar un Potlatch"
+ 
+ potlatch_phase:0 "Potlatch"
+ potlatch_phase_desc:0 "La reunión en un Potlatch"

@@ -1,0 +1,34 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ sagestepper.100.t:0 "Los huesos de piedra"
+ sagestepper.100.desc:0 "Se dice que el regreso del Todopoderoso será anunciado por una gran cantidad de corceles con huesos de piedra que despertarán de un antiguo letargo para levantarse de la tierra y galopar por la tierra por última vez. Sin embargo, uno de estos corceles dormidos ha sido descubierto prematuramente en tus tierras, y te corresponde a ti decidir qué se debe hacer con él."
+ sagestepper.100.a:0 "¡Un corcel tan hermoso quedaría genial junto a mi trono!"
+ sagestepper.100.b:0 "Devuelve los huesos a la tierra para que pueda continuar su letargo."
+ 
+ sagestepper.101.t:0 "El humo sagrado"
+ sagestepper.101.desc:0 "El fuego se enciende rápidamente, consumiendo pronto la yesca y extendiéndose a la artemisa circundante. Si todo sale según lo previsto, el humo de este fuego ahuyentará a todas las temibles criaturas en varios kilómetros a la redonda."
+ sagestepper.101.a:0 "Esto debería despejarlos"
+ 
+ sagestepper.102.t:0 "¿Algo en el humo?"
+ sagestepper.102.desc:0 "Entre las volutas de humo que se extienden rápidamente por la tierra, tú y tus cortesanos podéis distinguir la silueta de algo que se mueve rápidamente entre el humo. Tan pronto como apareció, la figura entre el humo desapareció, dejándote a ti y a los demás tratando de averiguar qué era."
+ sagestepper.102.a:0 "¡Debía de ser una criatura aterradora! ¡Rápido, quema más salvia!"
+ sagestepper.102.b:0 "¿Qué fue eso?"
+ sagestepper.102.c:0 "Solo era un efecto óptico"
+ 
+ sagestepper.103.t:0 "Jugando con fuego"
+ sagestepper.103.desc:0 "El fuego arde caliente y brillante frente a ti, 'seguramente esto purificará la tierra de cualquier criatura temible que la corrompa' piensas para ti mismo. Casi no te das cuenta de que el viento cambia repentinamente de dirección hacia ti, trayendo una gruesa ráfaga de humo y una lluvia de brasas en tu dirección. Mientras aplanas las brasas que caen sobre el suelo seco, no te das cuenta de que las brasas caen sobre tu ropa. Eso es hasta que sientes una sensación ardiente extendiéndose por tu pierna."
+ sagestepper.103.a:0 "¡Detente, rueda y arrástrate!"
+ 
+ sagestepper.104.t:0 "Una Quemadura Exitosa"
+ sagestepper.104.desc:0 "El humo se despeja y las últimas brasas se apagan, tú y tus cortesanos se felicitan mutuamente por otra quemadura exitosa."
+ sagestepper.104.a:0 "No deberíamos tener que lidiar con ninguna criatura temible durante un tiempo después de esto"
+ 
+ sagestepper.105.t:0 "¡INCENDIO FORESTAL!"
+ sagestepper.105.desc:0 "Observas con horror cómo el fuego se propaga rápidamente más allá de la zona prevista, quemando todo a su paso. Pastos, ganado y casas se convierten en humo. Cuando el fuego finalmente se extingue, la tierra queda negra y las cenizas flotan en el aire. Suspiro de alivio al darte cuenta de que todos tus cortesanos han logrado escapar del infierno."
+ sagestepper.105.a:0 "Esto no podría haber salido peor."

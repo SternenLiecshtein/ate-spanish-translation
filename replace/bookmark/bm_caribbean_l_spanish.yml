@@ -1,0 +1,37 @@
+﻿l_spanish:
+ # l_spanish:
+ # l_german:
+ # l_french:
+ # l_russian:
+ # l_simp_chinese:
+ # l_korean:
+ bm_caribbean:0 "Mar de Caníbales"
+ bm_caribbean_desc:0 "Durante siglos, el equilibrio de poder en las Antillas fue dominado por dos reinos poderosos: Cuba e Hispaniola. Sin embargo, con una rebelión de campesinos en Cuba desafiando el dominio incuestionable de la casa Buenavista y las intrigas dinásticas en la isla de Hispaniola dividiendo el viejo reino por la mitad, el viejo orden ha caído presa de señores en guerra y piratas intrépidos.\n\nNadando en aguas turbulentas, la situación ha sido aprovechada por la joven conquistadora Portia Seacole, quien ha expandido rápidamente su dominio sobre las islas. Solo el tiempo dirá si el viejo orden será restaurado o si una nuevo poder se alzará sobre el mar de caníbales."
+
+ ### CHARACTERS
+
+ bookmark_caribe_indies:0 "Reina Portia"
+ bookmark_caribe_indies_desc:0 "Después de la muerte misteriosa de su padre, Portia fue dejada con dos cosas: un sueño de unificar las Antillas bajo una sola bandera y un ejército lo suficientemente poderoso para hacer esa ambición realidad. A través de habilidad y puro desplante, la joven conquistadora expandió su humilde ducado de Jamaica en un reino poderoso, pero aún está lejos de poder llamarse a sí misma emperatriz.\n\n¿Verá la reina Portia su sueño cumplido o será una llama que arde brightly pero no dura mucho?"
+
+ bookmark_caribe_havana:0 "Omara la Joven"
+ bookmark_caribe_havana_desc:0 "Como la primogénita del rey de Cuba, el destino de Omara siempre fue gobernar. Este destino fue robado de ella después de que la rebelión del sur tomó la vida de su padre y causó el colapso del reino. Después de eso, sus tíos traicioneros aprovecharon la oportunidad para quitarle lo que era el derecho de nacimiento de la joven princesa, como buitres a una carroña. Solo la capital antigua permanece en las manos de la heredera.\n\n¿Puede la princesa Omara recuperar lo que es suyo o han llegado los días de la casa Buenavista en el trono a su fin?"
+
+ bookmark_caribe_oriente:0 "Celia"
+ bookmark_caribe_oriente_desc:0 "Durante siglos sobre el cuello cubano yacía un yugo cristiano, pero esto llegó a su fin con el ascenso de Celia la libertadora. Nacida como una simple campesina, a Celia se le dio una visión a una edad temprana que le ordenaba liberar a los Santeros nativos de Cuba del gobierno opresivo de la casa Buenavista. Hasta ahora, su búsqueda sagrada ha asegurado el este de la isla y la cabeza del viejo rey como trofeo.\n\n¿Liberará Celia a sus fieles hermanos o Cuba está condenada al dominio cristiano durante siglos?"
+
+ bookmark_caribe_haiti:0 "Ésaü II"
+ bookmark_caribe_haiti_desc:0 "Hijo de un padre asesinado y heredero de un trono usurpado. El joven Ésaü tuvo su lugar legítimo como rey de Hispaniola robado por su tío pusilánime y las mujeres de la corte que mantenían al cobarde con una corta correa. Pero el joven león aún tenía garras, en un movimiento audaz el príncipe se levantó en rebelión y se apoderó de medio isla restaurando el viejo trono de Haití.\n\nCon la isla dividida y el usurpador gobernando en el este, Ésaü aún está lejos de reclamar su derecho de nacimiento. ¿Recuperará el nuevo rey su trono o está la isla condenada a la división?"
+
+ bookmark_caribe_dominicana:0 "Rey Israel"
+ bookmark_caribe_dominicana_desc:0 "Israel era el único hijo legítimo del rey de Hispaniola, una realidad que su hermano bastardo se negaba a aceptar. Como tal, una conspiración fue tejida por la reina madre y los señores cristianos de la isla para colocar al gobernante legítimo en el trono y enviar al usurpador a la tumba. Y sin embargo, como mala hierba que se niega a morir, el hijo de los bastardos aún tuvo la audacia de rebelarse contra su señor y tomar media isla para sí mismo.\n\n¿Unificará Israel la tierra o está condenado a perder su trono ante una línea ilegítima?"
+
+ bookmark_caribe_puerto_rico:0 "Duque Ramón"
+ bookmark_caribe_puerto_rico_desc:0 "Los Ayala una vez fueron los gobernantes orgullosos de un Puerto Rico libre, eso cambió cuando la invasora pagana Portia Seacole invadió la isla y sometió a sus habitantes. Y por el crimen de defender a su pueblo ella no solo ejecutó al duque sino también a sus hijos. Con la rama principal de la familia desaparecida, Ramón Ayala fue forzado a jurar lealtad a la tiranía y besar el anillo de una infiel.\n\n¿Puede Ramón vengarse de la matanza de sus seres queridos o serán los Ayala esclavos del dominio extranjero durante años?"
+
+ bookmark_caribe_trinidad:0 "Raja Arjun"
+ bookmark_caribe_trinidad_desc:0 "placeholder"
+
+ bookmark_caribe_sparrow:0 "Capitán Jacques"
+ bookmark_caribe_sparrow_desc:0 "Jacques es como un gorrión, completamente sin pretensiones. No es el más inteligente, ni el más fuerte, ni el mejor de los piratas. Pero puede ser el más afortunado, ya que ha ascendido recientemente como el gobernante del nido de asesinos, prostitutas y saqueadores que es la isla de Tortuga. Su dominio está lejos de ser impresionante, y su nombre apenas es conocido, pero quizás eso pueda cambiar algún día."
+ BOOKMARK_CHARACTER_DIFFICULTY_PIRATE:0 "YARRRR"
+

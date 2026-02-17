@@ -1,0 +1,163 @@
+﻿l_spanish:
+ # l_spanish:
+ # l_german:
+ # l_french:
+ # l_russian:
+ # l_simp_chinese:
+ # l_korean:
+ challenge_character_biltmore_golden: "Gran Jefe Golden"
+ challenge_character_biltmore_golden_desc: "El 'chico de oro' de su tribu Apalache, Golden es joven, fuerte y hambriento de poder.\n\n#bold ¿Superará Golden las expectativas, o fracasará en vivir a la altura de su potencial?#!" 
+ 
+ challenge_character_camiroaga_felipe: "Duque Felipe"
+ challenge_character_camiroaga_felipe_desc: "Felipe recientemente derrotó a su antiguo señor en una rebelión, liberando Santiago, aunque ahora se ve obligado con sus varios aliados.\n\n#bold ¿Es Felipe apto para continuar liderando, o eludirá sus nuevos deberes?#!"
+
+ challenge_character_castel_regis: "Príncipe Régis"
+ challenge_character_castel_regis_desc: "Régis ha visto muchos horrores en su vida, pero ahora busca criar a una hija que esté libre de sus pecados.\n\n#bold ¿Son verdaderas las esperanzas de Régis, o su hijo crecerá igual que él?#!"
+
+ challenge_character_trevisan_nelson: "Capitán General Nelson"
+ challenge_character_trevisan_nelson_desc: "Designado por su autopromoción grandiosa, Nelson está listo para hacerse un nombre en la frontera sur de Brasil.\n\n#bold ¿Se ha metido Nelson en algo más allá de su capacidad, o se levantará a la ocasión?#!"
+
+ challenge_character_itzli_netza: "Gobernadora Itzlixóchitl"
+ challenge_character_itzli_netza_desc: "Aparentemente, Itzlixóchitl es una católica devota, pero en el fondo, anhela difundir la palabra del 'Tercer Pacto'.\n\n#bold ¿Florecerá la verdadera fe de Itzlixóchitl, o se marchitará mientras espera escondida en las sombras?#!"
+
+ challenge_character_maranhao_joao: "Ministro de Hacienda Joao"
+ challenge_character_maranhao_joao_desc: "Un hombre con un profundo deseo de poder y placeres carnales, Joao ha puesto sus ojos en el cargo más alto de Brasil.\n\n#bold ¿Está listo Joao para tomar el toro por los cuernos, o se encontrará muerto por la misma nación que desea controlar?#!"
+
+ challenge_character_lestenkof_leontiy: "Jefe Leontiy"
+ challenge_character_lestenkof_leontiy_desc: "Bajo el esplendor de la aurora boreal, Leontiy hizo una promesa de tomar todo lo que pueda de este mundo.\n\n#bold ¿Puede Leontiy encontrar riquezas en una tierra de vasta wilderness, o su codicia lo consumirá?#!"
+
+ challenge_character_de_orleans_e_braganca_isabel: "Contralora General Isabel"
+ challenge_character_de_orleans_e_braganca_isabel_desc: "Proveniente de una familia con un antiguo reclamo al trono de Brasil, Isabel administra una posesión menor cerca del corazón del imperio.\n\n#bold ¿Debería Isabel abandonar el pasado de su familia, o atreverse a reclamarlo?"
+
+ challenge_character_dillon_michael: "Presidente Michael"
+ challenge_character_dillon_michael_desc: "Abandonado por su padre y dotado de un poder que no ganó, Michael es un niño arrojado a un papel que aplastaría a muchos hombres.\n\n#bold ¿Lo hará la presión colapsar, o forjará la responsabilidad a Michael en un hombre de habilidad sin igual?"
+
+ challenge_character_da_esplanada_leandro: "Presidente Leandro"
+ challenge_character_da_esplanada_leandro_desc: "Un guerrero en control de una ciudad de soñadores, Leandro espera someter a Brasilia y usarla para sus propios sueños de conquista.\n\n#bold ¿Puede Leandro construirse un imperio, o la base es demasiado débil para resistir?#!"
+
+ challenge_character_david_paradis: "Rey David-René"
+ challenge_character_david_paradis_desc: "Un hombre crónicamente enfermo, el corazón de David-René se esfuerza con pasión por la causa de su fe y su cabeza arde en sueños febriles de traer las profecías de Luis 'David' Riel a la realidad.\n\n#bold ¿Vivirá David-René para ver sus esperanzas hacerse reales?#!"
+
+ challenge_character_apmadoc_lewisyto: "Rey Lewísyto"
+ challenge_character_apmadoc_lewisyto_desc: "Un rey de un pueblo de mito, Lewísyto está listo para tomar su lugar como un héroe digno de balada y canción.\n\n#bold ¿Será Lewísyto recordado en el mismo aliento que su legendario antecesor, o será su historia olvidada?#!"
+
+ challenge_character_grau_euclides: "Conde Euclides"
+ challenge_character_grau_euclides_desc: "Un verdadero revolucionario en su juventud, Euclides ahora se pregunta si podría ser hora de asentarse y aceptar el status quo.\n\n#bold ¿Son las pasiones más jóvenes de Euclides algo a ser abandonado o es hora de que tome una postura?#!"
+
+ challenge_character_uiterloo_eugene: "Conde Eugène"
+ challenge_character_uiterloo_eugene_desc: "Un terrateniente en las márgenes de su reino, Eugène es una minoría en una tierra llena de ellas.\n\n#bold ¿Puede Eugène ascender a la cúspide y elevar a su pueblo, o quedará atrapado en el borde de la civilización?#!"
+
+ challenge_character_gutfreund_levi: "Conde Levi"
+ challenge_character_gutfreund_levi_desc: "Su pueblo oprimido por la tiranía americana, Levi los ha liberado convirtiéndose en un líder amado.\n\n#bold Con Levi, ¿está la Costa Este en el camino hacia la libertad del dominio de los Americanistas, o simplemente traerá nueva gestión?#!"
+
+ challenge_character_swiat_ewa: "Marquesa Ewa"
+ challenge_character_swiat_ewa_desc: "Una mujer que aprecia lo que ya tiene, Ewa no tiene deseo de cambiar su lugar en el mundo, sin embargo vive en la frontera del imperio más grande del mundo.\n\n#bold ¿Se verá forzada Ewa a actuar, o puede mantener la paz en la frontera?#!"
+
+ challenge_character_elphaba_margaret: "Gran Jefa Margaret"
+ challenge_character_elphaba_margaret_desc: "Elphaba tiene una reputación como 'Bruja Malvada', y por ello, se encuentra en una guerra con su señor.\n\n#bold ¿Puede Elphaba convertirse en una heroína por derecho propio, o está destinada a ser la villana de la historia de alguien más?#!"
+
+ challenge_character_machu_melchor: "Jefe Melchor"
+ challenge_character_machu_melchor_desc: "Melchor es el último en una larga línea de hombres viejos, guardianes de confianza de uno de los sitios más famosos de los Andes, sin embargo su falta de heredero amenaza con terminar su linaje.\n\n#bold ¿Continuará Melchor la tutela de su familia de Machu Picchu, o morirá la línea con él?#!"
+
+ challenge_character_rockdale_leah: "Gran Presidenta Leah"
+ challenge_character_rockdale_leah_desc: "La gobernante de un reino en el río Ohio, Leah enfrenta tribus hambrientas de poder en sus flancos, mientras sus hermanos religiosos al norte ofrecen poca asistencia.\n\n#bold ¿Puede Leah mantener su reino, o llegará a su fin la república de Cincinnati?"
+
+ challenge_character_ywara_pataxo: "Canciller Ywara"
+ challenge_character_ywara_pataxo_desc: "Una mujer nunca esperada para tener poder, Ywara está ansiosa por traer amabilidad y felicidad a Brasil.\n\n#bold ¿Está Ywara condenada a ser aplastada bajo el peso del imperio, o su compasión suavizará sus bordes?#!"
+
+ challenge_character_doroshenko_zoria: "Hetmanka Zoria"
+ challenge_character_doroshenko_zoria_desc: "Una señora de guerra en ascenso, Zoria se para al precipicio de una campaña de expansión y matanza, lista para pintar su nombre a través del lienzo de la tierra.\n\n#bold ¿Qué tan grande aparecerá su imperio en los mapas hechos de su conquista?#!"
+
+ challenge_character_malbecez_eleanora: "Caudilla Eleanora"
+ challenge_character_malbecez_eleanora_desc: "Satisfecha con su familia grande y reino más grande, Eleanora está preparada para comenzar sus años dorados.\n\n#bold Sin embargo, el tumulto de los reinos es interminable, ¿se harultar verdaderas sus esperanzas de una jubilación tranquila?#!"
+
+ challenge_character_cantu_gonzalo: "Duque Gonzalo"
+ challenge_character_cantu_gonzalo_desc: "Pocos en los restos de la Estrella Solitaria conocen el nombre de Gonzalo, y parece que pocos alguna vez lo harán.\n\n#bold ¿Es realmente este su destino, o es este simplemente el comienzo de su ascenso al poder?#!"
+
+ challenge_character_meia_noite_manuel: "Rey Manuel"
+ challenge_character_meia_noite_manuel_desc: "Su reino casi envuelto por Brasil, Manuel está en una carrera contra el tiempo para construir un reino que pueda rivalizar con el imperio.\n\n#bold ¿Puede Manuel dejar atrás a Brasil, o ya ha perdido?#!"
+
+ challenge_character_thule_luuvi: "Jefa Luuvi"
+ challenge_character_thule_luuvi_desc: "Luuvi lidera una tribu de guerreros en una tierra congelada, sin embargo prefiere libros y conversaciones tranquilas a saqueos y peleas.\n\n#bold ¿Liderará Luuvi a su pueblo en conquista ardiente, o puede mantener sus ideales de derretirse?#!"
+
+ challenge_character_cockwell_anne: "Jefa Anne"
+ challenge_character_cockwell_anne_desc: "La más fuerte entre sus hermanos, Anne se encuentra en un punto muerto contra ellos, cada uno negándose a ceder para permitir que otros reclamen la tierra de su padre.\n\n#bold ¿Puede Anne desatar su poder sobre sus hermanos, o será otra de los Cockwell la que unifique las Malvinas?#!"
+
+ challenge_character_kincaid_silas: "Conde Silas"
+ challenge_character_kincaid_silas_desc: "No es el mismo después de un accidente reciente, Silas aún se espera que cumpla los deberes de un noble, a pesar de su clara falta de capacidad.\n\n#bold ¿Fue Silas robado de un futuro por el destino, o puede gobernar a pesar de lo que le ha sucedido?#!"
+
+ challenge_character_cova_arturo: "Gran Jefe Arturo II"
+ challenge_character_cova_arturo_desc: "Para Arturo, cada día el peligro planteado por sus vecinos se hunde más profundo, y comienza a desesperarse, buscando su trecho de los Llanos por cualquier escape.\n\n#bold ¿Qué lugares espantosos lo llevará su miedo?#!"
+
+ challenge_character_gilgamesh_the_visited: "Señor Gilgamesh"
+ challenge_character_gilgamesh_the_visited_desc: "Un hombre profundamente trastornado, Gilgamesh hasta ahora ha representado un peligro solo para sí mismo y su reino siguiendo el supuesto 'rapto' que lo inspiró a incautar el poder.\n\n#bold ¿Forzarán las demandas del gobierno a Gilgamesh a relajarse, o es este solo el comienzo de su espiral descendente?#!"
+ 
+ challenge_character_belomonte_maria_da_natividade: "Secretaria de Hacienda Maria"
+ challenge_character_belomonte_maria_da_natividade_desc: "Maria da Natividade es una administradora de talento de una vez en una generación, a pesar de debilidad física y su fe controvertida, que recientemente ha ganado la tutela sobre la mina de gemas más importante de Brasil.\n\n#bold Ahora que tiene riqueza que rivaliza con muchos Gobernadores, ¿cómo elegirá usarla?#!"
+ 
+ challenge_character_nguyen_treme: "Alcalde Tremé"
+ challenge_character_nguyen_treme_desc: "Cansado de la falta de talento de su señor para la guerra que lleva a Nueva Orleans a ser a lo mucho un poder regional secundario, Tremé está comenzando a pensar que es hora de una sacudida en el reino.\n\n#bold Con inestabilidad rodeándolo, ¿es esta la oportunidad de Tremé?#!"
+
+ challenge_character_raimundo_manaus: "Presidente Raimundo"
+ challenge_character_raimundo_manaus_desc: "Recientemente elegido, Raimundo parece mucho más interesado en festejar y asegurar que quienes lo eligieron esté constantemente entretenidos que en administrar la red de rutas comerciales de Manaus.\n\n#bold ¿Inaugurará el reinado de Raimundo un período de declive, o esta campaña de festines es parte de un plan más complicado?#!"
+
+ challenge_character_afton_jeremy: "Senador Jeremy"
+ challenge_character_afton_jeremy_desc: "Una figura siniestra en los márgenes de Utah, Jeremy tiene un plan que mantiene cerca de su pecho, uno que le traerá gran poder e influencia.\n\n#bold Sin duda, muchos sufrirán, pero ¿terminará Jeremy siendo el que peor salga si sus planes fallan?#!"
+
+ challenge_character_sajama_ines: "Apu Inés"
+ challenge_character_sajama_ines_desc: "Gobernando un Ayllu que no sigue el culto del Inti, Inés administra un reino anómalo, aún más extraño por su edad y falta de interés en la guerra civil del Tawantinsuyu.\n\n#bold Aunque personalmente desinteresada en la guerra o expansión, ¿representa Inés el comienzo de un gran cambio para Gran Chaco?#!"
+
+ challenge_character_arvin_naveah: "Prefecta Naveah"
+ challenge_character_arvin_naveah_desc: "En control de una de las áreas relativamente poco importantes de California, Naveah enfrenta una situación incómoda debido a radicales en su propio reino y enemigos del poder del Eterno Guru Viviente apretando el Imperio.\n\n#bold ¿Forzarán las amenazas sin precedentes que enfrenta el Imperio Dorado a Naveah a tomar medidas drásticas?#!"
+
+ challenge_character_valdo_alicia: "Condesa Alicia"
+ challenge_character_valdo_alicia_desc: "Posicionada para convertirse en la líder del movimiento protestante más antiguo del mundo, Alicia llega al final de su infancia en un reino próspero, si bien precario.\n\n#bold ¿Terminarán las ambiciones de Alicia llevando a Uruguay a la ruina, o son el comienzo de la resurrección espiritual del reino?#!"
+
+ challenge_character_jesse_wingfield: "Rey Jesse"
+ challenge_character_jesse_wingfield_desc: "Un autoproclamado 'rey', Jesse es en realidad un señor de guerra en control de una sola isla en el Lago Michigan.\n\n #bold ¿Puede Jesse ganarse su título al expandir su reino, o está el extraño rey condenado a ser una nota al pie de la historia?#!"
+
+ challenge_character_bonachera_yuyeimi: "Gran Jefa Yuyeimi"
+ challenge_character_bonachera_yuyeimi_desc: "Una extraña bruja gobernando desde el pie de los Andes, Yuyeimi no está involucrada en los melodramas que ocurren en toda la región, enfocada solo en crear un aquelarre.\n\n#bold ¿Se manifestarán los sueños de magia de Yuyeimi, o sufrirá el destino de tantas brujas antes que ella?#!"
+
+ challenge_character_groening_menno: "Gran Jefe Menno"
+ challenge_character_groening_menno_desc: "Un hombre piadoso, Menno sin embargo está en un impasse debido a su deseo de mantener su reino seguro en una tierra muy peligrosa, a pesar del mandato de su religión del pacifismo.\n\n#bold ¿Qué favorecerá Menno, guerra por el bien de la paz o una paz vulnerable que invita a la guerra posterior?#!"
+
+ challenge_character_sato_mauro: "Duque Mauro"
+ challenge_character_sato_mauro_desc: "Descendiente de una línea de gobernantes capaces, Mauro busca consolidar Tietê y asegurar el lugar de su fe, familia y cultura dentro del Imperio de Brasil mediante promoción imperial.\n\n#bold ¿Funcionará el plan de Mauro, o su obediencia solo permitirá que gobernantes más duplicitados lo destruyan?#!"
+
+ challenge_character_olimpio_amaleki: "Duque Amelekí"
+ challenge_character_olimpio_amaleki_desc: "Una mitad de un par de gemelos, Amalekí es otro terrateniente local entre muchos que compiten por dominancia en América Central.\n\n#bold Sin embargo, ¿podría su juventud y estado como gemelo presagiar grandes cosas en su futuro?#!"
+
+ challenge_character_candido_manuel: "Capitán General Manuel"
+ challenge_character_candido_manuel_desc: "Un hombre extraño, la administración de Manuel es igualmente fracturada e inconsistente, algo que lo frustra enormemente.\n\n#bold ¿Podrá Manuel poner las cosas en orden, o se quebrará su espíritu bajo la tensión de su posición?#!"
+
+ challenge_character_gagnon_clark: "Rey Clark"
+ challenge_character_gagnon_clark_desc: "Generalmente incompetente, Clark puede no ser apto para su título, pero está dispuesto a hacer absolutamente cualquier cosa para mantenerlo.\n\n#bold ¿Podrá la pura fuerza de voluntad de Clark mantenerlo en control de Maine, o sería mejor simplemente rendirse?#!"
+
+ challenge_character_barbanel_santos: "Gobernador General Santos"
+ challenge_character_barbanel_santos_desc: "Santos, un administrador trabajador y capaz, lucha por sopesar sus deberes con Brasil contra su deseo personal de los placeres de la vida.\n\n#bold ¿Puede Santos encontrar un buen equilibrio trabajo-vida, o su talento terminará desperdiciándose?#!" 
+
+ challenge_character_corbeau_jacques: "Jefe Supremo Judicaël"
+ challenge_character_corbeau_jacques_desc: "Judicaël está irritado bajo un reino gobernado por paganos que discuten, pero su reina es vieja, y pronto una oportunidad puede presentarse.\n\n#bold ¿Podrá Judicaël afirmar el control acadio, o debería aceptar su posición como súbdito?#!"
+
+ challenge_character_huenupil_humberto: "Ülmen Humberto"
+ challenge_character_huenupil_humberto_desc: "Una rareza entre su cultura, Humberto es un vasallo de extranjeros, una situación que no le molesta particularmente, de no ser por su falsa religión.\n\n#bold ¿Puede Humberto mostrarle a su señor la fe adecuada pacíficamente, o tendrá que forzarla por medio de la espada?#!"
+
+ challenge_character_whaleback_zalophus: "Coronel Zalphus"
+ challenge_character_whaleback_zalophus_desc: "En medio de una rebelión contra el Imperio de California, Zalophus sabe que eventualmente, tendrá que enfrentar a sus aliados sobre quién gobernará Jefferson.\n\n#bold ¿Va a salir victorioso Zalophus, o es esta rebelión el comienzo de su fin?#!"
+
+ challenge_character_chiriboga_ramon: "Duque Ramón"
+ challenge_character_chiriboga_ramon_desc: "Dejado por su esposa después de matar a su madre, y luego a su hijo, Ramon se ha creado una posición extremadamente tensa.\n\n#bold ¿Puede Ramon recuperarse del trauma que ha infligido, o el acto final de esta tragedia será su propia muerte?#!"
+
+ challenge_character_guerrero_kenne: "Gran Jefe Kenne"
+ challenge_character_guerrero_kenne_desc: "Gobernando sobre tres ciudades que actualmente son poco más que asentamientos tribales grandes, Kenne está impulsado, a pesar de una falta relativa de conocimiento, para construir una metrópolis más allá de los sueños más salvajes de cualquiera.\n\n#bold ¿Ejercerá Kenne su voluntad sobre la tierra, o sus delirios serán su perdición?#!"
+
+ challenge_character_julio_cesar_liotta: "Don Julio César"
+ challenge_character_julio_cesar_liotta_desc: "En las afueras de Buenos Aires, Julio César anhela la gloria igual a la de su homónimo.\n\n #bold A pesar de su edad y habilidad relativamente menor, ¿puede Julio César aún rivalizar con el emperador del Viejo Mundo?#!"
+
+ challenge_character_nasir_alqazwini: "Alcalde Nasir"
+ challenge_character_nasir_alqazwini_desc: "Proveniente de una larga línea de clérigos y teólogos, Nasir podría cuidar menos sobre tales supersticiones, en su lugar enfocándose en su propio avance personal.\n\n #bold ¿Abandonará Nasir la fe de su familia por poder, o su pragmatismo es solo la oportunidad que necesita para propagarse?#!"
+
+ challenge_character_ramdass_indrajeet: "Presidente Indrajeet"
+ challenge_character_ramdass_indrajeet_desc: "Indrajeet administra una república considerable, pero lucha con muchos vecinos y vasallos paganos.\n\n #bold ¿Será el celo de Indrajeet su perdición, o su camino hacia la dominación regional?#!"
+

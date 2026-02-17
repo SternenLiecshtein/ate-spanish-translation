@@ -1,0 +1,52 @@
+﻿l_spanish:
+ # l_spanish:
+ # l_german:
+ # l_french:
+ # l_russian:
+ # l_simp_chinese:
+ # l_korean:
+ bm_ghost_of_the_north:0 "Fantasmas del Norte"
+ bm_ghost_of_the_north_desc:0 "El norte es una tierra antigua, llena de recuerdos y fantasmas. Los una vez orgullosos reinos de Quebec y Ontario han caído, derribados no por extranjeros, sino por amenazas y traiciones desde adentro. Los Señores de Hudsonia presenciaron la caída, y temen un destino similar. Su Rey es un reflejo pálido de los Clintons difuntos, y cada uno sospecha que el otro está intentando tomar el trono. Asimismo, la Reina de las Marítimas gobierna sus tierras con un puño de hierro, no tolerando discordia interna - y sin embargo, ve a su pueblo disminuir año tras año, asediado por asaltantes y cosas peores.\n\nEn fortalezas y cortes a lo largo del Saint Laurent, duques y condes ambiciosos conspiran y trazan para reclamar sus reinos caídos, una secta de breakout de pacifistas tolerantes ha traído un momento de calma a las tierras problemáticas en Ontario, y en Nueva York, intereses monetarios poderosos apuntan a construir sus fortunas, capitalizando las guerras venideras. Pero, desconocido para todos ellos, en Boston, un soñador tiene visiones de un reino una vez y futuro, y en las orillas del Lago Hurón un joven hombre ha jurado juramentos de sangre y venganza, amenazando con derrumbar todo el asunto."
+ ### CHARACTERS
+
+ bookmark_gn_franklin_ironwrit:0 "Presidente Franklin"
+
+ bookmark_gn_hudsonia:0 "Rey Baltus"
+ bookmark_gn_hudsonia_desc:0 "Las fortunas de Hudsonia han declinado algo recientemente, con sus días de gloria bajo los reyes Clinton hace mucho en el pasado. Aunque el reino parece unido, la autoridad de la corona es débil, y el reinado de Baltus III Vanderbronx está plagado de conflicto religioso y vasallos desleales. Muchos reclaman descender de los Clintons, y cada uno cree que es el gobernante legítimo del trono. Más allá de las fronteras de Hudsonia, Diabolistas y asaltantes vikingos se agitan. Si Baltus puede superar la tormenta y restaurar a Hudsonia a su antigua fuerza, será recordado como el igual de quienes vinieron antes. Sin embargo, si falla, él, y Hudsonia, estarán condenados a la obscuridad."
+
+ bookmark_gn_deitsch:0 "Rey Abram VII"
+ bookmark_gn_deitsch_desc:0 "El Rey Abram VII gobierna el Reino de Dutchland, uno de los reinos más antiguos y estables de toda América Antigua. Dutchland no ha visto guerra en más de doscientos años, y actualmente disfruta de buenas relaciones con sus compañeros Anabaptistas en el Reino de Hudsonia. Sin embargo, Abram mismo enfrenta un problema bastante serio. Su esposa, Isidora, aún no le ha dado un hijo, y, a los 49 años, parece cierto que nunca lo hará. ¿Morirá la dinastía Lengacher con él, o encontrará una manera de mantener su línea viva, sin importar el costo?"
+
+ bookmark_gn_calvin_watterson:0 "Rey Calvin"
+ bookmark_gn_calvin_watterson_desc:0 "Durante siglos, la dinastía Kovacs-Clayton gobernó sobre las monarquías gemelas de Greater Reserve y Alleghenia. Sin embargo, cuando el último rey murió sin hijos en una tormenta en el Lago Erie, la región se sumergió en el caos mientras vecinos antaño pacíficos pelearon por reclamar la Corona para sí mismos. A este caos vinieron asaltantes Soady, buscando saquear la riqueza de las costas de Erie. Algunos se quedaron, intentando tallar un reino para sí mismos, pero Boyd Watterson, un noble menor de fuera de Cleveland, unió a los señores de la Reserva para expulsar a estos asaltantes vikingos. En una batalla climática, los invasores fueron rotos y expulsados, pero no sin pérdidas. Ahora, el hijo joven y travieso de Boyd ha sido colocado en este trono inseguro, pero ¿puede mantener el reino unido mientras crece en esta posición encumbrada?"
+
+ bookmark_gn_nyc:0 "Duque Thaddeus"
+ bookmark_gn_nyc_desc:0 "La Gran Manzana fue una vez la ciudad más grande del mundo. Aunque no se acerca en absoluto a la grandiosidad de sus días pre-cataclísmicos, ha sobrevivido y se reconstruyó, reclamando su lugar como una de las capitales económicas y culturales de la costa oriental. A lo largo de los siglos, la República ha resistido la guerra y la calamidad, rodeada por las muchas facciones del Nordeste tumultuoso. Thaddeus Theovelt es el más nuevo patriarca de una larga línea para gobernar la Ciudad de Nueva York. Su gobierno ha sido sabio y justo, trayendo tanto enemigos como aliados al redil. Pero por toda la gloria que ha traído a la ciudad que nunca duerme, aún debe tener cuidado, pues sus compañeros patricios son ambiciosos. Los Americanistas tienen pocos amigos entre sus vecinos, y la guerra es casi más común en la región que el comercio. ¿Prosperará Nueva York bajo su patrocinio, o caerá a manos de sus enemigos?"
+
+ bookmark_gn_boston:0 "Conde Paul"
+ bookmark_gn_boston_desc:0 "Hace siglos, la Casa de Mahonic gobernó un reino poderoso y próspero que unió a la gente del Nordeste, y fue un nombre conocido - y temido - por todo lo vivo al este del Misisipi. Ahora, sin embargo, esos días son recuerdos distantes, viviendo solo en tomos en la gran Biblioteca Carmesí o en cuentos contados para asustar a los niños pequeños para que se comporten. Y sin embargo, los Mahonics no han desaparecido completamente. El camino por delante es traidor, pero no sin esperanza - pues el joven Paul sueña con antiguos susurros, murmurando verdades incontables, guiándolo mientras se esfuerza por superar a sus antepasados en su búsqueda de reunir Nueva Inglaterra."
+
+ bookmark_gn_maritimes:0 "Reina Caitlin"
+ bookmark_gn_maritimes_desc:0 "Las Marítimas se erigen donde muchas otras han fracasado. El único reino canadiense antiguo que permanece, el reino de la Reina Caitlin Beaton es un faro de estabilidad en una región marcada por el tumulto. Sin embargo, muchos buscan perturbar la paz de la Reina. Las tribus adoradoras del diablo de Nueva Inglaterra amenazan con saquear y saquear, y los piratas del mar están en las costas. Internamente, existe un equilibrio delicado de poder entre los señores acadienses, marítimos, gàidheal y mikmaq. ¿Podrán los Beatons mantener su trono, o se derrumbará esta casa de naipes?"
+
+ bookmark_gn_montreal:0 "Rey Roland"
+ bookmark_gn_montreal_desc:0 "Roland Turcot es el patriarca de una familia noble antigua basada en Montréal, la esteemed Casa de Turcot. En 2629 la muerte de Véronique Castel, Reina de Québec, selló el destino del Reino. Con la legitimidad de sus descendientes siendo cuestionada, el reino entró en estado de guerras civiles constantes entre los Turcots y Castels. El reino sufrió, fracturándose en señores locales feudales en conflicto. Ahora hay una paz incómoda, y aunque pocos lo reconozcan, Roland ha asumido el título de Rey de Upper Quebec. Como el gobernante ambicioso de una metrópolis poderosa, solo la historia dirá si Roland, o sus descendientes, pueden derrotar decisivamente a los Castels y unir Québec bajo su dinastía."
+
+ bookmark_gn_quebec:0 "Rey Paul"
+ bookmark_gn_quebec_desc:0 "Nacido de la unión controvertida de la Reina Veronique Castel con Bouchard Turcot y tido en medio de la conquista desgarrada por la guerra de Gaspé, la herencia de Paul Castel ha sido cuestionada durante mucho tiempo por primos celosos y observadores. La amarga guerra civil quebequesa, provocada por el reclamo insolente de Roland al trono, persiste como un eco sombrío de conflictos pasados. Sin embargo, en las sombras de la discordia, el corazón de Paul Castel encuentra solaz en su única hija, Veronique - un tributo viviente a su amada madre.\nNavegando el crepúsculo de su reinado, las lealtades fragmentadas de Quebec reflejan las complejidades de la familia y el legado, dejando a Paul anhelando la esquiva unidad perdida a causa del conflicto generacional."
+
+ bookmark_gn_bruce_soady:0 "Constantine"
+ bookmark_gn_bruce_soady_desc:0 "Siguiendo la muerte de gran parte de su familia a manos del necio Bruce de Bruce, Constantine Soady hizo juramentos de venganza.\nReuniendo a muchos de sus medio hermanos bajo su bandera, y reuniendo un gran ejército de Yoopers y Northlanders ambiciosos, Constantine llevó la guerra a Ontario del norte, reclamando Bruce para sí mismo.\nAunque el antiguo señor escapó, el ambicioso Constantine ahora se encuentra con un ejército ensangrentado y vicioso a su disposición, listo para tallar su propio dominio, y rivalizar en fama a su gran padre, el legendario vikingo Albert Soady. Pero no será demasiado fácil - aunque sus hermanos están a su lado por ahora. Ellos también, tienen ambiciones."
+
+ bookmark_gn_toronto:0 "Rey Morley II"
+ bookmark_gn_toronto_desc:0 "50 años han pasado desde que el Rey Galway III de Ontario se convirtió a la iglesia tolerante radicalmente unida, dando lugar a inestabilidad sin precedentes en el resultado de sus esfuerzos por imponer la iglesia en la provincia. Ahora, su hijo joven Morley ha reclamado el trono de su tío y del ex regente corrompido Robertson Singh, y controla poco fuera de Toronto propiamente. Un creyente firme en la religión adoptada de su padre, Morley aspira a asegurar la prosperidad de la provincia. Es improbable que estas esperanzas se hagan realidad, sin embargo, ya que sus esfuerzos por llevar a Robertson Singh a la justicia han encendido la leña que fue Ontario bajo Galway y Robertson.\nLos oportunistas ahora enjambran, y entre ellos están la hermana de Morley, Maureen, y el asaltante vikingo Constantine Soady. ¿Puede sobrevivir a este asalto de oportunistas, o Morley II se convertirá en Morley el Último?"
+
+ bookmark_gn_allegheny:0 "Allegheny"
+ bookmark_gn_allegheny_desc:0 "ditto"
+
+ bookmark_gn_detroit:0 "Detroit"
+ bookmark_gn_detroit_desc:0 "ditto"
+
+ bookmark_gn_chicago:0 "Chicago"
+ bookmark_gn_chicago_desc:0 "ditto"
+

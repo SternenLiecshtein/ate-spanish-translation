@@ -1,0 +1,30 @@
+﻿l_spanish:
+ # l_spanish:
+ # l_german:
+ # l_french:
+ # l_russian:
+ # l_simp_chinese:
+ # l_korean:
+ bm_patria_grande:0 "Seiscientos Años de Soledad"
+ bm_patria_grande_desc:0 "Por un breve momento pareció que la Gran Colombia de antaño sería unida una vez más, ese momento terminó hace más de un siglo, pero sus cicatrices aún marcan la tierra. La fe que unió la nación aún domina los corazones de su pueblo, mientras herejías extrañas han aparecido en sus afueras, y la sangre de los herederos al trono imperial aún no ha muerto.\n\nAl este, en las tierras de la vieja Venezuela, la fe de la tierra nunca llegó. El Caribe aún reza a sus viejos dioses, demasiados para que alguien conozca todos sus nombres. Y en las llanuras, hombres que viven entre caballos adoran nombres de horror que los forasteros solo susurrarían.\n\nCon la tierra fracturada en un centenar de pequeños reales, parece que unir la Patria no es más que una ilusión, pero quizás una tierra condenada a seiscientos años de soledad verá su segunda vida en la Tierra."
+
+ ### CHARACTERS
+
+ bookmark_patria_zac_patria:0 "Zacarías, el último caudillo"
+ bookmark_patria_zac_patria_desc:0 "Zacarías Alvarado es el heredero a una línea gloriosa, al título de patriarca de los fieles, al trono imperial de Colombia. Y sin embargo, durante las generaciones las posesiones de su casa han sido reducidas a pocas tierras cerca de la antigua capital imperial. Cuando el último caudillo de la línea del Falso Libertador entra en sus años finales, el futuro de la dinastía y la fe parece más oscuro que nunca.\n\n¿Puede la Casa de Alvarado regresar a su gloria imperial o ¿es este verdaderamente el otoño de los patriarcas?"
+
+ bookmark_patria_panama:0 "Miguel el Usurpador"
+ bookmark_patria_panama_desc:0 "Rumores pérfidos han rodeado al rey toda su vida, algunos dicen que su relación con el difunto rey Zacarías fue más que platónica, otros que fue su mano la que tomó la vida del viejo monarca o incluso que usurpó el trono por engaño y decepción. En última instancia, ninguna de estas mentiras importa al rey, pues es su mano la que controla las tierras que unen el Norte y el Sur.\n\n¿Mantendrá el rey su buen nombre y traerá un gobierno próspero para Panamá, o finalmente lo atrapará su pasado?"
+
+ bookmark_patria_chiriqui:0 "Bendición, Infanta de Panamá"
+ bookmark_patria_chiriqui_desc:0 "Un peso pesado fue colocado en Bendición a una edad muy tierna. Rumores del asesinato de su tío por un amante traidor, de la usurpación de un trono que era justamente suyo, de conspiraciones contra su vida y de brindis secretos hechos en su honor. Es una tragedia cuando una niña pierde su infancia y es forzada a un juego peligroso, pero como la heredera más poderosa de la familia imperial, puede ser forzada a aprender las reglas del juego muy rápido.\n\n¿Recuperará la princesa el honor de su familia o deberían sus simpatizantes simplemente desearle buenas noches a la dulce princesa?"
+
+ bookmark_patria_macondo:0 "Buendia Arcadio"
+ bookmark_patria_macondo_desc:0 "No hay larga y orgullosa historia para Macondo, tierra nombrada después de la ciudad de los sueños de los textos sagrados. Fue fundada hace apenas una generación por hombres cansados de la tiranía de reyes. La república resultante solo sobrevive gracias a un equilibrio delicado de poder entre hombres de diferentes religiones e intereses conflictivos. Macondo es una tierra volátil, pero una cosa es cierta, sus hombres no se arrodillan ante ningún rey.\n\n¿Asegurará Arcadio el futuro de su república o será recordada como solo un experimento político fugaz?"
+
+ bookmark_patria_zulia:0 "Oneida Santos"
+ bookmark_patria_zulia_desc:0 "Oneida es la única defensora de la fe, como fue su madre y su madre antes que ella. Al oeste está flanqueada por herejes dudosos que insisten en poner un profeta crucificado sobre la tierra sagrada en sí, al este están paganos supersticiosos adorando una multitud de dioses falsos, y al sur los salvajes de las llanuras rezan al diablo mismo. Pero la reina no teme, porque el desierto la protege, como solo una madre puede.\n\n¿Salvará Oneida su tierra ancestral o será el Reino perdido en las arenas del tiempo?"
+
+ bookmark_patria_venezuela:0 "Venezuela"
+ bookmark_patria_venezuela_desc:0 "maldonardo, estás en pole"
+

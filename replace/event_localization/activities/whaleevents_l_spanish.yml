@@ -1,0 +1,73 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ whale.1.t:0 "Comienza la Caza"
+ whale.1.desc:0 "La anticipación es insoportable. Desde que esta mañana llegaron los reportes de pescadores avistando un grupo de ballenas en el mar, el aire ha estado cargado de una tensión palpable. Una sola ballena de Groenlandia, descuartizada, puede alimentar a todo un pueblo, y la grasa te proporcionará una gran riqueza, así como honor para [ROOT.Char.GetFaith.HighGodName]."
+ whale.1.option.a:0 "¡Hombres! ¡Esta caza es para [ROOT.Char.GetFaith.HighGodName]!"
+ whale.1.option.b:0 "¡Hombres! ¡Esta noche festejamos con Muktuk!"
+
+ whale.2.t:0 "La Caza"
+ whale.2.desc:0 "El frío del agua salada salpica en tu cara mientras tu bote se acerca a la ballena emergente. Los otros botes se mantienen atrás, hay demasiado riesgo de volcar, pero el golpe debe asestarse. En tus manos descansa el eje pulido del arpón, y lo volteas hacia adelante y hacia atrás varias veces, asegurándote de que se mantendrá en la grasa de la ballena cuando penetre, y verificas que la cuerda esté sujeta al flotador. ¡Míra! ¡La ballena está emergiendo otra vez!"
+ whale.2.option.a:0 "¡Lanza el primer arpón!"
+ whale.2.option.b:0 "Aquí, [whale_ward.GetName], así es como se hace."
+ whale.2.option.c:0 "¡Hazlo tú!"
+
+ whale.3.t:0 "La Caza: Un Desastre"
+ whale.3.desc:0 "El arpón golpea el costado de la ballena. Por un momento, sonríes, ya que el borde afilado se hunde en la ballena, pero esa sonrisa se desvanece rápidamente. Algo salió mal: o la punta no se aferró, o la cabeza del arpón se rompió. De cualquier forma, la ballena se está sumergiendo, y tu flotador no cumplirá su función de cansar a la ballena."
+ whale.3.option.a:0 "No es la voluntad de [ROOT.Char.GetFaith.HighGodName] que cazemos esta criatura hoy"
+ whale.3.option.b:0 "¡Maldita sea la interferencia de [ROOT.Char.GetFaith.TricksterGodName]! Esta ballena será nuestra."
+ whale.3.option.b.tooltip:0 "¡Lo intentas de nuevo!"
+ whale.4.t:0 "La Caza: ¡Éxito!"
+ whale.4.desc:0 "Han pasado horas, y tu bote, junto con los otros, han estado acosando a la ballena de Groenlandia. Ahora está cansada, agotada por intentar sumergirse, desgastada por tus ataques constantes. Es un testamento a [ROOT.Char.GetFaith.HighGodName] que la hayas rastreado durante tanto tiempo, pero finalmente ha terminado. Tu arpones han hecho su trabajo, y los flotadores han hecho el suyo para impedir que la ballena escape. La bestia es tuya. Ahora, debe asestarse el golpe mortal.\n\nAlguien debe abandonar la relativa seguridad de su bote, trepar a la espalda de la ballena moribunda, y desde allí, atravesarla con una lanza por los pulmones. Solo entonces se asegurará la matanza. Es una tarea honorable, pero peligrosa. Si la ballena no está tan cansada como parece, puede sumergirse, e incluso los más valientes balleneros no sobrevivirán mucho tiempo en estas aguas."
+ whale.4.option.a:0 "¡Debería ser yo!"
+ whale.4.option.b:0 "Pensándolo mejor... tú hazlo"
+ 
+ whale.5.t:0 "La Caza: El Final"
+ whale.5.desc:0 "El cadáver de la ballena ha sido atado a la pequeña flota de barcos, y juntos la arrastran de vuelta al puerto. Allí, el pueblo se ha reunido, celebrando tu exitosa caza. Aún hay mucho trabajo por hacer para procesar la ballena. Casi cada parte será utilizada o consumida de una u otra forma: la carne alimentará a tu pueblo durante meses, la grasa calentará e iluminará tu hogar, sus huesos formarán las estructuras de tus casas, e incluso su barbas será tejida en canastas. Verdaderamente honramos a [ROOT.Char.GetFaith.HighGodName] no desperdiciando nada de lo ofrecido, y la riqueza de esta caza será disfrutada por nuestro pueblo durante mucho tiempo."
+ whale.5.option.a:0 "Estoy cansado, y es hora de disfrutar del Muktuk."
+
+ whale.6.t:0 "La Caza: Grabados de Marfil"
+ whale.6.desc:0 "Es un momento de pausa durante la caza, y un viejo ballenero recio ha sacado un trozo de marfil de una caza anterior. Su enfoque es total en él, mientras cuidadosamente lo talla y pule. Ante tus ojos sorprendidos, bajo sus dedos ásperos, una pequeña y perfecta [ROOT.Char.Custom2('GetScrimshaw', ROOT.Char)] cobra forma en el marfil liso. Te ve mirando y sonríe sin dientes, haciéndote señas para que te acerques.\n\n'¿No es hermosa, mi señor? Es una buena forma de pasar el tiempo, y dicen que [ROOT.Char.GetFaith.FateGodName] las aprecia.'"
+ whale.6.option.a:0 "¡Te lo compro!"
+ whale.6.option.b:0 "¿Buena suerte, eh?"
+ whale.6.option.c:0 "¿Te pagan por perder el tiempo? Guarda eso y ponte a trabajar"
+
+ whale.7.t:0 "La Caza: Educando a los Niños"
+ whale.7.desc:0 "Pequeño/a [whale_ward_knot.GetName] te está siguiendo, con los ojos abiertos por el movimiento y la actividad a bordo del bote. Aún es joven, pero es claro que sus ojos se están fijando en todo lo que puede ver. \"Quiero ayudar\", dice [whale_ward_knot.GetName]."
+ whale.7.option.a:0 "Ve a buscar el [ROOT.Char.Custom2('GetWhaleNonSense', ROOT.Char)]"
+ whale.7.option.b:0 "Ten cuidado y mantente fuera del camino. Eres joven, pero estás aquí para aprender"
+ whale.7.option.c:0 "Así es como se ata un Nudo de Vuelta"
+
+
+
+
+ north_atlantic.0180.t:0 "Los Balleneros Parten"
+ north_atlantic.0180.desc:0 "Nosotros [ROOT.Char.GetCulture.GetCollectiveNoun] hemos cazado ballenas desde tiempos inmemoriales. Estas criaturas, o más correctamente, sus cadáveres, son una fuente útil de grasa para aceite y carne.\n\nIncluso un gran [ROOT.Char.GetTitleAsNameNoTooltip] como yo soy consciente de la naturaleza potencialmente rentable, aunque arriesgada, del negocio ballenero. Por lo tanto, he decidido patrocinar a varios balleneros para que vayan a encontrar y cazar estas bestias majestuosas, y una buena parte de la ganancia de lo que logren recopilar irá para mí. Algunos balleneros prefieren salir al mar y cazar ballenas allí, mientras que otros se adhieren a atraer a las áreas costeras donde puedan ser atrapadas.\n\nPor supuesto, debo manejar mis expectativas cuidadosamente, ya que no cada viaje de caza regresa exitosamente. Sin embargo, estoy seguro de que los balleneros que he empleado harán más que un trabajo aceptable."
+ north_atlantic.0180.a:0 "¡Buena suerte!"
+ north_atlantic.0181.t:0 "Los Balleneros Regresan"
+ north_atlantic.0181.desc:0 "Los balleneros [ROOT.Char.GetCulture.GetName] que recientemente envié a cazar ballenas han regresado.\n\n"
+ north_atlantic.0181.desc.fail:0 "Desafortunadamente, parece que estos balleneros no tuvieron éxito y no pudieron matar ninguna ballena. Estoy extremadamente decepcionado con este resultado, pero tales resultados no son inauditos. Solo puedo esperar que la próxima vez, los balleneros que contrato sean más afortunados... o más competentes."
+ north_atlantic.0181.desc.success:0 "Afortunadamente, estos balleneros cazaron exitosamente algunas ballenas. Una vez que nos pongamos en contacto con comerciantes cercanos, podemos vender la carne así como la grasa para aceite, y enviarlas a puertos en otros lugares. De todas formas, mientras felicito a los balleneros por un trabajo bien hecho, evalúo cuánta ganancia obtendremos de sus capturas.\n\n"
+ north_atlantic.0181.desc.low:0 "Desgraciadamente, aunque los balleneros lograron matar un par de ballenas, no fue una cantidad particularmente impresionante. Fue suficiente para recuperar algunos de los costos de todo el viaje, pero no fue suficiente para obtener una ganancia considerable.\n\nAun así, ¡las cosas podrían haber sido peor! Al menos obtuvimos algo de ello."
+ north_atlantic.0181.desc.medium:0 "Los balleneros lograron matar un número decente de ballenas. No solo fue suficiente para recuperar los costos de todo el viaje, sino que también obtuvimos una ganancia bastante decente.\n\nNo puedo quejarme mucho del resultado, y estoy feliz de haber encontrado un equipo de balleneros competentes."
+ north_atlantic.0181.desc.high:0 "Los balleneros lograron matar un gran número de ballenas; de hecho, fue uno de los mejores viajes de caza entre todos los balleneros del área en mucho tiempo. No solo recuperamos los costos de todo el viaje, sino que obtuvimos una gran ganancia.\n\nEstoy muy impresionado con el equipo de balleneros, y espero potencialmente trabajar con ellos nuevamente en el futuro."
+ north_atlantic.0181.a.failure:0 "Quizás lo haremos mejor la próxima vez...."
+ north_atlantic.0181.a.low:0 "Nos arreglaremos con lo que capturamos."
+ north_atlantic.0181.a.medium:0 "Los balleneros hicieron un muy buen trabajo."
+ north_atlantic.0181.a.high:0 "¡Un resultado muy digno de elogio!"
+ north_atlantic.0182.t:0 "Exenciones Fiscales para Pueblos Balleneros"
+ north_atlantic.0182.desc.culture:0 "Nosotros [ROOT.Char.GetCulture.GetCollectiveNoun] tenemos una larga historia de caza de ballenas. La gente de todo el mundo nos respeta enormemente por nuestra capacidad de cazar ballenas y sacar ganancias de ello."
+ north_atlantic.0182.desc.not_culture:0 "Hay un número considerable de [culture.GetCollectiveNoun] viviendo en mi reino. Tienen una larga historia de caza de ballenas y son respetados enormemente alrededor del mundo por su capacidad de cazar ballenas y sacar ganancias de ello."
+ north_atlantic.0182.desc:0 "\n\nPor esta razón, hay varios pueblos costeros en mi reino que están fuertemente involucrados en la caza de ballenas. Son, sin duda alguna, una parte importante de la economía regional.\n\nA partir de hoy, eximiré a estos pueblos balleneros del pago de impuestos por un tiempo, y también se les otorgarán otros privilegios. Es mi esperanza que estas medidas apoyen el crecimiento económico de estos pueblos y aseguren que la industria ballenera prospere."
+ north_atlantic.0182.a:0 "Estoy seguro de que los pueblos balleneros apreciarán esto."
+ north_atlantic.0183.t:0 "Gravando Impuestos Adicionales en Pueblos Balleneros"
+ north_atlantic.0183.desc.culture:0 "$north_atlantic.0182.desc.culture$"
+ north_atlantic.0183.desc.not_culture:0 "$north_atlantic.0182.desc.not_culture$"
+ north_atlantic.0183.desc:0 "\n\nPor esta razón, hay varios pueblos costeros en mi reino que están fuertemente involucrados en la caza de ballenas. Son, sin duda alguna, una parte importante de la economía regional.\n\nA partir de hoy, estaré gravando impuestos adicionales en estos pueblos balleneros. Ya obtienen ganancias inmensas de la caza de ballenas, así que es justo que paguen más."
+ north_atlantic.0183.a:0 "La tesorería del reino se beneficiará enormemente de esto."
+

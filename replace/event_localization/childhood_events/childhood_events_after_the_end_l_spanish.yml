@@ -1,0 +1,31 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ childhood_after_the_end.2.t:0 "Dientes para el Ratoncito Pérez"
+ childhood_after_the_end.2.desc:0 "Un día, mientras realizabas tus tareas sin prestar mucha atención, tu pupilo, [ward.GetName], se te acerca corriendo emocionad[CHARACTER.Custom('ES_OA')], con una mancha de sangre que le resbala por la barbilla y una sonrisa de oreja a oreja.\n\n\«#italic "¡[educator.GetFirstName]!  ¡Mira, mira!#!\» grita [ward.GetSheHe] mostrando en [ward.GetHerHis] mano un pequeño diente, \«#italic ¡Se me ha caído un diente!#!\» ¡El entusiasmo de [ward.GetHerHis] es casi contagioso!"
+ childhood_after_the_end.2.a:0 "¡Ponlo debajo de tu almohada y tal vez encuentres un regalo!"
+ childhood_after_the_end.2.b:0 "Debemos arrojarlo al fuego como ofrenda a [educator.GetFaith.WitchGodName]"
+ childhood_after_the_end.3.t:0 "Dientes para el Ratoncito Pérez"
+ childhood_after_the_end.3.desc:0 "Con un último tirón, finalmente sacas el diente flojo de tu boca. Emocionad[CHARACTER.Custom('ES_OA')], corres hacia [educator.GetFirstNameNicknamed], tu tutor, y le muestras a [educator.GetHerHim] el diente recién salido, con una sonrisa de oreja a oreja. Aunque al principio [educator.GetSheHe] parece un poco sorprendid[CHARACTER.Custom('ES_OA')] por tu repentina aparición, [educator.GetSheHe] te dice que si colocas el diente debajo de tu almohada mientras duermes, ¡el ratoncito Pérez vendrá y lo cambiará por oro!"
+ childhood_after_the_end.3.a:0 "¡Esconderé el diente debajo de la almohada y me dormiré rápidamente!"
+ childhood_after_the_end.3.b:0 "Fingiré quedarme dormid[CHARACTER.Custom('ES_OA')] para pillar al ratón en el acto..."
+ childhood_after_the_end.3.c:0 "Si tiño la moneda, puedo manchar los dedos del #italic verdadero#! culpable..."
+ childhood_after_the_end.3.t:0 "La llegada del Ratoncito Pérez"
+ childhood_after_the_end.3.desc_start:0 "Al entrar sigilosamente en la habitación de [ward.GetFirstNamePossessive], cada pequeño ruido, cada paso, cada crujido del piso amenaza con despertar al niñ[ward.Custom('ES_OA')].\n\n"
+ childhood_after_the_end.3.desc_stained_hands:0 "Mueves la mano furtivamente bajo la almohada del niñ[ward.Custom('ES_OA')] y el plan se desarrolla sin contratiempos. Sin embargo, ahora, a la luz del pasillo, te das cuenta de que tu mano se ha manchado de tinte, presumiblemente de algo que había debajo de la almohada...\n\nSea lo que sea, mañana se podrá solucionar."
+ childhood_after_the_end.3.desc_child_stirs:0 "Al meter la mano furtivamente debajo de la almohada del niñ[ward.Custom('ES_OA')], se produce un momento de pánico cuando [ward.GetSheHe] parece moverse... pero solo por un instante. El plan sigue adelante y se ejecuta con maestría..."
+ childhood_after_the_end.3.desc_default:0 "Mueves sigilosamente la mano bajo la almohada del niñ[ward.Custom('ES_OA')] y, en un movimiento que sin duda envidiaría el propio [educator.GetFaith.PantheonTerm], cambias rápidamente el diente desechado por una moneda nueva y brillante..."
+ childhood_after_the_end.3.a:0 "¡Todo según lo planeado!"
+ childhood_after_the_end.4.t:0 "El Regalo del Ratoncito Pérez"
+ childhood_after_the_end.4.desc_start:0 "Al despertarte a la mañana siguiente, apartas emocionad[CHARACTER.Custom('ES_OA')] la almohada y... ¡descubres una moneda nueva y brillante!\n\n"
+ childhood_after_the_end.4.desc_stained_hands:0 "Mientras caminas por los pasillos a última hora de la mañana, ves a [educator.GetName]  con una mancha de color evidente en la mano. ¿Estaba [educator.GetName] allí la noche en que llegó el ratón Pérez?\n\nCuando [educator.GetSheHe] se da cuenta de que te acercas, se mueve para ocultar la incriminatoria pigmentación de tu vista, ¡pero no lo suficientemente rápido!"
+ childhood_after_the_end.4.desc_known_culprit:0 "Al caminar por los pasillos más tarde por la mañana, notas a [educator.GetName]. Al recordar los acontecimientos de la noche anterior, estás seguro de que [educator.GetSheHe] fue quié cambió tu diente por la moneda.\n\n[educator.GetSheHe] te sonríe cálidamente cuando te acercas, mostrando la moneda..."
+ childhood_after_the_end.4.desc_default:0 "Más tarde, mientras caminas por los pasillos, ves a [educator.GetName] y te acercas a [educator.GetHerHim] con entusiasmo, ¡deseoso de mostrarle tu nuevo trofeo!"
+ childhood_after_the_end.4.a:0 "\"#italic ¡¡Yupi [educator.GetFirstName], mira lo que trajo el ratoncito Pérez!!#!\""
+ childhood_after_the_end.4.b:0 ""
+ childhood_after_the_end.4.c:0 "\"#italic [educator.GetFirstName]! ¡Nunca me dijiste que conocías al ratoncito Pérez!#!\""
+ childhood_after_the_end.4.d:0 ""

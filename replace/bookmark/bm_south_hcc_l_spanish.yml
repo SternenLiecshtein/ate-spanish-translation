@@ -1,0 +1,30 @@
+﻿l_spanish:
+ # l_spanish:
+ # l_german:
+ # l_french:
+ # l_russian:
+ # l_simp_chinese:
+ # l_korean:
+ bm_south_hcc:0 "Caballeros Meridionales"
+ bm_south_hcc_desc:0 "Cuando Leonidas Royall y su hermandad de compañeros valientes forjaron la Commonwealth Columbian Sagrada de los fragmentos de los reinos del viejo sur, es dudoso que hubiera podido anticipar lo que es hoy. Desde los hollows sombreados y las calas de las montañas Blue Ridge hasta el país de los gators en el sur, desde los ríos sinuosos del oeste hasta los centros urbanos bulliciosos de la costa, la HCC es un baluarte de estabilidad, riqueza, y prestigio. Los caballeros al servicio de señores nobles participan en justas coloridas en ferias rurales, y realizan actos valientes al servicio de Dios. El oro fluye desde comerciantes procedentes de las grandes ciudades del norte y sur, este y oeste, hacia la capital imperial reluciente de Atlanta, beneficiando a todos. ¡Verdaderamente, la Commonwealth Columbian Sagrada es la heredera de América Antigua!\n\n Pero hay miedo de que no todo esté bien. Cada vez más estos susurros dicen que esto es solo una fachada reluciente, un tapiz extendido sobre un sistema en ruinas. En el oeste, las marchas de Mississippi se han separado, unidas en oposición a la HCC, en los Apalaches, el señor de Asheville abiertamente desafía al Imperio, y en Florida, jefes tribales, señores feudales, y patricios por igual conspiran para obtener incluso una fracción de la riqueza inmensa que fluye hacia la HCC. Dentro del imperio, algunos temen que la corrupción y la estagnación han erosionado el lecho de roca de la sociedad civilizada, mientras que el Consejo Evangélico se ha vuelto más una entidad política que una dedicada a guiar al rebaño, y los electores imperiales pasan más tiempo en la capital maquinando y peleando por acceso al trono imperial que cuidando sus propias tierras en casa.\n\n Toma mucho para tumbar a un leviatán así, y un emperador fuerte aún puede enderezar el barco, pero ¿es Julius Gee ese emperador?"
+
+ ### CHARACTERS
+
+ bookmark_south_hcc_golden:0 "Golden Biltmore"
+ bookmark_south_hcc_golden_desc:0 "south_hcc_todo"
+
+ bookmark_south_hcc_usnavi:0 "usnavi"
+ bookmark_south_hcc_usnavi_desc:0 "south_hcc_todo"
+
+ bookmark_south_hcc_julius_gee:0 "Julius Gee"
+ bookmark_south_hcc_julius_gee_desc:0 "south_hcc_todo"
+
+ bookmark_south_hcc_louis_creaux:0 "Louis Creaux"
+ bookmark_south_hcc_louis_creaux_desc:0 "south_hcc_todo"
+
+ bookmark_south_hcc_anastasia:0 "Anastasia Josias"
+ bookmark_south_hcc_anastasia_desc:0 "south_hcc_todo"
+
+ bookmark_south_hcc_royall:0 "Orpheus Royall"
+ bookmark_south_hcc_royall_desc:0 "south_hcc_todo"
+

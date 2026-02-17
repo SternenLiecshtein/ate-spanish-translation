@@ -1,12 +1,12 @@
 ﻿l_spanish:
 
- RICEmisc.0010.t:0 "Conversion"
- RICEmisc.0010.desc.host:0 "Because I have converted to [host.GetFaith.GetName], the [activity_type.GetNameNoTooltip()] I originally planned is of little use to me anymore, as the event itself or the manner it would have been done in does not adhere to the new teachings I follow. I have therefore canceled this event."
- RICEmisc.0010.desc.not_host:0 "Because [host.GetTitledFirstName] have converted to [host.GetFaith.GetName], the [activity_type.GetNameNoTooltip()] [host.GetSheHe] originally planned has been canceled, as the event itself or the manner it would have been done in does not adhere to the new teachings [host.GetSheHe] follows.\n\nThis is awkward to say the least."
- RICEmisc.0010.a:0 "And so it is."
+ RICEmisc.0010.t:0 "Conversión"
+ RICEmisc.0010.desc.host:0 "Debido a que me he convertido a  [host.GetFaith.GetName], el [activity_type.GetNameNoTooltip()] que había planeado originalmente ya no me sirve de mucho, ya que el evento en sí mismo o la forma en que se habría llevado a cabo no se ajusta a las nuevas enseñanzas que sigo. Por lo tanto, he cancelado este evento."
+ RICEmisc.0010.desc.not_host:0 "Debido a que [host.GetTitledFirstName] se ha convertido en [host.GetFaith.GetName], el [activity_type.GetNameNoTooltip()] [host.GetSheHe] previsto inicialmente ha sido cancelado, ya que el evento en sí mismo o la forma en que se habría llevado a cabo no se ajusta a las nuevas enseñanzas que sigue [host.GetSheHe].\n\nEsto es, como mínimo, incómodo."
+ RICEmisc.0010.a:0 "Y así es."
  
- mordvin.0020.t:0 "Bee Products"
- mordvin.0020.desc:0 "For centuries, apiculture has been an important part of the economy and culture of the Americas. There are a number of settlements in my realm that maintain these traditions in beekeeping, and are thus renowned for the quality of their bee products.\n\n"
+ mordvin.0020.t:0 "Productos apícolas"
+ mordvin.0020.desc:0 "Durante siglos, la apicultura ha sido una parte importante de la economía y la cultura de América. Hay varios asentamientos en mi reino que mantienen estas tradiciones en la apicultura y, por lo tanto, son famosos por la calidad de sus productos apícolas.\n\n"
  mordvin.0020.desc.honey:0 "I have thus ordered the beekeepers of my realm to prepare a large batch of honey to send over to [recipient.GetTitledFirstName]. Besides its importance as a sweetener in food, honey is said to have many medicinal properties."
  mordvin.0020.desc.beeswax:0 "I have thus ordered the beekeepers of my realm to prepare a large batch of beeswax to send over to [recipient.GetTitledFirstName]. Beeswax is even more lucrative than honey, and has a variety of practical uses, such as making candles or cosmetics."
  mordvin.0020.desc.honey_and_beeswax:0 "I have thus ordered the beekeepers of my realm to prepare a large batch of honey and beeswax to send over to [recipient.GetTitledFirstName]. Both these products have a variety of applications, which I am sure [recipient.GetFirstNameNoTooltip] can make great use of!"
@@ -23,11 +23,11 @@
  mordvin.0022.desc.beeswax:0 "I’ve decided to purchase a large quantity of beeswax from the beekeepers of my realm. Beeswax is even more lucrative than honey, and has a variety of practical uses, such as making candles or cosmetics."
  mordvin.0022.desc.honey_and_beeswax:0 "I’ve decided to purchase a large quantity of honey and beeswax from the beekeepers of my realm. Both these products have a variety of applications, which I am sure I can make great use of!"
  mordvin.0022.a:0 "Very good."
- mordvin.0023.t:0 "Extra Tribute from the Beekeepers"
+ mordvin.0023.t:0 "Homenaje adicional de los apicultores"
  mordvin.0023.desc:0 "For generations, beekeeping has been an important part of life for the peoples originating from the lands I rule. I am quite fortunate that there are some settlements in my realm that continue these traditions. The bee products they produce like honey and beeswax sell for high prices on foreign markets, thus bringing us much wealth and tax money.\n\nHowever, sometimes, the tax these beekeepers pay is not enough. Sometimes, we need more.\n\nI have thus ordered the beekeepers of my realm to provide us more tribute this year than I normally request of them. They already profit a lot from the trade, and have various privileges associated with it – extracting a little more tribute from them surely won’t hurt."
- mordvin.0023.a:0 "This is a really #italic sweet#! deal... for me!"
- #hot spring activities
- RICEmisc.0011.t:0 "The Journey Begins"
+ mordvin.0023.a:0 "¡Es una oferta realmente #italic dulce#! para mí!"
+ #Actividades en aguas termales
+ RICEmisc.0011.t:0 "El viaje comienza"
  RICEmisc.0011.desc:0 "It is time to start the journey to [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] for the [ROOT.Char.GetInvolvedActivity.GetShortName]. I am sure the headache and hassle of organizing this trip will be worth it in the end when we reach our destination... or at least I'll have to hope that is the case, because otherwise all this stress over preparing for the trip would have been for nothing."
  RICEmisc.0011.a:0 "We go through these hassles for a good reason."
  RICEmisc.0012.t:0 "The Natural Springs of [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]"

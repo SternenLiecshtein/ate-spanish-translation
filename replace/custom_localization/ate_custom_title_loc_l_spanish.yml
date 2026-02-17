@@ -1,0 +1,40 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ e_new_california_gnarlist:0 "La Costa del Oro"
+ e_new_california_gnarlist_adj:0 "Áurea"
+ e_new_california_gnarlist_article:0 "la"
+
+ nomad_ruler_chief:0 "Jefe"
+ nomad_ruler_marshal:0 "Mariscal"
+ nomad_ruler_caudillo:0 "Caudillo"
+ nomad_ruler_coronel:0 "Coronel"
+
+ nomad_ruler_chief_plural:0 "Jefes"
+ nomad_ruler_marshal_plural:0 "Mariscales"
+ nomad_ruler_caudillo_plural:0 "Caudillos"
+ nomad_ruler_coronel_plural:0 "Coroneles"
+
+ nomad_ruler_chief_high:0 "Gran Jefe"
+ nomad_ruler_marshal_high:0 "Gran Mariscal"
+ nomad_ruler_caudillo_high:0 "Gran Caudillo"
+ nomad_ruler_coronel_high:0 "Mandão"
+
+ nomad_ruler_chief_high_plural:0 "Grandes Jefes"
+ nomad_ruler_marshal_high_plural:0 "Grandes Mariscales"
+ nomad_ruler_caudillo_high_plural:0 "Grandes Caudillos"
+ nomad_ruler_coronel_high_plural:0 "Mandãos"
+
+ char_situation_nomadic_north_america:0 "[nomadic_north_america|E]"
+ char_situation_nomadic_north_america_expanded:0 "[nomadic_north_america|E]"
+ char_situation_nomadic_llanos:0 "[nomadic_llanos|E]"
+ char_situation_nomadic_south_america:0 "[nomadic_south_america|E]"
+
+ char_situation_nomadic_north_america_no_tt:0 "Las Grandes Llanuras"
+ char_situation_nomadic_north_america_expanded_no_tt:0 "Las Grandes Llanuras"
+ char_situation_nomadic_llanos_no_tt:0 "Los Llanos"
+ char_situation_nomadic_south_america_no_tt:0 "Las Estepas Australes"

@@ -1,0 +1,67 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+activity_romaria:0 "Romaría"
+activity_romaria_desc:0 "Una #italic romaría#! es una peregrinación religiosa profundamente arraigada en nuestra fe. Al emprender un largo viaje a caballo hacia la ciudad sagrada de Aparecida, hogar del santuario de María, la madre de Jesús, podemos profundizar nuestras propias creencias, buscar guía espiritual o pedir intervención divina en nuestras vidas. El viaje en sí es visto como una manifestación física del camino espiritual de cada persona, una forma de mostrar devoción a lo divino y de hallar consuelo en medio de los enormes desafíos de la vida."
+activity_romaria_selection_tooltip:0 "Una #italic romaría#! es una peregrinación especial disponible para gobernantes piadosos, que pueden realizarla #bold una vez cada veinte años#! a cambio de piedad y otros beneficios."
+activity_romaria_host_desc:0 " $BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$[stress_loss_i][stress|E] Pérdida de\n$BULLET_WITH_TAB$Y otros beneficios (¡y penalizaciones!) dependiendo de encuentros fortuitos a lo largo del camino."
+activity_romaria_destination_selection:0 "Las romarías tienen lugar #bold exclusivamente#! en la ciudad santa de Aparecida."
+activity_romaria_province_desc:0 "¡Prepara los caballos y comienza el viaje hacia la gran Basílica!"
+activity_romaria_conclusion_desc:0 "Nuestra Romaría ha sido completada con éxito. Es hora de regresar a [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]...\n\n$BULLET_WITH_TAB$[ROOT.Char.GetFullName] ha ganado [piety_i|E][piety|E] y ha perdido algo de [stress_loss_i][stress|E].\n$BULLET_WITH_TAB$La dinastía [ROOT.Char.GetDynasty.GetBaseName] ha ganado [dynasty_prestige_i|E][dynasty_prestige|E]."
+activity_romaria_guest_help_text:0 "Los [guests|E] invitados montarán a caballo y se unirán a tu Romaría hacia Aparecida. Pueden ganar o perder [opinion|E] sobre ti y participar en eventos a lo largo del viaje."
+TRAVEL_NAME_FOR_activity_romaria:0 "Romaría de [Character.GetFirstNamePossessiveNoTooltip]"
+activity_romaria_host_an_a:0 "una"
+
+romaria_type:0 "Tipo de Romaria"
+romaria_phase:0 "Romaría en Aparecida"
+
+ romaria.005.t:0 "El viaje comienza"
+ romaria.005.desc:0 "Me encuentro frente a la propiedad de mi familia, montado en mi caballo y rodeado por mi séquito. Mis parientes más cercanos se han reunido para despedirme, con los ojos llenos de tristeza y preocupación. Saben que el viaje a Aparecida es largo y peligroso, y temen por mi seguridad.\n\nYo, sin embargo, les aseguro que no tienen nada de qué preocuparse. Después de todo, no puedo evitar sentir una emoción creciente: he oído historias de los milagros ocurridos en el santuario de Mãe-Maria, y espero que yo también sea bendecido con una señal desde lo alto.\n\nMientras observo el vasto paisaje, comprendo que estoy emprendiendo un viaje que me cambiará para siempre, una travesía que pondrá a prueba mi fe y mi determinación. Y con ello, espoleo a mi caballo y parto con mi séquito a mi lado." 
+ romaria.005.a:0 Cabalgamos hacia la ciudad santa"
+
+ romaria.006.t:0 "Acercándose a Aparecida"
+ romaria.006.desc:0 "Aunque nuestra comitiva aún se encuentra a unas horas de destino, juraría que ya puedo escuchar las campanas del antiguo templo a lo lejos. Mientras seguimos cabalgando, me descubro tarareando la melodía conocida de un himno: «Romaria», la canción que da nombre a esta peregrinación y que ha sido transmitida en mi familia por generaciones.\n\n #S 'Sou caipira, pirapora, Nossa Senhora de Aparecida...'#! \n\nNo puedo evitar pensar en el significado más profundo de la canción, en el poder de la fe y en la importancia de buscar la redención. Sus versos me hablan de forma profunda, recordándome las luchas que he enfrentado en mi vida —como gobernante, como [ROOT.Char.GetFaith.GetAdjective]— y la esperanza que he hallado en mi fe.\n\n #S 'Se há sorte, eu não sei, nunca vi...'#! \n\nA medida que avanzamos en las últimas horas del viaje, la canción sigue resonando en mi mente, llenándome de una profunda paz. Siento cómo las lágrimas afloran en mis ojos. Sé ahora que este es un viaje que jamás olvidaré, algo que permanecerá conmigo por el resto de mi vida."
+ romaria.006.a:0 "Solo unas horas más..."
+
+ romaria.007.t:0 "La ciudad Santa"
+ romaria.007.desc:0 "Nuestro grupo ha cruzado las puertas de Aparecida, mientras los cascos de nuestros caballos levantan nubes de polvo. Hemos viajado durante semanas, atravesando terrenos escabrosos con apenas algún arroyo ocasional para calmar la sed. Pero ahora, aquí estamos: la ciudad santa, sagrada para apostólicos, conterrâneos e incontables otras fes.\n\n #S 'É de sonho e de pó o destino de um só, feito eu perdido em pensamentos sobre o meu cavalo...' #! \n\nAl adentrarnos en la ciudad, somos recibidos por la visión de miles de peregrinos de todo [old_brazil|E], reunidos para rendir homenaje a Nuestra Señora de Aparecida. Descendemos de nuestros caballos y nos unimos a la multitud, abriéndonos paso entre la gente hacia el santuario, mientras entonamos el himno centenario.\n\n #S 'O meu pai foi peão, minha mãe solidão. Meus irmãos perderam-se na vida...' #!\n\nDentro del antiguo templo, el aire está cargado con el aroma del incienso y el murmullo de oraciones en una docena de lenguas. Mis compañeros y yo nos arrodillamos ante la estatua de la Virgen María, con las manos ásperas unidas en súplica. Para nosotros, no es solo un ícono de Mãe-Maria, la madre de Jesús, sino un símbolo de fortaleza y resiliencia frente a la adversidad.\n\n #S 'Me disseram, porém, que eu viesse aqui, pra pedir em romaria e prece paz nos desaventos...'#!\n\nSabemos que el viaje de regreso a [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] será largo y arduo, pero nos sentimos renovados por nuestra peregrinación a Aparecida. Al montar de nuevo nuestros caballos y emprender el camino de vuelta, estamos llenos de propósito y de un compromiso renovado con nuestro modo de vida. Para nosotros, la fe en la Virgen Madre es un faro de esperanza en un mundo que a menudo resulta duro e implacable.\n\n #S 'Sou caipira, pirapora, Nossa Senhora de Aparecida. Ilumina a mina escura e funda o trem da minha vida...'#!"
+ romaria.007.a:0 "Una experiencia gloriosa..."
+
+ romaria.008.t:0 "Regresando a [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+ romaria.008.desc:0 "Comenzamos el viaje de regreso a nuestro dominio, cansados y exhaustos, pero llenos de una sensación de paz y satisfacción. Al montar mi caballo, respiro hondo y cierro los ojos, reflexionando sobre el viaje espiritual que acabo de realizar. Al recorrer el mismo camino que mis antepasados transitaron en el pasado, he descubierto un renovado sentido de fe y propósito, y también he comprendido que estoy listo para enfrentar los desafíos que se presenten."
+ romaria.008.a:0 "Este viaje me ha enseñado el verdadero significado de la fe"
+ romaria.008.b:0 "He enfrentado muchos peligros en este viaje y los he superado todos"
+ romaria.008.c:0 "He aprendido que la moderación es el verdadero camino hacia la salvación"
+ romaria.008.d:0 "El verdadero camino hacia la salvación implica renunciar a la tentación"
+ romaria.008.e:0 "Esta peregrinación ya me ha enseñado lo suficiente"
+
+ romaria.009.t:0 "¡Ataque de bandidos!"
+ romaria.009.desc:0 "Cuando el sol comienza a ponerse, mi séquito y yo notamos un grupo de figuras sombrías a lo lejos. Antes de que podamos reaccionar, decenas de bandidos se abalanzan sobre nosotros, con espadas y lanzas reluciendo a la luz del ocaso. El caos estalla mientras todos se apresuran a defenderse, el choque del acero y los gritos llenando el aire. En medio del desorden, debo tomar una decisión en una fracción de segundo: luchar con todas nuestras fuerzas o huir para salvar la vida."
+ romaria.009.a:0 "¡Enfrentamos a los atacantes de frente!"
+ romaria.009.a.success:0 ¡Los vencimos!"
+ romaria.009.b.failure:0 "¡Nos derrotaron y se llevaron nuestro oro!"
+ romaria.009.b:0 "¡Huiremos y les dejaremos todo lo que quieran!"
+
+ romaria.010.t:0 "Un místico extraño"
+ romaria.010.desc:0 "Apenas dos semanas después de iniciado el viaje, mientras descendíamos una colina, nuestro séquito fue abordado por una figura extraña: una persona de lengua de plata, que disertaba sobre la naturaleza del universo y el papel de la humanidad en él. Aunque sus palabras son elocuentes e inspiradoras, también traen consigo una sensación de peligro e inquietud. A medida que la conversación avanza, no puedo evitar sentir que estoy siendo atraído a algún tipo de trampa mística. ¿Es esta persona un hechicero o una bruja, usando sus poderes para atraer a viajeros desprevenidos a su perdición? ¿O existe un significado más profundo en sus palabras que aún no he logrado descubrir?"
+ romaria.010.a:0 "Estas ideas son peligrosas... pero tan fascinantes..."
+ romaria.010.b:0 "¡Aceptar estas ideas e invitar a esta persona santa a nuestra corte!"
+ romaria.010.c:0 "¡Esta prédica poco ortodoxa solo ha fortalecido mi fe verdadera!"
+ romaria.010.d:0 "Ignorar a esta pobre alma y continuar el viaje"
+ romaria.010.e:0 "¡Poner fin a la miseria de esta bruja!"
+
+ romaria.011.t:0 "Un sacerdote celoso"
+ romaria.011.desc:0 "Mientras nuestro séquito continuaba el viaje, fuimos abordados por un sacerdote bien versado en las enseñanzas del [ROOT.Char.GetFaith.ReligiousText|U], el libro sagrado de la fe [ROOT.Char.GetFaith.GetAdjective]. Sin embargo, a medida que conversábamos, quedó claro que sus interpretaciones de las historias sagradas eran más extremas de lo que estábamos acostumbrados. Algunas de sus enseñanzas parecían internarse en terrenos peligrosos, y no pude evitar sentir inquietud. ¿Era este sacerdote un verdadero intérprete de la fe, o solo una tergiversación de las enseñanzas del [ROOT.Char.GetFaith.ReligiousText] con fines más oscuros? Mientras seguimos adelante, nuestro grupo no puede dejar de reflexionar sobre el significado de las palabras del religioso y el impacto que podrían tener en nuestro propio camino espiritual..."
+ romaria.011.a:0 "¡Debo esforzarme por ser tan celoso como este sacerdote!"
+ romaria.011.b:0 "¡Aceptar estas ideas e invitar a esta persona a nuestra corte!"
+ romaria.011.c:0 "Aunque no concuerdo del todo con estas ideas, esta persona debería unirse a nosotros..."
+ romaria.011.d:0 "Esta interpretación literal de los textos sagrados es demasiado radical para mi gusto..."
+
+ romaria.012.t:0 "Los devotos marianos"
+ romaria.012.desc:0 "Mientras continúo mi viaje hacia la ciudad santa de Aparecida, nuestra caravana se va uniendo poco a poco a otros grupos: cristianos, conterrâneos, ¡incluso algunos modernistas! En cada parada, los distintos séquitos tienen la oportunidad de conversar y debatir sobre las diferencias entre sus fes, pero también sobre sus puntos en común, especialmente el profundo respeto que todos sentimos por Mãe-Maria, la Virgen María. Mi grupo y yo descubrimos que cada fe tiene su propia forma de mostrar devoción a la Virgen: algunos encienden velas y rezan, otros meditan con profundo respeto, mientras que otros realizan peregrinaciones a distintos santuarios dedicados a ella, como la antigua basílica de Aparecida. Parece que la Madre de Cristo tiene un atractivo universal, y que su mensaje de amor y compasión trasciende cualquier religión en particular..."
+ romaria.012.a:0 "¡Puede que sean herejes, pero todos son buenas personas!"
+ romaria.012.b:0 "¡Tonterías! ¡No merecen más que nuestro desprecio!"

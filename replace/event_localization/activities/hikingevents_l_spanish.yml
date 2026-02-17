@@ -1,0 +1,227 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+
+ hiking.100.t:0 "Caminata: Oh, los lugares adonde irás"
+ hiking.100.desc:0 "Habiendo decidido cumplir con el proceso más importante en el descubrimiento espiritual, he hecho mi maleta y estoy casi list[ROOT.Char.Custom('ES_OA')] para partir, ahora debo decidir. ¿A dónde iré?" 
+ hiking.100.a:0 "Iré a uno de los picos de [ROOT.Char.GetFaith.HighGodHerHis], los espíritus de la montaña me llaman."
+ hiking.100.b:0 "Iré a las venas de [ROOT.Char.GetFaith.HighGodNamePossessive], ya que el agua es el origen de la vida e iluminación..."
+ hiking.100.c:0 "Me aventuraré en los grandes bosques, donde los espíritus desconocidos habitan..."
+ hiking.100.d:0 "En realidad estoy bastante cómodo/a ahora... sería una lástima irme..."
+ 
+ hiking.101.t:0 "Caminata: Sobre las montañas frías y brumosas"
+ hiking.101.desc:0 "Ahora que he decidido qué debo caminar, debo decidir a qué lugar iré a caminar"
+ hiking.101.a:0 "Esa colina de allá se ve bien." 
+ hiking.101.b:0 "Encontraré iluminación en los senderos tortuosos."
+ hiking.101.c:0 "Cruzaré la montaña más alta de mi reino."
+ hiking.101.d:0 "¡La montaña más alta de toda la tierra será mi objetivo!"
+ 
+ hiking.102.t:0 "Caminata: Las venas de [ROOT.Char.GetFaith.WaterGodName]"
+ hiking.102.desc:0 "Decidir que un cuerpo de agua sería lo más apropiado, ir hacia lugares que son el dominio de [ROOT.Char.GetFaith.WaterGodName] sería la mejor ruta para una caminata espiritualmente exitosa. Ahora necesito elegir uno de los muchos ríos para ser el punto final real de mi viaje... Que [Root.Religion.GetRandomGodName] me guíe..."
+ hiking.102.a:0 "Visitaré una fuente termal aislada."
+ hiking.102.b:0 "Encontraré iluminación en la base de una cascada"
+ hiking.102.c:0 "Los ríos embravecidos me darán iluminación"
+ hiking.102.d:0 "Un lago tranquilo será mi objetivo."
+ 
+ hiking.103.t:0 "Caminata: Hacia el bosque"
+ hiking.103.desc:0 "Decidir que un bosque sería lo más apropiado, ir hacia lugares muy sagrados en las antiguas tierras de mi fe sería la mejor ruta para una caminata espiritualmente exitosa. Ahora necesito elegir uno de los muchos bosques para ser el punto final real de mi viaje... Que [Root.Religion.GetRandomGodName] me guíe..."
+ hiking.103.a:0 "Un paseo por un bosque cercano sería lo mejor."
+ hiking.103.b:0 "Un bosque antiguo y aislado, donde la barrera entre mundos es más débil."
+ hiking.103.c:0 "Encontraré iluminación en las ruinas de un viejo incendio."
+ hiking.103.d:0 "¡Conozco un prado aislado maravilloso no muy lejos de aquí!"
+ 
+ hiking.110.t:0 "Caminata: Caída"
+ hiking.110.desc:0 "Mientras camino por el sendero, tomo en los sonidos y vistas alrededor. El sol brilla y los pájaros cantan en los árboles. De repente, golpeo algo sólido con mi pie ¡y me caigo!"
+ hiking.110.a:0 "¡RAÍZ MALDITA!"
+ 
+ hiking.111.t:0 "Caminata: Un atajo a los hongos"
+ hiking.111.desc:0 "Mientras buscamos comida, uno de los miembros de mi séquito encontró unos hongos muy bonitos y sin pensar, los puso en la cena. Ahora, como líder del grupo, debo decidir si comerlos o no."
+ hiking.111.a:0 "¡Apuesto a que están deliciosos!"
+ hiking.111.b:0 "Creo que deberíamos no comerlos esta noche..."
+ 
+ hiking.112.t:0 "Caminata: Un atajo a los hongos"
+ hiking.112.desc:0 "Tan pronto como termino mi sopa, el dolor comienza a apoderase de mí. Esos fueron definitivamente hongos venenosos."
+ hiking.112.a:0 "Todos los hongos pueden comerse una vez..."
+ 
+ hiking.113.t:0 "Caminata: Un atajo a los hongos"
+ hiking.113.desc:0 "¡Cualesquiera que sean los hongos que pusieron en esa sopa, realmente acertaron! Ya mi séquito está buscando más de esos hongos deliciosos para hacer una segunda porción."
+ hiking.113.a:0 "¡Tendremos que hacer esto de nuevo la próxima vez que vamos de caminata!"
+ hiking.113.b:0 "¡Dame una tercera porción!"
+ 
+ hiking.114.t:0 "Caminata: ¿Un rápido baño?"
+ hiking.114.desc:0 "Mientras se acerca el mediodía, ha hecho bastante calor... Una de las personas en mi séquito me pregunta si todos pudieran entrar en un río cercano. Pero esa parte es poderosa y peligrosa... así que hay algunos riesgos... posiblemente incluso la muerte..."
+ hiking.114.a:0 "Un baño rápido no duele..."
+ hiking.114.b:0 "Es demasiado peligroso..."
+ 
+ #the following are written by Garfieldhub
+ hiking.115.t:0 "Caminata: Criatura del bosque" 
+ hiking.115.desc:0 "Mientras avanzo por el sendero, escucho el movimiento de hojas fuera del camino. Decidiendo investigar, me agacho y me deslizo por la cobertura del bosque, separando densas hojas, veo un hermoso/a [ROOT.Char.Custom('LocalAnimal')] moviéndose con gracia a través de una glorieta entre los árboles altos."
+ hiking.115.a:0 "Un ejemplo perfecto del genio de [ROOT.Char.GetFaith.HighGodNamePossessive]."
+ 
+ hiking.116.t:0 "Caminata: Fantasmas del mundo antiguo"
+ hiking.116.desc:0 "Mientras mi séquito es golpeado por la lluvia fuerte, busco desesperadamente un lugar para refugiarme hasta que el clima se aclare. Es entonces cuando me topo con varias ruinas, ocultas por el crecimiento excesivo. Los escombros son claramente de origen antediluviano, pero las paredes restantes proporcionan refugio adecuado a la tormenta. Uno de mis compañeros grita sobre la tempestad. \n\n"\u00bfMi [ROOT.Char.GetLadyLord] deberíamos buscar refugio aquí?!\"\n\n"
+ hiking.116.a:0 "¡Debe haber muchas reliquias antiguas escondidas en este lugar!"
+ hiking.116.b:0 "¡Rápido! ¡Fuera de la lluvia!"
+ hiking.116.c:0 "Este lugar... es muy inquietante."
+ 
+ hiking.117.t:0 "Caminata: Hijos de la noche"
+ hiking.117.desc:0 "Mientras camino por uno de los senderos más desolados en mi camino, el terreno accidentado mantiene mis ojos enfocados en el suelo. Respirando, de repente obtengo la extraña sensación de estar observado. Levanto la vista, para ver una criatura negra y desgreñada desaparecer del camino cuesta arriba hacia la maleza circundante. Estoy congelado de shock y asombro. He oído hablar de tales criaturas del bosque, pero la leyenda dice que los avistamientos son raros."
+ hiking.117.a:0 "¡Una oportunidad tan rara! ¡Debo perseguirla!"
+ hiking.117.b:0 "Los espíritus como ese deberían dejarse solos."
+ hiking.117.a.success:0 "Alcanzo a la criatura"
+ hiking.117.a.failure:0 "La criatura se me escapa"
+ 
+ hiking.118.t:0 "Caminata: Hijos de la noche"
+ hiking.118.desc:0 "Persiguiendo a la criatura a través del bosque, me esfuerzo por mantener el ritmo con su velocidad bestial. Parece conocer bien el bosque y esquiva entre árboles mientras lucho por evitar caer. Apenas puedo distinguir su silueta adelante mientras continuo la persecución. Sin embargo, cuando emerjo en un claro del bosque, veo que el espíritu se ha detenido en la línea de árboles opuesta a mí. Se da la vuelta, grandes ojos negros encontrando los míos. Emite un gruñido bajo, luego se lanza de vuelta al bosque, desapareciendo."
+ hiking.118.a:0 "Esta criatura me ha bendecido."
+ 
+ hiking.119.t:0 "Caminata: Hijos de la noche"
+ hiking.119.desc:0 "Persiguiendo a la criatura a través del bosque, me esfuerzo por mantener el ritmo con su velocidad bestial. Parece conocer bien el bosque y esquiva entre árboles mientras lucho por evitar caer. Apenas puedo distinguir su silueta adelante mientras continuo la persecución. Una pequeña disminución en mi velocidad permite que el espíritu desaparezca entre los árboles, pero continúo en la misma dirección. Es entonces cuando llego a un acantilado, pasando por alto una caída hacia un bosque denso. No hay forma de que la criatura pudiera haber desaparecido sin que lo notara, pero aun así - se ha ido."
+ hiking.119.a:0 "¡Estaba justo allá!"
+ 
+ hiking.120.t:0 "Caminata: Que se lance la piedra"
+ hiking.120.desc:0 "En un área particularmente rocosa del sendero, mi séquito pasa por un gran montón de piedras hecho de pilas de pequeñas piedras, colocadas por quienes pasaron anteriormente. Algunos de mis compañeros comienzan a recuperar sus propias piedras para añadir a la altura del marcador. Algunos de ellos gritan palabras de aliento hacia mí, inspirándome a añadir mi propia roca, para marcar mi paso a través del sendero."
+ hiking.120.a:0 "Dejaré mi marca"
+ hiking.120.a.mean:0 "Este montón es tan... empujable"
+ hiking.120.b:0 "¡Mi roca será la más grande!"
+ hiking.120.c:0 "Es una plaga antinatural del paisaje, no contribuiré."
+ 
+ hiking.121.t:0 "Caminata: Árbol de Vida"
+ hiking.121.desc:0 "Mientras avanzo por el sendero, escucho el sonido distante de hachas y trabajadores gritando. Confundido, acelero mi enfoque y observo con horror a un pequeño grupo que procede a deforestar el área circundante. Los leñadores cortan los árboles fuertes y antiguos por su madera de calidad. Estos son bosques sagrados, protegidos por los reinos circundantes. Claramente están aquí ilegalmente."
+ hiking.121.a:0 "¡Conocerán la ira de [ROOT.Char.GetFaith.HighGodNamePossessive]!"
+ hiking.121.a.success_title:0 "¡Ahuyentaste a los leñadores!"
+ hiking.121.a.failure_title:0 "Los leñadores te superan."
+ hiking.121.b:0 "No puedo luchar contra ellos de frente... pero quizás si los saboteo."
+ hiking.121.b.success_title:0 "Saboteaste a los leñadores."
+ hiking.121.b.failure_title:0 "Los leñadores descubrieron tu intento de sabotaje"
+ hiking.121.c:0 "No hay nada que pueda hacer."
+ hiking.121.b.success_tt:0 "Saboteas con éxito a los leñadores."
+ hiking.121.b.success:0 "Logras sabotear a los leñadores"
+ hiking.121.b.failure:0 "Los leñadores te descubren"
+ hiking.121.a.success:0 "Le das castigo a los leñadores"
+ hiking.121.a.failure:0 "Los leñadores te rechazan."
+ 
+ hiking.122.t:0 "Caminata: La grandeza de la naturaleza"
+ hiking.122.desc:0 "La caminata es dura, manteniéndome pegado al suelo por el desafío. Justo cuando siento que me voy a derrumbar de exhausto, me paro a descansar. Sentado en una roca, finalmente levanto la vista para encontrar una vista grandiosa. Un acantilado, con vistas a millas de bosque sin perturbar."
+ hiking.122.a:0 "La naturaleza es hermosa."
+ 
+ hiking.123.t:0 "Caminata: Historias alrededor del fuego"
+ hiking.123.desc:0 "Conforme el día sangra en la noche, mis compañeros y yo buscamos refugio en un refugio de sendero cercano. A nuestra llegada nos encontramos con otro grupo de excursionistas que ya han iniciado un fuego. Nos invitan a sentarnos con ellos, y aceptamos. Una vez que mi séquito se ha asentado, el líder del otro grupo se arrastra hacia el fuego, proyectando sombras dramáticas en su cara. Habla en un tono omní. \n\n"Quoté quiere que escuche una historia de miedo?\"\n\n"
+ hiking.123.a:0 "¡Yo!"
+ hiking.123.b:0 "Prefiero escuchar de dónde eres."
+ hiking.123.c:0 "¡No gracias!"
+ hiking.123.d:0 "Hago algo mejor."
+ hiking.123.d.success:0 "Asustas a los campistas"
+ hiking.123.d.success_title:0 "Contaste una historia espeluznante"
+ hiking.123.d.failure:0 "Tu historia no es tan aterradora"
+ hiking.123.d.failure_title:0 "Tu historia no fue aterradora"
+ 
+ hiking.124.t:0 "Caminata: Así habló el Ermitaño"
+ hiking.124.desc:0 "En nuestra caminata, nos topamos con una pequeña cabaña ruinosa. Conforme nos acercamos, un ermitaño enloquecido aparece desde la entrada del edificio y comienza a correr hacia mí. Agita la mano salvajemente y grita; \n\n"\u00a1Este es mi bosque! \u00a1Este es mi bosque!\"\n\n"
+ hiking.124.a:0 "¡Suelta el viejo!"
+ hiking.124.a.success:0 "Luchas contra el viejo loco"
+ hiking.124.a.success:0 "El viejo agarra la mano superior"
+ hiking.124.b:0 "Tonto, nadie es dueño del bosque."
+ hiking.124.c:0 "¡Nos iremos por nuestro camino!"
+ 
+ hiking.125.t:0 "Caminata: Continuar mi descarriado [ROOT.Char.GetLadyLord]"
+ hiking.125.desc:0 "Intenté negarlo al principio, pero conforme avancé, y el cómodo camino del sendero fue completamente reemplazado por terreno de bosque accidentado, es claro que ya no puedo ignorarlo. Estoy completamente perdido."
+ hiking.125.a:0 "Es hora de retroceder."
+ hiking.125.b:0 "¡Espera, puedo encontrar el camino!"
+ 
+ hiking.126.t:0 "Caminata: Hundirse o nadar"
+ hiking.126.desc:0 "Nuestro viaje nos lleva más allá de un río tranquilo pero ancho, engañosamente fácil de cruzar, la profundidad del río está oculta por el agua en movimiento. Nuestro guía nos dice que hay un área poco profunda para cruzar aguas arriba pero lo interrumpe gritar asustado. Cuando corro a la fuente, veo a un hombre agitando los brazos desesperadamente en el agua. El pobre tonto probablemente intentó cruzar el río sin saber qué tan profundo era realmente."
+ hiking.126.a:0 "¡Toma mis ropas! ¡Lo ayudaré!"
+ hiking.126.a.success:0 "Logras arrastrarlo a salvo"
+ hiking.126.a.success_title:0 "Salvaste al extraño"
+ hiking.126.a.failure:0 "No puedes salvarlo"
+ hiking.126.a.failure_title:0 "El hombre se pierde en el agua"
+ hiking.126.a.death:0 "Te atrapas en el río"
+ hiking.126.b:0 "No hay nada que pueda hacer."
+ 
+ hiking.500.t:0 "Caminata: Una vista agradable"
+ hiking.500.desc:0 "Desde la cima de la colina puedo ver millas alrededor. Desde esta altura puedo ver gran parte de la tierra que rodea la capital. Mientras miro alrededor no puedo evitar dejarme ir pensando en deberes administrativos. Usando mi nueva perspectiva para visualizar mejor lo que quiero, un nuevo camino aquí, una torre de vigilancia allá, sí... \u00a1todo se está juntando!"
+ hiking.500.a:0 "¡[ROOT.Char.GetFaith.HighGodName] es excelente!"
+ 
+ hiking.501.t:0 "Caminata: Un encuentro de mentes"
+ hiking.501.desc:0 "Mientras recorro los senderos, tuve un extraño encuentro. Me encontré con un hombre con ropa extranjera y un acento que nunca había escuchado. Al principio el encuentro fue incómodo, pero pronto encontramos terreno común cuando mencionó que su fe anima a la gente a salir a la naturaleza para encontrar iluminación y entendimiento. Después de lo que parecieron horas de discusión teológica, ambos nos dimos cuenta de que éramos la iluminación mutuamente. Eventualmente nos separamos, pero pensaré en sus palabras durante muchos años."
+ hiking.501.a:0 "¡[ROOT.Char.GetFaith.HighGodName] es excelente!"
+ 
+ hiking.502.t:0 "Caminata: Una vista para recordar"
+ hiking.502.desc:0 "A pesar de comenzar nuestro ascenso en la madrugada, no llegamos a la cumbre hasta la puesta del sol. ¡Y qué vista fue! El cielo tenía tonos vibrantes de naranja y púrpura y todo parecía brillar en luz dorada. Por un momento, el estrés y la fatiga de administrar un reino parecieron desvanecerse, y me sentí en paz. Recordaré este tiempo durante mucho tiempo."
+ hiking.502.a:0 "¡[ROOT.Char.GetFaith.HighGodName] es excelente!"
+ 
+ hiking.503.t:0 "Caminata: En lo alto del mundo"
+ hiking.503.desc:0 "Mis muslos arden al llegar a la cumbre. La caminata ha sido dura y larga, hemos atravesado bosque, rocas traicioneras, e incluso nieve profunda. Pero finalmente lo logré, un verdadero testamento de mi fuerza. Miro hacia abajo el mundo con lo que se siente como una fuerza casi sobrenatural."
+ hiking.503.a:0 "¡[ROOT.Char.GetFaith.HighGodName] es excelente!"
+ 
+ hiking.504.t:0 "Caminata: Aguas relajantes"
+ hiking.504.desc:0 "La fuente estaba al final de un largo sendero sinuoso, pero a pesar de lo que tardó, valió la pena el viaje. Me bajé a un grupo particularmente cálido de agua. Y casi inmediatamente pude sentir el estrés de la vida desvanecerse. No sé cuánto tiempo pasé en ese grupo, pero cuando me fui me sentía rejuvenecido, listo para volver a mis deberes."
+ hiking.504.a:0 "¡[ROOT.Char.GetFaith.HighGodName] es excelente!"
+ 
+ hiking.505.t:0 "Caminata: La cascada"
+ hiking.505.desc:0 "Meditar en la base de la cascada parecía una idea extraña al principio. Seguramente el agua rugiente sería una distracción, pero como pronto descubrí, el rugido del agua ahogó el mundo exterior. Dejándome solo con mis pensamientos. Ahora no sé cuánto tiempo pasé allá, pero al dejar ese lugar sentía que había alcanzado un nuevo nivel de entendimiento."
+ hiking.505.a:0 "¡[ROOT.Char.GetFaith.HighGodName] es excelente!"
+ 
+ hiking.506.t:0 "Caminata: La furia del río"
+ hiking.506.desc:0 "Llego a mi destino en un acantilado que pasa por alto un río. Es difícil comprender que un material tan humilde como el agua pueda tallar una formación tan llamativa, capaz de explotar cualquier debilidad en la piedra y durante siglos y milenios tallar la tierra. Quizás hay algo sobre esto que puedo aplicarme a mí mismo..."
+ hiking.506.a:0 "¡[ROOT.Char.GetFaith.HighGodName] es excelente!"
+ 
+ hiking.507.t:0 "Caminata: Piedras saltarinas"
+ hiking.507.desc:0 ""¡Tres!" mi compañero anima mientras su roca salta sobre el agua tres veces. Otro compañero recoge otra roca plana y la lanza, cinco saltos. Sin querer ser superado, escaneo la orilla en busca de la piedra saltarina perfecta, finalmente la encontré. Dándole un lanzamiento fuerte, mis compañeros y yo vemos en silencio mientras mi roca salta ¡diez veces! Se dieron aplausos y a pesar de un acto tan simple, siento que me he acercado más con mis compañeros."
+ hiking.507.a:0 "¡[ROOT.Char.GetFaith.HighGodName] es excelente!"
+ 
+ hiking.508.t:0 "Caminata: Un paseo agradable con compañía agradable"
+ hiking.508.desc:0 "Mientras vagaba por el bosque, tuve un extraño pero agradable encuentro. Me encontré con un hombre con ropa extranjera y un acento que nunca había escuchado. Al principio el encuentro fue incómodo, pero pronto encontramos terreno común cuando mencionó que su fe anima a la gente a salir a la naturaleza para encontrar iluminación y entendimiento. Después de lo que parecieron horas de discusión teológica, ambos nos dimos cuenta de que éramos la iluminación mutuamente. Eventualmente nos separamos, pero pensaré en sus palabras durante muchos años."
+ hiking.508.a:0 "¡[ROOT.Char.GetFaith.HighGodName] es excelente!"
+ 
+ hiking.509.t:0 "Caminata: Entre los gigantes"
+ hiking.509.desc:0 "Después de muchos días de viaje, he llegado al final del camino. Me paro en la base de los árboles más grandes que he visto, elevando hacia el cielo, sus puntas ocultas en la bruma de la madrugada. Tales árboles son verdaderamente antiguos, y seguramente crecieron en los días antes del [Concept('the_event_ate','Event')|E]. Las historias que estos árboles podrían contar si pudieran hablar..."
+ hiking.509.a:0 "¡[ROOT.Char.GetFaith.HighGodName] es excelente!"
+ 
+ hiking.510.t:0 "Caminata: Recrecimiento entre las ruinas"
+ hiking.510.desc:0 "Las tierras ennegrecidas de un viejo incendio forestal son un lugar poco convencional para hacer senderismo, pero la belleza de la naturaleza se puede encontrar en todas partes. Donde una vez hubo destrucción, ha surgido nueva vida. Los árboles jóvenes brotan de los tocones quemados, los pájaros se cuelan entre los árboles quemados que aún se mantienen en pie, y pequeños roedores pueden verse deslizarse entre troncos caídos y nuevo crecimiento."
+ hiking.510.a:0 "¡[ROOT.Char.GetFaith.HighGodName] es excelente!"
+ 
+ hiking.511.t:0 "Caminata: Un picín agradable"
+ hiking.511.desc:0 "Disfrutar de comida en la tranquilidad de la naturaleza es una sensación que simplemente no se puede replicar. Estar con buena compañía, disfrutar de buena comida, todo en el aire libre realmente hace maravillas para la mente, el cuerpo y lo más importante, el alma."
+ hiking.511.a:0 "¡[ROOT.Char.GetFaith.HighGodName] es excelente!"
+
+ hike_intent.0530.t:0 "Reflexionando sobre caminatas"
+ hike_intent.0530.desc:0 "Conforme he pasado tiempo en la naturaleza, lentamente me he despertado a su efecto en mí. He sentido mi mente y cuerpo acondicionandose a los ritmos de lo salvaje, y he sido recordado de cómo una pequeña parte del mundo represento. Sé que no puedo permanecer fuera por siempre, ya que hay deberes y oportunidades a los que debo responder. ¿Cuál será entonces el impacto duradero de mi tiempo aquí? ¿Qué sentimiento o perspectiva quiero llevar conmigo?"
+ hike_intent.0530.reflect_on_hiking:0 "Aquí es donde estoy verdaderamente vivo/a."
+ hike_intent.0530.crossapply_ideas:0 "Me han dado una nueva perspectiva de mis desafíos. Una mejor perspectiva."
+
+ hike_intent.0120.t:0 "Bajo las estrellas"
+ hike_intent.0120.desc:0 "La noche ha caído y estoy sentado junto a la fogata. Aquí, lejos de la civilización, estoy completamente rodeado de oscuridad. Me pesa como una manta, expulsando cualquier sonido excepto los crujidos y estallidos de la llama. Encima de mí, las estrellas brillan como nunca antes he visto. Mi mente se esfuerza por encontrar poesía lo suficientemente hermosa para anclar este momento en mí para siempre. Estoy solo, solo con mis pensamientos de compañía. O al menos, eso pienso antes de que mi [partner.GetFirstName] se siente junto a mí. Se acurrucan cerca, buscando afección, y contemplo mi respuesta."
+ hike_intent.0120.speak_freely:0 "Lentamente, conforme la noche se hace vieja, hablamos nuestras verdades mutuamente."
+ hike_intent.0120.proposition_partner:0 "¿Quizás les gustaría que este abrazo fuera un poco más íntimo?"
+ hike_intent.0120.shun_company:0 "Me muevo al lado opuesto del fuego y continuo mirando las estrellas."
+ hike_intent.0120.relax:0 "¿Qué más puedo decir? ¿Qué más puedo añadir a una noche tan perfecta?"
+ 
+ ate_hike_continues_tooltip:0 "La caminata continua"
+ 
+ good_soup_modifier:0 "Sopa deliciosa"
+ garibaldi_modifier:0 "Una vista agradable"
+ st_helens_modifier:0 "Un encuentro de mentes"
+ sacajawea_modifier:0 "Una vista para recordar"
+ golden_hind_modifier:0 "En lo alto del mundo"
+ celilo_falls_modifier:0 "Visitó una fuente termal"
+ pend_orielle_modifier:0 "Meditó en una cascada"
+ crater_lake_modifier:0 "La furia del río"
+ pacific_rim_modifier:0 "Piedras saltarinas"
+ hoh_modifier:0 "Un paseo agradable con compañía agradable"
+ carmanah_modifier:0 "Se paró entre gigantes"
+ redwoods_modifier:0 "Vio el ciclo de la vida"
+ umatilla_modifier:0 "Un picín agradable"
+ dry_modifier:0 "Encontró refugio de los elementos"
+ wet_modifier:0 "Empapado"
+ defend_forest_modifier:0 "Defendió el bosque"
+ heard_scary_story_modifier:0 "Escuchó historia aterradora"
+ terrifying_story_modifier:0 "Aterrado por historia de fantasmas"
+ stories_of_far_away_modifier:0 "Historias del lejano"
+ bigfoot_blessing_modifier:0 "Bendición del Pie Grande"

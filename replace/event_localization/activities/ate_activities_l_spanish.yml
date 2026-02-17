@@ -1,0 +1,250 @@
+﻿l_spanish:
+# l_spanish:
+# l_german:
+# l_french:
+# l_russian:
+# l_simp_chinese:
+# l_korean:
+ activity_salvage:0 "Cacería salvaje"
+ activity_salvage_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Cacería salvaje"
+ activity_whale_hunt:0 "Cacería de ballenas"
+ activity_whale_hunt_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Cacería de ballenas"
+ activity_salvage_desc:0 "Tú y tus hombres salen a cazar artefactos del mundo antiguo. Esto puede resultar peligroso o fructuoso."
+ pilgrimage_because_i_have_defensive_shield:0 "Porque tu [faith|E] tiene el [GetFaithDoctrine('tenet_defensive_shield').GetBaseName] [core_tenet|E] y tu destino era un sitio sagrado controlado:"
+ 
+
+ ##### PEREGRINACIÓN #####
+ activity_pilgrimage.is_location_valid.mandatory_specific:0 "Como [GetPlayer.GetFaith.GetAdjectiveNoTooltip], se espera que realices una peregrinación a [GetPlayer.GetFaith.MakeScope.Var('mandatory_pilgrimage_site').GetProvince.GetTitle.GetNameNoTierNoTooltip], el lugar más sagrado de tu fe, antes de visitar cualquier otro lugar sagrado."
+ 
+ ### Arqueología ###
+ pilgrimage_type_archaeology:0 "Peregrinación arqueológica"
+ pilgrimage_type_archaeology_desc:0 "$EFFECT_LIST_BULLET$ Algunos eventos te permitirán realizar excavaciones arqueológicas.\n$EFFECT_LIST_BULLET$ Si los aceptas, podrás obtener un artefacto al completarlos\n\n#weak El objetivo de la peregrinación es encontrar objetos religiosos relevantes de épocas pasadas.#!"
+ 
+ archaeology.10.t:0 "Expedición Arqueológica"
+ archaeology.10.desc.intro:0 "Has llegado al yacimiento arqueológico."
+ archaeology.10.desc.anachronous:0 ""
+ archaeology.10.desc.fallback:0 ""
+ 
+ archaeology.10.a:0 "¡Excavar la tierra!"
+ archaeology.10.b:0 "Solo quería una excusa para irme de vacaciones."
+ 
+ archaeology.101.t:0 "Resultados arqueológicos: un hallazgo común"
+ archaeology.101.desc.intro:0 "Encontraste un objeto común."
+ archaeology.101.desc.anachronous:0 ""
+ archaeology.101.desc.fallback:0 ""
+ archaeology.101.desc.outro:0 ""
+ archaeology.101.a:0 "Al menos es algo."
+ archaeology.101.b:0 "¿Es siquiera original?"
+ 
+ archaeology.102.t:0 "Resultados arqueológicos: nada."
+ archaeology.102.desc.intro:0 "No encontraste nada de interés."
+ archaeology.102.desc.anachronous:0 ""
+ archaeology.102.desc.fallback:0 ""
+ archaeology.102.desc.outro:0 ""
+ archaeology.102.a:0 "Esto fue una pérdida de tiempo."
+ 
+ archaeology.103.t:0 "Resultados arqueológicos: un hallazgo misterioso"
+ archaeology.103.desc.intro:0 "Encontraste un objeto raro."
+ archaeology.103.desc.anachronous:0 ""
+ archaeology.103.desc.fallback:0 ""
+ archaeology.103.desc.outro:0 ""
+ archaeology.103.a:0 "¡Increíble!"
+ archaeology.103.b:0 "¿Es siquiera original?"
+ 
+ archaeology.104.t:0 "¡Resultados arqueológicos: un hallazgo famoso!"
+ archaeology.104.desc.intro:0 "Encontraste un objeto famoso."
+ archaeology.104.desc.anachronous:0 ""
+ archaeology.104.desc.fallback:0 ""
+ archaeology.104.desc.outro:0 ""
+ archaeology.104.a:0 "¡Eso es increíble!"
+ archaeology.104.b:0 "¿Es siquiera original?"
+ 
+ archaeology.101.c:0 "¿Seguro que no hay algo mejor?"
+ archaeology.102.c:0 "Bueno, no podemos irnos con las manos vacías..."
+ archaeology.103.c:0 "Solo para asegurarnos, veamos si hay algo más aquí."
+ archaeology.104.c:0 "¡Tiene que haber más! ¡Sigan buscando, muchachos!"
+ archaeology.105.c:0 "¡Sigan cavando, hasta el último cartucho!"
+ 
+ archaeology.105.t:0 "Resultados arqueológicos: ¡un hallazgo ilustre!"
+ archaeology.105.desc.intro:0 "Encontraste un objeto ilustre."
+ archaeology.105.desc.anachronous:0 ""
+ archaeology.105.desc.fallback:0 ""
+ archaeology.105.desc.outro:0 ""
+ archaeology.105.a:0 "¡Estoy sin palabras!"
+ archaeology.105.b:0 "¿Es siquiera original?"
+ 
+ archaeology_item_common_general_artifact:0 "Objeto arqueológico común"
+ archaeology_item_common_general_artifact_desc:0 ""
+ 
+ archaeology_item_masterwork_general_artifact:0 "Objeto arqueológico magistral"
+ archaeology_item_masterwork_general_artifact_desc:0 ""
+ 
+ archaeology_item_famed_general_artifact:0 "Objeto arqueológico famoso"
+ archaeology_item_famed_general_artifact_desc:0 ""
+ 
+ archaeology_item_illustrious_general_artifact:0 "Objeto arqueológico ilustre"
+ archaeology_item_illustrious_general_artifact_desc:0 ""
+ 
+ archaeology_item_broken_cog:0 "Engranaje roto"
+ archaeology_item_broken_cog_desc:0 "Este engranaje oxidado fue una pequeña parte de una gran máquina."
+
+ archaeology_item_numerological_plate:0 "Placa de Matriculación Numerológica"
+ archaeology_item_numerological_plate_desc:0 "Esta placa de metal delgada y oxidada está cubierta de símbolos antiguos, letras y números, cuyo significado es indecifrable."
+
+ archaeology_item_versatile_helvetic_blade:0 "Cuchilla Helvética Versátil"
+ archaeology_item_versatile_helvetic_blade_desc:0 "Este pequeño cuchillo multifacético tiene un puño que da paso a una impresionante multitud de cuchillas y herramientas menores."
+
+ archaeology_item_iridescent_disk:0 "Disco Iridescente"
+ archaeology_item_iridescent_disk_desc:0 "Un disco reflectante, probablemente alguna especie de decoración o medallón antediluviano. "
+
+ archaeology_item_betting_chips_poker_chips:0 "Fichas de apuestas (fichas de póquer)"
+ archaeology_item_betting_chips_poker_chips_desc:0 "Un conjunto de pequeños discos, presumiblemente utilizados para juegos de azar. "
+
+ archaeology_item_yellow_book_of_names:0 "Páginas amarillas"
+ archaeology_item_yellow_book_of_names_desc:0 "Un libro con páginas delgadas y amarillas que contiene una lista masiva de nombres y cadenas asociadas de números posiblemente místicos."
+
+ archaeology_item_articulated_idol:0 "Ídolo articulado"
+ archaeology_item_articulated_idol_desc:0 "Un pequeño ídolo de una figura legendaria antediluviana. Los miembros incluso se articulan, lo que puede haber sido hecho para distinguir diferentes ceremonias religiosas."
+
+ archaeology_item_kitchen_sarcophagus:0 "Sarcófago de cocina"
+ archaeology_item_kitchen_sarcophagus_desc:0 "Un sarcófago pesado que los habitantes antediluvianos tendrían en sus espacios de cocina. La mayoría asume que esto se hacía para bendecir la comida contenida dentro."
+ archaeology_item_antedilluvian_silk:0 "Seda antediluviana"
+ archaeology_item_antedilluvian_silk_desc:0 "Un rayo de un material misterioso que alguna vez dominó la moda. "
+
+ archaeology_item_glitterdust:0 "Polvo brillante"
+ archaeology_item_glitterdust_desc:0 "Una bolsa de polvo brillante, reluciente y colorido. Se desconoce su función original, pero sin duda es apropiada para un[CHARACTER.Custom('ES_XA')] noble. "
+
+ archaeology_item_broken_revolver:0 "Revólver roto"
+ archaeology_item_broken_revolver_desc:0 "Un arma de mano no funcional utilizada por guerreros antediluvianos. Una versión masificada y funcional revolucionaría la guerra."
+
+ archaeology_item_copper_and_lead_teeth:0 "Dientes de cobre y plomo"
+ archaeology_item_copper_and_lead_teeth_desc:0 "Un puñado de dientes metálicos que podían lanzarse contra sus objetivos. Las municiones del mundo antediluviano."
+
+ archaeology_item_ancient_amber:0 "Ámbar antiguo"
+ archaeology_item_ancient_amber_desc:0 "Una pieza de ámbar tallado de gran belleza. "
+
+ archaeology_item_handheld_chronometer:0 "Cronómetro de mano"
+ archaeology_item_handheld_chronometer_desc:0 "Un delicado reloj mecánico que cabe en la palma de la mano de una persona. Aunque el pequeño cronómetro ha dejado de funcionar hace tiempo, poseer uno sigue siendo impresionante."
+
+ archaeology_item_onyx_sphere:0 "Onyx Sphere"
+ archaeology_item_onyx_sphere_desc:0 "Una esfera sólida con el número ocho pintado en ella. La mayoría supone que se utilizaba en algún tipo de práctica mística, mientras que otros sugieren que era una pieza de un juego."
+
+ archaeology_item_avian_statue_:0 "Avian Statue "
+ archaeology_item_avian_statue__desc:0 "Una estatua ligera de un pájaro de color rosa brillante. Probablemente utilizada por los antediluvianos para ahuyentar a los espíritus malignos. "
+
+ archaeology_item_shaded_spectacles:0 "Shaded Spectacles"
+ archaeology_item_shaded_spectacles_desc:0 "Estas gafas reflectantes permiten ocultar la mirada del usuario al mundo exterior, protegiéndolo de la luz intensa... y dotándolo al mismo tiempo de un atractivo inquietante."
+
+ archaeology_item_sorcerous-guitar:0 "Sorcerous-Guitar"
+ archaeology_item_sorcerous-guitar_desc:0 "Este instrumento musical antediluviano ahora yace sin vida. Las leyendas cuentan que instrumentos como estos alguna vez pudieron resonar en estadios llenos de miles de personas."
+
+ archaeology_item_impossibly_complex_machine:0 "Impossibly Complex Machine"
+ archaeology_item_impossibly_complex_machine_desc:0 "Una pieza inescrutable de maquinaria antediluviana. Completamente más allá de la comprensión incluso de los más sabios entre nosotros. "
+
+ archaeology_item_graphic_manuscript_:0 "Graphic Manuscript "
+ archaeology_item_graphic_manuscript__desc:0 "Este manuscrito desgastado y frágil detalla las hazañas de un dios o héroe olvidado hace mucho tiempo a través de ilustraciones y palabras. "
+
+ archaeology_item_sealed_flask_of_cola:0 "Sealed Flask of Cola"
+ archaeology_item_sealed_flask_of_cola_desc:0 "Un frasco de vidrio marcado con el sello de Cola. El propósito original de su viscoso contenido oscuro sigue siendo un misterio."
+
+ archaeology_item_standardizing_ribbon:0 "Standardizing Ribbon"
+ archaeology_item_standardizing_ribbon_desc:0 "Este perfecto diagrama matemático, expresado con tanta naturalidad en la antigua tela, nos permite vislumbrar cómo los hombres antediluvianos construían sus maravillosas ciudades."
+
+ archaeology_item_waterfowl_effigy:0 "Efigie de ave acuática"
+ archaeology_item_waterfowl_effigy_desc:0 "Una pequeña efigie amarillenta y descolorida de un adorable ave acuática. "
+
+ archaeology_item_antediluvian_coin:0 "MonedaAntediluviana"
+ archaeology_item_antediluvian_coin_desc:0 "Esta moneda metálica muestra el rostro de un prestigioso gobernante de un gran imperio del pasado."
+
+ archaeology_item_dumbbell:0 "Dumbbell"
+ archaeology_item_dumbbell_desc:0 "This set of weights was used for muscle training by antediluvian athletes. "
+
+ archaeology_item_loyal_pet_s_collar_:0 "Loyal Pet's Collar "
+ archaeology_item_loyal_pet_s_collar__desc:0 "A collar meant to go around the neck of a long dead pet. The words on the attached tags faded generations ago. "
+
+ archaeology_item_petrified_fairy:0 "Petrified Fairy"
+ archaeology_item_petrified_fairy_desc:0 "This statue at first glance seems to be an intricate carving, but may actually be a fairy turned into stone."
+
+ archaeology_item_game_pieces:0 "Game Pieces"
+ archaeology_item_game_pieces_desc:0 "A set of game pieces used in some old antediluvian game. We may even still play something similar to this day."
+
+ archaeology_item_harp_of_the_west:0 "Harp of the West"
+ archaeology_item_harp_of_the_west_desc:0 "A handheld musical instrument which is famous for its usage in the western half of what was once America."
+
+ archaeology_item_antediluvian_cutlery:0 "Antediluvian Cutlery"
+ archaeology_item_antediluvian_cutlery_desc:0 "A set of cutlery which was likely used for eating, although there's no way to be sure."
+
+ archaeology_item_head_of_atahualpa:0 "Head of Atahualpa"
+ archaeology_item_head_of_atahualpa_desc:0 "nan"
+
+ archaeology_item_arm_of_atahualpa:0 "Arm of Atahualpa"
+ archaeology_item_arm_of_atahualpa_desc:0 "nan"
+
+ archaeology_item_leg_of_atahualpa:0 "Leg of Atahualpa"
+ archaeology_item_leg_of_atahualpa_desc:0 "nan"
+
+ archaeology_item_courage_reactor:0 "Courage Reactor"
+ archaeology_item_courage_reactor_desc:0 "A old reactor that would ignite the chariots into action during the Gilded Age."
+
+ archaeology_item_mechanical_heart:0 "Mechanical Heart"
+ archaeology_item_mechanical_heart_desc:0 "A dead heart which once powered the antediluvian carriages of the Gilded Age."
+
+ archaeology_item_searean_tome:0 "Searean Tome"
+ archaeology_item_searean_tome_desc:0 "A tome showcasing the power of the legendary Titan Sear, who was said to be able to manifest all sorts of luxuries through raw industrial prowess."
+
+ archaeology_item_fordite_jewel:0 "Fordite Jewel"
+ archaeology_item_fordite_jewel_desc:0 "A rainbow-colored gem said to be pure industrial power in a solidified form. There doesn't seem to be any way to retrieve this energy, but it does look pretty."
+
+ archaeology_item_predator_s_tooth:0 "Predator's Tooth"
+ archaeology_item_predator_s_tooth_desc:0 "This large canine certainly belonged to a fierce creature."
+
+ archaeology_item_prehistoric_flora:0 "Prehistoric Flora"
+ archaeology_item_prehistoric_flora_desc:0 "A stone encased plant from an age far beyond humanity."
+
+ archaeology_item_kaleidoscopic_spirit_remains:0 "Kaleidoscopic Spirit Remains"
+ archaeology_item_kaleidoscopic_spirit_remains_desc:0 "This small rock is all that remains of a dead spirit, its beauty preserved in the rock's colorful shine."
+
+ archaeology_item_pottery_fragment:0 "Pottery Fragment"
+ archaeology_item_pottery_fragment_desc:0 "This piece of pottery has faint lines engraved on it in a format that resembles an old god."
+
+ archaeology_item_oracle_s_onyx_sphere_:0 "Oracle's Onyx Sphere "
+ archaeology_item_oracle_s_onyx_sphere__desc:0 "A prophetic sphere that can answer questions. The lack of effectiveness of its prophecies is attributed to lost mystical rituals that must have accompanied questions."
+
+ archaeology_item_ludonic_reliquary:0 "Ludonic Reliquary"
+ archaeology_item_ludonic_reliquary_desc:0 "This little reliquary features strange and detailed illustrations of beasts, mystical patterns, and heroes. "
+
+ archaeology_item_sauric_idol:0 "Sauric Idol"
+ archaeology_item_sauric_idol_desc:0 "A small, lightweight idol of a prehistoric Saurian. "
+
+ archaeology_item_saurian_tooth:0 "Saurian Tooth"
+ archaeology_item_saurian_tooth_desc:0 "A stone tooth of a once great Saurian."
+
+ archaeology_item_saurian_visage_:0 "Saurian Visage "
+ archaeology_item_saurian_visage__desc:0 "This complete Saurian head is a testament to the enduring properties of these prehistoric giants."
+
+ archaeology_item_stone_sea-saurian:0 "Stone Sea-Saurian"
+ archaeology_item_stone_sea-saurian_desc:0 "A magnificent collection of the remains of a prehistoric Saurian. This incredible creature swam in seas that are now entirely dried."
+
+ archaeology_item_spiral_squid_s_shell:0 "Spiral Squid's Shell"
+ archaeology_item_spiral_squid_s_shell_desc:0 "An ancient body of a long dead marine creature, now turned to stone."
+
+ archaeology_item_primordial_ocean_spirit:0 "Primordial Ocean Spirit"
+ archaeology_item_primordial_ocean_spirit_desc:0 "An ocean spirit or creature trapped within a thin piece of rock."
+
+ #GRAN RITO
+witch.5001.t: "Ritual Oscuro"
+witch.5001.desc_humsac: "Los [ROOT.Char.GetFaith.PriestNeuterPlural] traen animales de granja y campesinos desafortunados, cortando sus gargantes gargajos y dejando que la sangre oscura se derrame en calderas hirviendo. Con la adición de ingredientes mágicos a la bebida, la preparación esotérica está completa. El [ROOT.Char.GetFaith.PriestNeuter] me lo trae mientras estoy sentado, pintado con sangre. Abro mi boca y les permito que viertan la mezcla repugnante por mi garganta. Me quedo allí esperando hasta que finalmente recibo una visión de [ROOT.Char.GetFaith.WitchGodName].\n\n[host.Custom('GetAtEMysticVision')]"
+
+witch.5001.desc: "The [ROOT.Char.GetFaith.PriestNeuterPlural] bring forth farm animals, slitting their bleating throats and letting the dark blood spill into bubbling cauldrons. With the adding of magical ingredients into the brew, the esoteric concoction is complete. The [ROOT.Char.GetFaith.PriestNeuter] brings it to me as I sit, painted with blood. I open my mouth and let them pour the putrid mixture down my throat. I sit there waiting until finally I recieve a vision from [ROOT.Char.GetFaith.WitchGodName].\n\n[host.Custom('GetAtEMysticVision')]"
+
+OCCULTIST_MYSTIC_RAVEN: "#italic I sit in my chambers at midnight, and hear something tapping at my window. I fling open the casement, dark wings fluttered wildy as a Raven dives into my room, coming to a rest on the frame of the door. It squawks, and shakes it’s shadowy body. I shout at it “Leave me! Get off my Door!” To which it turns it’s curious head, and watching with deep black eyes replies simply, “Nevermore.”#!"
+OCCULTIST_MYSTIC_AMIGARA_FAULT: "#italic I am on a mountain side, far from any signs of civilisation and yet before me is a carved hole cut perfectly in the shape of a man. The silhouette is familiar, and I realise that the hole is my perfect fit. I strip off my clothes, and clamber into the carving, filled with an overcoming sense of belonging. Once I am inside, I begin to slide down into the deep, subterranean unknown.#!"
+OCCULTIST_MYSTIC_SHINING: "#italic I sit on a throne within a great stone hall, opposite me, on the hall’s far end are two Great Doors. They stand solid and stoic, but before I can stand, they begin to open - though there is no one present to pull them ajar. As the entrance expands, a great ocean of blood spills forth into the hall. Splashing against the walls in giant crimson waves. The rush of liquid pushes the door open more, until a great sanguine torrent is able to collapse into the hall and wash away me and my throne.#!"
+OCCULTIST_MYSTIC_PAGEMASTER: "#italic I stand on a tower of books in an endless ocean of ink, tentacles whip at the tower’s sides and the black liquid bubbles and squirms unnaturally. All around me are piles of books beyond number, but there is one sitting on a pedestal. It is thick and black, emblazoned with the sigil of a tentacled horror. Something draws me to it, and I flip open its pages. It is written with unknowable scribbles and esoteric drawings. I move to close it, but its words transfigure into tendrils which wrap around my body and drag me into it’s pages.#!"
+OCCULTIST_MYSTIC_THE_MIST: "#italic I stand on a tower in a keep, overlooking my lands that are blanketed in a thick fog. There are distance sounds of fighting, and screams of pain. A deep, gutteral roar echoes throughout the settlement, and deep in the fog I see the shadow of a great beast. It is four-legged, but it’s form is shifting, tentacles wobbled from its front, tasting the air and the ground. I take my sword, to slit my throat, knowing that this is no world in which to live.#!"
+OCCULTIST_MYSTIC_CTHULU: "#italic I am on a ship, in a dark, slimy sea. At Starboard is a rocky island, with a city constructed of black, wet, cyclopean stones. It's towers reach high into the green sky. The waves that lap at it's shores are greasy, muddy and choked with weeds and dead sealife. As the ship approaches, there is a great call from the deep. The water bubbles and from the shadows a colossal tentacled mass emerges in burst of black sea water. The Creature rises above the waves, barely in the shape of a man, flexing it's wings. It is then, my mind is lost to madness.#"
+OCCULTIST_MYSTIC_JOKER: "#italic La lluvia cae a cántaros a mi alrededor, estoy en medio de la calle de un pueblo. El agua corre cuesta abajo a mi alrededor, pero apenas puedo ver delante de mí a través de la intensa tormenta. Sigo adelante, con la ropa ya empapada. A medida que avanzo, la silueta de una figura se hace más nítida frente a mí. Es un bufón y, aunque sus rasgos están ocultos, puedo ver que tiene la piel pálida y el pelo revuelto y encrespado. Me hace señas para que me acerque, agitando las manos y riéndose a carcajadas.#!"
+OCCULTIST_MYSTIC_MOUNTAINS_OF_MADNESS: "#italic Atravieso una tormenta de nieve en una tierra helada, escalando con cuidado una montaña con miedo de resbalar y perderme en la nieve profunda. Finalmente, alcanzo la cima del pico y me encuentro con una ciudad antigua. Su arquitectura es inhumana, hecha de grandes piedras negras entrelazadas entre sí. Ningún humano podría haber llamado hogar a este lugar maldito, sin embargo, me siento impulsad[CHARACTER.Custom('ES_OA')] a adentrarme en sus sinuosas calles.#!"
+GENERIC_MYSTIC_LEIBOWITZ: "#italic Estoy en la pasarela de un gran barco situado sobre una montaña, esperando para partir hacia el cielo. Miro hacia abajo, a los pueblos y ciudades lejanos que se extienden a mis pies, y observo con horrible resignación cómo grandes destellos de luz y nubes de fuego lo arrasan todo. Cuando el resplandor comienza a quemarme la piel y a cegarme la vista, me doy la vuelta para partir, dejando atrás la desolación.#!"
+
+witch.5001.a: "He estado en comunión con cosas que están más allá de mi comprensión."

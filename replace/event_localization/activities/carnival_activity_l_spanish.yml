@@ -1,0 +1,90 @@
+﻿l_spanish:
+ carnival.0002.t:0 "¡Celebra el Carnaval!"
+ 
+ carnival.0002.desc:0 "El carnaval, esa extraña fusión entre lo sagrado y lo profano, es uno de los pilares de nuestra cultura. Cada año, entre los meses de enero y abril, nuestras calles se llenan durante toda una semana de canciones, bailes, diversión y mucho, #italic mucho#! más. Es la única época del año en la que se puede ver a nobles y plebeyos en las mismas fiestas y en la que la mayoría —bueno, #italic al menos#! - de las normas se suspenden en nombre de la diversión. Podríamos aprovechar la fecha para organizar un gran baile de carnaval en nuestra corte. Al fin y al cabo, ¡nos merecemos un poco de diversión! Y recuerden: lo que pasa en el carnaval, se queda en el carnaval."
+ 
+ carnival.0002.a:0 "¡Inclúyeme! ¡Solo los muertos no estarán allí!"
+ 
+ carnival.0002.b:0 "Nah, prefiero dormir bien..."
+ 
+ carnival.0002.a.tt_10:0 "¡Todo va #positive_value bien#! en el Carnaval!"
+ 
+ carnival.0002.a.tt_11:0 "Tus acciones son un poco #negative_value excesivas#! durante el Carnaval"
+ 
+ carnival.0002.a.tt_12:0 "Tu comportamiento es un poco #negative_value indiscreto#! durante el Carnaval"
+ 
+ carnival.0002.a.tt_13:0 "Tus decisiones son un poco #negative_value irresponsables#! durante el Carnaval"
+ 
+ carnival.0002.a.tt_14:0 "Participas en actividades #negative_value pecaminosas#! durante el Carnaval"
+
+ carnival.0002.a.tt_15:0 "Cometes actos #negative_value injustificables#! durante el Carnaval"
+ 
+ carnival.0010.t:0 "¡Todo salió bien en el Carnaval!"
+ 
+ carnival.0010.desc:0 "¡Este año hemos tenido un Carnaval excelente! Comida y bebida increíbles, bailes y desfiles increíbles, buena compañía... Y lo mejor de todo: ¡sin resaca y sin #italic remordimientos#!, por decirlo así. Tras toda una semana de fiesta, por fin podemos volver a la vida real. Al fin y al cabo, como se suele decir, #italic ¡el año solo empieza después del Carnaval!#!"
+ 
+ carnival.0010.b:0 "Al final, todo carnaval llega a su fin..."
+ 
+ carnival.0011.t:0 "Carnaval: Qué pena..."
+ 
+ carnival.0011.desc:0 "Todo carnaval llega a su fin tarde o temprano... ¡Por fin! Parece que me he esforzado #S demasiado#! en divertirme y ahora soy el tema de conversación de la corte. Puede que mi reputación se haya visto afectada, pero bueno, es el carnaval, así que al menos no soy el único. Además, todo el mundo se olvidará de esto a lo largo del año, ¡hasta que llegue el próximo carnaval!"
+ 
+ carnival.0011.a:0 "Ahora solo necesito descansar un poco..."
+ 
+ carnival.0011.b:0 "Nunca tendrás resaca si sigues #italic *ick!*#! bebiendo"
+ 
+ carnival.0011.c:0 "¡Tuve el banquete de mi vida!"
+ 
+ carnival.0011.d:0 "Qué diablos #italic fumé#!... ¡No me importa, tráeme más!"
+ 
+ carnival.0012.t:0 "Carnaval: Comportamiento indiscreto"
+ 
+ carnival.0012.desc:0 "Dicen que #italic lo que pasa en el carnaval se queda en el carnaval#!, pero eso no siempre es cierto. Después de una semana de fiesta, copas, baile y buena, (#bold ¡increíble!#!) compañía, , corren rumores en la corte sobre mi... ejem... #italic  Indiscreto comportamiento#!. Algunos dicen que debería aceptar mi reputación, quizá negar los chismes o incluso fingir que estuve borracho todo el tiempo... Por suerte, para cuando llegue el Carnaval del año que viene, todo el mundo habrá olvidado todo esto... ¿Verdad?"
+ 
+ carnival.0012.a:0 "¡Qué vergüenza! ¡Debería rezar por mi alma!"
+ 
+ carnival.0012.b:0 "Sí, ¡pasé  #italic toda la semana#! en el burdel!, ¿y qué?"
+ 
+ carnival.0012.c:0 "¿Hice #italic QUÉ#!? Con #italic QUIÉN#!?"
+ 
+ carnival.0012.d:0 "¿Hice #bold QUÉ#!? ¿En frente de #italic TODOS#!? ¿¡Llevando una #S PELUCA#!!?"
+ 
+ carnival.0012.e:0 "Bueno... #italic  ¡No es que haya nada malo en ello#!..."
+ 
+ carnival.0013.t:0 "Carnaval: Decisiones irresponsables"
+ 
+ carnival.0013.desc:0 "El carnaval es una época de música, bailes, fiestas... ¡Y también de #italic gastos!#! Como he aprendido por las malas. A medida que pasa la semana y encuentro los agujeros en mis bolsillos, al menos puedo aprender una o dos lecciones de esta imprudencia."
+ 
+ carnival.0013.a:0 "Necesito hablar con mi administrador... O con mi contador..."
+ 
+ carnival.0013.b:0 "Ya he gastado demasiado en mis excesos. ¡Es hora de donar algo a la caridad!"
+ 
+ carnival.0013.c:0 "¡Disfruten de la fama! ¡La próxima ronda la pago yo!"
+ 
+ carnival.0013.d:0 "¡Tanto oro gastado en baratijas frívolas... Me siento tan culpable!"
+ 
+ carnival.0013.e:0 "¡Estoy tan enojado por esto que incluso podría #italic golpear#! a alguien!"
+ 
+ carnival.0014.t:0 "Carnaval: Nunca más..."
+ 
+ carnival.0014.desc:0 "Alcohol, banquetes, gastos imprudentes, inmoralidad, blasfemia... ¡Esa no es la vida que quiero para mí! ¡Esta ha sido la última vez que celebro este Carnaval lleno de pecados!"
+
+ carnival.0014.a:0 "He cometido un pecado ante los ojos de nuestra fe. Y ante mis bolsillos."
+ 
+ carnival.0014.b:0 "Solo la penitencia podrá salvar mi alma de esta vida pecadora!"
+ 
+ carnival.0014.c:0 "El ayuno limpiará mi espíritu!"
+
+ carnival.0014.d:0 "Estoy tan avergonzado que nunca más saldré de mis aposentos!"
+ 
+ carnival.0015.t:0 "Carnaval: La fiesta se pone intensa. Demasiado intensa..."
+ 
+ carnival.0015.desc:0 "No recuerdo mucho. Estaba oscuro, estaba borracho. ¿Alguien me seguía? ¿O tal vez yo seguía a alguien...? No lo sé. Todo es una nebulosa en mi mente. Pero la gente lo vio. ¡#italic Mucha#! gente lo vio!. Mientras yacía en la cama e intentaba recuperarme, los rumores ya abundaban en la corte..."
+ 
+ carnival.0015.a:0 "Acabo de tener una resaca #bold enorme #!, pero eso es todo..."
+ 
+ carnival.0015.b:0 "Esa pelea en el bar se convirtió en algo muy grave..."
+ 
+ carnival.0015.c:0 "¡Quizás me tomé ese manifiesto brasileño #italic muy#! literalmente..."
+ 
+ carnival.0015.d:0 "Me vieron participando en extraños rituales..."
