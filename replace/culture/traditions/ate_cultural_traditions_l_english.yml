@@ -6,10 +6,10 @@
 # l_simp_chinese:
 # l_korean:
 
- requires_tribal_or_kinship_government_trigger:0 "You do not have [tribal_government|E] or [kinship_government|E]"
- brazilian_heritage_trigger:1 "The [culture|E] must be of an [Concept('brazilian_cosmopolitan_heritages','Imperial Brazilian')|E] [heritage|E]"
+ requires_tribal_or_kinship_government_trigger:0 "No tienes [tribal_government|E] o [kinship_government|E]" 
+ brazilian_heritage_trigger:1 "La [culture|E] debe ser de [Concept('brazilian_cosmopolitan_heritages','Imperio del Brasil')|E] [heritage|E]"
  
- # Traditions
+ # Tradiciones
  tradition_brazilian_cosmopolitanism_name:0 "Brazilian Cosmopolitanism"
  tradition_brazilian_cosmopolitanism_desc:1 "Brazilian society has long been weaved into a colorful tapestry, made of a myriad of different cultures and faiths coexisting in relative harmony." 
  tradition_southern_knights_name:0 "Southern Knights"

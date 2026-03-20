@@ -28,6 +28,12 @@
 
 - Lista de  # Animales Faltan traducir
 
+
+- clave `RICEmisc.0012.t:0` Cambiada la expresión "The Natural Springs of [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]" a "Los Manantiales Naturales " 
+
+- clave `hunt_arrow_forgive_log:0` herhim Su sus / él ella
+
+
 # Childhood_events
 
 ## childhood_events_after_the_end_l_spanish.yml

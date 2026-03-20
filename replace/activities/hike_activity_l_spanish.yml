@@ -1,45 +1,45 @@
 ﻿l_spanish:
 
 # Elementos de selección
- activity_hike:0 "Caminata"
- activity_hike_desc:0 "aquí va el texto descriptivo"
- activity_hike_host_desc:0 "aquí van las recompensas esperadas"
- activity_hike_selection_tooltip:0 "Realiza una [GetActivityType( 'activity_hike' ).GetName] y experimenta la majestuosidad del gran entorno natural"
+ activity_hike:0 "Travesía natural"
+ activity_hike_desc:0 "Una expedición a través de tierras indómitas para fortalecer el cuerpo y el alma."
+ activity_hike_host_desc:0 "Organizar esta travesía otorgará prestigio y la oportunidad de mejorar la salud o la piedad de los participantes."
+ activity_hike_selection_tooltip:0 "Realiza una [GetActivityType( 'activity_hike' ).GetName] y experimenta la majestuosidad de la naturaleza salvaje."
 
 # Opciones
  hike_guides:0 "Guías"
 
  guides_none:0 "Ninguno"
- guides_none_desc:0 "#weak Nuestro grupo no necesita gastar en guías, cuando ya somos capaces de desenvolvernos en la naturaleza por nuestra cuenta.#!"
+ guides_none_desc:0 "#weak Nuestro grupo no necesita gastar en guías; somos plenamente capaces de desenvolvernos en la naturaleza por nuestra cuenta.#!"
 
  guides_good:0 "Guías locales"
- guides_good_desc:0 "$BULLET_WITH_TAB$(POR HACER: MOSTRAR EFECTOS AQUÍ)\n\n#weak Se contrata a lugareños vagamente familiarizados con el terreno para asistir al grupo.#!"
+ guides_good_desc:0 "$BULLET_WITH_TAB$Reduce el riesgo de accidentes y aumenta ligeramente el Esplendor.\n\n#weak Se contrata a lugareños familiarizados con el terreno para asistir al grupo.#!"
 
  guides_great:0 "Guías experimentados"
- guides_great_desc:0 "$BULLET_WITH_TAB$(POR HACER: MOSTRAR EFECTOS AQUÍ)\n\n#weak Se contrata a expertos respetados para asesorar y apoyar la expedición.#!"
+ guides_great_desc:0 "$BULLET_WITH_TAB$Reduce significativamente el riesgo de accidentes y aumenta notablemente el Esplendor.\n\n#weak Se contrata a expertos respetados para asesorar y liderar la expedición.#!"
 
 # Intenciones
  
  hike_reflection_intent:0 "Reflexión"
- hike_reflection_intent_desc:0 "Buscas un reposo tranquilo en la naturaleza, conectándote con la divinidad de la Tierra. Esto otorgará algo de [piety|E] al final de tu travesía"
+ hike_reflection_intent_desc:0 "Buscas un reposo tranquilo en la naturaleza, conectando con lo divino en la creación. Esto otorgará algo de [piety|E] al final de tu travesía."
 
- hike_competitive_intent:0 "Competencia"
- hike_competitive_intent_desc:0 "Quieres centrarte en traer gloria a tu nombre mediante hazañas en la naturaleza, otorgando una pequeña cantidad de [dynasty_prestige|E] al final de tu travesía."
+ hike_competitive_intent:0 "Competición"
+ hike_competitive_intent_desc:0 "Deseas centrarte en dar gloria a tu nombre mediante hazañas de resistencia en la naturaleza, lo que otorgará una pequeña cantidad de [dynasty_prestige|E] al finalizar."
 
 # Fases
- hike_phase_journey:0 "Travesía"
- hike_phase_journey_desc:0 "prueba prueba prueba"
+ hike_phase_journey:0 "La Marcha"
+ hike_phase_journey_desc:0 "El grupo avanza por terrenos escarpados, enfrentando los desafíos del camino."
 
 # Ventanas de personaje
  activity_window_character_hiker:0 "Caminante"
- activity_window_character_hike_leader:0 "Líder de la caminata"
+ activity_window_character_hike_leader:0 "Líder de la travesía"
 
 # Tooltips personalizados comunes
- hike.progress_forwards:0 "El esplendor de la caminata aumenta."
- hike.progress_forwards_minor:0 "El esplendor de la caminata aumenta ligeramente."
- hike.progress_forwards_major:0 "El esplendor de la caminata aumenta considerablemente."
+ hike.progress_forwards:0 "El Esplendor de la travesía aumenta."
+ hike.progress_forwards_minor:0 "El Esplendor de la travesía aumenta ligeramente."
+ hike.progress_forwards_major:0 "El Esplendor de la travesía aumenta considerablemente."
  every_hike_participant:0 "Todos los invitados de la $activity_hike$"
 
 # Interfaz (GUI)
- hike_progress:0 "Esplendor alcanzado"
- hike_progress_desc:0 "\n\nQué hermosos han resultado ser los paisajes a lo largo de tu caminata hasta ahora.\n\nCuanto mayor sea el Esplendor de tu caminata, mejores [activity|E] recompensas podrás recibir."
+ hike_progress:0 "Esplendor de la travesía"
+ hike_progress_desc:0 "\n\nLos paisajes recorridos durante tu travesía han resultado ser una visión sublime.\n\nCuanto mayor sea el Esplendor, mejores serán las [activity|E] recompensas que podrás recibir."

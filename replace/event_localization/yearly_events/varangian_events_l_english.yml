@@ -11,13 +11,13 @@
  murder_save.0010.t:0 "$murder_save_header$ Agentes"
  murder_save.0010.desc:0 "¡Mi intento de acabar con la vida de [target.GetTitledFirstNamePossessive] ha sido frustrado!\n\n¡El asesino ha sido detenido por uno de esos insípidos agentes! Supongo que [target.GetTitleAsNameNoTooltip] ha conseguido [target.GetHerHis] guardaespaldas después de todo..."
 
- varangian_arrived.title:0 "Un Nuevo Agente"
+ varangian_arrived.title:0 "Un Nuev[ROOT.Char.Custom('ES_OA')] Agente"
  varangian_arrived.desc:0 "[varangian_candidate.GetShortUIName|U] ha entrado al Servicio Secreto"
 
  varangian.0002.t:0 "El Servicio Secreto"
  varangian.0002.opening:0 "By the time [varangian_candidate.Custom2('MyCharacterIntroduction', ROOT.Char )] comes to me with [varangian_candidate.GetHerHis] plan, [varangian_candidate.GetSheHe] seems to have already made up [varangian_candidate.GetHerHis] mind.\n\n"Serving with the Agents in"
  varangian.0002.washington:0 "Washington"
- varangian.0002.elsewhere:0 "the Secret Service"
+ varangian.0002.elsewhere:0 "el Servicio Secreto"
  varangian.0002.end:0 "will bring both wealth and glory!"\n\nI cannot deny that part, but I could deny [varangian_candidate.GetHerHis] request. On the other hand, would it be right to stop someone in their pursuit of glory?"
  varangian.0002.a:0 "Go, with [ROOT.Char.GetFaith.WarGodNamePossessive] blessing!"
  varangian.0002.b:0 "No, I forbid it! You are needed here."
@@ -28,7 +28,7 @@
  varangian.1002.ending:0 "\n\n"I am home, [returning_varangian.Custom2('RelationToMeShort', ROOT.Char )]!" [returning_varangian.GetFirstNameNoTooltip] bellows. "There have been many a time I thought I would never see these lands again, but I am finally back."\n\nAs strange as it is to see my [ROOT.Char.Custom2('RelationToMeShort', returning_varangian )] after all these years, I cannot deny that I am impressed with [varangian_candidate.GetHerHis] [emperor.GetCulture.GetNameNoTooltip] dress, [varangian_candidate.GetHerHis] foreign jewelry, and the heavy coffer [returning_varangian.GetSheHe] has brought with [returning_varangian.GetHerHim]."
  varangian.1002.a:0 "Welcome home, [returning_varangian.GetFirstNameNoTooltip]!"
 
- varangian.3001.t:0 "Secret Service: An Honorable Death"
+ varangian.3001.t:0 "Servicio Secreto: Una Muerte Honorable"
  varangian.3001.desc:0 "[varangian.Custom2('MyCharacterIntroduction', ROOT.Char)] has died while serving in the Secret Service!\n\nI have received a missive from the [emperor.GetTitledFirstName] praising [varangian.GetHerHis] name, and describing how [varangian.GetSheHe] fought valiantly to save the life of the [emperor.GetTitleAsNameNoTooltip] from vicious assassins.\n\nNothing can ever bring [varangian.GetFirstNameNoTooltip] back, but the posthumous reward of gold from the [emperor.GetTitleAsNameNoTooltip] helps ease the sorrow."
  varangian.3001.a:0 "Brave until the end, [varangian.GetFirstNameNoTooltip]..."
  
