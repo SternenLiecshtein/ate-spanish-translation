@@ -1,0 +1,8 @@
+﻿l_spanish:
+# Ritos de iniciación de la nación Cerrado y Amazonia
+initiation_rites.1.t:0 "Ritos de iniciación de la nación [ROOT.Char.GetCulture.GetName]"
+initiation_rites.1.d:0 "Entre ciertos grupos indígenas del Cerrado y la Amazonia, los ritos de iniciación desempeñan un papel crucial en la transición de los adolescentes a la vida adulta, y en las responsabilidades que conlleva ser guerrero y cazador. Estas ceremonias suelen consistir en una serie de pruebas, desafíos y rituales que evalúan la preparación física, emocional y espiritual de los jóvenes. Esto puede incluir pruebas de resistencia y enseñanzas sobre las costumbres tribales, las tradiciones y la profunda conexión entre la tribu y el entorno natural.\n\nSin embargo, algunas de estas pruebas pueden ser bastante peligrosas; el propio [ROOT.Char.GetFirstName] ha oído docenas de historias sobre otros muchachos que quedaron gravemente mutilados tras los rituales. Pero también es consciente de que estas pruebas son una demostración de valor ante toda la tribu. ¿Participará en los ritos para ser aceptado como un adulto y un guerrero de pleno derecho?"
+initiation_rites.1.a:0 "¡Unirse a los rituales!"
+initiation_rites_tooltip_1:0 "#weak ¡Que todos sepan lo valiente que soy!#!"
+initiation_rites.1.b:0 "Esto suena demasiado peligroso..."
+initiation_rites_tooltip_2:0 "#weak ¡Sinceramente, no me importa lo que piensen!#!"

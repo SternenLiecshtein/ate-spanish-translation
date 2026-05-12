@@ -1,0 +1,18 @@
+﻿l_spanish:
+
+ popular_saints.0001.t:0 "Una visita bendita"
+ popular_saints.0001.desc:0 "Alguien de origen campesino, popular y con gran fama en vuestras tierras, ha llegado a la corte. Con fama de ser un líder natural y una figura de santidad en las comunidades cercanas a [popular_saint_home.GetName], ha venido a vuestra corte para interceder en su nombre, y ya ha entablado conversación con [receptionist.GetName] sobre la política local y las necesidades espirituales del campesinado."
+ popular_saints.0001.a:0 "¿Y qué es lo que necesita vuestra gente?"
+ popular_saints.0001.b:0 "Creo que haríais mejor trabajo en mi corte que en cualquier aldea."
+ popular_saints.0001.c:0 "No tengo tiempo para alguien del campesinado, sin importar cuán "bendito" digan que sea."
+ popular_saints.0001.d:0 "Creo que podríais ser alguien afín a mí, [popular_saint.GetName]. ¿Podemos hablar?"
+ popular_saints.0001.d.win:0 "[popular_saint.GetName] queda bajo una buena impresión"
+ popular_saints.0001.d.win2:0 "[popular_saint.GetName] permanecerá en vuestra corte"
+ popular_saints.0001.d.lose:0 "[popular_saint.GetName] agradece vuestro tiempo"
+ popular_saints.0001.d.third:0 "[popular_saint.GetName] y [receptionist.GetName] se llevan bien"
+ popular_saints.0001.d.third2:0 "[receptionist.GetName] convence a [popular_saint.GetName] para que se quede en vuestra corte"
+ popular_saints.0001.e: "¿Podríais ayudarme con algunos asuntos urgentes?"
+ popular_saints.0001.e.win:0 "[popular_saint.GetName] puede ayudar"
+ popular_saints.0001.e.lose:0 "La ayuda de [popular_saint.GetName] no es suficiente"
+ popular_saints.0001.f: "Sois de cultura [popular_saint.GetCulture.GetName], me he estado preguntando..."
+ popular_saints.0001.g: "Hay muchas almas en [ps_mission_target.GetName] y más allá a las que podríais llegar."
